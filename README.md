@@ -1,11 +1,3 @@
----
-title: DAO
-emoji: 📚
-colorFrom: indigo
-colorTo: indigo
-sdk: docker
-pinned: false
----
 
 # DAO — AI Startup Evaluation & FinScope Advisory Platform
 
