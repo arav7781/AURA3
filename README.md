@@ -1,3 +1,11 @@
+---
+title: DAO
+emoji: 📚
+colorFrom: indigo
+colorTo: indigo
+sdk: docker
+pinned: false
+---
 
 # DAO — AI Startup Evaluation & FinScope Advisory Platform
 
@@ -70,9 +78,9 @@ flowchart TD
 
 ### 📄 Intelligent Document Ingestion (Vector RAG)
 * **Docling Integration**: Converts uploaded PDFs and DOCX files into rich Markdown formats, maintaining structure and tabular data.
-* **Vector Embeddings**: Generates dense text embeddings using `sentence-transformers/all-MiniLM-L6-v2` run locally on CPU.
-* **Qdrant DB Indexing**: Chunks and upserts data into Qdrant collections for high-relevance semantic search retrieval during agent analysis.
-* **Resilient Hybrid Fallback**: Automatically degrades to full-text in-memory semantic processing if Qdrant services or local embedding models are offline.
+* **Vector Embeddings**: Embeds 1,000-character chunks with `text-embedding-004` (768 dimensions) through the LLM gateway.
+* **In-process Vector Index**: Cosine-similarity search over each startup's chunks, persisted to `data/vectors/` so it survives restarts.
+* **Resilient Fallback**: If embedding fails, the agents read the raw extracted text instead. Docling falls back to pypdf, then pdfplumber.
 
 ### 🛡️ MCA Compliance & Registry Verification
 * **CIN Verification**: Parses and validates Indian Company Identification Numbers (CIN) using standard regulatory formatting patterns.
@@ -116,7 +124,7 @@ Produces publisher-quality PDF documents containing the complete AI evaluation r
 ### 2. Document & Analysis APIs
 | Endpoint | Method | Description |
 | :--- | :--- | :--- |
-| `/startups/{id}/documents` | `POST` | Processes and indexes document URL (PDF/DOCX) into Qdrant. |
+| `/startups/{id}/documents` | `POST` | Downloads a PDF/DOCX from a URL, extracts it and indexes it for retrieval. |
 | `/api/startups/{id}/documents/upload` | `POST` | Processes multipart/form-data document uploads. |
 | `/api/startups/{id}/analyze` | `POST` | Triggers background LangGraph analysis worker. |
 | `/api/startups/{id}/report/status`| `GET` | Polls the current state of background analysis. |
@@ -141,48 +149,55 @@ Produces publisher-quality PDF documents containing the complete AI evaluation r
 
 ## Environment Variables
 
-Configure these settings inside your `.env` file:
+Configure these in `.env` (loaded automatically):
 
 ```bash
-# Core LLM API Key (Required)
-GROQ_API_KEY=gsk_...
+# LLM gateway (OpenAI-compatible) — required
+LLM_BASE_URL=https://...
+LLM_API_KEY=sk-...
+CHAT_MODEL=azure/deepSeek-V4-Flash
+EMBEDDING_MODEL=text-embedding-004
 
-# Qdrant Database Settings (Optional, falls back to in-memory)
-QDRANT_URL=https://...
-QDRANT_API_KEY=...
-
-# RapidAPI Finance Data Credentials (Optional, filters out live news if missing)
-RAPIDAPI_KEY=...
-
-# MCA Provider Config (Optional, defaults to Mock Sandbox logic)
-MCA_API_KEY=...
+# Optional — features degrade gracefully when unset
+RAPIDAPI_KEY=          # live stock news; DuckDuckGo News is used otherwise
+MCA_API_KEY=           # MCA/Karza registry; a sandbox registry is used otherwise
 MCA_API_URL=https://api.karza.in/v3/company-master
 
-# Service Port (Defaults to 7860)
-PORT=7860
+PORT=8010              # local port (Docker image serves on 7860)
+DATA_DIR=data          # startups, analyses, chat sessions and vectors are persisted here
+DOCLING_ENABLED=true
+CORS_ORIGINS=*
 ```
+
+In the sandbox registry, any well-formed CIN is ACTIVE except one ending in `F`, which simulates a
+struck-off company so the compliance flags can be demonstrated.
 
 ---
 
 ## Development Setup
 
-### Running with Docker (Recommended)
-Build and run the containerized workspace:
+### Running Locally
+```bash
+python3.12 -m venv .venv
+.venv/bin/pip install -r requirements.txt
+.venv/bin/python main.py
+```
+The API runs at `http://localhost:8010`, with interactive docs at `http://localhost:8010/docs`.
+Docling loads its layout models in the background for ~20 s after start-up; uploads during that
+window use pypdf.
+
+### Frontend
+The Next.js app lives in `Aura3/`:
+```bash
+cd Aura3
+npm install
+npm run build && npx next start -p 3010   # or: npx next dev -p 3010
+```
+Open `http://localhost:3010`. `Aura3/.env.local` sets `NEXT_PUBLIC_BACKEND_URL=http://localhost:8010`.
+There is no sign-in: the landing page has "Enter as Investor", "Enter as Startup" and "FinScope AI Chat".
+
+### Running with Docker
 ```bash
 docker build -t dao-service .
 docker run -p 7860:7860 --env-file .env dao-service
 ```
-
-### Running Locally
-1. **Install System Dependencies** (Required for document conversion and chart rendering):
-   * **macOS**: `brew install pkg-config gobject-introspection`
-   * **Debian/Ubuntu**: `apt-get install build-essential python3-dev libglib2.0-0 libgl1`
-2. **Install Python Packages**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. **Start the Service**:
-   ```bash
-   python main.py
-   ```
-   The backend will be available at `http://localhost:7860` with interactive API docs at `http://localhost:7860/docs`.

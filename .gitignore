@@ -1,0 +1,26 @@
+# Python backend
+data/
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.egg-info/
+
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+dao_backend/.env
+
+# Frontend (Aura3)
+Aura3/node_modules/
+Aura3/.next/
+Aura3/out/
+Aura3/.env.local
+Aura3/.env*.local
+Aura3/*.tsbuildinfo
+Aura3/next-env.d.ts
+
+# OS / editor
+.DS_Store
+*.log
