@@ -1,32 +1,36 @@
-"""MCA (Ministry of Corporate Affairs) CIN verification and consistency flags."""
+"""Company-registry checks against India's Ministry of Corporate Affairs (MCA) data.
+
+Lookup order: a real provider (when ``MCA_API_KEY`` is set), then the fixture registry built from the seed
+specs (``registry_fixtures``), then a clearly labelled sandbox record for unknown but well-formed CINs (so
+demo founders are not blocked). Malformed CINs are never "verified".
+"""
 
 import logging
 import re
-from datetime import datetime
-from typing import Any, Dict, List
+from typing import Any
 
 import httpx
 
-from aura.config import MCA_API_KEY, MCA_API_URL
+from aura.core import clock
+from aura.core.config import get_settings
 
 logger = logging.getLogger("aura.mca")
 
 # L/U + 5 digits (industry) + 2 letters (state) + 4 digits (year) + 3 letters (type) + 6 digits
 CIN_PATTERN = re.compile(r"^[LU]\d{5}[A-Z]{2}\d{4}[A-Z]{3}\d{6}$")
 
-_COMPANY_SUFFIXES = re.compile(
-    r"\b(private|pvt|limited|ltd|llp|inc|corp|corporation|company|co)\b\.?", re.IGNORECASE
-)
-
 _STATES = {
     "MH": "Maharashtra", "KA": "Karnataka", "DL": "Delhi", "TN": "Tamil Nadu", "TG": "Telangana",
     "GJ": "Gujarat", "HR": "Haryana", "UP": "Uttar Pradesh", "WB": "West Bengal", "RJ": "Rajasthan",
-    "KL": "Kerala", "TZ": "Tamil Nadu", "AP": "Andhra Pradesh", "PB": "Punjab", "MP": "Madhya Pradesh",
+    "KL": "Kerala", "AP": "Andhra Pradesh", "PB": "Punjab", "MP": "Madhya Pradesh",
 }
+
+# CIN -> registry record, filled by the seeder from seed/specs (status, registered_name, directors, ...).
+registry_fixtures: dict[str, dict[str, Any]] = {}
 
 
 def normalise_cin(cin: str) -> str:
-    return (cin or "").strip().upper()
+    return re.sub(r"\s+", "", cin or "").upper()
 
 
 def is_valid_cin(cin: str) -> bool:
@@ -34,108 +38,94 @@ def is_valid_cin(cin: str) -> bool:
 
 
 def _normalise_name(name: str) -> str:
-    name = _COMPANY_SUFFIXES.sub(" ", (name or "").lower())
-    return re.sub(r"[^a-z0-9]+", " ", name).strip()
+    name = re.sub(r"[^a-z0-9 ]", " ", (name or "").lower())
+    name = re.sub(r"\b(private|pvt|limited|ltd|llp|inc|corp|corporation|company|co|the)\b", " ", name)
+    return " ".join(name.split())
 
 
 def names_match(a: str, b: str) -> bool:
     na, nb = _normalise_name(a), _normalise_name(b)
-    return bool(na and nb and (na == nb or na in nb or nb in na))
+    return bool(na and nb) and (na == nb or na in nb or nb in na)
 
 
-def _sandbox_response(cin: str, claimed_name: str) -> Dict[str, Any]:
-    """Deterministic sandbox record used when no MCA provider key is configured.
+def _provider_lookup(cin: str) -> dict[str, Any] | None:
+    settings = get_settings()
+    if not settings.mca_api_key:
+        return None
+    try:
+        response = httpx.post(
+            settings.mca_api_url,
+            json={"id": cin, "consent": "Y"},
+            headers={"x-karza-key": settings.mca_api_key.get_secret_value()},
+            timeout=15,
+        )
+        response.raise_for_status()
+        data = response.json().get("result") or {}
+        return {
+            "status": str(data.get("companyStatus") or data.get("status") or "").upper() or None,
+            "registered_name": data.get("companyName"),
+            "directors": [d.get("name") for d in data.get("directors", []) if d.get("name")],
+            "incorporation_year": str(data.get("dateOfIncorporation", ""))[:4] or None,
+            "state": data.get("state"),
+            "source": "provider",
+        }
+    except (httpx.HTTPError, ValueError) as exc:
+        logger.warning("MCA provider lookup failed for %s: %s", cin, exc)
+        return None
 
-    CINs ending in 'F' simulate a struck-off company so the compliance flags can be demonstrated.
-    """
-    is_active = not cin.endswith("F")
-    listing = "Listed" if cin.startswith("L") else "Unlisted"
-    return {
-        "valid": is_active,
-        "company_status": "ACTIVE" if is_active else "STRUCK_OFF",
-        "company_name": f"{claimed_name.strip().upper()} PRIVATE LIMITED" if claimed_name else "UNKNOWN",
-        "directors": ["Arjun Malhotra", "Priya Nair"] if is_active else [],
-        "incorporation_year": cin[8:12],
-        "state": _STATES.get(cin[6:8], cin[6:8]),
-        "listing_status": listing,
-        "source": "sandbox",
+
+def verify(cin: str | None, *, legal_name: str, claimed_directors: list[str] | None = None) -> dict[str, Any]:
+    """Return a verification record for a startup's CIN."""
+    record: dict[str, Any] = {"cin": normalise_cin(cin or "") or None, "last_checked": clock.iso(clock.now())}
+    if not record["cin"]:
+        return record | {"mca_verified": False, "company_status": None, "source": None, "reason": "no CIN supplied"}
+    if not is_valid_cin(record["cin"]):
+        return record | {"mca_verified": False, "company_status": None, "source": None, "reason": "malformed CIN"}
+    found = _provider_lookup(record["cin"])
+    if found is None and record["cin"] in registry_fixtures:
+        found = dict(registry_fixtures[record["cin"]]) | {"source": "registry_fixture"}
+    if found is None:
+        found = {
+            "status": "ACTIVE",
+            "registered_name": legal_name.upper(),
+            "directors": list(claimed_directors or []),
+            "incorporation_year": record["cin"][8:12],
+            "state": _STATES.get(record["cin"][6:8]),
+            "source": "sandbox",
+        }
+    return record | {
+        "mca_verified": found.get("status") == "ACTIVE",
+        "company_status": found.get("status"),
+        "company_name": found.get("registered_name"),
+        "directors": found.get("directors") or [],
+        "incorporation_year": found.get("incorporation_year"),
+        "state": found.get("state"),
+        "source": found.get("source"),
     }
 
 
-def verify_cin(cin: str, claimed_name: str) -> Dict[str, Any]:
-    cin = normalise_cin(cin)
-    if not MCA_API_KEY:
-        logger.info(f"MCA check for {cin}: no provider key, using sandbox registry")
-        return _sandbox_response(cin, claimed_name)
-    try:
-        resp = httpx.get(
-            MCA_API_URL,
-            params={"cin": cin},
-            headers={"x-karza-key": MCA_API_KEY, "Content-Type": "application/json"},
-            timeout=10,
-        )
-        resp.raise_for_status()
-        data = resp.json()
-        status = (data.get("status") or data.get("company_status") or "").upper()
-        return {
-            "valid": status == "ACTIVE",
-            "company_status": status or None,
-            "company_name": data.get("companyName") or data.get("company_name"),
-            "directors": data.get("directors", []),
-            "source": "mca-provider",
-        }
-    except Exception as e:
-        logger.error(f"MCA provider call failed ({e}); falling back to sandbox registry")
-        return _sandbox_response(cin, claimed_name)
-
-
-def run_verification(record: Dict[str, Any], cin: str) -> Dict[str, Any]:
-    """Verify a startup record's CIN and write the result onto the record."""
-    cin = normalise_cin(cin)
-    now = datetime.utcnow().isoformat() + "Z"
-    verification = record.setdefault("verification", {})
-    verification.update({"cin": cin or None, "last_checked": now})
-
+def consistency_flags(verification: dict[str, Any], *, legal_name: str) -> list[str]:
+    """Flags raised when the registry does not back up the startup's claims."""
+    cin = verification.get("cin")
     if not cin:
-        verification.update({"mca_verified": False, "company_status": None, "company_name": None, "directors": []})
-        return verification
+        return ["MCA_NOT_VERIFIED"]
     if not is_valid_cin(cin):
-        verification.update({
-            "mca_verified": False,
-            "company_status": "INVALID_CIN_FORMAT",
-            "company_name": None,
-            "directors": [],
-        })
-        logger.warning(f"CIN {cin} does not match the MCA format")
-        return verification
-
-    result = verify_cin(cin, record.get("name", ""))
-    verification.update({
-        "mca_verified": bool(result.get("valid")),
-        "company_status": result.get("company_status"),
-        "company_name": result.get("company_name"),
-        "directors": result.get("directors", []),
-        "source": result.get("source"),
-        "incorporation_year": result.get("incorporation_year"),
-        "state": result.get("state"),
-    })
-    logger.info(
-        f"MCA check for {cin}: status={verification['company_status']} verified={verification['mca_verified']}"
-    )
-    return verification
-
-
-def consistency_flags(record: Dict[str, Any]) -> List[str]:
-    """Flags raised when the registry data does not back up the startup's claims."""
-    v = record.get("verification") or {}
-    flags: List[str] = []
-    if not v.get("mca_verified"):
-        flags.append("MCA_NOT_VERIFIED")
-    if v.get("company_name") and record.get("name") and not names_match(v["company_name"], record["name"]):
-        flags.append("NAME_MISMATCH")
-    if v.get("cin") and not v.get("directors"):
-        flags.append("NO_DIRECTORS_FOUND")
-    status = (v.get("company_status") or "").upper()
+        return ["INVALID_CIN_FORMAT"]
+    flags: list[str] = []
+    status = (verification.get("company_status") or "").upper()
     if status and status != "ACTIVE":
         flags.append(f"COMPANY_STATUS_{status}")
+    if verification.get("company_name") and not names_match(verification["company_name"], legal_name):
+        flags.append("NAME_MISMATCH")
+    if not verification.get("directors"):
+        flags.append("NO_DIRECTORS_FOUND")
+    if verification.get("source") == "sandbox":
+        flags.append("SANDBOX_REGISTRY")
     return flags
+
+
+# Flags that block opening a funding round; informational flags only appear as chips.
+BLOCKING_FLAGS = {"INVALID_CIN_FORMAT", "MCA_NOT_VERIFIED", "NAME_MISMATCH"} | {
+    f"COMPANY_STATUS_{s}" for s in ("STRUCK_OFF", "UNDER_LIQUIDATION", "DORMANT")
+}
+INFO_FLAGS = {"SANDBOX_REGISTRY", "NO_DIRECTORS_FOUND", "DECK_HIDDEN_INSTRUCTIONS", "OCR_REVIEW_REQUIRED"}

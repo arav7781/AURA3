@@ -35,12 +35,13 @@ class JobContext:
     def __init__(self, job_id: str) -> None:
         self.job_id = job_id
         self._last_write = 0.0
+        self._pct = 0
 
     def progress(self, stage: str, pct: int | None = None, message: str | None = None, **extra: Any) -> None:
         """Report progress. Safe to call from worker threads."""
         data: dict[str, Any] = {"stage": stage, **extra}
-        if pct is not None:
-            data["pct"] = max(0, min(100, int(pct)))
+        if pct is not None:  # never moves backwards, even when a stage repeats (e.g. a research retry)
+            self._pct = data["pct"] = max(self._pct, min(100, int(pct)))
         if message:
             data["message"] = message
         bus.publish(stream_key(self.job_id), "job_progress", data)
@@ -81,33 +82,43 @@ def start_job(
     bus.publish(stream_key(job_id), "job_queued", {"kind": kind, "subject_type": subject_type, "subject_id": subject_id})
     task = asyncio.get_running_loop().create_task(_run(job_id, kind, fn))
     _tasks[job_id] = task
-    task.add_done_callback(lambda _t: _tasks.pop(job_id, None))
+    task.add_done_callback(lambda t: _on_done(job_id, t))
     return job_id
+
+
+def _on_done(job_id: str, task: asyncio.Task) -> None:
+    _tasks.pop(job_id, None)
+    if task.cancelled():  # a task cancelled before its first step never ran _run's handler
+        with write_tx() as s:
+            s.execute(update(Job).where(Job.id == job_id, Job.status.in_(("queued", "running")))
+                      .values(status="cancelled", error="cancelled", finished_at=clock.now()))
+        bus.publish(stream_key(job_id), "job_error", {"message": "cancelled"})
+        bus.close(stream_key(job_id))
 
 
 async def _run(job_id: str, kind: str, fn: JobFn) -> None:
     semaphore = _limits.setdefault(kind, asyncio.Semaphore(LIMITS.get(kind, 2)))
     ctx = JobContext(job_id)
-    async with semaphore:
-        with write_tx() as s:
-            s.execute(update(Job).where(Job.id == job_id).values(status="running", started_at=clock.now()))
-        bus.publish(stream_key(job_id), "job_started", {})
-        try:
+    try:
+        async with semaphore:  # a job cancelled while still queued here is recorded as cancelled too
+            with write_tx() as s:
+                s.execute(update(Job).where(Job.id == job_id).values(status="running", started_at=clock.now()))
+            bus.publish(stream_key(job_id), "job_started", {})
             result = await fn(ctx)
-        except asyncio.CancelledError:
-            _finish(job_id, "cancelled", error="cancelled")
-            bus.publish(stream_key(job_id), "job_error", {"message": "cancelled"})
-            raise
-        except Exception as exc:  # noqa: BLE001 — every failure is reported on the job
-            logger.error("job %s (%s) failed: %s\n%s", job_id, kind, exc, traceback.format_exc())
-            message = str(exc) or exc.__class__.__name__
-            _finish(job_id, "failed", error=message[:2000])
-            bus.publish(stream_key(job_id), "job_error", {"message": message[:500]})
-        else:
-            _finish(job_id, "done", result=result or {})
-            bus.publish(stream_key(job_id), "job_done", {"result": result or {}})
-        finally:
-            bus.close(stream_key(job_id))
+    except asyncio.CancelledError:
+        _finish(job_id, "cancelled", error="cancelled")
+        bus.publish(stream_key(job_id), "job_error", {"message": "cancelled"})
+        raise
+    except Exception as exc:  # noqa: BLE001 — every failure is reported on the job
+        logger.error("job %s (%s) failed: %s\n%s", job_id, kind, exc, traceback.format_exc())
+        message = str(exc) or exc.__class__.__name__
+        _finish(job_id, "failed", error=message[:2000])
+        bus.publish(stream_key(job_id), "job_error", {"message": message[:500]})
+    else:
+        _finish(job_id, "done", result=result or {})
+        bus.publish(stream_key(job_id), "job_done", {"result": result or {}})
+    finally:
+        bus.close(stream_key(job_id))
 
 
 def _finish(job_id: str, status: str, *, result: dict[str, Any] | None = None, error: str | None = None) -> None:
@@ -120,6 +131,7 @@ def _finish(job_id: str, status: str, *, result: dict[str, Any] | None = None, e
 
 
 def cancel(job_id: str) -> bool:
+    """Cancel a queued or running job. Call from the event loop thread (task.cancel is not thread-safe)."""
     task = _tasks.get(job_id)
     if task is None or task.done():
         return False

@@ -6,7 +6,7 @@ If every tier fails the caller is told that external evidence is unavailable.
 
 import logging
 import re
-from typing import Any, Dict, List
+from typing import Any
 
 import httpx
 
@@ -24,7 +24,7 @@ def _ddgs():
     return DDGS(timeout=10)
 
 
-def web_search(query: str, max_results: int = 5) -> List[Dict[str, str]]:
+def web_search(query: str, max_results: int = 5) -> list[dict[str, str]]:
     """Return a list of {title, url, snippet}. Empty list if every tier failed."""
     try:
         hits = _ddgs().text(query, max_results=max_results)
@@ -74,7 +74,7 @@ def web_search(query: str, max_results: int = 5) -> List[Dict[str, str]]:
     return []
 
 
-def format_results(results: List[Dict[str, str]], query: str) -> str:
+def format_results(results: list[dict[str, str]], query: str) -> str:
     if not results:
         return (
             f"Web search unavailable for '{query}'. External figures are unavailable. "
@@ -85,7 +85,7 @@ def format_results(results: List[Dict[str, str]], query: str) -> str:
     )
 
 
-def news_search(query: str, max_results: int = 6) -> List[Dict[str, Any]]:
+def news_search(query: str, max_results: int = 6) -> list[dict[str, Any]]:
     """Return RapidAPI-shaped news items from DuckDuckGo News (used when no RapidAPI key)."""
     try:
         hits = _ddgs().news(query, max_results=max_results)

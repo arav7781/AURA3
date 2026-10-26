@@ -1,5 +1,6 @@
-"""Offline regressions for financial evidence and the shared PDF/dashboard snapshot."""
+"""Offline regressions for financial evidence and the shared PDF/dashboard snapshot (ported to v2)."""
 
+import asyncio
 import copy
 import io
 import math
@@ -9,11 +10,12 @@ from unittest.mock import patch
 from langchain_core.messages import AIMessage
 from pypdf import PdfReader
 
-from aura.evaluation import SECTION_TITLES, _normalise, run_evaluation, to_frontend
-from aura.evidence import normalise_financials, report_snapshot, source_catalog
-from aura.reports import build_pdf_report
-from aura.search import format_results
-
+from aura.evaluation import scoring
+from aura.evaluation.context import StartupContext
+from aura.evaluation.evidence import normalise_financials, report_snapshot, source_catalog
+from aura.evaluation.graph import SECTION_TITLES, run_evaluation, to_frontend
+from aura.evaluation.report import build_pdf_report
+from aura.evaluation.search import format_results
 
 SOURCE = {
     "title": "Example research publisher", "url": "https://example.org/market",
@@ -24,7 +26,7 @@ SOURCE = {
 }
 COMPANY_TEXT = "In 2024, ARR was Rs 3.1 crore. In 2025, revenue was Rs 2 crore."
 STARTUP = {"startup_id": "evidence-test", "name": "Irrigation Example", "domain": "Agritech",
-           "description": COMPANY_TEXT, "team": "Example team"}
+           "description": COMPANY_TEXT, "team": "Example team", "verification": {}, "compliance_flags": []}
 
 
 def metric(**overrides):
@@ -38,8 +40,6 @@ def metric(**overrides):
 
 def raw_report():
     return {
-        "overall_score": 6.1, "recommendation_label": "Hold",
-        "category_scores": {"product": 6.7, "market": 6.5},
         "market_sizing": {
             "tam_usd_b": metric(),
             "cagr_pct": metric(value=12.5, unit="%", year=None, period="2023-2027", kind="source_forecast",
@@ -51,18 +51,30 @@ def raw_report():
         "projected_revenue": [metric(value=3.1, unit="INR crore", year=2024, period="2024",
                                      kind="company_reported", source_url=None,
                                      quote="In 2024, ARR was Rs 3.1 crore.", metric="ARR")],
-        "sections": {key: "Evidence-based test report." for key in SECTION_TITLES},
     }
 
 
+def scored(category_scores: dict[str, float], flags: list[str] | None = None) -> dict:
+    overall = scoring.overall_score(category_scores)
+    return {"overall_score": overall, "recommendation_label": scoring.label_for(overall, flags or []),
+            "category_scores": category_scores}
+
+
 def snapshot():
-    return {**_normalise(raw_report(), [SOURCE], COMPANY_TEXT), "sources": [SOURCE],
-            "generated_at": "2026-09-24T10:00:00Z", "compliance_flags": []}
+    return {**normalise_financials(raw_report(), [SOURCE], COMPANY_TEXT),
+            **scored({"product": 6.7, "market": 6.5, "team": 6.0, "business_model": 6.2, "traction": 5.9}),
+            "sections": {key: "Evidence-based test report." for key in SECTION_TITLES},
+            "sources": [SOURCE], "generated_at": "2026-09-24T10:00:00Z", "compliance_flags": []}
+
+
+def empty_report():
+    return {**normalise_financials({}, []), **scored({}), "sections": {key: "" for key in SECTION_TITLES},
+            "sources": [], "compliance_flags": []}
 
 
 class FinancialEvidenceTests(unittest.TestCase):
     def test_missing_data_has_no_market_revenue_or_default_scores(self):
-        result = _normalise({})
+        result = empty_report()
         self.assertIsNone(result["overall_score"])
         self.assertEqual(result["category_scores"], {})
         self.assertEqual(result["recommendation_label"], "Insufficient data")
@@ -72,8 +84,7 @@ class FinancialEvidenceTests(unittest.TestCase):
         self.assertEqual(result["projected_revenue"], [])
 
     def test_only_published_years_and_native_currency_reach_frontend(self):
-        result = snapshot()
-        frontend = to_frontend(result)
+        frontend = to_frontend(snapshot())
         self.assertEqual(frontend["marketSizing"]["tam_usd_b"], 0.85)
         self.assertIsNone(frontend["marketSizing"]["sam_usd_b"])
         self.assertEqual([r["year"] for r in frontend["marketSizing"]["trend"]], [2023, 2027])
@@ -150,8 +161,7 @@ class FinancialEvidenceTests(unittest.TestCase):
 
 class ReportIntegrationTests(unittest.TestCase):
     def test_pdf_contains_snapshot_source_quotes_dates_currency_and_gaps(self):
-        data = snapshot()
-        pdf = build_pdf_report(STARTUP, data)
+        pdf = build_pdf_report(STARTUP, snapshot())
         self.assertTrue(pdf.startswith(b"%PDF"))
         reader = PdfReader(io.BytesIO(pdf))
         text = "\n".join(page.extract_text() for page in reader.pages)
@@ -165,32 +175,68 @@ class ReportIntegrationTests(unittest.TestCase):
         self.assertIn(SOURCE["url"], uris)
 
     def test_empty_report_pdf_renders_without_invented_charts(self):
-        pdf = build_pdf_report(STARTUP, _normalise({}))
+        pdf = build_pdf_report(STARTUP, empty_report())
         text = "\n".join(p.extract_text() for p in PdfReader(io.BytesIO(pdf)).pages)
         self.assertIn("Unavailable", text)
         self.assertIn("No years were interpolated", " ".join(text.split()))
         self.assertNotIn("Historical (est.)", text)
 
-    @patch("aura.evaluation.document_context", return_value=COMPANY_TEXT)
-    @patch("aura.evaluation.web_search", return_value=[])
-    @patch("aura.evaluation.get_llm")
-    @patch("aura.evaluation.invoke_json")
-    def test_search_is_attempted_even_when_model_skips_tools(self, invoke, llm, search, docs):
-        llm.return_value.bind_tools.return_value.invoke.return_value = AIMessage(content="Ready")
+    def test_search_is_attempted_even_when_model_skips_tools(self):
+        context = StartupContext(
+            startup_id="evidence-test", name="Irrigation Example", legal_name="Irrigation Example Pvt Ltd",
+            domain="Agritech", stage="seed", profile={"one_liner": "Drip irrigation for small farms"},
+            verification={}, flags=[],
+            chunks=[{"cid": "c:aaaaaaa", "chunk_id": "chunk-1", "document_id": "doc-1", "doc_name": "deck.pdf",
+                     "page_no": 6, "bbox": [0.1, 0.1, 0.9, 0.4], "text": COMPANY_TEXT, "slide_title": "Traction",
+                     "review": False, "conf_min": 1.0, "injection_suspected": False, "n_tokens": 20}],
+        )
 
-        def fake_json(system, user, **kwargs):
-            if "All financial chart metrics" in system:
-                return raw_report()
-            return {key: "No external evidence available." for key in SECTION_TITLES}
+        class CountingResearch:
+            def __init__(self):
+                self.calls: list[str] = []
 
-        invoke.side_effect = fake_json
-        result = run_evaluation(STARTUP)
-        self.assertEqual(search.call_count, 2)
-        self.assertIn("Agritech", search.call_args_list[0].args[0])
+            async def search(self, query, max_results=5):
+                self.calls.append(query)
+                return []
+
+            def save(self):
+                pass
+
+        class FakeModel:
+            def bind_tools(self, tools):
+                return self
+
+            async def ainvoke(self, messages):
+                return AIMessage(content="Ready")
+
+        async def fake_json(system, user, **kwargs):
+            if "Extract the financial evidence" in system:
+                return {**raw_report(), "market_sizing": {}}
+            return {key: "No external evidence is available. ARR was Rs 3.1 crore in 2024 [c:aaaaaaa] [c:zzzzzzz]."
+                    for key in SECTION_TITLES}
+
+        async def fake_score(evidence, samples=3):
+            return {"category_scores": {"product": 6.0, "market": 5.0, "team": 6.0, "business_model": 6.0,
+                                        "traction": 6.0}, "rationales": {}, "score_spread": {}, "samples": 3,
+                    "rubric_version": "r1"}
+
+        research = CountingResearch()
+        with patch("aura.evaluation.graph.chat_model", return_value=FakeModel()), \
+             patch("aura.evaluation.graph.ainvoke_json", side_effect=fake_json), \
+             patch("aura.evaluation.graph.scoring.score", side_effect=fake_score):
+            result = asyncio.run(run_evaluation(context, research=research, progress=lambda *a: None))
+        self.assertEqual(len(research.calls), 2)
+        self.assertIn("Agritech", research.calls[0])
         self.assertEqual(result["sources"], [])
         self.assertIsNone(result["market_sizing"]["tam_usd_b"])
-        self.assertEqual(result["market_sizing"]["trend"], [])
         self.assertEqual(result["revenue_currency"], "INR")
+        self.assertEqual(result["projected_revenue"][0]["citation"]["page_no"], 6)
+        self.assertEqual(result["overall_score"], 5.8)  # weighted mean computed in code
+        self.assertEqual(result["recommendation_label"], "Hold")
+        self.assertIn("[c:aaaaaaa]", result["sections"]["executive_summary"])
+        self.assertNotIn("[c:zzzzzzz]", result["sections"]["executive_summary"])  # unknown citation stripped
+        self.assertEqual(result["citations"]["c:aaaaaaa"]["page_no"], 6)
+        self.assertEqual(result["citations_removed"], len(SECTION_TITLES))
         self.assertNotIn("pre-trained knowledge", format_results([], "example"))
 
 

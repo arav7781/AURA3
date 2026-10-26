@@ -2,8 +2,7 @@
 
 import io
 import re
-from datetime import datetime
-from typing import Any, Dict, List
+from typing import Any
 
 import matplotlib
 
@@ -15,15 +14,30 @@ from reportlab.lib.pagesizes import A4
 from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
 from reportlab.lib.units import cm
 from reportlab.platypus import (
-    HRFlowable, Image as RLImage, PageBreak, Paragraph, SimpleDocTemplate, Spacer, Table, TableStyle,
+    HRFlowable,
+    PageBreak,
+    Paragraph,
+    SimpleDocTemplate,
+    Spacer,
+    Table,
+    TableStyle,
+)
+from reportlab.platypus import (
+    Image as RLImage,
 )
 
-from aura.evaluation import SCORE_DIMENSIONS, SECTION_TITLES
-from aura.evidence import KIND_LABELS, report_snapshot
-from aura.mca import consistency_flags
+from aura.core import clock
+from aura.evaluation.evidence import KIND_LABELS, report_snapshot
+from aura.evaluation.graph import DECK_CITATION, SCORE_DIMENSIONS, SECTION_TITLES, WEB_CITATION
 
 INK, ACCENT, MUTED, LINE = "#0f172a", "#0f6b5f", "#64748b", "#e2e8f0"
 CHART_BG, BAR_COLORS = "#ffffff", ["#0f6b5f", "#2a9d8f", "#8ecae6"]
+CLAIM_CHECKS = {
+    "unverified": "not independently sourced",
+    "consistent": "matches the retrieved source",
+    "differs": "differs from the retrieved source",
+    "different_period": "the retrieved source covers a different period",
+}
 
 
 def _unavailable_chart(title: str, message: str) -> io.BytesIO:
@@ -50,15 +64,15 @@ def _style_axes(ax, title: str) -> None:
     ax.set_facecolor(CHART_BG)
 
 
-def market_opportunity_chart(analysis: Dict[str, Any], domain: str) -> io.BytesIO:
+def market_opportunity_chart(analysis: dict[str, Any], domain: str) -> io.BytesIO:
     m = analysis["market_sizing"]
     rows = [(k[:3].upper(), m[k]) for k in ("tam_usd_b", "sam_usd_b", "som_usd_b") if m[k] is not None]
     if not rows:
         return _unavailable_chart("Market opportunity", "No source-supported market sizing available.")
-    labels, values = zip(*rows)
+    labels, values = zip(*rows, strict=True)
     fig, ax = plt.subplots(figsize=(7, 3.6), facecolor=CHART_BG)
     bars = ax.bar(labels, values, color=BAR_COLORS[:len(rows)], width=0.55)
-    for bar, value in zip(bars, values):
+    for bar, value in zip(bars, values, strict=True):
         ax.text(bar.get_x() + bar.get_width() / 2, bar.get_height(), f"${value:,.4g}B",
                 ha="center", va="bottom", color=INK, fontsize=10, fontweight="bold")
     ax.set_ylabel("USD billions", color=MUTED, fontsize=9)
@@ -67,7 +81,7 @@ def market_opportunity_chart(analysis: Dict[str, Any], domain: str) -> io.BytesI
     return _png(fig)
 
 
-def scorecard_chart(analysis: Dict[str, Any]) -> io.BytesIO:
+def scorecard_chart(analysis: dict[str, Any]) -> io.BytesIO:
     scores = analysis["category_scores"]
     labels = [SCORE_DIMENSIONS[k] for k in SCORE_DIMENSIONS if k in scores]
     values = [scores[k] for k in SCORE_DIMENSIONS if k in scores]
@@ -75,7 +89,7 @@ def scorecard_chart(analysis: Dict[str, Any]) -> io.BytesIO:
         return _unavailable_chart("AI evaluation scorecard", "No analytical scores available.")
     fig, ax = plt.subplots(figsize=(7, 3.8), facecolor=CHART_BG)
     bars = ax.barh(labels[::-1], values[::-1], color=ACCENT, height=0.55)
-    for bar, value in zip(bars, values[::-1]):
+    for bar, value in zip(bars, values[::-1], strict=True):
         ax.text(value + 0.12, bar.get_y() + bar.get_height() / 2, f"{value:.1f}/10",
                 va="center", color=INK, fontsize=9, fontweight="bold")
     ax.set_xlim(0, 10.8)
@@ -83,7 +97,7 @@ def scorecard_chart(analysis: Dict[str, Any]) -> io.BytesIO:
     return _png(fig)
 
 
-def market_trend_chart(analysis: Dict[str, Any], domain: str) -> io.BytesIO:
+def market_trend_chart(analysis: dict[str, Any], domain: str) -> io.BytesIO:
     m = analysis["market_sizing"]
     if not m["trend"]:
         return _unavailable_chart("Published market data", "No dated market observations or publisher forecasts available.")
@@ -100,7 +114,7 @@ def market_trend_chart(analysis: Dict[str, Any], domain: str) -> io.BytesIO:
     return _png(fig)
 
 
-def revenue_chart(analysis: Dict[str, Any]) -> io.BytesIO:
+def revenue_chart(analysis: dict[str, Any]) -> io.BytesIO:
     rows = analysis["projected_revenue"]
     if not rows:
         return _unavailable_chart("Revenue / ARR", "No dated company figures or explicit forecasts available.")
@@ -125,8 +139,8 @@ def _inline(text: str) -> str:
     return re.sub(r"\[(.+?)\]\((https?://[^)]+)\)", r"<link href='\2' color='#0f6b5f'>\1</link>", text)
 
 
-def _markdown_flowables(md: str, styles: Dict[str, ParagraphStyle]) -> List[Any]:
-    flowables: List[Any] = []
+def _markdown_flowables(md: str, styles: dict[str, ParagraphStyle]) -> list[Any]:
+    flowables: list[Any] = []
     lines = md.splitlines()
     i = 0
     while i < len(lines):
@@ -165,7 +179,18 @@ def _markdown_flowables(md: str, styles: Dict[str, ParagraphStyle]) -> List[Any]
     return flowables
 
 
-def build_pdf_report(startup: Dict[str, Any], analysis: Dict[str, Any]) -> bytes:
+def printable_citations(text: str, analysis: dict[str, Any]) -> str:
+    """Turn [c:…] deck citations into "(deck p.N)" and [w:n] web citations into "[n]" for print."""
+    citations = analysis.get("citations") or {}
+
+    def deck(match: "re.Match[str]") -> str:
+        page = (citations.get(match.group(1)) or {}).get("page_no")
+        return f"(deck p.{page})" if page else ""
+
+    return WEB_CITATION.sub(lambda m: f"[{m.group(1)}]", DECK_CITATION.sub(deck, text))
+
+
+def build_pdf_report(startup: dict[str, Any], analysis: dict[str, Any]) -> bytes:
     analysis = report_snapshot(analysis)
     buffer = io.BytesIO()
     doc = SimpleDocTemplate(
@@ -194,16 +219,16 @@ def build_pdf_report(startup: Dict[str, Any], analysis: Dict[str, Any]) -> bytes
     }
 
     v = startup.get("verification") or {}
-    flags = consistency_flags(startup)
+    flags = list(startup.get("compliance_flags") or [])
     domain = startup.get("domain") or "Industry"
 
-    story: List[Any] = [
+    story: list[Any] = [
         Spacer(1, 0.6 * cm),
         Paragraph("AURA-3 Startup Evaluation", styles["title"]),
         Paragraph(
             f"{_escape(startup.get('name', 'Startup'))}<br/>Research snapshot: "
             f"{_escape(str(analysis.get('generated_at') or 'Unknown'))}<br/>"
-            f"PDF exported {datetime.utcnow().strftime('%d %B %Y')}",
+            f"PDF exported {clock.now().strftime('%d %B %Y')}",
             styles["subtitle"],
         ),
         HRFlowable(width="100%", thickness=1.5, color=colors.HexColor(ACCENT), spaceAfter=10),
@@ -278,6 +303,9 @@ def build_pdf_report(startup: Dict[str, Any], analysis: Dict[str, Any]) -> bytes
     chart_image(market_opportunity_chart(analysis, domain))
     for key, metric in analysis["market_sizing"]["evidence"].items():
         evidence_notes(key.replace("_usd_b", "").replace("_pct", "").upper(), metric)
+    for key, metric in (analysis["market_sizing"].get("claims") or {}).items():
+        check = CLAIM_CHECKS.get((metric.get("check") or {}).get("status"), CLAIM_CHECKS["unverified"])
+        evidence_notes(key.replace("_usd_b", "").replace("_pct", "").upper() + f" — deck claim, {check}", metric)
     chart_image(market_trend_chart(analysis, domain))
     for metric in analysis["market_sizing"]["trend"]:
         evidence_notes(f"Market {metric['year']}", metric)
@@ -289,7 +317,7 @@ def build_pdf_report(startup: Dict[str, Any], analysis: Dict[str, Any]) -> bytes
     story.append(PageBreak())
     for number, (key, title) in enumerate(SECTION_TITLES.items(), start=1):
         story.append(Paragraph(f"{number}. {title}", styles["section"]))
-        story += _markdown_flowables(analysis["sections"].get(key, ""), styles)
+        story += _markdown_flowables(printable_citations(analysis["sections"].get(key, ""), analysis), styles)
 
     if analysis.get("sources"):
         story.append(Paragraph("Research sources", styles["section"]))

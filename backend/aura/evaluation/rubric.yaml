@@ -1,0 +1,94 @@
+# AURA-3 evaluation rubric. Scores are analytical judgments, anchored so repeated runs agree.
+# The model scores each dimension against these anchors; the overall score and the label are computed in
+# code (weighted mean, thresholds, compliance caps), never chosen by the model.
+version: r1
+
+weights:
+  product: 0.15
+  market: 0.15
+  team: 0.18
+  business_model: 0.14
+  moat: 0.10
+  execution_risk: 0.10
+  traction: 0.18
+
+labels:  # first threshold the overall score reaches
+  - {min: 8.0, label: Strong Buy}
+  - {min: 6.5, label: Buy}
+  - {min: 5.0, label: Hold}
+  - {min: 0.0, label: Pass}
+
+caps:  # compliance flags limit the best possible label
+  COMPANY_STATUS_STRUCK_OFF: Pass
+  COMPANY_STATUS_UNDER_LIQUIDATION: Pass
+  COMPANY_STATUS_DORMANT: Hold
+  INVALID_CIN_FORMAT: Hold
+  NAME_MISMATCH: Hold
+  MCA_NOT_VERIFIED: Hold
+
+min_dimensions: 5
+
+dimensions:
+  product:
+    title: Product Strength
+    anchors:
+      0: No product, or only an idea
+      2: Prototype; the problem-solution fit is unclear
+      4: Working product with early users; little differentiation
+      6: Product used by paying customers with a clear, specific value
+      8: Strong evidence of product-market fit (retention, expansion) and defensible features
+      10: Category-defining product with exceptional, evidenced customer outcomes
+  market:
+    title: Market Size
+    anchors:
+      0: No identifiable market
+      2: Very small or unclear market; no sizing
+      4: Niche market, sized only by the company's own estimate
+      6: Sizable market with a credible, clearly scoped estimate
+      8: Large, growing market with source-backed sizing
+      10: Very large, fast-growing market with strong independent evidence
+  team:
+    title: Team Quality
+    anchors:
+      0: No information about the team
+      2: Single founder or no relevant experience
+      4: Complete founding team with limited domain experience
+      6: Relevant domain and execution experience across the key roles
+      8: Proven operators who have built or scaled in this domain before
+      10: Exceptional team with repeated successes and rare expertise
+  business_model:
+    title: Business Model
+    anchors:
+      0: No revenue model
+      2: Pricing unclear; unit economics unknown
+      4: Pricing defined; unit economics unproven
+      6: Positive unit economics on early data (CAC, payback, margins)
+      8: Strong unit economics (payback under 6 months, high margins, net revenue retention above 110%)
+      10: Exceptional unit economics proven at scale
+  moat:
+    title: Moat
+    anchors:
+      0: None
+      2: Easily copied
+      4: Execution advantages only
+      6: Meaningful switching costs, data, distribution or IP
+      8: Several reinforcing moats, with evidence
+      10: Dominant, durable moat
+  execution_risk:
+    title: Execution Risk (10 = low risk)
+    anchors:
+      0: Critical blockers (regulatory, legal or registry red flags)
+      2: Severe risks (single founder, unproven core technology, registry problems)
+      4: Significant risks without mitigation
+      6: Typical early-stage risks with some mitigation
+      8: Limited risks, well mitigated
+      10: Minimal identifiable risk
+  traction:
+    title: Traction
+    anchors:
+      0: No traction
+      2: Pilots or letters of intent only
+      4: Early paying customers; small revenue
+      6: Growing revenue with dated figures
+      8: Strong growth (around 2x a year) with retention evidence
+      10: Exceptional, sustained growth at scale
