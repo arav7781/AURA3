@@ -1,7 +1,8 @@
 """Prompt-injection scanning for uploaded documents.
 
 Deck text is data, never instructions: agents always receive it wrapped as untrusted content. This scanner
-adds a visible signal on top: it looks for hidden text (white or microscopic characters in the PDF),
+adds a visible signal on top: it looks for hidden text (microscopic characters, or text the same colour as
+the fill behind it),
 instruction-like phrasing aimed at an AI, and the same in PPTX speaker notes. Hits flag the chunk
 (``injection_suspected``) and the document (``DECK_HIDDEN_INSTRUCTIONS``) so reviewers and the UI see it.
 """
@@ -43,31 +44,62 @@ def scan_text(text: str, page: int | None = None, source: str = "text") -> list[
     return found
 
 
-def _is_white(color: object) -> bool:
+MIN_CONTRAST = 0.12  # luminance difference below which text is unreadable against its background
+
+
+def _luminance(color: object) -> float | None:
+    """Relative luminance (0 black … 1 white) of a pdfplumber gray, RGB or CMYK colour."""
     if color is None:
-        return False
+        return None
     values = color if isinstance(color, list | tuple) else [color]
     try:
         numbers = [float(v) for v in values]
-    except (TypeError, ValueError):
+    except (TypeError, ValueError):  # pattern fills and the like
+        return None
+    if len(numbers) == 4:
+        c, m, y, k = numbers
+        numbers = [(1 - c) * (1 - k), (1 - m) * (1 - k), (1 - y) * (1 - k)]
+    if len(numbers) == 3:
+        r, g, b = numbers
+        return 0.2126 * r + 0.7152 * g + 0.0722 * b
+    return numbers[0] if len(numbers) == 1 else None
+
+
+def _inside(x: float, y: float, box: dict) -> bool:
+    return box["x0"] <= x <= box["x1"] and box["top"] <= y <= box["bottom"]
+
+
+def _is_hidden(char: dict, fills: list[dict], images: list[dict]) -> bool:
+    """Microscopic, or too close in colour to everything that could be behind it. White text on a dark
+    band is visible; white text on a white or near-white slide is not. Over an image we cannot tell, so
+    the text counts as visible (the instruction-phrase scan still reads it)."""
+    if float(char.get("size") or 12) < 2.0:
+        return True
+    text = _luminance(char.get("non_stroking_color"))
+    if text is None:
         return False
-    if len(numbers) == 4:  # CMYK white is (0, 0, 0, 0)
-        return all(v <= 0.02 for v in numbers)
-    return bool(numbers) and all(v >= 0.97 for v in numbers)
+    x, y = (char["x0"] + char["x1"]) / 2, (char["top"] + char["bottom"]) / 2
+    if any(_inside(x, y, image) for image in images):
+        return False
+    backgrounds = [1.0]  # the page itself is white
+    for fill in fills:
+        if _inside(x, y, fill):
+            luminance = _luminance(fill.get("non_stroking_color"))
+            if luminance is None:
+                return False
+            backgrounds.append(luminance)
+    return all(abs(text - background) < MIN_CONTRAST for background in backgrounds)
 
 
 def hidden_pdf_text(pdf_path: Path) -> list[Finding]:
-    """Text a human cannot see: white fill or a font smaller than 2 pt."""
+    """Text a human cannot see: microscopic, or the same colour as what is behind it."""
     import pdfplumber
 
     findings: list[Finding] = []
     with pdfplumber.open(pdf_path) as pdf:
         for index, page in enumerate(pdf.pages, start=1):
-            hidden = [
-                ch["text"]
-                for ch in page.chars
-                if _is_white(ch.get("non_stroking_color")) or float(ch.get("size") or 12) < 2.0
-            ]
+            fills = [shape for shape in [*page.rects, *page.curves] if shape.get("fill")]
+            hidden = [ch["text"] for ch in page.chars if _is_hidden(ch, fills, page.images)]
             text = "".join(hidden).strip()
             if len(text) >= 12:
                 findings.append(Finding(index, "hidden_text", text[:400]))
