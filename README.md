@@ -7,6 +7,8 @@ sdk: docker
 pinned: false
 ---
 
+![DAO — AI Startup Evaluation & FinScope Advisory](docs/assets/banner.png)
+
 # DAO — AI Startup Evaluation & FinScope Advisory Platform
 
 DAO is a high-performance, enterprise-grade AI evaluation platform built for startup analysis, market research, and investment education. By combining a multi-agent **LangGraph orchestration layer**, real-time search, Vector RAG search, compliance checking, and an automated PDF document publishing pipeline, DAO offers VC-grade analysis and real-time financial advisory.
@@ -14,6 +16,62 @@ DAO is a high-performance, enterprise-grade AI evaluation platform built for sta
 The platform serves two primary interfaces:
 1. **AI Startup Evaluation Pipeline**: An automated investor due-diligence engine that processes pitch decks and startup profiles, runs real-time web verification, and builds professional PDF reports.
 2. **FinScope**: A specialized multi-subagent chat and educational system featuring automated intent routing, real-time finance news parsing, YouTube search integration, and interactive portfolio configuration.
+
+---
+
+## Screenshots
+
+From one end-to-end run on the KrishiMitra AI pitch deck (26 Oct 2026). The full write-up is Section 14 of the [CA4 report](docs/AURA3_CA4_Report_with_Results.pdf), and every figure is in [`docs/screenshots`](docs/screenshots/).
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="docs/screenshots/fig05_founder_form.png" alt="Founder portal submission form"><br>
+      <sub><b>1. Submit a startup.</b> Profile, CIN and pitch deck go in through the founder portal.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <img src="docs/screenshots/fig06_agents_running.png" alt="Multi-agent evaluation in progress"><br>
+      <sub><b>2. Agents at work.</b> Stage tracker and live log. Here the grader rejects research with no sourced market size and triggers a query rewrite.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <img src="docs/screenshots/fig07_founder_result.png" alt="Finished evaluation in the founder portal"><br>
+      <sub><b>3. Result in under 80 s.</b> Score, recommendation, registry badge (sandbox registry) and executive summary.</sub>
+    </td>
+    <td valign="top">
+      <img src="docs/screenshots/fig09_data_gaps_scores.png" alt="Declared data gaps and scorecard"><br>
+      <sub><b>4. Evidence first.</b> Missing market data is declared rather than estimated; the scorecard is labelled as AI judgment.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <img src="docs/screenshots/fig10_risks.png" alt="Risks section of the investor report"><br>
+      <sub><b>5. 11-section investor report.</b> Risks cite competitors and funding data found during research.</sub>
+    </td>
+    <td valign="top">
+      <img src="docs/screenshots/fig11_pdf_report.png" alt="Exported investor PDF"><br>
+      <sub><b>6. PDF export.</b> The 9-page investor report with registry table, data gaps and scorecard.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <img src="docs/screenshots/fig12_chat.png" alt="Venture Analyst chat"><br>
+      <sub><b>7. Venture Analyst chat.</b> Answers investor questions from the stored evaluation and the deck.</sub>
+    </td>
+    <td valign="top">
+      <img src="docs/screenshots/fig13_finscope.png" alt="FinScope routing and answer"><br>
+      <sub><b>8. FinScope.</b> The intent router sends the question to the Financial Educator subagent and streams its decision.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <img src="docs/screenshots/fig14_proposals.png" alt="Governance proposals on Sepolia"><br>
+      <sub><b>9. Governance.</b> Proposals read live from the VentureDAO contract on Sepolia.</sub>
+    </td>
+    <td valign="top"></td>
+  </tr>
+</table>
 
 ---
 
