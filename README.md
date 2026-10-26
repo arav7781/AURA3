@@ -225,8 +225,11 @@ struck-off company so the compliance flags can be demonstrated.
 
 ## Development Setup
 
+The repository has two apps: the FastAPI service in `backend/` and the Next.js app in `frontend/`.
+
 ### Running Locally
 ```bash
+cd backend
 python3.12 -m venv .venv
 .venv/bin/pip install -r requirements.txt
 .venv/bin/python main.py
@@ -236,17 +239,17 @@ Docling loads its layout models in the background for ~20 s after start-up; uplo
 window use pypdf.
 
 ### Frontend
-The Next.js app lives in `Aura3/`:
 ```bash
-cd Aura3
+cd frontend
 npm install
 npm run build && npx next start -p 3010   # or: npx next dev -p 3010
 ```
-Open `http://localhost:3010`. `Aura3/.env.local` sets `NEXT_PUBLIC_BACKEND_URL=http://localhost:8010`.
+Open `http://localhost:3010`. `frontend/.env.local` sets `NEXT_PUBLIC_BACKEND_URL=http://localhost:8010`.
 There is no sign-in: the landing page has "Enter as Investor", "Enter as Startup" and "FinScope AI Chat".
 
 ### Running with Docker
 ```bash
+cd backend
 docker build -t dao-service .
 docker run -p 7860:7860 --env-file .env dao-service
 ```

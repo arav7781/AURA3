@@ -5,21 +5,27 @@ venv/
 __pycache__/
 *.pyc
 *.egg-info/
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+.pytest_cache/
+.hypothesis/
+.ruff_cache/
 
 # Secrets — never commit
 .env
 .env.*
 !.env.example
-dao_backend/.env
 
-# Frontend (Aura3)
-Aura3/node_modules/
-Aura3/.next/
-Aura3/out/
-Aura3/.env.local
-Aura3/.env*.local
-Aura3/*.tsbuildinfo
-Aura3/next-env.d.ts
+# Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env.local
+frontend/.env*.local
+frontend/*.tsbuildinfo
+frontend/next-env.d.ts
 
 # OS / editor
 .DS_Store
