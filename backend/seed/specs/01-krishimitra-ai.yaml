@@ -1,0 +1,104 @@
+schema: aura.seed.startup/v1
+slug: krishimitra-ai
+name: KrishiMitra AI
+legal_name: KrishiMitra AI Private Limited
+domain: Agritech
+sub_domain: Precision farming for smallholders
+stage: seed
+hq: {city: Pune, state: Maharashtra}
+founded_year: 2024
+one_liner: Solar soil sensors + WhatsApp crop advisory for India's smallholder farmers
+description: >-
+  KrishiMitra AI sells a Rs 1,499 solar soil sensor and a Rs 149/month WhatsApp advisory in Marathi and
+  Hindi, so smallholder farmers get irrigation and fertiliser guidance without installing an app. It has
+  12,400 paying farmers across 9 districts of Maharashtra.
+founder_account: {email: founder@krishimitra-ai.demo, name: Arav}
+mca:
+  cin: U62099MH2024PTC410567
+  registry:
+    status: ACTIVE
+    registered_name: KRISHIMITRA AI PRIVATE LIMITED
+    directors: [Arav, Mahi]
+    incorporation_year: 2024
+    state: Maharashtra
+team:
+  - {name: Arav, role: "Co-founder, Product & AI", background: "Built ML crop-advisory models; B.Tech AI & ML"}
+  - {name: Mahi, role: "Co-founder, Field Operations & Distribution", background: "Ran dealer networks across 9 Maharashtra districts"}
+  - {name: Kartik, role: "Co-founder, Hardware & Supply Chain", background: "Designed low-cost IoT sensors for rural deployments"}
+  - {name: Adesh, role: "Co-founder, Growth & Partnerships", background: "Partnerships with FPOs and NABARD-linked programs"}
+problem:
+  statement: Smallholders lack affordable, real-time soil and irrigation data and advice in their own language.
+  stats:
+    - {claim: "146 million agricultural holdings in India; ~86% are smallholders farming under 2 hectares", source: "Agriculture Census 2015-16", kind: reported}
+    - {claim: "20-30% of water and fertiliser spend is avoidable input waste without soil data", kind: company_estimate}
+    - {claim: "Advisory apps are English-first and priced for agri-businesses, not for a farmer earning Rs 8,000-12,000 a month", kind: company_estimate}
+solution:
+  summary: A low-cost solar soil sensor paired with an AI crop-advisory subscription delivered on WhatsApp.
+  bullets:
+    - "Rs 1,499 solar-powered soil sensor: moisture, temperature and NPK proxy"
+    - "WhatsApp crop advisory in Marathi and Hindi (text and voice notes)"
+    - "AI advisory tuned to local crop calendars: sowing, irrigation timing, pest alerts"
+    - "No app install: runs entirely inside WhatsApp"
+market:
+  tam: {value: 82.3, unit: USD million, year: 2025, scope: India agriculture IoT, source: "MarketsandMarkets, India Agriculture IoT Market 2025-2030", kind: reported}
+  tam_forecast: {value: 154.8, unit: USD million, year: 2030, scope: India agriculture IoT, source: "MarketsandMarkets, India Agriculture IoT Market 2025-2030", kind: source_forecast}
+  cagr: {value: 13.5, unit: "%", period: "2025-2030", scope: India agriculture IoT, source: "MarketsandMarkets", kind: source_forecast}
+  sam: {value: 24.7, unit: USD million, year: 2025, scope: "Marathi/Hindi smallholder segment (Maharashtra, Karnataka, MP)", kind: company_estimate}
+  som: {value: 3.7, unit: USD million, year: 2028, scope: 3-year obtainable share of SAM, kind: company_forecast}
+business_model:
+  streams:
+    - {name: Soil sensor, price_inr: 1499, per: one-time, share_pct: 32}
+    - {name: WhatsApp advisory subscription, price_inr: 149, per: month, share_pct: 68}
+  notes: ["Subscription gross margin 78%"]
+unit_economics:
+  cac_inr: 610
+  payback_months: 4.1
+  gross_margin_pct: 78
+  nrr_pct: 121
+  monthly_churn_pct: 2.4
+traction:
+  as_of: FY2025
+  customers: 12400
+  customer_label: paying farmers
+  arr: {value: 3.1, unit: INR crore, year: 2025, kind: company_reported}
+  series:
+    metric: ARR
+    unit: INR crore
+    points: [{year: 2024, value: 0.9}, {year: 2025, value: 3.1}]
+  highlights:
+    - "12,400 paying farmers across 9 districts of Maharashtra"
+    - "ARR Rs 3.1 crore in FY2025 (68% subscription, 32% sensor sales)"
+    - "Net revenue retention 121%; monthly churn 2.4%"
+competitors:
+  - {name: Fasal, positioning: "IoT sensors + AI for horticulture, premium farms"}
+  - {name: Cropin, positioning: "Enterprise agritech SaaS for agribusinesses"}
+  - {name: DeHaat, positioning: "Full-stack agri platform: inputs, advisory, market linkage"}
+moat:
+  - Low-cost hardware creates switching costs for the subscription
+  - Vernacular WhatsApp distribution reaches farmers other apps miss
+gtm:
+  channels: [Village agri-input dealers, Farmer Producer Organisations (FPOs), NABARD-linked programs]
+  target: 40,000 paying farmers across 3 states within 24 months
+round:
+  ask_inr: 120000000
+  pre_money_inr: 600000000
+  min_raise_pct: 60
+  use_of_funds:
+    - {category: Distribution, pct: 45}
+    - {category: Product & AI, pct: 30}
+    - {category: Hardware, pct: 15}
+    - {category: Working capital, pct: 10}
+  tranches:
+    - {pct: 40, title: Round close}
+    - {pct: 30, title: Karnataka launch, criteria: "20,000 paying farmers", due_days: 270}
+    - {pct: 30, title: "Rs 10 crore ARR", criteria: "ARR of Rs 10 crore", due_days: 720}
+risks:
+  - Hardware margins depend on component prices
+  - Monsoon seasonality drives churn
+  - No track record outside Maharashtra
+deck:
+  palette: agritech
+evaluation_expectations:
+  score_band: [6.0, 8.5]
+  recommendation_in: [Buy, Strong Buy, Hold]
+  must_flag: []

@@ -1,0 +1,109 @@
+schema: aura.seed.startup/v1
+slug: opspilot
+name: OpsPilot
+legal_name: OpsPilot Private Limited
+domain: B2B SaaS
+sub_domain: AI customer-support agents
+stage: series_a
+hq: {city: Bengaluru, state: Karnataka}
+founded_year: 2022
+one_liner: AI agents that resolve WhatsApp, chat and email support tickets end to end for D2C brands
+description: >-
+  OpsPilot's AI agents answer and resolve order-status, return, refund and COD-to-prepaid queries for D2C brands
+  by acting directly in Shopify, courier and payment systems, and hand edge cases to human agents. 260 brands use
+  it, it resolves 61% of tickets without a human, and ARR reached Rs 12.4 crore in FY2026 with 128% net revenue
+  retention.
+founder_account: {email: founder@opspilot.demo, name: Ananya}
+mca:
+  cin: U62099KA2022PTC163728
+  registry:
+    status: ACTIVE
+    registered_name: OPSPILOT PRIVATE LIMITED
+    directors: [Ananya Krishnan, Vivek Saxena, Rhea D'Souza, Karan Malhotra]
+    incorporation_year: 2022
+    state: Karnataka
+team:
+  - {name: Ananya Krishnan, role: "Co-founder & CEO", background: "Head of customer experience at a large D2C beauty brand"}
+  - {name: Vivek Saxena, role: "Co-founder & CTO", background: "Staff engineer on conversational-AI products for 8 years"}
+  - {name: Rhea D'Souza, role: "Co-founder, Sales", background: "Scaled SMB SaaS sales teams in India and South-East Asia"}
+  - {name: Karan Malhotra, role: "Co-founder, AI", background: "Built retrieval and agent systems; ex-ML lead at an e-commerce marketplace"}
+problem:
+  statement: >-
+    D2C brands drown in repetitive support tickets that need actions in several systems, so costs and response
+    times explode during sales.
+  stats:
+    - {claim: "D2C brands spend 3-6% of revenue on customer support", kind: company_estimate}
+    - {claim: "60-70% of tickets are repetitive order-status, return and refund queries", kind: company_estimate}
+    - {claim: "Ticket volumes jump 3-5x during sale events", kind: company_estimate}
+solution:
+  summary: AI agents that take actions, not just answer FAQs, with human hand-off for edge cases.
+  bullets:
+    - "Resolves tickets end to end on WhatsApp, web chat and email"
+    - "Takes actions in Shopify, courier aggregators and payment gateways: cancel, refund, reschedule"
+    - "Brand-specific policies and tone, in English, Hindi and Hinglish"
+    - "Human hand-off with full context; QA scoring of every conversation"
+market:
+  tam: {value: 8500, unit: INR crore, year: 2025, scope: "Customer-support software and AI agents for Indian and South-East Asian e-commerce and D2C brands", kind: company_estimate}
+  sam: {value: 1700, unit: INR crore, year: 2025, scope: "Indian D2C brands with more than Rs 10 crore annual GMV", kind: company_estimate}
+  som: {value: 120, unit: INR crore, year: 2029, scope: 3-year obtainable share of SAM, kind: company_forecast}
+business_model:
+  streams:
+    - {name: Per-resolution fee, price_inr: 18, per: resolved conversation, share_pct: 72}
+    - {name: Platform subscription, price_inr: 11000, per: month, share_pct: 28, description: Average across plan tiers}
+  notes: ["Gross margin 72% after LLM and messaging costs", "Outcome pricing: brands pay only for tickets the AI resolves"]
+unit_economics:
+  cac_inr: 270000
+  payback_months: 9.4
+  gross_margin_pct: 72
+  nrr_pct: 128
+  monthly_churn_pct: 1.1
+  other: ["About 4.1 lakh conversations resolved by AI every month"]
+traction:
+  as_of: FY2026
+  customers: 260
+  customer_label: D2C brands
+  arr: {value: 12.4, unit: INR crore, year: 2026, kind: company_reported}
+  series:
+    metric: ARR
+    unit: INR crore
+    points: [{year: 2023, value: 0.8}, {year: 2024, value: 3.1}, {year: 2025, value: 6.9}, {year: 2026, value: 12.4}]
+  highlights:
+    - "260 D2C brands; 41 on annual contracts above Rs 10 lakh"
+    - "ARR Rs 12.4 crore in FY2026, up 80% year on year"
+    - "61% of tickets resolved without a human"
+    - "Net revenue retention 128%; monthly logo churn 1.1%"
+competitors:
+  - {name: Zendesk, positioning: "Global helpdesk software with AI add-ons"}
+  - {name: Freshworks, positioning: "Freshdesk helpdesk and customer-service suite"}
+  - {name: Yellow.ai, positioning: "Enterprise conversational-AI platform"}
+moat:
+  - Deep action integrations with the Indian commerce stack (storefronts, couriers, payments)
+  - Resolution data from over 12 million conversations since 2023
+  - Outcome-based pricing aligns OpsPilot's revenue with brands' savings
+gtm:
+  channels: [Shopify app store and agency partners, Inbound from D2C founder communities, Outbound to brands above Rs 50 crore GMV]
+  target: 700 brands and Rs 30 crore ARR within 24 months
+round:
+  ask_inr: 400000000
+  pre_money_inr: 2200000000
+  min_raise_pct: 60
+  use_of_funds:
+    - {category: R&D, pct: 40}
+    - {category: Sales & marketing, pct: 35}
+    - {category: International expansion, pct: 15}
+    - {category: General & administrative, pct: 10}
+  tranches:
+    - {pct: 40, title: Round close}
+    - {pct: 30, title: "Rs 20 crore ARR", criteria: "ARR of Rs 20 crore with NRR above 120%", due_days: 365}
+    - {pct: 30, title: Middle East launch, criteria: "25 paying brands in the UAE and Saudi Arabia", due_days: 540}
+risks:
+  - Depends on third-party LLM providers for cost and quality
+  - Messaging-platform pricing changes can raise costs
+  - D2C funding cycles affect customers' budgets
+  - Helpdesk incumbents are bundling AI agents
+deck:
+  palette: saas
+evaluation_expectations:
+  score_band: [6.5, 8.5]
+  recommendation_in: [Buy, Strong Buy]
+  must_flag: []

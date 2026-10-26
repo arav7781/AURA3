@@ -1,5 +1,6 @@
 """Startups: the catalogue, profiles, registry checks and publishing."""
 
+import logging
 from typing import Any, Literal
 
 from fastapi import APIRouter, Depends, Query
@@ -14,9 +15,10 @@ from aura.core.errors import AppError, NotFound
 from aura.evaluation import mca
 from aura.models import Document, Evaluation, Startup
 from aura.models.startups import STAGES
-from aura.rag import store
+from aura.rag import profiles, store
 
 router = APIRouter(prefix="/api", tags=["startups"])
+logger = logging.getLogger("aura.startups")
 
 
 def startup_card(startup: Startup) -> dict[str, Any]:
@@ -186,4 +188,8 @@ async def publish_startup(startup_id: str, viewer: Viewer = Depends(startup_owne
             startup.recommendation = latest.recommendation
         card = startup_card(startup)
     await store.set_startup_visibility(startup_id, "dao")
+    try:
+        await profiles.index_startup(startup_id)
+    except Exception as exc:  # semantic catalogue search is an extra; publishing must not depend on it
+        logger.warning("could not index the profile of %s: %s", startup_id, exc)
     return card

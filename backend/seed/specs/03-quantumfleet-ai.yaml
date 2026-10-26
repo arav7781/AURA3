@@ -1,0 +1,106 @@
+schema: aura.seed.startup/v1
+slug: quantumfleet-ai
+name: QuantumFleet AI
+legal_name: QuantumFleet AI Private Limited
+domain: Logistics & Mobility
+sub_domain: Route and load optimisation for trucking fleets
+stage: seed
+hq: {city: Bengaluru, state: Karnataka}
+founded_year: 2023
+one_liner: AI route and load planning that cuts empty kilometres for mid-size Indian freight fleets
+description: >-
+  QuantumFleet AI plugs into a fleet's GPS, FASTag toll events and order data and plans daily routes, loads
+  and return trips for fleets of 20-300 trucks, with a driver app in Hindi, Tamil and Kannada. It charges
+  Rs 300 per active truck per month and has 64 paying fleets running 3,050 trucks, at an ARR of Rs 1.1 crore.
+founder_account: {email: founder@quantumfleet-ai.demo, name: Karthik}
+mca:
+  cin: U62013KA2023PTC172846
+  registry:
+    status: ACTIVE
+    registered_name: QUANTUMFLEET AI PRIVATE LIMITED
+    directors: [Karthik Raghunathan, Neha Bansal, Imran Sheikh]
+    incorporation_year: 2023
+    state: Karnataka
+team:
+  - {name: Karthik Raghunathan, role: "Co-founder & CEO", background: "8 years in line-haul operations at a national 3PL"}
+  - {name: Neha Bansal, role: "Co-founder & CTO", background: "M.Tech in operations research; built vehicle-routing solvers for e-commerce delivery"}
+  - {name: Imran Sheikh, role: "Co-founder, Sales", background: "Ran his family's 120-truck fleet in Nagpur for 7 years"}
+problem:
+  statement: >-
+    Mid-size fleet owners plan trips over phone calls and WhatsApp groups, so trucks run empty on return legs and
+    fuel and toll leakages go unnoticed.
+  stats:
+    - {claim: "An estimated 30-40% of truck-kilometres on Indian highways are run empty or part-loaded", kind: company_estimate}
+    - {claim: "Fuel is 50-60% of a mid-size fleet owner's operating cost", kind: company_estimate}
+    - {claim: "Enterprise routing software is priced and built for fleets of 1,000+ vehicles", kind: company_estimate}
+solution:
+  summary: A planning copilot that turns GPS, toll and order data into daily route, load and return-trip plans.
+  bullets:
+    - "Daily route and load plans from live GPS, FASTag toll events and order data"
+    - "Return-load matching with shipper partners to cut empty kilometres"
+    - "Driver app in Hindi, Tamil and Kannada with turn-by-turn trip sheets"
+    - "Fuel and toll reconciliation dashboard for the fleet owner"
+market:
+  tam: {value: 3800, unit: INR crore, year: 2025, scope: "Fleet management and optimisation software for India's commercial trucks", kind: company_estimate}
+  sam: {value: 640, unit: INR crore, year: 2025, scope: "Fleets of 20-300 trucks in South and Central India", kind: company_estimate}
+  som: {value: 25, unit: INR crore, year: 2028, scope: 3-year obtainable share of SAM, kind: company_forecast}
+business_model:
+  streams:
+    - {name: Per-truck subscription, price_inr: 300, per: month, share_pct: 92, description: Billed per active truck}
+    - {name: Onboarding and integration, price_inr: 25000, per: one-time, share_pct: 8}
+  notes: ["Subscription gross margin 80%", "Average fleet size 48 trucks"]
+unit_economics:
+  cac_inr: 135000
+  payback_months: 11.8
+  gross_margin_pct: 80
+  nrr_pct: 118
+  monthly_churn_pct: 1.6
+  other: ["CAC and payback measured per fleet (average 48 trucks)"]
+traction:
+  as_of: FY2026
+  customers: 64
+  customer_label: paying fleets
+  arr: {value: 1.1, unit: INR crore, year: 2026, kind: company_reported}
+  series:
+    metric: ARR
+    unit: INR crore
+    points: [{year: 2024, value: 0.2}, {year: 2025, value: 0.55}, {year: 2026, value: 1.1}]
+  highlights:
+    - "64 paying fleets running 3,050 trucks"
+    - "ARR Rs 1.1 crore in FY2026, double the Rs 0.55 crore of FY2025"
+    - "Net revenue retention 118%; monthly logo churn 1.6%"
+    - "Empty running cut from 34% to 26% at fleets live for 6+ months (company-reported)"
+competitors:
+  - {name: LocoNav, positioning: "Fleet telematics and video telematics for commercial vehicles"}
+  - {name: Fleetx, positioning: "Fleet management SaaS for trucking and logistics companies"}
+  - {name: Locus, positioning: "Enterprise route optimisation, focused on last-mile delivery"}
+moat:
+  - Trip and return-load data across 3,050 trucks improves matching on every lane
+  - Integrations with major GPS vendors and FASTag data cut onboarding to under a week
+gtm:
+  channels: [Transporter associations, GPS and telematics resellers, Field sales in Bengaluru, Chennai and Nagpur]
+  target: 250 paying fleets and 12,000 trucks within 24 months
+round:
+  ask_inr: 42000000
+  pre_money_inr: 240000000
+  min_raise_pct: 60
+  use_of_funds:
+    - {category: Sales, pct: 40}
+    - {category: Product & AI, pct: 35}
+    - {category: Customer success, pct: 15}
+    - {category: General & administrative, pct: 10}
+  tranches:
+    - {pct: 40, title: Round close}
+    - {pct: 30, title: "150 fleets", criteria: "150 paying fleets running 7,000 trucks", due_days: 300}
+    - {pct: 30, title: "Rs 3 crore ARR", criteria: "ARR of Rs 3 crore", due_days: 600}
+risks:
+  - Fleet owners are price-sensitive and churn in freight downturns
+  - Plans depend on the quality of third-party GPS data
+  - Return-load matching needs enough shipper liquidity on each lane
+  - Telematics vendors may bundle routing for free
+deck:
+  palette: logistics
+evaluation_expectations:
+  score_band: [5.0, 7.5]
+  recommendation_in: [Hold, Buy]
+  must_flag: []

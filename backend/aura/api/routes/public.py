@@ -53,7 +53,9 @@ def demo_accounts() -> dict[str, Any]:
         return {"enabled": False, "accounts": []}
     with read_session() as s:
         row = s.get(AppState, "demo_accounts")
-    return {"enabled": True, "accounts": json.loads(row.value) if row else []}
+    data = json.loads(row.value) if row else {}
+    # Written by the seeder: every demo login shares one password, shown on the sign-in page in demo mode.
+    return {"enabled": True, "accounts": data.get("accounts", []), "password": data.get("password")}
 
 
 @router.get("/health")

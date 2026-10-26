@@ -1,0 +1,106 @@
+schema: aura.seed.startup/v1
+slug: careloop
+name: CareLoop
+legal_name: CareLoop Private Limited
+domain: Healthtech
+sub_domain: Post-discharge remote patient monitoring
+stage: seed
+hq: {city: Kochi, state: Kerala}
+founded_year: 2023
+one_liner: 90-day remote monitoring and nurse follow-up for cardiac patients after hospital discharge
+description: >-
+  CareLoop gives discharged cardiac patients a home kit (BP monitor, pulse oximeter and single-lead ECG) and a
+  90-day nurse-led follow-up programme in Malayalam, Tamil and English, sold to hospitals at Rs 6,000 per
+  enrolled patient. It works with 5 hospitals in Kerala and Tamil Nadu, has monitored 1,850 patients to date
+  and has an ARR of Rs 1.0 crore.
+founder_account: {email: founder@careloop.demo, name: Anjali}
+mca:
+  cin: U86909KL2023PTC081462
+  registry:
+    status: ACTIVE
+    registered_name: CARELOOP PRIVATE LIMITED
+    directors: [Anjali Menon, Joseph Thomas, Lakshmi Narayanan]
+    incorporation_year: 2023
+    state: Kerala
+team:
+  - {name: Anjali Menon, role: "Co-founder & CEO", background: "Interventional cardiologist (DM Cardiology); 11 years at private hospitals in Kerala"}
+  - {name: Joseph Thomas, role: "Co-founder & CTO", background: "Built connected-device platforms at a health IoT company"}
+  - {name: Lakshmi Narayanan, role: "Co-founder & COO", background: "Ran nursing operations for a South Indian hospital chain"}
+problem:
+  statement: >-
+    After a heart attack or cardiac surgery, patients go home with little follow-up, so warning signs are missed
+    until they come back through the emergency room.
+  stats:
+    - {claim: "Many 30-day cardiac readmissions follow warning signs at home that nobody was tracking", kind: company_estimate}
+    - {claim: "Hospitals rarely have staff to call patients regularly after discharge", kind: company_estimate}
+    - {claim: "Patients from smaller towns travel 2-4 hours for each follow-up visit", kind: company_estimate}
+solution:
+  summary: A connected home kit plus a nurse team that watches the readings and escalates to the patient's own cardiologist.
+  bullets:
+    - "Bluetooth BP monitor, pulse oximeter and single-lead ECG paired to a simple phone app"
+    - "Nurse calls in Malayalam, Tamil and English, on a schedule set by the cardiologist"
+    - "Rule-based alerts escalate abnormal readings to the treating hospital within 30 minutes"
+    - "Weekly summary reports in the hospital's own discharge workflow"
+market:
+  tam: {value: 2600, unit: INR crore, year: 2025, scope: "Post-acute remote monitoring for cardiac patients in India", kind: company_estimate}
+  sam: {value: 380, unit: INR crore, year: 2025, scope: "Private cardiac-care hospitals in South India", kind: company_estimate}
+  som: {value: 22, unit: INR crore, year: 2029, scope: 3-year obtainable share of SAM, kind: company_forecast}
+business_model:
+  streams:
+    - {name: Hospital programme fee, price_inr: 6000, per: enrolled patient, share_pct: 82, description: "90-day programme, billed to the hospital"}
+    - {name: Patient extension plan, price_inr: 799, per: month, share_pct: 18, description: Paid by patients after 90 days}
+  notes: ["Gross margin 48% after nurse and device costs"]
+unit_economics:
+  cac_inr: 500000
+  payback_months: 6.3
+  gross_margin_pct: 48
+  monthly_churn_pct: 6.5
+  other: ["CAC and payback measured per hospital", "Device kit costs Rs 3,200 and is reused across 4-5 patients", "Churn refers to patients on the extension plan"]
+traction:
+  as_of: FY2026
+  customers: 5
+  customer_label: partner hospitals
+  arr: {value: 1.0, unit: INR crore, year: 2026, kind: company_reported}
+  series:
+    metric: ARR
+    unit: INR crore
+    points: [{year: 2025, value: 0.35}, {year: 2026, value: 1.0}]
+  highlights:
+    - "5 partner hospitals in Kerala and Tamil Nadu"
+    - "1,850 cardiac patients monitored to date"
+    - "ARR Rs 1.0 crore in FY2026"
+    - "30-day readmissions of 7.9% for enrolled patients vs 12.4% for matched non-enrolled patients at two hospitals (company-reported)"
+competitors:
+  - {name: Dozee, positioning: "Contactless remote patient monitoring for hospitals and homes"}
+  - {name: Tricog, positioning: "Cardiac diagnostics and ECG interpretation services"}
+  - {name: Hospital call centres, positioning: "In-house discharge follow-up calls, without devices or clinical escalation"}
+moat:
+  - Cardiologist-designed protocols built into partner hospitals' discharge process
+  - Outcome data across 1,850 patients to support insurer reimbursement
+gtm:
+  channels: [Direct sales to hospital cardiology departments, Cardiologist referrals, Health insurer pilots]
+  target: 12 partner hospitals and 6,000 enrolled patients a year within 24 months
+round:
+  ask_inr: 60000000
+  pre_money_inr: 320000000
+  min_raise_pct: 60
+  use_of_funds:
+    - {category: Clinical operations, pct: 35}
+    - {category: Sales, pct: 25}
+    - {category: Product, pct: 25}
+    - {category: Devices, pct: 15}
+  tranches:
+    - {pct: 40, title: Round close}
+    - {pct: 30, title: "12 partner hospitals", criteria: "12 partner hospitals enrolling patients every month", due_days: 300}
+    - {pct: 30, title: Insurer pilot, criteria: "Paid pilot with a health insurer covering post-discharge monitoring", due_days: 540}
+risks:
+  - Demand depends on hospitals choosing to pay for follow-up
+  - Nurse costs cap gross margin below 50%
+  - Outcome claims rest on small, non-randomised samples
+  - Medical-device and health-data regulation may tighten
+deck:
+  palette: healthtech
+evaluation_expectations:
+  score_band: [5.0, 7.5]
+  recommendation_in: [Hold, Buy]
+  must_flag: []

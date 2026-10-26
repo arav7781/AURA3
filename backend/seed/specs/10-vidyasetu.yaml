@@ -1,0 +1,105 @@
+schema: aura.seed.startup/v1
+slug: vidyasetu
+name: VidyaSetu
+legal_name: VidyaSetu Private Limited
+domain: Edtech
+sub_domain: Vernacular AI tutoring for K-12
+stage: seed
+hq: {city: Lucknow, state: Uttar Pradesh}
+founded_year: 2023
+one_liner: Hindi-first AI tutor on WhatsApp and Android for state-board students in grades 6-10
+description: >-
+  VidyaSetu's AI tutor explains concepts, checks handwritten homework from photos and runs weekly practice tests
+  aligned to NCERT and the UP and Bihar board syllabi, in Hindi and Hinglish. It costs Rs 149 a month; 9,200 of
+  its 61,000 monthly active students pay, and with 39 school licences the ARR is Rs 1.8 crore.
+founder_account: {email: founder@vidyasetu.demo, name: Saurabh}
+mca:
+  cin: U85499UP2023PTC187356
+  registry:
+    status: ACTIVE
+    registered_name: VIDYASETU PRIVATE LIMITED
+    directors: [Saurabh Tiwari, Nandini Rao, Pooja Yadav]
+    incorporation_year: 2023
+    state: Uttar Pradesh
+team:
+  - {name: Saurabh Tiwari, role: "Co-founder & CEO", background: "Former maths teacher; ran a coaching centre in Lucknow for 6 years"}
+  - {name: Nandini Rao, role: "Co-founder & CTO", background: "NLP engineer; built Hindi speech and text models at a conversational-AI company"}
+  - {name: Pooja Yadav, role: "Co-founder, Content", background: "Curriculum lead at a state-board textbook publisher"}
+problem:
+  statement: >-
+    Students in Hindi-medium state-board schools get little help with homework outside class, and most edtech apps
+    are English-first and priced for metro families.
+  stats:
+    - {claim: "Most grade 6-10 students in UP and Bihar study in Hindi-medium state-board schools", kind: company_estimate}
+    - {claim: "Private tuition costs Rs 500-1,500 per subject per month in tier-2 and tier-3 towns", kind: company_estimate}
+    - {claim: "English-first learning apps see low paid conversion outside the metros", kind: company_estimate}
+solution:
+  summary: A low-cost AI tutor in Hindi and Hinglish that works on WhatsApp and a lightweight Android app.
+  bullets:
+    - "Step-by-step explanations in Hindi and Hinglish, by text or voice note"
+    - "Photo-based checking of handwritten homework with feedback"
+    - "Weekly practice tests mapped to NCERT and UP and Bihar board chapters"
+    - "Parent progress reports on WhatsApp"
+market:
+  tam: {value: 9800, unit: INR crore, year: 2025, scope: "Supplementary learning spend for grades 6-10 in India", kind: company_estimate}
+  sam: {value: 1500, unit: INR crore, year: 2025, scope: "Hindi-medium state-board students in UP, Bihar, MP and Rajasthan", kind: company_estimate}
+  som: {value: 40, unit: INR crore, year: 2029, scope: 3-year obtainable share of SAM, kind: company_forecast}
+business_model:
+  streams:
+    - {name: Student subscription, price_inr: 149, per: month, share_pct: 91}
+    - {name: School licence, price_inr: 40000, per: year, share_pct: 9, description: "Teacher dashboard and class-wide access for private schools"}
+  notes: ["Gross margin 82% after LLM inference costs"]
+unit_economics:
+  cac_inr: 420
+  payback_months: 3.4
+  gross_margin_pct: 82
+  monthly_churn_pct: 7.5
+  other: ["Free-to-paid conversion 15% of monthly active students", "LLM inference cost about Rs 21 per paying student per month"]
+traction:
+  as_of: Sep 2026
+  customers: 9200
+  customer_label: paying students
+  arr: {value: 1.8, unit: INR crore, year: 2026, kind: company_reported}
+  series:
+    metric: ARR
+    unit: INR crore
+    points: [{year: 2024, value: 0.3}, {year: 2025, value: 0.9}, {year: 2026, value: 1.8}]
+  highlights:
+    - "61,000 monthly active students; 9,200 paying Rs 149 a month"
+    - "ARR Rs 1.8 crore (Sep 2026), including 39 school licences"
+    - "Paying students use the tutor 11 times a week on average"
+    - "Average maths test score up 9 points over one term for 1,100 paying students (company-reported)"
+competitors:
+  - {name: PhysicsWallah, positioning: "Low-cost test prep and K-12 courses, with Hindi-medium content"}
+  - {name: Khan Academy, positioning: "Free practice and video lessons, including Hindi content"}
+  - {name: Local tuition centres, positioning: "In-person classes; the default for families who can afford them"}
+moat:
+  - Hindi and Hinglish tutoring data from over 4 million student questions
+  - Chapter-level alignment with state-board syllabi that national apps skip
+  - WhatsApp distribution keeps CAC near Rs 420
+gtm:
+  channels: [WhatsApp referrals from students and parents, Private school partnerships, Local coaching-centre tie-ups]
+  target: 25,000 paying students within 18 months
+round:
+  ask_inr: 50000000
+  pre_money_inr: 300000000
+  min_raise_pct: 60
+  use_of_funds:
+    - {category: Growth marketing, pct: 35}
+    - {category: Product & AI, pct: 30}
+    - {category: Content, pct: 20}
+    - {category: General & administrative, pct: 15}
+  tranches:
+    - {pct: 40, title: Round close}
+    - {pct: 30, title: "25,000 paying students", criteria: "25,000 paying students with monthly churn below 6%", due_days: 365}
+    - {pct: 30, title: Bihar and MP launch, criteria: "5,000 paying students in Bihar and MP combined", due_days: 540}
+risks:
+  - High monthly churn (7.5%) and exam-season peaks
+  - Wrong AI answers could damage trust with parents and schools
+  - Free content from large players caps pricing
+deck:
+  palette: edtech
+evaluation_expectations:
+  score_band: [5.0, 7.5]
+  recommendation_in: [Hold, Buy]
+  must_flag: []

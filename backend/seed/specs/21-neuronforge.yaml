@@ -1,0 +1,110 @@
+schema: aura.seed.startup/v1
+slug: neuronforge
+name: NeuronForge
+legal_name: NeuronForge Private Limited
+domain: Deeptech & AI
+sub_domain: Indic speech recognition
+stage: series_a
+hq: {city: Chennai, state: Tamil Nadu}
+founded_year: 2021
+one_liner: Speech-to-text API for 22 Indian languages, built for noisy, code-mixed call-centre audio
+description: >-
+  NeuronForge offers streaming and batch speech-to-text APIs for 22 Indian languages and code-mixed speech such
+  as Hinglish and Tanglish, tuned for 8 kHz telephony audio, with on-premise deployment for banks. 140
+  enterprise customers use it, it transcribes about 9 million minutes a month, and ARR reached Rs 8.6 crore in
+  FY2026.
+founder_account: {email: founder@neuronforge.demo, name: Vignesh}
+mca:
+  cin: U62011TN2021PTC146283
+  registry:
+    status: ACTIVE
+    registered_name: NEURONFORGE PRIVATE LIMITED
+    directors: [Vignesh Subramanian, Ayesha Siddiqui, Harish Iyer, Bhavna Chauhan]
+    incorporation_year: 2021
+    state: Tamil Nadu
+team:
+  - {name: Vignesh Subramanian, role: "Co-founder & CEO", background: "PhD in speech recognition; 6 years building ASR systems"}
+  - {name: Ayesha Siddiqui, role: "Co-founder & CTO", background: "ML infrastructure lead; scaled GPU inference serving"}
+  - {name: Harish Iyer, role: "Co-founder, Business", background: "12 years selling contact-centre technology to banks and insurers"}
+  - {name: Bhavna Chauhan, role: "Co-founder, Data & Linguistics", background: "Computational linguist; led Indian-language data collection projects"}
+problem:
+  statement: >-
+    Indian enterprises record huge volumes of calls in many languages but cannot transcribe them accurately,
+    because most speech models are trained on clean, single-language audio.
+  stats:
+    - {claim: "The Eighth Schedule of the Constitution of India lists 22 scheduled languages", source: "Constitution of India, Eighth Schedule", kind: reported}
+    - {claim: "Indian contact centres analyse less than 5% of recorded calls", kind: company_estimate}
+    - {claim: "Code-mixed speech such as Hinglish makes up a large share of customer calls in Indian cities", kind: company_estimate}
+solution:
+  summary: Speech models trained on real Indian telephony audio, offered as an API or deployed on-premise.
+  bullets:
+    - "Streaming and batch speech-to-text for 22 Indian languages and code-mixed speech"
+    - "Models tuned for 8 kHz call audio, accents and background noise"
+    - "Speaker separation, timestamps and redaction of personal data"
+    - "On-premise deployment for banks and other regulated customers"
+market:
+  tam: {value: 3800, unit: INR crore, year: 2025, scope: "Speech recognition and voice-AI software in India", kind: company_estimate}
+  tam_forecast: {value: 11000, unit: INR crore, year: 2030, scope: "Speech recognition and voice-AI software in India", kind: company_forecast}
+  cagr: {value: 23.7, unit: "%", period: "2025-2030", scope: "Speech recognition and voice-AI software in India", kind: company_forecast}
+  sam: {value: 1100, unit: INR crore, year: 2025, scope: "Enterprise telephony and media transcription in Indian languages", kind: company_estimate}
+  som: {value: 85, unit: INR crore, year: 2029, scope: 3-year obtainable share of SAM, kind: company_forecast}
+business_model:
+  streams:
+    - {name: API usage, price_inr: 0.55, per: minute, share_pct: 69, description: Blended rate across volume tiers}
+    - {name: On-premise licence, price_inr: 3000000, per: year, share_pct: 31, description: "Starting price; for banks and regulated customers"}
+  notes: ["Gross margin 68% after GPU compute"]
+unit_economics:
+  cac_inr: 400000
+  payback_months: 11.5
+  gross_margin_pct: 68
+  nrr_pct: 138
+  monthly_churn_pct: 0.9
+traction:
+  as_of: FY2026
+  customers: 140
+  customer_label: enterprise customers
+  arr: {value: 8.6, unit: INR crore, year: 2026, kind: company_reported}
+  series:
+    metric: ARR
+    unit: INR crore
+    points: [{year: 2023, value: 1.1}, {year: 2024, value: 2.9}, {year: 2025, value: 5.2}, {year: 2026, value: 8.6}]
+  highlights:
+    - "140 enterprise customers, including 6 banks running on-premise"
+    - "About 9 million minutes transcribed every month"
+    - "ARR Rs 8.6 crore in FY2026, up 65% year on year"
+    - "Net revenue retention 138%"
+competitors:
+  - {name: Google Cloud Speech-to-Text, positioning: "Global cloud speech API with Indian-language support"}
+  - {name: Sarvam AI, positioning: "Indian full-stack generative-AI and speech models"}
+  - {name: Reverie Language Technologies, positioning: "Indian-language localisation and speech technology"}
+moat:
+  - 38,000 hours of licensed, labelled telephony audio in 22 languages (company-reported)
+  - On-premise deployments inside banks create long, sticky contracts
+  - Models for code-mixed speech built on proprietary call data
+gtm:
+  channels: [Direct enterprise sales to BFSI and contact centres, Contact-centre software partners, Self-serve developer API]
+  target: Rs 20 crore ARR within 24 months
+round:
+  ask_inr: 450000000
+  pre_money_inr: 2400000000
+  min_raise_pct: 60
+  use_of_funds:
+    - {category: R&D & compute, pct: 40}
+    - {category: Sales, pct: 25}
+    - {category: Data acquisition, pct: 20}
+    - {category: General & administrative, pct: 15}
+  tranches:
+    - {pct: 40, title: Round close}
+    - {pct: 30, title: "Rs 15 crore ARR", criteria: "ARR of Rs 15 crore", due_days: 365}
+    - {pct: 30, title: Speech translation launch, criteria: "Real-time speech translation API live with 20 paying customers", due_days: 540}
+risks:
+  - Large cloud providers can undercut on price
+  - Open-source Indic speech models may commoditise accuracy
+  - GPU costs and availability affect margins
+  - Revenue concentrated in BFSI customers
+deck:
+  palette: deeptech
+evaluation_expectations:
+  score_band: [6.5, 8.5]
+  recommendation_in: [Buy, Strong Buy]
+  must_flag: []

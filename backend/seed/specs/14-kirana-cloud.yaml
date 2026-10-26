@@ -1,0 +1,105 @@
+schema: aura.seed.startup/v1
+slug: kirana-cloud
+name: Kirana Cloud
+legal_name: Kirana Cloud Private Limited
+domain: B2B SaaS
+sub_domain: Retail software for kirana stores
+stage: seed
+hq: {city: Kolkata, state: West Bengal}
+founded_year: 2022
+one_liner: Billing, inventory and customer-credit (udhaar) ledger in one Android app for kirana stores
+description: >-
+  Kirana Cloud gives neighbourhood grocery stores an Android app in Bengali, Hindi and English for billing, stock
+  tracking with barcode scanning and a customer-credit ledger that sends UPI payment reminders. 14,200 stores
+  use it and 3,900 pay Rs 299 a month, for an ARR of Rs 1.4 crore across Kolkata, Howrah, Siliguri, Patna and Ranchi.
+founder_account: {email: founder@kirana-cloud.demo, name: Debjani}
+mca:
+  cin: U62099WB2022PTC254913
+  registry:
+    status: ACTIVE
+    registered_name: KIRANA CLOUD PRIVATE LIMITED
+    directors: [Debjani Sen, Arnab Chatterjee, Mohit Agarwal]
+    incorporation_year: 2022
+    state: West Bengal
+team:
+  - {name: Debjani Sen, role: "Co-founder & CEO", background: "8 years in FMCG sales managing general-trade distributors"}
+  - {name: Arnab Chatterjee, role: "Co-founder & CTO", background: "Android engineer; built offline-first apps for field sales teams"}
+  - {name: Mohit Agarwal, role: "Co-founder, Growth", background: "Grew up in his family's wholesale business in Kolkata's Burrabazar"}
+problem:
+  statement: >-
+    Kirana owners run the shop from memory and a paper bahi-khata, so they lose track of stock and of credit given
+    to customers, which ties up working capital.
+  stats:
+    - {claim: "Most kirana stores still track customer credit in a paper ledger", kind: company_estimate}
+    - {claim: "Unpaid customer credit ties up 10-20% of a typical store's working capital", kind: company_estimate}
+    - {claim: "Stock-outs of fast-moving items cost stores sales every day", kind: company_estimate}
+solution:
+  summary: One simple app for billing, stock and credit, built for a shopkeeper's phone and language.
+  bullets:
+    - "Billing with barcode scanning and printed or WhatsApp bills"
+    - "Stock tracking with low-stock alerts and reorder lists"
+    - "Udhaar ledger with automatic UPI payment reminders to customers"
+    - "Works offline; Bengali, Hindi and English"
+market:
+  tam: {value: 6000, unit: INR crore, year: 2025, scope: "Software spend potential of India's kirana stores", kind: company_estimate}
+  sam: {value: 750, unit: INR crore, year: 2025, scope: "Kirana stores in East and North India with an Android phone and UPI", kind: company_estimate}
+  som: {value: 25, unit: INR crore, year: 2029, scope: 3-year obtainable share of SAM, kind: company_forecast}
+business_model:
+  streams:
+    - {name: Store subscription, price_inr: 299, per: month, share_pct: 100}
+    - {name: Distributor ordering, per: transaction, description: "Pilot since 2026; about 1% commission on orders, not yet material"}
+  notes: ["Gross margin 84%", "Free plan for billing only; paid plan adds inventory and the credit ledger"]
+unit_economics:
+  cac_inr: 850
+  payback_months: 3.4
+  gross_margin_pct: 84
+  monthly_churn_pct: 3.2
+  other: ["Free-to-paid conversion 27%", "Rs 38 crore of customer credit tracked every month across stores"]
+traction:
+  as_of: FY2026
+  customers: 3900
+  customer_label: paying stores
+  arr: {value: 1.4, unit: INR crore, year: 2026, kind: company_reported}
+  series:
+    metric: ARR
+    unit: INR crore
+    points: [{year: 2024, value: 0.3}, {year: 2025, value: 0.8}, {year: 2026, value: 1.4}]
+  highlights:
+    - "14,200 active stores; 3,900 paying Rs 299 a month"
+    - "ARR Rs 1.4 crore in FY2026, up from Rs 0.8 crore"
+    - "Monthly churn 3.2% among paying stores"
+    - "Live in Kolkata, Howrah, Siliguri, Patna and Ranchi"
+competitors:
+  - {name: Khatabook, positioning: "Digital credit ledger and billing app for small merchants"}
+  - {name: Vyapar, positioning: "Billing, inventory and accounting app for small businesses"}
+  - {name: Paper bahi-khata, positioning: "Free, familiar and still the default"}
+moat:
+  - Credit-ledger data creates switching costs for stores and their customers
+  - Field network of 60 local agents in East India
+gtm:
+  channels: [Local field agents, FMCG distributor partnerships, Store-to-store referrals]
+  target: 12,000 paying stores within 24 months
+round:
+  ask_inr: 80000000
+  pre_money_inr: 450000000
+  min_raise_pct: 60
+  use_of_funds:
+    - {category: Field sales, pct: 40}
+    - {category: Product, pct: 30}
+    - {category: Marketing, pct: 15}
+    - {category: General & administrative, pct: 15}
+  tranches:
+    - {pct: 40, title: Round close}
+    - {pct: 30, title: "8,000 paying stores", criteria: "8,000 paying stores", due_days: 300}
+    - {pct: 30, title: "Rs 3.5 crore ARR", criteria: "ARR of Rs 3.5 crore", due_days: 600}
+risks:
+  - Low willingness to pay among small stores
+  - Free ledger and billing apps compete on price
+  - Field-sales costs may rise outside East India
+  - Revenue concentrated in one region
+deck:
+  palette: saas
+evaluation_expectations:
+  score_band: [5.0, 7.5]
+  recommendation_in: [Hold, Buy]
+  must_flag: []

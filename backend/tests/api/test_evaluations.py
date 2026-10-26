@@ -2,7 +2,7 @@
 
 import asyncio
 import time
-from unittest.mock import patch
+from unittest.mock import AsyncMock, patch
 
 from aura.core.db import read_session, write_tx
 from aura.core.jobs import cancel, start_job
@@ -64,7 +64,9 @@ def test_run_publish_and_read_by_plan(client):
     with write_tx() as s:
         s.add(Document(startup_id=startup_id, filename="deck.pdf", mime="application/pdf", size_bytes=1,
                        sha256="0" * 64, storage_dir="x", status="ready"))
-    published = client.post(f"{base}/publish")
+    with patch("aura.api.routes.startups.profiles.index_startup", AsyncMock()) as index:
+        published = client.post(f"{base}/publish")
+    index.assert_awaited_once_with(startup_id)
     assert published.status_code == 200, published.text
     assert published.json()["ai_score"] == 6.8 and published.json()["recommendation"] == "Buy"
 

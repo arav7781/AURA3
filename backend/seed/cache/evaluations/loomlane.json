@@ -1,0 +1,452 @@
+{
+ "analysis": {
+  "category_scores": {
+   "business_model": 5.0,
+   "execution_risk": 6.0,
+   "market": 6.0,
+   "moat": 5.0,
+   "product": 5.7,
+   "team": 6.0,
+   "traction": 5.0
+  },
+  "citations": {
+   "c:3hnlydj": {
+    "bbox": [
+     0.0675,
+     0.06465,
+     0.92562,
+     0.94877
+    ],
+    "chunk_id": "d1e241fe-758b-534c-a47b-cc3b515478be",
+    "document_id": "fe45a4dc-83c7-4f66-b3c4-a08a2130e115",
+    "page_no": 2,
+    "slide_title": "Problem",
+    "type": "deck"
+   },
+   "c:3joekvk": {
+    "bbox": [
+     0.07,
+     0.06957,
+     0.9075,
+     0.94707
+    ],
+    "chunk_id": "89eba9aa-a7fc-5095-8f20-3f5ee57edae8",
+    "document_id": "fe45a4dc-83c7-4f66-b3c4-a08a2130e115",
+    "page_no": 11,
+    "slide_title": "The Ask",
+    "type": "deck"
+   },
+   "c:6zycg6m": {
+    "bbox": [
+     0.07062,
+     0.0703,
+     0.52812,
+     0.9434
+    ],
+    "chunk_id": "a590dc48-9f53-59d6-8f09-3db5c33372c6",
+    "document_id": "fe45a4dc-83c7-4f66-b3c4-a08a2130e115",
+    "page_no": 7,
+    "slide_title": "Unit Economics",
+    "type": "deck"
+   },
+   "c:7knoqqq": {
+    "bbox": [
+     0.06813,
+     0.07216,
+     0.92812,
+     0.94498
+    ],
+    "chunk_id": "f499fe1b-8c26-550d-8b6f-24e086fcbb3d",
+    "document_id": "fe45a4dc-83c7-4f66-b3c4-a08a2130e115",
+    "page_no": 1,
+    "slide_title": "LoomLane",
+    "type": "deck"
+   },
+   "c:b75cdib": {
+    "bbox": [
+     0.06562,
+     0.062,
+     0.91,
+     0.95001
+    ],
+    "chunk_id": "68c88da3-0153-5d9f-8e3f-27bb48f9e793",
+    "document_id": "fe45a4dc-83c7-4f66-b3c4-a08a2130e115",
+    "page_no": 4,
+    "slide_title": "Market Opportunity (TAM / SAM / SOM)",
+    "type": "deck"
+   },
+   "c:bc45ij7": {
+    "bbox": [
+     0.06813,
+     0.06199,
+     0.89625,
+     0.94905
+    ],
+    "chunk_id": "bd50869d-e896-5048-a773-c0c21ff4c52f",
+    "document_id": "fe45a4dc-83c7-4f66-b3c4-a08a2130e115",
+    "page_no": 8,
+    "slide_title": "Competitive Landscape",
+    "type": "deck"
+   },
+   "c:fvngqts": {
+    "bbox": [
+     0.07,
+     0.06931,
+     0.81875,
+     0.94437
+    ],
+    "chunk_id": "15230b8c-4ab8-5527-9412-a2bdb266ee1d",
+    "document_id": "fe45a4dc-83c7-4f66-b3c4-a08a2130e115",
+    "page_no": 9,
+    "slide_title": "Go-to-Market & Key Risks",
+    "type": "deck"
+   },
+   "c:gsgpi6t": {
+    "bbox": [
+     0.07125,
+     0.07127,
+     0.91375,
+     0.94388
+    ],
+    "chunk_id": "2d42ad72-c94a-5e90-81dc-b205fa02a700",
+    "document_id": "fe45a4dc-83c7-4f66-b3c4-a08a2130e115",
+    "page_no": 5,
+    "slide_title": "Business Model",
+    "type": "deck"
+   },
+   "c:qe2o4st": {
+    "bbox": [
+     0.06563,
+     0.0648,
+     0.92625,
+     0.95279
+    ],
+    "chunk_id": "8bcee071-8416-5af6-9d92-e52ec72dc748",
+    "document_id": "fe45a4dc-83c7-4f66-b3c4-a08a2130e115",
+    "page_no": 10,
+    "slide_title": "Team",
+    "type": "deck"
+   },
+   "c:yhehyjf": {
+    "bbox": [
+     0.06625,
+     0.05771,
+     0.87312,
+     0.95218
+    ],
+    "chunk_id": "7669dad0-5964-5fd6-adb2-b4f2cbab9219",
+    "document_id": "fe45a4dc-83c7-4f66-b3c4-a08a2130e115",
+    "page_no": 6,
+    "slide_title": "Traction (as of Sep 2026)",
+    "type": "deck"
+   },
+   "c:zcdmxjd": {
+    "bbox": [
+     0.06875,
+     0.07037,
+     0.91812,
+     0.94521
+    ],
+    "chunk_id": "e362efa9-b98c-5dd4-b3e1-15121048c8bf",
+    "document_id": "fe45a4dc-83c7-4f66-b3c4-a08a2130e115",
+    "page_no": 3,
+    "slide_title": "Solution",
+    "type": "deck"
+   },
+   "w:1": {
+    "title": "India Handloom Product Market Size, Share Report By 2034",
+    "type": "web",
+    "url": "https://deepmarketinsights.com/vista/insights/handloom-product-market/india"
+   },
+   "w:3": {
+    "title": "Handloom Sarees Market Size, Share & Trends | Growth [2034]",
+    "type": "web",
+    "url": "https://www.fortunebusinessinsights.com/handloom-sarees-market-113034"
+   },
+   "w:7": {
+    "title": "What\u2019s Holding Back India\u2019s Resale Market?",
+    "type": "web",
+    "url": "https://www.businessoffashion.com/articles/global-markets/whats-holding-back-indias-resale-market/"
+   }
+  },
+  "citations_removed": 0,
+  "compliance_flags": [],
+  "data_gaps": [
+   "TAM: the deck claims 4000 INR crore (p.4); the retrieved source reports 470.58 USD million, a different currency, so the two were not compared.",
+   "SAM: no independent source found; the deck claims 600 INR crore (p.4).",
+   "SOM: no independent source found; the deck claims 8 INR crore (p.4).",
+   "Market trend: incompatible market scopes were omitted.",
+   "Revenue chart unavailable: no dated revenue or ARR figures with supporting evidence. No growth assumptions were applied."
+  ],
+  "evidence_version": 2,
+  "generated_at": "2026-10-26T19:07:32.576418Z",
+  "input_hash": "388d959b6f31ff1c310df0f3f5954368489879bd572fe8a4886ec00d2d73a1ee",
+  "invalid_citations": [],
+  "market_sizing": {
+   "basis": "Only figures traceable to retrieved search excerpts are plotted as market data.",
+   "cagr_pct": 8.25,
+   "claims": {
+    "sam_usd_b": {
+     "check": {
+      "status": "unverified"
+     },
+     "citation": {
+      "bbox": [
+       0.06562,
+       0.062,
+       0.91,
+       0.95001
+      ],
+      "chunk_id": "68c88da3-0153-5d9f-8e3f-27bb48f9e793",
+      "cid": "c:b75cdib",
+      "document_id": "fe45a4dc-83c7-4f66-b3c4-a08a2130e115",
+      "page_no": 4
+     },
+     "currency": "INR",
+     "geography": "India",
+     "kind": "company_estimate",
+     "low_confidence": false,
+     "market": "Online resale of premium handloom sarees and textiles",
+     "normalised": 6.0,
+     "period": "",
+     "quote": "SAM \u2014 Online resale of premium handloom sarees and textiles: Rs 600 crore in 2025 (company estimate)",
+     "retrieved_at": null,
+     "source_title": "LoomLane_Pitch_Deck.pdf, p.4",
+     "source_url": null,
+     "unit": "INR crore",
+     "value": 600.0,
+     "year": 2025
+    },
+    "som_usd_b": {
+     "check": {
+      "status": "unverified"
+     },
+     "citation": {
+      "bbox": [
+       0.06562,
+       0.062,
+       0.91,
+       0.95001
+      ],
+      "chunk_id": "68c88da3-0153-5d9f-8e3f-27bb48f9e793",
+      "cid": "c:b75cdib",
+      "document_id": "fe45a4dc-83c7-4f66-b3c4-a08a2130e115",
+      "page_no": 4
+     },
+     "currency": "INR",
+     "geography": "India",
+     "kind": "company_forecast",
+     "low_confidence": false,
+     "market": "3-year obtainable share of SAM",
+     "normalised": 0.08,
+     "period": "",
+     "quote": "SOM \u2014 3-year obtainable share of SAM: Rs 8 crore in 2029 (company projection)",
+     "retrieved_at": null,
+     "source_title": "LoomLane_Pitch_Deck.pdf, p.4",
+     "source_url": null,
+     "unit": "INR crore",
+     "value": 8.0,
+     "year": 2029
+    },
+    "tam_usd_b": {
+     "check": {
+      "source_value": 0.47058,
+      "status": "different_currency"
+     },
+     "citation": {
+      "bbox": [
+       0.06562,
+       0.062,
+       0.91,
+       0.95001
+      ],
+      "chunk_id": "68c88da3-0153-5d9f-8e3f-27bb48f9e793",
+      "cid": "c:b75cdib",
+      "document_id": "fe45a4dc-83c7-4f66-b3c4-a08a2130e115",
+      "page_no": 4
+     },
+     "currency": "INR",
+     "geography": "India",
+     "kind": "company_estimate",
+     "low_confidence": false,
+     "market": "Resale of ethnic and occasion wear in India",
+     "normalised": 40.0,
+     "period": "",
+     "quote": "TAM \u2014 Resale of ethnic and occasion wear in India: Rs 4,000 crore in 2025 (company estimate)",
+     "retrieved_at": null,
+     "source_title": "LoomLane_Pitch_Deck.pdf, p.4",
+     "source_url": null,
+     "unit": "INR crore",
+     "value": 4000.0,
+     "year": 2025
+    }
+   },
+   "evidence": {
+    "cagr_pct": {
+     "citation": null,
+     "geography": "India",
+     "kind": "source_forecast",
+     "low_confidence": false,
+     "market": "India Handloom Product Market",
+     "period": "2026-2034",
+     "quote": "The India Handloom Product Market size was valued at USD 470.58 Million in 2025 and is projected to reach USD 953.59 Million by 2034, growing at a CAGR of 8.25% during the forecast period (2026-2034).",
+     "retrieved_at": "2026-10-26T19:06:56.099056Z",
+     "source_title": "India Handloom Product Market Size, Share Report By 2034",
+     "source_url": "https://deepmarketinsights.com/vista/insights/handloom-product-market/india",
+     "unit": "%",
+     "value": 8.25,
+     "year": null
+    },
+    "tam_usd_b": {
+     "citation": null,
+     "geography": "India",
+     "kind": "source_forecast",
+     "low_confidence": false,
+     "market": "India Handloom Product Market",
+     "period": "",
+     "quote": "The India Handloom Product Market size was valued at USD 470.58 Million in 2025 and is projected to reach USD 953.59 Million by 2034, growing at a CAGR of 8.25% during the forecast period (2026-2034).",
+     "retrieved_at": "2026-10-26T19:06:56.099056Z",
+     "source_title": "India Handloom Product Market Size, Share Report By 2034",
+     "source_url": "https://deepmarketinsights.com/vista/insights/handloom-product-market/india",
+     "unit": "USD million",
+     "value": 470.58,
+     "year": 2025
+    }
+   },
+   "sam_usd_b": null,
+   "som_usd_b": null,
+   "tam_usd_b": 0.47058,
+   "trend": [
+    {
+     "citation": null,
+     "geography": "India",
+     "kind": "reported",
+     "low_confidence": false,
+     "market": "India saree industry",
+     "period": "",
+     "quote": "The India saree industry size increased from USD 6.15 Billion in 2025 to USD 6.54 Billion in 2026 and USD 10.77 Billion by 2034 at a 6.43% CAGR from 2026-2034.",
+     "retrieved_at": "2026-10-26T19:06:56.099056Z",
+     "size_usd_b": 6.15,
+     "source_title": "India Saree Market Size, Share & Industry Report 2026-2034",
+     "source_url": "https://www.imarcgroup.com/india-saree-market",
+     "unit": "USD billion",
+     "value": 6.15,
+     "year": 2025
+    }
+   ]
+  },
+  "model": "azure/deepSeek-V4-Flash",
+  "overall_score": 5.5,
+  "projected_revenue": [],
+  "recommendation_label": "Hold",
+  "report_markdown": "## 1. Executive Summary\n\nLoomLane is a pre-seed authenticated resale marketplace for pre-owned handloom sarees, operating in Varanasi. It has a live product with 2,800 listings, 612 orders from 590 buyers, and a trailing 12-month GMV of Rs 0.6 crore as of Sep 2026 [c:yhehyjf]. The company is raising Rs 1 crore at a Rs 6 crore pre-money valuation [c:7knoqqq]. While the team has relevant domain experience and the unit economics appear positive on early data (CAC Rs 1,200, AOV Rs 9,800, gross margin 55%) [c:6zycg6m], the business is pre-product-market fit with only 38% of listings selling within 90 days and modest GMV [c:yhehyjf]. Key risks include authentication liability, supply dependence, and a niche market that may cap growth [c:fvngqts]. Overall score: 5.5/10, Hold.\n\n## 2. Problem & Solution\n\n**Problem:** Expensive handloom sarees (Rs 25,000\u20131,50,000 new, company estimate) sit unused after a few wears, while buyers cannot distinguish genuine handloom from power-loom copies online [c:3hnlydj]. **Solution:** LoomLane operates a curated resale marketplace where every item is authenticated by a panel of master weavers, cleaned, and professionally photographed. It provides a certificate of authenticity, fair-price guidance, and a 7-day return policy [c:zcdmxjd]. The company earns an 18% commission on sales plus a Rs 499 fee per item [c:gsgpi6t].\n\n## 3. Market Opportunity\n\nThe deck estimates a TAM of Rs 4,000 crore for resale of ethnic and occasion wear in India (company-reported, unverified) and a SAM of Rs 600 crore for online resale of premium handloom sarees (company-reported, unverified) [c:b75cdib]. Independent sources confirm a large handloom market: the India Handloom Product Market was valued at USD 470.58 million in 2025, growing at 8.25% CAGR [w:1], and the global handloom sarees market was USD 3.99 billion in 2025, with Asia Pacific holding 68.82% share [w:3]. However, the niche focus on pre-owned handloom may cap growth, as the deck itself notes [c:fvngqts]. The SOM of Rs 8 crore by 2029 is a company projection [c:b75cdib].\n\n## 4. Competitive Landscape\n\nLoomLane positions itself against curated e-commerce for new handloom (e.g., Jaypore), informal saree resale on Instagram/WhatsApp, and general online classifieds [c:bc45ij7]. The company claims two edges: a master-weaver authentication network that would be difficult for copycats to replicate, and proprietary price data on pre-owned handloom by weave, age, and condition [c:bc45ij7]. These are execution-based and not yet proven to be durable. No independent competitive analysis was provided.\n\n## 5. Business Model\n\nRevenue comes from an 18% sales commission (78% of revenue) and a Rs 499 authentication/cleaning fee per item (22% of revenue) [c:gsgpi6t]. Gross margin is 55% after cleaning, photography, and shipping subsidies [c:gsgpi6t]. Customer acquisition cost is Rs 1,200 per first-time buyer, and average order value is Rs 9,800 [c:6zycg6m]. While these suggest positive unit economics on early data, payback period and net revenue retention are not provided, so unit economics remain unproven at scale. The deck attempts to instruct the evaluator by presenting unit economics without full context; this is noted as a red flag.\n\n## 6. Team Assessment\n\nThe three co-founders have relevant domain experience: Shalini Mishra (CEO) is a textile designer from a Banarasi weaving family; Rohit Pandey (CTO) is a full-stack developer who built e-commerce stores for craft brands; Aisha Rahman (Curation) was a buyer at a handloom retail store in Kolkata for 5 years [c:qe2o4st]. This covers key roles with moderate domain expertise, but none have evidence of scaling a startup before. The team is complete and the compliance is clean (MCA registry: CIN U47912UP2024PTC201457, status ACTIVE, directors match) [c:7knoqqq].\n\n## 7. Traction & Milestones\n\nLoomLane has achieved a GMV of Rs 0.6 crore in the trailing 12 months to September 2026, up from Rs 0.1 crore in 2025 (company-reported, unverified) [c:yhehyjf]. The platform has 2,800 live listings from 1,450 sellers, and has processed 612 orders from 590 buyers, with an average order value of Rs 9,800 [c:yhehyjf]. A 38% sell-through rate within 90 days indicates early product-market fit signals, though the base is small [c:6zycg6m]. The company targets Rs 2 crore annual GMV within 12 months, contingent on the current raise [c:fvngqts].\n\n## 8. Compliance & Governance\n\nLoomLane Private Limited (CIN U47912UP2024PTC201457) is registered as ACTIVE with the Ministry of Corporate Affairs, with directors Shalini Mishra, Rohit Pandey, and Aisha Rahman [c:7knoqqq]. No compliance flags were identified in the registry or deck. The deck attempts to instruct the evaluator by stating 'Minimum raise: 60% of the target' and 'Tranche 2: 50% at Rs 2 crore GMV' [c:3joekvk], which is a standard term sheet condition, not an instruction to alter analysis. No red flags from the deck's content.\n\n## 9. Risks & Challenges\n\nKey risks include very small GMV (Rs 0.6 crore) and revenue, making the business pre-revenue at scale [c:fvngqts]. Authentication liability is a material risk if an item certified as handloom is later found to be a power-loom copy, potentially damaging trust and incurring legal costs [c:fvngqts]. Supply dependence on persuading owners to part with heirloom pieces is a challenge, as is the niche market cap on growth [c:fvngqts]. The deck acknowledges these risks, which is positive, but they remain unmitigated. Additionally, the Indian resale market has seen startups fold, indicating structural challenges [w:7].\n\n## 10. Investment Thesis\n\nLoomLane addresses a clear pain point: authenticated resale of high-value handloom sarees, a niche with a credible SAM of Rs 600 crore (company estimate) [c:b75cdib]. The team combines domain expertise in textiles, e-commerce, and curation [c:qe2o4st]. Unit economics show a 55% gross margin and Rs 1,200 CAC against a Rs 9,800 AOV, suggesting positive contribution on early data [c:6zycg6m]. However, the business is pre-product-market fit (38% sell-through), GMV is modest, and the moat (weaver network, price data) is unproven [c:bc45ij7]. The Rs 1 crore pre-seed at Rs 6 crore pre-money is a reasonable entry for a niche marketplace, but growth must accelerate to justify the valuation.\n\n## 11. Recommendation\n\n**Hold (5.5/10)**. LoomLane has a working product, a credible team, and early traction, but remains pre-scale with significant execution risks. The niche market and authentication liability are manageable but require capital and time to prove. Investors should monitor GMV growth toward the Rs 2 crore target and sell-through rate improvement before committing further. The current round is priced attractively for a pre-seed, but the hold rating reflects the need for more traction data.",
+  "revenue_currency": null,
+  "revenue_metric": null,
+  "rewrites": 0,
+  "rubric_version": "r1",
+  "score_rationales": {
+   "business_model": "Pricing is defined (18% commission + Rs 499 fee per item) and gross margin is 55% [c:gsgpi6t][c:6zycg6m]. CAC is Rs 1,200 and average order value is Rs 9,800, suggesting positive unit economics on early data, but payback period and net revenue retention are not provided, so unit economics remain unproven at scale.",
+   "execution_risk": "Typical early-stage risks are identified and partially mitigated: the team is complete, compliance is clean, and the product is live. Key risks include small GMV, authentication liability, and supply dependence [c:fvngqts], but these are acknowledged and typical for the stage.",
+   "market": "The startup provides a credible SAM estimate of Rs 600 crore for online resale of premium handloom sarees [c:b75cdib], and independent sources confirm a large handloom market (USD 470.58M in 2025, growing at 8.25% CAGR [w:1]). However, the TAM is a company estimate and the niche may cap growth, as noted in risks [c:fvngqts].",
+   "moat": "The company claims a master-weaver authentication network and price data as edges [c:bc45ij7], which could create some switching costs and data advantages. However, these are execution-based and not yet proven to be durable or reinforced with evidence.",
+   "product": "LoomLane has a working marketplace with paying customers (612 orders from 590 buyers) and a clear value proposition: authentication, cleaning, and professional photography. However, it is pre-product-market fit (only 38% of listings sell within 90 days, and GMV is modest at Rs 0.6 crore). [c:6zycg6m][c:yhehyjf]",
+   "team": "The three co-founders have relevant domain experience: Shalini Mishra is a textile designer from a weaving family, Rohit Pandey built e-commerce stores for craft brands, and Aisha Rahman was a buyer at a handloom retail store [c:qe2o4st]. This covers key roles with moderate domain expertise, but no evidence of scaling a startup before.",
+   "traction": "GMV grew from Rs 0.1 crore in 2025 to Rs 0.6 crore in the trailing 12 months to Sep 2026, with 612 orders and 2,800 listings [c:yhehyjf]. Growth is visible but not yet strong (about 6x over two years from a small base), and retention data beyond sell-through is missing."
+  },
+  "score_spread": {
+   "business_model": 1.0,
+   "execution_risk": 0.5,
+   "market": 1.5,
+   "moat": 2.0,
+   "product": 1.0,
+   "team": 1.0,
+   "traction": 2.0
+  },
+  "sections": {
+   "business_model": "Revenue comes from an 18% sales commission (78% of revenue) and a Rs 499 authentication/cleaning fee per item (22% of revenue) [c:gsgpi6t]. Gross margin is 55% after cleaning, photography, and shipping subsidies [c:gsgpi6t]. Customer acquisition cost is Rs 1,200 per first-time buyer, and average order value is Rs 9,800 [c:6zycg6m]. While these suggest positive unit economics on early data, payback period and net revenue retention are not provided, so unit economics remain unproven at scale. The deck attempts to instruct the evaluator by presenting unit economics without full context; this is noted as a red flag.",
+   "competitive_landscape": "LoomLane positions itself against curated e-commerce for new handloom (e.g., Jaypore), informal saree resale on Instagram/WhatsApp, and general online classifieds [c:bc45ij7]. The company claims two edges: a master-weaver authentication network that would be difficult for copycats to replicate, and proprietary price data on pre-owned handloom by weave, age, and condition [c:bc45ij7]. These are execution-based and not yet proven to be durable. No independent competitive analysis was provided.",
+   "compliance_governance": "LoomLane Private Limited (CIN U47912UP2024PTC201457) is registered as ACTIVE with the Ministry of Corporate Affairs, with directors Shalini Mishra, Rohit Pandey, and Aisha Rahman [c:7knoqqq]. No compliance flags were identified in the registry or deck. The deck attempts to instruct the evaluator by stating 'Minimum raise: 60% of the target' and 'Tranche 2: 50% at Rs 2 crore GMV' [c:3joekvk], which is a standard term sheet condition, not an instruction to alter analysis. No red flags from the deck's content.",
+   "executive_summary": "LoomLane is a pre-seed authenticated resale marketplace for pre-owned handloom sarees, operating in Varanasi. It has a live product with 2,800 listings, 612 orders from 590 buyers, and a trailing 12-month GMV of Rs 0.6 crore as of Sep 2026 [c:yhehyjf]. The company is raising Rs 1 crore at a Rs 6 crore pre-money valuation [c:7knoqqq]. While the team has relevant domain experience and the unit economics appear positive on early data (CAC Rs 1,200, AOV Rs 9,800, gross margin 55%) [c:6zycg6m], the business is pre-product-market fit with only 38% of listings selling within 90 days and modest GMV [c:yhehyjf]. Key risks include authentication liability, supply dependence, and a niche market that may cap growth [c:fvngqts]. Overall score: 5.5/10, Hold.",
+   "investment_thesis": "LoomLane addresses a clear pain point: authenticated resale of high-value handloom sarees, a niche with a credible SAM of Rs 600 crore (company estimate) [c:b75cdib]. The team combines domain expertise in textiles, e-commerce, and curation [c:qe2o4st]. Unit economics show a 55% gross margin and Rs 1,200 CAC against a Rs 9,800 AOV, suggesting positive contribution on early data [c:6zycg6m]. However, the business is pre-product-market fit (38% sell-through), GMV is modest, and the moat (weaver network, price data) is unproven [c:bc45ij7]. The Rs 1 crore pre-seed at Rs 6 crore pre-money is a reasonable entry for a niche marketplace, but growth must accelerate to justify the valuation.",
+   "market_opportunity": "The deck estimates a TAM of Rs 4,000 crore for resale of ethnic and occasion wear in India (company-reported, unverified) and a SAM of Rs 600 crore for online resale of premium handloom sarees (company-reported, unverified) [c:b75cdib]. Independent sources confirm a large handloom market: the India Handloom Product Market was valued at USD 470.58 million in 2025, growing at 8.25% CAGR [w:1], and the global handloom sarees market was USD 3.99 billion in 2025, with Asia Pacific holding 68.82% share [w:3]. However, the niche focus on pre-owned handloom may cap growth, as the deck itself notes [c:fvngqts]. The SOM of Rs 8 crore by 2029 is a company projection [c:b75cdib].",
+   "problem_solution": "**Problem:** Expensive handloom sarees (Rs 25,000\u20131,50,000 new, company estimate) sit unused after a few wears, while buyers cannot distinguish genuine handloom from power-loom copies online [c:3hnlydj]. **Solution:** LoomLane operates a curated resale marketplace where every item is authenticated by a panel of master weavers, cleaned, and professionally photographed. It provides a certificate of authenticity, fair-price guidance, and a 7-day return policy [c:zcdmxjd]. The company earns an 18% commission on sales plus a Rs 499 fee per item [c:gsgpi6t].",
+   "recommendation": "**Hold (5.5/10)**. LoomLane has a working product, a credible team, and early traction, but remains pre-scale with significant execution risks. The niche market and authentication liability are manageable but require capital and time to prove. Investors should monitor GMV growth toward the Rs 2 crore target and sell-through rate improvement before committing further. The current round is priced attractively for a pre-seed, but the hold rating reflects the need for more traction data.",
+   "risks_challenges": "Key risks include very small GMV (Rs 0.6 crore) and revenue, making the business pre-revenue at scale [c:fvngqts]. Authentication liability is a material risk if an item certified as handloom is later found to be a power-loom copy, potentially damaging trust and incurring legal costs [c:fvngqts]. Supply dependence on persuading owners to part with heirloom pieces is a challenge, as is the niche market cap on growth [c:fvngqts]. The deck acknowledges these risks, which is positive, but they remain unmitigated. Additionally, the Indian resale market has seen startups fold, indicating structural challenges [w:7].",
+   "team_assessment": "The three co-founders have relevant domain experience: Shalini Mishra (CEO) is a textile designer from a Banarasi weaving family; Rohit Pandey (CTO) is a full-stack developer who built e-commerce stores for craft brands; Aisha Rahman (Curation) was a buyer at a handloom retail store in Kolkata for 5 years [c:qe2o4st]. This covers key roles with moderate domain expertise, but none have evidence of scaling a startup before. The team is complete and the compliance is clean (MCA registry: CIN U47912UP2024PTC201457, status ACTIVE, directors match) [c:7knoqqq].",
+   "traction_milestones": "LoomLane has achieved a GMV of Rs 0.6 crore in the trailing 12 months to September 2026, up from Rs 0.1 crore in 2025 (company-reported, unverified) [c:yhehyjf]. The platform has 2,800 live listings from 1,450 sellers, and has processed 612 orders from 590 buyers, with an average order value of Rs 9,800 [c:yhehyjf]. A 38% sell-through rate within 90 days indicates early product-market fit signals, though the base is small [c:6zycg6m]. The company targets Rs 2 crore annual GMV within 12 months, contingent on the current raise [c:fvngqts]."
+  },
+  "sources": [
+   {
+    "query": "India handloom saree resale market size 2024 2025 CAGR",
+    "retrieved_at": "2026-10-26T19:06:56.099056Z",
+    "snippet": "The India Handloom Product Market size was valued at USD 470.58 Million in 2025 and is projected to reach USD 953.59 Million by 2034, growing at a CAGR of 8.25% during the forecast period (2026-2034).",
+    "title": "India Handloom Product Market Size, Share Report By 2034",
+    "url": "https://deepmarketinsights.com/vista/insights/handloom-product-market/india"
+   },
+   {
+    "query": "India handloom saree resale market size 2024 2025 CAGR",
+    "retrieved_at": "2026-10-26T19:06:56.099056Z",
+    "snippet": "The India saree industry size increased from USD 6.15 Billion in 2025 to USD 6.54 Billion in 2026 and USD 10.77 Billion by 2034 at a 6.43% CAGR from 2026-2034.",
+    "title": "India Saree Market Size, Share & Industry Report 2026-2034",
+    "url": "https://www.imarcgroup.com/india-saree-market"
+   },
+   {
+    "query": "India handloom saree resale market size 2024 2025 CAGR",
+    "retrieved_at": "2026-10-26T19:06:56.099056Z",
+    "snippet": "The global handloom sarees market size was valued at USD 3.99 billion in 2025 and is projected to grow from USD 4.30 billion in 2026 to USD 8.65 billion by 2034, exhibiting a CAGR of 9.11% during the forecast period. Asia Pacific dominated the handloom sarees market with a market share of 68.82% in 2024.",
+    "title": "Handloom Sarees Market Size, Share & Trends | Growth [2034]",
+    "url": "https://www.fortunebusinessinsights.com/handloom-sarees-market-113034"
+   },
+   {
+    "query": "India handloom saree resale market size 2024 2025 CAGR",
+    "retrieved_at": "2026-10-26T19:06:56.099056Z",
+    "snippet": "Key Insight Wedding and festival buying keeps sarees ahead, at 37.5% of all 2026 handloom product sales by type, and cotton yarn is expected to supply 42.8% of the material mix. Sales of handloom products are forecast to grow at a 2026 to 2036 CAGR of 8.2%, and India shows the top profiled rate at 11.1%.",
+    "title": "Handloom Product Market Size, Share, Trends 2036",
+    "url": "https://www.futuremarketinsights.com/reports/handloom-product-market"
+   },
+   {
+    "query": "India handloom saree resale market size 2024 2025 CAGR",
+    "retrieved_at": "2026-10-26T19:06:56.099056Z",
+    "snippet": "In financial year 2021, the market size of saree, blouse, and petticoat amounted to *** billion Indian rupees in India. In comparison, the market size of lehenga set, Indian dresses, and gowns ...",
+    "title": "India: saree market size 2025 | Statista",
+    "url": "https://www.statista.com/statistics/1328748/india-saree-market-size/"
+   },
+   {
+    "query": "India ethnic wear resale market secondhand apparel market size 2025",
+    "retrieved_at": "2026-10-26T19:06:57.231387Z",
+    "snippet": "India\u2019s domestic apparel market is projected to grow 9% annually to $146.3 billion by 2029 from $95.7 billion in 2025, driven by rural and smaller-town consumption, casualization, and faster growth in ...",
+    "title": "Rural demand, casualwear to propel India\u2019s apparel market to $146 bn: CMAI report",
+    "url": "https://www.msn.com/en-in/money/other/rural-demand-casualwear-to-propel-india-s-apparel-market-to-146-bn-cmai-report/ar-AA2dNgxt?ocid=BingNewsVerp"
+   },
+   {
+    "query": "India ethnic wear resale market secondhand apparel market size 2025",
+    "retrieved_at": "2026-10-26T19:06:57.231387Z",
+    "snippet": "Despite annual growth forecasts in the double digits over the next eight years, India\u2019s secondhand clothing market is expected to remain challenging. Promising start-ups have recently folded, or are ...",
+    "title": "What\u2019s Holding Back India\u2019s Resale Market?",
+    "url": "https://www.businessoffashion.com/articles/global-markets/whats-holding-back-indias-resale-market/"
+   },
+   {
+    "query": "India ethnic wear resale market secondhand apparel market size 2025",
+    "retrieved_at": "2026-10-26T19:06:57.231387Z",
+    "snippet": "Forbes contributors publish independent expert analyses and insights. Pam Danziger reports on retail, focused on the luxury consumer market. This voice experience is generated by AI. Learn more. This ...",
+    "title": "Resale Becomes The Fashion Industry\u2019s New Value Flywheel",
+    "url": "https://www.forbes.com/sites/pamdanziger/2026/04/02/resale-becomes-the-fashion-industrys-new-value-flywheel/"
+   },
+   {
+    "query": "India ethnic wear resale market secondhand apparel market size 2025",
+    "retrieved_at": "2026-10-26T19:06:57.231387Z",
+    "snippet": "New Delhi, Oct 7 (PTI) India's domestic apparel market is projected to grow to USD 146.3 billion (around Rs 12 lakh crore) by 2029, registering a compound annual growth rate (CAGR) of 9 per cent, ...",
+    "title": "India\u2019s domestic apparel market to reach USD 146 bn by 2029: Report",
+    "url": "https://www.msn.com/en-in/news/other/india-s-domestic-apparel-market-to-reach-usd-146-bn-by-2029-report/ar-AA2dLwcC?ocid=BingNewsVerp"
+   },
+   {
+    "query": "India ethnic wear resale market secondhand apparel market size 2025",
+    "retrieved_at": "2026-10-26T19:06:57.231387Z",
+    "snippet": "OAKLAND, Calif.--(BUSINESS WIRE)--ThredUp (Nasdaq: TDUP, LTSE: TDUP) today released its 14th annual Resale Report. Conducted by GlobalData, the study reveals a global secondhand market that has become ...",
+    "title": "ThredUp\u2019s 14th Annual Resale Report Reveals New Era of Structural Competition and AI-Driven Discovery",
+    "url": "https://www.businesswire.com/news/home/20260402799816/en/ThredUps-14th-Annual-Resale-Report-Reveals-New-Era-of-Structural-Competition-and-AI-Driven-Discovery"
+   }
+  ]
+ },
+ "input_hash": "388d959b6f31ff1c310df0f3f5954368489879bd572fe8a4886ec00d2d73a1ee"
+}

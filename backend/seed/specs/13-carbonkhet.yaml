@@ -1,0 +1,110 @@
+schema: aura.seed.startup/v1
+slug: carbonkhet
+name: CarbonKhet
+legal_name: CarbonKhet Private Limited
+domain: Climate & Energy
+sub_domain: MRV for agricultural carbon credits
+stage: seed
+hq: {city: Bengaluru, state: Karnataka}
+founded_year: 2023
+one_liner: Satellite and soil-sample MRV so regenerative-agriculture projects in India can issue verifiable carbon credits
+description: >-
+  CarbonKhet measures, reports and verifies (MRV) practice changes and soil carbon on enrolled farms (no-till,
+  cover crops, less flooding of rice) using satellite imagery, a farmer app and stratified soil sampling. It sells
+  MRV to carbon project developers at Rs 210 per acre per year and covers 43,000 acres farmed by 16,800 farmers
+  for 3 developers, at an ARR of Rs 0.9 crore.
+founder_account: {email: founder@carbonkhet.demo, name: Ishaan}
+mca:
+  cin: U71200KA2023PTC176531
+  registry:
+    status: ACTIVE
+    registered_name: CARBONKHET PRIVATE LIMITED
+    directors: [Ishaan Bhat, Gayatri Hegde, Rakesh Gowda]
+    incorporation_year: 2023
+    state: Karnataka
+team:
+  - {name: Ishaan Bhat, role: "Co-founder & CEO", background: "Remote-sensing scientist; 7 years building crop and land-use models"}
+  - {name: Gayatri Hegde, role: "Co-founder, Soil Science", background: "PhD in soil science; ran soil-carbon field trials in Karnataka"}
+  - {name: Rakesh Gowda, role: "Co-founder & COO", background: "Built an FPO network of 30,000 farmers in north Karnataka"}
+problem:
+  statement: >-
+    Regenerative-agriculture carbon projects on small Indian farms struggle to issue credits because measuring and
+    verifying soil carbon plot by plot costs more than the credits earn.
+  stats:
+    - {claim: "About 86% of India's agricultural holdings are small or marginal (under 2 hectares)", source: "Agriculture Census 2015-16", kind: reported}
+    - {claim: "Manual soil sampling and lab analysis cost Rs 1,500-3,000 per sample", kind: company_estimate}
+    - {claim: "Soil-carbon credits from smallholder projects sell at a discount because buyers doubt the measurements", kind: company_estimate}
+solution:
+  summary: Remote sensing plus targeted soil sampling cuts MRV cost per acre while producing audit-ready evidence.
+  bullets:
+    - "Satellite detection of tillage, cover crops and rice-field flooding for every enrolled plot"
+    - "Farmer app in Kannada, Telugu and Hindi for practice records and geo-tagged photos"
+    - "Stratified soil sampling: fewer samples, statistically designed"
+    - "Audit-ready data packages for third-party verifiers and registries"
+market:
+  tam: {value: 650, unit: INR crore, year: 2025, scope: "MRV services for agricultural carbon projects in India", kind: company_estimate}
+  tam_forecast: {value: 2400, unit: INR crore, year: 2030, scope: "MRV services for agricultural carbon projects in India", kind: company_forecast}
+  cagr: {value: 29.9, unit: "%", period: "2025-2030", scope: "MRV services for agricultural carbon projects in India", kind: company_forecast}
+  sam: {value: 140, unit: INR crore, year: 2025, scope: "Regenerative-agriculture projects in South and Central India", kind: company_estimate}
+  som: {value: 11, unit: INR crore, year: 2028, scope: 3-year obtainable share of SAM, kind: company_forecast}
+business_model:
+  streams:
+    - {name: MRV subscription, price_inr: 210, per: acre per year, share_pct: 85}
+    - {name: Verification audit support, price_inr: 350000, per: audit, share_pct: 15, description: "Prepares evidence for third-party verifiers"}
+  notes: ["ARR counts only the per-acre MRV subscription", "Gross margin 61% after sampling and imagery costs"]
+unit_economics:
+  cac_inr: 600000
+  payback_months: 3.9
+  gross_margin_pct: 61
+  nrr_pct: 140
+  monthly_churn_pct: 0
+  other: ["CAC and payback measured per project developer", "NRR driven by developers enrolling more acres"]
+traction:
+  as_of: FY2026
+  customers: 3
+  customer_label: project developers
+  arr: {value: 0.9, unit: INR crore, year: 2026, kind: company_reported}
+  series:
+    metric: ARR
+    unit: INR crore
+    points: [{year: 2025, value: 0.25}, {year: 2026, value: 0.9}]
+  highlights:
+    - "43,000 acres and 16,800 farmers under MRV"
+    - "3 paying carbon project developers"
+    - "ARR Rs 0.9 crore in FY2026"
+    - "First credit issuance using CarbonKhet MRV expected in 2027"
+competitors:
+  - {name: Varaha, positioning: "Nature-based carbon project developer in South Asia"}
+  - {name: Boomitra, positioning: "Remote-sensing based soil-carbon measurement"}
+  - {name: Manual sampling by verifiers, positioning: "Traditional plot-by-plot sampling and lab analysis"}
+moat:
+  - Calibration dataset linking satellite signals to 9,000 soil samples from Indian farms
+  - FPO relationships that bring farmers into projects at low cost
+gtm:
+  channels: [Carbon project developers, FPO networks, Agri-input companies running sustainability programmes]
+  target: 150,000 acres under MRV within 24 months
+round:
+  ask_inr: 60000000
+  pre_money_inr: 340000000
+  min_raise_pct: 60
+  use_of_funds:
+    - {category: Science & MRV R&D, pct: 35}
+    - {category: Field operations & sampling, pct: 25}
+    - {category: Sales, pct: 20}
+    - {category: Registry & certification, pct: 10}
+    - {category: General & administrative, pct: 10}
+  tranches:
+    - {pct: 40, title: Round close}
+    - {pct: 30, title: First credits issued, criteria: "First carbon credits issued on a registry using CarbonKhet MRV", due_days: 450}
+    - {pct: 30, title: "150,000 acres", criteria: "150,000 acres under paid MRV", due_days: 540}
+risks:
+  - Voluntary carbon-credit prices and demand are volatile
+  - Registry methodologies may not accept the MRV approach
+  - "Customer concentration: only 3 project developers"
+  - Farmers may abandon practices, reversing carbon gains
+deck:
+  palette: climate
+evaluation_expectations:
+  score_band: [5.0, 7.0]
+  recommendation_in: [Hold, Buy]
+  must_flag: []

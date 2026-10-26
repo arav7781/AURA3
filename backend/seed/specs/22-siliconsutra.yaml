@@ -1,0 +1,99 @@
+schema: aura.seed.startup/v1
+slug: siliconsutra
+name: SiliconSutra
+legal_name: SiliconSutra Private Limited
+domain: Deeptech & AI
+sub_domain: RISC-V edge-AI chips
+stage: pre_seed
+hq: {city: Bengaluru, state: Karnataka}
+founded_year: 2025
+one_liner: Low-power RISC-V vision chip for on-device AI in cameras, drones and factory sensors
+description: >-
+  SiliconSutra is designing a RISC-V system-on-chip with a custom neural-network accelerator that runs object
+  detection on cameras and sensors at under 1 watt. It is pre-revenue: the design runs on an FPGA prototype,
+  three device makers have signed non-binding letters of intent, a multi-project-wafer tape-out is planned for
+  late 2027, and volume production is unlikely before 2029.
+founder_account: {email: founder@siliconsutra.demo, name: Lakshmi}
+mca:
+  cin: U72100KA2025PTC201846
+  registry:
+    status: ACTIVE
+    registered_name: SILICONSUTRA PRIVATE LIMITED
+    directors: [Lakshmi Venkatesan, Rohit Malviya, Priya Ghosh]
+    incorporation_year: 2025
+    state: Karnataka
+team:
+  - {name: Lakshmi Venkatesan, role: "Co-founder & CEO", background: "14 years in chip design at semiconductor multinationals; led two SoC tape-outs"}
+  - {name: Rohit Malviya, role: "Co-founder & CTO", background: "10 years in RTL design and verification of processor cores"}
+  - {name: Priya Ghosh, role: "Co-founder, Software", background: "ML compiler and model-quantisation engineer"}
+problem:
+  statement: >-
+    Indian camera, drone and industrial-sensor makers import their AI chips or send video to the cloud, which is
+    costly, power-hungry and raises supply-chain and privacy risks.
+  stats:
+    - {claim: "Most Indian camera and drone makers rely on imported AI vision chips", kind: company_estimate}
+    - {claim: "Cloud video analytics costs Rs 300-800 per camera per month in bandwidth and compute", kind: company_estimate}
+    - {claim: "Edge-AI modules priced above USD 100 are too costly for mass-market devices", kind: company_estimate}
+solution:
+  summary: An open-ISA vision chip that runs modern detection models on-device at under 1 watt.
+  bullets:
+    - "RISC-V cores plus a custom INT8 neural-network accelerator"
+    - "Runs object detection at 30 frames per second under 1 watt (FPGA-measured, scaled estimate)"
+    - "Compiler toolchain that imports standard PyTorch and ONNX models"
+    - "Target price under USD 12 per chip at volume"
+market:
+  tam: {value: 180, unit: USD million, year: 2025, scope: "Edge-AI vision chips for cameras, drones and industrial sensors sold in India", kind: company_estimate}
+  tam_forecast: {value: 650, unit: USD million, year: 2030, scope: "Edge-AI vision chips for cameras, drones and industrial sensors sold in India", kind: company_forecast}
+  cagr: {value: 29.3, unit: "%", period: "2025-2030", scope: "Edge-AI vision chips sold in India", kind: company_forecast}
+  sam: {value: 70, unit: USD million, year: 2030, scope: "Mid-range smart cameras and drones made in India", kind: company_forecast}
+  som: {value: 6, unit: USD million, year: 2031, scope: Obtainable share of SAM in the first 2 production years, kind: company_forecast}
+business_model:
+  streams:
+    - {name: Chip sales, price_inr: 950, per: unit, description: Target average selling price at volume}
+    - {name: Design services, description: "Custom chip variants for device makers, billed per project"}
+    - {name: SDK and compiler licence, per: year, description: "Toolchain and model zoo for device makers"}
+  notes: ["Pre-revenue; prices are targets, not yet validated by orders", "Fabless model: manufacturing outsourced to foundries"]
+unit_economics:
+  other: ["Pre-revenue: no CAC, margin or churn data yet", "Target gross margin 55% at 1 million units a year", "Multi-project-wafer tape-out estimated at Rs 1.6 crore"]
+traction:
+  as_of: Sep 2026
+  highlights:
+    - "FPGA prototype runs a YOLO-class object-detection model at 30 frames per second"
+    - "Three non-binding letters of intent from Indian camera and drone makers"
+    - "Accelerator RTL about 70% complete; tape-out planned for late 2027"
+    - "Pre-revenue; first revenue expected from design services in 2028"
+competitors:
+  - {name: NVIDIA Jetson, positioning: "High-performance edge-AI modules for robotics and vision"}
+  - {name: Hailo, positioning: "Edge-AI accelerator chips for cameras and devices"}
+  - {name: Mindgrove Technologies, positioning: "Indian RISC-V microcontroller SoCs"}
+moat:
+  - Accelerator architecture co-designed with its compiler for low-power INT8 inference
+  - Team with prior SoC tape-out experience
+gtm:
+  channels: [Direct engagement with Indian camera and drone OEMs, Design partnerships with LOI holders, Government programmes for domestic chip design]
+  target: 2 design wins with production commitments by 2028
+round:
+  ask_inr: 30000000
+  pre_money_inr: 180000000
+  min_raise_pct: 60
+  use_of_funds:
+    - {category: R&D engineering, pct: 50}
+    - {category: EDA tools & IP licences, pct: 25}
+    - {category: FPGA boards & lab, pct: 10}
+    - {category: General & administrative, pct: 15}
+  tranches:
+    - {pct: 40, title: Round close}
+    - {pct: 30, title: RTL freeze, criteria: "Accelerator RTL frozen and verified on FPGA with 2 LOI holders' models", due_days: 270}
+    - {pct: 30, title: Tape-out submitted, criteria: "Multi-project-wafer tape-out submitted to a foundry shuttle", due_days: 420}
+risks:
+  - "Long R&D timeline: no product revenue expected before 2028"
+  - Pre-revenue, with only non-binding letters of intent
+  - First silicon may fail and need a costly re-spin
+  - Needs a much larger follow-on round (or grants) to fund tape-out and production
+  - Competes with well-funded global edge-AI chip vendors
+deck:
+  palette: deeptech
+evaluation_expectations:
+  score_band: [4.0, 6.5]
+  recommendation_in: [Hold, Pass]
+  must_flag: []

@@ -1,0 +1,106 @@
+schema: aura.seed.startup/v1
+slug: portpulse
+name: PortPulse
+legal_name: PortPulse Private Limited
+domain: Logistics & Mobility
+sub_domain: Container visibility for freight forwarders
+stage: series_a
+hq: {city: Mumbai, state: Maharashtra}
+founded_year: 2020
+one_liner: Container tracking and milestone alerts across Indian ports, CFSs and ICDs for freight forwarders
+description: >-
+  PortPulse combines shipping-line, port terminal, CFS and ICD data into one container-visibility dashboard and
+  API for freight forwarders and customs brokers, with predicted ETAs and demurrage and detention alerts. It
+  serves 140 forwarders tracking about 38,000 containers a month, with an ARR of Rs 9.8 crore in FY2026.
+founder_account: {email: founder@portpulse.demo, name: Siddharth}
+mca:
+  cin: U62099MH2020PTC341567
+  registry:
+    status: STRUCK_OFF
+    registered_name: PORTPULSE PRIVATE LIMITED
+    directors: [Siddharth Menon, Farah Qureshi, Vikram Rathod]
+    incorporation_year: 2020
+    state: Maharashtra
+team:
+  - {name: Siddharth Menon, role: "Co-founder & CEO", background: "10 years in ocean freight operations at a global freight forwarder"}
+  - {name: Farah Qureshi, role: "Co-founder & CTO", background: "Data-integration engineer; built EDI pipelines for shipping lines"}
+  - {name: Vikram Rathod, role: "Co-founder & COO", background: "Former licensed customs broker at Nhava Sheva"}
+problem:
+  statement: >-
+    Forwarders track each container across shipping-line sites, terminal portals, CFS emails and phone calls, so
+    delays surface late and demurrage and detention charges pile up.
+  stats:
+    - {claim: "Operations staff at a mid-size forwarder spend 2-3 hours a day chasing container status", kind: company_estimate}
+    - {claim: "Demurrage and detention can add Rs 8,000-25,000 to the cost of a delayed import container", kind: company_estimate}
+    - {claim: "Global visibility platforms cover ocean legs well but miss Indian CFS and ICD milestones", kind: company_estimate}
+solution:
+  summary: One dashboard and API that tracks every container from vessel to ICD, with predicted ETAs and cost alerts.
+  bullets:
+    - "Unified milestones from shipping lines, port terminals, CFSs, ICDs and rail operators"
+    - "Predicted vessel and container ETAs with delay reasons"
+    - "Free-time countdown with demurrage and detention alerts"
+    - "Branded tracking pages and API for the forwarder's own customers"
+market:
+  tam: {value: 2400, unit: INR crore, year: 2025, scope: "Shipment visibility software for Indian freight forwarders, brokers and shippers", kind: company_estimate}
+  sam: {value: 620, unit: INR crore, year: 2025, scope: "Forwarders and customs brokers handling Indian ocean containers", kind: company_estimate}
+  som: {value: 45, unit: INR crore, year: 2029, scope: 3-year obtainable share of SAM, kind: company_forecast}
+business_model:
+  streams:
+    - {name: Per-container tracking fee, price_inr: 180, per: container, share_pct: 84}
+    - {name: Platform subscription, price_inr: 115000, per: year, share_pct: 16, description: Per forwarder; includes seats and API access}
+  notes: ["Gross margin 74%", "Average forwarder tracks about 270 containers a month"]
+unit_economics:
+  cac_inr: 320000
+  payback_months: 7.4
+  gross_margin_pct: 74
+  nrr_pct: 112
+  monthly_churn_pct: 1.2
+traction:
+  as_of: FY2026
+  customers: 140
+  customer_label: freight forwarders
+  arr: {value: 9.8, unit: INR crore, year: 2026, kind: company_reported}
+  series:
+    metric: ARR
+    unit: INR crore
+    points: [{year: 2023, value: 2.1}, {year: 2024, value: 4.4}, {year: 2025, value: 6.9}, {year: 2026, value: 9.8}]
+  highlights:
+    - "140 freight forwarders and customs brokers on paid plans"
+    - "About 38,000 containers tracked every month"
+    - "ARR Rs 9.8 crore in FY2026, up 42% year on year"
+    - "Net revenue retention 112%; monthly logo churn 1.2%"
+competitors:
+  - {name: project44, positioning: "Global supply-chain visibility platform for large shippers"}
+  - {name: FourKites, positioning: "Real-time supply-chain visibility for enterprise shippers"}
+  - {name: GoComet, positioning: "Indian logistics SaaS for freight procurement and shipment tracking"}
+moat:
+  - Data connections to Indian CFS and ICD operators that global platforms lack
+  - ETA models trained on five years of Indian port dwell-time data
+  - Forwarders embed PortPulse tracking pages in their own customer portals
+gtm:
+  channels: [Direct sales to forwarders, Customs broker associations, Freight-forwarding software partners]
+  target: 400 forwarders and Rs 25 crore ARR within 24 months
+round:
+  ask_inr: 300000000
+  pre_money_inr: 1500000000
+  min_raise_pct: 60
+  use_of_funds:
+    - {category: Product & data, pct: 35}
+    - {category: Sales & expansion, pct: 30}
+    - {category: Data partnerships, pct: 15}
+    - {category: Customer success, pct: 10}
+    - {category: General & administrative, pct: 10}
+  tranches:
+    - {pct: 40, title: Round close}
+    - {pct: 30, title: "Rs 15 crore ARR", criteria: "ARR of Rs 15 crore", due_days: 365}
+    - {pct: 30, title: Air cargo launch, criteria: "Air-freight tracking live with 40 paying forwarders", due_days: 540}
+risks:
+  - Depends on third-party data feeds that terminals and lines can restrict
+  - Freight-rate cycles squeeze forwarders' software budgets
+  - Global visibility platforms could add Indian CFS and ICD coverage
+deck:
+  palette: logistics
+evaluation_expectations:
+  score_band: [2.0, 5.5]
+  recommendation_in: [Pass, Hold]
+  must_flag: [COMPANY_STATUS_STRUCK_OFF]

@@ -1,0 +1,108 @@
+schema: aura.seed.startup/v1
+slug: suraksha-insure
+name: Suraksha Insure
+legal_name: Suraksha Insure Private Limited
+domain: Insurtech
+sub_domain: Embedded micro-insurance for gig workers
+stage: seed
+hq: {city: Mumbai, state: Maharashtra}
+founded_year: 2024
+one_liner: Per-shift accident and income cover for gig workers that switches on automatically when they log in
+description: >-
+  Suraksha Insure embeds micro-insurance into gig platforms: when a delivery or ride-hailing worker starts a
+  shift, accident, hospital-cash and lost-income cover switches on for Rs 2-4 a shift, underwritten by licensed
+  general insurers. It covers 52,000 active workers through 6 platform partners, with annualised gross written
+  premium of Rs 4.6 crore and an ARR of Rs 1.0 crore from commissions and platform fees.
+founder_account: {email: founder@suraksha-insure.demo, name: Aniket}
+mca:
+  cin: U66220MH2024PTC429871
+  registry:
+    status: ACTIVE
+    registered_name: RAKSHA DIGITAL SERVICES PRIVATE LIMITED
+    directors: [Aniket Sawant, Revathi Krishnan, Nikhil Joshi]
+    incorporation_year: 2024
+    state: Maharashtra
+team:
+  - {name: Aniket Sawant, role: "Co-founder & CEO", background: "Product manager for driver and rider safety at a ride-hailing platform"}
+  - {name: Revathi Krishnan, role: "Co-founder, Insurance & Actuarial", background: "7 years as an actuarial analyst at a general insurer"}
+  - {name: Nikhil Joshi, role: "Co-founder & CTO", background: "Built claims-automation systems at an insurtech"}
+problem:
+  statement: >-
+    Gig workers face daily accident and income risks but have almost no insurance, because annual policies are
+    unaffordable upfront and not designed for shift-based work.
+  stats:
+    - {claim: "India had an estimated 7.7 million gig workers in 2020-21", source: "NITI Aayog, India's Booming Gig and Platform Economy (2022)", kind: reported}
+    - {claim: "The gig workforce is projected to reach 23.5 million by 2029-30", source: "NITI Aayog, India's Booming Gig and Platform Economy (2022)", kind: source_forecast}
+    - {claim: "Most delivery and ride-hailing workers have no accident or income-loss cover of their own", kind: company_estimate}
+solution:
+  summary: Pay-per-shift cover embedded in the platform's app, with instant enrolment and fast claims.
+  bullets:
+    - "Cover switches on when a worker logs in and off when the shift ends"
+    - "Accident, hospital-cash and lost-income cover for Rs 2-4 a shift"
+    - "Premium deducted from earnings or co-paid by the platform"
+    - "Claims filed in the app in Hindi, Marathi, Tamil or English; median settlement 3.5 days"
+market:
+  tam: {value: 1900, unit: INR crore, year: 2025, scope: "Annual micro-insurance premium potential from India's gig and platform workers", kind: company_estimate}
+  sam: {value: 420, unit: INR crore, year: 2025, scope: "Delivery and ride-hailing workers on large platforms", kind: company_estimate}
+  som: {value: 25, unit: INR crore, year: 2029, scope: "3-year obtainable share of SAM (gross written premium)", kind: company_forecast}
+business_model:
+  streams:
+    - {name: Distribution commission, per: transaction, share_pct: 90, description: "About 19% of the Rs 2-4 per-shift premium, paid by the insurer"}
+    - {name: Platform integration fee, price_inr: 14000, per: month, share_pct: 10, description: Per platform partner}
+  notes: ["Insurers carry the risk; Suraksha earns commissions and fees", "Gross margin 70% after claims-servicing costs"]
+unit_economics:
+  cac_inr: 45
+  payback_months: 4.5
+  gross_margin_pct: 70
+  monthly_churn_pct: 9.5
+  ltv_inr: 106
+  other: ["CAC, payback and LTV measured per insured worker", "Claims ratio 54% of premium (company-reported)"]
+traction:
+  as_of: Sep 2026
+  customers: 52000
+  customer_label: active insured workers
+  arr: {value: 1.0, unit: INR crore, year: 2026, kind: company_reported}
+  series:
+    metric: ARR
+    unit: INR crore
+    points: [{year: 2025, value: 0.2}, {year: 2026, value: 1.0}]
+  highlights:
+    - "52,000 active insured gig workers through 6 platform partners"
+    - "Annualised gross written premium Rs 4.6 crore"
+    - "ARR Rs 1.0 crore (Sep 2026)"
+    - "1,380 claims paid; median settlement 3.5 days"
+competitors:
+  - {name: Acko, positioning: "Digital general insurer with embedded micro-covers"}
+  - {name: Go Digit, positioning: "Digital general insurer selling through partners"}
+  - {name: Platform-provided group covers, positioning: "Basic accident cover bought by platforms for their workers"}
+moat:
+  - Per-shift pricing and claims data across 52,000 workers
+  - Deep integrations into partner platforms' onboarding and payout flows
+gtm:
+  channels: [Gig and delivery platforms, Fleet and staffing aggregators, Worker associations]
+  target: 200,000 active insured workers within 24 months
+round:
+  ask_inr: 50000000
+  pre_money_inr: 280000000
+  min_raise_pct: 60
+  use_of_funds:
+    - {category: Platform integrations, pct: 30}
+    - {category: Claims & operations technology, pct: 25}
+    - {category: Partnerships & sales, pct: 25}
+    - {category: Compliance, pct: 10}
+    - {category: General & administrative, pct: 10}
+  tranches:
+    - {pct: 40, title: Round close}
+    - {pct: 30, title: "150,000 insured workers", criteria: "150,000 active insured workers", due_days: 300}
+    - {pct: 30, title: "Rs 3 crore ARR", criteria: "ARR of Rs 3 crore", due_days: 600}
+risks:
+  - IRDAI rules on commissions and embedded insurance may change
+  - "Depends on 6 platform partners; the largest brings 41% of insured workers"
+  - High worker churn (9.5% a month)
+  - Claims fraud is a risk in short, per-shift covers
+deck:
+  palette: insurtech
+evaluation_expectations:
+  score_band: [4.0, 7.0]
+  recommendation_in: [Hold, Buy, Pass]
+  must_flag: [NAME_MISMATCH]

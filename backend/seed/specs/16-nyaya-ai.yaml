@@ -1,0 +1,106 @@
+schema: aura.seed.startup/v1
+slug: nyaya-ai
+name: Nyaya AI
+legal_name: Nyaya AI Private Limited
+domain: B2B SaaS
+sub_domain: Legal AI for contract review
+stage: seed
+hq: {city: New Delhi, state: Delhi}
+founded_year: 2024
+one_liner: AI contract review tuned to Indian law, for mid-size law firms and their corporate clients
+description: >-
+  Nyaya AI reviews commercial contracts against a firm's own playbooks and Indian law, such as the Indian
+  Contract Act, 1872 and state stamp laws, flags risky clauses and drafts redlines inside Microsoft Word. 38 law
+  firms pay for 330 lawyer seats at Rs 2,400 a seat per month, for an ARR of Rs 0.95 crore.
+founder_account: {email: founder@nyaya-ai.demo, name: Tanvi}
+mca:
+  cin: U62099DL2024PTC428615
+  registry:
+    status: ACTIVE
+    registered_name: NYAYA AI PRIVATE LIMITED
+    directors: [Tanvi Agarwal, Rajat Bhardwaj, Sana Mirza]
+    incorporation_year: 2024
+    state: Delhi
+team:
+  - {name: Tanvi Agarwal, role: "Co-founder & CEO", background: "7 years as an M&A associate at a large Indian law firm"}
+  - {name: Rajat Bhardwaj, role: "Co-founder & CTO", background: "NLP engineer; built document-understanding models for banks"}
+  - {name: Sana Mirza, role: "Co-founder, Legal Knowledge", background: "LL.M.; built clause libraries for a legal publisher"}
+problem:
+  statement: >-
+    Junior lawyers spend most of their time on first-pass contract review, and global legal-AI tools miss
+    India-specific issues such as stamp duty and enforceability.
+  stats:
+    - {claim: "Junior associates spend 40-60% of their time on first-pass contract review", kind: company_estimate}
+    - {claim: "Global legal-AI tools are trained mostly on US and UK law", kind: company_estimate}
+    - {claim: "Mid-size firms bill fixed fees for routine contracts, so review time comes out of their margin", kind: company_estimate}
+solution:
+  summary: An India-first contract-review copilot that applies each firm's playbook and drafts redlines.
+  bullets:
+    - "Clause extraction and risk flags against firm-specific playbooks"
+    - "Checks for Indian-law issues: stamp duty, governing law, enforceability, arbitration seats"
+    - "Suggested redlines and comments inside Microsoft Word"
+    - "Firm data kept in an India-hosted, single-tenant environment"
+market:
+  tam: {value: 2300, unit: INR crore, year: 2025, scope: "Legal technology for Indian law firms and in-house legal teams", kind: company_estimate}
+  sam: {value: 420, unit: INR crore, year: 2025, scope: "Contract-heavy law firms and corporate legal teams", kind: company_estimate}
+  som: {value: 15, unit: INR crore, year: 2029, scope: 3-year obtainable share of SAM, kind: company_forecast}
+business_model:
+  streams:
+    - {name: Per-seat subscription, price_inr: 2400, per: month, share_pct: 90}
+    - {name: Playbook setup, price_inr: 150000, per: one-time, share_pct: 10, description: "Converts a firm's precedents into review playbooks"}
+  notes: ["ARR counts only seat subscriptions", "Gross margin 80% after LLM and hosting costs"]
+unit_economics:
+  cac_inr: 160000
+  payback_months: 9.6
+  gross_margin_pct: 80
+  nrr_pct: 124
+  monthly_churn_pct: 1.0
+  other: ["CAC and payback measured per law firm (average 8.7 seats)"]
+traction:
+  as_of: Sep 2026
+  customers: 38
+  customer_label: law firms
+  arr: {value: 0.95, unit: INR crore, year: 2026, kind: company_reported}
+  series:
+    metric: ARR
+    unit: INR crore
+    points: [{year: 2025, value: 0.2}, {year: 2026, value: 0.95}]
+  highlights:
+    - "38 paying law firms with 330 lawyer seats"
+    - "ARR Rs 0.95 crore (Sep 2026)"
+    - "First-pass review time cut by about 55% in a 6-firm pilot (company-reported)"
+    - "Net revenue retention 124%"
+competitors:
+  - {name: SpotDraft, positioning: "Contract lifecycle management for in-house legal teams"}
+  - {name: Harvey, positioning: "Generative-AI platform for large global law firms"}
+  - {name: Legal research databases, positioning: "Case-law research tools such as Manupatra and SCC Online"}
+moat:
+  - Indian-law clause library and playbooks built with practising lawyers
+  - Firm playbooks and precedents make the product stickier with use
+gtm:
+  channels: [Direct sales to mid-size law firms, Bar association events, Referrals from corporate legal teams]
+  target: 120 law firms and 1,200 seats within 24 months
+round:
+  ask_inr: 50000000
+  pre_money_inr: 280000000
+  min_raise_pct: 60
+  use_of_funds:
+    - {category: Product & AI, pct: 45}
+    - {category: Sales, pct: 30}
+    - {category: Security & compliance, pct: 15}
+    - {category: General & administrative, pct: 10}
+  tranches:
+    - {pct: 40, title: Round close}
+    - {pct: 30, title: "100 law firms", criteria: "100 paying law firms", due_days: 365}
+    - {pct: 30, title: "Rs 3 crore ARR", criteria: "ARR of Rs 3 crore", due_days: 600}
+risks:
+  - An AI error in a client contract could create liability and reputational damage
+  - Law firms are slow to adopt new tools and price-sensitive
+  - Foundation-model vendors may add Indian-law capabilities
+  - Client confidentiality requirements limit data use
+deck:
+  palette: saas
+evaluation_expectations:
+  score_band: [5.0, 7.5]
+  recommendation_in: [Hold, Buy]
+  must_flag: []

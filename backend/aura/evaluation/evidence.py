@@ -200,6 +200,12 @@ def _usable(metric: dict | None, currency: str, *, company_figure: bool) -> bool
                 and metric["kind"].startswith("company_") == company_figure)
 
 
+def _claimable(metric: dict | None, key: str) -> bool:
+    """A deck claim may be in any currency (the chart only plots sourced USD figures); CAGR must be a %."""
+    return bool(metric and metric["kind"].startswith("company_") and metric["market"] and metric["geography"]
+                and (metric["unit"] == "%") == (key == "cagr_pct"))
+
+
 def _period_years(metric: dict) -> set[str]:
     return set(re.findall(r"\b(?:19|20|21)\d{2}\b", metric["period"]))
 
@@ -208,6 +214,8 @@ def _cross_check(claim: dict, sourced: dict | None, source_value: float | None) 
     """Compare a deck claim with the sourced figure for the same market metric."""
     if sourced is None or source_value is None:
         return {"status": "unverified"}
+    if claim["currency"] != UNITS[sourced["unit"]][0]:  # exchange rates are never assumed
+        return {"status": "different_currency", "source_value": source_value}
     same_period = (_period_years(claim) == _period_years(sourced) if claim["unit"] == "%"
                    else claim["year"] == sourced["year"])
     if not same_period:
@@ -238,11 +246,14 @@ def normalise_financials(raw: dict, sources: list[dict], company: CompanyEvidenc
         if _usable(metric, currency, company_figure=False):
             market[key] = metric["value"] * UNITS[metric["unit"]][1] / divisor
             market["evidence"][key] = metric
-        elif _usable(metric, currency, company_figure=True) and not _usable(claim, currency, company_figure=True):
+        elif _claimable(metric, key) and not _claimable(claim, key):
             claim = metric  # the deck's own figure, filed under market data
-        if _usable(claim, currency, company_figure=True):
+        if _claimable(claim, key):
             # The deck's own figure: an unverified claim with its slide citation, never plotted as market data.
-            market["claims"][key] = {**claim, "normalised": claim["value"] * UNITS[claim["unit"]][1] / divisor}
+            # ``normalised`` is in billions of the claim's own currency (or % for CAGR).
+            claim_currency, multiplier = UNITS[claim["unit"]]
+            market["claims"][key] = {**claim, "currency": claim_currency,
+                                     "normalised": claim["value"] * multiplier / divisor}
         elif market[key] is None:
             gaps.append(f"{_label(key)}: no usable source excerpt with value, unit and period.")
 
@@ -267,6 +278,9 @@ def normalise_financials(raw: dict, sources: list[dict], company: CompanyEvidenc
         elif status == "different_period":
             gaps.append(f"{_label(key)}: {claimed}; the retrieved source covers a different period, so the two "
                         "were not compared.")
+        elif status == "different_currency":
+            gaps.append(f"{_label(key)}: {claimed}; the retrieved source reports {sourced['value']:g} "
+                        f"{sourced['unit']}, a different currency, so the two were not compared.")
 
     scope = None
     seen_years = set()

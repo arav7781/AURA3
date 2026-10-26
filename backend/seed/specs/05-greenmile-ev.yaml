@@ -1,0 +1,104 @@
+schema: aura.seed.startup/v1
+slug: greenmile-ev
+name: GreenMile EV
+legal_name: GreenMile EV Private Limited
+domain: Logistics & Mobility
+sub_domain: EV leasing for last-mile delivery
+stage: seed
+hq: {city: New Delhi, state: Delhi}
+founded_year: 2022
+one_liner: Electric cargo three-wheelers on monthly lease, with charging and maintenance, for last-mile delivery fleets
+description: >-
+  GreenMile EV buys electric cargo three-wheelers and leases them to last-mile delivery fleet operators at
+  Rs 15,500 a month, bundled with charging, maintenance and insurance. It runs 420 vehicles across Delhi NCR
+  for 18 fleet customers, with annualised lease revenue of Rs 7.8 crore, and finances vehicles with a mix of
+  equity and NBFC debt.
+founder_account: {email: founder@greenmile-ev.demo, name: Aditi}
+mca:
+  cin: U77100DL2022PTC401528
+  registry:
+    status: ACTIVE
+    registered_name: GREENMILE EV PRIVATE LIMITED
+    directors: [Aditi Sharma, Harpreet Singh, Sameer Khan]
+    incorporation_year: 2022
+    state: Delhi
+team:
+  - {name: Aditi Sharma, role: "Co-founder & CEO", background: "Ran fleet operations for a quick-commerce company across Delhi NCR"}
+  - {name: Harpreet Singh, role: "Co-founder & COO", background: "Built and ran a 200-vehicle CNG cargo fleet in Delhi"}
+  - {name: Sameer Khan, role: "Co-founder & CFO", background: "7 years underwriting commercial-vehicle loans at an NBFC"}
+problem:
+  statement: >-
+    Last-mile fleet operators want electric three-wheelers for their lower running costs but cannot fund the
+    upfront price, and lenders hesitate because battery life and resale values are unproven.
+  stats:
+    - {claim: "Running cost per km of an electric cargo three-wheeler is 40-50% below a CNG or diesel equivalent", kind: company_estimate}
+    - {claim: "Small fleet operators rarely get bank finance for EVs because residual values are unproven", kind: company_estimate}
+    - {claim: "Charging downtime and battery failures take 8-12% of vehicle-days at unmanaged fleets", kind: company_estimate}
+solution:
+  summary: An all-inclusive monthly lease that turns an EV three-wheeler into a predictable operating cost.
+  bullets:
+    - "Monthly lease of Rs 15,500 including charging, maintenance and insurance"
+    - "Own charging hubs at fleet depots, plus battery swapping at partner stations"
+    - "Telematics on every vehicle for uptime, driving behaviour and battery health"
+    - "Replacement vehicle within 4 hours if a leased vehicle breaks down"
+market:
+  tam: {value: 6500, unit: INR crore, year: 2025, scope: "Annual lease value of electric cargo three-wheelers for last-mile delivery in India", kind: company_estimate}
+  sam: {value: 1100, unit: INR crore, year: 2025, scope: "Delivery fleets in the 8 largest metros", kind: company_estimate}
+  som: {value: 60, unit: INR crore, year: 2028, scope: 3-year obtainable share of SAM, kind: company_forecast}
+business_model:
+  streams:
+    - {name: Vehicle lease, price_inr: 15500, per: month, share_pct: 100, description: "Includes charging, maintenance and insurance"}
+    - {name: Battery-swap pass, price_inr: 1800, per: month, description: "Pilot with 2 customers; not yet material"}
+  notes: ["Vehicle gross margin 33% after charging, maintenance, insurance and depreciation", "Vehicles financed about 70% with NBFC debt"]
+unit_economics:
+  gross_margin_pct: 33
+  monthly_churn_pct: 0.8
+  other: ["Vehicle cost Rs 3.6 lakh including battery; asset payback about 35 months", "Fleet utilisation 92% (vehicles on lease / vehicles owned)", "Churn = share of leased vehicles returned each month"]
+traction:
+  as_of: FY2026
+  customers: 18
+  customer_label: fleet customers
+  arr: {value: 7.8, unit: INR crore, year: 2026, kind: company_reported}
+  series:
+    metric: Annualised lease revenue
+    unit: INR crore
+    points: [{year: 2024, value: 1.9}, {year: 2025, value: 4.6}, {year: 2026, value: 7.8}]
+  highlights:
+    - "420 electric three-wheelers on lease across Delhi NCR"
+    - "18 fleet customers; the largest takes 22% of vehicles"
+    - "Annualised lease revenue Rs 7.8 crore in FY2026"
+    - "Fleet utilisation 92%"
+competitors:
+  - {name: Zypp Electric, positioning: "EV-as-a-service for delivery, mostly electric two-wheelers"}
+  - {name: Three Wheels United, positioning: "Financing for drivers buying electric three-wheelers"}
+  - {name: OEM captive leasing, positioning: "Leasing programmes run by vehicle makers for their own models"}
+moat:
+  - Battery-health and uptime data across 420 vehicles lowers lending and residual-value risk
+  - Depot charging hubs make it cheap to add vehicles for existing customers
+gtm:
+  channels: [Direct sales to delivery fleet operators, Quick-commerce and e-commerce logistics partners, Referrals from NBFC lenders]
+  target: 1,200 vehicles on lease across Delhi NCR and Bengaluru within 24 months
+round:
+  ask_inr: 100000000
+  pre_money_inr: 550000000
+  min_raise_pct: 60
+  use_of_funds:
+    - {category: Vehicle down payments, pct: 50}
+    - {category: Charging hubs, pct: 20}
+    - {category: Operations & technology, pct: 15}
+    - {category: Working capital, pct: 15}
+  tranches:
+    - {pct: 40, title: Round close}
+    - {pct: 30, title: "800 vehicles", criteria: "800 vehicles on lease at 90%+ utilisation", due_days: 270}
+    - {pct: 30, title: Bengaluru launch, criteria: "200 vehicles on lease in Bengaluru", due_days: 540}
+risks:
+  - Asset-heavy model depends on continued access to vehicle debt
+  - Battery degradation and resale values are still unproven
+  - "Customer concentration: the largest customer takes 22% of the fleet"
+  - Operations limited to Delhi NCR
+deck:
+  palette: logistics
+evaluation_expectations:
+  score_band: [5.0, 7.5]
+  recommendation_in: [Hold, Buy]
+  must_flag: []

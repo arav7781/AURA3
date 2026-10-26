@@ -1,0 +1,107 @@
+schema: aura.seed.startup/v1
+slug: brickbyte
+name: BrickByte
+legal_name: BrickByte Private Limited
+domain: Proptech
+sub_domain: Construction progress monitoring
+stage: seed
+hq: {city: Gurugram, state: Haryana}
+founded_year: 2023
+one_liner: Weekly drone scans compared with BIM models to track construction progress and catch deviations early
+description: >-
+  BrickByte flies drones over construction sites every week, turns the imagery into 3D models and compares them
+  with the project's BIM model and schedule, so developers and lenders see progress, deviations and quantities
+  without relying on manual site reports. It has 23 developer and contractor customers across 61 active sites
+  at Rs 18,000 per site per month, for an ARR of Rs 1.3 crore.
+founder_account: {email: founder@brickbyte.demo, name: Kunal}
+mca:
+  cin: U71100HR2023PTC113592
+  registry:
+    status: ACTIVE
+    registered_name: BRICKBYTE PRIVATE LIMITED
+    directors: [Kunal Sethi, Ritu Choudhary, Gaurav Bhatia]
+    incorporation_year: 2023
+    state: Haryana
+team:
+  - {name: Kunal Sethi, role: "Co-founder & CEO", background: "Civil engineer; 9 years in project planning at a large NCR developer"}
+  - {name: Ritu Choudhary, role: "Co-founder & CTO", background: "Photogrammetry and computer-vision engineer; built 3D reconstruction pipelines"}
+  - {name: Gaurav Bhatia, role: "Co-founder & COO", background: "Ran drone-survey operations for mining and infrastructure clients"}
+problem:
+  statement: >-
+    Developers, contractors and lenders learn about delays and deviations weeks late, because progress reporting
+    is manual and hard to verify.
+  stats:
+    - {claim: "Large Indian real-estate projects frequently overrun their schedules", kind: company_estimate}
+    - {claim: "Manual progress reports lag site reality by 2-4 weeks", kind: company_estimate}
+    - {claim: "Lenders release construction finance against progress they cannot independently verify", kind: company_estimate}
+solution:
+  summary: Automated, weekly reality capture compared with the plan, delivered as a progress dashboard.
+  bullets:
+    - "Weekly drone flights by certified remote pilots"
+    - "3D site models compared with BIM to flag deviations by floor and element"
+    - "Progress against schedule and quantity estimates for billing checks"
+    - "Independent progress reports for construction lenders"
+market:
+  tam: {value: 1600, unit: INR crore, year: 2025, scope: "Construction progress-monitoring and reality-capture software in India", kind: company_estimate}
+  sam: {value: 300, unit: INR crore, year: 2025, scope: "Developers and contractors in NCR, Mumbai, Pune, Bengaluru and Hyderabad", kind: company_estimate}
+  som: {value: 14, unit: INR crore, year: 2029, scope: 3-year obtainable share of SAM, kind: company_forecast}
+business_model:
+  streams:
+    - {name: Per-site subscription, price_inr: 18000, per: month, share_pct: 88}
+    - {name: Lender progress reports, price_inr: 45000, per: report, share_pct: 12}
+  notes: ["ARR counts only site subscriptions", "Gross margin 64% after drone operations and processing"]
+unit_economics:
+  cac_inr: 250000
+  payback_months: 8.2
+  gross_margin_pct: 64
+  nrr_pct: 126
+  monthly_churn_pct: 1.5
+  other: ["CAC and payback measured per customer (average 2.65 sites)"]
+traction:
+  as_of: FY2026
+  customers: 23
+  customer_label: developer and contractor customers
+  arr: {value: 1.3, unit: INR crore, year: 2026, kind: company_reported}
+  series:
+    metric: ARR
+    unit: INR crore
+    points: [{year: 2024, value: 0.2}, {year: 2025, value: 0.6}, {year: 2026, value: 1.3}]
+  highlights:
+    - "23 customers across 61 active sites in NCR, Pune and Hyderabad"
+    - "ARR Rs 1.3 crore in FY2026, up from Rs 0.6 crore"
+    - "Net revenue retention 126% as customers add sites"
+    - "Progress-verification reports sold to 2 construction lenders"
+competitors:
+  - {name: Procore, positioning: "Global construction-management software"}
+  - {name: Skylark Drones, positioning: "Indian drone-data platform for surveys and infrastructure"}
+  - {name: Manual site reports, positioning: "Site engineers' spreadsheets and photos"}
+moat:
+  - BIM-comparison engine tuned for Indian construction methods
+  - Progress and deviation history across 61 sites improves delay prediction
+gtm:
+  channels: [Direct sales to developers and EPC contractors, Construction lenders, BIM consultants]
+  target: 200 active sites within 24 months
+round:
+  ask_inr: 60000000
+  pre_money_inr: 320000000
+  min_raise_pct: 60
+  use_of_funds:
+    - {category: Product & computer vision, pct: 35}
+    - {category: Drone fleet & operations, pct: 30}
+    - {category: Sales, pct: 25}
+    - {category: General & administrative, pct: 10}
+  tranches:
+    - {pct: 40, title: Round close}
+    - {pct: 30, title: "150 active sites", criteria: "150 active paying sites", due_days: 365}
+    - {pct: 30, title: "Rs 3 crore ARR", criteria: "ARR of Rs 3 crore", due_days: 600}
+risks:
+  - Real-estate cycles drive new site starts
+  - Drone rules and no-fly zones near airports limit some sites
+  - Operations-heavy delivery keeps margins below pure software
+  - Few Indian developers maintain up-to-date BIM models
+deck:
+  palette: proptech
+evaluation_expectations:
+  score_band: [5.0, 7.5]
+  recommendation_in: [Hold, Buy]
+  must_flag: []

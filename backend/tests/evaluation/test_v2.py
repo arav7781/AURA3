@@ -240,3 +240,14 @@ def test_replay_answers_a_reworded_query_from_the_closest_recording(tmp_path):
     assert [r["url"] for r in reworded] == ["https://a.example/1"] and reworded[0]["retrieved_at"] == "t1"
     assert asyncio.run(replay.search("main competitors of agritech startups in India")) [0]["url"] == "https://a.example/2"
     assert asyncio.run(replay.search("dairy cooperative milk procurement Gujarat")) == []
+
+
+def test_rupee_market_claims_are_kept_and_never_converted():
+    deck = CompanyEvidence(chunks=[{**DECK[0], "text": "TAM: India agriculture IoT market Rs 700 crore in 2025"}])
+    claim = company_metric(value=700, unit="INR crore", year=2025, quote="India agriculture IoT market Rs 700 crore in 2025")
+    result = normalise_financials({"market_sizing": {"tam_usd_b": web_tam()}, "deck_market_claims": {"tam_usd_b": claim}},
+                                  WEB, deck)
+    kept = result["market_sizing"]["claims"]["tam_usd_b"]
+    assert kept["currency"] == "INR" and kept["normalised"] == 7.0 and kept["citation"]["page_no"] == 4
+    assert kept["check"]["status"] == "different_currency"
+    assert any("a different currency, so the two were not compared" in gap for gap in result["data_gaps"])

@@ -60,6 +60,15 @@ class DenseEmbedder:
     def _key(self, text: str) -> str:
         return hashlib.sha256(f"{self.model}|{self.dims}|{text}".encode()).hexdigest()
 
+    def export(self, texts: list[str]) -> dict[str, np.ndarray]:
+        """Cached vectors for ``texts`` by cache key, e.g. to commit a seed cache."""
+        return self._cache.get_many(list(dict.fromkeys(self._key(t) for t in texts)))
+
+    def prime(self, vectors: dict[str, np.ndarray]) -> None:
+        """Load vectors exported by ``export``. Keys include model and dims, so a cache made with another
+        embedding model never matches."""
+        self._cache.put_many(vectors)
+
     async def embed(self, texts: list[str]) -> np.ndarray:
         """Embed ``texts`` -> (n, dims) float32, L2-normalised, in input order."""
         if not texts:

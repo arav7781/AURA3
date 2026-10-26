@@ -29,10 +29,7 @@ def _drop_qdrant_collections(prefix: str) -> None:
         key = settings.qdrant_api_key.get_secret_value() if settings.qdrant_api_key else None
         warnings.filterwarnings("ignore", message="Api key is used with an insecure connection")
         with QdrantClient(url=settings.qdrant_url, api_key=key, timeout=5) as qc:
-            for alias in qc.get_aliases().aliases:
-                if alias.alias_name.startswith(prefix + "_"):
-                    qc.delete_alias(alias.alias_name)
-            for collection in qc.get_collections().collections:
+            for collection in qc.get_collections().collections:  # aliases go with their collection
                 if collection.name.startswith(prefix + "_"):
                     qc.delete_collection(collection.name)
     except Exception:  # Qdrant not running: nothing was created

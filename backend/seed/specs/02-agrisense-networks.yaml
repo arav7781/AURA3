@@ -1,0 +1,108 @@
+schema: aura.seed.startup/v1
+slug: agrisense-networks
+name: AgriSense Networks
+legal_name: AgriSense Networks Private Limited
+domain: Agritech
+sub_domain: Orchard microclimate and irrigation sensing
+stage: seed
+hq: {city: Nashik, state: Maharashtra}
+founded_year: 2023
+one_liner: Solar sensor network that warns apple and grape growers of frost, disease risk and water stress
+description: >-
+  AgriSense Networks installs solar LoRaWAN sensor nodes in apple and grape orchards and sells a per-sensor
+  subscription for frost, disease-risk and irrigation alerts in Marathi, Hindi and English. It has 2,300
+  sensors deployed across 210 paying orchards in Nashik (grapes) and Himachal Pradesh (apples), at an ARR
+  of Rs 0.4 crore.
+founder_account: {email: founder@agrisense-networks.demo, name: Rohan}
+mca:
+  cin: U01611MH2023PTC398642
+  registry:
+    status: ACTIVE
+    registered_name: AGRISENSE NETWORKS PRIVATE LIMITED
+    directors: [Rohan Deshmukh, Pallavi Kulkarni, Tsering Negi]
+    incorporation_year: 2023
+    state: Maharashtra
+team:
+  - {name: Rohan Deshmukh, role: "Co-founder & CEO", background: "Grew up on a Nashik grape farm; 6 years selling drip-irrigation systems"}
+  - {name: Pallavi Kulkarni, role: "Co-founder & CTO", background: "Embedded-systems engineer; built LoRaWAN gateways for smart water meters"}
+  - {name: Tsering Negi, role: "Co-founder, Field Operations (Himachal)", background: "Horticulture graduate; ran orchard advisory for an apple growers' cooperative in Shimla district"}
+problem:
+  statement: >-
+    Apple and grape growers lose crops to frost, fungal disease and badly timed irrigation because they have no
+    block-level weather or soil data, only district-level forecasts.
+  stats:
+    - {claim: "A single spring frost or downy-mildew outbreak can wipe out 20-40% of a block's yield", kind: company_estimate}
+    - {claim: "District-level forecasts miss the valley and hill-slope microclimates where frost and disease start", kind: company_estimate}
+    - {claim: "Imported orchard weather stations cost Rs 1.5-3 lakh each, out of reach for a 2-5 acre grower", kind: company_estimate}
+solution:
+  summary: Low-cost solar sensor nodes on a shared LoRaWAN network, plus frost, disease and irrigation alerts priced per sensor.
+  bullets:
+    - "Rs 6,500 solar sensor node: leaf wetness, canopy temperature, humidity and soil moisture"
+    - "One LoRaWAN gateway covers up to 40 orchards within a 3 km radius"
+    - "Frost and downy-mildew / apple-scab risk alerts 24-48 hours ahead by SMS and WhatsApp"
+    - "Block-wise irrigation schedules in Marathi, Hindi and English"
+market:
+  tam: {value: 1450, unit: INR crore, year: 2025, scope: "Precision sensing and advisory for India's fruit orchards", kind: company_estimate}
+  sam: {value: 210, unit: INR crore, year: 2025, scope: "Grape (Maharashtra) and apple (Himachal Pradesh, J&K) orchards above 2 acres", kind: company_estimate}
+  som: {value: 12, unit: INR crore, year: 2028, scope: 3-year obtainable share of SAM, kind: company_forecast}
+business_model:
+  streams:
+    - {name: Sensor node, price_inr: 6500, per: one-time, share_pct: 35, description: "Sold near cost; cooperatives finance it for members"}
+    - {name: Alert and advisory subscription, price_inr: 150, per: month, share_pct: 65, description: Billed per sensor}
+  notes: ["Subscription gross margin 64%; hardware sold at about 8% margin", "Average orchard runs 11 sensors"]
+unit_economics:
+  cac_inr: 9800
+  payback_months: 9.3
+  gross_margin_pct: 52
+  monthly_churn_pct: 3.1
+  other: ["CAC and payback measured per orchard (about 11 sensors, Rs 1,650 a month)", "Churn peaks after harvest, in the off-season months"]
+traction:
+  as_of: FY2025
+  customers: 210
+  customer_label: paying orchards
+  arr: {value: 0.4, unit: INR crore, year: 2025, kind: company_reported}
+  series:
+    metric: ARR
+    unit: INR crore
+    points: [{year: 2024, value: 0.1}, {year: 2025, value: 0.4}]
+  highlights:
+    - "2,300 sensors deployed across 210 paying orchards"
+    - "ARR Rs 0.4 crore in FY2025, up from Rs 0.1 crore in FY2024"
+    - "150 grape orchards in Nashik and 60 apple orchards in Shimla and Kullu districts"
+    - "Pilot with one grape exporters' cooperative covering 40 member orchards"
+competitors:
+  - {name: Fasal, positioning: "IoT sensors + AI advisory for horticulture, premium farms"}
+  - {name: Cropin, positioning: "Enterprise agritech SaaS for agribusinesses and exporters"}
+  - {name: Imported weather stations, positioning: "Single-point hardware sold through dealers; no local-language advisory"}
+moat:
+  - Disease-risk models calibrated on two seasons of block-level orchard data
+  - Shared LoRaWAN gateways make each extra orchard in a cluster cheap to add
+gtm:
+  channels: [Grape exporters' cooperatives, Apple growers' associations, Agri-input dealers, Drip-irrigation installers]
+  target: 8,000 sensors across 700 orchards within 24 months
+round:
+  ask_inr: 40000000
+  pre_money_inr: 180000000
+  min_raise_pct: 60
+  use_of_funds:
+    - {category: Hardware inventory, pct: 35}
+    - {category: Field sales & installation, pct: 30}
+    - {category: Product & data science, pct: 25}
+    - {category: Working capital, pct: 10}
+  tranches:
+    - {pct: 40, title: Round close}
+    - {pct: 30, title: "5,000 sensors", criteria: "5,000 sensors deployed and billing", due_days: 300}
+    - {pct: 30, title: "Rs 1.5 crore ARR", criteria: "ARR of Rs 1.5 crore with monthly churn below 3%", due_days: 600}
+risks:
+  - Revenue is seasonal and concentrated in two crops and two regions
+  - Snow and monsoon conditions raise hardware failure and service costs
+  - Thin traction (Rs 0.4 crore ARR) relative to the valuation
+  - No track record of manufacturing hardware at scale
+deck:
+  palette: agritech
+  adversarial:
+    inconsistent: {traction: "ARR of Rs 1.4 crore across 3,200 deployed sensors"}
+evaluation_expectations:
+  score_band: [3.5, 6.5]
+  recommendation_in: [Hold, Pass]
+  must_flag: []

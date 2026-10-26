@@ -1,0 +1,108 @@
+schema: aura.seed.startup/v1
+slug: shieldstack
+name: ShieldStack
+legal_name: ShieldStack Private Limited
+domain: Cybersecurity
+sub_domain: DPDP Act compliance automation
+stage: seed
+hq: {city: Hyderabad, state: Telangana}
+founded_year: 2023
+one_liner: "Automates DPDP Act compliance: personal-data discovery, consent records, rights requests and breach workflows"
+description: >-
+  ShieldStack scans an organisation's databases, SaaS apps and cloud storage to map personal data, then runs
+  consent records, data-principal requests (access, correction, erasure) and breach-notification workflows under
+  India's Digital Personal Data Protection Act, 2023. It has 34 paying mid-market and enterprise customers in
+  BFSI, healthcare and e-commerce, and an ARR of Rs 2.1 crore.
+founder_account: {email: founder@shieldstack.demo, name: Ravi}
+mca:
+  cin: U62099TG2023PTC171904
+  registry:
+    status: ACTIVE
+    registered_name: SHIELDSTACK PRIVATE LIMITED
+    directors: [Ravi Teja Kommineni, Shruti Pandey, Meera Pillai]
+    incorporation_year: 2023
+    state: Telangana
+team:
+  - {name: Ravi Teja Kommineni, role: "Co-founder & CEO", background: "10 years in security consulting for banks and insurers"}
+  - {name: Shruti Pandey, role: "Co-founder & CTO", background: "Data engineer; built a data-catalogue product used by large enterprises"}
+  - {name: Meera Pillai, role: "Co-founder & Chief Privacy Officer", background: "Technology and privacy lawyer for 9 years"}
+problem:
+  statement: >-
+    Indian companies must now prove how they collect, use and protect personal data, but most do not know where
+    that data sits across their systems.
+  stats:
+    - {claim: "Penalties under the DPDP Act go up to Rs 250 crore for failing to take reasonable security safeguards against a personal-data breach", source: "Digital Personal Data Protection Act, 2023, Schedule", kind: reported}
+    - {claim: "Most mid-size Indian companies have no inventory of where personal data is stored", kind: company_estimate}
+    - {claim: "Consultant-led compliance projects cost Rs 25-60 lakh and go stale within months", kind: company_estimate}
+solution:
+  summary: A compliance platform that finds personal data automatically and keeps DPDP obligations running as workflows.
+  bullets:
+    - "Automated discovery and classification of personal data across databases, SaaS and cloud storage"
+    - "Consent and notice management with an auditable consent ledger"
+    - "Data-principal request portal with deadlines and evidence trails"
+    - "Breach-response playbooks and notification templates"
+market:
+  tam: {value: 2400, unit: INR crore, year: 2025, scope: "Privacy and data-protection compliance software in India", kind: company_estimate}
+  tam_forecast: {value: 6800, unit: INR crore, year: 2030, scope: "Privacy and data-protection compliance software in India", kind: company_forecast}
+  cagr: {value: 23.2, unit: "%", period: "2025-2030", scope: "Privacy and data-protection compliance software in India", kind: company_forecast}
+  sam: {value: 520, unit: INR crore, year: 2025, scope: "Mid-market and enterprise organisations in BFSI, healthcare and e-commerce", kind: company_estimate}
+  som: {value: 30, unit: INR crore, year: 2029, scope: 3-year obtainable share of SAM, kind: company_forecast}
+business_model:
+  streams:
+    - {name: Annual platform licence, price_inr: 500000, per: year, share_pct: 80, description: "Base price; scales with data sources"}
+    - {name: Implementation services, share_pct: 20, description: "Data mapping and policy setup, billed per project"}
+  notes: ["ARR counts only platform licences (average Rs 6.2 lakh per customer)", "Gross margin 76%"]
+unit_economics:
+  cac_inr: 650000
+  payback_months: 16.6
+  gross_margin_pct: 76
+  nrr_pct: 131
+  monthly_churn_pct: 0.6
+traction:
+  as_of: FY2026
+  customers: 34
+  customer_label: paying organisations
+  arr: {value: 2.1, unit: INR crore, year: 2026, kind: company_reported}
+  series:
+    metric: ARR
+    unit: INR crore
+    points: [{year: 2024, value: 0.3}, {year: 2025, value: 0.9}, {year: 2026, value: 2.1}]
+  highlights:
+    - "34 paying organisations in BFSI, healthcare and e-commerce"
+    - "ARR Rs 2.1 crore in FY2026, up from Rs 0.9 crore"
+    - "Net revenue retention 131%; monthly logo churn 0.6%"
+    - "Pipeline of 120 enterprises as DPDP obligations phase in"
+competitors:
+  - {name: OneTrust, positioning: "Global privacy-management platform for large enterprises"}
+  - {name: Securiti, positioning: "Data security and privacy platform"}
+  - {name: Consulting and law-firm programmes, positioning: "One-off compliance projects and policy drafting"}
+moat:
+  - India-specific DPDP workflows and templates maintained by in-house lawyers
+  - Connectors for Indian core-banking, hospital and commerce systems
+gtm:
+  channels: [Direct enterprise sales, Audit and consulting firm partnerships, Cloud marketplace listings]
+  target: 100 paying organisations and Rs 6 crore ARR within 24 months
+round:
+  ask_inr: 70000000
+  pre_money_inr: 380000000
+  min_raise_pct: 60
+  use_of_funds:
+    - {category: Product, pct: 40}
+    - {category: Sales, pct: 35}
+    - {category: Partnerships, pct: 10}
+    - {category: General & administrative, pct: 15}
+  tranches:
+    - {pct: 40, title: Round close}
+    - {pct: 30, title: "70 customers", criteria: "70 paying organisations", due_days: 300}
+    - {pct: 30, title: "Rs 5 crore ARR", criteria: "ARR of Rs 5 crore", due_days: 600}
+risks:
+  - Demand depends on how strictly and how fast the DPDP Act is enforced
+  - Rules and guidance may change, forcing product rework
+  - Global privacy platforms are localising for India
+  - Long enterprise sales cycles
+deck:
+  palette: cyber
+evaluation_expectations:
+  score_band: [6.0, 8.0]
+  recommendation_in: [Buy, Hold, Strong Buy]
+  must_flag: []

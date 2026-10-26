@@ -1,0 +1,95 @@
+schema: aura.seed.startup/v1
+slug: tattva-foods
+name: Tattva Foods
+legal_name: Tattva Foods Private Limited
+domain: Consumer & D2C
+sub_domain: Millet snacks
+stage: seed
+hq: {city: Mysuru, state: Karnataka}
+founded_year: 2022
+one_liner: Roasted millet snacks with no palm oil, sold mainly through quick-commerce apps in 9 cities
+description: >-
+  Tattva Foods makes roasted ragi, jowar and foxtail-millet snacks with no palm oil and sells them mainly
+  through quick-commerce apps, plus its own website and a few modern-trade chains. FY2026 revenue was Rs 4.1
+  crore across 9 cities, 68% of it from quick-commerce, and 34% of website customers buy again within 60 days.
+founder_account: {email: founder@tattva-foods.demo, name: Kavya}
+mca:
+  cin: U10799KA2022PTC16382
+team:
+  - {name: Kavya Gowda, role: "Co-founder & CEO", background: "Brand manager for snacks at a large FMCG company for 6 years"}
+  - {name: Suresh Babu, role: "Co-founder & COO", background: "Food technologist; ran a millet-processing unit in Mysuru"}
+  - {name: Neeraj Arora, role: "Co-founder, Growth", background: "Category manager for packaged foods at an e-commerce marketplace"}
+problem:
+  statement: >-
+    Urban shoppers want healthier snacks, but quick-commerce snack shelves are dominated by fried, palm-oil-based
+    products, and millet foods are seen as bland staples.
+  stats:
+    - {claim: "The UN General Assembly declared 2023 the International Year of Millets, following a proposal by India", source: "United Nations General Assembly resolution (2021)", kind: reported}
+    - {claim: "Most savoury snacks on quick-commerce apps are fried or made with palm oil", kind: company_estimate}
+    - {claim: "Snacks are impulse purchases, often added to 10-minute grocery baskets", kind: company_estimate}
+solution:
+  summary: Tasty, roasted millet snacks in impulse-sized packs, built for quick-commerce discovery.
+  bullets:
+    - "Roasted, never fried; no palm oil and no added maida"
+    - "Ragi chips, jowar puffs and foxtail-millet namkeen in 80 g packs at Rs 99"
+    - "Flavours developed for regional tastes: masala, peri-peri, pudina"
+    - "Own manufacturing unit in Mysuru with FSSAI licence"
+market:
+  tam: {value: 45000, unit: INR crore, year: 2025, scope: "Packaged savoury snacks in India", kind: company_estimate}
+  sam: {value: 2800, unit: INR crore, year: 2025, scope: "Better-for-you packaged snacks in the top 20 cities", kind: company_estimate}
+  som: {value: 60, unit: INR crore, year: 2029, scope: 3-year obtainable share of SAM, kind: company_forecast}
+business_model:
+  streams:
+    - {name: Quick-commerce sales, price_inr: 99, per: pack, share_pct: 68}
+    - {name: Own website and marketplaces, price_inr: 99, per: pack, share_pct: 22}
+    - {name: Modern trade, price_inr: 99, per: pack, share_pct: 10}
+  notes: ["Gross margin 42%", "Contribution margin 11% after platform fees, ads and delivery"]
+unit_economics:
+  cac_inr: 310
+  gross_margin_pct: 42
+  other: ["CAC measured for first-time buyers on the own website", "Repeat purchase within 60 days: 34% of website customers", "Contribution margin 11% after platform fees and ads"]
+traction:
+  as_of: FY2026
+  series:
+    metric: Revenue
+    unit: INR crore
+    points: [{year: 2024, value: 0.9}, {year: 2025, value: 2.6}, {year: 2026, value: 4.1}]
+  highlights:
+    - "Live on three quick-commerce apps in 9 cities"
+    - "FY2026 revenue Rs 4.1 crore, up from Rs 2.6 crore in FY2025"
+    - "68% of revenue from quick-commerce"
+    - "34% of website customers buy again within 60 days"
+competitors:
+  - {name: Slurrp Farm, positioning: "Millet-based foods for kids and families"}
+  - {name: Too Yumm!, positioning: "Better-for-you packaged snacks brand"}
+  - {name: "Haldiram's", positioning: "Traditional packaged snacks with mass distribution"}
+moat:
+  - Own roasting line and millet supply contracts with FPOs in Karnataka
+  - Strong ranking in quick-commerce search for healthy snacks
+gtm:
+  channels: [Quick-commerce apps, Own website, Modern-trade chains, Corporate cafeterias]
+  target: Rs 12 crore annual revenue across 15 cities within 24 months
+round:
+  ask_inr: 60000000
+  pre_money_inr: 300000000
+  min_raise_pct: 60
+  use_of_funds:
+    - {category: Marketing, pct: 40}
+    - {category: Manufacturing capacity, pct: 25}
+    - {category: Working capital, pct: 20}
+    - {category: Team, pct: 15}
+  tranches:
+    - {pct: 40, title: Round close}
+    - {pct: 30, title: "Rs 8 crore revenue run-rate", criteria: "Monthly revenue of Rs 67 lakh for 3 consecutive months", due_days: 365}
+    - {pct: 30, title: "18% contribution margin", criteria: "Contribution margin of 18% for a full quarter", due_days: 540}
+risks:
+  - Heavy dependence on quick-commerce platforms for fees, listings and visibility
+  - Thin contribution margin (11%) leaves little room for price competition
+  - Millet prices can swing with the monsoon
+  - Crowded snack category with large incumbents
+deck:
+  palette: consumer
+evaluation_expectations:
+  score_band: [4.5, 7.0]
+  recommendation_in: [Hold, Buy]
+  must_flag: [INVALID_CIN_FORMAT]

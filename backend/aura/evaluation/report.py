@@ -37,6 +37,7 @@ CLAIM_CHECKS = {
     "consistent": "matches the retrieved source",
     "differs": "differs from the retrieved source",
     "different_period": "the retrieved source covers a different period",
+    "different_currency": "the retrieved source uses another currency",
 }
 
 

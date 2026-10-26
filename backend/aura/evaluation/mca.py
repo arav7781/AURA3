@@ -7,6 +7,7 @@ demo founders are not blocked). Malformed CINs are never "verified".
 
 import logging
 import re
+from pathlib import Path
 from typing import Any
 
 import httpx
@@ -72,6 +73,18 @@ def _provider_lookup(cin: str) -> dict[str, Any] | None:
     except (httpx.HTTPError, ValueError) as exc:
         logger.warning("MCA provider lookup failed for %s: %s", cin, exc)
         return None
+
+
+def load_registry_fixtures(specs_dir: Path) -> int:
+    """Demo registry: the MCA record each seed spec declares (active, struck off, renamed, ...)."""
+    from aura.decks.spec import load_specs
+
+    loaded = 0
+    for spec in load_specs(specs_dir):
+        if spec.mca.registry is not None:
+            registry_fixtures[normalise_cin(spec.mca.cin)] = spec.mca.registry.model_dump()
+            loaded += 1
+    return loaded
 
 
 def verify(cin: str | None, *, legal_name: str, claimed_directors: list[str] | None = None) -> dict[str, Any]:

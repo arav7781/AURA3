@@ -1,0 +1,475 @@
+{
+ "analysis": {
+  "category_scores": {
+   "business_model": 7.3,
+   "execution_risk": 6.0,
+   "market": 6.0,
+   "moat": 5.3,
+   "product": 6.0,
+   "team": 6.0,
+   "traction": 6.7
+  },
+  "citations": {
+   "c:6jto2zx": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.90347,
+     0.45971
+    ],
+    "chunk_id": "108172ff-af9d-5412-8978-8e0b46e3f2a7",
+    "document_id": "e8020b4b-5025-409d-8098-bbd8fc104f30",
+    "page_no": 1,
+    "slide_title": "KrishiMitra AI",
+    "type": "deck"
+   },
+   "c:7nfboww": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.88027,
+     0.72364
+    ],
+    "chunk_id": "fb977689-46cf-59f0-a54c-5d5f1ad6805f",
+    "document_id": "e8020b4b-5025-409d-8098-bbd8fc104f30",
+    "page_no": 6,
+    "slide_title": "Traction (as of FY2025)",
+    "type": "deck"
+   },
+   "c:higtc4h": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.91287,
+     0.52945
+    ],
+    "chunk_id": "669789f6-e9a2-5a32-a9ba-2eed83aea4e5",
+    "document_id": "e8020b4b-5025-409d-8098-bbd8fc104f30",
+    "page_no": 4,
+    "slide_title": "Market Opportunity (TAM / SAM / SOM)",
+    "type": "deck"
+   },
+   "c:itai52i": {
+    "bbox": [
+     0.05899,
+     0.0554,
+     0.94034,
+     0.55204
+    ],
+    "chunk_id": "2eb6feb0-d5a4-544a-b69a-6b292f28e221",
+    "document_id": "e8020b4b-5025-409d-8098-bbd8fc104f30",
+    "page_no": 8,
+    "slide_title": "Competitive Landscape",
+    "type": "deck"
+   },
+   "c:jzijmog": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.50517,
+     0.45481
+    ],
+    "chunk_id": "ed0d5734-14bc-5d32-a52b-e5d0aebffed9",
+    "document_id": "e8020b4b-5025-409d-8098-bbd8fc104f30",
+    "page_no": 7,
+    "slide_title": "Unit Economics",
+    "type": "deck"
+   },
+   "c:kdno2b2": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.72976,
+     0.57729
+    ],
+    "chunk_id": "392ccb3a-e56c-5507-bf1d-df3b5cbce39b",
+    "document_id": "e8020b4b-5025-409d-8098-bbd8fc104f30",
+    "page_no": 9,
+    "slide_title": "Go-to-Market & Key Risks",
+    "type": "deck"
+   },
+   "c:nrmb4cg": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.89656,
+     0.56134
+    ],
+    "chunk_id": "4e337e00-edf9-5238-be87-502bbed04675",
+    "document_id": "e8020b4b-5025-409d-8098-bbd8fc104f30",
+    "page_no": 11,
+    "slide_title": "The Ask",
+    "type": "deck"
+   },
+   "c:oicsi6v": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.78618,
+     0.33233
+    ],
+    "chunk_id": "9c2843b1-8c86-5cae-a36e-4bf3d5c7ad08",
+    "document_id": "e8020b4b-5025-409d-8098-bbd8fc104f30",
+    "page_no": 5,
+    "slide_title": "Business Model",
+    "type": "deck"
+   },
+   "c:osz6fis": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.92535,
+     0.52945
+    ],
+    "chunk_id": "65c23733-7766-5e4e-bcf6-23ec55e4d603",
+    "document_id": "e8020b4b-5025-409d-8098-bbd8fc104f30",
+    "page_no": 10,
+    "slide_title": "Team",
+    "type": "deck"
+   },
+   "c:rxj6t5i": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.86519,
+     0.50907
+    ],
+    "chunk_id": "54427ce8-22bf-5f2d-978a-9574e824bf03",
+    "document_id": "e8020b4b-5025-409d-8098-bbd8fc104f30",
+    "page_no": 3,
+    "slide_title": "Solution",
+    "type": "deck"
+   },
+   "c:v2x6wyw": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.89668,
+     0.5837
+    ],
+    "chunk_id": "9df381bd-a274-581a-a44d-43d0f29b3c45",
+    "document_id": "e8020b4b-5025-409d-8098-bbd8fc104f30",
+    "page_no": 2,
+    "slide_title": "Problem",
+    "type": "deck"
+   },
+   "w:2": {
+    "title": "DeHaat - 2026 Company Profile, Team, Funding, Competitors ... - Tracxn",
+    "type": "web",
+    "url": "https://tracxn.com/d/companies/dehaat/__MNN5MsKeFhiAAm0Wo-XTzf8ZjQaf2F-wSLRCdDz50UM"
+   },
+   "w:3": {
+    "title": "Fasal - 2026 Company Profile, Team, Funding, Competitors ... - Tracxn",
+    "type": "web",
+    "url": "https://tracxn.com/d/companies/fasal/__oNAHl8UEovECojkNpiJPyCUx9OCZTmEr14g5hIUusIU"
+   },
+   "w:4": {
+    "title": "Top 10 Agritech Startups India 2026: DeHaat, Ninjacart, $258M Funding",
+    "type": "web",
+    "url": "https://trendingindiatoday.com/trending/top-10-agriculture-startups-revolutionizing-farming-in-india-2026-edition/"
+   },
+   "w:8": {
+    "title": "Agriculture IoT Market to Reach USD 12.61 Billion by 2030 as Precision Farming and AI-Driven Automation Reshape Global Food Production",
+    "type": "web",
+    "url": "https://finance.yahoo.com/technology/ai/articles/agriculture-iot-market-reach-usd-151500129.html"
+   },
+   "w:9": {
+    "title": "Precision Farming Market worth $23.07 billion by 2033 - Exclusive Report by MarketsandMarkets",
+    "type": "web",
+    "url": "https://www.finanznachrichten.de/nachrichten-2026-09/69669409-precision-farming-market-worth-dollar-23-07-billion-by-2033-exclusive-report-by-marketsandmarkets-008.htm"
+   }
+  },
+  "citations_removed": 1,
+  "compliance_flags": [],
+  "data_gaps": [
+   "TAM: no independent source found; the deck claims 82.3 USD million (p.4).",
+   "SAM: no independent source found; the deck claims 24.7 USD million (p.4).",
+   "SOM: no independent source found; the deck claims 3.7 USD million (p.4).",
+   "CAGR: no independent source found; the deck claims 13.5 % (p.4).",
+   "Market trend unavailable: no sourced annual observations or publisher forecasts. No years were interpolated."
+  ],
+  "evidence_version": 2,
+  "generated_at": "2026-10-26T19:06:52.044667Z",
+  "input_hash": "3e697b6747dd5abacc7993ce1b84d5353003fbb4b3dd097abf9b06f06734b750",
+  "invalid_citations": [
+   "c:8f476856"
+  ],
+  "market_sizing": {
+   "basis": "Only figures traceable to retrieved search excerpts are plotted as market data.",
+   "cagr_pct": null,
+   "claims": {
+    "cagr_pct": {
+     "check": {
+      "status": "unverified"
+     },
+     "citation": {
+      "bbox": [
+       0.0677,
+       0.0554,
+       0.91287,
+       0.52945
+      ],
+      "chunk_id": "669789f6-e9a2-5a32-a9ba-2eed83aea4e5",
+      "cid": "c:higtc4h",
+      "document_id": "e8020b4b-5025-409d-8098-bbd8fc104f30",
+      "page_no": 4
+     },
+     "currency": "%",
+     "geography": "India",
+     "kind": "company_reported",
+     "low_confidence": false,
+     "market": "India agriculture IoT",
+     "normalised": 13.5,
+     "period": "2025-2030",
+     "quote": "India agriculture IoT CAGR: 13.5% (2025-2030) (Source: MarketsandMarkets)",
+     "retrieved_at": null,
+     "source_title": "KrishiMitra_AI_Pitch_Deck.pdf, p.4",
+     "source_url": null,
+     "unit": "%",
+     "value": 13.5,
+     "year": null
+    },
+    "sam_usd_b": {
+     "check": {
+      "status": "unverified"
+     },
+     "citation": {
+      "bbox": [
+       0.0677,
+       0.0554,
+       0.91287,
+       0.52945
+      ],
+      "chunk_id": "669789f6-e9a2-5a32-a9ba-2eed83aea4e5",
+      "cid": "c:higtc4h",
+      "document_id": "e8020b4b-5025-409d-8098-bbd8fc104f30",
+      "page_no": 4
+     },
+     "currency": "USD",
+     "geography": "India (Maharashtra, Karnataka, MP)",
+     "kind": "company_estimate",
+     "low_confidence": false,
+     "market": "Marathi/Hindi smallholder segment (Maharashtra, Karnataka, MP)",
+     "normalised": 0.0247,
+     "period": "",
+     "quote": "SAM \u2014 Marathi/Hindi smallholder segment (Maharashtra, Karnataka, MP): USD 24.7M in 2025 (company estimate)",
+     "retrieved_at": null,
+     "source_title": "KrishiMitra_AI_Pitch_Deck.pdf, p.4",
+     "source_url": null,
+     "unit": "USD million",
+     "value": 24.7,
+     "year": 2025
+    },
+    "som_usd_b": {
+     "check": {
+      "status": "unverified"
+     },
+     "citation": {
+      "bbox": [
+       0.0677,
+       0.0554,
+       0.91287,
+       0.52945
+      ],
+      "chunk_id": "669789f6-e9a2-5a32-a9ba-2eed83aea4e5",
+      "cid": "c:higtc4h",
+      "document_id": "e8020b4b-5025-409d-8098-bbd8fc104f30",
+      "page_no": 4
+     },
+     "currency": "USD",
+     "geography": "India (Maharashtra, Karnataka, MP)",
+     "kind": "company_forecast",
+     "low_confidence": false,
+     "market": "3-year obtainable share of SAM",
+     "normalised": 0.0037,
+     "period": "",
+     "quote": "SOM \u2014 3-year obtainable share of SAM: USD 3.7M in 2028 (company projection)",
+     "retrieved_at": null,
+     "source_title": "KrishiMitra_AI_Pitch_Deck.pdf, p.4",
+     "source_url": null,
+     "unit": "USD million",
+     "value": 3.7,
+     "year": 2028
+    },
+    "tam_usd_b": {
+     "check": {
+      "status": "unverified"
+     },
+     "citation": {
+      "bbox": [
+       0.0677,
+       0.0554,
+       0.91287,
+       0.52945
+      ],
+      "chunk_id": "669789f6-e9a2-5a32-a9ba-2eed83aea4e5",
+      "cid": "c:higtc4h",
+      "document_id": "e8020b4b-5025-409d-8098-bbd8fc104f30",
+      "page_no": 4
+     },
+     "currency": "USD",
+     "geography": "India",
+     "kind": "company_forecast",
+     "low_confidence": false,
+     "market": "India agriculture IoT",
+     "normalised": 0.0823,
+     "period": "",
+     "quote": "TAM \u2014 India agriculture IoT: USD 82.3M in 2025, projected USD 154.8M by 2030 at 13.5% CAGR (Source: MarketsandMarkets, India Agriculture IoT Market 2025-2030)",
+     "retrieved_at": null,
+     "source_title": "KrishiMitra_AI_Pitch_Deck.pdf, p.4",
+     "source_url": null,
+     "unit": "USD million",
+     "value": 82.3,
+     "year": 2025
+    }
+   },
+   "evidence": {},
+   "sam_usd_b": null,
+   "som_usd_b": null,
+   "tam_usd_b": null,
+   "trend": []
+  },
+  "model": "azure/deepSeek-V4-Flash",
+  "overall_score": 6.2,
+  "projected_revenue": [
+   {
+    "citation": {
+     "bbox": [
+      0.0677,
+      0.0554,
+      0.88027,
+      0.72364
+     ],
+     "chunk_id": "fb977689-46cf-59f0-a54c-5d5f1ad6805f",
+     "cid": "c:7nfboww",
+     "document_id": "e8020b4b-5025-409d-8098-bbd8fc104f30",
+     "page_no": 6
+    },
+    "geography": "India",
+    "kind": "company_reported",
+    "low_confidence": false,
+    "market": "KrishiMitra AI",
+    "metric": "ARR",
+    "period": "",
+    "quote": "ARR: Rs 3.1 crore in FY2025",
+    "retrieved_at": null,
+    "revenue": 31.0,
+    "source_title": "KrishiMitra_AI_Pitch_Deck.pdf, p.6",
+    "source_url": null,
+    "unit": "INR crore",
+    "value": 3.1,
+    "year": 2025
+   }
+  ],
+  "recommendation_label": "Hold",
+  "report_markdown": "## 1. Executive Summary\n\nKrishiMitra AI is a seed-stage agritech startup offering a solar soil sensor (Rs 1,499) and a WhatsApp-based crop advisory subscription (Rs 149/month) in Marathi and Hindi. It targets India's ~86% smallholder farmers who lack affordable, vernacular soil data and advice [c:v2x6wyw]. The company has 12,400 paying farmers across 9 districts of Maharashtra, with ARR growing from Rs 0.9 crore (FY2024) to Rs 3.1 crore (FY2025) \u2014 a ~3.4x year-over-year increase, company-reported and unverified [c:7nfboww]. Early unit economics are strong: CAC Rs 610, payback 4.1 months, gross margin 78%, NRR 121%, monthly churn 2.4% [c:jzijmog]. The team of four co-founders covers product/AI, field operations, hardware/supply chain, and growth/partnerships, with relevant domain experience but no prior startup scaling track record [c:osz6fis]. The company is raising Rs 12 crore at Rs 60 crore pre-money, with a tranche-based structure tied to milestones [c:nrmb4cg]. Overall score: 6.2/10, Hold.\n\n## 2. Problem & Solution\n\nIndia has 146 million agricultural holdings, ~86% of which are smallholders farming under 2 hectares (Agriculture Census 2015-16) [c:v2x6wyw]. These farmers lack affordable, real-time soil and irrigation data and advice in their own language. The company estimates that 20-30% of water and fertiliser spend is avoidable input waste without soil data, and that existing advisory apps are English-first and priced for agri-businesses, not for a farmer earning Rs 8,000-12,000 a month [c:v2x6wyw]. KrishiMitra AI's solution is a low-cost solar soil sensor (Rs 1,499) that measures moisture, temperature, and NPK proxy, paired with an AI crop-advisory subscription delivered on WhatsApp in Marathi and Hindi (text and voice notes) [c:rxj6t5i]. The AI advisory is tuned to local crop calendars for sowing, irrigation timing, and pest alerts, and requires no app install \u2014 it runs entirely inside WhatsApp [c:rxj6t5i]. This approach addresses the language and affordability barriers that prevent smallholders from accessing precision agriculture tools.\n\n## 3. Market Opportunity\n\nThe company sizes its TAM as the India agriculture IoT market at USD 82.3 million in 2025, projected to reach USD 154.8 million by 2030 at a 13.5% CAGR (source: MarketsandMarkets) [c:higtc4h]. The SAM is scoped to the Marathi/Hindi smallholder segment (Maharashtra, Karnataka, MP) at USD 24.7 million in 2025 (company estimate) [c:higtc4h]. The SOM is a 3-year obtainable share of SAM at USD 3.7 million in 2028 (company projection) [c:higtc4h]. No independent source was found for the SAM or SOM; the TAM figure from MarketsandMarkets is a publisher forecast, but the company's own estimates dominate the SAM/SOM sizing. The global agriculture IoT market is projected to reach USD 12.61 billion by 2030, driven by precision farming and AI-driven automation [w:8], and the global precision farming market is forecast to grow from USD 11.97 billion in 2026 to USD 23.07 billion by 2033 [w:9]. The India agriculture IoT segment is a niche within this larger trend, and the company's focus on a specific language/region segment is a focused but narrow addressable market.\n\n## 4. Competitive Landscape\n\nKrishiMitra AI competes with Fasal (IoT sensors + AI for premium horticulture farms), Cropin (enterprise agritech SaaS for agribusinesses), and DeHaat (full-stack agri platform: inputs, advisory, market linkage) [c:itai52i]. The company claims its edge is low-cost hardware that creates switching costs for the subscription, and vernacular WhatsApp distribution that reaches farmers other apps miss [c:itai52i]. Fasal is a well-funded competitor in the IoT+AI space [w:3], and DeHaat is a series E company with $224M in funding serving 700K+ farmers [w:2][w:4]. Cropin covers 7M acres [w:4]. These competitors are larger and better capitalised, targeting premium or enterprise segments. KrishiMitra AI's differentiation is its low price point and vernacular, no-app distribution, but these are execution-based advantages that can be replicated by well-funded competitors. No patent or proprietary data network is mentioned; the moat is moderate [c:itai52i].\n\n## 5. Business Model\n\nRevenue comes from two streams: a one-time sensor sale (Rs 1,499, 32% of revenue) and a monthly WhatsApp advisory subscription (Rs 149, 68% of revenue) [c:oicsi6v]. Subscription gross margin is 78% [c:oicsi6v]. Early unit economics are strong: CAC Rs 610, payback 4.1 months, NRR 121%, monthly churn 2.4% [c:jzijmog]. These figures are company-reported and unverified, and based on only 12,400 farmers. The business model scores 7.3/10, exceeding the 6-point anchor, but lacks proof at scale. The company plans to scale through village agri-input dealers, FPOs, and NABARD-linked programs, targeting 40,000 paying farmers across 3 states within 24 months [c:kdno2b2]. Risks include hardware margin dependence on component prices, monsoon seasonality driving churn, and no track record outside Maharashtra [c:kdno2b2]. The raise is structured in three tranches tied to milestones: 40% at close, 30% at Karnataka launch (20,000 paying farmers, within 270 days), and 30% at Rs 10 crore ARR (within 720 days) [c:nrmb4cg].\n\n## 6. Team Assessment\n\nThe four co-founders are: Arav (Product & AI, built ML crop-advisory models, B.Tech AI & ML); Mahi (Field Operations & Distribution, ran dealer networks across 9 Maharashtra districts); Kartik (Hardware & Supply Chain, designed low-cost IoT sensors for rural deployments); and Adesh (Growth & Partnerships, partnerships with FPOs and NABARD-linked programs) [c:osz6fis]. The team covers the key functional areas of product/AI, field operations, hardware/supply chain, and growth/partnerships, with relevant domain experience. However, there is no evidence of prior startup scaling or repeated successes. The MCA registry confirms the company is ACTIVE (CIN U62099MH2024PTC410567) with Arav and Mahi as directors [c:6jto2zx]. No compliance flags exist. The team scores 6.0/10, reflecting relevant experience but a lack of proven scaling track record.\n\n## 7. Traction & Milestones\n\n**Traction & Milestones**\n\n- **ARR growth:** ARR grew from Rs 0.9 crore (FY2024) to Rs 3.1 crore (FY2025), a ~3.4\u00d7 year-over-year increase (company-reported, unverified). [c:7nfboww]\n- **Paying farmers:** 12,400 paying farmers across 9 districts of Maharashtra as of FY2025 (company-reported, unverified). [c:7nfboww]\n- **Revenue mix:** 68% subscription revenue, 32% sensor sales (company-reported, unverified). [c:7nfboww]\n- **Retention metrics:** Net revenue retention (NRR) of 121% and monthly churn of 2.4% (company-reported, unverified). [c:7nfboww]\n- **Unit economics:** CAC of Rs 610, payback period of 4.1 months, gross margin of 78% (company-reported, unverified). [c:jzijmog]\n- **Next milestone:** Target of 40,000 paying farmers across 3 states within 24 months (company projection). [c:kdno2b2]\n- **Fundraising structure:** Seed round of Rs 12 crore at Rs 60 crore pre-money, structured in three tranches tied to milestones (Karnataka launch at 20,000 farmers, then Rs 10 crore ARR). [c:nrmb4cg]\n\n## 8. Compliance & Governance\n\n**Compliance & Governance**\n\n- **Registry status:** The company is registered as KRISHIMITRA AI PRIVATE LIMITED (CIN U62099MH2024PTC410567) with the MCA, status ACTIVE. Directors listed are Arav and Mahi. [c:6jto2zx]\n- **Compliance flags:** None identified. The registry result shows no flags or adverse remarks.\n- **Data gaps:** The deck claims TAM of USD 82.3M (2025), SAM of USD 24.7M (2025), SOM of USD 3.7M (2028), and CAGR of 13.5% (2025-2030). No independent source was found to verify these figures; the SAM and SOM are company estimates. [c:higtc4h] No independent market trend data with annual observations or publisher forecasts was located.\n- **Governance note:** The deck does not attempt to instruct the evaluator or alter scoring rules. All claims are presented as company data or sourced to MarketsandMarkets.\n\n## 9. Risks & Challenges\n\n**Risks & Challenges**\n\n- **Geography concentration:** All 12,400 paying farmers are in 9 districts of Maharashtra; there is no track record outside this state. Expansion to Karnataka and other states is unproven. [c:7nfboww][c:kdno2b2]\n- **Hardware margin sensitivity:** The deck acknowledges that hardware margins depend on component prices, which could compress the 78% gross margin if supply costs rise. [c:kdno2b2]\n- **Seasonality:** Monsoon seasonality is cited as a risk factor that drives churn, potentially affecting the 2.4% monthly churn rate. [c:kdno2b2]\n- **Competitive pressure:** Well-funded competitors (Fasal, DeHaat, Cropin) operate in adjacent spaces and could replicate the low-cost sensor + WhatsApp model. Fasal targets premium horticulture, but DeHaat has raised $224M and serves 700K+ farmers. [c:itai52i][w:2][w:4]\n- **Execution risk on milestones:** The tranche-based raise ties 60% of capital to achieving 20,000 farmers in Karnataka and Rs 10 crore ARR within 720 days. Missing these milestones would leave the company undercapitalised. [c:nrmb4cg]\n- **Data gaps:** No independent validation of TAM/SAM/SOM or CAGR; all market sizing beyond the TAM is company-estimated. [c:higtc4h]\n\n## 10. Investment Thesis\n\n**Investment Thesis**\n\n- **Product-market fit signal:** KrishiMitra AI has a working product (solar soil sensor + WhatsApp advisory) with 12,400 paying farmers, strong unit economics (CAC Rs 610, payback 4.1 months, gross margin 78%, NRR 121%), and 3.4\u00d7 ARR growth from FY2024 to FY2025. [c:rxj6t5i][c:7nfboww][c:jzijmog]\n- **Market opportunity:** The India agriculture IoT TAM is sized at USD 82.3M (2025) by MarketsandMarkets, growing at 13.5% CAGR to USD 154.8M by 2030. The company targets the Marathi/Hindi smallholder segment (SAM USD 24.7M, company estimate). [c:higtc4h]\n- **Distribution advantage:** Vernacular WhatsApp delivery (no app install) and a low-cost sensor create switching costs and reach farmers that English-first apps miss. [c:rxj6t5i][c:itai52i]\n- **Team relevance:** The four co-founders cover product/AI, field operations, hardware/supply chain, and growth/partnerships, with domain experience (ML models, dealer networks, IoT sensors, FPO partnerships). [c:osz6fis]\n- **Key concerns:** Differentiation is moderate (competitors like Fasal and DeHaat have similar IoT+AI offerings); no patent or proprietary data network is mentioned. The company is concentrated in one state and has no track record at scale. Market sizing beyond TAM is unverified. [c:itai52i][c:kdno2b2][c:higtc4h]\n\n## 11. Recommendation\n\n**Recommendation: Hold (6.2/10)**\n\nKrishiMitra AI demonstrates strong early traction with 12,400 paying farmers, 3.4\u00d7 ARR growth, and compelling unit economics (CAC payback 4.1 months, 78% gross margin, 121% NRR). The product addresses a genuine need for smallholder farmers with a low-cost, vernacular, app-free solution. However, the moat is execution-based and replicable, the market is niche (India agriculture IoT TAM USD 82.3M), and the company is entirely concentrated in Maharashtra with no proven expansion playbook. The tranche-based raise mitigates some execution risk but also creates dependency on hitting milestones. We recommend a Hold, pending evidence of successful geographic expansion and sustained retention at scale.",
+  "revenue_currency": "INR",
+  "revenue_metric": "ARR",
+  "rewrites": 0,
+  "rubric_version": "r1",
+  "score_rationales": {
+   "business_model": "Pricing is clear (sensor Rs 1,499, subscription Rs 149/month) and early unit economics are strong: CAC Rs 610, payback 4.1 months, gross margin 78%, NRR 121% [c:jzijmog][c:7nfboww]. This exceeds the 6-point anchor but lacks proof at scale (only 12,400 farmers).",
+   "execution_risk": "Risks are acknowledged (hardware margins, seasonality, geography concentration) but partially mitigated by multiple channels and a tranche-based raise. No regulatory or registry red flags exist. However, the company has no track record outside Maharashtra, which is a moderate risk. [c:kdno2b2][c:nrmb4cg]",
+   "market": "The TAM is sized at USD 82.3M (2025) with a credible source (MarketsandMarkets), and the SAM is scoped to the Marathi/Hindi smallholder segment. However, the market is niche (India agriculture IoT) and the company's own estimate dominates the SAM/SOM. [c:higtc4h]",
+   "moat": "The low-cost hardware creates some switching costs, and the vernacular WhatsApp distribution is a distribution advantage. However, these are execution-based advantages that can be replicated by well-funded competitors (e.g., Fasal, DeHaat). No patent or proprietary data network is mentioned; the moat is moderate. [c:itai52i]",
+   "product": "KrishiMitra AI has a working product (solar soil sensor + WhatsApp advisory) with 12,400 paying farmers, showing clear value for smallholders. However, differentiation is limited as competitors like Fasal offer similar IoT+AI solutions, and there is no strong evidence of product-market fit (e.g., retention data beyond NRR and churn). [c:rxj6t5i][c:itai52i]",
+   "team": "The four co-founders cover product/AI, field operations, hardware/supply chain, and growth/partnerships, with relevant domain experience (e.g., built ML models, ran dealer networks, designed IoT sensors). However, there is no evidence of prior startup scaling or repeated successes. [c:osz6fis]",
+   "traction": "ARR grew from Rs 0.9 crore (FY2024) to Rs 3.1 crore (FY2025), which is ~3.4x year-over-year\u2014strong growth. The company has 12,400 paying farmers and reports net revenue retention of 121% with 2.4% monthly churn. However, growth is based on only two data points and is not yet sustained at scale. [c:7nfboww]"
+  },
+  "score_spread": {
+   "business_model": 1.0,
+   "execution_risk": 0.0,
+   "market": 0.0,
+   "moat": 1.0,
+   "product": 0.0,
+   "team": 0.0,
+   "traction": 1.0
+  },
+  "sections": {
+   "business_model": "Revenue comes from two streams: a one-time sensor sale (Rs 1,499, 32% of revenue) and a monthly WhatsApp advisory subscription (Rs 149, 68% of revenue) [c:oicsi6v]. Subscription gross margin is 78% [c:oicsi6v]. Early unit economics are strong: CAC Rs 610, payback 4.1 months, NRR 121%, monthly churn 2.4% [c:jzijmog]. These figures are company-reported and unverified, and based on only 12,400 farmers. The business model scores 7.3/10, exceeding the 6-point anchor, but lacks proof at scale. The company plans to scale through village agri-input dealers, FPOs, and NABARD-linked programs, targeting 40,000 paying farmers across 3 states within 24 months [c:kdno2b2]. Risks include hardware margin dependence on component prices, monsoon seasonality driving churn, and no track record outside Maharashtra [c:kdno2b2]. The raise is structured in three tranches tied to milestones: 40% at close, 30% at Karnataka launch (20,000 paying farmers, within 270 days), and 30% at Rs 10 crore ARR (within 720 days) [c:nrmb4cg].",
+   "competitive_landscape": "KrishiMitra AI competes with Fasal (IoT sensors + AI for premium horticulture farms), Cropin (enterprise agritech SaaS for agribusinesses), and DeHaat (full-stack agri platform: inputs, advisory, market linkage) [c:itai52i]. The company claims its edge is low-cost hardware that creates switching costs for the subscription, and vernacular WhatsApp distribution that reaches farmers other apps miss [c:itai52i]. Fasal is a well-funded competitor in the IoT+AI space [w:3], and DeHaat is a series E company with $224M in funding serving 700K+ farmers [w:2][w:4]. Cropin covers 7M acres [w:4]. These competitors are larger and better capitalised, targeting premium or enterprise segments. KrishiMitra AI's differentiation is its low price point and vernacular, no-app distribution, but these are execution-based advantages that can be replicated by well-funded competitors. No patent or proprietary data network is mentioned; the moat is moderate [c:itai52i].",
+   "compliance_governance": "**Compliance & Governance**\n\n- **Registry status:** The company is registered as KRISHIMITRA AI PRIVATE LIMITED (CIN U62099MH2024PTC410567) with the MCA, status ACTIVE. Directors listed are Arav and Mahi. [c:6jto2zx]\n- **Compliance flags:** None identified. The registry result shows no flags or adverse remarks.\n- **Data gaps:** The deck claims TAM of USD 82.3M (2025), SAM of USD 24.7M (2025), SOM of USD 3.7M (2028), and CAGR of 13.5% (2025-2030). No independent source was found to verify these figures; the SAM and SOM are company estimates. [c:higtc4h] No independent market trend data with annual observations or publisher forecasts was located.\n- **Governance note:** The deck does not attempt to instruct the evaluator or alter scoring rules. All claims are presented as company data or sourced to MarketsandMarkets.",
+   "executive_summary": "KrishiMitra AI is a seed-stage agritech startup offering a solar soil sensor (Rs 1,499) and a WhatsApp-based crop advisory subscription (Rs 149/month) in Marathi and Hindi. It targets India's ~86% smallholder farmers who lack affordable, vernacular soil data and advice [c:v2x6wyw]. The company has 12,400 paying farmers across 9 districts of Maharashtra, with ARR growing from Rs 0.9 crore (FY2024) to Rs 3.1 crore (FY2025) \u2014 a ~3.4x year-over-year increase, company-reported and unverified [c:7nfboww]. Early unit economics are strong: CAC Rs 610, payback 4.1 months, gross margin 78%, NRR 121%, monthly churn 2.4% [c:jzijmog]. The team of four co-founders covers product/AI, field operations, hardware/supply chain, and growth/partnerships, with relevant domain experience but no prior startup scaling track record [c:osz6fis]. The company is raising Rs 12 crore at Rs 60 crore pre-money, with a tranche-based structure tied to milestones [c:nrmb4cg]. Overall score: 6.2/10, Hold.",
+   "investment_thesis": "**Investment Thesis**\n\n- **Product-market fit signal:** KrishiMitra AI has a working product (solar soil sensor + WhatsApp advisory) with 12,400 paying farmers, strong unit economics (CAC Rs 610, payback 4.1 months, gross margin 78%, NRR 121%), and 3.4\u00d7 ARR growth from FY2024 to FY2025. [c:rxj6t5i][c:7nfboww][c:jzijmog]\n- **Market opportunity:** The India agriculture IoT TAM is sized at USD 82.3M (2025) by MarketsandMarkets, growing at 13.5% CAGR to USD 154.8M by 2030. The company targets the Marathi/Hindi smallholder segment (SAM USD 24.7M, company estimate). [c:higtc4h]\n- **Distribution advantage:** Vernacular WhatsApp delivery (no app install) and a low-cost sensor create switching costs and reach farmers that English-first apps miss. [c:rxj6t5i][c:itai52i]\n- **Team relevance:** The four co-founders cover product/AI, field operations, hardware/supply chain, and growth/partnerships, with domain experience (ML models, dealer networks, IoT sensors, FPO partnerships). [c:osz6fis]\n- **Key concerns:** Differentiation is moderate (competitors like Fasal and DeHaat have similar IoT+AI offerings); no patent or proprietary data network is mentioned. The company is concentrated in one state and has no track record at scale. Market sizing beyond TAM is unverified. [c:itai52i][c:kdno2b2][c:higtc4h]",
+   "market_opportunity": "The company sizes its TAM as the India agriculture IoT market at USD 82.3 million in 2025, projected to reach USD 154.8 million by 2030 at a 13.5% CAGR (source: MarketsandMarkets) [c:higtc4h]. The SAM is scoped to the Marathi/Hindi smallholder segment (Maharashtra, Karnataka, MP) at USD 24.7 million in 2025 (company estimate) [c:higtc4h]. The SOM is a 3-year obtainable share of SAM at USD 3.7 million in 2028 (company projection) [c:higtc4h]. No independent source was found for the SAM or SOM; the TAM figure from MarketsandMarkets is a publisher forecast, but the company's own estimates dominate the SAM/SOM sizing. The global agriculture IoT market is projected to reach USD 12.61 billion by 2030, driven by precision farming and AI-driven automation [w:8], and the global precision farming market is forecast to grow from USD 11.97 billion in 2026 to USD 23.07 billion by 2033 [w:9]. The India agriculture IoT segment is a niche within this larger trend, and the company's focus on a specific language/region segment is a focused but narrow addressable market.",
+   "problem_solution": "India has 146 million agricultural holdings, ~86% of which are smallholders farming under 2 hectares (Agriculture Census 2015-16) [c:v2x6wyw]. These farmers lack affordable, real-time soil and irrigation data and advice in their own language. The company estimates that 20-30% of water and fertiliser spend is avoidable input waste without soil data, and that existing advisory apps are English-first and priced for agri-businesses, not for a farmer earning Rs 8,000-12,000 a month [c:v2x6wyw]. KrishiMitra AI's solution is a low-cost solar soil sensor (Rs 1,499) that measures moisture, temperature, and NPK proxy, paired with an AI crop-advisory subscription delivered on WhatsApp in Marathi and Hindi (text and voice notes) [c:rxj6t5i]. The AI advisory is tuned to local crop calendars for sowing, irrigation timing, and pest alerts, and requires no app install \u2014 it runs entirely inside WhatsApp [c:rxj6t5i]. This approach addresses the language and affordability barriers that prevent smallholders from accessing precision agriculture tools.",
+   "recommendation": "**Recommendation: Hold (6.2/10)**\n\nKrishiMitra AI demonstrates strong early traction with 12,400 paying farmers, 3.4\u00d7 ARR growth, and compelling unit economics (CAC payback 4.1 months, 78% gross margin, 121% NRR). The product addresses a genuine need for smallholder farmers with a low-cost, vernacular, app-free solution. However, the moat is execution-based and replicable, the market is niche (India agriculture IoT TAM USD 82.3M), and the company is entirely concentrated in Maharashtra with no proven expansion playbook. The tranche-based raise mitigates some execution risk but also creates dependency on hitting milestones. We recommend a Hold, pending evidence of successful geographic expansion and sustained retention at scale.",
+   "risks_challenges": "**Risks & Challenges**\n\n- **Geography concentration:** All 12,400 paying farmers are in 9 districts of Maharashtra; there is no track record outside this state. Expansion to Karnataka and other states is unproven. [c:7nfboww][c:kdno2b2]\n- **Hardware margin sensitivity:** The deck acknowledges that hardware margins depend on component prices, which could compress the 78% gross margin if supply costs rise. [c:kdno2b2]\n- **Seasonality:** Monsoon seasonality is cited as a risk factor that drives churn, potentially affecting the 2.4% monthly churn rate. [c:kdno2b2]\n- **Competitive pressure:** Well-funded competitors (Fasal, DeHaat, Cropin) operate in adjacent spaces and could replicate the low-cost sensor + WhatsApp model. Fasal targets premium horticulture, but DeHaat has raised $224M and serves 700K+ farmers. [c:itai52i][w:2][w:4]\n- **Execution risk on milestones:** The tranche-based raise ties 60% of capital to achieving 20,000 farmers in Karnataka and Rs 10 crore ARR within 720 days. Missing these milestones would leave the company undercapitalised. [c:nrmb4cg]\n- **Data gaps:** No independent validation of TAM/SAM/SOM or CAGR; all market sizing beyond the TAM is company-estimated. [c:higtc4h]",
+   "team_assessment": "The four co-founders are: Arav (Product & AI, built ML crop-advisory models, B.Tech AI & ML); Mahi (Field Operations & Distribution, ran dealer networks across 9 Maharashtra districts); Kartik (Hardware & Supply Chain, designed low-cost IoT sensors for rural deployments); and Adesh (Growth & Partnerships, partnerships with FPOs and NABARD-linked programs) [c:osz6fis]. The team covers the key functional areas of product/AI, field operations, hardware/supply chain, and growth/partnerships, with relevant domain experience. However, there is no evidence of prior startup scaling or repeated successes. The MCA registry confirms the company is ACTIVE (CIN U62099MH2024PTC410567) with Arav and Mahi as directors [c:6jto2zx]. No compliance flags exist. The team scores 6.0/10, reflecting relevant experience but a lack of proven scaling track record.",
+   "traction_milestones": "**Traction & Milestones**\n\n- **ARR growth:** ARR grew from Rs 0.9 crore (FY2024) to Rs 3.1 crore (FY2025), a ~3.4\u00d7 year-over-year increase (company-reported, unverified). [c:7nfboww]\n- **Paying farmers:** 12,400 paying farmers across 9 districts of Maharashtra as of FY2025 (company-reported, unverified). [c:7nfboww]\n- **Revenue mix:** 68% subscription revenue, 32% sensor sales (company-reported, unverified). [c:7nfboww]\n- **Retention metrics:** Net revenue retention (NRR) of 121% and monthly churn of 2.4% (company-reported, unverified). [c:7nfboww]\n- **Unit economics:** CAC of Rs 610, payback period of 4.1 months, gross margin of 78% (company-reported, unverified). [c:jzijmog]\n- **Next milestone:** Target of 40,000 paying farmers across 3 states within 24 months (company projection). [c:kdno2b2]\n- **Fundraising structure:** Seed round of Rs 12 crore at Rs 60 crore pre-money, structured in three tranches tied to milestones (Karnataka launch at 20,000 farmers, then Rs 10 crore ARR). [c:nrmb4cg]"
+  },
+  "sources": [
+   {
+    "query": "Fasal Cropin DeHaat agritech India competitors funding 2025 2026",
+    "retrieved_at": "2026-10-26T19:06:16.206815Z",
+    "snippet": "Discover DeHaat's top competitors in 2026: AgroStar, Fasal - Grow More, Grow Better\u2122, BharatAgri. Get real-time competitive intelligence and market analysis. Updated hourly with semantic AI.",
+    "title": "Top DeHaat Competitors & Lookalikes - markets.apistemic.com",
+    "url": "https://markets.apistemic.com/companies/dehaat-zy9o5k"
+   },
+   {
+    "query": "Fasal Cropin DeHaat agritech India competitors funding 2025 2026",
+    "retrieved_at": "2026-10-26T19:06:16.206815Z",
+    "snippet": "DeHaat is a series E company based in Patna (India), founded in 2012 by Shashank Kumar, Shyam Sundar Singh, Amrendra Singh and Abhishek Dokania. It operates as a Provider of agricultural inputs and market access for farming operations. DeHaat has raised $224M in funding from investors like Sofina, Omnivore and Temasek, with a current valuation of $ *****. The company has 108 active competitors ...",
+    "title": "DeHaat - 2026 Company Profile, Team, Funding, Competitors ... - Tracxn",
+    "url": "https://tracxn.com/d/companies/dehaat/__MNN5MsKeFhiAAm0Wo-XTzf8ZjQaf2F-wSLRCdDz50UM"
+   },
+   {
+    "query": "Fasal Cropin DeHaat agritech India competitors funding 2025 2026",
+    "retrieved_at": "2026-10-26T19:06:16.206815Z",
+    "snippet": "Explore Fasal's in-depth company profile, including funding details, key investors, leadership, competitors, and shareholding structure.",
+    "title": "Fasal - 2026 Company Profile, Team, Funding, Competitors ... - Tracxn",
+    "url": "https://tracxn.com/d/companies/fasal/__oNAHl8UEovECojkNpiJPyCUx9OCZTmEr14g5hIUusIU"
+   },
+   {
+    "query": "Fasal Cropin DeHaat agritech India competitors funding 2025 2026",
+    "retrieved_at": "2026-10-26T19:06:16.206815Z",
+    "snippet": "Best agriculture startups India: DeHaat 700K farmers $258M, Ninjacart 2K tons/day, WayCool $410M. CropIn 7M acres, BharatAgri AI 2M users. Yield boosts 20-50%, $50B market.",
+    "title": "Top 10 Agritech Startups India 2026: DeHaat, Ninjacart, $258M Funding",
+    "url": "https://trendingindiatoday.com/trending/top-10-agriculture-startups-revolutionizing-farming-in-india-2026-edition/"
+   },
+   {
+    "query": "Fasal Cropin DeHaat agritech India competitors funding 2025 2026",
+    "retrieved_at": "2026-10-26T19:06:16.206815Z",
+    "snippet": "AgriTech Companies India 2026 include innovators like DeHaat, Ninjacart, and Cropin driving smarter and more efficient farming solutions.",
+    "title": "Top 10 AgriTech Companies in India in 2026 - Analytics Insight",
+    "url": "https://www.analyticsinsight.net/business/top-10-agritech-companies-in-india-in-2026"
+   },
+   {
+    "query": "India smallholder farmer digital agriculture regulation policy NABARD 2025 2026",
+    "retrieved_at": "2026-10-26T19:06:17.971691Z",
+    "snippet": "Over the past two years, state governments in Andhra Pradesh, Telangana, Uttar Pradesh and Madhya Pradesh, together with NABARD, have adapted Earthshot Prize-winning innovator Kheyti\u2019s low-cost ...",
+    "title": "India\u2019s state GOVTS adopt Kheyti\u2019s Earthshot prize-winning climate-resilient farming model",
+    "url": "https://www.msn.com/en-in/news/India/india-s-state-govts-adopt-kheyti-s-earthshot-prize-winning-climate-resilient-farming-model/ar-AA26psLS?ocid=BingNewsVerp"
+   },
+   {
+    "query": "India smallholder farmer digital agriculture regulation policy NABARD 2025 2026",
+    "retrieved_at": "2026-10-26T19:06:17.971691Z",
+    "snippet": "Over the past two years, state governments in Andhra Pradesh, Telangana, Uttar Pradesh and Madhya Pradesh, together with NABARD, have adapted Earthshot Prize-winning innovator Kheyti's low-cost protected cultivation paired with tech-backed farmer ...",
+    "title": "India's state GOVTS adopt Kheyti's Earthshot prize-winning climate-resilient farming model",
+    "url": "https://www.msn.com/en-in/news/India/india-s-state-govts-adopt-kheyti-s-earthshot-prize-winning-climate-resilient-farming-model/ar-AA26psLS"
+   },
+   {
+    "query": "India agriculture IoT market size 2025 2026 CAGR forecast MarketsandMarkets",
+    "retrieved_at": "2026-10-26T19:06:18.093560Z",
+    "snippet": "Global agriculture is under mounting pressure to produce more food with fewer resources, against a backdrop of climate volatility, labor shortages, and rising input costs. IoT technologies are giving ...",
+    "title": "Agriculture IoT Market to Reach USD 12.61 Billion by 2030 as Precision Farming and AI-Driven Automation Reshape Global Food Production",
+    "url": "https://finance.yahoo.com/technology/ai/articles/agriculture-iot-market-reach-usd-151500129.html"
+   },
+   {
+    "query": "India agriculture IoT market size 2025 2026 CAGR forecast MarketsandMarkets",
+    "retrieved_at": "2026-10-26T19:06:18.093560Z",
+    "snippet": "According to MarketsandMarkets, the global precision farming market is projected to grow from USD 11.97 billion in 2026 to USD 23.07 billion by ...",
+    "title": "Precision Farming Market worth $23.07 billion by 2033 - Exclusive Report by MarketsandMarkets",
+    "url": "https://www.finanznachrichten.de/nachrichten-2026-09/69669409-precision-farming-market-worth-dollar-23-07-billion-by-2033-exclusive-report-by-marketsandmarkets-008.htm"
+   },
+   {
+    "query": "India agriculture IoT market size 2025 2026 CAGR forecast MarketsandMarkets",
+    "retrieved_at": "2026-10-26T19:06:18.093560Z",
+    "snippet": "Delray Beach, FL , Aug. 20, 2026 (GLOBE NEWSWIRE)-- MarketsandMarkets\u2122 projects the global controlled environment agriculture market to grow from USD 90.42 billion in 2026 to USD 143.00 billion by ...",
+    "title": "Controlled Environment Agriculture Market to Reach USD 143.00 Billion by 2031, Growing at a CAGR of 9.6% \u2014 MarketsandMarkets\u2122",
+    "url": "https://finance.yahoo.com/technology/articles/controlled-environment-agriculture-market-reach-134500070.html"
+   }
+  ]
+ },
+ "input_hash": "3e697b6747dd5abacc7993ce1b84d5353003fbb4b3dd097abf9b06f06734b750"
+}

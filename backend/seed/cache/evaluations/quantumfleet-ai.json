@@ -1,0 +1,484 @@
+{
+ "analysis": {
+  "category_scores": {
+   "business_model": 6.3,
+   "execution_risk": 6.0,
+   "market": 5.7,
+   "moat": 5.0,
+   "product": 6.0,
+   "team": 6.2,
+   "traction": 6.7
+  },
+  "citations": {
+   "c:3ntqqtu": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.9184,
+     0.4682
+    ],
+    "chunk_id": "59112adf-8399-5eae-a37f-7b69578a01df",
+    "document_id": "79381a0e-b017-4798-b4e9-ae9b7f906588",
+    "page_no": 10,
+    "slide_title": "Team",
+    "type": "deck"
+   },
+   "c:a566t7h": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.81256,
+     0.69977
+    ],
+    "chunk_id": "6f5ad85c-830b-5c44-b794-30548fc85f9d",
+    "document_id": "79381a0e-b017-4798-b4e9-ae9b7f906588",
+    "page_no": 9,
+    "slide_title": "Go-to-Market & Key Risks",
+    "type": "deck"
+   },
+   "c:d4gdvaq": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.89937,
+     0.84247
+    ],
+    "chunk_id": "1e2c76fa-3c89-5128-929b-33716a3a889c",
+    "document_id": "79381a0e-b017-4798-b4e9-ae9b7f906588",
+    "page_no": 6,
+    "slide_title": "Traction (as of FY2026)",
+    "type": "deck"
+   },
+   "c:gp7hwei": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.92463,
+     0.42291
+    ],
+    "chunk_id": "66c338a6-4a3b-520e-8dbb-10d5214766ff",
+    "document_id": "79381a0e-b017-4798-b4e9-ae9b7f906588",
+    "page_no": 4,
+    "slide_title": "Market Opportunity (TAM / SAM / SOM)",
+    "type": "deck"
+   },
+   "c:gpkbfqk": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.91032,
+     0.39357
+    ],
+    "chunk_id": "e1093870-23d9-53b5-8004-1c536772f61b",
+    "document_id": "79381a0e-b017-4798-b4e9-ae9b7f906588",
+    "page_no": 5,
+    "slide_title": "Business Model",
+    "type": "deck"
+   },
+   "c:ltl4cdu": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.92544,
+     0.60663
+    ],
+    "chunk_id": "b45c3892-3023-5f69-b663-6e3215a0b978",
+    "document_id": "79381a0e-b017-4798-b4e9-ae9b7f906588",
+    "page_no": 11,
+    "slide_title": "The Ask",
+    "type": "deck"
+   },
+   "c:oixbqgx": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.67079,
+     0.51605
+    ],
+    "chunk_id": "4efdd8cc-113b-5935-a3ec-9d70e8c3df77",
+    "document_id": "79381a0e-b017-4798-b4e9-ae9b7f906588",
+    "page_no": 7,
+    "slide_title": "Unit Economics",
+    "type": "deck"
+   },
+   "c:pk74r26": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.86623,
+     0.50907
+    ],
+    "chunk_id": "96f37fcd-2a33-5565-8f55-745da8498c13",
+    "document_id": "79381a0e-b017-4798-b4e9-ae9b7f906588",
+    "page_no": 1,
+    "slide_title": "QuantumFleet AI",
+    "type": "deck"
+   },
+   "c:qs7smj6": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.92871,
+     0.50907
+    ],
+    "chunk_id": "20d22fdd-ebe6-50b3-bb09-3d4248374a48",
+    "document_id": "79381a0e-b017-4798-b4e9-ae9b7f906588",
+    "page_no": 3,
+    "slide_title": "Solution",
+    "type": "deck"
+   },
+   "c:rhdlifj": {
+    "bbox": [
+     0.05761,
+     0.0554,
+     0.93753,
+     0.64125
+    ],
+    "chunk_id": "ae75404f-10ad-54bb-857b-0b88ca9979df",
+    "document_id": "79381a0e-b017-4798-b4e9-ae9b7f906588",
+    "page_no": 8,
+    "slide_title": "Competitive Landscape",
+    "type": "deck"
+   },
+   "c:xryndfa": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.89254,
+     0.53841
+    ],
+    "chunk_id": "391f23f6-80b6-58dc-86b9-ba1456003af4",
+    "document_id": "79381a0e-b017-4798-b4e9-ae9b7f906588",
+    "page_no": 2,
+    "slide_title": "Problem",
+    "type": "deck"
+   },
+   "w:1": {
+    "title": "List of 4,165 Logistics Tech Startups in India & Market Trends ... - Tracxn",
+    "type": "web",
+    "url": "https://tracxn.com/d/explore/logistics-tech-startups-in-india/__H9_jfeSR8SebElvmkkyqxBpe6TWZczbY4u7o1QeXavQ"
+   },
+   "w:10": {
+    "title": "Commercial vehicles in India - statistics and facts | Statista",
+    "type": "web",
+    "url": "https://www.statista.com/topics/5851/commercial-vehicles-in-india/"
+   },
+   "w:11": {
+    "title": "Commercial vehicles in India - Statista",
+    "type": "web",
+    "url": "https://www.statista.com/study/68752/commercial-vehicles-in-india/"
+   },
+   "w:12": {
+    "title": "India Commercial Truck Market Size, Share &amp; Trends Report 2025-2031",
+    "type": "web",
+    "url": "https://www.kenresearch.com/india-commercial-truck-market"
+   },
+   "w:13": {
+    "title": "India Truck Market Share, Companies &amp; Trends Report 2025-2031",
+    "type": "web",
+    "url": "https://www.kenresearch.com/industry-reports/india-truck-market"
+   },
+   "w:14": {
+    "title": "India Truck Market Share, Size &amp; Growth Outlook, 2030",
+    "type": "web",
+    "url": "https://www.mordorintelligence.com/industry-reports/india-truck-market"
+   },
+   "w:2": {
+    "title": "Top startups in Logistics Tech in India (Jan, 2026) - Tracxn",
+    "type": "web",
+    "url": "https://tracxn.com/d/explore/logistics-tech-startups-in-india/__H9_jfeSR8SebElvmkkyqxBpe6TWZczbY4u7o1QeXavQ/companies"
+   },
+   "w:3": {
+    "title": "India's Logistics Tech Sector Heats Up: Funding Trends and Top Startups ...",
+    "type": "web",
+    "url": "https://startupory.com/article/india-logistics-tech-funding-trends-april-2026"
+   },
+   "w:4": {
+    "title": "QuikApp raises seed funding from Vehra Ventures",
+    "type": "web",
+    "url": "https://entrepreneur.economictimes.indiatimes.com/news/funding/quikapp-raises-seed-funding-from-vehra-ventures/134610137"
+   },
+   "w:5": {
+    "title": "QuikApp Raises Seed Funding - thesaasnews.com",
+    "type": "web",
+    "url": "https://www.thesaasnews.com/news/quikapp-raises-seed-funding/"
+   },
+   "w:6": {
+    "title": "Construction Equipment Fleet Management Software Market Analysis and Strategy Report 2026",
+    "type": "web",
+    "url": "https://finance.yahoo.com/news/construction-equipment-fleet-management-software-162000193.html"
+   },
+   "w:7": {
+    "title": "$7.49 Bn Construction Equipment Fleet Management Software Market Trends, Strategies, and Opportunities, 2019-2024, 2024-2029F, 2034F",
+    "type": "web",
+    "url": "https://finance.yahoo.com/news/7-49-bn-construction-equipment-133100029.html"
+   },
+   "w:8": {
+    "title": "AI-Powered Fleet-Management Software Market Outlook 2025-2030: Expansion of E-Commerce Elevates Need for Precision in Last-Mile Delivery",
+    "type": "web",
+    "url": "https://finance.yahoo.com/news/ai-powered-fleet-management-software-164500549.html"
+   },
+   "w:9": {
+    "title": "NHAI increases FASTag Annual Pass fee: Starting April 1, 2026, for annual toll pass highway users to pay\u2026",
+    "type": "web",
+    "url": "https://www.india.com/news/india/nhai-increases-fastag-annual-pass-fee-starting-april-1-2026-for-annual-toll-pass-highway-users-to-pay-8343496/"
+   }
+  },
+  "citations_removed": 0,
+  "compliance_flags": [],
+  "data_gaps": [
+   "TAM: no usable source excerpt with value, unit and period.",
+   "CAGR: no usable source excerpt with value, unit and period.",
+   "SAM: no independent source found; the deck claims 640 INR crore (p.4).",
+   "SOM: no independent source found; the deck claims 25 INR crore (p.4).",
+   "Market trend unavailable: no sourced annual observations or publisher forecasts. No years were interpolated."
+  ],
+  "evidence_version": 2,
+  "generated_at": "2026-10-26T19:13:23.355970Z",
+  "input_hash": "1150c2a1029c6e529dab96fea668d6aa59a5db4f1ed92169e7c80326fba635fc",
+  "invalid_citations": [],
+  "market_sizing": {
+   "basis": "Only figures traceable to retrieved search excerpts are plotted as market data.",
+   "cagr_pct": null,
+   "claims": {
+    "sam_usd_b": {
+     "check": {
+      "status": "unverified"
+     },
+     "citation": {
+      "bbox": [
+       0.0677,
+       0.0554,
+       0.92463,
+       0.42291
+      ],
+      "chunk_id": "66c338a6-4a3b-520e-8dbb-10d5214766ff",
+      "cid": "c:gp7hwei",
+      "document_id": "79381a0e-b017-4798-b4e9-ae9b7f906588",
+      "page_no": 4
+     },
+     "currency": "INR",
+     "geography": "South and Central India",
+     "kind": "company_estimate",
+     "low_confidence": false,
+     "market": "Fleets of 20-300 trucks in South and Central India",
+     "normalised": 6.4,
+     "period": "",
+     "quote": "SAM \u2014 Fleets of 20-300 trucks in South and Central India: Rs 640 crore in 2025 (company estimate)",
+     "retrieved_at": null,
+     "source_title": "QuantumFleet_AI_Pitch_Deck.pdf, p.4",
+     "source_url": null,
+     "unit": "INR crore",
+     "value": 640.0,
+     "year": 2025
+    },
+    "som_usd_b": {
+     "check": {
+      "status": "unverified"
+     },
+     "citation": {
+      "bbox": [
+       0.0677,
+       0.0554,
+       0.92463,
+       0.42291
+      ],
+      "chunk_id": "66c338a6-4a3b-520e-8dbb-10d5214766ff",
+      "cid": "c:gp7hwei",
+      "document_id": "79381a0e-b017-4798-b4e9-ae9b7f906588",
+      "page_no": 4
+     },
+     "currency": "INR",
+     "geography": "South and Central India",
+     "kind": "company_forecast",
+     "low_confidence": false,
+     "market": "3-year obtainable share of SAM",
+     "normalised": 0.25,
+     "period": "",
+     "quote": "SOM \u2014 3-year obtainable share of SAM: Rs 25 crore in 2028 (company projection)",
+     "retrieved_at": null,
+     "source_title": "QuantumFleet_AI_Pitch_Deck.pdf, p.4",
+     "source_url": null,
+     "unit": "INR crore",
+     "value": 25.0,
+     "year": 2028
+    }
+   },
+   "evidence": {},
+   "sam_usd_b": null,
+   "som_usd_b": null,
+   "tam_usd_b": null,
+   "trend": []
+  },
+  "model": "azure/deepSeek-V4-Flash",
+  "overall_score": 6.1,
+  "projected_revenue": [
+   {
+    "citation": {
+     "bbox": [
+      0.0677,
+      0.0554,
+      0.89937,
+      0.84247
+     ],
+     "chunk_id": "1e2c76fa-3c89-5128-929b-33716a3a889c",
+     "cid": "c:d4gdvaq",
+     "document_id": "79381a0e-b017-4798-b4e9-ae9b7f906588",
+     "page_no": 6
+    },
+    "geography": "",
+    "kind": "company_reported",
+    "low_confidence": false,
+    "market": "",
+    "metric": "ARR",
+    "period": "",
+    "quote": "ARR: Rs 1.1 crore in FY2026",
+    "retrieved_at": null,
+    "revenue": 11.0,
+    "source_title": "QuantumFleet_AI_Pitch_Deck.pdf, p.6",
+    "source_url": null,
+    "unit": "INR crore",
+    "value": 1.1,
+    "year": 2026
+   }
+  ],
+  "recommendation_label": "Hold",
+  "report_markdown": "## 1. Executive Summary\n\nQuantumFleet AI is a Seed-stage logistics-tech startup that provides an AI-powered route and load planning platform for mid-size Indian freight fleets (20\u2013300 trucks). The company has achieved early traction with 64 paying fleets, 3,050 trucks under management, and an ARR of Rs 1.1 crore as of FY2026, doubling year-over-year from Rs 0.55 crore in FY2025 [c:d4gdvaq]. Net revenue retention is 118% with monthly logo churn of 1.6%, and fleets live for 6+ months have reduced empty kilometres from 34% to 26% (company-reported) [c:d4gdvaq]. The company is raising Rs 4.2 crore at a Rs 24 crore pre-money valuation, with a tranche-based funding plan tied to milestones of 150 fleets and Rs 3 crore ARR [c:ltl4cdu]. Overall score: 6.1/10, Hold.\n\n## 2. Problem & Solution\n\nMid-size fleet owners in India plan trips manually via phone calls and WhatsApp, resulting in an estimated 30\u201340% of truck-kilometres running empty or part-loaded (company estimate) [c:xryndfa]. Fuel accounts for 50\u201360% of operating costs, and enterprise routing software is priced for fleets of 1,000+ vehicles, leaving a gap for the 20\u2013300 truck segment [c:xryndfa]. QuantumFleet AI solves this by integrating live GPS, FASTag toll events, and order data to generate daily route, load, and return-trip plans, delivered via a driver app in Hindi, Tamil, and Kannada [c:qs7smj6]. The platform also provides a fuel and toll reconciliation dashboard, and return-load matching with shipper partners to reduce empty running [c:qs7smj6]. Early results show a reduction in empty kilometres from 34% to 26% for fleets live 6+ months (company-reported) [c:d4gdvaq].\n\n## 3. Market Opportunity\n\nThe company estimates a TAM of Rs 3,800 crore in 2025 for fleet management and optimisation software across India's commercial trucks (company estimate) [c:gp7hwei]. The SAM is sized at Rs 640 crore for fleets of 20\u2013300 trucks in South and Central India (company estimate) [c:gp7hwei]. The SOM is a 3-year projection of Rs 25 crore by 2028 (company projection) [c:gp7hwei]. All market figures are company-generated and unverified; no independent publisher forecasts were found to corroborate these estimates. The broader India truck market was worth USD 20.4 billion in 2025, growing at a CAGR of 6.09% to USD 29.05 billion by 2031 [w:13], but this covers vehicle sales, not software. The logistics tech sector in India is active, with 4,165 startups listed on Tracxn and fresh capital flowing into middle-mile and AI-led supply chain platforms [w:1][w:3].\n\n## 4. Competitive Landscape\n\nQuantumFleet AI competes with LocoNav (fleet telematics and video telematics), Fleetx (fleet management SaaS), and Locus (enterprise route optimisation for last-mile delivery) [c:rhdlifj]. The company claims an edge from trip and return-load data across 3,050 trucks, which improves matching on every lane, and integrations with major GPS vendors and FASTag data that cut onboarding to under a week [c:rhdlifj]. However, the moat is not yet proven durable; competitors may bundle routing for free, and the company depends on third-party GPS data quality [c:a566t7h]. The market also includes newer entrants like QuikApp, which recently raised seed funding for an integrated logistics platform [w:4][w:5].\n\n## 5. Business Model\n\nRevenue is generated via a per-truck subscription of Rs 300 per month (92% of revenue) and a one-time onboarding fee of Rs 25,000 (8% of revenue) [c:gpkbfqk]. Subscription gross margin is 80% [c:gpkbfqk]. Customer acquisition cost is Rs 135,000 per fleet (average 48 trucks), yielding a CAC payback of 11.8 months [c:oixbqgx]. Net revenue retention is 118% with monthly logo churn of 1.6% [c:oixbqgx]. The unit economics are positive on early data, but the payback period exceeds the 6-month threshold for a higher score. The model depends on fleet expansion and retention in a price-sensitive customer base [c:a566t7h].\n\n## 6. Team Assessment\n\nThe co-founding team combines relevant domain expertise: Karthik Raghunathan (CEO) has 8 years in line-haul operations at a national 3PL; Neha Bansal (CTO) holds an M.Tech in operations research and built vehicle-routing solvers for e-commerce delivery; Imran Sheikh (Sales) ran his family's 120-truck fleet in Nagpur for 7 years [c:3ntqqtu]. The team has direct experience in fleet operations, algorithm development, and fleet ownership, which aligns well with the product. However, there is no evidence of having built or scaled a similar startup before, which caps the score at 6.2. The MCA registry confirms the company is active with the three named directors [c:pk74r26].\n\n## 7. Traction & Milestones\n\nQuantumFleet AI has achieved measurable traction with 64 paying fleets running 3,050 trucks as of FY2026 [c:d4gdvaq]. ARR grew from Rs 0.2 crore (FY2024) to Rs 0.55 crore (FY2025) and doubled to Rs 1.1 crore (FY2026), representing a 5.5x increase over two years [c:d4gdvaq]. Net revenue retention (NRR) stands at 118%, and monthly logo churn is 1.6%, indicating that existing customers are expanding usage while attrition remains low [c:d4gdvaq]. For fleets live for 6+ months, the company reports a reduction in empty kilometres from 34% to 26%, a clear operational outcome [c:d4gdvaq]. The company targets 250 paying fleets and 12,000 trucks within 24 months, with a tranche-based funding plan tied to milestones of 150 fleets and Rs 3 crore ARR [c:ltl4cdu][c:a566t7h].\n\n## 8. Compliance & Governance\n\nThe company is registered as QUANTUMFLEET AI PRIVATE LIMITED, CIN U62013KA2023PTC172846, with an ACTIVE status in the MCA registry [c:pk74r26]. Directors are Karthik Raghunathan, Neha Bansal, and Imran Sheikh [c:pk74r26]. No compliance flags were identified in the provided materials. The deck does not attempt to instruct the evaluator or alter scoring rules. All market sizing figures (TAM, SAM, SOM) are company-reported and unverified; no independent publisher forecasts were found to corroborate them [c:gp7hwei][w:1][w:2][w:3][w:4][w:5][w:6][w:7][w:8][w:9][w:10][w:11][w:12][w:13][w:14].\n\n## 9. Risks & Challenges\n\nKey risks include price sensitivity among fleet owners, who may churn during freight downturns [c:a566t7h]. The product depends on third-party GPS data quality, and return-load matching requires sufficient shipper liquidity on each lane [c:a566t7h]. Telematics vendors such as LocoNav and Fleetx may bundle routing features for free, increasing competitive pressure [c:rhdlifj][c:a566t7h]. The company's unit economics show a CAC payback of 11.8 months, which exceeds the typical 6-month threshold for a higher score, implying that capital efficiency needs to improve as the business scales [c:oixbqgx]. All market estimates are company-generated and lack independent validation, which adds uncertainty to the addressable opportunity [c:gp7hwei].\n\n## 10. Investment Thesis\n\nQuantumFleet AI addresses a clear pain point for mid-size Indian freight fleets (20-300 trucks) that currently rely on manual planning, resulting in 30-40% empty kilometres [c:xryndfa][c:gp7hwei]. The product is live with 64 paying fleets and 3,050 trucks, delivering a measurable reduction in empty running from 34% to 26% [c:d4gdvaq]. The business model is straightforward: Rs 300 per truck per month with 80% gross margin, and early retention metrics (NRR 118%, monthly churn 1.6%) suggest product-market fit is emerging [c:gpkbfqk][c:d4gdvaq]. The team combines line-haul operations, operations research, and fleet ownership experience, providing relevant domain expertise [c:3ntqqtu]. However, the revenue base is still small (ARR Rs 1.1 crore), the moat from data and integrations is unproven against established competitors, and the CAC payback period is long at 11.8 months [c:d4gdvaq][c:rhdlifj][c:oixbqgx]. The company is raising Rs 4.2 crore at a Rs 24 crore pre-money valuation, with a tranche structure tied to fleet and ARR milestones [c:ltl4cdu].\n\n## 11. Recommendation\n\n**Hold (6.1/10)**. QuantumFleet AI shows strong early traction with doubling ARR, positive unit economics, and a clear value proposition for a large, underserved market. The team is credible and the product delivers measurable outcomes. However, the small revenue base, long CAC payback, unvalidated market estimates, and competitive threats from established telematics players warrant caution. The tranche-based funding structure provides some downside protection, but the company needs to demonstrate sustained growth and improved capital efficiency before a higher rating is justified.",
+  "revenue_currency": "INR",
+  "revenue_metric": "ARR",
+  "rewrites": 2,
+  "rubric_version": "r1",
+  "score_rationales": {
+   "business_model": "Pricing is clear at Rs 300 per truck per month with 80% gross margin and a reported CAC payback of 11.8 months [c:oixbqgx]. The unit economics are positive on early data, but the payback period exceeds the 6-month threshold for a higher score, and the model depends on fleet expansion.",
+   "execution_risk": "Risks are identified and partially mitigated: price-sensitive customers, dependence on third-party GPS data, and need for shipper liquidity [c:a566t7h]. The company has a clear tranche-based funding plan with milestones [c:ltl4cdu], but risks remain significant for early-stage, warranting a score of 6.",
+   "market": "The company provides a credible, clearly scoped SAM of Rs 640 crore for fleets of 20-300 trucks in South/Central India, and a TAM of Rs 3,800 crore [c:gp7hwei]. However, all market estimates are company-generated (no independent source backing), and the SOM projection is a 3-year projection rather than a current sizing.",
+   "moat": "The company claims an edge from trip and return-load data across 3,050 trucks and integrations with GPS vendors and FASTag [c:rhdlifj]. This provides some switching costs and data network effects, but the moat is not yet proven durable, and competitors like LocoNav and Fleetx exist [c:rhdlifj][c:a566t7h].",
+   "product": "QuantumFleet AI has a working product with 64 paying fleets and 3,050 trucks, delivering a clear value of cutting empty kilometres from 34% to 26% for fleets live 6+ months [c:pk74r26][c:qs7smj6][c:d4gdvaq]. This shows a product used by paying customers with a specific, measurable value, but evidence of full product-market fit (retention, expansion) is limited to early NRR and churn figures.",
+   "team": "The team combines line-haul operations (Karthik), operations research and vehicle-routing solvers (Neha), and fleet ownership experience (Imran) [c:3ntqqtu]. They have relevant domain and execution experience across key roles, but no evidence of having built or scaled a similar startup before, which caps the score at 6.",
+   "traction": "ARR grew from Rs 0.2 crore (FY2024) to Rs 1.1 crore (FY2026), doubling year-over-year, with 64 paying fleets, NRR of 118%, and monthly logo churn of 1.6% [c:d4gdvaq]. This shows strong growth with retention evidence, but the revenue base is still small and growth is not yet at sustained scale."
+  },
+  "score_spread": {
+   "business_model": 1.0,
+   "execution_risk": 1.0,
+   "market": 1.0,
+   "moat": 1.0,
+   "product": 0.5,
+   "team": 1.0,
+   "traction": 1.0
+  },
+  "sections": {
+   "business_model": "Revenue is generated via a per-truck subscription of Rs 300 per month (92% of revenue) and a one-time onboarding fee of Rs 25,000 (8% of revenue) [c:gpkbfqk]. Subscription gross margin is 80% [c:gpkbfqk]. Customer acquisition cost is Rs 135,000 per fleet (average 48 trucks), yielding a CAC payback of 11.8 months [c:oixbqgx]. Net revenue retention is 118% with monthly logo churn of 1.6% [c:oixbqgx]. The unit economics are positive on early data, but the payback period exceeds the 6-month threshold for a higher score. The model depends on fleet expansion and retention in a price-sensitive customer base [c:a566t7h].",
+   "competitive_landscape": "QuantumFleet AI competes with LocoNav (fleet telematics and video telematics), Fleetx (fleet management SaaS), and Locus (enterprise route optimisation for last-mile delivery) [c:rhdlifj]. The company claims an edge from trip and return-load data across 3,050 trucks, which improves matching on every lane, and integrations with major GPS vendors and FASTag data that cut onboarding to under a week [c:rhdlifj]. However, the moat is not yet proven durable; competitors may bundle routing for free, and the company depends on third-party GPS data quality [c:a566t7h]. The market also includes newer entrants like QuikApp, which recently raised seed funding for an integrated logistics platform [w:4][w:5].",
+   "compliance_governance": "The company is registered as QUANTUMFLEET AI PRIVATE LIMITED, CIN U62013KA2023PTC172846, with an ACTIVE status in the MCA registry [c:pk74r26]. Directors are Karthik Raghunathan, Neha Bansal, and Imran Sheikh [c:pk74r26]. No compliance flags were identified in the provided materials. The deck does not attempt to instruct the evaluator or alter scoring rules. All market sizing figures (TAM, SAM, SOM) are company-reported and unverified; no independent publisher forecasts were found to corroborate them [c:gp7hwei][w:1][w:2][w:3][w:4][w:5][w:6][w:7][w:8][w:9][w:10][w:11][w:12][w:13][w:14].",
+   "executive_summary": "QuantumFleet AI is a Seed-stage logistics-tech startup that provides an AI-powered route and load planning platform for mid-size Indian freight fleets (20\u2013300 trucks). The company has achieved early traction with 64 paying fleets, 3,050 trucks under management, and an ARR of Rs 1.1 crore as of FY2026, doubling year-over-year from Rs 0.55 crore in FY2025 [c:d4gdvaq]. Net revenue retention is 118% with monthly logo churn of 1.6%, and fleets live for 6+ months have reduced empty kilometres from 34% to 26% (company-reported) [c:d4gdvaq]. The company is raising Rs 4.2 crore at a Rs 24 crore pre-money valuation, with a tranche-based funding plan tied to milestones of 150 fleets and Rs 3 crore ARR [c:ltl4cdu]. Overall score: 6.1/10, Hold.",
+   "investment_thesis": "QuantumFleet AI addresses a clear pain point for mid-size Indian freight fleets (20-300 trucks) that currently rely on manual planning, resulting in 30-40% empty kilometres [c:xryndfa][c:gp7hwei]. The product is live with 64 paying fleets and 3,050 trucks, delivering a measurable reduction in empty running from 34% to 26% [c:d4gdvaq]. The business model is straightforward: Rs 300 per truck per month with 80% gross margin, and early retention metrics (NRR 118%, monthly churn 1.6%) suggest product-market fit is emerging [c:gpkbfqk][c:d4gdvaq]. The team combines line-haul operations, operations research, and fleet ownership experience, providing relevant domain expertise [c:3ntqqtu]. However, the revenue base is still small (ARR Rs 1.1 crore), the moat from data and integrations is unproven against established competitors, and the CAC payback period is long at 11.8 months [c:d4gdvaq][c:rhdlifj][c:oixbqgx]. The company is raising Rs 4.2 crore at a Rs 24 crore pre-money valuation, with a tranche structure tied to fleet and ARR milestones [c:ltl4cdu].",
+   "market_opportunity": "The company estimates a TAM of Rs 3,800 crore in 2025 for fleet management and optimisation software across India's commercial trucks (company estimate) [c:gp7hwei]. The SAM is sized at Rs 640 crore for fleets of 20\u2013300 trucks in South and Central India (company estimate) [c:gp7hwei]. The SOM is a 3-year projection of Rs 25 crore by 2028 (company projection) [c:gp7hwei]. All market figures are company-generated and unverified; no independent publisher forecasts were found to corroborate these estimates. The broader India truck market was worth USD 20.4 billion in 2025, growing at a CAGR of 6.09% to USD 29.05 billion by 2031 [w:13], but this covers vehicle sales, not software. The logistics tech sector in India is active, with 4,165 startups listed on Tracxn and fresh capital flowing into middle-mile and AI-led supply chain platforms [w:1][w:3].",
+   "problem_solution": "Mid-size fleet owners in India plan trips manually via phone calls and WhatsApp, resulting in an estimated 30\u201340% of truck-kilometres running empty or part-loaded (company estimate) [c:xryndfa]. Fuel accounts for 50\u201360% of operating costs, and enterprise routing software is priced for fleets of 1,000+ vehicles, leaving a gap for the 20\u2013300 truck segment [c:xryndfa]. QuantumFleet AI solves this by integrating live GPS, FASTag toll events, and order data to generate daily route, load, and return-trip plans, delivered via a driver app in Hindi, Tamil, and Kannada [c:qs7smj6]. The platform also provides a fuel and toll reconciliation dashboard, and return-load matching with shipper partners to reduce empty running [c:qs7smj6]. Early results show a reduction in empty kilometres from 34% to 26% for fleets live 6+ months (company-reported) [c:d4gdvaq].",
+   "recommendation": "**Hold (6.1/10)**. QuantumFleet AI shows strong early traction with doubling ARR, positive unit economics, and a clear value proposition for a large, underserved market. The team is credible and the product delivers measurable outcomes. However, the small revenue base, long CAC payback, unvalidated market estimates, and competitive threats from established telematics players warrant caution. The tranche-based funding structure provides some downside protection, but the company needs to demonstrate sustained growth and improved capital efficiency before a higher rating is justified.",
+   "risks_challenges": "Key risks include price sensitivity among fleet owners, who may churn during freight downturns [c:a566t7h]. The product depends on third-party GPS data quality, and return-load matching requires sufficient shipper liquidity on each lane [c:a566t7h]. Telematics vendors such as LocoNav and Fleetx may bundle routing features for free, increasing competitive pressure [c:rhdlifj][c:a566t7h]. The company's unit economics show a CAC payback of 11.8 months, which exceeds the typical 6-month threshold for a higher score, implying that capital efficiency needs to improve as the business scales [c:oixbqgx]. All market estimates are company-generated and lack independent validation, which adds uncertainty to the addressable opportunity [c:gp7hwei].",
+   "team_assessment": "The co-founding team combines relevant domain expertise: Karthik Raghunathan (CEO) has 8 years in line-haul operations at a national 3PL; Neha Bansal (CTO) holds an M.Tech in operations research and built vehicle-routing solvers for e-commerce delivery; Imran Sheikh (Sales) ran his family's 120-truck fleet in Nagpur for 7 years [c:3ntqqtu]. The team has direct experience in fleet operations, algorithm development, and fleet ownership, which aligns well with the product. However, there is no evidence of having built or scaled a similar startup before, which caps the score at 6.2. The MCA registry confirms the company is active with the three named directors [c:pk74r26].",
+   "traction_milestones": "QuantumFleet AI has achieved measurable traction with 64 paying fleets running 3,050 trucks as of FY2026 [c:d4gdvaq]. ARR grew from Rs 0.2 crore (FY2024) to Rs 0.55 crore (FY2025) and doubled to Rs 1.1 crore (FY2026), representing a 5.5x increase over two years [c:d4gdvaq]. Net revenue retention (NRR) stands at 118%, and monthly logo churn is 1.6%, indicating that existing customers are expanding usage while attrition remains low [c:d4gdvaq]. For fleets live for 6+ months, the company reports a reduction in empty kilometres from 34% to 26%, a clear operational outcome [c:d4gdvaq]. The company targets 250 paying fleets and 12,000 trucks within 24 months, with a tranche-based funding plan tied to milestones of 150 fleets and Rs 3 crore ARR [c:ltl4cdu][c:a566t7h]."
+  },
+  "sources": [
+   {
+    "query": "India logistics tech startup funding seed stage 2025 2026 fleet management regulation",
+    "retrieved_at": "2026-10-26T19:12:21.863904Z",
+    "snippet": "Access the full list of 4,165 Logistics Tech startups in India. Discover emerging companies, funding activity, key investors and M&A trends.",
+    "title": "List of 4,165 Logistics Tech Startups in India & Market Trends ... - Tracxn",
+    "url": "https://tracxn.com/d/explore/logistics-tech-startups-in-india/__H9_jfeSR8SebElvmkkyqxBpe6TWZczbY4u7o1QeXavQ"
+   },
+   {
+    "query": "India logistics tech startup funding seed stage 2025 2026 fleet management regulation",
+    "retrieved_at": "2026-10-26T19:12:21.863904Z",
+    "snippet": "Here is the list of top Logistics Tech startups in India 1. Delhivery Platform offering end-to-end parcel delivery, warehousing, cross-border, and fulfillment services. It provides services to businesses and individuals. It is an integrated 3PL service provider and offers a comprehensive suite of solutions to clients across various industries.",
+    "title": "Top startups in Logistics Tech in India (Jan, 2026) - Tracxn",
+    "url": "https://tracxn.com/d/explore/logistics-tech-startups-in-india/__H9_jfeSR8SebElvmkkyqxBpe6TWZczbY4u7o1QeXavQ/companies"
+   },
+   {
+    "query": "India logistics tech startup funding seed stage 2025 2026 fleet management regulation",
+    "retrieved_at": "2026-10-26T19:12:21.863904Z",
+    "snippet": "A wave of fresh capital is flowing into India's logistics tech sector in April 2026, from middle-mile trucking platforms to AI-led supply chain orchestration. We map the deals, the leaders, and what investors are betting on next.",
+    "title": "India's Logistics Tech Sector Heats Up: Funding Trends and Top Startups ...",
+    "url": "https://startupory.com/article/india-logistics-tech-funding-trends-april-2026"
+   },
+   {
+    "query": "India logistics tech startup funding seed stage 2025 2026 fleet management regulation",
+    "retrieved_at": "2026-10-26T19:12:21.863904Z",
+    "snippet": "QuikApp, a logistics technology startup, has successfully raised seed funding from Vehra Ventures to enhance its integrated logistics platform across India, aiming for deeper national coverage and international expansion.",
+    "title": "QuikApp raises seed funding from Vehra Ventures",
+    "url": "https://entrepreneur.economictimes.indiatimes.com/news/funding/quikapp-raises-seed-funding-from-vehra-ventures/134610137"
+   },
+   {
+    "query": "India logistics tech startup funding seed stage 2025 2026 fleet management regulation",
+    "retrieved_at": "2026-10-26T19:12:21.863904Z",
+    "snippet": "QuikApp, a Bengaluru-based logistics technology startup, has secured seed funding to scale its integrated platform. Operated by Twobird Tech, the company provides a comprehensive software solution that connects fleet tracking, shipment visibility, and operational intelligence for enterprise logistics across India.",
+    "title": "QuikApp Raises Seed Funding - thesaasnews.com",
+    "url": "https://www.thesaasnews.com/news/quikapp-raises-seed-funding/"
+   },
+   {
+    "query": "India fleet management software market size 2025 2026 CAGR commercial trucks logistics",
+    "retrieved_at": "2026-10-26T19:12:25.132545Z",
+    "snippet": "Dublin, Jan. 06, 2026 (GLOBE NEWSWIRE) -- The \"Construction Equipment Fleet Management Software - Global Strategic Business Report\" has been added to ResearchAndMarkets.com's offering. The global ...",
+    "title": "Construction Equipment Fleet Management Software Market Analysis and Strategy Report 2026",
+    "url": "https://finance.yahoo.com/news/construction-equipment-fleet-management-software-162000193.html"
+   },
+   {
+    "query": "India fleet management software market size 2025 2026 CAGR commercial trucks logistics",
+    "retrieved_at": "2026-10-26T19:12:25.132545Z",
+    "snippet": "Dublin, Jan. 14, 2026 (GLOBE NEWSWIRE) -- The \"Construction Equipment Fleet Management Software Market Report 2025\" has been added to ResearchAndMarkets.com's offering. The construction equipment ...",
+    "title": "$7.49 Bn Construction Equipment Fleet Management Software Market Trends, Strategies, and Opportunities, 2019-2024, 2024-2029F, 2034F",
+    "url": "https://finance.yahoo.com/news/7-49-bn-construction-equipment-133100029.html"
+   },
+   {
+    "query": "India fleet management software market size INR crore 2024 2025 2030 CAGR commercial vehicle telematics",
+    "retrieved_at": "2026-10-26T19:12:34.896390Z",
+    "snippet": "Dublin, Jan. 05, 2026 (GLOBE NEWSWIRE) -- The \"AI-Powered Fleet-Management Software - Global Strategic Business Report\" has been added to ResearchAndMarkets.com's offering. The global market for ...",
+    "title": "AI-Powered Fleet-Management Software Market Outlook 2025-2030: Expansion of E-Commerce Elevates Need for Precision in Last-Mile Delivery",
+    "url": "https://finance.yahoo.com/news/ai-powered-fleet-management-software-164500549.html"
+   },
+   {
+    "query": "India FASTag toll data commercial vehicles fleet management regulation 2025",
+    "retrieved_at": "2026-10-26T19:12:35.164844Z",
+    "snippet": "FASTag owners need to brace themselves for the new pricing regime from next year. National Highway Authority of India (NHAI) stated that FASTag Annual Pass Fee would go up starting April 1 next year.",
+    "title": "NHAI increases FASTag Annual Pass fee: Starting April 1, 2026, for annual toll pass highway users to pay\u2026",
+    "url": "https://www.india.com/news/india/nhai-increases-fastag-annual-pass-fee-starting-april-1-2026-for-annual-toll-pass-highway-users-to-pay-8343496/"
+   },
+   {
+    "query": "Indian commercial vehicle fleet size mid-size 20-300 trucks market statistics 2025",
+    "retrieved_at": "2026-10-26T19:12:54.330604Z",
+    "snippet": "Find the most up-to-date statistics and facts about commercial vehicles in India",
+    "title": "Commercial vehicles in India - statistics and facts | Statista",
+    "url": "https://www.statista.com/topics/5851/commercial-vehicles-in-india/"
+   },
+   {
+    "query": "Indian commercial vehicle fleet size mid-size 20-300 trucks market statistics 2025",
+    "retrieved_at": "2026-10-26T19:12:54.330604Z",
+    "snippet": "The report provides information about the commercial vehicle industry in India. Along with an overview, it presents data on production, sales and trade within the segments of the market, along ...",
+    "title": "Commercial vehicles in India - Statista",
+    "url": "https://www.statista.com/study/68752/commercial-vehicles-in-india/"
+   },
+   {
+    "query": "Indian commercial vehicle fleet size mid-size 20-300 trucks market statistics 2025",
+    "retrieved_at": "2026-10-26T19:12:54.330604Z",
+    "snippet": "The India Commercial Truck Market report covers market size, share, growth, trends, outlook, companies and forecast insights across 2020-2031.",
+    "title": "India Commercial Truck Market Size, Share &amp; Trends Report 2025-2031",
+    "url": "https://www.kenresearch.com/india-commercial-truck-market"
+   },
+   {
+    "query": "Indian commercial vehicle fleet size mid-size 20-300 trucks market statistics 2025",
+    "retrieved_at": "2026-10-26T19:12:54.330604Z",
+    "snippet": "The India Truck Market worth USD 20,400 million in 2025 is growing at a CAGR of 6.09% to reach USD 29,048 million by 2031. Tata Motors Limited, Mahindra &amp; Mahindra Limited, Ashok Leyland Limited, VE Commercial Vehicles Limited and Daimler India Commercial Vehicles Private Limited are the major companies operating in this market.",
+    "title": "India Truck Market Share, Companies &amp; Trends Report 2025-2031",
+    "url": "https://www.kenresearch.com/industry-reports/india-truck-market"
+   },
+   {
+    "query": "Indian commercial vehicle fleet size mid-size 20-300 trucks market statistics 2025",
+    "retrieved_at": "2026-10-26T19:12:54.330604Z",
+    "snippet": "The India Truck Market worth USD 20.18 billion in 2025 is growing at a CAGR of 5.29% to reach USD 26.11 billion by 2030. Tata Motors Limited, Ashok Leyland, Mahindra &amp; Mahindra Limited, VE Commercial Vehicles Ltd. (Eicher) and BharatBenz (Daimler India Commercial Vehicles) are the major companies operating in this market.",
+    "title": "India Truck Market Share, Size &amp; Growth Outlook, 2030",
+    "url": "https://www.mordorintelligence.com/industry-reports/india-truck-market"
+   }
+  ]
+ },
+ "input_hash": "1150c2a1029c6e529dab96fea668d6aa59a5db4f1ed92169e7c80326fba635fc"
+}

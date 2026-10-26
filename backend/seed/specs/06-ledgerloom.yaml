@@ -1,0 +1,103 @@
+schema: aura.seed.startup/v1
+slug: ledgerloom
+name: LedgerLoom
+legal_name: LedgerLoom Private Limited
+domain: Fintech
+sub_domain: GST-ready accounting for small businesses
+stage: pre_seed
+hq: {city: Surat, state: Gujarat}
+founded_year: 2025
+one_liner: AI accounting copilot that turns invoices and bank statements into GST-ready books for small businesses
+description: >-
+  LedgerLoom reads purchase and sales invoices from WhatsApp photos, e-invoices and bank statements,
+  categorises the entries and prepares GSTR-1 and GSTR-3B drafts for the business's accountant to review and
+  file. It costs Rs 499 a month and has 340 paying small businesses, mostly textile traders in Surat, at an
+  ARR of Rs 0.2 crore.
+founder_account: {email: founder@ledgerloom.demo, name: Hetal}
+mca:
+  cin: U58202GJ2025PTC158734
+  registry:
+    status: ACTIVE
+    registered_name: LEDGERLOOM PRIVATE LIMITED
+    directors: [Hetal Patel, Yash Mehta]
+    incorporation_year: 2025
+    state: Gujarat
+team:
+  - {name: Hetal Patel, role: "Co-founder & CEO", background: "Chartered accountant; ran a 12-person GST practice serving Surat traders"}
+  - {name: Yash Mehta, role: "Co-founder & CTO", background: "Software engineer at a payments company; built document OCR pipelines"}
+problem:
+  statement: >-
+    Small businesses file GST returns every month or quarter but keep books on paper or desktop software, so
+    owners and their accountants re-key the same invoices and miss input tax credit.
+  stats:
+    - {claim: "A typical small trader spends 6-10 hours a month gathering and reconciling invoices for GST", kind: company_estimate}
+    - {claim: "Accountants serving small businesses handle 80-150 clients each and re-key most data by hand", kind: company_estimate}
+    - {claim: "1-3% of purchases lose input tax credit because invoices are not matched to supplier filings", kind: company_estimate}
+solution:
+  summary: An AI bookkeeper that captures documents where owners already are (WhatsApp) and hands accountants clean, GST-ready books.
+  bullets:
+    - "Snap invoices on WhatsApp; OCR reads Gujarati, Hindi and English bills, including handwritten ones"
+    - "Auto-categorised ledger reconciled with bank statements"
+    - "Draft GSTR-1 and GSTR-3B, with supplier mismatches flagged before filing"
+    - "Accountant dashboard to review and approve entries for many clients"
+market:
+  tam: {value: 7500, unit: INR crore, year: 2025, scope: "Accounting and compliance software for India's GST-registered small businesses", kind: company_estimate}
+  sam: {value: 1200, unit: INR crore, year: 2025, scope: "Traders and small manufacturers in Gujarat, Maharashtra and Rajasthan who use an accountant", kind: company_estimate}
+  som: {value: 18, unit: INR crore, year: 2029, scope: 3-year obtainable share of SAM, kind: company_forecast}
+business_model:
+  streams:
+    - {name: Business subscription, price_inr: 499, per: month, share_pct: 100}
+    - {name: Accountant partner plan, price_inr: 2999, per: month, description: "Multi-client dashboard; free in pilot, paid launch planned for 2027"}
+  notes: ["Gross margin 78% after OCR and LLM costs", "Accountants refer clients and keep a 15% revenue share"]
+unit_economics:
+  cac_inr: 2100
+  payback_months: 5.4
+  gross_margin_pct: 78
+  monthly_churn_pct: 3.8
+traction:
+  as_of: Sep 2026
+  customers: 340
+  customer_label: paying businesses
+  arr: {value: 0.2, unit: INR crore, year: 2026, kind: company_reported}
+  series:
+    metric: ARR
+    unit: INR crore
+    points: [{year: 2025, value: 0.03}, {year: 2026, value: 0.2}]
+  highlights:
+    - "340 paying small businesses, 260 of them in Surat's textile markets"
+    - "ARR Rs 0.2 crore (Sep 2026)"
+    - "22 accountant firms onboarded as referral partners"
+    - "1,900 draft GST returns prepared and approved by accountants"
+competitors:
+  - {name: TallyPrime, positioning: "Desktop accounting software widely used by Indian small businesses"}
+  - {name: Zoho Books, positioning: "Cloud accounting with GST compliance features"}
+  - {name: Vyapar, positioning: "Mobile billing and accounting app for small businesses"}
+moat:
+  - Accountant referral network brings in clients at low CAC
+  - Invoice OCR tuned on handwritten Gujarati and Hindi bills
+gtm:
+  channels: [Accountant referral partners, Trader associations in Surat and Ahmedabad, WhatsApp referral programme]
+  target: 3,000 paying businesses within 18 months
+round:
+  ask_inr: 12500000
+  pre_money_inr: 80000000
+  min_raise_pct: 60
+  use_of_funds:
+    - {category: Product & AI, pct: 45}
+    - {category: Accountant partner sales, pct: 30}
+    - {category: Customer support, pct: 15}
+    - {category: Security & compliance, pct: 10}
+  tranches:
+    - {pct: 50, title: Round close}
+    - {pct: 50, title: "1,500 paying businesses", criteria: "1,500 paying businesses with monthly churn below 3%", due_days: 365}
+risks:
+  - Very early revenue base (Rs 0.2 crore ARR)
+  - Two-person founding team
+  - Changes to GST portal and e-invoicing rules can break workflows
+  - Established accounting suites are adding AI features
+deck:
+  palette: fintech
+evaluation_expectations:
+  score_band: [5.0, 7.0]
+  recommendation_in: [Hold, Buy]
+  must_flag: []

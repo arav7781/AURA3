@@ -1,0 +1,104 @@
+schema: aura.seed.startup/v1
+slug: hostelhive
+name: HostelHive
+legal_name: HostelHive Private Limited
+domain: Proptech
+sub_domain: Managed student housing
+stage: seed
+hq: {city: Jaipur, state: Rajasthan}
+founded_year: 2022
+one_liner: Managed, safe student hostels with meals and Wi-Fi in tier-2 education hubs like Kota, Jaipur and Indore
+description: >-
+  HostelHive leases buildings from local owners, refurbishes them and runs managed student hostels with meals,
+  Wi-Fi, CCTV and daily updates for parents. It operates 1,150 beds across 11 properties in Kota, Jaipur and
+  Indore at 91% occupancy, charging an average of Rs 10,600 a month per bed including meals, for annualised
+  revenue of Rs 14.4 crore.
+founder_account: {email: founder@hostelhive.demo, name: Manav}
+mca:
+  cin: U55901RJ2022PTC082416
+  registry:
+    status: ACTIVE
+    registered_name: HOSTELHIVE PRIVATE LIMITED
+    directors: [Manav Agarwal, Simran Kaur, Deepak Meena]
+    incorporation_year: 2022
+    state: Rajasthan
+team:
+  - {name: Manav Agarwal, role: "Co-founder & CEO", background: "Ran his family's student hostels in Kota for 6 years"}
+  - {name: Simran Kaur, role: "Co-founder & COO", background: "Hospitality operations manager at a national hotel chain"}
+  - {name: Deepak Meena, role: "Co-founder & CFO", background: "Chartered accountant; advised on real-estate leasing deals"}
+problem:
+  statement: >-
+    Students in tier-2 education hubs mostly live in unregulated PGs with poor food, safety and maintenance, and
+    branded student housing is concentrated in the metros.
+  stats:
+    - {claim: "Most students in tier-2 coaching and college hubs live in unbranded PGs", kind: company_estimate}
+    - {claim: "Parents pay Rs 8,000-15,000 a month for basic accommodation and food", kind: company_estimate}
+    - {claim: "Safety and food quality are parents' top complaints about student PGs", kind: company_estimate}
+solution:
+  summary: Asset-light managed hostels with standard safety, food and service, run on leased buildings.
+  bullets:
+    - "Leased and refurbished buildings near coaching centres and colleges"
+    - "Three meals a day, Wi-Fi, housekeeping and laundry"
+    - "CCTV, biometric entry and wardens on every floor"
+    - "Parent app with attendance, meal and fee updates"
+market:
+  tam: {value: 18000, unit: INR crore, year: 2025, scope: "Annual student-housing spend in India's tier-2 education hubs", kind: company_estimate}
+  sam: {value: 2200, unit: INR crore, year: 2025, scope: "Coaching and college hubs in Rajasthan and Madhya Pradesh", kind: company_estimate}
+  som: {value: 70, unit: INR crore, year: 2029, scope: 3-year obtainable share of SAM, kind: company_forecast}
+business_model:
+  streams:
+    - {name: Bed rent with meals, price_inr: 10600, per: month, share_pct: 92, description: Average across room types}
+    - {name: Add-on services, share_pct: 8, description: "AC rooms, laundry and mess passes for non-residents"}
+  notes: ["Gross margin 34% after lease rent and food costs", "Property-level EBITDA margin 22% at 90%+ occupancy"]
+unit_economics:
+  cac_inr: 2800
+  gross_margin_pct: 34
+  other: ["CAC measured per resident", "Fit-out capex Rs 38,000 per bed; payback about 17 months", "Leases of 9 years with a 3-year lock-in"]
+traction:
+  as_of: Sep 2026
+  customers: 1045
+  customer_label: students in residence
+  arr: {value: 14.4, unit: INR crore, year: 2026, kind: company_reported}
+  series:
+    metric: Annualised revenue
+    unit: INR crore
+    points: [{year: 2024, value: 4.2}, {year: 2025, value: 8.9}, {year: 2026, value: 14.4}]
+  highlights:
+    - "1,150 beds across 11 properties in Kota, Jaipur and Indore"
+    - "91% occupancy in the 2026-27 academic year (1,045 students)"
+    - "Annualised revenue Rs 14.4 crore (Sep 2026)"
+    - "Parent NPS of 58 (company survey)"
+competitors:
+  - {name: Stanza Living, positioning: "Managed student and young-professional housing, mainly in larger cities"}
+  - {name: Zolo, positioning: "Co-living and PG platform"}
+  - {name: Unorganised PG and hostel operators, positioning: "Cheap and fragmented, with variable safety and food"}
+moat:
+  - Local landlord network and lease terms built over 6 years in Kota
+  - Brand trust with parents through safety standards and the parent app
+gtm:
+  channels: [Coaching-centre partnerships, Parent referrals, Local digital marketing before admission season]
+  target: 3,000 beds across 5 cities within 24 months
+round:
+  ask_inr: 80000000
+  pre_money_inr: 440000000
+  min_raise_pct: 60
+  use_of_funds:
+    - {category: New property fit-outs, pct: 50}
+    - {category: Working capital, pct: 20}
+    - {category: Technology & safety systems, pct: 15}
+    - {category: Sales & marketing, pct: 15}
+  tranches:
+    - {pct: 40, title: Round close}
+    - {pct: 30, title: "2,000 beds", criteria: "2,000 operating beds at 85%+ occupancy", due_days: 300}
+    - {pct: 30, title: New city launch, criteria: "500 beds operating in Dehradun or Pune at 85% occupancy", due_days: 600}
+risks:
+  - Demand is concentrated in coaching hubs; changes to coaching rules or exam patterns can cut enrolment
+  - Long lease commitments while revenue is collected term by term
+  - Occupancy drops between academic years
+  - A safety incident could badly damage the brand
+deck:
+  palette: proptech
+evaluation_expectations:
+  score_band: [5.0, 7.5]
+  recommendation_in: [Hold, Buy]
+  must_flag: []

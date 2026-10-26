@@ -14,12 +14,25 @@ from typing import Any
 from fastapi import FastAPI
 
 from aura.api.middleware import CSRFMiddleware
-from aura.api.routes import admin, auth, documents, evaluations, explorer, jobs, me, public, search, startups
+from aura.api.routes import (
+    admin,
+    auth,
+    community,
+    documents,
+    evaluations,
+    explorer,
+    jobs,
+    me,
+    public,
+    search,
+    startups,
+)
 from aura.core import clock, migrate
-from aura.core.config import get_settings
+from aura.core.config import BACKEND_DIR, get_settings
 from aura.core.db import dispose_engines, init_engines, read_session
 from aura.core.errors import install_error_handlers
 from aura.core.jobs import fail_orphaned_jobs
+from aura.evaluation import mca
 from aura.evaluation.service import fail_orphaned_evaluations
 from aura.ingest.ocr import ocr_service
 from aura.models import AppState
@@ -78,6 +91,9 @@ async def lifespan(_: FastAPI) -> AsyncIterator[None]:
     orphaned = fail_orphaned_evaluations()
     if orphaned:
         logger.warning("marked %d interrupted evaluation(s) as failed", orphaned)
+    specs = BACKEND_DIR / "seed" / "specs"
+    if get_settings().demo_mode and specs.exists():
+        mca.load_registry_fixtures(specs)  # the demo MCA registry: seeded CINs resolve as the specs declare
     _status["db"] = "ok"
     await _start_qdrant()
     await asyncio.to_thread(_start_sandbox)
@@ -105,7 +121,7 @@ def create_app() -> FastAPI:
     )
     install_error_handlers(app)
     app.add_middleware(CSRFMiddleware)
-    for module in (auth, me, public, jobs, admin, startups, documents, evaluations, search, explorer):
+    for module in (auth, me, public, jobs, admin, startups, documents, evaluations, community, search, explorer):
         app.include_router(module.router)
     return app
 

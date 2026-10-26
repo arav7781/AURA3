@@ -1,0 +1,106 @@
+schema: aura.seed.startup/v1
+slug: suryaflux-energy
+name: SuryaFlux Energy
+legal_name: SuryaFlux Energy Private Limited
+domain: Climate & Energy
+sub_domain: Rooftop solar and storage PPAs for MSMEs
+stage: series_a
+hq: {city: Ahmedabad, state: Gujarat}
+founded_year: 2020
+one_liner: Zero-capex rooftop solar and battery storage for MSME factories under 15-year power-purchase agreements
+description: >-
+  SuryaFlux designs, finances and operates rooftop solar and battery systems on MSME factory roofs and sells
+  the power under 15-year PPAs at Rs 5.4 per kWh, below typical industrial grid tariffs, so owners pay no
+  upfront capex. It has 21 MWp operating across 164 MSME sites in Gujarat and Maharashtra, 48 of them with
+  battery storage, and annualised revenue of Rs 15.9 crore in FY2026.
+founder_account: {email: founder@suryaflux-energy.demo, name: Nirav}
+mca:
+  cin: U35106GJ2020PTC118265
+  registry:
+    status: ACTIVE
+    registered_name: SURYAFLUX ENERGY PRIVATE LIMITED
+    directors: [Nirav Shah, Kavita Joshi, Abhishek Rao, Manish Parmar]
+    incorporation_year: 2020
+    state: Gujarat
+team:
+  - {name: Nirav Shah, role: "Co-founder & CEO", background: "12 years developing commercial and industrial solar projects in Gujarat"}
+  - {name: Kavita Joshi, role: "Co-founder & CFO", background: "Infrastructure project-finance banker; structured renewable-energy debt"}
+  - {name: Abhishek Rao, role: "Co-founder & CTO", background: "Power-electronics engineer; designed battery management systems"}
+  - {name: Manish Parmar, role: "Co-founder & COO", background: "Ran EPC and O&M for 60 MW of rooftop solar"}
+problem:
+  statement: >-
+    MSME factories pay high industrial power tariffs and face outages, but cannot fund rooftop solar upfront and
+    are too small for most developers.
+  stats:
+    - {claim: "India has committed to 500 GW of non-fossil electricity capacity by 2030", source: "Government of India, COP26 commitments (2021)", kind: reported}
+    - {claim: "MSMEs pay industrial tariffs of Rs 7.5-9.5 per kWh in most states", kind: company_estimate}
+    - {claim: "Most small factories cannot get bank loans for rooftop solar", kind: company_estimate}
+solution:
+  summary: "Solar and storage as a service: SuryaFlux owns the system and the factory pays only for the power it uses."
+  bullets:
+    - "No capex: SuryaFlux finances, installs, owns and maintains the system"
+    - "15-year PPA at Rs 5.4 per kWh, below the factory's grid tariff"
+    - "Optional battery storage to ride through outages and cut peak-demand charges"
+    - "Remote monitoring of every site with a 48-hour fault-response SLA"
+market:
+  tam: {value: 18000, unit: INR crore, year: 2025, scope: "Annual power spend addressable by rooftop solar and storage at Indian MSME factories", kind: company_estimate}
+  sam: {value: 2600, unit: INR crore, year: 2025, scope: "MSME industrial clusters in Gujarat and Maharashtra", kind: company_estimate}
+  som: {value: 160, unit: INR crore, year: 2030, scope: 5-year obtainable share of SAM, kind: company_forecast}
+business_model:
+  streams:
+    - {name: Solar PPA, price_inr: 5.4, per: kWh, share_pct: 93, description: 15-year contract}
+    - {name: Battery storage service, price_inr: 18000, per: month, share_pct: 7, description: Per site with storage}
+  notes: ["Projects funded about 70% with debt and 30% with equity", "Asset gross margin 71% after O&M, insurance and lease of roof space"]
+unit_economics:
+  gross_margin_pct: 71
+  monthly_churn_pct: 0
+  other: ["Capex about Rs 4.1 crore per MWp, with storage on 29% of sites", "Unlevered project IRR about 15.5% (company estimate)", "Payment defaults 0.4% of billed revenue"]
+traction:
+  as_of: FY2026
+  customers: 164
+  customer_label: MSME sites under PPA
+  arr: {value: 15.9, unit: INR crore, year: 2026, kind: company_reported}
+  series:
+    metric: Annualised revenue
+    unit: INR crore
+    points: [{year: 2023, value: 3.2}, {year: 2024, value: 6.8}, {year: 2025, value: 10.9}, {year: 2026, value: 15.9}]
+  highlights:
+    - "21 MWp operating across 164 MSME sites; 48 sites with battery storage"
+    - "Annualised revenue Rs 15.9 crore in FY2026, up 46% year on year"
+    - "Payment defaults of 0.4% of billed revenue"
+    - "38 MWp pipeline with signed term sheets"
+competitors:
+  - {name: Tata Power Solar, positioning: "Large rooftop solar EPC and commercial and industrial solar"}
+  - {name: Fourth Partner Energy, positioning: "Renewable energy for commercial and industrial customers under OPEX models"}
+  - {name: Local EPC installers, positioning: "Capex-only installations with little financing or O&M"}
+moat:
+  - Credit scoring of MSME offtakers built on five years of billing and payment data
+  - Debt facilities priced for small-ticket projects
+  - In-house battery sizing and dispatch software
+gtm:
+  channels: [Industrial estate associations, Channel partners and local EPCs, Referrals from existing MSME customers]
+  target: 60 MWp operating across 450 sites within 30 months
+round:
+  ask_inr: 350000000
+  pre_money_inr: 1600000000
+  min_raise_pct: 60
+  use_of_funds:
+    - {category: Project equity, pct: 55}
+    - {category: Storage R&D & software, pct: 15}
+    - {category: Sales expansion, pct: 15}
+    - {category: Working capital, pct: 15}
+  tranches:
+    - {pct: 40, title: Round close}
+    - {pct: 30, title: "35 MWp operating", criteria: "35 MWp operating across 270+ sites", due_days: 365}
+    - {pct: 30, title: "Rs 28 crore annualised revenue", criteria: "Annualised revenue of Rs 28 crore", due_days: 720}
+risks:
+  - Changes to net-metering or open-access rules can cut project returns
+  - MSME offtakers may default or shut down over a 15-year PPA
+  - Interest-rate rises raise the cost of project debt
+  - Module and battery price swings affect project economics
+deck:
+  palette: climate
+evaluation_expectations:
+  score_band: [6.5, 8.5]
+  recommendation_in: [Buy, Strong Buy]
+  must_flag: []

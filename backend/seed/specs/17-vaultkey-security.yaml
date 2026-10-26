@@ -1,0 +1,103 @@
+schema: aura.seed.startup/v1
+slug: vaultkey-security
+name: VaultKey Security
+legal_name: VaultKey Security Private Limited
+domain: Cybersecurity
+sub_domain: Open-source secrets management
+stage: pre_seed
+hq: {city: Pune, state: Maharashtra}
+founded_year: 2025
+one_liner: Open-source SDK and managed vault for storing, rotating and auditing application secrets
+description: >-
+  VaultKey is an open-source SDK (Go, Python, Node.js) and self-hostable server for injecting, rotating and
+  auditing API keys, database passwords and certificates, with a paid managed cloud and enterprise features
+  such as SSO and audit export. It has 4,100 GitHub stars, 380 self-hosted installs and 9 paying teams, for an
+  ARR of Rs 0.08 crore. The company is run by a single founder.
+founder_account: {email: founder@vaultkey-security.demo, name: Aditya}
+mca:
+  cin: U62099MH2025PTC451382
+  registry:
+    status: ACTIVE
+    registered_name: VAULTKEY SECURITY PRIVATE LIMITED
+    directors: [Aditya Kulkarni, Sunita Kulkarni]
+    incorporation_year: 2025
+    state: Maharashtra
+team:
+  - {name: Aditya Kulkarni, role: "Founder & CEO (sole founder)", background: "8 years as a platform and security engineer at SaaS companies; creator and lead maintainer of VaultKey"}
+problem:
+  statement: >-
+    Small and mid-size software teams keep secrets in .env files, CI variables and chat messages, with no rotation
+    or audit trail, because enterprise vaults are heavy to run.
+  stats:
+    - {claim: "Leaked API keys and hard-coded credentials are a common cause of cloud breaches", kind: company_estimate}
+    - {claim: "Most Indian startups under 50 engineers never rotate production secrets", kind: company_estimate}
+    - {claim: "Running a self-managed enterprise vault takes a part-time platform engineer", kind: company_estimate}
+solution:
+  summary: A developer-first secrets manager that is open source, quick to adopt and cheap to run.
+  bullets:
+    - "SDKs for Go, Python and Node.js that fetch secrets at runtime"
+    - "Automatic rotation for Postgres, MySQL and major cloud API keys"
+    - "Audit log of every secret read, exportable to SIEM tools"
+    - "Self-host for free or use the managed cloud"
+market:
+  tam: {value: 900, unit: INR crore, year: 2025, scope: "Secrets-management spend of software teams in India", kind: company_estimate}
+  sam: {value: 160, unit: INR crore, year: 2025, scope: "Cloud-native startups and mid-market software teams", kind: company_estimate}
+  som: {value: 6, unit: INR crore, year: 2029, scope: 3-year obtainable share of SAM, kind: company_forecast}
+business_model:
+  streams:
+    - {name: Managed cloud team plan, price_inr: 6000, per: month, share_pct: 63}
+    - {name: Enterprise self-hosted licence, price_inr: 150000, per: year, share_pct: 37, description: "SSO, audit export and support"}
+  notes: ["Core SDK and server are free and open source (Apache 2.0)", "Gross margin 80% after hosting"]
+unit_economics:
+  cac_inr: 15000
+  payback_months: 2.5
+  gross_margin_pct: 80
+  other: ["Bottom-up adoption: 2.3% of 380 self-hosted installs have converted to paid", "Hosting cost about Rs 900 per team per month"]
+traction:
+  as_of: Sep 2026
+  customers: 9
+  customer_label: paying teams
+  arr: {value: 0.08, unit: INR crore, year: 2026, kind: company_reported}
+  series:
+    metric: ARR
+    unit: INR crore
+    points: [{year: 2025, value: 0.01}, {year: 2026, value: 0.08}]
+  highlights:
+    - "4,100 GitHub stars and 62 external contributors"
+    - "380 self-hosted installs reporting opt-in telemetry"
+    - "9 paying teams (7 managed cloud, 2 enterprise licences)"
+    - "ARR Rs 0.08 crore (Sep 2026)"
+competitors:
+  - {name: HashiCorp Vault, positioning: "Widely used enterprise secrets-management platform"}
+  - {name: Doppler, positioning: "SaaS secrets manager for developer teams"}
+  - {name: AWS Secrets Manager, positioning: "Cloud-native secrets service bundled with AWS"}
+moat:
+  - Open-source community and contributor base
+  - Developer-first SDKs that make adoption take minutes
+gtm:
+  channels: [Open-source community and GitHub, Developer conferences and meetups, Content and documentation]
+  target: 60 paying teams within 18 months
+round:
+  ask_inr: 20000000
+  pre_money_inr: 120000000
+  min_raise_pct: 60
+  use_of_funds:
+    - {category: Engineering hires, pct: 50}
+    - {category: Security audit & certifications, pct: 20}
+    - {category: Developer marketing, pct: 20}
+    - {category: General & administrative, pct: 10}
+  tranches:
+    - {pct: 40, title: Round close}
+    - {pct: 30, title: Senior hire and audit, criteria: "Hire a senior go-to-market lead and complete an independent security audit", due_days: 180}
+    - {pct: 30, title: "40 paying teams", criteria: "40 paying teams", due_days: 450}
+risks:
+  - "Single founder: high key-person risk; the only other director is a non-executive family member"
+  - Open-source users may never convert to paid plans
+  - One serious vulnerability could destroy trust in a security product
+  - Free cloud-native secrets services compete on convenience
+deck:
+  palette: cyber
+evaluation_expectations:
+  score_band: [4.0, 6.5]
+  recommendation_in: [Hold, Pass]
+  must_flag: []

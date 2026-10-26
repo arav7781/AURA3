@@ -4,7 +4,7 @@ FRONTEND := frontend
 DOCKER_HOST ?= $(shell grep '^DOCKER_HOST=' $(BACKEND)/.env 2>/dev/null | cut -d= -f2)
 export DOCKER_HOST
 
-.PHONY: init sync test smoke lint audit api services sandbox-image
+.PHONY: init sync test smoke lint audit api services sandbox-image decks seed seed-verify
 
 # Create backend/.env from the example with a fresh session secret (keeps an existing file).
 init:
@@ -23,7 +23,7 @@ smoke:
 	cd $(BACKEND) && uv run python -m aura.core.llm smoke
 
 lint:
-	cd $(BACKEND) && uv run ruff check aura tests alembic
+	cd $(BACKEND) && uv run ruff check aura seed tests alembic
 
 audit:
 	cd $(BACKEND) && uv run python -m aura.ledger.audit
@@ -36,3 +36,15 @@ services:
 
 sandbox-image:
 	docker build -t aura-sandbox:1 docker/sandbox
+
+# Render the 25 seed decks (PDF + PPTX + slide maps) into backend/data/decks; byte-identical on every run.
+decks:
+	cd $(BACKEND) && uv run python -m aura.decks.build seed/specs data/decks
+
+# Accounts, decks through TitanOCR, evaluations (from seed/cache), reviews and rankings. Idempotent.
+# Add ARGS=--allow-llm to evaluate startups missing from the cache, ARGS=--reset to start from scratch.
+seed:
+	cd $(BACKEND) && uv run python -m seed.run $(ARGS)
+
+seed-verify:
+	cd $(BACKEND) && uv run python -m seed.verify

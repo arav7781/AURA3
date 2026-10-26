@@ -1,0 +1,104 @@
+schema: aura.seed.startup/v1
+slug: loomlane
+name: LoomLane
+legal_name: LoomLane Private Limited
+domain: Consumer & D2C
+sub_domain: Handloom resale marketplace
+stage: pre_seed
+hq: {city: Varanasi, state: Uttar Pradesh}
+founded_year: 2024
+one_liner: Authenticated resale marketplace for pre-owned handloom sarees and textiles
+description: >-
+  LoomLane lets owners resell pre-owned handloom sarees and textiles such as Banarasi, Kanjeevaram, Ikat and
+  Jamdani. A panel of master weavers checks authenticity, items are cleaned and photographed, and LoomLane earns
+  an 18% commission. It has 2,800 live listings from 1,450 sellers and GMV of Rs 0.6 crore in the 12 months to
+  Sep 2026.
+founder_account: {email: founder@loomlane.demo, name: Shalini}
+mca:
+  cin: U47912UP2024PTC201457
+  registry:
+    status: ACTIVE
+    registered_name: LOOMLANE PRIVATE LIMITED
+    directors: [Shalini Mishra, Rohit Pandey, Aisha Rahman]
+    incorporation_year: 2024
+    state: Uttar Pradesh
+team:
+  - {name: Shalini Mishra, role: "Co-founder & CEO", background: "Textile designer from a Banarasi weaving family"}
+  - {name: Rohit Pandey, role: "Co-founder & CTO", background: "Full-stack developer; built e-commerce stores for craft brands"}
+  - {name: Aisha Rahman, role: "Co-founder, Curation", background: "Buyer at a handloom retail store in Kolkata for 5 years"}
+problem:
+  statement: >-
+    Expensive handloom sarees sit unused in wardrobes after a few wears, while buyers who want them pre-owned
+    cannot tell genuine handloom from power-loom copies online.
+  stats:
+    - {claim: "A genuine Banarasi or Kanjeevaram silk saree often costs Rs 25,000-1,50,000 new", kind: company_estimate}
+    - {claim: "Many handloom sarees are worn only a few times, mostly at weddings and festivals", kind: company_estimate}
+    - {claim: "Power-loom copies are hard to tell apart from handloom in online photos", kind: company_estimate}
+solution:
+  summary: A curated resale marketplace where every item is authenticated, cleaned and professionally photographed.
+  bullets:
+    - "Weaver-panel authentication with a certificate for every item"
+    - "Pickup, dry cleaning and studio photography handled by LoomLane"
+    - "Fixed-price listings with fair-price guidance by weave and condition"
+    - "7-day returns if an item does not match its listing"
+market:
+  tam: {value: 4000, unit: INR crore, year: 2025, scope: "Resale of ethnic and occasion wear in India", kind: company_estimate}
+  sam: {value: 600, unit: INR crore, year: 2025, scope: "Online resale of premium handloom sarees and textiles", kind: company_estimate}
+  som: {value: 8, unit: INR crore, year: 2029, scope: 3-year obtainable share of SAM, kind: company_forecast}
+business_model:
+  streams:
+    - {name: Sales commission, per: transaction, share_pct: 78, description: "18% of the sale price"}
+    - {name: Authentication and cleaning fee, price_inr: 499, per: item sold, share_pct: 22, description: Deducted from the seller payout}
+  notes: ["Gross margin 55% after cleaning, photography and shipping subsidies"]
+unit_economics:
+  cac_inr: 1200
+  gross_margin_pct: 55
+  other: ["CAC measured per first-time buyer", "Average order value Rs 9,800", "38% of listings sell within 90 days"]
+traction:
+  as_of: Sep 2026
+  customers: 590
+  customer_label: buyers
+  series:
+    metric: GMV (trailing 12 months)
+    unit: INR crore
+    points: [{year: 2025, value: 0.1}, {year: 2026, value: 0.6}]
+  highlights:
+    - "2,800 live listings from 1,450 sellers"
+    - "GMV Rs 0.6 crore in the 12 months to Sep 2026"
+    - "612 orders from 590 buyers; average order value Rs 9,800"
+    - "38% of listings sell within 90 days"
+competitors:
+  - {name: Jaypore, positioning: "Curated e-commerce for new handloom and crafts"}
+  - {name: Instagram and WhatsApp resellers, positioning: "Informal saree resale with no authentication"}
+  - {name: Online classifieds, positioning: "General-purpose listings with no curation or returns"}
+moat:
+  - Master-weaver authentication network that copycats would struggle to build
+  - Price data on pre-owned handloom by weave, age and condition
+gtm:
+  channels: [Instagram and YouTube content, Wedding-season pop-ups, Referrals from sellers]
+  target: Rs 2 crore annual GMV within 12 months
+round:
+  ask_inr: 10000000
+  pre_money_inr: 60000000
+  min_raise_pct: 60
+  use_of_funds:
+    - {category: Authentication & operations, pct: 35}
+    - {category: Marketing, pct: 35}
+    - {category: Technology, pct: 20}
+    - {category: General & administrative, pct: 10}
+  tranches:
+    - {pct: 50, title: Round close}
+    - {pct: 50, title: "Rs 2 crore GMV", criteria: "Rs 2 crore GMV over a trailing 12 months", due_days: 365}
+risks:
+  - Very small GMV (Rs 0.6 crore) and revenue so far
+  - Liability if an authenticated item turns out to be a power-loom copy
+  - Supply depends on persuading owners to part with heirloom pieces
+  - Niche market may cap growth
+deck:
+  palette: consumer
+  render: scanned
+  scan: {dpi: 100, skew_deg: 1.5, noise: 0.06, jpeg_quality: 55, seed: 20}
+evaluation_expectations:
+  score_band: [3.5, 6.5]
+  recommendation_in: [Hold, Pass]
+  must_flag: []

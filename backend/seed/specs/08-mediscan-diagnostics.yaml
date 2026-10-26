@@ -1,0 +1,108 @@
+schema: aura.seed.startup/v1
+slug: mediscan-diagnostics
+name: MediScan Diagnostics
+legal_name: MediScan Diagnostics Private Limited
+domain: Healthtech
+sub_domain: AI radiology triage
+stage: series_a
+hq: {city: Hyderabad, state: Telangana}
+founded_year: 2021
+one_liner: AI triage for chest X-rays and head CTs that moves critical findings to the top of the radiologist's worklist
+description: >-
+  MediScan's software reads chest X-rays and non-contrast head CTs as they leave the scanner and pushes
+  suspected critical findings, such as pneumothorax or intracranial bleeds, to the top of the radiologist's
+  worklist. It is live in 7 hospitals in Telangana and Andhra Pradesh, reads about 52,000 scans a month and has
+  an ARR of Rs 2.6 crore. Its CDSCO medical-device licence has been applied for and is still pending.
+founder_account: {email: founder@mediscan-diagnostics.demo, name: Sneha}
+mca:
+  cin: U86909TG2021PTC152794
+  registry:
+    status: ACTIVE
+    registered_name: MEDISCAN DIAGNOSTICS PRIVATE LIMITED
+    directors: [Sneha Reddy, Arjun Varma, Priyanka Das]
+    incorporation_year: 2021
+    state: Telangana
+team:
+  - {name: Sneha Reddy, role: "Co-founder & CEO", background: "Radiologist (MD); 9 years at tertiary-care hospitals in Hyderabad"}
+  - {name: Arjun Varma, role: "Co-founder & CTO", background: "Computer-vision engineer; 6 years in medical-imaging AI"}
+  - {name: Priyanka Das, role: "Co-founder, Regulatory & Quality", background: "Quality and regulatory manager at a medical-device maker"}
+problem:
+  statement: >-
+    Radiology queues are read first-in, first-out, so a scan with a life-threatening finding can wait hours behind
+    routine studies, especially at night.
+  stats:
+    - {claim: "Reporting backlogs of 6-24 hours are common at mid-size Indian hospitals", kind: company_estimate}
+    - {claim: "Night-time CT reads are often outsourced to teleradiology at Rs 150-400 per study", kind: company_estimate}
+    - {claim: "Critical findings wait in the same queue as routine scans", kind: company_estimate}
+solution:
+  summary: AI that reads every scan on arrival and reorders the worklist so critical cases are reported first.
+  bullets:
+    - "Detects pneumothorax, pleural effusion and nodules on chest X-rays"
+    - "Flags suspected intracranial bleeds on non-contrast head CTs"
+    - "Integrates with hospital PACS and RIS; no new screens for radiologists"
+    - "Alerts the on-call radiologist by app and SMS within minutes"
+market:
+  tam: {value: 1800, unit: INR crore, year: 2025, scope: "AI-assisted radiology software for Indian hospitals and imaging centres", kind: company_estimate}
+  sam: {value: 420, unit: INR crore, year: 2025, scope: "Private multi-specialty hospitals with in-house CT", kind: company_estimate}
+  som: {value: 35, unit: INR crore, year: 2029, scope: 3-year obtainable share of SAM, kind: company_forecast}
+business_model:
+  streams:
+    - {name: Per-scan fee, price_inr: 35, per: scan, share_pct: 84}
+    - {name: Hospital platform fee, price_inr: 50000, per: month, share_pct: 16, description: "Per hospital; covers PACS integration and support"}
+  notes: ["Gross margin 70% after GPU and cloud costs"]
+unit_economics:
+  cac_inr: 1800000
+  payback_months: 8.3
+  gross_margin_pct: 70
+  nrr_pct: 135
+  monthly_churn_pct: 0
+  other: ["CAC and payback measured per hospital", "No hospital has churned to date"]
+traction:
+  as_of: FY2026
+  customers: 7
+  customer_label: hospitals live
+  arr: {value: 2.6, unit: INR crore, year: 2026, kind: company_reported}
+  series:
+    metric: ARR
+    unit: INR crore
+    points: [{year: 2024, value: 0.6}, {year: 2025, value: 1.4}, {year: 2026, value: 2.6}]
+  highlights:
+    - "Live in 7 hospitals in Telangana and Andhra Pradesh"
+    - "About 52,000 scans read every month"
+    - "ARR Rs 2.6 crore in FY2026, up from Rs 1.4 crore"
+    - "Median time to report flagged head CTs cut from 74 to 21 minutes (company-reported, single-site study)"
+    - "CDSCO medical-device licence applied for; approval pending"
+competitors:
+  - {name: Qure.ai, positioning: "AI radiology products for chest X-ray and head CT, deployed globally"}
+  - {name: 5C Network, positioning: "Teleradiology reporting platform for hospitals and diagnostic centres"}
+  - {name: Lunit, positioning: "AI for chest X-ray and mammography from South Korea"}
+moat:
+  - Deep PACS and RIS integration in each hospital's workflow
+  - 1.1 million Indian scans annotated by in-house radiologists (company-reported)
+gtm:
+  channels: [Direct sales to hospital chains, PACS vendor partnerships, Radiologist referrals]
+  target: 25 hospitals live within 24 months
+round:
+  ask_inr: 250000000
+  pre_money_inr: 1400000000
+  min_raise_pct: 60
+  use_of_funds:
+    - {category: R&D, pct: 30}
+    - {category: Sales & deployment, pct: 30}
+    - {category: Regulatory & clinical validation, pct: 25}
+    - {category: General & administrative, pct: 15}
+  tranches:
+    - {pct: 35, title: Round close}
+    - {pct: 35, title: CDSCO licence granted, criteria: "Medical-device licence for the triage software granted by CDSCO", due_days: 365}
+    - {pct: 30, title: "20 hospitals live", criteria: "20 hospitals live and paying", due_days: 600}
+risks:
+  - Regulatory approval is still pending; delays could block new hospital sales
+  - Clinical liability if a critical finding is missed
+  - Long hospital sales and integration cycles
+  - Established AI radiology vendors compete for the same hospitals
+deck:
+  palette: healthtech
+evaluation_expectations:
+  score_band: [5.0, 7.5]
+  recommendation_in: [Hold, Buy]
+  must_flag: []

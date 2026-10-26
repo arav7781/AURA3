@@ -1,0 +1,104 @@
+schema: aura.seed.startup/v1
+slug: shikshagrid
+name: ShikshaGrid
+legal_name: ShikshaGrid Private Limited
+domain: Edtech
+sub_domain: Placement-linked vocational training
+stage: pre_seed
+hq: {city: Coimbatore, state: Tamil Nadu}
+founded_year: 2025
+one_liner: Employer-designed courses and placements for ITI students, paid for by employers per hire
+description: >-
+  ShikshaGrid runs short, employer-designed modules (CNC operation, electrical maintenance, EV servicing) inside
+  Industrial Training Institutes and places graduates with manufacturers, who pay Rs 8,000 per hire. It works
+  with 6 ITIs in Tamil Nadu, has trained 410 students and placed 132 of them with 23 employers, earning Rs 0.15
+  crore of revenue in the last 12 months.
+founder_account: {email: founder@shikshagrid.demo, name: Meenakshi}
+mca:
+  cin: U85499TN2025PTC173925
+  registry:
+    status: ACTIVE
+    registered_name: SHIKSHAGRID PRIVATE LIMITED
+    directors: [Meenakshi Sundaram, Prakash Natarajan, Farhan Ali]
+    incorporation_year: 2025
+    state: Tamil Nadu
+team:
+  - {name: Meenakshi Sundaram, role: "Co-founder & CEO", background: "HR head at an auto-components maker in Coimbatore for 9 years"}
+  - {name: Prakash Natarajan, role: "Co-founder, Programmes", background: "ITI instructor for 12 years in fitter and electrician trades"}
+  - {name: Farhan Ali, role: "Co-founder & CTO", background: "Full-stack engineer; built a jobs app for blue-collar workers"}
+problem:
+  statement: >-
+    ITI graduates struggle to find good jobs while manufacturers say they cannot hire job-ready technicians,
+    because curricula lag the shop floor and nobody connects the two.
+  stats:
+    - {claim: "Manufacturers say fresh ITI graduates need 3-6 months of on-the-job training before they are productive", kind: company_estimate}
+    - {claim: "ITI curricula lag shop-floor technology such as CNC, PLC and EV servicing", kind: company_estimate}
+    - {claim: "Many ITI graduates leave their trade within a year because of poor job matching", kind: company_estimate}
+solution:
+  summary: Short modules co-designed with employers, taught inside ITIs, ending in a guaranteed interview.
+  bullets:
+    - "6-8 week modules co-designed with hiring manufacturers"
+    - "Taught in Tamil and English by ITI instructors trained by ShikshaGrid"
+    - "Skills assessment and digital certificate shared with employers"
+    - "Guaranteed interviews; employers pay only when they hire"
+market:
+  tam: {value: 1900, unit: INR crore, year: 2025, scope: "Employer-funded training and placement of ITI graduates in India", kind: company_estimate}
+  sam: {value: 240, unit: INR crore, year: 2025, scope: "Manufacturing clusters in Tamil Nadu, Karnataka and Maharashtra", kind: company_estimate}
+  som: {value: 9, unit: INR crore, year: 2029, scope: 3-year obtainable share of SAM, kind: company_forecast}
+business_model:
+  streams:
+    - {name: Employer placement fee, price_inr: 8000, per: hire, share_pct: 70}
+    - {name: ITI programme licence, price_inr: 75000, per: year, share_pct: 30, description: "Curriculum, instructor training and assessments"}
+  notes: ["Gross margin 58% after trainer and assessment costs"]
+unit_economics:
+  cac_inr: 40000
+  gross_margin_pct: 58
+  other: ["CAC measured per hiring employer", "Placement rate 32% of trained students so far (132 of 410)", "Average starting salary Rs 14,500 a month"]
+traction:
+  as_of: Sep 2026
+  customers: 23
+  customer_label: hiring employers
+  series:
+    metric: Revenue (trailing 12 months)
+    unit: INR crore
+    points: [{year: 2025, value: 0.03}, {year: 2026, value: 0.15}]
+  highlights:
+    - "6 partner ITIs in Coimbatore and Tiruppur districts"
+    - "410 students trained; 132 placed with 23 employers"
+    - "Revenue Rs 0.15 crore in the 12 months to Sep 2026"
+    - "Average starting salary Rs 14,500 a month"
+competitors:
+  - {name: Apna, positioning: "Jobs marketplace for blue- and grey-collar workers"}
+  - {name: Staffing and apprenticeship agencies, positioning: "Place workers for a fee; little training"}
+  - {name: Government skilling portals, positioning: "Free courses and job listings at national scale"}
+moat:
+  - Employer-designed curricula and hiring commitments that ITIs cannot get alone
+  - Placement outcome data by trade and employer
+gtm:
+  channels: [Manufacturer HR teams in industrial clusters, ITI principals and state skilling missions, Industry associations]
+  target: 20 partner ITIs and 600 placements a year within 18 months
+round:
+  ask_inr: 15000000
+  pre_money_inr: 90000000
+  min_raise_pct: 60
+  use_of_funds:
+    - {category: Programme delivery, pct: 40}
+    - {category: Employer sales, pct: 30}
+    - {category: Platform, pct: 20}
+    - {category: General & administrative, pct: 10}
+  tranches:
+    - {pct: 50, title: Round close}
+    - {pct: 50, title: "20 partner ITIs", criteria: "20 partner ITIs and 600 placements in a 12-month period", due_days: 365}
+risks:
+  - Placement revenue is lumpy and tied to manufacturing hiring cycles
+  - Operations limited to one state so far
+  - ITIs have small budgets, so licence revenue may stay small
+  - Very early revenue (Rs 0.15 crore)
+deck:
+  palette: edtech
+  render: scanned
+  scan: {dpi: 120, skew_deg: 0.5, noise: 0.02, jpeg_quality: 75, seed: 11}
+evaluation_expectations:
+  score_band: [4.5, 7.0]
+  recommendation_in: [Hold, Buy]
+  must_flag: []
