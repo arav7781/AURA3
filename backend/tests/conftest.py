@@ -7,6 +7,7 @@ cache and local retrieval models are shared with the dev environment (content-ad
 
 import shutil
 import uuid
+import warnings
 from collections.abc import Iterator
 from datetime import timedelta
 from pathlib import Path
@@ -26,6 +27,7 @@ def _drop_qdrant_collections(prefix: str) -> None:
 
         settings = get_settings()
         key = settings.qdrant_api_key.get_secret_value() if settings.qdrant_api_key else None
+        warnings.filterwarnings("ignore", message="Api key is used with an insecure connection")
         with QdrantClient(url=settings.qdrant_url, api_key=key, timeout=5) as qc:
             for alias in qc.get_aliases().aliases:
                 if alias.alias_name.startswith(prefix + "_"):

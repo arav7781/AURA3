@@ -20,7 +20,7 @@ from aura.ingest.geometry import page_exact
 from aura.ingest.ocr import ocr_service
 from aura.ingest.storage import document_dir
 from aura.models import Chunk, Document, DocumentPage, Startup
-from aura.rag import indexer, store
+from aura.rag import indexer, projection, store
 from aura.sandbox.office import OFFICE_SUFFIXES, convert_to_pdf
 
 logger = logging.getLogger("aura.ingest")
@@ -38,7 +38,7 @@ def _source_path(doc: Document):
     return matches[0]
 
 
-async def ingest_document(ctx: JobContext, document_id: str) -> dict[str, Any]:
+async def ingest_document(ctx: JobContext, document_id: str, *, update_map: bool = True) -> dict[str, Any]:
     with read_session() as s:
         doc = s.get(Document, document_id)
         startup = s.get(Startup, doc.startup_id) if doc else None
@@ -48,7 +48,7 @@ async def ingest_document(ctx: JobContext, document_id: str) -> dict[str, Any]:
         s.get(Document, document_id).status = "processing"
 
     try:
-        return await _ingest(ctx, doc, startup)
+        return await _ingest(ctx, doc, startup, update_map=update_map)
     except Exception as exc:
         with write_tx() as s:
             row = s.get(Document, document_id)
@@ -57,7 +57,7 @@ async def ingest_document(ctx: JobContext, document_id: str) -> dict[str, Any]:
         raise
 
 
-async def _ingest(ctx: JobContext, doc: Document, startup: Startup) -> dict[str, Any]:
+async def _ingest(ctx: JobContext, doc: Document, startup: Startup, *, update_map: bool) -> dict[str, Any]:
     folder = document_dir(doc.id)
     source = _source_path(doc)
     suffix = source.suffix.lower()
@@ -153,6 +153,15 @@ async def _ingest(ctx: JobContext, doc: Document, startup: Startup) -> dict[str,
             startup_row.compliance_flags = [*startup_row.compliance_flags, FLAG_INJECTION]
         startup_row.updated_at = clock.now()
 
+    projection_action = "skipped"
+    if update_map and records:
+        ctx.progress("mapping", 98, "Placing chunks on the embedding map")
+        try:
+            projection_action = await projection.refresh([r.id for r in records])
+        except Exception as exc:  # the map is a view; never fail ingestion over it
+            logger.warning("embedding map refresh failed: %s", exc)
+            projection_action = "failed"
+
     return {
         "document_id": doc.id,
         "pages": len(pages),
@@ -160,5 +169,6 @@ async def _ingest(ctx: JobContext, doc: Document, startup: Startup) -> dict[str,
         "indexed": indexed,
         "flags": flags,
         "ocr_ms": outcome.ms,
+        "map": projection_action,
         "findings": [f.__dict__ for f in findings][:10],
     }

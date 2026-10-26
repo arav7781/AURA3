@@ -14,7 +14,7 @@ from typing import Any
 from fastapi import FastAPI
 
 from aura.api.middleware import CSRFMiddleware
-from aura.api.routes import admin, auth, documents, jobs, me, public, search
+from aura.api.routes import admin, auth, documents, explorer, jobs, me, public, search
 from aura.core import clock, migrate
 from aura.core.config import get_settings
 from aura.core.db import dispose_engines, init_engines, read_session
@@ -101,7 +101,7 @@ def create_app() -> FastAPI:
     )
     install_error_handlers(app)
     app.add_middleware(CSRFMiddleware)
-    for module in (auth, me, public, jobs, admin, documents, search):
+    for module in (auth, me, public, jobs, admin, documents, search, explorer):
         app.include_router(module.router)
     return app
 

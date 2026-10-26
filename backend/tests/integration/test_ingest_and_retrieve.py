@@ -91,3 +91,20 @@ def test_access_rules_for_draft_and_published_decks(live):
     denied = client.get(f"/api/documents/{live.document_id}")
     assert denied.status_code == 403 and denied.json()["error"]["details"]["required_plan"] == "angel"
     assert client.post("/api/search", json={"query": "TAM 2025"}).json()["hits"] == []
+
+
+def test_embedding_map_and_query_placement(live):
+    client = live.client
+    client.cookies.clear()
+    assert client.post("/api/auth/login", json={"email": live.founder["email"],
+                                                "password": live.founder["password"]}).status_code == 200
+    assert live.events[-1]["data"]["result"]["map"] in ("refit", "placed")
+    payload = client.get("/api/explorer/map", params={"startup_id": live.startup_id}).json()
+    points = payload["points"]
+    assert len(points) == 11 and payload["projection"]["points"] == 11
+    assert all(-1.0 <= p["x"] <= 1.0 and -1.0 <= p["y"] <= 1.0 for p in points)
+    result = client.post("/api/explorer/query", json={"query": "How big is the market?",
+                                                      "startup_id": live.startup_id}).json()
+    assert result["point"] is not None and len(result["neighbours"]) == 10
+    assert result["ann_recall_at_10"] == 1.0
+    assert result["hits"][0]["page_no"] == 4

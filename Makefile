@@ -23,7 +23,7 @@ smoke:
 	cd $(BACKEND) && uv run python -m aura.core.llm smoke
 
 lint:
-	cd $(BACKEND) && uv run ruff check aura/core aura/api aura/ledger aura/models aura/ingest aura/rag aura/sandbox aura/access.py aura/plans.py aura/quotas.py tests/ledger tests/api tests/core tests/sandbox tests/ingest tests/integration tests/conftest.py alembic
+	cd $(BACKEND) && uv run ruff check aura/core aura/api aura/ledger aura/models aura/ingest aura/rag aura/sandbox aura/access.py aura/plans.py aura/quotas.py tests/ledger tests/api tests/core tests/sandbox tests/ingest tests/integration tests/rag tests/conftest.py aura/decks alembic
 
 audit:
 	cd $(BACKEND) && uv run python -m aura.ledger.audit
