@@ -2,7 +2,8 @@
 
 Captured on 26 October 2026 during one end-to-end run of the app (frontend on `localhost:3000`,
 backend on `localhost:8010`), using `KrishiMitra_AI_Pitch_Deck.pdf` as the input. These are
-Figures 5–15 of Section 14 (Results) in the CA4 report.
+Figures 5–15 of Section 14 (Results) in the
+[CA4 report](../AURA3_CA4_Report_with_Results.pdf) (pages 20–30).
 
 | Figure | File | Shows |
 | :--- | :--- | :--- |
