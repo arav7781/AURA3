@@ -13,10 +13,11 @@ from typing import Any
 from fastapi import FastAPI
 
 from aura.api.middleware import CSRFMiddleware
-from aura.api.routes import auth, me, public
+from aura.api.routes import admin, auth, jobs, me, public
 from aura.core import clock, migrate
 from aura.core.db import dispose_engines, init_engines, read_session
 from aura.core.errors import install_error_handlers
+from aura.core.jobs import fail_orphaned_jobs
 from aura.models import AppState
 
 logger = logging.getLogger("aura.api")
@@ -40,6 +41,9 @@ async def lifespan(_: FastAPI) -> AsyncIterator[None]:
     migrate.upgrade()
     init_engines()
     _restore_clock()
+    orphaned = fail_orphaned_jobs()
+    if orphaned:
+        logger.warning("marked %d interrupted job(s) as failed", orphaned)
     _status["db"] = "ok"
     logger.info("AURA-3 API ready")
     try:
@@ -59,7 +63,7 @@ def create_app() -> FastAPI:
     )
     install_error_handlers(app)
     app.add_middleware(CSRFMiddleware)
-    for module in (auth, me, public):
+    for module in (auth, me, public, jobs, admin):
         app.include_router(module.router)
     return app
 
