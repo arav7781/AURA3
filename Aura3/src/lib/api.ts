@@ -26,8 +26,22 @@ export interface StartupSummary {
   recommendation_label?: string | null
 }
 
+export interface EvidenceMetric {
+  value: number
+  unit: string
+  year: number | null
+  period: string
+  kind: 'reported' | 'source_forecast' | 'company_reported' | 'company_forecast'
+  source_url: string | null
+  source_title: string
+  retrieved_at: string | null
+  quote: string
+  market: string
+  geography: string
+}
+
 export interface AnalysisReport {
-  score: number
+  score: number | null
   recommendationLabel: string
   executiveSummary: string
   marketAnalysis: string
@@ -35,17 +49,23 @@ export interface AnalysisReport {
   riskFactors: string
   recommendation: string
   categoryScores: Record<string, number>
-  projectedRevenue: { year: number; revenue: number }[]
+  projectedRevenue: (EvidenceMetric & { year: number; revenue: number; metric: string })[]
+  revenueCurrency: string | null
+  revenueMetric: string | null
+  evidenceVersion: number
+  researchStatus: 'sources_found' | 'unavailable'
+  dataGaps: string[]
   marketSizing: {
-    tam_usd_b: number
-    sam_usd_b: number
-    som_usd_b: number
-    cagr_pct: number
+    tam_usd_b: number | null
+    sam_usd_b: number | null
+    som_usd_b: number | null
+    cagr_pct: number | null
     basis: string
-    trend: { year: number; size_usd_b: number }[]
+    evidence: Record<string, EvidenceMetric>
+    trend: (EvidenceMetric & { year: number; size_usd_b: number })[]
   }
   sections: { key: string; title: string; content: string }[]
-  sources: { title: string; url: string }[]
+  sources: { title: string; url: string; retrieved_at?: string }[]
   complianceFlags: string[]
   generatedAt?: string
   model?: string

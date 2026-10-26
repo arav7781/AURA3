@@ -19,10 +19,19 @@ from reportlab.platypus import (
 )
 
 from aura.evaluation import SCORE_DIMENSIONS, SECTION_TITLES
+from aura.evidence import KIND_LABELS, report_snapshot
 from aura.mca import consistency_flags
 
 INK, ACCENT, MUTED, LINE = "#0f172a", "#0f6b5f", "#64748b", "#e2e8f0"
 CHART_BG, BAR_COLORS = "#ffffff", ["#0f6b5f", "#2a9d8f", "#8ecae6"]
+
+
+def _unavailable_chart(title: str, message: str) -> io.BytesIO:
+    fig, ax = plt.subplots(figsize=(7, 2), facecolor=CHART_BG)
+    ax.axis("off")
+    ax.set_title(title, color=INK, fontsize=12, fontweight="bold", loc="left")
+    ax.text(0.5, 0.5, message, ha="center", va="center", color=MUTED, fontsize=10, wrap=True)
+    return _png(fig)
 
 
 def _png(fig) -> io.BytesIO:
@@ -43,11 +52,14 @@ def _style_axes(ax, title: str) -> None:
 
 def market_opportunity_chart(analysis: Dict[str, Any], domain: str) -> io.BytesIO:
     m = analysis["market_sizing"]
-    values = [m["tam_usd_b"], m["sam_usd_b"], m["som_usd_b"]]
+    rows = [(k[:3].upper(), m[k]) for k in ("tam_usd_b", "sam_usd_b", "som_usd_b") if m[k] is not None]
+    if not rows:
+        return _unavailable_chart("Market opportunity", "No source-supported market sizing available.")
+    labels, values = zip(*rows)
     fig, ax = plt.subplots(figsize=(7, 3.6), facecolor=CHART_BG)
-    bars = ax.bar(["TAM", "SAM", "SOM"], values, color=BAR_COLORS, width=0.55)
+    bars = ax.bar(labels, values, color=BAR_COLORS[:len(rows)], width=0.55)
     for bar, value in zip(bars, values):
-        ax.text(bar.get_x() + bar.get_width() / 2, bar.get_height(), f"${value:,.2f}B",
+        ax.text(bar.get_x() + bar.get_width() / 2, bar.get_height(), f"${value:,.4g}B",
                 ha="center", va="bottom", color=INK, fontsize=10, fontweight="bold")
     ax.set_ylabel("USD billions", color=MUTED, fontsize=9)
     ax.set_ylim(0, max(values) * 1.2 or 1)
@@ -57,46 +69,52 @@ def market_opportunity_chart(analysis: Dict[str, Any], domain: str) -> io.BytesI
 
 def scorecard_chart(analysis: Dict[str, Any]) -> io.BytesIO:
     scores = analysis["category_scores"]
-    labels = [SCORE_DIMENSIONS[k] for k in SCORE_DIMENSIONS]
-    values = [scores[k] for k in SCORE_DIMENSIONS]
+    labels = [SCORE_DIMENSIONS[k] for k in SCORE_DIMENSIONS if k in scores]
+    values = [scores[k] for k in SCORE_DIMENSIONS if k in scores]
+    if not values:
+        return _unavailable_chart("AI evaluation scorecard", "No analytical scores available.")
     fig, ax = plt.subplots(figsize=(7, 3.8), facecolor=CHART_BG)
     bars = ax.barh(labels[::-1], values[::-1], color=ACCENT, height=0.55)
     for bar, value in zip(bars, values[::-1]):
         ax.text(value + 0.12, bar.get_y() + bar.get_height() / 2, f"{value:.1f}/10",
                 va="center", color=INK, fontsize=9, fontweight="bold")
     ax.set_xlim(0, 10.8)
-    _style_axes(ax, f"AI evaluation scorecard — overall {analysis['overall_score']:.1f}/10")
+    _style_axes(ax, "AI evaluation scorecard (analytical judgment)")
     return _png(fig)
 
 
 def market_trend_chart(analysis: Dict[str, Any], domain: str) -> io.BytesIO:
     m = analysis["market_sizing"]
-    years = [p["year"] for p in m["trend"]]
-    sizes = [p["size_usd_b"] for p in m["trend"]]
-    base = datetime.utcnow().year
+    if not m["trend"]:
+        return _unavailable_chart("Published market data", "No dated market observations or publisher forecasts available.")
     fig, ax = plt.subplots(figsize=(7, 3.6), facecolor=CHART_BG)
-    hist = [(y, s) for y, s in zip(years, sizes) if y <= base]
-    proj = [(y, s) for y, s in zip(years, sizes) if y >= base]
-    ax.plot(*zip(*hist), color=ACCENT, linewidth=2.4, marker="o", label="Historical (est.)")
-    ax.plot(*zip(*proj), color=ACCENT, linewidth=2.4, marker="o", linestyle="--", label="Projected")
-    ax.fill_between(years, sizes, alpha=0.08, color=ACCENT)
+    for kind, color, marker in (("reported", ACCENT, "o"), ("source_forecast", "#d97706", "D")):
+        points = [p for p in m["trend"] if p["kind"] == kind]
+        if points:
+            ax.scatter([p["year"] for p in points], [p["size_usd_b"] for p in points],
+                       color=color, marker=marker, label=KIND_LABELS[kind], s=45)
+    ax.set_xticks([p["year"] for p in m["trend"]])
     ax.set_ylabel("USD billions", color=MUTED, fontsize=9)
     ax.legend(frameon=False, fontsize=8, labelcolor=MUTED)
-    _style_axes(ax, f"Market growth — {domain} ({m['cagr_pct']:.1f}% CAGR)")
+    _style_axes(ax, f"Published market data — {domain}")
     return _png(fig)
 
 
 def revenue_chart(analysis: Dict[str, Any]) -> io.BytesIO:
     rows = analysis["projected_revenue"]
+    if not rows:
+        return _unavailable_chart("Revenue / ARR", "No dated company figures or explicit forecasts available.")
     fig, ax = plt.subplots(figsize=(7, 3.2), facecolor=CHART_BG)
-    ax.bar([str(r["year"]) for r in rows], [r["revenue_musd"] for r in rows], color="#2a9d8f", width=0.55)
-    ax.set_ylabel("USD millions", color=MUTED, fontsize=9)
-    _style_axes(ax, "Projected revenue (analyst estimate)")
+    ax.bar([f"{r['year']}\n{KIND_LABELS[r['kind']].replace(' (unverified)', '')}" for r in rows],
+           [r["revenue"] for r in rows],
+           color=["#d97706" if "forecast" in r["kind"] else ACCENT for r in rows], width=0.55)
+    ax.set_ylabel(f"{analysis['revenue_currency']} millions", color=MUTED, fontsize=9)
+    _style_axes(ax, f"{analysis['revenue_metric']} — reported figures and explicit forecasts")
     return _png(fig)
 
 
 def _escape(text: str) -> str:
-    return text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+    return text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace("'", "&#39;").replace('"', "&quot;")
 
 
 def _inline(text: str) -> str:
@@ -148,6 +166,7 @@ def _markdown_flowables(md: str, styles: Dict[str, ParagraphStyle]) -> List[Any]
 
 
 def build_pdf_report(startup: Dict[str, Any], analysis: Dict[str, Any]) -> bytes:
+    analysis = report_snapshot(analysis)
     buffer = io.BytesIO()
     doc = SimpleDocTemplate(
         buffer, pagesize=A4, leftMargin=2 * cm, rightMargin=2 * cm, topMargin=1.8 * cm, bottomMargin=1.8 * cm,
@@ -182,15 +201,16 @@ def build_pdf_report(startup: Dict[str, Any], analysis: Dict[str, Any]) -> bytes
         Spacer(1, 0.6 * cm),
         Paragraph("AURA-3 Startup Evaluation", styles["title"]),
         Paragraph(
-            f"{_escape(startup.get('name', 'Startup'))} &nbsp;·&nbsp; generated "
-            f"{datetime.utcnow().strftime('%d %B %Y')} &nbsp;·&nbsp; LangGraph multi-agent pipeline",
+            f"{_escape(startup.get('name', 'Startup'))}<br/>Research snapshot: "
+            f"{_escape(str(analysis.get('generated_at') or 'Unknown'))}<br/>"
+            f"PDF exported {datetime.utcnow().strftime('%d %B %Y')}",
             styles["subtitle"],
         ),
         HRFlowable(width="100%", thickness=1.5, color=colors.HexColor(ACCENT), spaceAfter=10),
     ]
 
     verdict = Table([[
-        Paragraph(f"<b>{analysis['overall_score']:.1f}/10</b><br/>Overall score", styles["body"]),
+        Paragraph(f"<b>{str(analysis['overall_score']) + '/10' if analysis['overall_score'] is not None else 'Unavailable'}</b><br/>AI score", styles["body"]),
         Paragraph(f"<b>{analysis['recommendation_label']}</b><br/>Recommendation", styles["body"]),
         Paragraph(
             f"<b>{'MCA VERIFIED' if v.get('mca_verified') else 'MCA NOT VERIFIED'}</b><br/>"
@@ -228,11 +248,43 @@ def build_pdf_report(startup: Dict[str, Any], analysis: Dict[str, Any]) -> bytes
 
     story += [PageBreak(), Paragraph("Market & scoring visuals", styles["section"])]
     story.append(Paragraph(_inline(analysis["market_sizing"].get("basis", "")), styles["body"]))
-    charts = [market_opportunity_chart(analysis, domain), market_trend_chart(analysis, domain), scorecard_chart(analysis)]
-    if analysis["projected_revenue"]:
-        charts.append(revenue_chart(analysis))
-    for chart in charts:
-        story += [RLImage(chart, width=15.5 * cm, height=8 * cm), Spacer(1, 0.3 * cm)]
+    story.append(Paragraph(
+        "Source-reported figures and publisher forecasts retain their original dates. Company figures are "
+        "unverified claims. Search excerpts provide traceability, not independent verification. "
+        "AI scores are analytical judgments. Missing figures and years are not synthesized.", styles["body"],
+    ))
+    for gap in analysis["data_gaps"]:
+        story.append(Paragraph(_escape(gap), styles["bullet"]))
+
+    def evidence_notes(label: str, metric: dict) -> None:
+        source = _escape(metric["source_title"] or metric.get("source_url") or "Company documents")
+        if metric.get("source_url"):
+            source = f"<link href='{_escape(metric['source_url'])}' color='{ACCENT}'>{source}</link>"
+        scope = " · ".join(filter(None, [metric.get("market"), metric.get("geography")]))
+        story.append(Paragraph(
+            f"<b>{_escape(label)}</b>: {metric['value']:,.8g} {_escape(metric['unit'])} · "
+            f"{_escape(str(metric.get('year') or metric.get('period')))} · {KIND_LABELS[metric['kind']]}<br/>"
+            f"{_escape(scope)}<br/>Source: {source}"
+            + (f" · retrieved {_escape(metric['retrieved_at'])}" if metric.get("retrieved_at") else "")
+            + f"<br/>Evidence excerpt: {_escape(metric['quote'])}", styles["body"],
+        ))
+
+    def chart_image(chart: io.BytesIO) -> None:
+        picture = RLImage(chart)
+        picture.drawWidth = 15.5 * cm
+        picture.drawHeight = picture.imageHeight * picture.drawWidth / picture.imageWidth
+        story.extend([picture, Spacer(1, 0.3 * cm)])
+
+    chart_image(market_opportunity_chart(analysis, domain))
+    for key, metric in analysis["market_sizing"]["evidence"].items():
+        evidence_notes(key.replace("_usd_b", "").replace("_pct", "").upper(), metric)
+    chart_image(market_trend_chart(analysis, domain))
+    for metric in analysis["market_sizing"]["trend"]:
+        evidence_notes(f"Market {metric['year']}", metric)
+    chart_image(scorecard_chart(analysis))
+    chart_image(revenue_chart(analysis))
+    for metric in analysis["projected_revenue"]:
+        evidence_notes(f"{metric['metric']} {metric['year']}", metric)
 
     story.append(PageBreak())
     for number, (key, title) in enumerate(SECTION_TITLES.items(), start=1):
@@ -240,10 +292,11 @@ def build_pdf_report(startup: Dict[str, Any], analysis: Dict[str, Any]) -> bytes
         story += _markdown_flowables(analysis["sections"].get(key, ""), styles)
 
     if analysis.get("sources"):
-        story.append(Paragraph("Sources", styles["section"]))
+        story.append(Paragraph("Research sources", styles["section"]))
         for s in analysis["sources"]:
             story.append(Paragraph(
-                f"• <link href='{_escape(s['url'])}' color='#0f6b5f'>{_escape(s['title'] or s['url'])}</link>",
+                f"• <link href='{_escape(s['url'])}' color='#0f6b5f'>{_escape(s['title'] or s['url'])}</link>"
+                + (f" · retrieved {_escape(s['retrieved_at'])}" if s.get("retrieved_at") else ""),
                 styles["bullet"],
             ))
 
@@ -251,8 +304,9 @@ def build_pdf_report(startup: Dict[str, Any], analysis: Dict[str, Any]) -> bytes
         Spacer(1, 0.6 * cm),
         HRFlowable(width="100%", thickness=0.6, color=colors.HexColor(LINE)),
         Paragraph(
-            "Generated by the AURA-3 AI evaluation engine. Figures marked as estimates come from the model and "
-            "public web sources; verify before making investment decisions. Not financial advice.",
+            "Generated by the AURA-3 AI evaluation engine from the saved research snapshot. "
+            "Forecasts are not actual results. Source excerpts and company claims are not independently audited. "
+            "Not financial advice.",
             styles["small"],
         ),
     ]

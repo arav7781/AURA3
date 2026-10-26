@@ -126,37 +126,65 @@ def fetch_stock_news(symbol_or_query: str, limit: int = 6) -> List[Dict[str, Any
     return news
 
 
+_STOPWORDS = {
+    "the", "a", "an", "of", "in", "on", "for", "to", "and", "or", "is", "are", "what", "how",
+    "explain", "explained", "explaining", "tutorial", "video", "videos", "each", "detail",
+    "detailed", "with", "about", "me", "you", "it", "this", "that", "do", "does",
+}
+
+
+def _relevant(title: str, topic_words: set) -> bool:
+    """Reject hits whose title shares no real word with the topic (blocks e.g. 'Every Computer
+    Component Explained' matching a query that only contains generic words like 'explained')."""
+    if not topic_words:
+        return True
+    title_words = set(re.findall(r"[a-z0-9]+", title.lower())) - _STOPWORDS
+    return bool(title_words & topic_words)
+
+
 def _youtube_videos(query: str, limit: int = 3) -> List[Dict[str, str]]:
-    """YouTube videos for a topic: DuckDuckGo video search first, direct YouTube search as fallback."""
+    """YouTube videos for a topic: DuckDuckGo video search first, direct YouTube search as fallback.
+    Results are filtered to titles that actually share a keyword with the topic, so a vague or
+    stopword-only query cannot surface unrelated videos."""
+    topic_words = set(re.findall(r"[a-z0-9]+", query.lower())) - _STOPWORDS
     videos: List[Dict[str, str]] = []
     try:
         from ddgs import DDGS
 
-        for hit in DDGS(timeout=10).videos(query, max_results=limit * 3):
+        for hit in DDGS(timeout=10).videos(query, max_results=limit * 4):
+            title = hit.get("title", "Video")
+            if not _relevant(title, topic_words):
+                continue
             match = re.search(r"youtube\.com/watch\?v=([A-Za-z0-9_-]{6,})", hit.get("content", ""))
             if match and len(videos) < limit:
-                videos.append({"title": hit.get("title", "Video"), "id": match.group(1)})
+                videos.append({"title": title, "id": match.group(1)})
     except Exception as e:
         logger.warning(f"FinScope ▸ DuckDuckGo video search failed: {e}")
     if videos:
         return videos
-    for hit in web_search(f"{query} site:youtube.com", max_results=limit * 3):
+    for hit in web_search(f"{query} site:youtube.com", max_results=limit * 4):
+        title = re.sub(r"\s*-\s*YouTube$", "", hit.get("title") or "Video")
+        if not _relevant(title, topic_words):
+            continue
         match = re.search(r"youtube\.com/watch\?v=([A-Za-z0-9_-]{6,})", hit.get("url", ""))
         if match and len(videos) < limit:
-            videos.append({"title": re.sub(r"\s*-\s*YouTube$", "", hit.get("title") or "Video"), "id": match.group(1)})
+            videos.append({"title": title, "id": match.group(1)})
     if videos:
         return videos
     try:
         from youtube_search import YoutubeSearch
 
-        data = json.loads(YoutubeSearch(query, max_results=limit).to_json())
+        data = json.loads(YoutubeSearch(query, max_results=limit * 2).to_json())
     except Exception as e:
         logger.warning(f"FinScope ▸ YouTube search failed: {e}")
         return []
     for video in data.get("videos", []):
+        title = video.get("title", "Video")
+        if not _relevant(title, topic_words):
+            continue
         match = re.search(r"v=([A-Za-z0-9_-]{6,})", video.get("url_suffix", ""))
-        if match:
-            videos.append({"title": video.get("title", "Video"), "id": match.group(1)})
+        if match and len(videos) < limit:
+            videos.append({"title": title, "id": match.group(1)})
     return videos
 
 
@@ -262,19 +290,30 @@ def _video_topic(question: str) -> str:
     return " ".join(topic.split())[:80] or question[:80]
 
 
+_VIDEO_INTENT = re.compile(r"\b(video|videos|youtube|tutorial|tutorials|watch)\b", re.IGNORECASE)
+
+
 async def financial_educator(state: FinScopeState) -> dict:
     logger.info("FinScope ▸ Financial Educator is preparing an explanation")
-    topic = _video_topic(state["question"])
-    videos = await asyncio.to_thread(_youtube_videos, f"{topic} explained", 3)
-    if videos:
+    wants_videos = bool(_VIDEO_INTENT.search(state["question"]))
+    videos: List[Dict[str, str]] = []
+    if wants_videos:
+        topic = _video_topic(state["question"])
+        videos = await asyncio.to_thread(_youtube_videos, f"{topic} explained", 3)
         logger.info(f"FinScope ▸ Found {len(videos)} YouTube videos for '{topic}'")
-        video_note = "Relevant YouTube videos are attached below your answer; you may point to them."
+        video_note = (
+            "Relevant YouTube videos are attached below your answer; you may point to them."
+            if videos else "No videos could be fetched right now; do not mention videos or links."
+        )
     else:
-        video_note = "No videos could be fetched right now; do not mention videos or links."
+        video_note = (
+            "Do not include any videos or links. End with one short line offering to find "
+            "YouTube videos if the user wants them."
+        )
     system = (
         "You are FinScope's Financial Educator. Teach investing and startup-finance concepts "
-        "clearly: start with a one-line definition, then explain with a concrete example (use ₹ or $), "
-        "then list 2-3 key takeaways. Keep it under 300 words. Do not include any links. "
+        "clearly and concisely: start with a one-line definition, add one concrete example (use ₹ or $), "
+        "then list 2-3 key takeaways. Keep it under 180 words and avoid filler. Do not include any links. "
         f"{video_note} " + _profile_note(state)
     )
     answer = await _chat(system, state, temperature=0.4)

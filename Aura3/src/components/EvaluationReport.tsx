@@ -6,15 +6,21 @@ import remarkGfm from 'remark-gfm'
 import { ChevronDown, ExternalLink, ShieldAlert, ShieldCheck } from 'lucide-react'
 import {
   Chart as ChartJS, RadialLinearScale, PointElement, LineElement, Filler, Tooltip, Legend,
-  CategoryScale, LinearScale, LogarithmicScale, BarElement,
+  CategoryScale, LinearScale, BarElement,
 } from 'chart.js'
 import { Bar, Line, Radar } from 'react-chartjs-2'
-import type { AnalysisReport } from '@/lib/api'
+import type { AnalysisReport, EvidenceMetric } from '@/lib/api'
 import { flagLabel } from '@/lib/api'
 
-ChartJS.register(RadialLinearScale, PointElement, LineElement, Filler, Tooltip, Legend, CategoryScale, LinearScale, LogarithmicScale, BarElement)
+ChartJS.register(RadialLinearScale, PointElement, LineElement, Filler, Tooltip, Legend, CategoryScale, LinearScale, BarElement)
 
 const ACCENT = '#0284c7'
+const KIND_LABELS: Record<EvidenceMetric['kind'], string> = {
+  reported: 'Source-reported', source_forecast: 'Source forecast',
+  company_reported: 'Company-reported (unverified)', company_forecast: 'Company forecast (unverified)',
+}
+const marketValue = (value: number | null) => value === null ? 'Unavailable'
+  : new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', notation: 'compact', maximumSignificantDigits: 4 }).format(value * 1e9)
 const SCORE_LABELS: Record<string, string> = {
   product: 'Product', market: 'Market', team: 'Team', traction: 'Traction',
   businessModel: 'Business model', moat: 'Moat', risk: 'Execution risk',
@@ -29,6 +35,32 @@ function Card({ title, children, className = '' }: { title: string; children: Re
       <h3 className="text-[11px] font-bold font-mono uppercase tracking-widest text-slate-500 mb-4">{title}</h3>
       {children}
     </div>
+  )
+}
+
+function EmptyChart({ children }: { children: React.ReactNode }) {
+  return <div className="min-h-[180px] flex items-center justify-center rounded-lg bg-slate-50 p-6 text-center text-sm text-slate-500">{children}</div>
+}
+
+function EvidenceDetails({ rows }: { rows: { label: string; metric: EvidenceMetric }[] }) {
+  if (!rows.length) return null
+  return (
+    <details className="mt-4 text-xs text-slate-600">
+      <summary className="cursor-pointer font-semibold text-[#0284c7]">View data &amp; sources ({rows.length})</summary>
+      <div className="mt-3 space-y-3">
+        {rows.map(({ label, metric }, i) => (
+          <div key={`${label}-${i}`} className="border-t border-slate-100 pt-3">
+            <p className="font-semibold text-slate-800">{label}: {metric.value.toLocaleString('en-US', { maximumSignificantDigits: 8 })} {metric.unit} · {metric.year ?? metric.period}</p>
+            <p>{KIND_LABELS[metric.kind]} · {[metric.market, metric.geography].filter(Boolean).join(' · ')}</p>
+            {metric.source_url ? (
+              <a href={metric.source_url} target="_blank" rel="noopener noreferrer" className="text-[#0284c7] hover:underline">{metric.source_title || metric.source_url}</a>
+            ) : <p>{metric.source_title}</p>}
+            <blockquote className="mt-1 border-l-2 border-slate-200 pl-2">{metric.quote}</blockquote>
+            {metric.retrieved_at && <p className="mt-1 text-slate-400">Retrieved {new Date(metric.retrieved_at).toLocaleString()}</p>}
+          </div>
+        ))}
+      </div>
+    </details>
   )
 }
 
@@ -52,19 +84,32 @@ export function EvaluationReport({ report, showCompliance = true }: { report: An
   const [openSection, setOpenSection] = useState<string | null>('executive_summary')
   const scoreKeys = Object.keys(SCORE_LABELS).filter(k => k in report.categoryScores)
   const m = report.marketSizing
-  const thisYear = new Date().getFullYear()
+  const marketRows = (['tam_usd_b', 'sam_usd_b', 'som_usd_b'] as const)
+    .filter(key => m[key] !== null)
+    .map(key => ({ label: key.slice(0, 3).toUpperCase(), value: m[key] as number }))
+  const marketEvidence = Object.entries(m.evidence).map(([key, metric]) => ({ label: key.replace('_usd_b', '').replace('_pct', '').toUpperCase(), metric }))
 
   return (
     <div className="space-y-6">
+      <div className="rounded-lg border border-slate-200 bg-slate-50 px-4 py-3 text-xs text-slate-600 space-y-2">
+        <p>Charts use this report’s saved search evidence and dated company figures. Forecasts retain their source labels; AI scores are analytical judgments.</p>
+        {report.researchStatus === 'unavailable' && <p className="font-semibold text-amber-700">Web research was unavailable. External market figures could not be established.</p>}
+        {report.dataGaps.length > 0 && (
+          <details open={!report.evidenceVersion}>
+            <summary className="cursor-pointer font-semibold">Data availability ({report.dataGaps.length})</summary>
+            <ul className="mt-2 list-disc pl-4 space-y-1">{report.dataGaps.map(gap => <li key={gap}>{gap}</li>)}</ul>
+          </details>
+        )}
+      </div>
       <div className={`grid grid-cols-1 gap-4 ${showCompliance ? 'md:grid-cols-3' : 'md:grid-cols-2'}`}>
         <div className="bg-white border border-slate-200 rounded-xl p-5 shadow-sm flex items-center gap-5">
           <div className="relative w-20 h-20">
             <svg viewBox="0 0 36 36" className="w-20 h-20 -rotate-90">
               <circle cx="18" cy="18" r="15.9" fill="none" stroke="#e2e8f0" strokeWidth="3" />
               <circle cx="18" cy="18" r="15.9" fill="none" stroke={ACCENT} strokeWidth="3" strokeLinecap="round"
-                strokeDasharray={`${report.score * 10} 100`} />
+                strokeDasharray={`${(report.score ?? 0) * 10} 100`} />
             </svg>
-            <span className="absolute inset-0 flex items-center justify-center text-xl font-black text-slate-900">{report.score.toFixed(1)}</span>
+            <span className="absolute inset-0 flex items-center justify-center text-xl font-black text-slate-900">{report.score?.toFixed(1) ?? 'N/A'}</span>
           </div>
           <div>
             <p className="text-[11px] font-mono uppercase tracking-widest text-slate-500">AI score / 10</p>
@@ -76,20 +121,22 @@ export function EvaluationReport({ report, showCompliance = true }: { report: An
         <div className="bg-white border border-slate-200 rounded-xl p-5 shadow-sm">
           <p className="text-[11px] font-mono uppercase tracking-widest text-slate-500 mb-3">Market sizing (USD)</p>
           <div className="grid grid-cols-3 gap-2 text-center">
-            {[['TAM', m.tam_usd_b], ['SAM', m.sam_usd_b], ['SOM', m.som_usd_b]].map(([k, v]) => (
-              <div key={k as string}>
-                <p className="text-lg font-black text-slate-900">${Number(v) >= 1 ? Number(v).toFixed(1) + 'B' : (Number(v) * 1000).toFixed(0) + 'M'}</p>
-                <p className="text-[10px] font-mono text-slate-500">{k}</p>
+            {(['tam_usd_b', 'sam_usd_b', 'som_usd_b'] as const).map(key => (
+              <div key={key}>
+                <p className={`${m[key] === null ? 'text-xs' : 'text-lg'} font-black text-slate-900`}>{marketValue(m[key])}</p>
+                <p className="text-[10px] font-mono text-slate-500">{key.slice(0, 3).toUpperCase()}</p>
+                {m.evidence[key] && <p className="text-[10px] text-slate-500">{m.evidence[key].year} · {KIND_LABELS[m.evidence[key].kind]}</p>}
               </div>
             ))}
           </div>
-          <p className="text-xs text-slate-500 mt-3">{m.cagr_pct}% expected annual growth</p>
+          <p className="text-xs text-slate-500 mt-3">{m.cagr_pct === null ? 'CAGR unavailable' : `${m.cagr_pct}% CAGR · ${m.evidence.cagr_pct?.period} · ${KIND_LABELS[m.evidence.cagr_pct.kind]}`}</p>
         </div>
         {showCompliance && <ComplianceBadge verified={report.complianceFlags.length === 0} flags={report.complianceFlags} />}
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-        <Card title="Evaluation scorecard">
+        <Card title="Evaluation scorecard · AI judgment">
+          {scoreKeys.length > 0 ? (
           <div className="h-[260px]">
             <Radar
               data={{
@@ -109,51 +156,65 @@ export function EvaluationReport({ report, showCompliance = true }: { report: An
               }}
             />
           </div>
+          ) : <EmptyChart>No analytical scores available.</EmptyChart>}
         </Card>
-        <Card title={`Market growth — ${m.cagr_pct}% CAGR (estimate)`}>
+        <Card title="Published market data">
+          {m.trend.length > 0 ? (
           <div className="h-[260px]">
             <Line
               data={{
-                labels: m.trend.map(p => String(p.year)),
-                datasets: [{
-                  label: 'Market size (USD B)',
-                  data: m.trend.map(p => p.size_usd_b),
-                  borderColor: ACCENT,
-                  backgroundColor: 'rgba(2,132,199,0.08)',
-                  fill: true,
-                  tension: 0.3,
-                  segment: { borderDash: ctx => (Number(m.trend[ctx.p0DataIndex]?.year) >= thisYear ? [6, 4] : undefined) },
-                }],
+                datasets: (['reported', 'source_forecast'] as const)
+                  .filter(kind => m.trend.some(p => p.kind === kind))
+                  .map(kind => ({
+                    label: KIND_LABELS[kind],
+                    data: m.trend.filter(p => p.kind === kind).map(p => ({ x: p.year, y: p.size_usd_b })),
+                    borderColor: kind === 'reported' ? ACCENT : '#d97706',
+                    backgroundColor: kind === 'reported' ? ACCENT : '#d97706',
+                    pointStyle: kind === 'reported' ? 'circle' as const : 'rectRot' as const,
+                    pointRadius: 5,
+                    showLine: false,
+                  })),
               }}
-              options={{ maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { y: { beginAtZero: false, title: { display: true, text: 'USD billions' } } } }}
+              options={{ maintainAspectRatio: false, scales: {
+                x: { type: 'linear', ticks: { precision: 0, callback: value => String(value) }, title: { display: true, text: 'Source year' } },
+                y: { beginAtZero: true, title: { display: true, text: 'USD billions' } },
+              } }}
             />
           </div>
+          ) : <EmptyChart>No dated market observations or publisher forecasts found.</EmptyChart>}
+          <p className="text-xs text-slate-500 mt-3">Only published points are shown. Missing years are not interpolated.</p>
+          <EvidenceDetails rows={m.trend.map(metric => ({ label: `Market ${metric.year}`, metric }))} />
         </Card>
         <Card title="TAM / SAM / SOM">
+          {marketRows.length > 0 ? (
           <div className="h-[220px]">
             <Bar
               data={{
-                labels: ['TAM', 'SAM', 'SOM'],
-                datasets: [{ data: [m.tam_usd_b, m.sam_usd_b, m.som_usd_b], backgroundColor: ['#0284c7', '#38bdf8', '#bae6fd'], borderRadius: 6 }],
+                labels: marketRows.map(row => row.label),
+                datasets: [{ data: marketRows.map(row => row.value), backgroundColor: ['#0284c7', '#38bdf8', '#bae6fd'], borderRadius: 6 }],
               }}
-              options={{ maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { y: { type: 'logarithmic', title: { display: true, text: 'USD billions (log scale)' } } } }}
+              options={{ maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true, title: { display: true, text: 'USD billions' } } } }}
             />
           </div>
+          ) : <EmptyChart>No source-supported market sizing available.</EmptyChart>}
           <p className="text-xs text-slate-500 mt-3">{m.basis}</p>
+          <EvidenceDetails rows={marketEvidence} />
         </Card>
-        {report.projectedRevenue.length > 0 && (
-          <Card title="Projected revenue (USD millions, estimate)">
+          <Card title={`${report.revenueMetric || 'Revenue / ARR'} · dated figures & explicit forecasts`}>
+            {report.projectedRevenue.length > 0 ? (
             <div className="h-[220px]">
               <Bar
                 data={{
-                  labels: report.projectedRevenue.map(r => String(r.year)),
-                  datasets: [{ data: report.projectedRevenue.map(r => r.revenue), backgroundColor: '#10b981', borderRadius: 6 }],
+                  labels: report.projectedRevenue.map(r => [String(r.year), KIND_LABELS[r.kind].replace(' (unverified)', '')]),
+                  datasets: [{ data: report.projectedRevenue.map(r => r.revenue), backgroundColor: report.projectedRevenue.map(r => r.kind.includes('forecast') ? '#d97706' : '#10b981'), borderRadius: 6 }],
                 }}
-                options={{ maintainAspectRatio: false, plugins: { legend: { display: false } } }}
+                options={{ maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true, title: { display: true, text: `${report.revenueCurrency} millions` } } } }}
               />
             </div>
+            ) : <EmptyChart>No dated revenue or ARR figures with supporting evidence. No growth assumptions applied.</EmptyChart>}
+            {report.projectedRevenue.length > 0 && <p className="mt-3 text-xs text-slate-500">{report.revenueCurrency} millions · Company claims are unverified; forecasts are not actual results.</p>}
+            <EvidenceDetails rows={report.projectedRevenue.map(metric => ({ label: `${metric.metric} ${metric.year}`, metric }))} />
           </Card>
-        )}
       </div>
 
       <Card title="Investor report — 11 sections">
@@ -180,13 +241,14 @@ export function EvaluationReport({ report, showCompliance = true }: { report: An
       </Card>
 
       {report.sources.length > 0 && (
-        <Card title={`Sources the analyst used (${report.sources.length})`}>
+        <Card title={`Research sources (${report.sources.length})`}>
           <ul className="space-y-1.5">
             {report.sources.map(s => (
               <li key={s.url}>
                 <a href={s.url} target="_blank" rel="noopener noreferrer" className="text-sm text-[#0284c7] hover:underline inline-flex items-center gap-1.5">
                   {s.title || s.url} <ExternalLink className="w-3 h-3" />
                 </a>
+                {s.retrieved_at && <span className="block text-[10px] text-slate-400">Retrieved {new Date(s.retrieved_at).toLocaleString()}</span>}
               </li>
             ))}
           </ul>

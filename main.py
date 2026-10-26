@@ -27,6 +27,7 @@ from aura.config import (
     CHAT_MODEL, CORS_ORIGINS, DOCLING_ENABLED, EMBEDDING_MODEL, MCA_API_KEY, PORT, RAPIDAPI_KEY,
 )
 from aura.documents import chunk_text, extract_text, warm_up_docling
+from aura.evidence import EVIDENCE_VERSION
 from aura.evaluation import collection_name, document_context, run_evaluation, to_frontend
 from aura.guardrails import BLOCKED_MESSAGE, is_blocked
 from aura.llm import get_llm
@@ -386,7 +387,7 @@ async def _pdf_response(startup_id: str) -> StreamingResponse:
     entry = analysis_results.get(startup_id) or {}
     if entry.get("status") == "processing":
         raise HTTPException(status_code=409, detail="Evaluation still running — try again when it completes.")
-    if entry.get("status") != "complete":
+    if entry.get("status") != "complete" or (entry.get("result") or {}).get("evidence_version") != EVIDENCE_VERSION:
         _start_analysis(startup_id)
         try:
             await asyncio.to_thread(_evaluate_blocking, startup_id)
@@ -466,7 +467,8 @@ async def _run_chatbot(record: Dict[str, Any], msg: ChatMessage) -> ChatResponse
             f"Competition: {s['competitive_landscape'][:1500]}\n\nRisks: {s['risks_challenges'][:1500]}"
         )
     v = record.get("verification") or {}
-    system = f"""You are AURA-3's Venture Analyst, answering an investor's questions about one startup.
+    system = f"""You are FinScope AI, AURA-3's venture analyst, answering an investor's questions about one startup
+using its AI evaluation and documents.
 
 STARTUP
 Name: {record['name']} | Domain: {record['domain']} | Stage: {record.get('stage') or 'N/A'}

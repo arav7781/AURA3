@@ -1,7 +1,7 @@
 """Web and news search with layered fallbacks.
 
 Web search: DuckDuckGo text API → DuckDuckGo news API → DuckDuckGo Lite HTML page.
-If every tier fails the caller is told to rely on the model's own knowledge.
+If every tier fails the caller is told that external evidence is unavailable.
 """
 
 import logging
@@ -77,8 +77,8 @@ def web_search(query: str, max_results: int = 5) -> List[Dict[str, str]]:
 def format_results(results: List[Dict[str, str]], query: str) -> str:
     if not results:
         return (
-            f"Web search unavailable for '{query}'. Use pre-trained knowledge and say that "
-            "figures are estimates."
+            f"Web search unavailable for '{query}'. External figures are unavailable. "
+            "Do not invent numbers, cite sources that were not retrieved, or substitute model knowledge for evidence."
         )
     return "\n\n".join(
         f"[{i + 1}] {r['title']}\nURL: {r['url']}\n{r['snippet']}" for i, r in enumerate(results)
