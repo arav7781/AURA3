@@ -1,0 +1,3333 @@
+{
+ "ir": {
+  "ir_version": "1.8",
+  "doc_id": "c5f3ecb8-45fc-4c82-b87f-cb1253d060e9",
+  "content_hash": "sha256:8a392d35ddb6d45de6882fea204549814ea92d211ed90b7f7a0a7d54c98f2aba",
+  "source": {
+   "kind": "upload",
+   "filename": "krishimitra_deck.pdf",
+   "mime": "application/pdf",
+   "bytes": 16340
+  },
+  "page_count": 11,
+  "pages": [
+   {
+    "page_no": 1,
+    "width": 1754,
+    "height": 1241,
+    "dpi_estimate": 150.0,
+    "origin": "digital",
+    "prep": {
+     "applied": [],
+     "skew_deg": 0.0,
+     "crop_bbox_in_original": null,
+     "scale": 1.0
+    },
+    "quality": {
+     "blur_score": 1000.0,
+     "resolution_ok": true,
+     "is_grayscale": false,
+     "ink_ratio": null
+    },
+    "confidence": {
+     "mean_rec": 1.0,
+     "p10_rec": 1.0,
+     "text_coverage": 1.0,
+     "low_conf_area_ratio": 0.0,
+     "handwriting_ratio": 0.0
+    },
+    "blocks": [
+     {
+      "block_id": "p1_b0",
+      "type": "header",
+      "bbox": [
+       118.11022758483888,
+       69.84914143880209,
+       470.2477931976319,
+       127.4335603453186
+      ],
+      "reading_order": 0,
+      "origin": "digital",
+      "confidence": 1.0,
+      "lines": [
+       {
+        "line_id": "p1_l0",
+        "bbox": [
+         118.11022758483888,
+         69.84914143880209,
+         470.2477931976319,
+         124.01580810546876
+        ],
+        "text": "KrishiMitra AI",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "KrishiMitra AI",
+          "bbox": [
+           118.11022758483888,
+           69.84914143880209,
+           470.2477931976319,
+           124.01580810546876
+          ],
+          "confidence": 1.0
+         }
+        ]
+       }
+      ],
+      "table": null,
+      "table_failed": false,
+      "connector": null
+     },
+     {
+      "block_id": "p1_b1",
+      "type": "paragraph",
+      "bbox": [
+       118.11022758483888,
+       252.21455891927084,
+       1165.2040004730225,
+       541.6622603115146
+      ],
+      "reading_order": 1,
+      "origin": "digital",
+      "confidence": 1.0,
+      "lines": [
+       {
+        "line_id": "p1_l1",
+        "bbox": [
+         118.11022758483888,
+         252.21455891927084,
+         1165.2040004730225,
+         283.46455891927087
+        ],
+        "text": "Solar soil sensors + WhatsApp crop advisory for India's smallholder farmers",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "Solar soil sensors + WhatsApp crop advisory for India's smallholder farmers",
+          "bbox": [
+           118.11022758483888,
+           252.21455891927084,
+           1165.2040004730225,
+           283.46455891927087
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p1_l2",
+        "bbox": [
+         165.35433133443198,
+         333.15283457438153,
+         512.9960219065349,
+         360.23616790771484
+        ],
+        "text": "KrishiMitra AI Private Limited",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "KrishiMitra AI Private Limited",
+          "bbox": [
+           165.35433133443198,
+           333.15283457438153,
+           512.9960219065349,
+           360.23616790771484
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p1_l3",
+        "bbox": [
+         165.35433133443198,
+         392.2080993652344,
+         1056.5315087636313,
+         419.29143269856775
+        ],
+        "text": "CIN U62099MH2024PTC410567 \u00b7 Pune, Maharashtra \u00b7 Incorporated 2024",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "CIN U62099MH2024PTC410567 \u00b7 Pune, Maharashtra \u00b7 Incorporated 2024",
+          "bbox": [
+           165.35433133443198,
+           392.2080993652344,
+           1056.5315087636313,
+           419.29143269856775
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p1_l4",
+        "bbox": [
+         165.35433133443198,
+         451.2630462646485,
+         862.2626463572185,
+         478.3463795979818
+        ],
+        "text": "Seed round: raising Rs 12 crore at Rs 60 crore pre-money",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "Seed round: raising Rs 12 crore at Rs 60 crore pre-money",
+          "bbox": [
+           165.35433133443198,
+           451.2630462646485,
+           862.2626463572185,
+           478.3463795979818
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p1_l5",
+        "bbox": [
+         165.35433133443198,
+         510.31824747721356,
+         577.7793089548748,
+         537.4015808105469
+        ],
+        "text": "Team: Arav \u00b7 Mahi \u00b7 Kartik \u00b7 Adesh",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "Team: Arav \u00b7 Mahi \u00b7 Kartik \u00b7 Adesh",
+          "bbox": [
+           165.35433133443198,
+           510.31824747721356,
+           577.7793089548748,
+           537.4015808105469
+          ],
+          "confidence": 1.0
+         }
+        ]
+       }
+      ],
+      "table": null,
+      "table_failed": false,
+      "connector": null
+     },
+     {
+      "block_id": "p1_b2",
+      "type": "footer",
+      "bbox": [
+       118.11022758483888,
+       1162.3523235321045,
+       1635.826873779297,
+       1182.7476808754423
+      ],
+      "reading_order": 2,
+      "origin": "digital",
+      "confidence": 1.0,
+      "lines": [
+       {
+        "line_id": "p1_l6c0",
+        "bbox": [
+         118.11022758483888,
+         1162.3523235321045,
+         621.4164892832439,
+         1181.1023195584617
+        ],
+        "text": "KrishiMitra AI Private Limited  \u00b7  U62099MH2024PTC410567",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "KrishiMitra AI Private Limited  \u00b7  U62099MH2024PTC410567",
+          "bbox": [
+           118.11022758483888,
+           1162.3523235321045,
+           621.4164892832439,
+           1181.1023195584617
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p1_l6c1",
+        "bbox": [
+         1588.9143625895183,
+         1162.3523235321045,
+         1635.826873779297,
+         1181.1023195584617
+        ],
+        "text": "1 / 11",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "1 / 11",
+          "bbox": [
+           1588.9143625895183,
+           1162.3523235321045,
+           1635.826873779297,
+           1181.1023195584617
+          ],
+          "confidence": 1.0
+         }
+        ]
+       }
+      ],
+      "table": null,
+      "table_failed": false,
+      "connector": null
+     }
+    ],
+    "escalations": []
+   },
+   {
+    "page_no": 2,
+    "width": 1754,
+    "height": 1241,
+    "dpi_estimate": 150.0,
+    "origin": "digital",
+    "prep": {
+     "applied": [],
+     "skew_deg": 0.0,
+     "crop_bbox_in_original": null,
+     "scale": 1.0
+    },
+    "quality": {
+     "blur_score": 1000.0,
+     "resolution_ok": true,
+     "is_grayscale": false,
+     "ink_ratio": null
+    },
+    "confidence": {
+     "mean_rec": 1.0,
+     "p10_rec": 1.0,
+     "text_coverage": 1.0,
+     "low_conf_area_ratio": 0.0,
+     "handwriting_ratio": 0.0
+    },
+    "blocks": [
+     {
+      "block_id": "p2_b0",
+      "type": "header",
+      "bbox": [
+       118.11022758483888,
+       69.84914143880209,
+       334.8310788472494,
+       127.41297910883186
+      ],
+      "reading_order": 0,
+      "origin": "digital",
+      "confidence": 1.0,
+      "lines": [
+       {
+        "line_id": "p2_l0",
+        "bbox": [
+         118.11022758483888,
+         69.84914143880209,
+         334.8310788472494,
+         124.01580810546876
+        ],
+        "text": "Problem",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "Problem",
+          "bbox": [
+           118.11022758483888,
+           69.84914143880209,
+           334.8310788472494,
+           124.01580810546876
+          ],
+          "confidence": 1.0
+         }
+        ]
+       }
+      ],
+      "table": null,
+      "table_failed": false,
+      "connector": null
+     },
+     {
+      "block_id": "p2_b1",
+      "type": "paragraph",
+      "bbox": [
+       113.4583789112423,
+       256.3812255859375,
+       1276.022058977148,
+       599.0206870126806
+      ],
+      "reading_order": 1,
+      "origin": "digital",
+      "confidence": 1.0,
+      "lines": [
+       {
+        "line_id": "p2_l1",
+        "bbox": [
+         165.35433133443198,
+         256.3812255859375,
+         1237.8273487091064,
+         283.46455891927087
+        ],
+        "text": "146 million agricultural holdings in India; ~86% are smallholders farming under 2 hectares",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "146 million agricultural holdings in India; ~86% are smallholders farming under 2 hectares",
+          "bbox": [
+           165.35433133443198,
+           256.3812255859375,
+           1237.8273487091064,
+           283.46455891927087
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p2_l2",
+        "bbox": [
+         165.35433133443198,
+         300.67246754964196,
+         627.450164159139,
+         327.7558008829753
+        ],
+        "text": "(Source: Agriculture Census 2015-16).",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "(Source: Agriculture Census 2015-16).",
+          "bbox": [
+           165.35433133443198,
+           300.67246754964196,
+           627.450164159139,
+           327.7558008829753
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p2_l3",
+        "bbox": [
+         165.35433133443198,
+         359.72766876220703,
+         1255.160697301229,
+         386.8110020955404
+        ],
+        "text": "Smallholders lack affordable, real-time soil and irrigation data, leading to 20-30% avoidable",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "Smallholders lack affordable, real-time soil and irrigation data, leading to 20-30% avoidable",
+          "bbox": [
+           165.35433133443198,
+           359.72766876220703,
+           1255.160697301229,
+           386.8110020955404
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p2_l4",
+        "bbox": [
+         165.35433133443198,
+         404.0189107259115,
+         576.2897332509359,
+         431.1022440592448
+        ],
+        "text": "input waste on water and fertiliser.",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "input waste on water and fertiliser.",
+          "bbox": [
+           165.35433133443198,
+           404.0189107259115,
+           576.2897332509359,
+           431.1022440592448
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p2_l5",
+        "bbox": [
+         165.35433133443198,
+         463.0741119384766,
+         1264.1523202260337,
+         490.15744527180993
+        ],
+        "text": "Existing advisory apps are English/UI-heavy and priced for agri-businesses, not for a farmer",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "Existing advisory apps are English/UI-heavy and priced for agri-businesses, not for a farmer",
+          "bbox": [
+           165.35433133443198,
+           463.0741119384766,
+           1264.1523202260337,
+           490.15744527180993
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p2_l6",
+        "bbox": [
+         165.35433133443198,
+         507.365353902181,
+         600.4209995269775,
+         534.4486872355144
+        ],
+        "text": "earning Rs 8,000-12,000 per month.",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "earning Rs 8,000-12,000 per month.",
+          "bbox": [
+           165.35433133443198,
+           507.365353902181,
+           600.4209995269775,
+           534.4486872355144
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p2_l7",
+        "bbox": [
+         165.35433133443198,
+         566.4205551147461,
+         1193.437687555949,
+         593.5038884480795
+        ],
+        "text": "Language barrier: most advisory content is not available in Marathi or Hindi voice/text.",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "Language barrier: most advisory content is not available in Marathi or Hindi voice/text.",
+          "bbox": [
+           165.35433133443198,
+           566.4205551147461,
+           1193.437687555949,
+           593.5038884480795
+          ],
+          "confidence": 1.0
+         }
+        ]
+       }
+      ],
+      "table": null,
+      "table_failed": false,
+      "connector": null
+     },
+     {
+      "block_id": "p2_b2",
+      "type": "footer",
+      "bbox": [
+       118.11022758483888,
+       1162.3523235321045,
+       1635.826873779297,
+       1182.8122531734707
+      ],
+      "reading_order": 2,
+      "origin": "digital",
+      "confidence": 1.0,
+      "lines": [
+       {
+        "line_id": "p2_l8c0",
+        "bbox": [
+         118.11022758483888,
+         1162.3523235321045,
+         621.4164892832439,
+         1181.1023195584617
+        ],
+        "text": "KrishiMitra AI Private Limited  \u00b7  U62099MH2024PTC410567",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "KrishiMitra AI Private Limited  \u00b7  U62099MH2024PTC410567",
+          "bbox": [
+           118.11022758483888,
+           1162.3523235321045,
+           621.4164892832439,
+           1181.1023195584617
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p2_l8c1",
+        "bbox": [
+         1588.9143625895183,
+         1162.3523235321045,
+         1635.826873779297,
+         1181.1023195584617
+        ],
+        "text": "2 / 11",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "2 / 11",
+          "bbox": [
+           1588.9143625895183,
+           1162.3523235321045,
+           1635.826873779297,
+           1181.1023195584617
+          ],
+          "confidence": 1.0
+         }
+        ]
+       }
+      ],
+      "table": null,
+      "table_failed": false,
+      "connector": null
+     }
+    ],
+    "escalations": []
+   },
+   {
+    "page_no": 3,
+    "width": 1754,
+    "height": 1241,
+    "dpi_estimate": 150.0,
+    "origin": "digital",
+    "prep": {
+     "applied": [],
+     "skew_deg": 0.0,
+     "crop_bbox_in_original": null,
+     "scale": 1.0
+    },
+    "quality": {
+     "blur_score": 1000.0,
+     "resolution_ok": true,
+     "is_grayscale": false,
+     "ink_ratio": null
+    },
+    "confidence": {
+     "mean_rec": 1.0,
+     "p10_rec": 1.0,
+     "text_coverage": 1.0,
+     "low_conf_area_ratio": 0.0,
+     "handwriting_ratio": 0.0
+    },
+    "blocks": [
+     {
+      "block_id": "p3_b0",
+      "type": "header",
+      "bbox": [
+       118.11022758483888,
+       69.84914143880209,
+       334.7768783569336,
+       127.19452685864675
+      ],
+      "reading_order": 0,
+      "origin": "digital",
+      "confidence": 1.0,
+      "lines": [
+       {
+        "line_id": "p3_l0",
+        "bbox": [
+         118.11022758483888,
+         69.84914143880209,
+         334.7768783569336,
+         124.01580810546876
+        ],
+        "text": "Solution",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "Solution",
+          "bbox": [
+           118.11022758483888,
+           69.84914143880209,
+           334.7768783569336,
+           124.01580810546876
+          ],
+          "confidence": 1.0
+         }
+        ]
+       }
+      ],
+      "table": null,
+      "table_failed": false,
+      "connector": null
+     },
+     {
+      "block_id": "p3_b1",
+      "type": "paragraph",
+      "bbox": [
+       128.3815178559223,
+       256.3812255859375,
+       1193.383518854777,
+       467.0383656912326
+      ],
+      "reading_order": 1,
+      "origin": "digital",
+      "confidence": 1.0,
+      "lines": [
+       {
+        "line_id": "p3_l1",
+        "bbox": [
+         165.35433133443198,
+         256.3812255859375,
+         1193.383518854777,
+         283.46455891927087
+        ],
+        "text": "Rs 1,499 solar-powered soil sensor: measures moisture, temperature and NPK proxy.",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "Rs 1,499 solar-powered soil sensor: measures moisture, temperature and NPK proxy.",
+          "bbox": [
+           165.35433133443198,
+           256.3812255859375,
+           1193.383518854777,
+           283.46455891927087
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p3_l2",
+        "bbox": [
+         165.35433133443198,
+         315.4364267985026,
+         1105.335601170858,
+         342.51976013183594
+        ],
+        "text": "WhatsApp crop-advisory subscription in Marathi and Hindi (text + voice notes).",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "WhatsApp crop-advisory subscription in Marathi and Hindi (text + voice notes).",
+          "bbox": [
+           165.35433133443198,
+           315.4364267985026,
+           1105.335601170858,
+           342.51976013183594
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p3_l3",
+        "bbox": [
+         165.35433133443198,
+         374.4913736979167,
+         1098.5918521881104,
+         401.57470703125006
+        ],
+        "text": "AI advisory tuned to local crop calendars: sowing, irrigation timing, pest alerts.",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "AI advisory tuned to local crop calendars: sowing, irrigation timing, pest alerts.",
+          "bbox": [
+           165.35433133443198,
+           374.4913736979167,
+           1098.5918521881104,
+           401.57470703125006
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p3_l4",
+        "bbox": [
+         165.35433133443198,
+         433.5466384887696,
+         994.7272459665935,
+         460.6299718221029
+        ],
+        "text": "No smartphone app install required \u2014 runs entirely inside WhatsApp.",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "No smartphone app install required \u2014 runs entirely inside WhatsApp.",
+          "bbox": [
+           165.35433133443198,
+           433.5466384887696,
+           994.7272459665935,
+           460.6299718221029
+          ],
+          "confidence": 1.0
+         }
+        ]
+       }
+      ],
+      "table": null,
+      "table_failed": false,
+      "connector": null
+     },
+     {
+      "block_id": "p3_b2",
+      "type": "footer",
+      "bbox": [
+       118.11022758483888,
+       1162.3523235321045,
+       1635.826873779297,
+       1182.8486105964075
+      ],
+      "reading_order": 2,
+      "origin": "digital",
+      "confidence": 1.0,
+      "lines": [
+       {
+        "line_id": "p3_l5c0",
+        "bbox": [
+         118.11022758483888,
+         1162.3523235321045,
+         621.4164892832439,
+         1181.1023195584617
+        ],
+        "text": "KrishiMitra AI Private Limited  \u00b7  U62099MH2024PTC410567",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "KrishiMitra AI Private Limited  \u00b7  U62099MH2024PTC410567",
+          "bbox": [
+           118.11022758483888,
+           1162.3523235321045,
+           621.4164892832439,
+           1181.1023195584617
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p3_l5c1",
+        "bbox": [
+         1588.9143625895183,
+         1162.3523235321045,
+         1635.826873779297,
+         1181.1023195584617
+        ],
+        "text": "3 / 11",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "3 / 11",
+          "bbox": [
+           1588.9143625895183,
+           1162.3523235321045,
+           1635.826873779297,
+           1181.1023195584617
+          ],
+          "confidence": 1.0
+         }
+        ]
+       }
+      ],
+      "table": null,
+      "table_failed": false,
+      "connector": null
+     }
+    ],
+    "escalations": []
+   },
+   {
+    "page_no": 4,
+    "width": 1754,
+    "height": 1241,
+    "dpi_estimate": 150.0,
+    "origin": "digital",
+    "prep": {
+     "applied": [],
+     "skew_deg": 0.0,
+     "crop_bbox_in_original": null,
+     "scale": 1.0
+    },
+    "quality": {
+     "blur_score": 1000.0,
+     "resolution_ok": true,
+     "is_grayscale": false,
+     "ink_ratio": null
+    },
+    "confidence": {
+     "mean_rec": 1.0,
+     "p10_rec": 1.0,
+     "text_coverage": 1.0,
+     "low_conf_area_ratio": 0.0,
+     "handwriting_ratio": 0.0
+    },
+    "blocks": [
+     {
+      "block_id": "p4_b0",
+      "type": "header",
+      "bbox": [
+       118.11022758483888,
+       69.84914143880209,
+       1120.2477931976318,
+       136.57314423804524
+      ],
+      "reading_order": 0,
+      "origin": "digital",
+      "confidence": 1.0,
+      "lines": [
+       {
+        "line_id": "p4_l0",
+        "bbox": [
+         118.11022758483888,
+         69.84914143880209,
+         1120.2477931976318,
+         124.01580810546876
+        ],
+        "text": "Market Opportunity (TAM / SAM / SOM)",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "Market Opportunity (TAM / SAM / SOM)",
+          "bbox": [
+           118.11022758483888,
+           69.84914143880209,
+           1120.2477931976318,
+           124.01580810546876
+          ],
+          "confidence": 1.0
+         }
+        ]
+       }
+      ],
+      "table": null,
+      "table_failed": false,
+      "connector": null
+     },
+     {
+      "block_id": "p4_b1",
+      "type": "paragraph",
+      "bbox": [
+       126.39984359286584,
+       256.3812255859375,
+       1392.798153559367,
+       556.701830224031
+      ],
+      "reading_order": 1,
+      "origin": "digital",
+      "confidence": 1.0,
+      "lines": [
+       {
+        "line_id": "p4_l1",
+        "bbox": [
+         165.35433133443198,
+         256.3812255859375,
+         1356.0190041859946,
+         283.46455891927087
+        ],
+        "text": "TAM \u2014 India Agriculture IoT market: USD 82.3M in 2025, projected USD 154.8M by 2030 at 13.5%",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "TAM \u2014 India Agriculture IoT market: USD 82.3M in 2025, projected USD 154.8M by 2030 at 13.5%",
+          "bbox": [
+           165.35433133443198,
+           256.3812255859375,
+           1356.0190041859946,
+           283.46455891927087
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p4_l2",
+        "bbox": [
+         165.35433133443198,
+         300.67246754964196,
+         1100.0542799631755,
+         327.7558008829753
+        ],
+        "text": "CAGR (Source: MarketsandMarkets, India Agriculture IoT Market 2025-2030).",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "CAGR (Source: MarketsandMarkets, India Agriculture IoT Market 2025-2030).",
+          "bbox": [
+           165.35433133443198,
+           300.67246754964196,
+           1100.0542799631755,
+           327.7558008829753
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p4_l3",
+        "bbox": [
+         165.35433133443198,
+         359.72766876220703,
+         1392.798153559367,
+         386.8110020955404
+        ],
+        "text": "SAM \u2014 Marathi/Hindi smallholder segment (Maharashtra, Karnataka, MP): USD 24.7M in 2025 (~30%",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "SAM \u2014 Marathi/Hindi smallholder segment (Maharashtra, Karnataka, MP): USD 24.7M in 2025 (~30%",
+          "bbox": [
+           165.35433133443198,
+           359.72766876220703,
+           1392.798153559367,
+           386.8110020955404
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p4_l4",
+        "bbox": [
+         165.35433133443198,
+         404.0189107259115,
+         674.0876356760662,
+         431.1022440592448
+        ],
+        "text": "of India Agri-IoT TAM, company estimate).",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "of India Agri-IoT TAM, company estimate).",
+          "bbox": [
+           165.35433133443198,
+           404.0189107259115,
+           674.0876356760662,
+           431.1022440592448
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p4_l5",
+        "bbox": [
+         165.35433133443198,
+         463.0741119384766,
+         1335.6794198354087,
+         490.15744527180993
+        ],
+        "text": "SOM \u2014 3-year obtainable share of SAM: USD 3.7M in 2028 (~15% of SAM, company projection).",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "SOM \u2014 3-year obtainable share of SAM: USD 3.7M in 2028 (~15% of SAM, company projection).",
+          "bbox": [
+           165.35433133443198,
+           463.0741119384766,
+           1335.6794198354087,
+           490.15744527180993
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p4_l6",
+        "bbox": [
+         165.35433133443198,
+         522.1293131510417,
+         776.4897505442302,
+         549.212646484375
+        ],
+        "text": "India agri-IoT segment CAGR: 13.5% (2025-2030).",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "India agri-IoT segment CAGR: 13.5% (2025-2030).",
+          "bbox": [
+           165.35433133443198,
+           522.1293131510417,
+           776.4897505442302,
+           549.212646484375
+          ],
+          "confidence": 1.0
+         }
+        ]
+       }
+      ],
+      "table": null,
+      "table_failed": false,
+      "connector": null
+     },
+     {
+      "block_id": "p4_b2",
+      "type": "footer",
+      "bbox": [
+       118.11022758483888,
+       1162.3523235321045,
+       1635.826873779297,
+       1182.4066406738314
+      ],
+      "reading_order": 2,
+      "origin": "digital",
+      "confidence": 1.0,
+      "lines": [
+       {
+        "line_id": "p4_l7c0",
+        "bbox": [
+         118.11022758483888,
+         1162.3523235321045,
+         621.4164892832439,
+         1181.1023195584617
+        ],
+        "text": "KrishiMitra AI Private Limited  \u00b7  U62099MH2024PTC410567",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "KrishiMitra AI Private Limited  \u00b7  U62099MH2024PTC410567",
+          "bbox": [
+           118.11022758483888,
+           1162.3523235321045,
+           621.4164892832439,
+           1181.1023195584617
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p4_l7c1",
+        "bbox": [
+         1588.9143625895183,
+         1162.3523235321045,
+         1635.826873779297,
+         1181.1023195584617
+        ],
+        "text": "4 / 11",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "4 / 11",
+          "bbox": [
+           1588.9143625895183,
+           1162.3523235321045,
+           1635.826873779297,
+           1181.1023195584617
+          ],
+          "confidence": 1.0
+         }
+        ]
+       }
+      ],
+      "table": null,
+      "table_failed": false,
+      "connector": null
+     }
+    ],
+    "escalations": []
+   },
+   {
+    "page_no": 5,
+    "width": 1754,
+    "height": 1241,
+    "dpi_estimate": 150.0,
+    "origin": "digital",
+    "prep": {
+     "applied": [],
+     "skew_deg": 0.0,
+     "crop_bbox_in_original": null,
+     "scale": 1.0
+    },
+    "quality": {
+     "blur_score": 1000.0,
+     "resolution_ok": true,
+     "is_grayscale": false,
+     "ink_ratio": null
+    },
+    "confidence": {
+     "mean_rec": 1.0,
+     "p10_rec": 1.0,
+     "text_coverage": 1.0,
+     "low_conf_area_ratio": 0.0,
+     "handwriting_ratio": 0.0
+    },
+    "blocks": [
+     {
+      "block_id": "p5_b0",
+      "type": "header",
+      "bbox": [
+       118.11022758483888,
+       69.84914143880209,
+       530.4811000823975,
+       127.84288906592224
+      ],
+      "reading_order": 0,
+      "origin": "digital",
+      "confidence": 1.0,
+      "lines": [
+       {
+        "line_id": "p5_l0",
+        "bbox": [
+         118.11022758483888,
+         69.84914143880209,
+         530.4811000823975,
+         124.01580810546876
+        ],
+        "text": "Business Model",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "Business Model",
+          "bbox": [
+           118.11022758483888,
+           69.84914143880209,
+           530.4811000823975,
+           124.01580810546876
+          ],
+          "confidence": 1.0
+         }
+        ]
+       }
+      ],
+      "table": null,
+      "table_failed": false,
+      "connector": null
+     },
+     {
+      "block_id": "p5_b1",
+      "type": "kv",
+      "bbox": [
+       130.42822007013388,
+       256.3812255859375,
+       961.6314411163331,
+       465.360243388803
+      ],
+      "reading_order": 1,
+      "origin": "digital",
+      "confidence": 1.0,
+      "lines": [
+       {
+        "line_id": "p5_l1",
+        "bbox": [
+         165.35433133443198,
+         256.3812255859375,
+         945.029369990031,
+         283.46455891927087
+        ],
+        "text": "Hardware: Rs 1,499 one-time solar soil sensor (32% of revenue).",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "Hardware: Rs 1,499 one-time solar soil sensor (32% of revenue).",
+          "bbox": [
+           165.35433133443198,
+           256.3812255859375,
+           945.029369990031,
+           283.46455891927087
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p5_l2",
+        "bbox": [
+         165.35433133443198,
+         315.4364267985026,
+         961.6314411163331,
+         342.51976013183594
+        ],
+        "text": "Subscription: Rs 149/month WhatsApp advisory (68% of revenue).",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "Subscription: Rs 149/month WhatsApp advisory (68% of revenue).",
+          "bbox": [
+           165.35433133443198,
+           315.4364267985026,
+           961.6314411163331,
+           342.51976013183594
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p5_l3",
+        "bbox": [
+         165.35433133443198,
+         374.4913736979167,
+         555.1918506622314,
+         401.57470703125006
+        ],
+        "text": "Subscription gross margin: 78%.",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "Subscription gross margin: 78%.",
+          "bbox": [
+           165.35433133443198,
+           374.4913736979167,
+           555.1918506622314,
+           401.57470703125006
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p5_l4",
+        "bbox": [
+         165.35433133443198,
+         433.5466384887696,
+         796.0981210072836,
+         460.6299718221029
+        ],
+        "text": "Blended CAC: Rs 610 \u00b7 Payback period: 4.1 months.",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "Blended CAC: Rs 610 \u00b7 Payback period: 4.1 months.",
+          "bbox": [
+           165.35433133443198,
+           433.5466384887696,
+           796.0981210072836,
+           460.6299718221029
+          ],
+          "confidence": 1.0
+         }
+        ]
+       }
+      ],
+      "table": null,
+      "table_failed": false,
+      "connector": null
+     },
+     {
+      "block_id": "p5_b2",
+      "type": "footer",
+      "bbox": [
+       118.11022758483888,
+       1162.3523235321045,
+       1635.826873779297,
+       1182.7518468301537
+      ],
+      "reading_order": 2,
+      "origin": "digital",
+      "confidence": 1.0,
+      "lines": [
+       {
+        "line_id": "p5_l5c0",
+        "bbox": [
+         118.11022758483888,
+         1162.3523235321045,
+         621.4164892832439,
+         1181.1023195584617
+        ],
+        "text": "KrishiMitra AI Private Limited  \u00b7  U62099MH2024PTC410567",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "KrishiMitra AI Private Limited  \u00b7  U62099MH2024PTC410567",
+          "bbox": [
+           118.11022758483888,
+           1162.3523235321045,
+           621.4164892832439,
+           1181.1023195584617
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p5_l5c1",
+        "bbox": [
+         1588.9143625895183,
+         1162.3523235321045,
+         1635.826873779297,
+         1181.1023195584617
+        ],
+        "text": "5 / 11",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "5 / 11",
+          "bbox": [
+           1588.9143625895183,
+           1162.3523235321045,
+           1635.826873779297,
+           1181.1023195584617
+          ],
+          "confidence": 1.0
+         }
+        ]
+       }
+      ],
+      "table": null,
+      "table_failed": false,
+      "connector": null
+     }
+    ],
+    "escalations": []
+   },
+   {
+    "page_no": 6,
+    "width": 1754,
+    "height": 1241,
+    "dpi_estimate": 150.0,
+    "origin": "digital",
+    "prep": {
+     "applied": [],
+     "skew_deg": 0.0,
+     "crop_bbox_in_original": null,
+     "scale": 1.0
+    },
+    "quality": {
+     "blur_score": 1000.0,
+     "resolution_ok": true,
+     "is_grayscale": false,
+     "ink_ratio": null
+    },
+    "confidence": {
+     "mean_rec": 1.0,
+     "p10_rec": 1.0,
+     "text_coverage": 1.0,
+     "low_conf_area_ratio": 0.0,
+     "handwriting_ratio": 0.0
+    },
+    "blocks": [
+     {
+      "block_id": "p6_b0",
+      "type": "header",
+      "bbox": [
+       118.11022758483888,
+       69.84914143880209,
+       714.1060670216879,
+       136.54372218289518
+      ],
+      "reading_order": 0,
+      "origin": "digital",
+      "confidence": 1.0,
+      "lines": [
+       {
+        "line_id": "p6_l0",
+        "bbox": [
+         118.11022758483888,
+         69.84914143880209,
+         714.1060670216879,
+         124.01580810546876
+        ],
+        "text": "Traction (as of FY2025)",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "Traction (as of FY2025)",
+          "bbox": [
+           118.11022758483888,
+           69.84914143880209,
+           714.1060670216879,
+           124.01580810546876
+          ],
+          "confidence": 1.0
+         }
+        ]
+       }
+      ],
+      "table": null,
+      "table_failed": false,
+      "connector": null
+     },
+     {
+      "block_id": "p6_b1",
+      "type": "paragraph",
+      "bbox": [
+       130.7493870571893,
+       256.3812255859375,
+       984.1647942860922,
+       463.81287525584156
+      ],
+      "reading_order": 1,
+      "origin": "digital",
+      "confidence": 1.0,
+      "lines": [
+       {
+        "line_id": "p6_l1",
+        "bbox": [
+         165.35433133443198,
+         256.3812255859375,
+         841.1918481191,
+         283.46455891927087
+        ],
+        "text": "12,400 paying farmers across 9 districts of Maharashtra.",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "12,400 paying farmers across 9 districts of Maharashtra.",
+          "bbox": [
+           165.35433133443198,
+           256.3812255859375,
+           841.1918481191,
+           283.46455891927087
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p6_l2",
+        "bbox": [
+         165.35433133443198,
+         315.4364267985026,
+         984.1647942860922,
+         342.51976013183594
+        ],
+        "text": "ARR: Rs 3.1 crore in FY2025 (68% subscription, 32% sensor sales).",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "ARR: Rs 3.1 crore in FY2025 (68% subscription, 32% sensor sales).",
+          "bbox": [
+           165.35433133443198,
+           315.4364267985026,
+           984.1647942860922,
+           342.51976013183594
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p6_l3",
+        "bbox": [
+         165.35433133443198,
+         374.4913736979167,
+         622.9272683461508,
+         401.57470703125006
+        ],
+        "text": "Net Revenue Retention (NRR): 121%.",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "Net Revenue Retention (NRR): 121%.",
+          "bbox": [
+           165.35433133443198,
+           374.4913736979167,
+           622.9272683461508,
+           401.57470703125006
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p6_l4",
+        "bbox": [
+         165.35433133443198,
+         433.5466384887696,
+         419.74811553955084,
+         460.6299718221029
+        ],
+        "text": "Monthly churn: 2.4%.",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "Monthly churn: 2.4%.",
+          "bbox": [
+           165.35433133443198,
+           433.5466384887696,
+           419.74811553955084,
+           460.6299718221029
+          ],
+          "confidence": 1.0
+         }
+        ]
+       }
+      ],
+      "table": null,
+      "table_failed": false,
+      "connector": null
+     },
+     {
+      "block_id": "p6_b2",
+      "type": "footer",
+      "bbox": [
+       118.11022758483888,
+       1162.3523235321045,
+       1635.826873779297,
+       1182.7793042589342
+      ],
+      "reading_order": 2,
+      "origin": "digital",
+      "confidence": 1.0,
+      "lines": [
+       {
+        "line_id": "p6_l5c0",
+        "bbox": [
+         118.11022758483888,
+         1162.3523235321045,
+         621.4164892832439,
+         1181.1023195584617
+        ],
+        "text": "KrishiMitra AI Private Limited  \u00b7  U62099MH2024PTC410567",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "KrishiMitra AI Private Limited  \u00b7  U62099MH2024PTC410567",
+          "bbox": [
+           118.11022758483888,
+           1162.3523235321045,
+           621.4164892832439,
+           1181.1023195584617
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p6_l5c1",
+        "bbox": [
+         1588.9143625895183,
+         1162.3523235321045,
+         1635.826873779297,
+         1181.1023195584617
+        ],
+        "text": "6 / 11",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "6 / 11",
+          "bbox": [
+           1588.9143625895183,
+           1162.3523235321045,
+           1635.826873779297,
+           1181.1023195584617
+          ],
+          "confidence": 1.0
+         }
+        ]
+       }
+      ],
+      "table": null,
+      "table_failed": false,
+      "connector": null
+     }
+    ],
+    "escalations": []
+   },
+   {
+    "page_no": 7,
+    "width": 1754,
+    "height": 1241,
+    "dpi_estimate": 150.0,
+    "origin": "digital",
+    "prep": {
+     "applied": [],
+     "skew_deg": 0.0,
+     "crop_bbox_in_original": null,
+     "scale": 1.0
+    },
+    "quality": {
+     "blur_score": 1000.0,
+     "resolution_ok": true,
+     "is_grayscale": false,
+     "ink_ratio": null
+    },
+    "confidence": {
+     "mean_rec": 1.0,
+     "p10_rec": 1.0,
+     "text_coverage": 1.0,
+     "low_conf_area_ratio": 0.0,
+     "handwriting_ratio": 0.0
+    },
+    "blocks": [
+     {
+      "block_id": "p7_b0",
+      "type": "header",
+      "bbox": [
+       118.11022758483888,
+       69.84914143880209,
+       527.447779973348,
+       127.41512126168068
+      ],
+      "reading_order": 0,
+      "origin": "digital",
+      "confidence": 1.0,
+      "lines": [
+       {
+        "line_id": "p7_l0",
+        "bbox": [
+         118.11022758483888,
+         69.84914143880209,
+         527.447779973348,
+         124.01580810546876
+        ],
+        "text": "Unit Economics",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "Unit Economics",
+          "bbox": [
+           118.11022758483888,
+           69.84914143880209,
+           527.447779973348,
+           124.01580810546876
+          ],
+          "confidence": 1.0
+         }
+        ]
+       }
+      ],
+      "table": null,
+      "table_failed": false,
+      "connector": null
+     },
+     {
+      "block_id": "p7_b1",
+      "type": "paragraph",
+      "bbox": [
+       129.42329666724356,
+       256.3812255859375,
+       1095.8320604189616,
+       466.9364891623783
+      ],
+      "reading_order": 1,
+      "origin": "digital",
+      "confidence": 1.0,
+      "lines": [
+       {
+        "line_id": "p7_l1",
+        "bbox": [
+         165.35433133443198,
+         256.3812255859375,
+         463.3522510528565,
+         283.46455891927087
+        ],
+        "text": "CAC: Rs 610 per farmer.",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "CAC: Rs 610 per farmer.",
+          "bbox": [
+           165.35433133443198,
+           256.3812255859375,
+           463.3522510528565,
+           283.46455891927087
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p7_l2",
+        "bbox": [
+         165.35433133443198,
+         315.4364267985026,
+         425.78767140706384,
+         342.51976013183594
+        ],
+        "text": "Payback: 4.1 months.",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "Payback: 4.1 months.",
+          "bbox": [
+           165.35433133443198,
+           315.4364267985026,
+           425.78767140706384,
+           342.51976013183594
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p7_l3",
+        "bbox": [
+         165.35433133443198,
+         374.4913736979167,
+         555.1918506622314,
+         401.57470703125006
+        ],
+        "text": "Subscription gross margin: 78%.",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "Subscription gross margin: 78%.",
+          "bbox": [
+           165.35433133443198,
+           374.4913736979167,
+           555.1918506622314,
+           401.57470703125006
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p7_l4",
+        "bbox": [
+         165.35433133443198,
+         433.5466384887696,
+         1089.5188490549724,
+         460.6299718221029
+        ],
+        "text": "NRR 121% with 2.4% monthly churn implies strong expansion within cohorts.",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "NRR 121% with 2.4% monthly churn implies strong expansion within cohorts.",
+          "bbox": [
+           165.35433133443198,
+           433.5466384887696,
+           1089.5188490549724,
+           460.6299718221029
+          ],
+          "confidence": 1.0
+         }
+        ]
+       }
+      ],
+      "table": null,
+      "table_failed": false,
+      "connector": null
+     },
+     {
+      "block_id": "p7_b2",
+      "type": "footer",
+      "bbox": [
+       118.11022758483888,
+       1162.3523235321045,
+       1635.826873779297,
+       1182.5191214510423
+      ],
+      "reading_order": 2,
+      "origin": "digital",
+      "confidence": 1.0,
+      "lines": [
+       {
+        "line_id": "p7_l5c0",
+        "bbox": [
+         118.11022758483888,
+         1162.3523235321045,
+         621.4164892832439,
+         1181.1023195584617
+        ],
+        "text": "KrishiMitra AI Private Limited  \u00b7  U62099MH2024PTC410567",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "KrishiMitra AI Private Limited  \u00b7  U62099MH2024PTC410567",
+          "bbox": [
+           118.11022758483888,
+           1162.3523235321045,
+           621.4164892832439,
+           1181.1023195584617
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p7_l5c1",
+        "bbox": [
+         1588.9143625895183,
+         1162.3523235321045,
+         1635.826873779297,
+         1181.1023195584617
+        ],
+        "text": "7 / 11",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "7 / 11",
+          "bbox": [
+           1588.9143625895183,
+           1162.3523235321045,
+           1635.826873779297,
+           1181.1023195584617
+          ],
+          "confidence": 1.0
+         }
+        ]
+       }
+      ],
+      "table": null,
+      "table_failed": false,
+      "connector": null
+     }
+    ],
+    "escalations": []
+   },
+   {
+    "page_no": 8,
+    "width": 1754,
+    "height": 1241,
+    "dpi_estimate": 150.0,
+    "origin": "digital",
+    "prep": {
+     "applied": [],
+     "skew_deg": 0.0,
+     "crop_bbox_in_original": null,
+     "scale": 1.0
+    },
+    "quality": {
+     "blur_score": 1000.0,
+     "resolution_ok": true,
+     "is_grayscale": false,
+     "ink_ratio": null
+    },
+    "confidence": {
+     "mean_rec": 1.0,
+     "p10_rec": 1.0,
+     "text_coverage": 1.0,
+     "low_conf_area_ratio": 0.0,
+     "handwriting_ratio": 0.0
+    },
+    "blocks": [
+     {
+      "block_id": "p8_b0",
+      "type": "header",
+      "bbox": [
+       118.11022758483888,
+       69.84914143880209,
+       726.7832838671699,
+       135.98738970242863
+      ],
+      "reading_order": 0,
+      "origin": "digital",
+      "confidence": 1.0,
+      "lines": [
+       {
+        "line_id": "p8_l0",
+        "bbox": [
+         118.11022758483888,
+         69.84914143880209,
+         726.1310736338298,
+         124.01580810546876
+        ],
+        "text": "Competitive Landscape",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "Competitive Landscape",
+          "bbox": [
+           118.11022758483888,
+           69.84914143880209,
+           726.1310736338298,
+           124.01580810546876
+          ],
+          "confidence": 1.0
+         }
+        ]
+       }
+      ],
+      "table": null,
+      "table_failed": false,
+      "connector": null
+     },
+     {
+      "block_id": "p8_b1",
+      "type": "paragraph",
+      "bbox": [
+       130.17998255207576,
+       256.3812255859375,
+       1283.8447817388824,
+       510.749976884573
+      ],
+      "reading_order": 1,
+      "origin": "digital",
+      "confidence": 1.0,
+      "lines": [
+       {
+        "line_id": "p8_l1",
+        "bbox": [
+         165.35433133443198,
+         256.3812255859375,
+         924.6627012888591,
+         283.46455891927087
+        ],
+        "text": "Fasal \u2014 IoT sensors + AI for horticulture (B2B/premium farms).",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "Fasal \u2014 IoT sensors + AI for horticulture (B2B/premium farms).",
+          "bbox": [
+           165.35433133443198,
+           256.3812255859375,
+           924.6627012888591,
+           283.46455891927087
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p8_l2",
+        "bbox": [
+         165.35433133443198,
+         315.4364267985026,
+         1038.385566075643,
+         342.51976013183594
+        ],
+        "text": "Cropin \u2014 agritech SaaS, Rs 38.5 crore revenue FY25 (enterprise focus).",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "Cropin \u2014 agritech SaaS, Rs 38.5 crore revenue FY25 (enterprise focus).",
+          "bbox": [
+           165.35433133443198,
+           315.4364267985026,
+           1038.385566075643,
+           342.51976013183594
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p8_l3",
+        "bbox": [
+         165.35433133443198,
+         374.4913736979167,
+         983.3794116973878,
+         401.57470703125006
+        ],
+        "text": "DeHaat \u2014 full-stack agri platform (~USD 800M valuation reference).",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "DeHaat \u2014 full-stack agri platform (~USD 800M valuation reference).",
+          "bbox": [
+           165.35433133443198,
+           374.4913736979167,
+           983.3794116973878,
+           401.57470703125006
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p8_l4",
+        "bbox": [
+         165.35433133443198,
+         433.5466384887696,
+         1271.6815153757732,
+         460.6299718221029
+        ],
+        "text": "BharatAgri \u2014 B2C farm advisory, shut down 2025 amid funding crunch: our moat is low-cost",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "BharatAgri \u2014 B2C farm advisory, shut down 2025 amid funding crunch: our moat is low-cost",
+          "bbox": [
+           165.35433133443198,
+           433.5466384887696,
+           1271.6815153757732,
+           460.6299718221029
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p8_l5",
+        "bbox": [
+         165.35433133443198,
+         477.837880452474,
+         799.7814655303955,
+         504.9212137858073
+        ],
+        "text": "hardware lock-in + vernacular WhatsApp distribution.",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "hardware lock-in + vernacular WhatsApp distribution.",
+          "bbox": [
+           165.35433133443198,
+           477.837880452474,
+           799.7814655303955,
+           504.9212137858073
+          ],
+          "confidence": 1.0
+         }
+        ]
+       }
+      ],
+      "table": null,
+      "table_failed": false,
+      "connector": null
+     },
+     {
+      "block_id": "p8_b2",
+      "type": "footer",
+      "bbox": [
+       118.11022758483888,
+       1162.3523235321045,
+       1635.826873779297,
+       1182.841604218029
+      ],
+      "reading_order": 2,
+      "origin": "digital",
+      "confidence": 1.0,
+      "lines": [
+       {
+        "line_id": "p8_l6c0",
+        "bbox": [
+         118.11022758483888,
+         1162.3523235321045,
+         621.4164892832439,
+         1181.1023195584617
+        ],
+        "text": "KrishiMitra AI Private Limited  \u00b7  U62099MH2024PTC410567",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "KrishiMitra AI Private Limited  \u00b7  U62099MH2024PTC410567",
+          "bbox": [
+           118.11022758483888,
+           1162.3523235321045,
+           621.4164892832439,
+           1181.1023195584617
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p8_l6c1",
+        "bbox": [
+         1588.9143625895183,
+         1162.3523235321045,
+         1635.826873779297,
+         1181.1023195584617
+        ],
+        "text": "8 / 11",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "8 / 11",
+          "bbox": [
+           1588.9143625895183,
+           1162.3523235321045,
+           1635.826873779297,
+           1181.1023195584617
+          ],
+          "confidence": 1.0
+         }
+        ]
+       }
+      ],
+      "table": null,
+      "table_failed": false,
+      "connector": null
+     }
+    ],
+    "escalations": []
+   },
+   {
+    "page_no": 9,
+    "width": 1754,
+    "height": 1241,
+    "dpi_estimate": 150.0,
+    "origin": "digital",
+    "prep": {
+     "applied": [],
+     "skew_deg": 0.0,
+     "crop_bbox_in_original": null,
+     "scale": 1.0
+    },
+    "quality": {
+     "blur_score": 1000.0,
+     "resolution_ok": true,
+     "is_grayscale": false,
+     "ink_ratio": null
+    },
+    "confidence": {
+     "mean_rec": 1.0,
+     "p10_rec": 1.0,
+     "text_coverage": 1.0,
+     "low_conf_area_ratio": 0.0,
+     "handwriting_ratio": 0.0
+    },
+    "blocks": [
+     {
+      "block_id": "p9_b0",
+      "type": "header",
+      "bbox": [
+       118.11022758483888,
+       69.84914143880209,
+       798.2810497283936,
+       135.82328422507103
+      ],
+      "reading_order": 0,
+      "origin": "digital",
+      "confidence": 1.0,
+      "lines": [
+       {
+        "line_id": "p9_l0",
+        "bbox": [
+         118.11022758483888,
+         69.84914143880209,
+         798.2810497283936,
+         124.01580810546876
+        ],
+        "text": "Go-to-Market & Expansion",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "Go-to-Market & Expansion",
+          "bbox": [
+           118.11022758483888,
+           69.84914143880209,
+           798.2810497283936,
+           124.01580810546876
+          ],
+          "confidence": 1.0
+         }
+        ]
+       }
+      ],
+      "table": null,
+      "table_failed": false,
+      "connector": null
+     },
+     {
+      "block_id": "p9_b1",
+      "type": "paragraph",
+      "bbox": [
+       128.9254900382876,
+       256.3812255859375,
+       1331.8585419900967,
+       465.03340530552674
+      ],
+      "reading_order": 1,
+      "origin": "digital",
+      "confidence": 1.0,
+      "lines": [
+       {
+        "line_id": "p9_l1",
+        "bbox": [
+         165.35433133443198,
+         256.3812255859375,
+         1060.864814122518,
+         283.46455891927087
+        ],
+        "text": "Proven in 9 Maharashtra districts via village-level agri-retailer partnerships.",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "Proven in 9 Maharashtra districts via village-level agri-retailer partnerships.",
+          "bbox": [
+           165.35433133443198,
+           256.3812255859375,
+           1060.864814122518,
+           283.46455891927087
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p9_l2",
+        "bbox": [
+         165.35433133443198,
+         315.4364267985026,
+         973.7918694814047,
+         342.51976013183594
+        ],
+        "text": "Seed capital funds expansion into Karnataka and Madhya Pradesh.",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "Seed capital funds expansion into Karnataka and Madhya Pradesh.",
+          "bbox": [
+           165.35433133443198,
+           315.4364267985026,
+           973.7918694814047,
+           342.51976013183594
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p9_l3",
+        "bbox": [
+         165.35433133443198,
+         374.4913736979167,
+         1316.7210102081299,
+         401.57470703125006
+        ],
+        "text": "Channel: agri-input dealers, FPOs (Farmer Producer Organisations), NABARD-linked programs.",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "Channel: agri-input dealers, FPOs (Farmer Producer Organisations), NABARD-linked programs.",
+          "bbox": [
+           165.35433133443198,
+           374.4913736979167,
+           1316.7210102081299,
+           401.57470703125006
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p9_l4",
+        "bbox": [
+         165.35433133443198,
+         433.5466384887696,
+         936.0647678375245,
+         460.6299718221029
+        ],
+        "text": "Target: 40,000 paying farmers across 3 states within 24 months.",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "Target: 40,000 paying farmers across 3 states within 24 months.",
+          "bbox": [
+           165.35433133443198,
+           433.5466384887696,
+           936.0647678375245,
+           460.6299718221029
+          ],
+          "confidence": 1.0
+         }
+        ]
+       }
+      ],
+      "table": null,
+      "table_failed": false,
+      "connector": null
+     },
+     {
+      "block_id": "p9_b2",
+      "type": "footer",
+      "bbox": [
+       118.11022758483888,
+       1162.3523235321045,
+       1635.826873779297,
+       1182.781481917079
+      ],
+      "reading_order": 2,
+      "origin": "digital",
+      "confidence": 1.0,
+      "lines": [
+       {
+        "line_id": "p9_l5c0",
+        "bbox": [
+         118.11022758483888,
+         1162.3523235321045,
+         621.4164892832439,
+         1181.1023195584617
+        ],
+        "text": "KrishiMitra AI Private Limited  \u00b7  U62099MH2024PTC410567",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "KrishiMitra AI Private Limited  \u00b7  U62099MH2024PTC410567",
+          "bbox": [
+           118.11022758483888,
+           1162.3523235321045,
+           621.4164892832439,
+           1181.1023195584617
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p9_l5c1",
+        "bbox": [
+         1588.9143625895183,
+         1162.3523235321045,
+         1635.826873779297,
+         1181.1023195584617
+        ],
+        "text": "9 / 11",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "9 / 11",
+          "bbox": [
+           1588.9143625895183,
+           1162.3523235321045,
+           1635.826873779297,
+           1181.1023195584617
+          ],
+          "confidence": 1.0
+         }
+        ]
+       }
+      ],
+      "table": null,
+      "table_failed": false,
+      "connector": null
+     }
+    ],
+    "escalations": []
+   },
+   {
+    "page_no": 10,
+    "width": 1754,
+    "height": 1241,
+    "dpi_estimate": 150.0,
+    "origin": "digital",
+    "prep": {
+     "applied": [],
+     "skew_deg": 0.0,
+     "crop_bbox_in_original": null,
+     "scale": 1.0
+    },
+    "quality": {
+     "blur_score": 1000.0,
+     "resolution_ok": true,
+     "is_grayscale": false,
+     "ink_ratio": null
+    },
+    "confidence": {
+     "mean_rec": 1.0,
+     "p10_rec": 1.0,
+     "text_coverage": 1.0,
+     "low_conf_area_ratio": 0.0,
+     "handwriting_ratio": 0.0
+    },
+    "blocks": [
+     {
+      "block_id": "p10_b0",
+      "type": "header",
+      "bbox": [
+       118.11022758483888,
+       69.84914143880209,
+       259.5935662587484,
+       126.05956457192818
+      ],
+      "reading_order": 0,
+      "origin": "digital",
+      "confidence": 1.0,
+      "lines": [
+       {
+        "line_id": "p10_l0",
+        "bbox": [
+         118.11022758483888,
+         69.84914143880209,
+         259.5935662587484,
+         124.01580810546876
+        ],
+        "text": "Team",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "Team",
+          "bbox": [
+           118.11022758483888,
+           69.84914143880209,
+           259.5935662587484,
+           124.01580810546876
+          ],
+          "confidence": 1.0
+         }
+        ]
+       }
+      ],
+      "table": null,
+      "table_failed": false,
+      "connector": null
+     },
+     {
+      "block_id": "p10_b1",
+      "type": "paragraph",
+      "bbox": [
+       128.21196536930077,
+       256.3812255859375,
+       808.5141193290485,
+       466.78135468976876
+      ],
+      "reading_order": 1,
+      "origin": "digital",
+      "confidence": 1.0,
+      "lines": [
+       {
+        "line_id": "p10_l1",
+        "bbox": [
+         165.35433133443198,
+         256.3812255859375,
+         583.7918440500896,
+         283.46455891927087
+        ],
+        "text": "Arav \u2014 Co-founder (Product & AI).",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "Arav \u2014 Co-founder (Product & AI).",
+          "bbox": [
+           165.35433133443198,
+           256.3812255859375,
+           583.7918440500896,
+           283.46455891927087
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p10_l2",
+        "bbox": [
+         165.35433133443198,
+         315.4364267985026,
+         802.0023187001547,
+         342.51976013183594
+        ],
+        "text": "Mahi \u2014 Co-founder (Field Operations & Distribution).",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "Mahi \u2014 Co-founder (Field Operations & Distribution).",
+          "bbox": [
+           165.35433133443198,
+           315.4364267985026,
+           802.0023187001547,
+           342.51976013183594
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p10_l3",
+        "bbox": [
+         165.35433133443198,
+         374.4913736979167,
+         756.8543593088787,
+         401.57470703125006
+        ],
+        "text": "Kartik \u2014 Co-founder (Hardware & Supply Chain).",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "Kartik \u2014 Co-founder (Hardware & Supply Chain).",
+          "bbox": [
+           165.35433133443198,
+           374.4913736979167,
+           756.8543593088787,
+           401.57470703125006
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p10_l4",
+        "bbox": [
+         165.35433133443198,
+         433.5466384887696,
+         725.2752145131429,
+         460.6299718221029
+        ],
+        "text": "Adesh \u2014 Co-founder (Growth & Partnerships).",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "Adesh \u2014 Co-founder (Growth & Partnerships).",
+          "bbox": [
+           165.35433133443198,
+           433.5466384887696,
+           725.2752145131429,
+           460.6299718221029
+          ],
+          "confidence": 1.0
+         }
+        ]
+       }
+      ],
+      "table": null,
+      "table_failed": false,
+      "connector": null
+     },
+     {
+      "block_id": "p10_b2",
+      "type": "footer",
+      "bbox": [
+       118.11022758483888,
+       1162.3523235321045,
+       1635.826873779297,
+       1182.9340126679938
+      ],
+      "reading_order": 2,
+      "origin": "digital",
+      "confidence": 1.0,
+      "lines": [
+       {
+        "line_id": "p10_l5c0",
+        "bbox": [
+         118.11022758483888,
+         1162.3523235321045,
+         621.4164892832439,
+         1181.1023195584617
+        ],
+        "text": "KrishiMitra AI Private Limited  \u00b7  U62099MH2024PTC410567",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "KrishiMitra AI Private Limited  \u00b7  U62099MH2024PTC410567",
+          "bbox": [
+           118.11022758483888,
+           1162.3523235321045,
+           621.4164892832439,
+           1181.1023195584617
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p10_l5c1",
+        "bbox": [
+         1578.4894307454429,
+         1162.3523235321045,
+         1635.826873779297,
+         1181.1023195584617
+        ],
+        "text": "10 / 11",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "10 / 11",
+          "bbox": [
+           1578.4894307454429,
+           1162.3523235321045,
+           1635.826873779297,
+           1181.1023195584617
+          ],
+          "confidence": 1.0
+         }
+        ]
+       }
+      ],
+      "table": null,
+      "table_failed": false,
+      "connector": null
+     }
+    ],
+    "escalations": []
+   },
+   {
+    "page_no": 11,
+    "width": 1754,
+    "height": 1241,
+    "dpi_estimate": 150.0,
+    "origin": "digital",
+    "prep": {
+     "applied": [],
+     "skew_deg": 0.0,
+     "crop_bbox_in_original": null,
+     "scale": 1.0
+    },
+    "quality": {
+     "blur_score": 1000.0,
+     "resolution_ok": true,
+     "is_grayscale": false,
+     "ink_ratio": null
+    },
+    "confidence": {
+     "mean_rec": 1.0,
+     "p10_rec": 1.0,
+     "text_coverage": 1.0,
+     "low_conf_area_ratio": 0.0,
+     "handwriting_ratio": 0.0
+    },
+    "blocks": [
+     {
+      "block_id": "p11_b0",
+      "type": "header",
+      "bbox": [
+       118.11022758483888,
+       69.84914143880209,
+       330.21961738543706,
+       126.83083427829199
+      ],
+      "reading_order": 0,
+      "origin": "digital",
+      "confidence": 1.0,
+      "lines": [
+       {
+        "line_id": "p11_l0",
+        "bbox": [
+         118.11022758483888,
+         69.84914143880209,
+         328.8185755411784,
+         124.01580810546876
+        ],
+        "text": "The Ask",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "The Ask",
+          "bbox": [
+           118.11022758483888,
+           69.84914143880209,
+           328.8185755411784,
+           124.01580810546876
+          ],
+          "confidence": 1.0
+         }
+        ]
+       }
+      ],
+      "table": null,
+      "table_failed": false,
+      "connector": null
+     },
+     {
+      "block_id": "p11_b1",
+      "type": "paragraph",
+      "bbox": [
+       128.0156269572923,
+       256.3812255859375,
+       1343.3122653129954,
+       465.67695062766705
+      ],
+      "reading_order": 1,
+      "origin": "digital",
+      "confidence": 1.0,
+      "lines": [
+       {
+        "line_id": "p11_l1",
+        "bbox": [
+         165.35433133443198,
+         256.3812255859375,
+         1015.7439390818279,
+         283.46455891927087
+        ],
+        "text": "Raising Rs 12 crore seed at Rs 60 crore pre-money (Rs 72 crore post).",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "Raising Rs 12 crore seed at Rs 60 crore pre-money (Rs 72 crore post).",
+          "bbox": [
+           165.35433133443198,
+           256.3812255859375,
+           1015.7439390818279,
+           283.46455891927087
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p11_l2",
+        "bbox": [
+         165.35433133443198,
+         315.4364267985026,
+         750.0835259755453,
+         342.51976013183594
+        ],
+        "text": "Implied ~19x ARR multiple on Rs 3.1 crore ARR.",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "Implied ~19x ARR multiple on Rs 3.1 crore ARR.",
+          "bbox": [
+           165.35433133443198,
+           315.4364267985026,
+           750.0835259755453,
+           342.51976013183594
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p11_l3",
+        "bbox": [
+         165.35433133443198,
+         374.4913736979167,
+         1335.0023110707602,
+         401.57470703125006
+        ],
+        "text": "Use of funds: 45% distribution/expansion, 30% product & AI, 15% hardware, 10% working capital.",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "Use of funds: 45% distribution/expansion, 30% product & AI, 15% hardware, 10% working capital.",
+          "bbox": [
+           165.35433133443198,
+           374.4913736979167,
+           1335.0023110707602,
+           401.57470703125006
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p11_l4",
+        "bbox": [
+         165.35433133443198,
+         433.5466384887696,
+         1048.9209969838462,
+         460.6299718221029
+        ],
+        "text": "Milestone: 40,000 paying farmers and Rs 10 crore ARR within 24 months.",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "Milestone: 40,000 paying farmers and Rs 10 crore ARR within 24 months.",
+          "bbox": [
+           165.35433133443198,
+           433.5466384887696,
+           1048.9209969838462,
+           460.6299718221029
+          ],
+          "confidence": 1.0
+         }
+        ]
+       }
+      ],
+      "table": null,
+      "table_failed": false,
+      "connector": null
+     },
+     {
+      "block_id": "p11_b2",
+      "type": "footer",
+      "bbox": [
+       118.11022758483888,
+       1162.3523235321045,
+       1635.826873779297,
+       1182.6557458294221
+      ],
+      "reading_order": 2,
+      "origin": "digital",
+      "confidence": 1.0,
+      "lines": [
+       {
+        "line_id": "p11_l5c0",
+        "bbox": [
+         118.11022758483888,
+         1162.3523235321045,
+         621.4164892832439,
+         1181.1023195584617
+        ],
+        "text": "KrishiMitra AI Private Limited  \u00b7  U62099MH2024PTC410567",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "KrishiMitra AI Private Limited  \u00b7  U62099MH2024PTC410567",
+          "bbox": [
+           118.11022758483888,
+           1162.3523235321045,
+           621.4164892832439,
+           1181.1023195584617
+          ],
+          "confidence": 1.0
+         }
+        ]
+       },
+       {
+        "line_id": "p11_l5c1",
+        "bbox": [
+         1578.4894307454429,
+         1162.3523235321045,
+         1635.826873779297,
+         1181.1023195584617
+        ],
+        "text": "11 / 11",
+        "confidence": 1.0,
+        "origin": "digital",
+        "is_handwritten": false,
+        "spans": [
+         {
+          "text": "11 / 11",
+          "bbox": [
+           1578.4894307454429,
+           1162.3523235321045,
+           1635.826873779297,
+           1181.1023195584617
+          ],
+          "confidence": 1.0
+         }
+        ]
+       }
+      ],
+      "table": null,
+      "table_failed": false,
+      "connector": null
+     }
+    ],
+    "escalations": []
+   }
+  ],
+  "provenance": [
+   {
+    "stage": "ingest",
+    "engine": "builtin",
+    "version": "1",
+    "ms": 7.616916002007201,
+    "cost_inr": 0.0
+   },
+   {
+    "stage": "classify",
+    "engine": "pdfinspector",
+    "version": "1.25.2",
+    "ms": 13.11391600756906,
+    "cost_inr": 0.0
+   },
+   {
+    "stage": "raster",
+    "engine": "pdfium",
+    "version": "5.14.0",
+    "ms": 262.20320802531205,
+    "cost_inr": 0.0
+   },
+   {
+    "stage": "extract",
+    "engine": "pdfinspector",
+    "version": "1.25.2",
+    "ms": 8.773374982411042,
+    "cost_inr": 0.0
+   },
+   {
+    "stage": "layout",
+    "engine": "rapid-layout",
+    "version": "rapid-layout-1.2.1+layout_cdla",
+    "ms": 287.2787500091363,
+    "cost_inr": 0.0
+   },
+   {
+    "stage": "triage",
+    "engine": "confidence-v1",
+    "version": "1.0",
+    "ms": 0.05570900975726545,
+    "cost_inr": 0.0
+   },
+   {
+    "stage": "layout",
+    "engine": "rapid-layout",
+    "version": "rapid-layout-1.2.1+layout_cdla",
+    "ms": 286.6932080069091,
+    "cost_inr": 0.0
+   },
+   {
+    "stage": "triage",
+    "engine": "confidence-v1",
+    "version": "1.0",
+    "ms": 0.03304099664092064,
+    "cost_inr": 0.0
+   },
+   {
+    "stage": "layout",
+    "engine": "rapid-layout",
+    "version": "rapid-layout-1.2.1+layout_cdla",
+    "ms": 282.268250011839,
+    "cost_inr": 0.0
+   },
+   {
+    "stage": "triage",
+    "engine": "confidence-v1",
+    "version": "1.0",
+    "ms": 0.025542016373947263,
+    "cost_inr": 0.0
+   },
+   {
+    "stage": "layout",
+    "engine": "rapid-layout",
+    "version": "rapid-layout-1.2.1+layout_cdla",
+    "ms": 281.9807500054594,
+    "cost_inr": 0.0
+   },
+   {
+    "stage": "triage",
+    "engine": "confidence-v1",
+    "version": "1.0",
+    "ms": 0.028790993383154273,
+    "cost_inr": 0.0
+   },
+   {
+    "stage": "layout",
+    "engine": "rapid-layout",
+    "version": "rapid-layout-1.2.1+layout_cdla",
+    "ms": 260.5727080081124,
+    "cost_inr": 0.0
+   },
+   {
+    "stage": "triage",
+    "engine": "confidence-v1",
+    "version": "1.0",
+    "ms": 0.020500010577961802,
+    "cost_inr": 0.0
+   },
+   {
+    "stage": "layout",
+    "engine": "rapid-layout",
+    "version": "rapid-layout-1.2.1+layout_cdla",
+    "ms": 263.0402079958003,
+    "cost_inr": 0.0
+   },
+   {
+    "stage": "triage",
+    "engine": "confidence-v1",
+    "version": "1.0",
+    "ms": 0.018584018107503653,
+    "cost_inr": 0.0
+   },
+   {
+    "stage": "layout",
+    "engine": "rapid-layout",
+    "version": "rapid-layout-1.2.1+layout_cdla",
+    "ms": 253.6109590146225,
+    "cost_inr": 0.0
+   },
+   {
+    "stage": "triage",
+    "engine": "confidence-v1",
+    "version": "1.0",
+    "ms": 0.019708008039742708,
+    "cost_inr": 0.0
+   },
+   {
+    "stage": "layout",
+    "engine": "rapid-layout",
+    "version": "rapid-layout-1.2.1+layout_cdla",
+    "ms": 252.5438329903409,
+    "cost_inr": 0.0
+   },
+   {
+    "stage": "triage",
+    "engine": "confidence-v1",
+    "version": "1.0",
+    "ms": 0.025666988221928477,
+    "cost_inr": 0.0
+   },
+   {
+    "stage": "layout",
+    "engine": "rapid-layout",
+    "version": "rapid-layout-1.2.1+layout_cdla",
+    "ms": 362.71983399637975,
+    "cost_inr": 0.0
+   },
+   {
+    "stage": "triage",
+    "engine": "confidence-v1",
+    "version": "1.0",
+    "ms": 0.024957989808171988,
+    "cost_inr": 0.0
+   },
+   {
+    "stage": "layout",
+    "engine": "rapid-layout",
+    "version": "rapid-layout-1.2.1+layout_cdla",
+    "ms": 371.5402079978958,
+    "cost_inr": 0.0
+   },
+   {
+    "stage": "triage",
+    "engine": "confidence-v1",
+    "version": "1.0",
+    "ms": 0.01750001683831215,
+    "cost_inr": 0.0
+   },
+   {
+    "stage": "layout",
+    "engine": "rapid-layout",
+    "version": "rapid-layout-1.2.1+layout_cdla",
+    "ms": 261.9462499860674,
+    "cost_inr": 0.0
+   },
+   {
+    "stage": "triage",
+    "engine": "confidence-v1",
+    "version": "1.0",
+    "ms": 0.020666979253292084,
+    "cost_inr": 0.0
+   },
+   {
+    "stage": "rules",
+    "engine": "page-rules",
+    "version": "1.2.1",
+    "ms": 1170.6702510127798,
+    "cost_inr": 0.0
+   }
+  ],
+  "totals": {
+   "ms": 4626.863291079644,
+   "cost_inr": 0.0,
+   "escalated_pages": 0,
+   "escalated_regions": 0
+  }
+ },
+ "pages": [
+  {
+   "page_no": 1,
+   "status": "done",
+   "route": "digital",
+   "triage": "accept",
+   "trigger": "digital_exact",
+   "review_required": false,
+   "reason": null
+  },
+  {
+   "page_no": 2,
+   "status": "done",
+   "route": "digital",
+   "triage": "accept",
+   "trigger": "digital_exact",
+   "review_required": false,
+   "reason": null
+  },
+  {
+   "page_no": 3,
+   "status": "done",
+   "route": "digital",
+   "triage": "accept",
+   "trigger": "digital_exact",
+   "review_required": false,
+   "reason": null
+  },
+  {
+   "page_no": 4,
+   "status": "done",
+   "route": "digital",
+   "triage": "accept",
+   "trigger": "digital_exact",
+   "review_required": false,
+   "reason": null
+  },
+  {
+   "page_no": 5,
+   "status": "done",
+   "route": "digital",
+   "triage": "accept",
+   "trigger": "digital_exact",
+   "review_required": false,
+   "reason": null
+  },
+  {
+   "page_no": 6,
+   "status": "done",
+   "route": "digital",
+   "triage": "accept",
+   "trigger": "digital_exact",
+   "review_required": false,
+   "reason": null
+  },
+  {
+   "page_no": 7,
+   "status": "done",
+   "route": "digital",
+   "triage": "accept",
+   "trigger": "digital_exact",
+   "review_required": false,
+   "reason": null
+  },
+  {
+   "page_no": 8,
+   "status": "done",
+   "route": "digital",
+   "triage": "accept",
+   "trigger": "digital_exact",
+   "review_required": false,
+   "reason": null
+  },
+  {
+   "page_no": 9,
+   "status": "done",
+   "route": "digital",
+   "triage": "accept",
+   "trigger": "digital_exact",
+   "review_required": false,
+   "reason": null
+  },
+  {
+   "page_no": 10,
+   "status": "done",
+   "route": "digital",
+   "triage": "accept",
+   "trigger": "digital_exact",
+   "review_required": false,
+   "reason": null
+  },
+  {
+   "page_no": 11,
+   "status": "done",
+   "route": "digital",
+   "triage": "accept",
+   "trigger": "digital_exact",
+   "review_required": false,
+   "reason": null
+  }
+ ],
+ "versions": {
+  "titanocr": "0.2.0",
+  "pipeline": "default",
+  "engine": "0.2.0",
+  "ir": "1.8"
+ }
+}

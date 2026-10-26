@@ -55,7 +55,7 @@ class DenseEmbedder:
         settings = get_settings()
         self.model = model or settings.embed_model
         self.dims = dims or settings.embed_dims
-        self._cache = _cache_for(settings.data_dir)
+        self._cache = _cache_for(settings.cache_path)
 
     def _key(self, text: str) -> str:
         return hashlib.sha256(f"{self.model}|{self.dims}|{text}".encode()).hexdigest()
@@ -116,5 +116,5 @@ _caches_lock = threading.Lock()
 def _cache_for(data_dir: Path) -> EmbeddingCache:
     with _caches_lock:
         if data_dir not in _caches:
-            _caches[data_dir] = EmbeddingCache(data_dir / "cache" / "embeddings.sqlite")
+            _caches[data_dir] = EmbeddingCache(data_dir / "embeddings.sqlite")
         return _caches[data_dir]

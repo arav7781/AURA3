@@ -1,17 +1,50 @@
-"""Shared fixtures: every test that touches the database gets its own temporary data directory."""
+"""Shared fixtures.
 
+Every test that touches the database gets its own data directory (under $HOME, because Colima can only
+mount paths there into sandbox containers) and its own throwaway Qdrant collection prefix. The embedding
+cache and local retrieval models are shared with the dev environment (content-addressed, safe to share).
+"""
+
+import shutil
 import uuid
 from collections.abc import Iterator
 from datetime import timedelta
+from pathlib import Path
 
 import pytest
 
-from aura.core.config import Settings
+from aura.core.config import BACKEND_DIR, Settings
+
+TEST_ROOT = Path.home() / ".cache" / "aura-tests"
+
+
+def _drop_qdrant_collections(prefix: str) -> None:
+    try:
+        from qdrant_client import QdrantClient
+
+        from aura.core.config import get_settings
+
+        settings = get_settings()
+        key = settings.qdrant_api_key.get_secret_value() if settings.qdrant_api_key else None
+        with QdrantClient(url=settings.qdrant_url, api_key=key, timeout=5) as qc:
+            for alias in qc.get_aliases().aliases:
+                if alias.alias_name.startswith(prefix + "_"):
+                    qc.delete_alias(alias.alias_name)
+            for collection in qc.get_collections().collections:
+                if collection.name.startswith(prefix + "_"):
+                    qc.delete_collection(collection.name)
+    except Exception:  # Qdrant not running: nothing was created
+        pass
 
 
 @pytest.fixture
-def app_env(tmp_path, monkeypatch) -> Iterator[Settings]:
-    monkeypatch.setenv("DATA_DIR", str(tmp_path / "data"))
+def app_env(monkeypatch) -> Iterator[Settings]:
+    data_dir = TEST_ROOT / uuid.uuid4().hex
+    prefix = "t" + uuid.uuid4().hex[:10]
+    monkeypatch.setenv("DATA_DIR", str(data_dir))
+    monkeypatch.setenv("CACHE_DIR", str(BACKEND_DIR / "data" / "cache"))
+    monkeypatch.setenv("QDRANT_PREFIX", prefix)
+    monkeypatch.setenv("OCR_AUTOSTART", "false")
     monkeypatch.setenv("SESSION_SECRET", "test-secret-" + "x" * 40)
     monkeypatch.setenv("APP_ENV", "test")
     monkeypatch.setenv("DEMO_MODE", "true")
@@ -29,7 +62,9 @@ def app_env(tmp_path, monkeypatch) -> Iterator[Settings]:
         db.dispose_engines()
         clock.unfreeze()
         clock.set_offset(timedelta(0))
+        _drop_qdrant_collections(prefix)
         get_settings.cache_clear()
+        shutil.rmtree(data_dir, ignore_errors=True)
 
 
 @pytest.fixture

@@ -43,6 +43,7 @@ class Settings(BaseSettings):
     data_dir: Path = Path("data")
     qdrant_url: str = "http://127.0.0.1:6333"
     qdrant_api_key: SecretStr | None = None
+    qdrant_prefix: str = "aura"  # collection name prefix; tests use a throwaway prefix
 
     # Security
     session_secret: SecretStr = SecretStr("")
@@ -55,6 +56,7 @@ class Settings(BaseSettings):
     # OCR and sandbox
     ocr_workers: int = 2
     ocr_max_docs: int = 2
+    ocr_autostart: bool = True  # start TitanOCR at boot (tests start it lazily on first ingestion)
     ocr_models_dir: Path | None = None
     docker_host: str = "unix:///var/run/docker.sock"
     sandbox_image: str = "aura-sandbox:1"
@@ -72,6 +74,12 @@ class Settings(BaseSettings):
         raw = str(value or "data").strip().rstrip("\\/") or "data"
         path = Path(raw).expanduser()
         return (path if path.is_absolute() else BACKEND_DIR / path).resolve()
+
+    cache_dir: Path | None = None  # embeddings cache + local models; defaults to <data_dir>/cache
+
+    @property
+    def cache_path(self) -> Path:
+        return (self.cache_dir or self.data_dir / "cache").expanduser().resolve()
 
     @property
     def database_url(self) -> str:

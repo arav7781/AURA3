@@ -1,0 +1,15 @@
+# Local services for AURA-3. Start with `make services` (reads QDRANT_API_KEY from backend/.env).
+services:
+  qdrant:
+    image: qdrant/qdrant:v1.20.0
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:6333:6333"
+    environment:
+      QDRANT__SERVICE__API_KEY: ${QDRANT_API_KEY:?set QDRANT_API_KEY in backend/.env}
+      QDRANT__TELEMETRY_DISABLED: "true"
+    volumes:
+      - qdrant-data:/qdrant/storage
+
+volumes:
+  qdrant-data:
