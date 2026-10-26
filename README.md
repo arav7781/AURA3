@@ -1,12 +1,3 @@
----
-title: DAO
-emoji: 📚
-colorFrom: indigo
-colorTo: indigo
-sdk: docker
-pinned: false
----
-
 ![DAO — AI Startup Evaluation & FinScope Advisory](docs/assets/banner.png)
 
 # DAO — AI Startup Evaluation & FinScope Advisory Platform
