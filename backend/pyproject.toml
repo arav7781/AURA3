@@ -1,0 +1,79 @@
+[project]
+name = "aura3-backend"
+version = "2.0.0"
+description = "AURA-3 API: TitanOCR evidence, agentic RAG copilot and the AuraCoin DAO"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    # TitanOCR (vendored wheel; not on PyPI yet). omegaconf repeats titanocr's exact pre-release pin.
+    "titanocr==0.2.0",
+    "omegaconf==2.4.0.dev15",
+    "numpy>=2.5,<2.6",
+    # Web service
+    "fastapi>=0.141",
+    "uvicorn[standard]>=0.52",
+    "pydantic>=2.13,<3",
+    "pydantic-settings>=2.7",
+    "python-multipart>=0.0.32",
+    "httpx>=0.28,<0.29",
+    "truststore>=0.10",
+    # Persistence and auth
+    "sqlalchemy>=2.0.40,<2.1",
+    "alembic>=1.16",
+    "argon2-cffi>=23.1",
+    "pyjwt>=2.10",
+    # Agents and retrieval
+    "langgraph>=1.2.12,<1.3",
+    "langgraph-checkpoint>=4.3,<5",
+    "langgraph-checkpoint-sqlite>=3.1.2,<4",
+    "langchain-core>=1.6.4,<2",
+    "langchain-openai>=1.6.5,<2",
+    "qdrant-client>=1.19,<1.21",
+    "fastembed>=0.9.1,<0.10",
+    "ddgs>=9.0",
+    # Documents, decks, reports
+    "pypdfium2>=5.12",
+    "pdfplumber>=0.11",
+    "python-pptx>=1.0.2",
+    "reportlab>=4.2",
+    "matplotlib>=3.10",
+    "pyyaml>=6.0",
+    # Code sandbox
+    "docker>=7.1,<8",
+]
+
+[project.optional-dependencies]
+# Embedding-map projection. numba caps numpy, so it stays optional (PCA is the fallback).
+viz = ["umap-learn>=0.5.12,<0.6", "scikit-learn>=1.6"]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3",
+    "pytest-asyncio>=1.0",
+    "hypothesis>=6.120",
+    "respx>=0.22",
+    "ruff>=0.8",
+    "pypdf>=5.0",
+]
+
+[tool.uv]
+package = false
+# rapidocr declares the GUI build of OpenCV; TitanOCR ships headless only. Wheels don't carry
+# TitanOCR's own override, so it is repeated here to keep a single cv2 in the environment.
+override-dependencies = ["opencv-python; python_version < '0'"]
+
+[tool.uv.sources]
+titanocr = { path = "vendor/titanocr-0.2.0-py3-none-any.whl" }
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+markers = [
+    "live: needs the LLM gateway (skipped unless AURA_LIVE_TESTS=1)",
+    "docker: needs the Docker daemon (skipped unless reachable)",
+]
+
+[tool.ruff]
+line-length = 120
+target-version = "py313"
