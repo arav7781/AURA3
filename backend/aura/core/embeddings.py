@@ -70,7 +70,7 @@ class DenseEmbedder:
         if missing:
             todo = list(dict.fromkeys(texts[i] for i in missing))
             fresh = await self._fetch(todo)
-            new_items = {self._key(t): v for t, v in zip(todo, fresh)}
+            new_items = {self._key(t): v for t, v in zip(todo, fresh, strict=True)}
             self._cache.put_many(new_items)
             cached.update(new_items)
         return np.stack([cached[k] for k in keys]).astype(np.float32)

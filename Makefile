@@ -1,7 +1,7 @@
 BACKEND := backend
 FRONTEND := frontend
 
-.PHONY: init sync test smoke lint
+.PHONY: init sync test smoke lint audit api
 
 # Create backend/.env from the example with a fresh session secret (keeps an existing file).
 init:
@@ -20,4 +20,10 @@ smoke:
 	cd $(BACKEND) && uv run python -m aura.core.llm smoke
 
 lint:
-	cd $(BACKEND) && uv run ruff check aura tests
+	cd $(BACKEND) && uv run ruff check aura/core aura/api aura/ledger aura/models aura/plans.py aura/quotas.py tests/ledger tests/api alembic
+
+audit:
+	cd $(BACKEND) && uv run python -m aura.ledger.audit
+
+api:
+	cd $(BACKEND) && uv run uvicorn aura.api.app:app --port 8010 --reload --reload-exclude 'data/*'
