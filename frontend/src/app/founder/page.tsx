@@ -1,6 +1,6 @@
 'use client'
 
-import { useCallback, useEffect } from 'react'
+import { useCallback } from 'react'
 import { useAccount } from 'wagmi'
 import { motion } from 'framer-motion'
 import { useRouter } from 'next/navigation'
@@ -8,16 +8,19 @@ import { History, Sparkles } from 'lucide-react'
 import { CreateProposalForm } from '@/components/CreateProposalForm'
 import { ProposalList } from '@/components/ProposalList'
 import { EvaluationsList } from '@/components/EvaluationsList'
-import { useAuth } from '@/context/AuthContext'
+import { RequireRole } from '@/components/auth/RequireRole'
 
-export default function FounderDashboard() {
+export default function FounderDashboardPage() {
+  return (
+    <RequireRole role="startup">
+      <FounderDashboard />
+    </RequireRole>
+  )
+}
+
+function FounderDashboard() {
   const { isConnected, address } = useAccount()
-  const { userRole, loading, enterAs } = useAuth()
   const router = useRouter()
-
-  useEffect(() => {
-    if (!loading && userRole !== 'startup') enterAs('startup')
-  }, [loading, userRole, enterAs])
 
   const onProposalCreated = useCallback(() => router.refresh(), [router])
 

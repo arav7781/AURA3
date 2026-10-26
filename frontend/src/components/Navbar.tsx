@@ -1,28 +1,22 @@
 'use client'
 
 import Link from 'next/link'
-import { ConnectButton } from './ConnectButton'
-import { Diamond, LogOut, Repeat } from 'lucide-react'
+import { Coins, Diamond, LogOut } from 'lucide-react'
 import { motion } from 'framer-motion'
-import { useAuth, getDashboardPath } from '@/context/AuthContext'
+import { useAuth } from '@/context/AuthContext'
 import { useRouter } from 'next/navigation'
+import { formatAC } from '@/lib/format'
 
 const linkClass =
   'flex items-center px-5 h-full border-r border-slate-200 text-[10px] font-bold font-mono text-slate-600 uppercase tracking-wider transition-colors'
 
 export function Navbar() {
-  const { userRole, enterAs, logout } = useAuth()
+  const { me, userRole, loading, logout } = useAuth()
   const router = useRouter()
 
   const handleLogout = async () => {
     await logout()
     router.push('/')
-  }
-
-  const switchRole = () => {
-    const next = userRole === 'investor' ? 'startup' : 'investor'
-    enterAs(next)
-    router.push(getDashboardPath(next))
   }
 
   return (
@@ -54,26 +48,30 @@ export function Navbar() {
           </div>
 
           <div className="flex items-center gap-3 px-6 shrink-0">
-            <div className="hidden xl:flex items-center gap-1.5 px-2 py-1 rounded bg-slate-50 border border-slate-200">
-              <div className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
-              <span className="text-[9px] font-mono text-slate-700 font-bold uppercase">Sepolia Live</span>
-            </div>
-
-            {userRole && (
-              <div className="flex items-center gap-2 px-2 py-1.5 bg-slate-50 rounded border border-slate-200">
-                <span className="text-[10px] font-mono font-bold uppercase text-slate-700">
-                  {userRole === 'investor' ? 'Investor' : 'Founder'} (demo)
-                </span>
-                <button onClick={switchRole} className="text-slate-500 hover:text-[#0284c7] transition-colors cursor-pointer" title={`Switch to ${userRole === 'investor' ? 'founder' : 'investor'} view`}>
-                  <Repeat className="w-3.5 h-3.5" />
-                </button>
-                <button onClick={handleLogout} className="text-red-500 hover:text-red-400 transition-colors cursor-pointer" title="Exit demo session">
-                  <LogOut className="w-3.5 h-3.5" />
-                </button>
-              </div>
+            {me ? (
+              <>
+                {me.user.role === 'investor' && (
+                  <Link href="/investor" className="hidden md:flex items-center gap-1.5 px-2 py-1 rounded bg-amber-50 border border-amber-200" title="Available AuraCoin">
+                    <Coins className="w-3.5 h-3.5 text-amber-600" />
+                    <span className="text-[11px] font-mono font-bold text-slate-800">{formatAC(me.balances.available, { compact: true })}</span>
+                  </Link>
+                )}
+                <div className="flex items-center gap-2 px-2 py-1.5 bg-slate-50 rounded border border-slate-200">
+                  <span className="hidden sm:block max-w-[10rem] truncate text-[11px] font-semibold text-slate-800">{me.user.name}</span>
+                  <span className="text-[10px] font-mono font-bold uppercase text-[#0284c7]">
+                    {me.user.role === 'investor' ? me.plan?.name ?? 'Investor' : 'Founder'}
+                  </span>
+                  <button onClick={handleLogout} className="text-slate-500 hover:text-red-500 transition-colors cursor-pointer" title="Sign out" aria-label="Sign out">
+                    <LogOut className="w-3.5 h-3.5" />
+                  </button>
+                </div>
+              </>
+            ) : !loading && (
+              <>
+                <Link href="/login" className="text-[11px] font-mono font-bold uppercase tracking-wider text-slate-700 hover:text-[#0284c7]">Sign in</Link>
+                <Link href="/register" className="text-[11px] font-mono font-bold uppercase tracking-wider text-white bg-[#0284c7] rounded px-3 py-1.5 hover:brightness-110">Get started</Link>
+              </>
             )}
-
-            <ConnectButton />
           </div>
         </div>
       </div>

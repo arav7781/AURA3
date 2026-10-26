@@ -23,7 +23,7 @@ export default function LandingPage() {
   })
   
   const router = useRouter()
-  const { enterAs } = useAuth()
+  const { me } = useAuth()
   const terminalCommands = ['fetch_tvl --network ether', 'check_streams --active', 'cat /sys/status/nodes']
   const [activeCommandIndex, setActiveCommandIndex] = useState(0)
   const [typedCommand, setTypedCommand] = useState('')
@@ -44,9 +44,10 @@ export default function LandingPage() {
     return () => clearTimeout(typeTimer)
   }, [typedCommand, activeCommandIndex])
 
+  // Signed-in users go to their own area; everyone else creates an account for the chosen role first.
   const enterRole = (role: 'investor' | 'startup', path = getDashboardPath(role)) => {
-    enterAs(role)
-    router.push(path)
+    if (!me) router.push(`/register?role=${role}`)
+    else router.push(me.user.role === role ? path : getDashboardPath(me.user.role))
   }
 
   // Calculate live metrics gracefully

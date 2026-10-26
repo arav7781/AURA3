@@ -5,7 +5,6 @@ import { Providers } from '@/components/Providers'
 import { Navbar } from '@/components/Navbar'
 import { CustomCursor } from '@/components/CustomCursor'
 import { NewsTicker } from '@/components/NewsTicker'
-import { AuthProvider } from '@/context/AuthContext'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -28,8 +27,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className} min-h-screen bg-white text-black text-[17px] md:text-[18px] selection:bg-gray-300`}>
         <CustomCursor />
-        <AuthProvider>
-          <Providers>
+        <Providers>
             <div className="relative flex flex-col min-h-screen">
               {/* Live Data Mesh - Moving Flow */}
               <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden">
@@ -47,8 +45,7 @@ export default function RootLayout({
                 {children}
               </main>
             </div>
-          </Providers>
-        </AuthProvider>
+        </Providers>
       </body>
     </html>
   )

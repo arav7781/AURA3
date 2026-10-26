@@ -1,94 +1,135 @@
 'use client';
 
-import React, { createContext, useCallback, useContext, useSyncExternalStore } from 'react';
+import React, { createContext, useCallback, useContext } from 'react';
+import { useQuery, useQueryClient } from '@tanstack/react-query';
+import { api, ApiError } from '@/lib/api/client';
 
-// Demo session: no sign-in. Visitors pick a role on the landing page and it is
-// remembered in localStorage until they exit.
+// Accounts live in the AURA-3 backend. Signing in sets an HttpOnly cookie holding a signed JWT whose
+// session id the API checks on every request, so signing out revokes it server-side. The browser
+// never sees the token; this context only reads who is signed in from /api/me.
 
 export type UserRole = 'investor' | 'startup';
+export type PlanId = 'scout' | 'angel' | 'syndicate';
 
-export interface DemoUser {
-  uid: string;
-  email: string;
-  displayName: string;
+export interface Me {
+  user: { id: string; email: string; name: string; role: UserRole; is_admin: boolean };
+  plan: {
+    id: PlanId;
+    name: string;
+    price_inr_month: number;
+    monthly_ac: number;
+    pending_plan: PlanId | null;
+    period_index: number;
+    next_grant_at: string | null;
+  } | null;
+  entitlements: {
+    features: string[];
+    feature_labels: Record<string, string>;
+    quotas: Record<string, { used: number; limit: number | null; resets_at?: string }>;
+  };
+  balances: { available: number; locked: number; escrowed: number };
+  startup: { id: string; slug: string; name: string; status: string } | null;
 }
 
-const STORAGE_KEY = 'aura3.demoSession';
+export interface RegisterInput {
+  email: string;
+  password: string;
+  name: string;
+  role: UserRole;
+  plan?: PlanId;
+  startup_name?: string;
+}
 
-export const getDashboardPath = (role: UserRole | null) => {
+export const getDashboardPath = (role: UserRole | null | undefined) => {
   if (role === 'investor') return '/investor';
   if (role === 'startup') return '/founder';
   return '/';
 };
 
 interface AuthContextType {
-  currentUser: DemoUser | null;
+  me: Me | null;
+  currentUser: Me['user'] | null;
   userRole: UserRole | null;
   loading: boolean;
-  enterAs: (role: UserRole) => void;
+  has: (feature: string) => boolean;
+  login: (email: string, password: string) => Promise<Me>;
+  register: (input: RegisterInput) => Promise<Me>;
   logout: () => Promise<void>;
+  refresh: () => Promise<Me | null>;
 }
 
-const AuthContext = createContext<AuthContextType>({
-  currentUser: null,
-  userRole: null,
-  loading: true,
-  enterAs: () => {},
-  logout: async () => {},
-});
+const AuthContext = createContext<AuthContextType | null>(null);
 
-export const useAuth = () => useContext(AuthContext);
+export const useAuth = () => {
+  const context = useContext(AuthContext);
+  if (!context) throw new Error('useAuth must be used inside <AuthProvider>');
+  return context;
+};
 
-const demoUser = (role: UserRole): DemoUser => ({
-  uid: `demo-${role}`,
-  email: role === 'investor' ? 'investor@aura3.demo' : 'founder@aura3.demo',
-  displayName: role === 'investor' ? 'Demo Investor' : 'Demo Founder',
-});
+const ME_KEY = ['me'] as const;
 
-const listeners = new Set<() => void>();
-
-const readRole = (): UserRole | null => {
+async function fetchMe(): Promise<Me | null> {
   try {
-    const saved = window.localStorage.getItem(STORAGE_KEY);
-    return saved === 'investor' || saved === 'startup' ? saved : null;
-  } catch {
-    return null;
+    return await api<Me>('/api/me');
+  } catch (error) {
+    if (error instanceof ApiError && error.status === 401) {
+      // A cookie the API rejects (expired, revoked, or from a reset database) is cleared, so the
+      // route guard stops treating this browser as signed in.
+      await api('/api/auth/logout', { method: 'POST' }).catch(() => undefined);
+      return null;
+    }
+    throw error;
   }
-};
-
-const writeRole = (role: UserRole | null) => {
-  try {
-    if (role) window.localStorage.setItem(STORAGE_KEY, role);
-    else window.localStorage.removeItem(STORAGE_KEY);
-  } catch {
-    // Storage unavailable (private mode): nothing to persist.
-  }
-  listeners.forEach(listener => listener());
-};
-
-const subscribe = (listener: () => void) => {
-  listeners.add(listener);
-  window.addEventListener('storage', listener);
-  return () => {
-    listeners.delete(listener);
-    window.removeEventListener('storage', listener);
-  };
-};
+}
 
 export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
-  const userRole = useSyncExternalStore(subscribe, readRole, () => null);
-  const enterAs = useCallback((role: UserRole) => writeRole(role), []);
-  const logout = useCallback(async () => writeRole(null), []);
-  const loading = false;
+  const queryClient = useQueryClient();
+  const { data, isPending } = useQuery({ queryKey: ME_KEY, queryFn: fetchMe, retry: false, staleTime: 30_000 });
+  const me = data ?? null;
+
+  const refresh = useCallback(async () => {
+    const fresh = await fetchMe();
+    queryClient.setQueryData(ME_KEY, fresh);
+    return fresh;
+  }, [queryClient]);
+
+  const signedIn = useCallback(async () => {
+    queryClient.removeQueries({ predicate: query => query.queryKey[0] !== 'me' });
+    const fresh = await refresh();
+    if (!fresh) throw new ApiError(401, 'UNAUTHORIZED', 'The session could not be started. Check that cookies are allowed.');
+    return fresh;
+  }, [queryClient, refresh]);
+
+  const login = useCallback(async (email: string, password: string) => {
+    await api('/api/auth/login', { method: 'POST', body: { email, password } });
+    return signedIn();
+  }, [signedIn]);
+
+  const register = useCallback(async (input: RegisterInput) => {
+    await api('/api/auth/register', { method: 'POST', body: input });
+    return signedIn();
+  }, [signedIn]);
+
+  const logout = useCallback(async () => {
+    await api('/api/auth/logout', { method: 'POST' }).catch(() => undefined);
+    queryClient.clear();
+    queryClient.setQueryData(ME_KEY, null);
+  }, [queryClient]);
+
+  const has = useCallback((feature: string) => !!me?.entitlements.features.includes(feature), [me]);
 
   return (
     <AuthContext.Provider
       value={{
-        currentUser: userRole ? demoUser(userRole) : null,
-        userRole,
-        loading,
-        enterAs,
+        me,
+        currentUser: me?.user ?? null,
+        userRole: me?.user.role ?? null,
+        loading: isPending,
+        has,
+        login,
+        register,
         logout,
+        refresh,
       }}
     >
       {children}

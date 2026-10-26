@@ -1,6 +1,5 @@
 'use client'
 
-import { useEffect } from 'react'
 import Link from 'next/link'
 import { useAccount } from 'wagmi'
 import { Brain, Landmark, Sparkles } from 'lucide-react'
@@ -8,17 +7,19 @@ import { InvestorActions } from '@/components/InvestorActions'
 import { ProposalList } from '@/components/ProposalList'
 import { EvaluationsList } from '@/components/EvaluationsList'
 import { useProposals } from '@/hooks/useProposals'
-import { useAuth } from '@/context/AuthContext'
+import { RequireRole } from '@/components/auth/RequireRole'
 
-export default function InvestorDashboard() {
+export default function InvestorDashboardPage() {
+  return (
+    <RequireRole role="investor">
+      <InvestorDashboard />
+    </RequireRole>
+  )
+}
+
+function InvestorDashboard() {
   const { isConnected } = useAccount()
   const { proposals } = useProposals()
-  const { userRole, loading, enterAs } = useAuth()
-
-  useEffect(() => {
-    if (!loading && userRole !== 'investor') enterAs('investor')
-  }, [loading, userRole, enterAs])
-
   return (
     <div className="max-w-7xl mx-auto px-6 py-10">
       <div className="mb-8 flex flex-col md:flex-row justify-between md:items-end gap-4 border-b border-slate-200 pb-6">

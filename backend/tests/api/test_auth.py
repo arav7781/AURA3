@@ -73,3 +73,10 @@ def test_public_plans_catalogue(client):
     assert [p["price_inr_month"] for p in plans["plans"]] == [0, 4999, 24999]
     assert plans["startup"]["success_fee_bps"] == 200
     assert plans["auracoin"]["redeemable"] is False
+
+
+def test_logout_clears_a_stale_cookie(client):
+    client.cookies.set("aura_session", "not-a-valid-token")
+    response = client.post("/api/auth/logout")
+    assert response.status_code == 204
+    assert 'aura_session=""' in response.headers["set-cookie"] or "Max-Age=0" in response.headers["set-cookie"]

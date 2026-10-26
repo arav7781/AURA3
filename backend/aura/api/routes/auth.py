@@ -9,7 +9,7 @@ from pydantic import BaseModel, Field, field_validator
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 
-from aura.api.deps import Viewer, current_viewer
+from aura.api.deps import Viewer, optional_viewer
 from aura.core import clock
 from aura.core.db import write_tx
 from aura.core.errors import Conflict, RateLimited, Unauthorized
@@ -152,11 +152,14 @@ def login(body: LoginIn, request: Request, response: Response) -> UserOut:
 
 
 @router.post("/logout", status_code=204)
-def logout(response: Response, viewer: Viewer = Depends(current_viewer)) -> Response:
-    with write_tx() as s:
-        session = s.get(UserSession, viewer.session_id)
-        if session is not None and session.revoked_at is None:
-            session.revoked_at = clock.now()
+def logout(response: Response, viewer: Viewer | None = Depends(optional_viewer)) -> Response:
+    """Revoke the session and clear the cookie. A stale cookie (expired, revoked, or from a reset database)
+    is cleared too, so the browser never keeps a cookie the API rejects."""
+    if viewer is not None:
+        with write_tx() as s:
+            session = s.get(UserSession, viewer.session_id)
+            if session is not None and session.revoked_at is None:
+                session.revoked_at = clock.now()
     response.status_code = 204
     clear_session_cookie(response)
     return response
