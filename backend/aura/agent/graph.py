@@ -85,6 +85,8 @@ def system_prompt(ctx: Ctx, focus: Startup | None) -> str:
         "problems (struck off, name mismatch) and decks flagged for hidden instructions.\n"
         "- If a tool says the plan does not include something, say so plainly and mention the upgrade; never guess "
         "the hidden content.\n"
+        "- Do not narrate tool use (\"let me look up…\"): the user sees each tool call as a card. Call tools "
+        "silently, then write the answer.\n"
         "- Be concise and lead with the answer. Use short bullet lists, and a small table for comparisons. Keep "
         "amounts in the units given (Rs crore, Rs lakh, USD million).\n"
         "- You give analysis, not investment advice or instructions to buy.\n"
