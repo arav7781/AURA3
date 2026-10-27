@@ -1,6 +1,6 @@
 'use client'
 
-import { useCallback, useEffect, useRef, useState } from 'react'
+import { createContext, useCallback, useEffect, useRef, useState } from 'react'
 import { useQuery, useQueryClient } from '@tanstack/react-query'
 import { api, ApiError } from '@/lib/api/client'
 
@@ -69,6 +69,9 @@ export async function attachFile(threadId: string, file: File): Promise<AttachRe
 export function citationHref(c: Extract<Citation, { type: 'deck' }>, evidence: (slug: string, doc: string, page: number, chunk?: string) => string) {
   return c.attachment ? `/api/documents/${c.document_id}/pages/${c.page_no}/image` : evidence(c.startup_slug, c.document_id, c.page_no, c.chunk_id)
 }
+
+/** Lets a card in the conversation send a follow-up message (e.g. "restyle my deck in Ocean"). */
+export const AskContext = createContext<((text: string) => void) | null>(null)
 
 /** Sends questions and folds the run's events into a live assistant message. */
 export function useRun(threadId: string | null) {

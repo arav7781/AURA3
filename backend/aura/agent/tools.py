@@ -36,14 +36,15 @@ from aura.core.embeddings import DenseEmbedder
 from aura.core.errors import AppError
 from aura.core.untrusted import wrap
 from aura.decks.design import Brand
-from aura.decks.draft import DeckDraft, draft_slides, figures, normalise
+from aura.decks.draft import DeckDesign, DeckDraft, draft_slides, figures, normalise
 from aura.decks.render_pdf import render_slides_pdf
 from aura.decks.render_pptx import render_slides_pptx
+from aura.decks.theme import PALETTES
 from aura.evaluation import service as evaluations
 from aura.evaluation.research import ResearchProvider
 from aura.ingest.pipeline import ingest_document
 from aura.ingest.storage import document_dir
-from aura.models import Chunk, Document, Evaluation, InvestorProfile, Review, Startup, User
+from aura.models import Chunk, CopilotMessage, Document, Evaluation, InvestorProfile, Review, Startup, User
 from aura.rag import store
 from aura.rag.retriever import AccessScope, SearchRequest, search
 from aura.rankings import community_scores, load_ballots, ranks
@@ -372,22 +373,35 @@ class _Quiet:
         pass
 
 
-async def build_pitch_deck(ctx: Ctx, args: DeckDraft) -> ToolOutput:
-    viewer = ctx.viewer
-    if viewer.role != "startup" or not viewer.startup_id:
+def _founder_thread(ctx: Ctx) -> None:
+    if ctx.viewer.role != "startup" or not ctx.viewer.startup_id:
         raise ToolError("FORBIDDEN", "Only founders can build a deck, and only for their own startup.")
     if not ctx.thread_id:
         raise ToolError("NOT_FOUND", "Decks are built inside a conversation.")
+
+
+def _design_options() -> list[dict[str, Any]]:
+    return [{"theme": p.name, "label": p.label, "swatch": ["#{:02x}{:02x}{:02x}".format(*c) for c in (p.base, p.primary, p.warm[0])]}
+            for p in PALETTES.values()]
+
+
+async def _deliver_deck(ctx: Ctx, draft: DeckDraft) -> ToolOutput:
+    """Render a draft in its design (PDF and PPTX), keep it as a private draft of this conversation (with the
+    draft itself, so it can be restyled), let TitanOCR read it back, and check that its figures survived."""
+    viewer = ctx.viewer
     with write_tx() as s:
         quotas.consume(s, viewer.user_id, "deck_build", viewer.quota_limits.get("deck_build"))
         st = s.get(Startup, viewer.startup_id)
         s.expunge(st)
     brand = Brand(st.name, st.legal_name or st.name, st.stage, st.domain, st.cin, st.hq_city, st.ask_inr,
                   st.pre_money_inr, ((st.profile or {}).get("round") or {}).get("min_raise_pct"))
-    slides = draft_slides(brand, args)
-    pdf, pptx = await asyncio.to_thread(lambda: (render_slides_pdf(brand, slides), render_slides_pptx(brand, slides)))
+    slides = draft_slides(brand, draft)
+    palette = draft.design.palette()
+    pdf, pptx = await asyncio.to_thread(lambda: (render_slides_pdf(brand, slides, palette),
+                                                 render_slides_pptx(brand, slides, palette)))
     sha = hashlib.sha256(pdf).hexdigest()
-    filename = f"{st.name.replace(' ', '_')}_Pitch_Deck_AURA3.pdf"
+    look = "AURA3" if draft.design.theme == "aura" and not draft.design.brand_color else re.sub(r"\W+", "_", draft.design.label())
+    filename = f"{st.name.replace(' ', '_')}_Pitch_Deck_{look}.pdf"
     with write_tx() as s:
         doc = s.scalar(select(Document).where(Document.startup_id == st.id, Document.sha256 == sha))
         if doc is None:
@@ -400,13 +414,14 @@ async def build_pitch_deck(ctx: Ctx, args: DeckDraft) -> ToolOutput:
             doc.storage_dir = str(folder.relative_to(folder.parents[1]))
             (folder / "source.pdf").write_bytes(pdf)
             (folder / "deck.pptx").write_bytes(pptx)
+            (folder / "draft.json").write_text(draft.model_dump_json(indent=1))
         doc_id, ready = doc.id, doc.status == "ready"
     if not ready:  # TitanOCR reads the new deck back, exactly as it would read an upload
         await ingest_document(_Quiet(), doc_id)  # type: ignore[arg-type]
     with read_session() as s:
         doc = s.get(Document, doc_id)
         text = normalise(" ".join(s.scalars(select(Chunk.text).where(Chunk.document_id == doc_id))))
-    stated = figures(args)
+    stated = figures(draft)
     missing = [f for f in stated if f not in text]
     if not any(a.document_id == doc_id for a in ctx.attachments):
         ctx.attachments.append(Attachment(doc_id, doc.filename, doc.page_count or len(slides)))
@@ -417,15 +432,50 @@ async def build_pitch_deck(ctx: Ctx, args: DeckDraft) -> ToolOutput:
         "pdf_url": f"/api/documents/{doc_id}/file", "pptx_url": f"/api/documents/{doc_id}/deck.pptx",
         "previews": [f"/api/documents/{doc_id}/pages/{n}/image" for n in range(1, pages + 1)],
         "check": {"figures": len(stated), "found": len(stated) - len(missing), "missing": missing[:12]},
+        "design": {"theme": draft.design.theme, "label": draft.design.label(), "brand_color": draft.design.brand_color},
+        "designs": _design_options(),
     }
     check = (f"TitanOCR read the PDF back and found all {len(stated)} figures it states."
              if not missing else f"TitanOCR read the PDF back: {len(stated) - len(missing)} of {len(stated)} figures "
              f"found; not found: {', '.join(missing[:8])}.")
     return ToolOutput(
-        f"Built {doc.filename} ({pages} slides: {', '.join(sl.title for sl in slides)}) in AURA3's deck design, as "
-        f"PowerPoint and PDF. {check} The founder downloads it from the card above your answer; it is a private "
-        "draft, not what investors see. Do not repeat the slide text: say in a few lines what the deck now does "
-        "better and what they should check or add before using it.", card)
+        f"Built {doc.filename} ({pages} slides: {', '.join(sl.title for sl in slides)}) in the {draft.design.label()} "
+        f"design, as PowerPoint and PDF. {check} The founder downloads it from the card above your answer, where they "
+        "can also switch design; it is a private draft, not what investors see. Do not repeat the slide text: say in a "
+        "few lines what the deck now does better and what they should check or add before using it.", card)
+
+
+async def build_pitch_deck(ctx: Ctx, args: DeckDraft) -> ToolOutput:
+    _founder_thread(ctx)
+    return await _deliver_deck(ctx, args)
+
+
+class RestyleArgs(DeckDesign):
+    document: str | None = Field(default=None, description="File name of the deck to restyle. Omit for the latest built here.")
+
+
+async def restyle_pitch_deck(ctx: Ctx, args: RestyleArgs) -> ToolOutput:
+    _founder_thread(ctx)
+    with read_session() as s:
+        decks = s.scalars(select(Document).where(Document.thread_id == ctx.thread_id, Document.kind == "generated_deck",
+                                                 Document.status == "ready").order_by(Document.created_at.desc())).all()
+    if args.document:
+        decks = [d for d in decks if args.document.lower() in d.filename.lower() or d.id == args.document] or decks
+    source = next((d for d in decks if (document_dir(d.id) / "draft.json").is_file()), None)
+    if source is not None:
+        draft = DeckDraft.model_validate_json((document_dir(source.id) / "draft.json").read_text())
+    else:  # a deck built before drafts were saved: its content is in the conversation's tool call
+        with read_session() as s:
+            parts = s.scalars(select(CopilotMessage.parts).where(CopilotMessage.thread_id == ctx.thread_id,
+                                                                 CopilotMessage.role == "assistant")
+                              .order_by(CopilotMessage.seq.desc())).all()
+        args_seen = next((p.get("args") for m in parts for p in reversed(m or [])
+                          if p.get("type") == "tool" and p.get("name") == "build_pitch_deck" and p.get("status") == "done"), None)
+        if not args_seen:
+            raise ToolError("NOT_FOUND", "No deck has been built in this conversation yet; build one with build_pitch_deck.")
+        draft = DeckDraft.model_validate(args_seen)
+    draft.design = DeckDesign(theme=args.theme, brand_color=args.brand_color, accent_color=args.accent_color)
+    return await _deliver_deck(ctx, draft)
 
 
 class RunPythonArgs(BaseModel):
@@ -672,7 +722,11 @@ TOOLS = [
          "content you write (cover, problem, solution, market, business model, traction, unit economics, competition, "
          "go-to-market, roadmap, team, ask). Use it whenever the founder asks you to make, create, rebuild, redesign or "
          "export their deck or slides. Write every slide in full, using only figures from their documents and "
-         "evaluation (mark estimates as estimates).", DeckDraft, build_pitch_deck, timeout=150.0),
+         "evaluation (mark estimates as estimates). Set design if they asked for a look (a theme or their brand colour).",
+         DeckDraft, build_pitch_deck, timeout=150.0),
+    Tool("restyle_pitch_deck", "Founders only: change the design of a deck already built in this conversation (theme, "
+         "brand colour, accent) without rewriting its content. Use it when they ask for a different look, colours, a "
+         "dark version or their brand colour.", RestyleArgs, restyle_pitch_deck, timeout=120.0),
     Tool("run_python", "Write and run a Python script in a sandbox (no internet) for calculations, projections, "
          "comparisons across startups (startups.csv) or charts. Use it whenever an answer needs arithmetic beyond a "
          "single step or a chart; put the numbers you need from documents or the web in the script.",

@@ -81,7 +81,9 @@ def system_prompt(ctx: Ctx, focus: Startup | None) -> str:
             "and research their market with web_search. Be specific about what to change and why. When they ask you "
             "to make, create, rebuild or export their deck or slides (PPT, PPTX, PDF): read their current deck in one "
             "call (read_page without a page) and their evaluation, then call build_pitch_deck with every slide written "
-            "out; you can create files, so never answer that you cannot. "
+            "out; you can create files, so never answer that you cannot. Decks come in designs: themes aura (AURA3's "
+            "own, the default), aura_dark, ocean, vibrant and graphite, or recoloured around their brand colour; to "
+            "change only the look of a deck already built, call restyle_pitch_deck, which keeps the content. "
             "Use only figures from their documents, evaluation or cited web sources, labelled as estimates where they "
             "are."
         )

@@ -17,6 +17,7 @@ points with the origin at the bottom left.
 
 import math
 import re
+from contextvars import ContextVar
 from dataclasses import dataclass, field
 
 from reportlab.lib.pagesizes import A4, landscape
@@ -26,29 +27,17 @@ from aura.decks import art
 from aura.decks.slides import STAGE_LABELS, Slide
 from aura.decks.spec import StartupSpec
 from aura.decks.theme import (
+    AURA,
     BLACK,
     BOLD,
-    GRADIENT,
-    INK,
-    INK_2,
-    INK_3,
-    JADE_50,
-    JADE_100,
-    JADE_200,
-    JADE_600,
-    JADE_700,
     LIGHT,
-    LINE,
-    MARIGOLD_400,
-    MARIGOLD_500,
     MEDIUM,
     MONO,
-    PAPER,
     REGULAR,
     RGB,
     SEMIBOLD,
-    WARM,
     WHITE,
+    Palette,
     register_fonts,
 )
 
@@ -57,7 +46,6 @@ M = 50  # side margin
 BOTTOM = 58  # lowest point of the body
 GAP = 16
 TILE_GAP = 30  # wide enough that OCR keeps neighbouring tiles' figures on separate lines
-CARD_EDGE: RGB = (0xEA, 0xE6, 0xDC)
 SECTIONS = {
     "title": "Pitch deck", "problem": "The problem", "solution": "Our solution", "market": "Market",
     "business_model": "Business model", "traction": "Traction", "unit_economics": "Unit economics",
@@ -68,6 +56,12 @@ FIGURE = re.compile(r"(?:Rs|USD|INR)\s?\d[\d,]*(?:\.\d+)?\s?(?:crore|lakh|millio
                     r"|\d[\d,]*(?:\.\d+)?\s?%|\d+(?:\.\d+)?\s?(?:x\b|months?\b|days?\b|years?\b|lakh\b|crore\b)"
                     r"|\d[\d,]*(?:\.\d+)?")
 BODY_SIZES = (14, 13.5, 13, 12.5, 12, 11.5, 11, 10.5, 10, 9.5, 9, 8.5)
+_PALETTE: ContextVar[Palette] = ContextVar("deck_palette", default=AURA)
+
+
+def pal() -> Palette:
+    """The colours of the deck being laid out (set by ``lay_out``)."""
+    return _PALETTE.get()
 
 
 # ── whose deck ──────────────────────────────────────────────────────────────────────────────────────────
@@ -165,6 +159,7 @@ Shape = Fill | Disc | Shadow | Line | Picture
 @dataclass
 class Page:
     shapes: list[Shape] = field(default_factory=list)
+    palette: Palette = AURA
     hidden: list[Line] = field(default_factory=list)  # adversarial decks: drawn white on the background
     notes: str | None = None
 
@@ -232,9 +227,10 @@ def block_height(runs: Runs, size: float, width: float, leading: float = 1.38) -
     return len(wrap(runs, size, width)) * size * leading
 
 
-def text_block(page: Page, x: float, top: float, width: float, runs: Runs, size: float, *, colour: RGB = INK_2,
-               strong: RGB = INK, leading: float = 1.38) -> float:
+def text_block(page: Page, x: float, top: float, width: float, runs: Runs, size: float, *, colour: RGB | None = None,
+               strong: RGB | None = None, leading: float = 1.38) -> float:
     """Wrapped text whose first line's cap height sits at ``top``. Returns the y below the block."""
+    colour, strong = colour or pal().ink_2, strong or pal().ink
     y = top - size * 0.78
     for segments in wrap(runs, size, width):
         page.add(Line(x, y, [Span(t, f, size, strong if f in (BOLD, BLACK, SEMIBOLD) else colour) for t, f in segments]))
@@ -258,8 +254,8 @@ def figure(text: str) -> str | None:
 
 def card(page: Page, x: float, y: float, w: float, h: float, *, bar: bool = False, side: bool = False,
          warm: bool = False) -> None:
-    page.add(Shadow(x, y, w, h, 12), Fill(x, y, w, h, WHITE, radius=12, stroke=CARD_EDGE, stroke_width=0.6))
-    colours = WARM if warm else GRADIENT
+    page.add(Shadow(x, y, w, h, 12), Fill(x, y, w, h, pal().card, radius=12, stroke=pal().card_edge, stroke_width=0.6))
+    colours = pal().warm if warm else pal().gradient
     if bar:
         page.add(Fill(x + 18, y + h - 3.4, w - 36, 3.4, colours[0], radius=1.7, gradient=colours))
     if side:
@@ -270,31 +266,31 @@ def logo(page: Page, spec: Brand) -> None:
     """The startup's mark and name, and its round, in the top band (repeated on every slide, so ingestion
     treats it as a running header)."""
     y = H - 48
-    page.add(Fill(M, y, 20, 20, JADE_600, radius=6, gradient=GRADIENT), Disc(M + 10, y + 10, 3.4, WHITE))
-    page.add(Line(M + 28, y + 6, [Span(spec.name, SEMIBOLD, 10.5, INK)]))
+    page.add(Fill(M, y, 20, 20, pal().primary, radius=6, gradient=pal().gradient), Disc(M + 10, y + 10, 3.4, pal().on_primary))
+    page.add(Line(M + 28, y + 6, [Span(spec.name, SEMIBOLD, 10.5, pal().ink)]))
     tag = f"{STAGE_LABELS[spec.stage]} round  ·  {spec.domain}"
     width = measure(tag, MEDIUM, 7.5) + 20
-    page.add(Fill(W - M - width, y + 1, width, 18, None, radius=9, stroke=LINE, stroke_width=0.7),
-             Line(W - M - 10, y + 7, [Span(tag, MEDIUM, 7.5, INK_3)], align="right"))
+    page.add(Fill(W - M - width, y + 1, width, 18, None, radius=9, stroke=pal().line, stroke_width=0.7),
+             Line(W - M - 10, y + 7, [Span(tag, MEDIUM, 7.5, pal().ink_3)], align="right"))
 
 
 def footer(page: Page, spec: Brand, number: int, total: int) -> None:
     page.add(Line(M, 24, [Span(f"{spec.legal_name}  ·  CIN {spec.cin}" if spec.cin else spec.legal_name, REGULAR, 7.5,
-                               INK_3)]),
-             Line(W - M, 24, [Span(f"{number:02d} / {total:02d}", MONO, 7.5, INK_3)], align="right"))
+                               pal().ink_3)]),
+             Line(W - M, 24, [Span(f"{number:02d} / {total:02d}", MONO, 7.5, pal().ink_3)], align="right"))
 
 
 def header(page: Page, slide: Slide, number: int) -> float:
     """Section label, title and subtitle. Returns the top of the body."""
     page.add(Line(M, H - 86, [Span(f"{number:02d}  ·  {SECTIONS.get(slide.key, slide.key).upper()}", SEMIBOLD, 9,
-                                   JADE_600)], tracking=1.8))
+                                   pal().primary)], tracking=1.8))
     size = fit_size(slide.title, BLACK, W - 2 * M, 31, 18)
-    page.add(Line(M, H - 118, [Span(slide.title, BLACK, size, INK)]))
+    page.add(Line(M, H - 118, [Span(slide.title, BLACK, size, pal().ink)]))
     top = H - 134
     if slide.subtitle:
         width = 700
         sub = next(s for s in (14, 13, 12, 11, 10) if len(wrap([(slide.subtitle, LIGHT)], s, width)) <= 2 or s == 10)
-        top = text_block(page, M, top, width, [(slide.subtitle, LIGHT)], sub, colour=INK_2, strong=INK_2,
+        top = text_block(page, M, top, width, [(slide.subtitle, LIGHT)], sub, colour=pal().ink_2, strong=pal().ink_2,
                          leading=1.36) - 4
     return top - 18
 
@@ -374,7 +370,7 @@ def stat_cards(page: Page, stats: list[tuple[str, Runs]], area: Area, *, cols: i
         warm = warm_last and i == len(stats) - 1
         card(page, x, top - h, width, h, bar=True, warm=warm)
         size = fit_size(big, BLACK, width - 2 * pad, big_size, 14)
-        page.add(Line(x + pad, top - 22 - size * 0.8, [Span(big, BLACK, size, MARIGOLD_500 if warm else JADE_700)]))
+        page.add(Line(x + pad, top - 22 - size * 0.8, [Span(big, BLACK, size, pal().warm_figure if warm else pal().figure)]))
         text_block(page, x + pad, top - 22 - big_size * 1.25 - 4, width - 2 * pad, runs, caption, leading=1.34)
     return y - rows * (h + GAP) + GAP
 
@@ -393,7 +389,7 @@ def stat_rows(page: Page, stats: list[tuple[str, Runs]], area: Area, *, gap: flo
     for (big, runs), h in zip(stats, heights, strict=True):
         card(page, area.x, y - h, area.w, h, side=True)
         big_size = fit_size(big, BLACK, figure_w - 8, 24, 13)
-        page.add(Line(area.x + pad + 4, y - h / 2 - big_size * 0.35, [Span(big, BLACK, big_size, JADE_700)]))
+        page.add(Line(area.x + pad + 4, y - h / 2 - big_size * 0.35, [Span(big, BLACK, big_size, pal().figure)]))
         text_h = block_height(runs, size, text_w, 1.34)
         text_block(page, area.x + pad + figure_w + 12, y - (h - text_h) / 2, text_w, runs, size, leading=1.34)
         y -= h + gap
@@ -416,14 +412,15 @@ def table(page: Page, rows: list[list[str]], x: float, top: float, w: float, siz
         # Every cell is outlined: ruled cells are what lets OCR recognise this as a table rather than prose.
         cx = x
         for cw in widths:
-            page.add(Fill(cx, y - h, cw, h, JADE_700 if i == 0 else PAPER if i % 2 == 0 else WHITE, stroke=LINE,
+            page.add(Fill(cx, y - h, cw, h, pal().header if i == 0 else pal().card_alt if i % 2 == 0 else pal().card,
+                          stroke=pal().line,
                           stroke_width=0.8))
             cx += cw
         cx = x
         for lines, cw in zip(cells, widths, strict=True):
             ty = y - 6 - size * 0.8
             for segments in lines:
-                page.add(Line(cx + 8, ty, [Span(t, f, size, WHITE if i == 0 else INK_2) for t, f in segments]))
+                page.add(Line(cx + 8, ty, [Span(t, f, size, pal().on_primary if i == 0 else pal().ink_2) for t, f in segments]))
                 ty -= size * 1.32
             cx += cw
         y -= h
@@ -448,9 +445,10 @@ def aura(page: Page, cx: float, cy: float, r: float) -> None:
     """The cover's mark: AURA3's aura as nested discs round a jade core, with a marigold point in orbit. Flat
     discs on purpose: thick curved strokes make OCR flag the page as handwriting, and a picture makes it scan
     the page for text."""
-    page.add(Disc(cx, cy, r, JADE_50), Disc(cx, cy, r * 0.78, JADE_100), Disc(cx, cy, r * 0.56, JADE_200),
-             Disc(cx, cy, r * 0.34, JADE_600, gradient=GRADIENT),
-             Disc(cx + r * 0.52, cy + r * 0.52, r * 0.12, MARIGOLD_400, gradient=WARM))
+    soft = pal().soft
+    page.add(Disc(cx, cy, r, soft[0]), Disc(cx, cy, r * 0.78, soft[1]), Disc(cx, cy, r * 0.56, soft[2]),
+             Disc(cx, cy, r * 0.34, pal().primary, gradient=pal().gradient),
+             Disc(cx + r * 0.52, cy + r * 0.52, r * 0.12, pal().warm[0], gradient=pal().warm))
 
 
 def bar_chart(page: Page, chart: dict, x: float, y: float, w: float, h: float) -> None:
@@ -462,14 +460,14 @@ def bar_chart(page: Page, chart: dict, x: float, y: float, w: float, h: float) -
     bar_w = min(slot * 0.56, 64)
     room = h - 40  # value labels above, year labels below
     base = y + 20
-    page.add(Fill(x, base, w, 0.8, LINE))
+    page.add(Fill(x, base, w, 0.8, pal().line))
     for i, (label, value) in enumerate(zip(chart["labels"], values, strict=True)):
         cx = x + slot * (i + 0.5)
         bar_h = max(2.0, room * value / top)
-        colours = WARM if i == len(values) - 1 else GRADIENT
+        colours = pal().warm if i == len(values) - 1 else pal().gradient
         page.add(Fill(cx - bar_w / 2, base, bar_w, bar_h, colours[0], radius=4, gradient=colours[::-1], vertical=True),
-                 Line(cx, base + bar_h + 6, [Span(f"{value:g}", SEMIBOLD, 10.5, JADE_700)], align="center"),
-                 Line(cx, base - 13, [Span(str(label), REGULAR, 9, INK_3)], align="center"))
+                 Line(cx, base + bar_h + 6, [Span(f"{value:g}", SEMIBOLD, 10.5, pal().figure)], align="center"),
+                 Line(cx, base - 13, [Span(str(label), REGULAR, 9, pal().ink_3)], align="center"))
 
 
 def cover(page: Page, spec: Brand, slide: Slide) -> None:
@@ -485,13 +483,13 @@ def cover(page: Page, spec: Brand, slide: Slide) -> None:
     top = (H + total) / 2 + 6
 
     width = measure(tag, SEMIBOLD, 9, 1.6) + 32
-    page.add(Fill(M, top - 26, width, 26, JADE_600, radius=13, gradient=GRADIENT),
-             Line(M + 16, top - 17, [Span(tag, SEMIBOLD, 9, WHITE)], tracking=1.6))
+    page.add(Fill(M, top - 26, width, 26, pal().primary, radius=13, gradient=pal().gradient),
+             Line(M + 16, top - 17, [Span(tag, SEMIBOLD, 9, pal().on_primary)], tracking=1.6))
     top -= 26 + 30
-    page.add(Line(M, top - size * 0.8, [Span(slide.title, BLACK, size, INK)]))
+    page.add(Line(M, top - size * 0.8, [Span(slide.title, BLACK, size, pal().ink)]))
     top -= size * 1.05 + 14
     if sub:
-        top = text_block(page, M, top, column, sub, 16, colour=INK_2, strong=INK_2, leading=1.32)
+        top = text_block(page, M, top, column, sub, 16, colour=pal().ink_2, strong=pal().ink_2, leading=1.32)
     top -= 28
     card(page, M, top - card_h, column, card_h, side=True)
     y = text_block(page, M + 28, top - 24, inner, [(first, BOLD)], 15, leading=1.3) - 6
@@ -507,7 +505,7 @@ def market(page: Page, slide: Slide, top: float) -> None:
     stack(page, items, Area(M, top, left, top - BOTTOM), min_h=56)
     x = W - M - ring
     bottom = top - ring - (top - BOTTOM - ring) / 2
-    page.add(Picture(x, bottom, ring, ring, art.market_rings()))
+    page.add(Picture(x, bottom, ring, ring, art.market_rings(pal().soft, pal().soft_warm)))
     # The rings carry no labels: OCR would read them into the cards' sentences. Each card names its ring.
 
 
@@ -534,7 +532,7 @@ def traction(page: Page, slide: Slide, top: float) -> None:
 def chart_card(page: Page, chart: dict, rows: list[list[str]], x: float, top: float, w: float, h: float) -> None:
     """A card with the chart's title, its bars and (if given) the table of its numbers."""
     card(page, x, top - h, w, h, bar=True)
-    page.add(Line(x + 18, top - 30, [Span(chart["title"], SEMIBOLD, 11, INK)]))
+    page.add(Line(x + 18, top - 30, [Span(chart["title"], SEMIBOLD, 11, pal().ink)]))
     chart_h = min(w * 3.1 / 4.2, h - 60) - 18
     if rows:
         chart_h = min(chart_h, h - 70 - table_height(rows, w - 32, 9.5))
@@ -648,7 +646,7 @@ def gtm(page: Page, slide: Slide, top: float) -> None:
     y = balanced(Area(M, top, W - 2 * M, top - BOTTOM), sum(heights) + gap * (len(columns) - 1))
     for (heading, items, warm), h in zip(columns, heights, strict=True):
         card(page, M, y - h, W - 2 * M, h, bar=True, warm=warm)
-        page.add(Line(M + pad, y - 30, [Span(heading, BOLD, 14, INK)]))
+        page.add(Line(M + pad, y - 30, [Span(heading, BOLD, 14, pal().ink)]))
         ty = y - head
         for bullet in items:  # no bullet dots: once a deck is scanned, OCR tries to read them
             ty = text_block(page, M + pad, ty, width, labelled(bullet), size) - 7
@@ -677,7 +675,7 @@ def ask(page: Page, spec: Brand, slide: Slide, top: float) -> None:
         w = W - M - x
         h = y - BOTTOM
         card(page, x, y - h, w, h, bar=True)
-        page.add(Line(x + 22, y - 32, [Span("Released in tranches, on milestones", BOLD, 13, INK)]))
+        page.add(Line(x + 22, y - 32, [Span("Released in tranches, on milestones", BOLD, 13, pal().ink)]))
         size = next(s for s in (11, 10.5, 10, 9.5, 9, 8.5)
                     if sum(block_height(labelled(t), s, w - 70) + 14 for t in tranches) <= h - 66 or s == 8.5)
         ty = y - 52
@@ -685,16 +683,24 @@ def ask(page: Page, spec: Brand, slide: Slide, top: float) -> None:
         for text in tranches:
             nodes.append(ty)
             ty = text_block(page, x + 50, ty + size * 0.15, w - 70, labelled(text), size) - 14
-        page.add(Fill(x + 29, nodes[-1] - 5, 2.4, nodes[0] - nodes[-1], GRADIENT[0], gradient=GRADIENT[::-1],
+        page.add(Fill(x + 29, nodes[-1] - 5, 2.4, nodes[0] - nodes[-1], pal().gradient[0], gradient=pal().gradient[::-1],
                       vertical=True))
         for i, ny in enumerate(nodes):
-            colours = WARM if i == len(nodes) - 1 else GRADIENT
-            page.add(Disc(x + 30.2, ny - 5, 7.5, WHITE), Disc(x + 30.2, ny - 5, 5.5, colours[0], gradient=colours))
+            colours = pal().warm if i == len(nodes) - 1 else pal().gradient
+            page.add(Disc(x + 30.2, ny - 5, 7.5, pal().card), Disc(x + 30.2, ny - 5, 5.5, colours[0], gradient=colours))
 
 
-def lay_out(spec: Brand, slide: Slide, number: int, total: int) -> Page:
-    """One slide as shapes."""
-    page = Page(notes=slide.notes)
+def lay_out(spec: Brand, slide: Slide, number: int, total: int, palette: Palette = AURA) -> Page:
+    """One slide as shapes, in ``palette``'s colours."""
+    token = _PALETTE.set(palette)
+    try:
+        return _lay_out(spec, slide, number, total, palette)
+    finally:
+        _PALETTE.reset(token)
+
+
+def _lay_out(spec: Brand, slide: Slide, number: int, total: int, palette: Palette) -> Page:
+    page = Page(notes=slide.notes, palette=palette)
     logo(page, spec)
     footer(page, spec, number, total)
     extras = {kind for kind, present in (("table", slide.table), ("chart", slide.chart)) if present}

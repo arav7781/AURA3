@@ -9,6 +9,7 @@ from pydantic import BaseModel, Field, field_validator, model_validator
 
 from aura.decks.design import Brand
 from aura.decks.slides import Slide
+from aura.decks.theme import PALETTES, Palette, with_brand
 
 Kind = Literal["cover", "problem", "solution", "market", "business_model", "traction", "unit_economics",
                "competition", "gtm", "roadmap", "team", "ask", "custom"]
@@ -61,8 +62,30 @@ class DraftSlide(BaseModel):
         return [[str(cell) for cell in (row + [""] * cols)[:cols]] for row in table[:8]]
 
 
+Theme = Literal["aura", "aura_dark", "ocean", "vibrant", "graphite"]
+HEX = r"^#?[0-9a-fA-F]{6}$"
+
+
+class DeckDesign(BaseModel):
+    theme: Theme = Field(default="aura", description=(
+        "aura: AURA3's light jade and marigold (default); aura_dark: evergreen night, light text on dark; ocean: "
+        "light, blue to cyan; vibrant: light, purple to pink to orange; graphite: minimal black and grey, red accent"))
+    brand_color: str | None = Field(default=None, pattern=HEX,
+                                    description="The startup's brand colour, e.g. '#E11D48': recolours the theme around it")
+    accent_color: str | None = Field(default=None, pattern=HEX, description="Optional second colour for highlights")
+
+    def palette(self) -> Palette:
+        base = PALETTES[self.theme]
+        return with_brand(base, self.brand_color, self.accent_color) if self.brand_color else base
+
+    def label(self) -> str:
+        label = PALETTES[self.theme].label
+        return f"{label}, brand {self.brand_color.lstrip('#').upper()}" if self.brand_color else label
+
+
 class DeckDraft(BaseModel):
     slides: list[DraftSlide] = Field(min_length=3, max_length=14, description="The whole deck in order, cover first")
+    design: DeckDesign = Field(default_factory=DeckDesign, description="The look; the content is the same in any design")
 
 
 MARKER = re.compile(r"\s?\[(?:c|w)\s?:[^\]]{1,20}\]")

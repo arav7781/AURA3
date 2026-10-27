@@ -8,7 +8,7 @@ from functools import cache
 import numpy as np
 from PIL import Image, ImageDraw
 
-from aura.decks.theme import JADE_50, JADE_100, JADE_200, MARIGOLD_100, MARIGOLD_300, RGB
+from aura.decks.theme import RGB
 
 SCALE = 4
 
@@ -56,11 +56,11 @@ RING_FRACTIONS = (1.0, 0.66, 0.36)  # TAM, SAM, SOM radii, as fractions of the o
 
 
 @cache
-def market_rings(px: int = 640) -> bytes:
-    """Three nested circles sharing their lowest point: TAM, SAM, SOM."""
-    # The innermost circle stays pale: a solid dark disc is read by OCR as a bullet glyph.
-    fills: list[np.ndarray | RGB] = [JADE_50, JADE_100, MARIGOLD_100]
-    edges: list[RGB | None] = [JADE_200, JADE_200, MARIGOLD_300]
+def market_rings(soft: tuple[RGB, RGB, RGB], soft_warm: tuple[RGB, RGB], px: int = 640) -> bytes:
+    """Three nested circles sharing their lowest point: TAM, SAM, SOM, in a palette's pale tints. The innermost
+    stays pale too: a solid dark disc is read by OCR as a bullet glyph."""
+    fills: list[np.ndarray | RGB] = [soft[0], soft[1], soft_warm[0]]
+    edges: list[RGB | None] = [soft[2], soft[2], soft_warm[1]]
     layers: list[tuple[Image.Image, np.ndarray | RGB]] = []
     for fraction, fill, edge in zip(RING_FRACTIONS, fills, edges, strict=True):
         def box(size: int, fraction: float = fraction) -> list[float]:

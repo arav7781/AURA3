@@ -11,7 +11,7 @@ from reportlab.pdfgen.canvas import FILL_NON_ZERO
 from aura.decks.design import Brand, Disc, Fill, H, Line, Page, Picture, Shadow, W, lay_out
 from aura.decks.slides import Slide, build_slides
 from aura.decks.spec import StartupSpec
-from aura.decks.theme import JADE_900, PAPER, RGB, WASH, register_fonts, unit
+from aura.decks.theme import AURA, RGB, Palette, register_fonts, unit
 
 
 def _colour(rgb: RGB) -> Color:
@@ -25,13 +25,13 @@ def _gradient_clip(c: canvas.Canvas, path, x0: float, y0: float, x1: float, y1: 
     c.restoreState()
 
 
-def _background(c: canvas.Canvas) -> None:
+def _background(c: canvas.Canvas, palette: Palette) -> None:
     # A solid sheet first: the hidden-text check compares text with the fills behind it.
-    c.setFillColorRGB(*unit(PAPER))
+    c.setFillColorRGB(*unit(palette.base))
     c.rect(0, 0, W, H, fill=1, stroke=0)
     path = c.beginPath()
     path.rect(0, 0, W, H)
-    _gradient_clip(c, path, 0, H, W, 0, WASH)
+    _gradient_clip(c, path, 0, H, W, 0, palette.wash)
 
 
 def _fill(c: canvas.Canvas, s: Fill) -> None:
@@ -64,9 +64,9 @@ def _disc(c: canvas.Canvas, s: Disc) -> None:
         _gradient_clip(c, path, s.cx - s.r, s.cy + s.r, s.cx + s.r, s.cy - s.r, s.gradient)
 
 
-def _shadow(c: canvas.Canvas, s: Shadow) -> None:
+def _shadow(c: canvas.Canvas, s: Shadow, colour: RGB) -> None:
     c.saveState()
-    c.setFillColorRGB(*unit(JADE_900))
+    c.setFillColorRGB(*unit(colour))
     for i, alpha in enumerate((0.018, 0.016, 0.014, 0.012, 0.01)):
         spread, drop = 0.8 + i * 1.3, 1.2 + i * 1.2  # reaches at most ~11pt below a card
         c.setFillAlpha(alpha)
@@ -90,14 +90,14 @@ def _picture(c: canvas.Canvas, s: Picture) -> None:
 
 
 def draw_page(c: canvas.Canvas, page: Page) -> None:
-    _background(c)
+    _background(c, page.palette)
     for shape in page.shapes:
         if isinstance(shape, Fill):
             _fill(c, shape)
         elif isinstance(shape, Disc):
             _disc(c, shape)
         elif isinstance(shape, Shadow):
-            _shadow(c, shape)
+            _shadow(c, shape, page.palette.shadow)
         elif isinstance(shape, Line):
             _line(c, shape)
         elif isinstance(shape, Picture):
@@ -106,7 +106,7 @@ def draw_page(c: canvas.Canvas, page: Page) -> None:
         _line(c, line)
 
 
-def render_slides_pdf(brand: Brand, slides: list[Slide]) -> bytes:
+def render_slides_pdf(brand: Brand, slides: list[Slide], palette: Palette = AURA) -> bytes:
     register_fonts()
     buf = io.BytesIO()
     c = canvas.Canvas(buf, pagesize=(W, H), invariant=1, pageCompression=1)
@@ -115,7 +115,7 @@ def render_slides_pdf(brand: Brand, slides: list[Slide]) -> bytes:
     c.setCreator("AURA-3 deck builder")
     c.setProducer("AURA-3 deck builder")
     for number, slide in enumerate(slides, start=1):
-        draw_page(c, lay_out(brand, slide, number, len(slides)))
+        draw_page(c, lay_out(brand, slide, number, len(slides), palette))
         c.showPage()
     c.save()
     return buf.getvalue()

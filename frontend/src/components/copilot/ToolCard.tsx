@@ -1,17 +1,17 @@
 'use client'
 
-import { useState } from 'react'
+import { useContext, useState } from 'react'
 import Link from 'next/link'
-import { AlertTriangle, BarChart3, Check, ChevronDown, Download, ExternalLink, FileSearch, FileText, Globe, Loader2, Lock, MessageSquare, Paperclip, Presentation, Search, SquareTerminal, Table2, Building2 } from 'lucide-react'
+import { AlertTriangle, BarChart3, Check, ChevronDown, Download, ExternalLink, FileSearch, FileText, Globe, Loader2, Lock, MessageSquare, Palette, Paperclip, Presentation, Search, SquareTerminal, Table2, Building2 } from 'lucide-react'
 import { clsx } from 'clsx'
-import type { Card, Part } from '@/lib/copilot'
+import { AskContext, type Card, type Part } from '@/lib/copilot'
 import { Badge, FlagBadges, RecommendationBadge, ScoreRing, STAGE_LABELS } from '@/components/ui'
 
 type ToolPart = Extract<Part, { type: 'tool' }>
 
 const ICONS: Record<string, typeof Search> = {
   search_startups: Search, get_startup: Building2, list_documents: FileText, search_documents: FileSearch,
-  read_page: FileText, read_attachment: Paperclip, build_pitch_deck: Presentation, run_python: SquareTerminal, get_evaluation: BarChart3, compare_startups: Table2, get_reviews: MessageSquare, web_search: Globe,
+  read_page: FileText, read_attachment: Paperclip, build_pitch_deck: Presentation, restyle_pitch_deck: Palette, run_python: SquareTerminal, get_evaluation: BarChart3, compare_startups: Table2, get_reviews: MessageSquare, web_search: Globe,
 }
 
 function label(part: ToolPart): string {
@@ -24,6 +24,7 @@ function label(part: ToolPart): string {
     case 'search_documents': return `Searched documents · “${a.query}”${who}`
     case 'read_page': return `Read page ${a.page}${who}`
     case 'run_python': return part.status === 'running' ? `Running Python in the sandbox${a.purpose ? ` · ${a.purpose}` : ''}…` : `Ran Python${a.purpose ? ` · ${a.purpose}` : ''}`
+    case 'restyle_pitch_deck': return part.status === 'running' ? 'Restyling your deck…' : `Restyled your deck${a.theme ? ` · ${String(a.theme).replace('_', ' ')}` : ''}${a.brand_color ? ` · ${a.brand_color}` : ''}`
     case 'build_pitch_deck': return part.status === 'running' ? 'Designing your deck and checking it with TitanOCR…' : 'Built your pitch deck'
     case 'read_attachment': return `Read your attached file${a.page ? ` · page ${a.page}` : ''}${a.document ? ` · ${a.document}` : ''}`
     case 'get_evaluation': return `AI evaluation${who}`
@@ -222,6 +223,7 @@ function Body({ card }: { card: Card }) {
             </span>
           </div>
           <p className="text-xs text-slate-500">A private draft in this conversation: investors don&apos;t see it, and your published deck is unchanged.</p>
+          {card.designs && <DesignPicker card={card} />}
         </div>
       )
     case 'error':
@@ -234,6 +236,38 @@ function Body({ card }: { card: Card }) {
     default:
       return null
   }
+}
+
+/** Switch a built deck's design in one click: each choice asks the copilot to restyle it (same content). */
+function DesignPicker({ card }: { card: Card }) {
+  const ask = useContext(AskContext)
+  const [colour, setColour] = useState(card.design?.brand_color ?? '#157b5b')
+  return (
+    <div className="rounded-lg border border-slate-200 bg-white p-3">
+      <p className="text-xs font-semibold text-slate-700">Design <span className="font-normal text-slate-500">· now {card.design?.label}</span></p>
+      <div className="mt-2 flex flex-wrap items-center gap-1.5">
+        {card.designs.map((d: Card) => {
+          const current = d.theme === card.design?.theme && !card.design?.brand_color
+          return (
+            <button key={d.theme} type="button" disabled={!ask || current}
+                    onClick={() => ask?.(`Restyle my deck in the ${d.label} design`)}
+                    className={`inline-flex items-center gap-1.5 rounded-full border px-2.5 py-1 text-xs font-semibold transition-colors ${current ? 'border-jade-600 bg-jade-50 text-jade-700' : 'border-slate-200 text-slate-700 hover:border-slate-400 disabled:opacity-50'}`}>
+              <span className="flex -space-x-1">
+                {d.swatch.map((c: string, i: number) => <span key={i} className="h-3 w-3 rounded-full ring-1 ring-black/10" style={{ background: c }} />)}
+              </span>
+              {d.label}
+            </button>
+          )
+        })}
+        <span className="inline-flex items-center gap-1.5 rounded-full border border-slate-200 py-0.5 pl-1 pr-1.5">
+          <input type="color" value={colour} onChange={e => setColour(e.target.value)} aria-label="Brand colour"
+                 className="h-5 w-5 cursor-pointer rounded-full border-0 bg-transparent p-0" />
+          <button type="button" disabled={!ask} onClick={() => ask?.(`Restyle my deck with my brand colour ${colour}`)}
+                  className="text-xs font-semibold text-slate-700 hover:text-ink disabled:opacity-50">My brand colour</button>
+        </span>
+      </div>
+    </div>
+  )
 }
 
 export function ToolCard({ part }: { part: ToolPart }) {

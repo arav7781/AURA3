@@ -17,7 +17,7 @@ from pptx.util import Emu, Pt
 from aura.decks.design import Brand, Disc, Fill, H, Line, Page, Picture, Shadow, W, lay_out
 from aura.decks.slides import Slide, build_slides
 from aura.decks.spec import StartupSpec
-from aura.decks.theme import JADE_900, PPTX_FONTS, RGB, WASH
+from aura.decks.theme import AURA, PPTX_FONTS, RGB, Palette
 
 FIXED_DATE = datetime(2026, 1, 1)
 EMU = 12700  # per point
@@ -49,13 +49,13 @@ def _gradient(fill, stops: list[RGB], angle: float) -> None:
     lin.set("scaled", "0")
 
 
-def _soft_shadow(shape) -> None:
+def _soft_shadow(shape, colour: RGB) -> None:
     sp_pr = shape._element.spPr
     effects = etree.SubElement(sp_pr, qn("a:effectLst"))
     shadow = etree.SubElement(effects, qn("a:outerShdw"), blurRad="190500", dist="38100", dir="5400000",
                               algn="t", rotWithShape="0")
-    colour = etree.SubElement(shadow, qn("a:srgbClr"), val=_hex(JADE_900))
-    etree.SubElement(colour, qn("a:alpha"), val="9000")
+    tint = etree.SubElement(shadow, qn("a:srgbClr"), val=_hex(colour))
+    etree.SubElement(tint, qn("a:alpha"), val="9000")
 
 
 def _shape(slide, kind, x: float, y: float, w: float, h: float):
@@ -65,7 +65,7 @@ def _shape(slide, kind, x: float, y: float, w: float, h: float):
     return shape
 
 
-def _fill(slide, s: Fill, shadow: bool) -> None:
+def _fill(slide, s: Fill, shadow: RGB | None) -> None:
     shape = _shape(slide, MSO_SHAPE.ROUNDED_RECTANGLE if s.radius else MSO_SHAPE.RECTANGLE, s.x, s.y, s.w, s.h)
     if s.radius:
         shape.adjustments[0] = min(0.5, s.radius / max(1e-6, min(s.w, s.h)))
@@ -80,7 +80,7 @@ def _fill(slide, s: Fill, shadow: bool) -> None:
         shape.line.color.rgb = RGBColor(*s.stroke)
         shape.line.width = _emu(s.stroke_width)
     if shadow:
-        _soft_shadow(shape)
+        _soft_shadow(shape, shadow)
 
 
 def _disc(slide, s: Disc) -> None:
@@ -119,14 +119,14 @@ def _picture(slide, s: Picture) -> None:
 
 
 def draw_page(slide, page: Page) -> None:
-    _gradient(slide.background.fill, WASH, 45)
+    _gradient(slide.background.fill, page.palette.wash, 45)
     shadow = False
     for shape in page.shapes:
         if isinstance(shape, Shadow):
             shadow = True  # applied to the card drawn next
             continue
         if isinstance(shape, Fill):
-            _fill(slide, shape, shadow)
+            _fill(slide, shape, page.palette.shadow if shadow else None)
         elif isinstance(shape, Disc):
             _disc(slide, shape)
         elif isinstance(shape, Line):
@@ -152,12 +152,12 @@ def _stable_zip(data: bytes) -> bytes:
     return out.getvalue()
 
 
-def render_slides_pptx(brand: Brand, slides: list[Slide]) -> bytes:
+def render_slides_pptx(brand: Brand, slides: list[Slide], palette: Palette = AURA) -> bytes:
     deck = Presentation()
     deck.slide_width, deck.slide_height = _emu(W), _emu(H)
     blank = deck.slide_layouts[6]
     for number, slide in enumerate(slides, start=1):
-        draw_page(deck.slides.add_slide(blank), lay_out(brand, slide, number, len(slides)))
+        draw_page(deck.slides.add_slide(blank), lay_out(brand, slide, number, len(slides), palette))
     props = deck.core_properties
     props.title = f"{brand.name} — pitch deck"
     props.author = props.last_modified_by = brand.legal_name

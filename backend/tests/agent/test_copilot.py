@@ -11,6 +11,7 @@ from langchain_core.messages import AIMessageChunk
 from sqlalchemy import select, update
 
 from aura.core.db import write_tx
+from aura.ingest.chunker import citation_id
 from aura.models import Chunk, Document, Startup, UsageCounter
 from tests.api.test_jobs import read_events
 from tests.conftest import register
@@ -277,7 +278,8 @@ async def fake_deck_ingest(ctx, document_id: str, **_):
         doc = s.get(Document, document_id)
         doc.status, doc.page_count = "ready", len(pdf)
         for n in range(len(pdf)):
-            s.add(Chunk(id=str(uuid.uuid4()), cid=f"c:{'abcdefghijk'[n]}deckzz", document_id=doc.id, startup_id=doc.startup_id,
+            chunk_id = str(uuid.uuid4())
+            s.add(Chunk(id=chunk_id, cid=citation_id(chunk_id), document_id=doc.id, startup_id=doc.startup_id,
                         seq=n, page_no=n + 1, text=pdf[n].get_textpage().get_text_range(), bbox=[0, 0, 1, 1],
                         origin="digital", conf_min=1.0, conf_mean=1.0, n_tokens=10, visibility="private"))
     return {"document_id": document_id}
@@ -353,3 +355,23 @@ def test_run_python_runs_in_the_sandbox_and_returns_its_files(client):
 
     register(client, plan="angel")  # someone else cannot fetch the file
     assert client.get(card["files"][0]["url"]).status_code == 404
+
+
+def test_a_built_deck_can_be_restyled_without_rewriting_it(client):
+    published_startup(client)
+    thread = client.post("/api/copilot/threads", json={}).json()
+    draft = {**DRAFT, "design": {"theme": "ocean"}}
+    fake = FakeChat([[call("build_pitch_deck", draft)], text("Built."),
+                     [call("restyle_pitch_deck", {"theme": "aura_dark"})], text("Restyled."),
+                     [call("restyle_pitch_deck", {"theme": "aura", "brand_color": "#E11D48"})], text("In your colour.")])
+    with patch("aura.agent.graph.chat_model", return_value=fake), patch("aura.agent.tools.ingest_document", fake_deck_ingest):
+        for question in ("Build my deck in Ocean", "Make it dark", "Use my brand colour #E11D48"):
+            wait(client, ask(client, thread["id"], question)["run_id"])
+    tools = [p for m in client.get(f"/api/copilot/threads/{thread['id']}").json()["messages"]
+             for p in m["parts"] if p.get("type") == "tool"]
+    assert all(t["status"] == "done" for t in tools), [t["card"] for t in tools if t["status"] != "done"]
+    cards = [t["card"] for t in tools]
+    assert [c["design"]["label"] for c in cards] == ["Ocean", "Evergreen night", "AURA3, brand E11D48"]
+    assert len({c["document_id"] for c in cards}) == 3 and cards[1]["filename"].endswith("_Evergreen_night.pdf")
+    assert cards[0]["slides"] == cards[1]["slides"] == cards[2]["slides"]  # same content, new look
+    assert {d["theme"] for d in cards[0]["designs"]} == {"aura", "aura_dark", "ocean", "vibrant", "graphite"}

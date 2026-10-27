@@ -11,7 +11,7 @@ import { MessageView } from '@/components/copilot/MessageView'
 import { useAuth } from '@/context/AuthContext'
 import { api, errorMessage } from '@/lib/api/client'
 import { useStartup } from '@/lib/api/hooks'
-import { attachFile, useRun, useThread, useThreads, type Thread } from '@/lib/copilot'
+import { AskContext, attachFile, useRun, useThread, useThreads, type Thread } from '@/lib/copilot'
 import { useJob, type JobState } from '@/lib/useJob'
 
 export default function CopilotPage() {
@@ -251,9 +251,11 @@ function Copilot() {
               </div>
             </div>
           ) : (
-            <div className="mx-auto max-w-3xl space-y-6">
-              {messages.map(m => <MessageView key={m.id} message={m} />)}
-            </div>
+            <AskContext.Provider value={run.running ? null : text => { void send(text) }}>
+              <div className="mx-auto max-w-3xl space-y-6">
+                {messages.map(m => <MessageView key={m.id} message={m} />)}
+              </div>
+            </AskContext.Provider>
           )}
         </div>
 
