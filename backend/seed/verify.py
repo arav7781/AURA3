@@ -26,9 +26,10 @@ from aura.rag import store
 SPECS = Path(__file__).parent / "specs"
 
 
-async def _points(startup_id: str) -> int:
+async def _points(document_id: str) -> int:
+    """Vectors of one document (a startup may also have private drafts from copilot conversations)."""
     result = await store.client().count(store.names.chunks, exact=True, count_filter=models.Filter(
-        must=[models.FieldCondition(key="startup_id", match=models.MatchValue(value=startup_id))]))
+        must=[models.FieldCondition(key="doc_id", match=models.MatchValue(value=document_id))]))
     return result.count
 
 
@@ -63,7 +64,7 @@ async def verify() -> int:
                 continue
             doc = ready[0]
             chunks = s.scalar(select(func.count()).select_from(Chunk).where(Chunk.document_id == doc.id)) or 0
-            points = await _points(startup.id)
+            points = await _points(doc.id)
             if chunks == 0 or chunks != points:
                 failures.append(f"{spec.slug}: {chunks} chunks in the database, {points} in Qdrant")
             if doc.page_count != 11:

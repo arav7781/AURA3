@@ -250,3 +250,69 @@ def test_search_and_publishing_leave_attachments_out():
 
     flt = build_filter(SearchRequest(query="TAM"), AccessScope(("public",), own_startup_id="s1"))
     assert [c.key for c in flt.must_not] == ["doc_kind"] and flt.must_not[0].match.any == ["attachment"]
+
+
+DRAFT = {"slides": [
+    {"kind": "cover", "title": "Test Agritech", "subtitle": "Soil sensors for smallholders", "bullets": ["Seed round: raising Rs 2.5 crore"]},
+    {"kind": "traction", "title": "Traction", "subtitle": "4x ARR growth in 12 months",
+     "stats": [{"value": "Rs 1.6 crore", "label": "ARR, FY2026"}, {"value": "4,100", "label": "Sensors deployed"}],
+     "chart": {"title": "ARR (Rs crore)", "labels": ["FY2025", "FY2026"], "values": [0.4, 1.6]},
+     "bullets": ["Cooperatives: 7 partnered, up from 3"]},
+    {"kind": "business_model", "title": "Business Model",
+     "table": [["Stream", "Share", "Gross margin"], ["Hardware", "40%", "35%"], ["Subscription", "60%", "72%"]],
+     "bullets": ["LTV / CAC: 4.0x with a 6-month payback"]},
+    {"kind": "ask", "title": "The Ask", "stats": [{"value": "Rs 2.5 crore", "label": "Seed round"}],
+     "bullets": ["Use of funds: 50% deployment, 30% product, 20% team"]},
+]}
+
+
+async def fake_deck_ingest(ctx, document_id: str, **_):
+    """Stands in for TitanOCR: one passage per page with the PDF's own text."""
+    import pypdfium2 as pdfium
+
+    from aura.ingest.storage import document_dir
+    pdf = pdfium.PdfDocument(str(document_dir(document_id) / "source.pdf"))
+    with write_tx() as s:
+        doc = s.get(Document, document_id)
+        doc.status, doc.page_count = "ready", len(pdf)
+        for n in range(len(pdf)):
+            s.add(Chunk(id=str(uuid.uuid4()), cid=f"c:{'abcdefghijk'[n]}deckzz", document_id=doc.id, startup_id=doc.startup_id,
+                        seq=n, page_no=n + 1, text=pdf[n].get_textpage().get_text_range(), bbox=[0, 0, 1, 1],
+                        origin="digital", conf_min=1.0, conf_mean=1.0, n_tokens=10, visibility="private"))
+    return {"document_id": document_id}
+
+
+def test_founders_get_a_designed_deck_they_can_download(client):
+    startup_id = published_startup(client)
+    thread = client.post("/api/copilot/threads", json={}).json()
+    fake = FakeChat([[call("build_pitch_deck", DRAFT)], text("Your deck is ready: download it above.")])
+    with patch("aura.agent.graph.chat_model", return_value=fake), patch("aura.agent.tools.ingest_document", fake_deck_ingest):
+        wait(client, ask(client, thread["id"], "Create my pitch deck as a PPT")["run_id"])
+    answer = client.get(f"/api/copilot/threads/{thread['id']}").json()["messages"][-1]
+    tool = next(p for p in answer["parts"] if p["type"] == "tool")
+    assert tool["status"] == "done", tool
+    card = tool["card"]
+    assert card["type"] == "deck" and card["pages"] == 4 and card["slides"][0] == "Test Agritech"
+    assert card["check"]["figures"] >= 8 and card["check"]["missing"] == []
+    assert "found all" in fake.calls[1][-1].content
+
+    pptx = client.get(card["pptx_url"])
+    assert pptx.status_code == 200 and pptx.content[:2] == b"PK" and pptx.headers["content-disposition"].endswith('.pptx"')
+    assert client.get(card["pdf_url"]).content[:5] == b"%PDF-"
+    with write_tx() as s:
+        doc = s.get(Document, card["document_id"])
+        assert (doc.kind, doc.thread_id, doc.visibility) == ("generated_deck", thread["id"], "private")
+    # a private draft: not among the startup's documents, and the next turn can read it
+    assert all(d["id"] != card["document_id"] for d in client.get(f"/api/startups/{startup_id}/documents").json()["items"])
+    fake2 = FakeChat([[call("read_attachment", {"page": 2})], text("Slide 2 shows ARR Rs 1.6 crore.")])
+    with patch("aura.agent.graph.chat_model", return_value=fake2):
+        wait(client, ask(client, thread["id"], "What does slide 2 say?")["run_id"])
+    assert "Rs 1.6 crore" in fake2.calls[1][-1].content
+
+    register(client, plan="syndicate")
+    mine = client.post("/api/copilot/threads", json={}).json()
+    fake3 = FakeChat([[call("build_pitch_deck", DRAFT)], text("Only founders can.")])
+    with patch("aura.agent.graph.chat_model", return_value=fake3):
+        wait(client, ask(client, mine["id"], "make a deck")["run_id"])
+    tool = next(p for p in client.get(f"/api/copilot/threads/{mine['id']}").json()["messages"][-1]["parts"] if p["type"] == "tool")
+    assert tool["status"] == "error" and tool["card"]["code"] == "FORBIDDEN"

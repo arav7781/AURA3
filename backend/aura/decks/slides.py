@@ -24,6 +24,7 @@ class Slide:
     notes: str | None = None  # PPTX speaker notes
     hidden: str | None = None  # white text a reader cannot see (adversarial decks only)
     facts: dict[str, str] = field(default_factory=dict)  # spec field → the text that states it
+    stats: list[tuple[str, str]] = field(default_factory=list)  # (figure, label) tiles, e.g. ("4.0x", "LTV / CAC")
 
 
 def number(value: float) -> str:

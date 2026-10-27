@@ -11,134 +11,134 @@
    "traction": 7.8
   },
   "citations": {
-   "c:253xijw": {
+   "c:4rj4xy4": {
     "bbox": [
      0.05939,
      0.12926,
-     0.80272,
-     0.71951
+     0.92303,
+     0.86301
     ],
-    "chunk_id": "3adea21c-9aa8-507e-9364-ecb7505075b1",
-    "document_id": "9108cb3c-d6f1-40f7-9b41-32b1ee978476",
-    "page_no": 4,
-    "slide_title": "Market Opportunity (TAM / SAM / SOM)",
+    "chunk_id": "37146cf5-f12e-5aff-b645-699effc07534",
+    "document_id": "2022aae1-f8ef-47a1-ba46-6cf1739b8279",
+    "page_no": 6,
+    "slide_title": "Traction (as of FY2026)",
     "type": "deck"
    },
-   "c:2apiyvk": {
-    "bbox": [
-     0.05939,
-     0.12926,
-     0.78481,
-     0.7402
-    ],
-    "chunk_id": "6f24a2b4-4db7-5118-9b96-4d5651275df2",
-    "document_id": "9108cb3c-d6f1-40f7-9b41-32b1ee978476",
-    "page_no": 5,
-    "slide_title": "Business Model",
-    "type": "deck"
-   },
-   "c:3z6biny": {
-    "bbox": [
-     0.05939,
-     0.12926,
-     0.9179,
-     0.80352
-    ],
-    "chunk_id": "63780cce-eb82-5d2d-af35-99895e85d549",
-    "document_id": "9108cb3c-d6f1-40f7-9b41-32b1ee978476",
-    "page_no": 8,
-    "slide_title": "Competitive Landscape",
-    "type": "deck"
-   },
-   "c:bh3zge5": {
-    "bbox": [
-     0.05939,
-     0.12926,
-     0.91665,
-     0.79796
-    ],
-    "chunk_id": "5eaeb79c-02e4-5119-a707-61a3690eb72d",
-    "document_id": "9108cb3c-d6f1-40f7-9b41-32b1ee978476",
-    "page_no": 11,
-    "slide_title": "The Ask",
-    "type": "deck"
-   },
-   "c:nuvju7e": {
-    "bbox": [
-     0.05939,
-     0.12926,
-     0.89396,
-     0.71981
-    ],
-    "chunk_id": "c4174ba9-0ebe-55a1-b1a5-4486a170da75",
-    "document_id": "9108cb3c-d6f1-40f7-9b41-32b1ee978476",
-    "page_no": 7,
-    "slide_title": "Unit Economics",
-    "type": "deck"
-   },
-   "c:t6qotqf": {
+   "c:ayfgd3d": {
     "bbox": [
      0.05939,
      0.12926,
      0.84797,
      0.76418
     ],
-    "chunk_id": "152ea067-ebcf-55fd-be9f-7fca422c7143",
-    "document_id": "9108cb3c-d6f1-40f7-9b41-32b1ee978476",
+    "chunk_id": "25be78ff-587c-5a4f-9404-ac54d32cf916",
+    "document_id": "2022aae1-f8ef-47a1-ba46-6cf1739b8279",
     "page_no": 3,
     "slide_title": "Solution",
     "type": "deck"
    },
-   "c:vddfd7t": {
+   "c:fdcpq25": {
     "bbox": [
      0.05939,
      0.12926,
-     0.58624,
-     0.80727
+     0.9179,
+     0.80352
     ],
-    "chunk_id": "4ab40a00-eb87-5d00-aa06-d156c35b12b5",
-    "document_id": "9108cb3c-d6f1-40f7-9b41-32b1ee978476",
-    "page_no": 9,
-    "slide_title": "Go-to-Market & Key Risks",
+    "chunk_id": "3e926536-a565-5524-b32f-1ac5ad8cff96",
+    "document_id": "2022aae1-f8ef-47a1-ba46-6cf1739b8279",
+    "page_no": 8,
+    "slide_title": "Competitive Landscape",
     "type": "deck"
    },
-   "c:vylhscv": {
+   "c:hpwuqxe": {
     "bbox": [
      0.05939,
      0.12926,
-     0.88319,
-     0.70906
+     0.80272,
+     0.71951
     ],
-    "chunk_id": "1b4fad21-bff8-5166-ada0-2754c2a30499",
-    "document_id": "9108cb3c-d6f1-40f7-9b41-32b1ee978476",
-    "page_no": 2,
-    "slide_title": "Problem",
+    "chunk_id": "914d14a0-b6f6-5a38-8370-c2263c361eb6",
+    "document_id": "2022aae1-f8ef-47a1-ba46-6cf1739b8279",
+    "page_no": 4,
+    "slide_title": "Market Opportunity (TAM / SAM / SOM)",
     "type": "deck"
    },
-   "c:wvkdt57": {
+   "c:jrmeqv5": {
     "bbox": [
      0.05939,
      0.12926,
-     0.92303,
-     0.88155
+     0.78481,
+     0.7402
     ],
-    "chunk_id": "373e5dde-33f1-56b6-806a-fc40fc49e740",
-    "document_id": "9108cb3c-d6f1-40f7-9b41-32b1ee978476",
-    "page_no": 6,
-    "slide_title": "Traction (as of FY2026)",
+    "chunk_id": "c1c5ba23-3b87-5272-9669-6f2bf39c7612",
+    "document_id": "2022aae1-f8ef-47a1-ba46-6cf1739b8279",
+    "page_no": 5,
+    "slide_title": "Business Model",
     "type": "deck"
    },
-   "c:xiit2wj": {
+   "c:m7h3uvx": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.89396,
+     0.71981
+    ],
+    "chunk_id": "c8817b2d-cdec-5954-8428-bfeff2e07fa5",
+    "document_id": "2022aae1-f8ef-47a1-ba46-6cf1739b8279",
+    "page_no": 7,
+    "slide_title": "Unit Economics",
+    "type": "deck"
+   },
+   "c:njvfhnr": {
     "bbox": [
      0.05939,
      0.12926,
      0.86948,
      0.75157
     ],
-    "chunk_id": "2c584d43-af1c-5ee4-b906-3418c96ef73b",
-    "document_id": "9108cb3c-d6f1-40f7-9b41-32b1ee978476",
+    "chunk_id": "98ae3ac4-126d-5ae8-a692-dbc984bd4c37",
+    "document_id": "2022aae1-f8ef-47a1-ba46-6cf1739b8279",
     "page_no": 10,
     "slide_title": "Team",
+    "type": "deck"
+   },
+   "c:okzrjlq": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.58624,
+     0.80727
+    ],
+    "chunk_id": "8c2d9990-ad16-50bb-a358-5d6f5d52ac0b",
+    "document_id": "2022aae1-f8ef-47a1-ba46-6cf1739b8279",
+    "page_no": 9,
+    "slide_title": "Go-to-Market & Key Risks",
+    "type": "deck"
+   },
+   "c:upqgtl4": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.88319,
+     0.70906
+    ],
+    "chunk_id": "695986b9-477d-5b03-92b3-bca7803b85b2",
+    "document_id": "2022aae1-f8ef-47a1-ba46-6cf1739b8279",
+    "page_no": 2,
+    "slide_title": "Problem",
+    "type": "deck"
+   },
+   "c:x25rgpy": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.91665,
+     0.79796
+    ],
+    "chunk_id": "169972b2-4771-52a9-9b17-9e81d55f2794",
+    "document_id": "2022aae1-f8ef-47a1-ba46-6cf1739b8279",
+    "page_no": 11,
+    "slide_title": "The Ask",
     "type": "deck"
    },
    "w:1": {
@@ -188,7 +188,7 @@
   ],
   "evidence_version": 2,
   "generated_at": "2026-10-27T06:50:37.762260Z",
-  "input_hash": "489b4ab9425f5529a15e8164836779895e95734be40543a6e3ee196c1672871a",
+  "input_hash": "ce18ab8f2aba9b7de1913bcbcd9071a9616a6a633d115ca1c3863539655cf077",
   "invalid_citations": [],
   "market_sizing": {
    "basis": "Only figures traceable to retrieved search excerpts are plotted as market data.",
@@ -205,9 +205,9 @@
        0.80272,
        0.71951
       ],
-      "chunk_id": "3adea21c-9aa8-507e-9364-ecb7505075b1",
-      "cid": "c:253xijw",
-      "document_id": "9108cb3c-d6f1-40f7-9b41-32b1ee978476",
+      "chunk_id": "914d14a0-b6f6-5a38-8370-c2263c361eb6",
+      "cid": "c:hpwuqxe",
+      "document_id": "2022aae1-f8ef-47a1-ba46-6cf1739b8279",
       "page_no": 4
      },
      "currency": "INR",
@@ -290,11 +290,11 @@
       0.05939,
       0.12926,
       0.92303,
-      0.88155
+      0.86301
      ],
-     "chunk_id": "373e5dde-33f1-56b6-806a-fc40fc49e740",
-     "cid": "c:wvkdt57",
-     "document_id": "9108cb3c-d6f1-40f7-9b41-32b1ee978476",
+     "chunk_id": "37146cf5-f12e-5aff-b645-699effc07534",
+     "cid": "c:4rj4xy4",
+     "document_id": "2022aae1-f8ef-47a1-ba46-6cf1739b8279",
      "page_no": 6
     },
     "geography": "",
@@ -314,19 +314,19 @@
    }
   ],
   "recommendation_label": "Buy",
-  "report_markdown": "## 1. Executive Summary\n\nOpsPilot is a Series A B2B SaaS startup that deploys AI agents to resolve customer support tickets end-to-end for D2C brands, acting directly in Shopify, courier and payment systems. The company reports ARR of Rs 12.4 crore in FY2026, up 80% year-on-year, with 260 brands using the platform and 61% of tickets resolved without human intervention [c:wvkdt57]. Net revenue retention is 128% and monthly logo churn is 1.1% [c:nuvju7e]. The round is for Rs 40 crore at Rs 220 crore pre-money, structured in three tranches tied to ARR and Middle East launch milestones [c:bh3zge5]. The product shows clear early product-market fit and strong unit economics, but faces execution risks from LLM dependency, incumbent bundling, and D2C funding cycles [c:vddfd7t]. Overall score: 6.9/10, Buy.\n\n## 2. Problem & Solution\n\nD2C brands spend 3-6% of revenue on customer support (company estimate), with 60-70% of tickets being repetitive order-status, return and refund queries, and ticket volumes spiking 3-5x during sale events [c:vylhscv]. OpsPilot's AI agents resolve these tickets end-to-end on WhatsApp, web chat and email by taking actions in Shopify, courier aggregators and payment gateways\u2014cancelling orders, processing refunds, rescheduling deliveries\u2014while applying brand-specific policies and tone in English, Hindi and Hinglish [c:t6qotqf]. Edge cases are handed off to human agents with full context, and every conversation is QA-scored [c:t6qotqf]. The company reports that 61% of tickets are resolved without a human, demonstrating the solution's effectiveness [c:wvkdt57].\n\n## 3. Market Opportunity\n\nOpsPilot sizes its TAM at Rs 8,500 crore (company estimate) for customer-support software and AI agents serving Indian and South-East Asian e-commerce and D2C brands in 2025, with a SAM of Rs 1,700 crore (company estimate) for Indian D2C brands above Rs 10 crore annual GMV [c:253xijw]. The broader India D2C e-commerce market is valued at USD 108.76 billion in 2026 and projected to reach USD 322.1 billion by 2031 at a CAGR of 24.30% [w:1][w:2]. The India conversational AI market is valued at USD 653.24 million in 2025, growing at 25.61% CAGR to 2034 [w:9], and the India helpdesk automation market is valued at USD 444.5 million in 2025, growing at 25.65% CAGR to 2034 [w:19]. The company's SOM projection of Rs 120 crore by 2029 is a company projection [c:253xijw]. The TAM and SAM are self-estimated and scoped narrowly, but the underlying market tailwinds are strong and independently verified.\n\n## 4. Competitive Landscape\n\nOpsPilot competes with global helpdesk software (Zendesk, Freshworks) and enterprise conversational-AI platforms (Yellow.ai) [c:3z6biny]. The company claims three edges: deep action integrations with the Indian commerce stack (storefronts, couriers, payments), resolution data from over 12 million conversations since 2023, and outcome-based pricing that aligns revenue with brand savings [c:3z6biny]. Yellow.ai, a well-funded competitor, has raised over USD 356.6 million and handles 16 billion conversations annually for 650+ enterprise clients [w:16][w:17]. The company acknowledges risks from helpdesk incumbents bundling AI agents and from dependency on third-party LLM providers [c:vddfd7t]. The moat score of 5.8 reflects meaningful switching costs from integrations and data, but the space has well-funded competitors and no evidence of multiple reinforcing moats.\n\n## 5. Business Model\n\nOpsPilot uses a dual revenue model: a per-resolution fee of Rs 18 per resolved conversation (72% of revenue) and a platform subscription averaging Rs 11,000 per month (28% of revenue) [c:2apiyvk]. Gross margin is 72% after LLM and messaging costs [c:2apiyvk]. The company reports CAC of Rs 270,000, CAC payback of 9.4 months, NRR of 128%, and monthly churn of 1.1% [c:nuvju7e]. The outcome-based pricing means brands pay only for tickets the AI resolves, aligning incentives [c:2apiyvk]. The unit economics are strong, though the CAC payback period is above the 6-month threshold often preferred for SaaS. The company's own figures are company-reported and unverified.\n\n## 6. Team Assessment\n\nThe four co-founders bring relevant domain experience: Ananya Krishnan (CEO) spent 8 years as head of customer experience at a large D2C beauty brand; Vivek Saxena (CTO) was a staff engineer on conversational-AI products; Rhea D'Souza (Sales) scaled SMB SaaS sales teams in India and South-East Asia; Karan Malhotra (AI) built retrieval and agent systems as an ex-ML lead [c:xiit2wj]. The team has no evidence of prior startup scaling or repeated successes, which is a gap. The MCA registry confirms the company is active with CIN U62099KA2022PTC163728 and the four named directors [compliance_fixture]. No compliance flags were raised. The deck does not attempt to instruct the evaluator.\n\n## 7. Traction & Milestones\n\n**Traction & Milestones**\n\n- **ARR growth:** ARR reached Rs 12.4 crore in FY2026, up 80% year-on-year from Rs 6.9 crore in FY2025 (company-reported, unverified) [c:wvkdt57]. Historical ARR: Rs 0.8 crore (FY2023), Rs 3.1 crore (FY2024), Rs 6.9 crore (FY2025), Rs 12.4 crore (FY2026) [c:wvkdt57].\n- **Customer base:** 260 D2C brands use the platform; 41 are on annual contracts above Rs 10 lakh [c:wvkdt57]. Monthly logo churn is 1.1% [c:nuvju7e].\n- **Resolution performance:** 61% of tickets are resolved without human intervention; approximately 4.1 lakh conversations are resolved by AI every month [c:wvkdt57][c:nuvju7e].\n- **Retention:** Net revenue retention (NRR) is 128% [c:nuvju7e].\n- **Unit economics (company-reported, unverified):** Customer acquisition cost (CAC) Rs 270,000; CAC payback 9.4 months; gross margin 72% [c:nuvju7e].\n- **Milestone target:** The company targets 700 brands and Rs 30 crore ARR within 24 months [c:vddfd7t].\n\n## 8. Compliance & Governance\n\n**Compliance & Governance**\n\n- **Registry status:** The MCA registry confirms CIN U62099KA2022PTC163728, status ACTIVE, registered as OPSPILOT PRIVATE LIMITED. Directors listed: Ananya Krishnan, Vivek Saxena, Rhea D'Souza, Karan Malhotra. No compliance flags were raised.\n- **Data integrity:** The deck does not attempt to instruct the evaluator or override scoring rules. All financial and operational figures are labelled as company-reported and unverified where appropriate.\n- **Governance:** The Series A round is structured in three tranches with milestone conditions (ARR of Rs 20 crore with NRR above 120% within 365 days; Middle East launch with 25 paying brands within 540 days), which aligns investor capital with execution progress [c:bh3zge5].\n\n## 9. Risks & Challenges\n\n**Risks & Challenges**\n\n- **LLM dependency:** The product relies on third-party large language model providers for cost and quality; any price increase or degradation in model performance could directly impact gross margin and resolution quality [c:vddfd7t].\n- **Messaging-platform pricing changes:** Costs could rise if WhatsApp or other messaging channels alter their business API pricing, squeezing the per-resolution fee model [c:vddfd7t].\n- **D2C funding cycles:** The target customer base (D2C brands) is sensitive to venture capital and growth-stage funding cycles; a downturn could reduce customer budgets and slow new logo acquisition [c:vddfd7t].\n- **Incumbent bundling:** Established helpdesk platforms (Zendesk, Freshworks, Yellow.ai) are bundling AI agent capabilities, which could commoditise the offering and increase competitive pressure [c:vddfd7t].\n- **Execution risk on milestones:** The tranche structure ties 60% of capital to achieving specific ARR and geographic expansion milestones; failure to meet these within the stipulated timelines would leave the company undercapitalised [c:bh3zge5].\n\n## 10. Investment Thesis\n\n**Investment Thesis**\n\nOpsPilot is a B2B SaaS startup providing AI agents that resolve customer support tickets end-to-end for D2C brands, with deep integrations into Shopify, courier aggregators, and payment gateways [c:t6qotqf]. The company has demonstrated strong early traction: ARR of Rs 12.4 crore (80% YoY growth), 128% NRR, 61% autonomous resolution rate, and 260 brands onboarded [c:wvkdt57]. The unit economics are healthy (72% gross margin, 9.4-month CAC payback) and the outcome-based pricing model (Rs 18 per resolution + Rs 11,000/month subscription) aligns incentives with customer savings [c:2apiyvk][c:nuvju7e].\n\nThe market opportunity is supported by the rapid growth of India's D2C e-commerce market (USD 108.76B in 2026, 24.3% CAGR) and the broader customer service automation market (USD 15.5B in 2026, 17.9% CAGR) [w:1][w:21]. The company's moat rests on proprietary resolution data from 12M+ conversations and deep integrations with the Indian commerce stack, creating switching costs [c:3z6biny]. However, risks include dependency on third-party LLMs, potential pricing changes from messaging platforms, and competition from well-funded incumbents like Yellow.ai ($356M+ raised) [w:16][c:vddfd7t]. The tranche-based funding structure mitigates some execution risk by tying capital to milestones [c:bh3zge5].\n\n## 11. Recommendation\n\n**Recommendation: Buy**\n\nOverall score: **6.9/10**. The company shows strong product-market fit with impressive traction metrics (80% ARR growth, 128% NRR, 61% autonomous resolution) and a clear value proposition for D2C brands. The market tailwinds are significant, and the unit economics are attractive. Key concerns are the reliance on third-party LLMs, competitive pressure from incumbents, and the execution risk embedded in the milestone-linked tranche structure. The team has relevant domain experience but lacks a track record of scaling a startup. At a Rs 220 crore pre-money valuation with Rs 12.4 crore ARR (approx. 17.7x ARR), the valuation is reasonable for a high-growth SaaS company in this segment. We recommend a Buy with a target to monitor milestone achievement and competitive developments closely.",
+  "report_markdown": "## 1. Executive Summary\n\nOpsPilot is a Series A B2B SaaS startup that deploys AI agents to resolve customer support tickets end-to-end for D2C brands, acting directly in Shopify, courier and payment systems. The company reports ARR of Rs 12.4 crore in FY2026, up 80% year-on-year, with 260 brands using the platform and 61% of tickets resolved without human intervention [c:4rj4xy4]. Net revenue retention is 128% and monthly logo churn is 1.1% [c:m7h3uvx]. The round is for Rs 40 crore at Rs 220 crore pre-money, structured in three tranches tied to ARR and Middle East launch milestones [c:x25rgpy]. The product shows clear early product-market fit and strong unit economics, but faces execution risks from LLM dependency, incumbent bundling, and D2C funding cycles [c:okzrjlq]. Overall score: 6.9/10, Buy.\n\n## 2. Problem & Solution\n\nD2C brands spend 3-6% of revenue on customer support (company estimate), with 60-70% of tickets being repetitive order-status, return and refund queries, and ticket volumes spiking 3-5x during sale events [c:upqgtl4]. OpsPilot's AI agents resolve these tickets end-to-end on WhatsApp, web chat and email by taking actions in Shopify, courier aggregators and payment gateways\u2014cancelling orders, processing refunds, rescheduling deliveries\u2014while applying brand-specific policies and tone in English, Hindi and Hinglish [c:ayfgd3d]. Edge cases are handed off to human agents with full context, and every conversation is QA-scored [c:ayfgd3d]. The company reports that 61% of tickets are resolved without a human, demonstrating the solution's effectiveness [c:4rj4xy4].\n\n## 3. Market Opportunity\n\nOpsPilot sizes its TAM at Rs 8,500 crore (company estimate) for customer-support software and AI agents serving Indian and South-East Asian e-commerce and D2C brands in 2025, with a SAM of Rs 1,700 crore (company estimate) for Indian D2C brands above Rs 10 crore annual GMV [c:hpwuqxe]. The broader India D2C e-commerce market is valued at USD 108.76 billion in 2026 and projected to reach USD 322.1 billion by 2031 at a CAGR of 24.30% [w:1][w:2]. The India conversational AI market is valued at USD 653.24 million in 2025, growing at 25.61% CAGR to 2034 [w:9], and the India helpdesk automation market is valued at USD 444.5 million in 2025, growing at 25.65% CAGR to 2034 [w:19]. The company's SOM projection of Rs 120 crore by 2029 is a company projection [c:hpwuqxe]. The TAM and SAM are self-estimated and scoped narrowly, but the underlying market tailwinds are strong and independently verified.\n\n## 4. Competitive Landscape\n\nOpsPilot competes with global helpdesk software (Zendesk, Freshworks) and enterprise conversational-AI platforms (Yellow.ai) [c:fdcpq25]. The company claims three edges: deep action integrations with the Indian commerce stack (storefronts, couriers, payments), resolution data from over 12 million conversations since 2023, and outcome-based pricing that aligns revenue with brand savings [c:fdcpq25]. Yellow.ai, a well-funded competitor, has raised over USD 356.6 million and handles 16 billion conversations annually for 650+ enterprise clients [w:16][w:17]. The company acknowledges risks from helpdesk incumbents bundling AI agents and from dependency on third-party LLM providers [c:okzrjlq]. The moat score of 5.8 reflects meaningful switching costs from integrations and data, but the space has well-funded competitors and no evidence of multiple reinforcing moats.\n\n## 5. Business Model\n\nOpsPilot uses a dual revenue model: a per-resolution fee of Rs 18 per resolved conversation (72% of revenue) and a platform subscription averaging Rs 11,000 per month (28% of revenue) [c:jrmeqv5]. Gross margin is 72% after LLM and messaging costs [c:jrmeqv5]. The company reports CAC of Rs 270,000, CAC payback of 9.4 months, NRR of 128%, and monthly churn of 1.1% [c:m7h3uvx]. The outcome-based pricing means brands pay only for tickets the AI resolves, aligning incentives [c:jrmeqv5]. The unit economics are strong, though the CAC payback period is above the 6-month threshold often preferred for SaaS. The company's own figures are company-reported and unverified.\n\n## 6. Team Assessment\n\nThe four co-founders bring relevant domain experience: Ananya Krishnan (CEO) spent 8 years as head of customer experience at a large D2C beauty brand; Vivek Saxena (CTO) was a staff engineer on conversational-AI products; Rhea D'Souza (Sales) scaled SMB SaaS sales teams in India and South-East Asia; Karan Malhotra (AI) built retrieval and agent systems as an ex-ML lead [c:njvfhnr]. The team has no evidence of prior startup scaling or repeated successes, which is a gap. The MCA registry confirms the company is active with CIN U62099KA2022PTC163728 and the four named directors [compliance_fixture]. No compliance flags were raised. The deck does not attempt to instruct the evaluator.\n\n## 7. Traction & Milestones\n\n**Traction & Milestones**\n\n- **ARR growth:** ARR reached Rs 12.4 crore in FY2026, up 80% year-on-year from Rs 6.9 crore in FY2025 (company-reported, unverified) [c:4rj4xy4]. Historical ARR: Rs 0.8 crore (FY2023), Rs 3.1 crore (FY2024), Rs 6.9 crore (FY2025), Rs 12.4 crore (FY2026) [c:4rj4xy4].\n- **Customer base:** 260 D2C brands use the platform; 41 are on annual contracts above Rs 10 lakh [c:4rj4xy4]. Monthly logo churn is 1.1% [c:m7h3uvx].\n- **Resolution performance:** 61% of tickets are resolved without human intervention; approximately 4.1 lakh conversations are resolved by AI every month [c:4rj4xy4][c:m7h3uvx].\n- **Retention:** Net revenue retention (NRR) is 128% [c:m7h3uvx].\n- **Unit economics (company-reported, unverified):** Customer acquisition cost (CAC) Rs 270,000; CAC payback 9.4 months; gross margin 72% [c:m7h3uvx].\n- **Milestone target:** The company targets 700 brands and Rs 30 crore ARR within 24 months [c:okzrjlq].\n\n## 8. Compliance & Governance\n\n**Compliance & Governance**\n\n- **Registry status:** The MCA registry confirms CIN U62099KA2022PTC163728, status ACTIVE, registered as OPSPILOT PRIVATE LIMITED. Directors listed: Ananya Krishnan, Vivek Saxena, Rhea D'Souza, Karan Malhotra. No compliance flags were raised.\n- **Data integrity:** The deck does not attempt to instruct the evaluator or override scoring rules. All financial and operational figures are labelled as company-reported and unverified where appropriate.\n- **Governance:** The Series A round is structured in three tranches with milestone conditions (ARR of Rs 20 crore with NRR above 120% within 365 days; Middle East launch with 25 paying brands within 540 days), which aligns investor capital with execution progress [c:x25rgpy].\n\n## 9. Risks & Challenges\n\n**Risks & Challenges**\n\n- **LLM dependency:** The product relies on third-party large language model providers for cost and quality; any price increase or degradation in model performance could directly impact gross margin and resolution quality [c:okzrjlq].\n- **Messaging-platform pricing changes:** Costs could rise if WhatsApp or other messaging channels alter their business API pricing, squeezing the per-resolution fee model [c:okzrjlq].\n- **D2C funding cycles:** The target customer base (D2C brands) is sensitive to venture capital and growth-stage funding cycles; a downturn could reduce customer budgets and slow new logo acquisition [c:okzrjlq].\n- **Incumbent bundling:** Established helpdesk platforms (Zendesk, Freshworks, Yellow.ai) are bundling AI agent capabilities, which could commoditise the offering and increase competitive pressure [c:okzrjlq].\n- **Execution risk on milestones:** The tranche structure ties 60% of capital to achieving specific ARR and geographic expansion milestones; failure to meet these within the stipulated timelines would leave the company undercapitalised [c:x25rgpy].\n\n## 10. Investment Thesis\n\n**Investment Thesis**\n\nOpsPilot is a B2B SaaS startup providing AI agents that resolve customer support tickets end-to-end for D2C brands, with deep integrations into Shopify, courier aggregators, and payment gateways [c:ayfgd3d]. The company has demonstrated strong early traction: ARR of Rs 12.4 crore (80% YoY growth), 128% NRR, 61% autonomous resolution rate, and 260 brands onboarded [c:4rj4xy4]. The unit economics are healthy (72% gross margin, 9.4-month CAC payback) and the outcome-based pricing model (Rs 18 per resolution + Rs 11,000/month subscription) aligns incentives with customer savings [c:jrmeqv5][c:m7h3uvx].\n\nThe market opportunity is supported by the rapid growth of India's D2C e-commerce market (USD 108.76B in 2026, 24.3% CAGR) and the broader customer service automation market (USD 15.5B in 2026, 17.9% CAGR) [w:1][w:21]. The company's moat rests on proprietary resolution data from 12M+ conversations and deep integrations with the Indian commerce stack, creating switching costs [c:fdcpq25]. However, risks include dependency on third-party LLMs, potential pricing changes from messaging platforms, and competition from well-funded incumbents like Yellow.ai ($356M+ raised) [w:16][c:okzrjlq]. The tranche-based funding structure mitigates some execution risk by tying capital to milestones [c:x25rgpy].\n\n## 11. Recommendation\n\n**Recommendation: Buy**\n\nOverall score: **6.9/10**. The company shows strong product-market fit with impressive traction metrics (80% ARR growth, 128% NRR, 61% autonomous resolution) and a clear value proposition for D2C brands. The market tailwinds are significant, and the unit economics are attractive. Key concerns are the reliance on third-party LLMs, competitive pressure from incumbents, and the execution risk embedded in the milestone-linked tranche structure. The team has relevant domain experience but lacks a track record of scaling a startup. At a Rs 220 crore pre-money valuation with Rs 12.4 crore ARR (approx. 17.7x ARR), the valuation is reasonable for a high-growth SaaS company in this segment. We recommend a Buy with a target to monitor milestone achievement and competitive developments closely.",
   "revenue_currency": "INR",
   "revenue_metric": "ARR",
   "rewrites": 1,
   "rubric_version": "r1",
   "score_rationales": {
-   "business_model": "Pricing defined (per-resolution fee Rs 18 + subscription Rs 11k/month), gross margin 72%, CAC payback 9.4 months, NRR 128% \u2013 strong unit economics, but payback is above 6 months. [c:2apiyvk] [c:nuvju7e]",
-   "execution_risk": "Risks are identified (LLM dependency, messaging-platform pricing changes, D2C funding cycles, incumbent bundling) but only partially mitigated; the tranche structure ties funding to milestones, reducing some risk. [c:vddfd7t] [c:bh3zge5]",
-   "market": "The company sizes TAM at Rs 8,500 crore (company estimate) for Indian and SE Asian e-commerce support software, and the broader D2C market is large and growing (USD 108.76B in 2026, 24.3% CAGR from independent sources), but the TAM/SAM are self-estimated and scoped narrowly. [c:253xijw] [w:1] [w:2]",
-   "moat": "The company cites deep action integrations with the Indian commerce stack and resolution data from 12M+ conversations as edges [c:3z6biny]. This provides meaningful switching costs and data advantages, but the space has well-funded competitors (Zendesk, Yellow.ai) and the company acknowledges risks from LLM dependency and bundling by incumbents [c:vddfd7t]. No evidence of multiple reinforcing moats.",
-   "product": "The product is a working AI agent deployed by 260 brands, resolving 61% of tickets without human intervention and acting directly in Shopify, courier and payment systems [c:t6qotqf][c:wvkdt57]. This shows clear value and early product-market fit, but it is not yet category-defining or backed by exceptional, evidenced customer outcomes beyond the resolution rate.",
-   "team": "Four co-founders with relevant domain experience (customer experience at a D2C brand, SMB SaaS sales, conversational-AI engineering, ML lead), but no evidence of prior startup scaling or repeated successes. [c:xiit2wj]",
-   "traction": "ARR of Rs 12.4 crore in FY2026, up 80% YoY, with 128% NRR and 260 brands; growth is strong and retention is evidenced, though not yet at a scale that qualifies as exceptional. [c:wvkdt57]"
+   "business_model": "Pricing defined (per-resolution fee Rs 18 + subscription Rs 11k/month), gross margin 72%, CAC payback 9.4 months, NRR 128% \u2013 strong unit economics, but payback is above 6 months. [c:jrmeqv5] [c:m7h3uvx]",
+   "execution_risk": "Risks are identified (LLM dependency, messaging-platform pricing changes, D2C funding cycles, incumbent bundling) but only partially mitigated; the tranche structure ties funding to milestones, reducing some risk. [c:okzrjlq] [c:x25rgpy]",
+   "market": "The company sizes TAM at Rs 8,500 crore (company estimate) for Indian and SE Asian e-commerce support software, and the broader D2C market is large and growing (USD 108.76B in 2026, 24.3% CAGR from independent sources), but the TAM/SAM are self-estimated and scoped narrowly. [c:hpwuqxe] [w:1] [w:2]",
+   "moat": "The company cites deep action integrations with the Indian commerce stack and resolution data from 12M+ conversations as edges [c:fdcpq25]. This provides meaningful switching costs and data advantages, but the space has well-funded competitors (Zendesk, Yellow.ai) and the company acknowledges risks from LLM dependency and bundling by incumbents [c:okzrjlq]. No evidence of multiple reinforcing moats.",
+   "product": "The product is a working AI agent deployed by 260 brands, resolving 61% of tickets without human intervention and acting directly in Shopify, courier and payment systems [c:ayfgd3d][c:4rj4xy4]. This shows clear value and early product-market fit, but it is not yet category-defining or backed by exceptional, evidenced customer outcomes beyond the resolution rate.",
+   "team": "Four co-founders with relevant domain experience (customer experience at a D2C brand, SMB SaaS sales, conversational-AI engineering, ML lead), but no evidence of prior startup scaling or repeated successes. [c:njvfhnr]",
+   "traction": "ARR of Rs 12.4 crore in FY2026, up 80% YoY, with 128% NRR and 260 brands; growth is strong and retention is evidenced, though not yet at a scale that qualifies as exceptional. [c:4rj4xy4]"
   },
   "score_spread": {
    "business_model": 0.0,
@@ -338,17 +338,17 @@
    "traction": 1.0
   },
   "sections": {
-   "business_model": "OpsPilot uses a dual revenue model: a per-resolution fee of Rs 18 per resolved conversation (72% of revenue) and a platform subscription averaging Rs 11,000 per month (28% of revenue) [c:2apiyvk]. Gross margin is 72% after LLM and messaging costs [c:2apiyvk]. The company reports CAC of Rs 270,000, CAC payback of 9.4 months, NRR of 128%, and monthly churn of 1.1% [c:nuvju7e]. The outcome-based pricing means brands pay only for tickets the AI resolves, aligning incentives [c:2apiyvk]. The unit economics are strong, though the CAC payback period is above the 6-month threshold often preferred for SaaS. The company's own figures are company-reported and unverified.",
-   "competitive_landscape": "OpsPilot competes with global helpdesk software (Zendesk, Freshworks) and enterprise conversational-AI platforms (Yellow.ai) [c:3z6biny]. The company claims three edges: deep action integrations with the Indian commerce stack (storefronts, couriers, payments), resolution data from over 12 million conversations since 2023, and outcome-based pricing that aligns revenue with brand savings [c:3z6biny]. Yellow.ai, a well-funded competitor, has raised over USD 356.6 million and handles 16 billion conversations annually for 650+ enterprise clients [w:16][w:17]. The company acknowledges risks from helpdesk incumbents bundling AI agents and from dependency on third-party LLM providers [c:vddfd7t]. The moat score of 5.8 reflects meaningful switching costs from integrations and data, but the space has well-funded competitors and no evidence of multiple reinforcing moats.",
-   "compliance_governance": "**Compliance & Governance**\n\n- **Registry status:** The MCA registry confirms CIN U62099KA2022PTC163728, status ACTIVE, registered as OPSPILOT PRIVATE LIMITED. Directors listed: Ananya Krishnan, Vivek Saxena, Rhea D'Souza, Karan Malhotra. No compliance flags were raised.\n- **Data integrity:** The deck does not attempt to instruct the evaluator or override scoring rules. All financial and operational figures are labelled as company-reported and unverified where appropriate.\n- **Governance:** The Series A round is structured in three tranches with milestone conditions (ARR of Rs 20 crore with NRR above 120% within 365 days; Middle East launch with 25 paying brands within 540 days), which aligns investor capital with execution progress [c:bh3zge5].",
-   "executive_summary": "OpsPilot is a Series A B2B SaaS startup that deploys AI agents to resolve customer support tickets end-to-end for D2C brands, acting directly in Shopify, courier and payment systems. The company reports ARR of Rs 12.4 crore in FY2026, up 80% year-on-year, with 260 brands using the platform and 61% of tickets resolved without human intervention [c:wvkdt57]. Net revenue retention is 128% and monthly logo churn is 1.1% [c:nuvju7e]. The round is for Rs 40 crore at Rs 220 crore pre-money, structured in three tranches tied to ARR and Middle East launch milestones [c:bh3zge5]. The product shows clear early product-market fit and strong unit economics, but faces execution risks from LLM dependency, incumbent bundling, and D2C funding cycles [c:vddfd7t]. Overall score: 6.9/10, Buy.",
-   "investment_thesis": "**Investment Thesis**\n\nOpsPilot is a B2B SaaS startup providing AI agents that resolve customer support tickets end-to-end for D2C brands, with deep integrations into Shopify, courier aggregators, and payment gateways [c:t6qotqf]. The company has demonstrated strong early traction: ARR of Rs 12.4 crore (80% YoY growth), 128% NRR, 61% autonomous resolution rate, and 260 brands onboarded [c:wvkdt57]. The unit economics are healthy (72% gross margin, 9.4-month CAC payback) and the outcome-based pricing model (Rs 18 per resolution + Rs 11,000/month subscription) aligns incentives with customer savings [c:2apiyvk][c:nuvju7e].\n\nThe market opportunity is supported by the rapid growth of India's D2C e-commerce market (USD 108.76B in 2026, 24.3% CAGR) and the broader customer service automation market (USD 15.5B in 2026, 17.9% CAGR) [w:1][w:21]. The company's moat rests on proprietary resolution data from 12M+ conversations and deep integrations with the Indian commerce stack, creating switching costs [c:3z6biny]. However, risks include dependency on third-party LLMs, potential pricing changes from messaging platforms, and competition from well-funded incumbents like Yellow.ai ($356M+ raised) [w:16][c:vddfd7t]. The tranche-based funding structure mitigates some execution risk by tying capital to milestones [c:bh3zge5].",
-   "market_opportunity": "OpsPilot sizes its TAM at Rs 8,500 crore (company estimate) for customer-support software and AI agents serving Indian and South-East Asian e-commerce and D2C brands in 2025, with a SAM of Rs 1,700 crore (company estimate) for Indian D2C brands above Rs 10 crore annual GMV [c:253xijw]. The broader India D2C e-commerce market is valued at USD 108.76 billion in 2026 and projected to reach USD 322.1 billion by 2031 at a CAGR of 24.30% [w:1][w:2]. The India conversational AI market is valued at USD 653.24 million in 2025, growing at 25.61% CAGR to 2034 [w:9], and the India helpdesk automation market is valued at USD 444.5 million in 2025, growing at 25.65% CAGR to 2034 [w:19]. The company's SOM projection of Rs 120 crore by 2029 is a company projection [c:253xijw]. The TAM and SAM are self-estimated and scoped narrowly, but the underlying market tailwinds are strong and independently verified.",
-   "problem_solution": "D2C brands spend 3-6% of revenue on customer support (company estimate), with 60-70% of tickets being repetitive order-status, return and refund queries, and ticket volumes spiking 3-5x during sale events [c:vylhscv]. OpsPilot's AI agents resolve these tickets end-to-end on WhatsApp, web chat and email by taking actions in Shopify, courier aggregators and payment gateways\u2014cancelling orders, processing refunds, rescheduling deliveries\u2014while applying brand-specific policies and tone in English, Hindi and Hinglish [c:t6qotqf]. Edge cases are handed off to human agents with full context, and every conversation is QA-scored [c:t6qotqf]. The company reports that 61% of tickets are resolved without a human, demonstrating the solution's effectiveness [c:wvkdt57].",
+   "business_model": "OpsPilot uses a dual revenue model: a per-resolution fee of Rs 18 per resolved conversation (72% of revenue) and a platform subscription averaging Rs 11,000 per month (28% of revenue) [c:jrmeqv5]. Gross margin is 72% after LLM and messaging costs [c:jrmeqv5]. The company reports CAC of Rs 270,000, CAC payback of 9.4 months, NRR of 128%, and monthly churn of 1.1% [c:m7h3uvx]. The outcome-based pricing means brands pay only for tickets the AI resolves, aligning incentives [c:jrmeqv5]. The unit economics are strong, though the CAC payback period is above the 6-month threshold often preferred for SaaS. The company's own figures are company-reported and unverified.",
+   "competitive_landscape": "OpsPilot competes with global helpdesk software (Zendesk, Freshworks) and enterprise conversational-AI platforms (Yellow.ai) [c:fdcpq25]. The company claims three edges: deep action integrations with the Indian commerce stack (storefronts, couriers, payments), resolution data from over 12 million conversations since 2023, and outcome-based pricing that aligns revenue with brand savings [c:fdcpq25]. Yellow.ai, a well-funded competitor, has raised over USD 356.6 million and handles 16 billion conversations annually for 650+ enterprise clients [w:16][w:17]. The company acknowledges risks from helpdesk incumbents bundling AI agents and from dependency on third-party LLM providers [c:okzrjlq]. The moat score of 5.8 reflects meaningful switching costs from integrations and data, but the space has well-funded competitors and no evidence of multiple reinforcing moats.",
+   "compliance_governance": "**Compliance & Governance**\n\n- **Registry status:** The MCA registry confirms CIN U62099KA2022PTC163728, status ACTIVE, registered as OPSPILOT PRIVATE LIMITED. Directors listed: Ananya Krishnan, Vivek Saxena, Rhea D'Souza, Karan Malhotra. No compliance flags were raised.\n- **Data integrity:** The deck does not attempt to instruct the evaluator or override scoring rules. All financial and operational figures are labelled as company-reported and unverified where appropriate.\n- **Governance:** The Series A round is structured in three tranches with milestone conditions (ARR of Rs 20 crore with NRR above 120% within 365 days; Middle East launch with 25 paying brands within 540 days), which aligns investor capital with execution progress [c:x25rgpy].",
+   "executive_summary": "OpsPilot is a Series A B2B SaaS startup that deploys AI agents to resolve customer support tickets end-to-end for D2C brands, acting directly in Shopify, courier and payment systems. The company reports ARR of Rs 12.4 crore in FY2026, up 80% year-on-year, with 260 brands using the platform and 61% of tickets resolved without human intervention [c:4rj4xy4]. Net revenue retention is 128% and monthly logo churn is 1.1% [c:m7h3uvx]. The round is for Rs 40 crore at Rs 220 crore pre-money, structured in three tranches tied to ARR and Middle East launch milestones [c:x25rgpy]. The product shows clear early product-market fit and strong unit economics, but faces execution risks from LLM dependency, incumbent bundling, and D2C funding cycles [c:okzrjlq]. Overall score: 6.9/10, Buy.",
+   "investment_thesis": "**Investment Thesis**\n\nOpsPilot is a B2B SaaS startup providing AI agents that resolve customer support tickets end-to-end for D2C brands, with deep integrations into Shopify, courier aggregators, and payment gateways [c:ayfgd3d]. The company has demonstrated strong early traction: ARR of Rs 12.4 crore (80% YoY growth), 128% NRR, 61% autonomous resolution rate, and 260 brands onboarded [c:4rj4xy4]. The unit economics are healthy (72% gross margin, 9.4-month CAC payback) and the outcome-based pricing model (Rs 18 per resolution + Rs 11,000/month subscription) aligns incentives with customer savings [c:jrmeqv5][c:m7h3uvx].\n\nThe market opportunity is supported by the rapid growth of India's D2C e-commerce market (USD 108.76B in 2026, 24.3% CAGR) and the broader customer service automation market (USD 15.5B in 2026, 17.9% CAGR) [w:1][w:21]. The company's moat rests on proprietary resolution data from 12M+ conversations and deep integrations with the Indian commerce stack, creating switching costs [c:fdcpq25]. However, risks include dependency on third-party LLMs, potential pricing changes from messaging platforms, and competition from well-funded incumbents like Yellow.ai ($356M+ raised) [w:16][c:okzrjlq]. The tranche-based funding structure mitigates some execution risk by tying capital to milestones [c:x25rgpy].",
+   "market_opportunity": "OpsPilot sizes its TAM at Rs 8,500 crore (company estimate) for customer-support software and AI agents serving Indian and South-East Asian e-commerce and D2C brands in 2025, with a SAM of Rs 1,700 crore (company estimate) for Indian D2C brands above Rs 10 crore annual GMV [c:hpwuqxe]. The broader India D2C e-commerce market is valued at USD 108.76 billion in 2026 and projected to reach USD 322.1 billion by 2031 at a CAGR of 24.30% [w:1][w:2]. The India conversational AI market is valued at USD 653.24 million in 2025, growing at 25.61% CAGR to 2034 [w:9], and the India helpdesk automation market is valued at USD 444.5 million in 2025, growing at 25.65% CAGR to 2034 [w:19]. The company's SOM projection of Rs 120 crore by 2029 is a company projection [c:hpwuqxe]. The TAM and SAM are self-estimated and scoped narrowly, but the underlying market tailwinds are strong and independently verified.",
+   "problem_solution": "D2C brands spend 3-6% of revenue on customer support (company estimate), with 60-70% of tickets being repetitive order-status, return and refund queries, and ticket volumes spiking 3-5x during sale events [c:upqgtl4]. OpsPilot's AI agents resolve these tickets end-to-end on WhatsApp, web chat and email by taking actions in Shopify, courier aggregators and payment gateways\u2014cancelling orders, processing refunds, rescheduling deliveries\u2014while applying brand-specific policies and tone in English, Hindi and Hinglish [c:ayfgd3d]. Edge cases are handed off to human agents with full context, and every conversation is QA-scored [c:ayfgd3d]. The company reports that 61% of tickets are resolved without a human, demonstrating the solution's effectiveness [c:4rj4xy4].",
    "recommendation": "**Recommendation: Buy**\n\nOverall score: **6.9/10**. The company shows strong product-market fit with impressive traction metrics (80% ARR growth, 128% NRR, 61% autonomous resolution) and a clear value proposition for D2C brands. The market tailwinds are significant, and the unit economics are attractive. Key concerns are the reliance on third-party LLMs, competitive pressure from incumbents, and the execution risk embedded in the milestone-linked tranche structure. The team has relevant domain experience but lacks a track record of scaling a startup. At a Rs 220 crore pre-money valuation with Rs 12.4 crore ARR (approx. 17.7x ARR), the valuation is reasonable for a high-growth SaaS company in this segment. We recommend a Buy with a target to monitor milestone achievement and competitive developments closely.",
-   "risks_challenges": "**Risks & Challenges**\n\n- **LLM dependency:** The product relies on third-party large language model providers for cost and quality; any price increase or degradation in model performance could directly impact gross margin and resolution quality [c:vddfd7t].\n- **Messaging-platform pricing changes:** Costs could rise if WhatsApp or other messaging channels alter their business API pricing, squeezing the per-resolution fee model [c:vddfd7t].\n- **D2C funding cycles:** The target customer base (D2C brands) is sensitive to venture capital and growth-stage funding cycles; a downturn could reduce customer budgets and slow new logo acquisition [c:vddfd7t].\n- **Incumbent bundling:** Established helpdesk platforms (Zendesk, Freshworks, Yellow.ai) are bundling AI agent capabilities, which could commoditise the offering and increase competitive pressure [c:vddfd7t].\n- **Execution risk on milestones:** The tranche structure ties 60% of capital to achieving specific ARR and geographic expansion milestones; failure to meet these within the stipulated timelines would leave the company undercapitalised [c:bh3zge5].",
-   "team_assessment": "The four co-founders bring relevant domain experience: Ananya Krishnan (CEO) spent 8 years as head of customer experience at a large D2C beauty brand; Vivek Saxena (CTO) was a staff engineer on conversational-AI products; Rhea D'Souza (Sales) scaled SMB SaaS sales teams in India and South-East Asia; Karan Malhotra (AI) built retrieval and agent systems as an ex-ML lead [c:xiit2wj]. The team has no evidence of prior startup scaling or repeated successes, which is a gap. The MCA registry confirms the company is active with CIN U62099KA2022PTC163728 and the four named directors [compliance_fixture]. No compliance flags were raised. The deck does not attempt to instruct the evaluator.",
-   "traction_milestones": "**Traction & Milestones**\n\n- **ARR growth:** ARR reached Rs 12.4 crore in FY2026, up 80% year-on-year from Rs 6.9 crore in FY2025 (company-reported, unverified) [c:wvkdt57]. Historical ARR: Rs 0.8 crore (FY2023), Rs 3.1 crore (FY2024), Rs 6.9 crore (FY2025), Rs 12.4 crore (FY2026) [c:wvkdt57].\n- **Customer base:** 260 D2C brands use the platform; 41 are on annual contracts above Rs 10 lakh [c:wvkdt57]. Monthly logo churn is 1.1% [c:nuvju7e].\n- **Resolution performance:** 61% of tickets are resolved without human intervention; approximately 4.1 lakh conversations are resolved by AI every month [c:wvkdt57][c:nuvju7e].\n- **Retention:** Net revenue retention (NRR) is 128% [c:nuvju7e].\n- **Unit economics (company-reported, unverified):** Customer acquisition cost (CAC) Rs 270,000; CAC payback 9.4 months; gross margin 72% [c:nuvju7e].\n- **Milestone target:** The company targets 700 brands and Rs 30 crore ARR within 24 months [c:vddfd7t]."
+   "risks_challenges": "**Risks & Challenges**\n\n- **LLM dependency:** The product relies on third-party large language model providers for cost and quality; any price increase or degradation in model performance could directly impact gross margin and resolution quality [c:okzrjlq].\n- **Messaging-platform pricing changes:** Costs could rise if WhatsApp or other messaging channels alter their business API pricing, squeezing the per-resolution fee model [c:okzrjlq].\n- **D2C funding cycles:** The target customer base (D2C brands) is sensitive to venture capital and growth-stage funding cycles; a downturn could reduce customer budgets and slow new logo acquisition [c:okzrjlq].\n- **Incumbent bundling:** Established helpdesk platforms (Zendesk, Freshworks, Yellow.ai) are bundling AI agent capabilities, which could commoditise the offering and increase competitive pressure [c:okzrjlq].\n- **Execution risk on milestones:** The tranche structure ties 60% of capital to achieving specific ARR and geographic expansion milestones; failure to meet these within the stipulated timelines would leave the company undercapitalised [c:x25rgpy].",
+   "team_assessment": "The four co-founders bring relevant domain experience: Ananya Krishnan (CEO) spent 8 years as head of customer experience at a large D2C beauty brand; Vivek Saxena (CTO) was a staff engineer on conversational-AI products; Rhea D'Souza (Sales) scaled SMB SaaS sales teams in India and South-East Asia; Karan Malhotra (AI) built retrieval and agent systems as an ex-ML lead [c:njvfhnr]. The team has no evidence of prior startup scaling or repeated successes, which is a gap. The MCA registry confirms the company is active with CIN U62099KA2022PTC163728 and the four named directors [compliance_fixture]. No compliance flags were raised. The deck does not attempt to instruct the evaluator.",
+   "traction_milestones": "**Traction & Milestones**\n\n- **ARR growth:** ARR reached Rs 12.4 crore in FY2026, up 80% year-on-year from Rs 6.9 crore in FY2025 (company-reported, unverified) [c:4rj4xy4]. Historical ARR: Rs 0.8 crore (FY2023), Rs 3.1 crore (FY2024), Rs 6.9 crore (FY2025), Rs 12.4 crore (FY2026) [c:4rj4xy4].\n- **Customer base:** 260 D2C brands use the platform; 41 are on annual contracts above Rs 10 lakh [c:4rj4xy4]. Monthly logo churn is 1.1% [c:m7h3uvx].\n- **Resolution performance:** 61% of tickets are resolved without human intervention; approximately 4.1 lakh conversations are resolved by AI every month [c:4rj4xy4][c:m7h3uvx].\n- **Retention:** Net revenue retention (NRR) is 128% [c:m7h3uvx].\n- **Unit economics (company-reported, unverified):** Customer acquisition cost (CAC) Rs 270,000; CAC payback 9.4 months; gross margin 72% [c:m7h3uvx].\n- **Milestone target:** The company targets 700 brands and Rs 30 crore ARR within 24 months [c:okzrjlq]."
   },
   "sources": [
    {
@@ -584,5 +584,5 @@
    }
   ]
  },
- "input_hash": "489b4ab9425f5529a15e8164836779895e95734be40543a6e3ee196c1672871a"
+ "input_hash": "ce18ab8f2aba9b7de1913bcbcd9071a9616a6a633d115ca1c3863539655cf077"
 }

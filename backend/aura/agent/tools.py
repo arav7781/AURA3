@@ -6,10 +6,12 @@ from the viewer with the same rules as the API (visible startups, deck access by
 founders), never from the arguments. Every passage or web result a tool returns is recorded in
 ``Ctx.evidence``, so the final answer's citations can be checked against what was actually retrieved.
 
-All tools are read-only.
+All tools are read-only, except ``build_pitch_deck``, which writes a new private draft deck into the
+founder's own conversation.
 """
 
 import asyncio
+import hashlib
 import json
 import re
 from collections.abc import Awaitable, Callable
@@ -20,16 +22,23 @@ from pydantic import BaseModel, Field
 from qdrant_client import models as qm
 from sqlalchemy import func, or_, select
 
+from aura import quotas
 from aura.access import is_owner, visible_document
 from aura.api.deps import Viewer
 from aura.api.routes.startups import startup_card
 from aura.core import clock
-from aura.core.db import read_session
+from aura.core.db import read_session, write_tx
 from aura.core.embeddings import DenseEmbedder
 from aura.core.errors import AppError
 from aura.core.untrusted import wrap
+from aura.decks.design import Brand
+from aura.decks.draft import DeckDraft, draft_slides, figures, normalise
+from aura.decks.render_pdf import render_slides_pdf
+from aura.decks.render_pptx import render_slides_pptx
 from aura.evaluation import service as evaluations
 from aura.evaluation.research import ResearchProvider
+from aura.ingest.pipeline import ingest_document
+from aura.ingest.storage import document_dir
 from aura.models import Chunk, Document, Evaluation, InvestorProfile, Review, Startup, User
 from aura.rag import store
 from aura.rag.retriever import AccessScope, SearchRequest, search
@@ -85,6 +94,7 @@ class Ctx:
     evidence: Evidence = field(default_factory=Evidence)
     research: ResearchProvider = field(default_factory=lambda: ResearchProvider("live"))
     attachments: list[Attachment] = field(default_factory=list)
+    thread_id: str | None = None
 
 
 # ── helpers ─────────────────────────────────────────────────────────────────────────────────────────────
@@ -250,7 +260,7 @@ class SearchDocumentsArgs(BaseModel):
     k: int = Field(default=6, ge=1, le=10)
 
 
-def _passages(ctx: Ctx, rows: list[tuple[dict[str, Any], Startup]]) -> ToolOutput:
+def _passages(ctx: Ctx, rows: list[tuple[dict[str, Any], Startup]], limit: int = MAX_TEXT) -> ToolOutput:
     items, blocks = [], []
     for p, st in rows:
         ctx.evidence.add_chunk(p["cid"], chunk_id=p["chunk_id"], document_id=p["document_id"], page_no=p["page_no"],
@@ -260,7 +270,7 @@ def _passages(ctx: Ctx, rows: list[tuple[dict[str, Any], Startup]]) -> ToolOutpu
                       "text": p["text"][:600], "flagged": p.get("injection_suspected", False)})
         label = f"{st.name} p.{p['page_no']}" + (" · FLAGGED: possible hidden instructions" if p.get("injection_suspected") else "")
         blocks.append(wrap(p["text"], kind="document", ref=p["cid"], source=label))
-    return ToolOutput("\n\n".join(blocks)[:MAX_TEXT], {"type": "passages", "items": items})
+    return ToolOutput("\n\n".join(blocks)[:limit], {"type": "passages", "items": items[:40]})
 
 
 async def search_documents(ctx: Ctx, args: SearchDocumentsArgs) -> ToolOutput:
@@ -279,7 +289,7 @@ async def search_documents(ctx: Ctx, args: SearchDocumentsArgs) -> ToolOutput:
 
 class ReadPageArgs(BaseModel):
     startup: str = Field(description="Startup name or slug")
-    page: int = Field(ge=1, le=500, description="Page (slide) number")
+    page: int | None = Field(default=None, ge=1, le=500, description="Page (slide) number. Omit to read the whole deck.")
 
 
 async def read_page(ctx: Ctx, args: ReadPageArgs) -> ToolOutput:
@@ -296,12 +306,15 @@ async def read_page(ctx: Ctx, args: ReadPageArgs) -> ToolOutput:
     except AppError as exc:
         raise ToolError("FORBIDDEN", "That document is not available to you.") from exc
     with read_session() as s:
-        chunks = s.scalars(select(Chunk).where(Chunk.document_id == doc.id, Chunk.page_no == args.page).order_by(Chunk.seq)).all()
+        query = select(Chunk).where(Chunk.document_id == doc.id)
+        if args.page:
+            query = query.where(Chunk.page_no == args.page)
+        chunks = s.scalars(query.order_by(Chunk.page_no, Chunk.seq)).all()
     if not chunks:
         raise ToolError("NOT_FOUND", f"Page {args.page} of {doc.filename} has no text (it has {doc.page_count} pages).")
     rows = [({"cid": c.cid, "chunk_id": c.id, "document_id": c.document_id, "page_no": c.page_no, "slide_title": c.slide_title,
               "text": c.text, "injection_suspected": c.injection_suspected}, st) for c in chunks]
-    return _passages(ctx, rows)
+    return _passages(ctx, rows, limit=MAX_TEXT if args.page else MAX_ATTACHMENT_TEXT)
 
 
 class ReadAttachmentArgs(BaseModel):
@@ -344,6 +357,69 @@ async def read_attachment(ctx: Ctx, args: ReadAttachmentArgs) -> ToolOutput:
     head = f"{doc.filename}: {doc.page_count} pages read by TitanOCR" + (f", page {args.page}" if args.page else "") + ".\n\n"
     return ToolOutput((head + "\n\n".join(blocks))[:MAX_ATTACHMENT_TEXT],
                       {"type": "passages", "items": items[:40], "attachment": {"document_id": doc.id, "filename": doc.filename}})
+
+
+class _Quiet:
+    """Ingestion reports progress to a job; inside a tool there is none to report to."""
+
+    def progress(self, *_args: Any, **_kwargs: Any) -> None:
+        pass
+
+
+async def build_pitch_deck(ctx: Ctx, args: DeckDraft) -> ToolOutput:
+    viewer = ctx.viewer
+    if viewer.role != "startup" or not viewer.startup_id:
+        raise ToolError("FORBIDDEN", "Only founders can build a deck, and only for their own startup.")
+    if not ctx.thread_id:
+        raise ToolError("NOT_FOUND", "Decks are built inside a conversation.")
+    with write_tx() as s:
+        quotas.consume(s, viewer.user_id, "deck_build", viewer.quota_limits.get("deck_build"))
+        st = s.get(Startup, viewer.startup_id)
+        s.expunge(st)
+    brand = Brand(st.name, st.legal_name or st.name, st.stage, st.domain, st.cin, st.hq_city, st.ask_inr,
+                  st.pre_money_inr, ((st.profile or {}).get("round") or {}).get("min_raise_pct"))
+    slides = draft_slides(brand, args)
+    pdf, pptx = await asyncio.to_thread(lambda: (render_slides_pdf(brand, slides), render_slides_pptx(brand, slides)))
+    sha = hashlib.sha256(pdf).hexdigest()
+    filename = f"{st.name.replace(' ', '_')}_Pitch_Deck_AURA3.pdf"
+    with write_tx() as s:
+        doc = s.scalar(select(Document).where(Document.startup_id == st.id, Document.sha256 == sha))
+        if doc is None:
+            doc = Document(startup_id=st.id, uploaded_by=viewer.user_id, kind="generated_deck", filename=filename,
+                           mime="application/pdf", size_bytes=len(pdf), sha256=sha, storage_dir="", status="uploaded",
+                           visibility="private", thread_id=ctx.thread_id)
+            s.add(doc)
+            s.flush()
+            folder = document_dir(doc.id)
+            doc.storage_dir = str(folder.relative_to(folder.parents[1]))
+            (folder / "source.pdf").write_bytes(pdf)
+            (folder / "deck.pptx").write_bytes(pptx)
+        doc_id, ready = doc.id, doc.status == "ready"
+    if not ready:  # TitanOCR reads the new deck back, exactly as it would read an upload
+        await ingest_document(_Quiet(), doc_id)  # type: ignore[arg-type]
+    with read_session() as s:
+        doc = s.get(Document, doc_id)
+        text = normalise(" ".join(s.scalars(select(Chunk.text).where(Chunk.document_id == doc_id))))
+    stated = figures(args)
+    missing = [f for f in stated if f not in text]
+    if not any(a.document_id == doc_id for a in ctx.attachments):
+        ctx.attachments.append(Attachment(doc_id, doc.filename, doc.page_count or len(slides)))
+    pages = doc.page_count or len(slides)
+    card = {
+        "type": "deck", "document_id": doc_id, "filename": doc.filename, "pages": pages,
+        "slides": [sl.title for sl in slides],
+        "pdf_url": f"/api/documents/{doc_id}/file", "pptx_url": f"/api/documents/{doc_id}/deck.pptx",
+        "previews": [f"/api/documents/{doc_id}/pages/{n}/image" for n in range(1, pages + 1)],
+        "check": {"figures": len(stated), "found": len(stated) - len(missing), "missing": missing[:12]},
+    }
+    check = (f"TitanOCR read the PDF back and found all {len(stated)} figures it states."
+             if not missing else f"TitanOCR read the PDF back: {len(stated) - len(missing)} of {len(stated)} figures "
+             f"found; not found: {', '.join(missing[:8])}.")
+    return ToolOutput(
+        f"Built {doc.filename} ({pages} slides: {', '.join(sl.title for sl in slides)}) in AURA3's deck design, as "
+        f"PowerPoint and PDF. {check} The founder downloads it from the card above your answer; it is a private "
+        "draft, not what investors see. Do not repeat the slide text: say in a few lines what the deck now does "
+        "better and what they should check or add before using it.", card)
 
 
 async def get_evaluation(ctx: Ctx, args: StartupArgs) -> ToolOutput:
@@ -462,6 +538,7 @@ class Tool:
     description: str
     args: type[BaseModel]
     run: Callable[[Ctx, Any], Awaitable[ToolOutput]]
+    timeout: float = 45.0
 
     def spec(self) -> dict[str, Any]:
         return {"type": "function", "function": {"name": self.name, "description": self.description,
@@ -478,11 +555,17 @@ TOOLS = [
     Tool("search_documents", "Search inside startups' submitted documents and return cited passages. Use for any question "
          "the documents can answer (traction, revenue, pricing, team, market claims). Optionally limit to one startup.",
          SearchDocumentsArgs, search_documents),
-    Tool("read_page", "Read one page (slide) of a startup's deck in full. Use when a specific page is asked about or a "
-         "search hit needs its full slide.", ReadPageArgs, read_page),
+    Tool("read_page", "Read one page (slide) of a startup's deck in full, or the whole deck in one call by omitting page. "
+         "Use for a specific slide, a search hit's full slide, or (without page) before reviewing or rebuilding a deck.",
+         ReadPageArgs, read_page),
     Tool("read_attachment", "Read a file the user attached to this conversation (e.g. a new draft of their pitch deck), "
          "in full or one page. Use it whenever the user refers to the attached file; it is not found by search_documents.",
          ReadAttachmentArgs, read_attachment),
+    Tool("build_pitch_deck", "Founders only: create their pitch deck as a designed PowerPoint and PDF file from slide "
+         "content you write (cover, problem, solution, market, business model, traction, unit economics, competition, "
+         "go-to-market, roadmap, team, ask). Use it whenever the founder asks you to make, create, rebuild, redesign or "
+         "export their deck or slides. Write every slide in full, using only figures from their documents and "
+         "evaluation (mark estimates as estimates).", DeckDraft, build_pitch_deck, timeout=150.0),
     Tool("get_evaluation", "A startup's AI due-diligence evaluation: score, label, rubric scores and reasons, deck claims "
          "checked against sources, data gaps.", StartupArgs, get_evaluation),
     Tool("compare_startups", "Side-by-side comparison of 2 to 4 startups: AI and rubric scores, round terms, reviews, "
@@ -499,16 +582,18 @@ def _failure(code: str, message: str, *, retryable: bool = False) -> ToolOutput:
     return ToolOutput(json.dumps(envelope), {"type": "error", "code": code, "message": message})
 
 
-async def run_tool(ctx: Ctx, name: str, raw_args: dict[str, Any], *, timeout: float = 45.0) -> tuple[bool, ToolOutput]:
+async def run_tool(ctx: Ctx, name: str, raw_args: dict[str, Any], *, timeout: float | None = None) -> tuple[bool, ToolOutput]:
     """Validate arguments and run a tool; any failure becomes an error the model can read and recover from."""
     tool = TOOLS_BY_NAME.get(name)
     if tool is None:
         return False, _failure("UNKNOWN_TOOL", f"No tool named {name}")
     try:
         args = tool.args.model_validate(raw_args or {})
-        return True, await asyncio.wait_for(tool.run(ctx, args), timeout)
+        return True, await asyncio.wait_for(tool.run(ctx, args), timeout or tool.timeout)
     except ToolError as exc:
         return False, _failure(exc.code, exc.message, retryable=exc.retryable)
+    except AppError as exc:  # e.g. a daily quota
+        return False, _failure(exc.code, exc.message)
     except TimeoutError:
         return False, _failure("TIMEOUT", "The tool took too long", retryable=True)
     except Exception as exc:  # noqa: BLE001 — validation and unexpected errors are reported, not raised

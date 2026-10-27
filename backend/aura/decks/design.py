@@ -62,11 +62,33 @@ SECTIONS = {
     "title": "Pitch deck", "problem": "The problem", "solution": "Our solution", "market": "Market",
     "business_model": "Business model", "traction": "Traction", "unit_economics": "Unit economics",
     "competition": "Competition", "gtm": "Go-to-market", "team": "The team", "ask": "The ask",
+    "roadmap": "Roadmap", "custom": "Highlights",
 }
 FIGURE = re.compile(r"(?:Rs|USD|INR)\s?\d[\d,]*(?:\.\d+)?\s?(?:crore|lakh|million|billion|[MBK]\b)?"
                     r"|\d[\d,]*(?:\.\d+)?\s?%|\d+(?:\.\d+)?\s?(?:x\b|months?\b|days?\b|years?\b|lakh\b|crore\b)"
                     r"|\d[\d,]*(?:\.\d+)?")
 BODY_SIZES = (14, 13.5, 13, 12.5, 12, 11.5, 11, 10.5, 10, 9.5, 9, 8.5)
+
+
+# ── whose deck ──────────────────────────────────────────────────────────────────────────────────────────
+
+@dataclass(frozen=True)
+class Brand:
+    """Who a deck belongs to: what its logo, footer, cover and ask slide show."""
+    name: str
+    legal_name: str
+    stage: str
+    domain: str
+    cin: str | None = None
+    city: str | None = None
+    ask_inr: int | None = None
+    pre_money_inr: int | None = None
+    min_raise_pct: int | None = None
+
+    @classmethod
+    def from_spec(cls, spec: StartupSpec) -> "Brand":
+        return cls(spec.name, spec.legal_name, spec.stage, spec.domain, spec.mca.cin, spec.hq.city,
+                   spec.round.ask_inr, spec.round.pre_money_inr, spec.round.min_raise_pct)
 
 
 # ── shapes ──────────────────────────────────────────────────────────────────────────────────────────────
@@ -244,7 +266,7 @@ def card(page: Page, x: float, y: float, w: float, h: float, *, bar: bool = Fals
         page.add(Fill(x, y + h * 0.18, 3.6, h * 0.64, colours[0], radius=1.8, gradient=colours[::-1], vertical=True))
 
 
-def logo(page: Page, spec: StartupSpec) -> None:
+def logo(page: Page, spec: Brand) -> None:
     """The startup's mark and name, and its round, in the top band (repeated on every slide, so ingestion
     treats it as a running header)."""
     y = H - 48
@@ -256,8 +278,9 @@ def logo(page: Page, spec: StartupSpec) -> None:
              Line(W - M - 10, y + 7, [Span(tag, MEDIUM, 7.5, INK_3)], align="right"))
 
 
-def footer(page: Page, spec: StartupSpec, number: int, total: int) -> None:
-    page.add(Line(M, 24, [Span(f"{spec.legal_name}  ·  CIN {spec.mca.cin}", REGULAR, 7.5, INK_3)]),
+def footer(page: Page, spec: Brand, number: int, total: int) -> None:
+    page.add(Line(M, 24, [Span(f"{spec.legal_name}  ·  CIN {spec.cin}" if spec.cin else spec.legal_name, REGULAR, 7.5,
+                               INK_3)]),
              Line(W - M, 24, [Span(f"{number:02d} / {total:02d}", MONO, 7.5, INK_3)], align="right"))
 
 
@@ -283,26 +306,49 @@ def balanced(area: Area, height: float) -> float:
 
 def stack(page: Page, items: list[Runs], area: Area, *, min_h: float = 0, gap: float = 12, centre: bool = True,
           sizes: tuple[float, ...] = BODY_SIZES) -> float:
-    """One full-width card per item, stacked, with a gradient side bar; text as large as fits. Returns the y
-    below the stack."""
+    """One full-width card per item, stacked, with a gradient side bar; text as large as fits. Tightens when
+    space runs short (no minimum height, thinner padding), and past that puts every item in one list card,
+    so nothing ever runs off the slide. Returns the y below the stack."""
     if not items:
         return area.top
-    pad_x, pad_y = 24, 15
+    pad_x = 24
     width = area.w - pad_x * 2 - 6
-    heights: list[float] = []
-    size = sizes[-1]
-    for size in sizes:
-        heights = [max(block_height(item, size, width, 1.36) + 2 * pad_y, min_h) for item in items]
-        if sum(heights) + gap * (len(items) - 1) <= area.h:
+    fit: tuple[float, list[float], float, float] | None = None
+    for floor, pad_y, spacing in ((min_h, 15, gap), (0, 9, 7)):
+        for size in sizes:
+            heights = [max(block_height(item, size, width, 1.36) + 2 * pad_y, floor) for item in items]
+            if sum(heights) + spacing * (len(items) - 1) <= area.h:
+                fit = (size, heights, pad_y, spacing)
+                break
+        if fit:
             break
-    total = sum(heights) + gap * (len(items) - 1)
+    if fit is None:
+        return list_card(page, items, area)
+    size, heights, _pad, spacing = fit
+    total = sum(heights) + spacing * (len(items) - 1)
     y = balanced(area, total) if centre else area.top
     for item, h in zip(items, heights, strict=True):
         card(page, area.x, y - h, area.w, h, side=True)
         text_h = block_height(item, size, width, 1.36)
         text_block(page, area.x + pad_x + 6, y - (h - text_h) / 2, width, item, size, leading=1.36)
-        y -= h + gap
-    return y + gap
+        y -= h + spacing
+    return y + spacing
+
+
+def list_card(page: Page, items: list[Runs], area: Area) -> float:
+    """Every item in one card, separated by a little space: the most compact way to show many points."""
+    pad = 18
+    width = area.w - 2 * pad - 6
+    size = 7.5
+    for size in (*BODY_SIZES, 8, 7.5):
+        if sum(block_height(item, size, width, 1.32) for item in items) + 6 * (len(items) - 1) + 2 * pad <= area.h:
+            break
+    h = min(area.h, sum(block_height(item, size, width, 1.32) for item in items) + 6 * (len(items) - 1) + 2 * pad)
+    card(page, area.x, area.top - h, area.w, h, side=True)
+    y = area.top - pad
+    for item in items:
+        y = text_block(page, area.x + pad + 6, y, width, item, size, leading=1.32) - 6
+    return area.top - h
 
 
 def stat_cards(page: Page, stats: list[tuple[str, Runs]], area: Area, *, cols: int, warm_last: bool = False,
@@ -426,9 +472,9 @@ def bar_chart(page: Page, chart: dict, x: float, y: float, w: float, h: float) -
                  Line(cx, base - 13, [Span(str(label), REGULAR, 9, INK_3)], align="center"))
 
 
-def cover(page: Page, spec: StartupSpec, slide: Slide) -> None:
+def cover(page: Page, spec: Brand, slide: Slide) -> None:
     column = 430
-    tag = f"{STAGE_LABELS[spec.stage]} round  ·  {spec.domain}  ·  {spec.hq.city}".upper()
+    tag = "  ·  ".join(t for t in (f"{STAGE_LABELS[spec.stage]} round", spec.domain, spec.city) if t).upper()
     size = fit_size(slide.title, BLACK, column, 54, 30)
     sub = [(slide.subtitle, LIGHT)] if slide.subtitle else []
     first, rest = (slide.bullets[0], slide.bullets[1:]) if slide.bullets else ("", [])
@@ -480,19 +526,79 @@ def traction(page: Page, slide: Slide, top: float) -> None:
     if rest:
         y = stack(page, rest, Area(M, y, left_w, y - BOTTOM), min_h=48, centre=False, gap=12) - GAP
     if slide.chart:
-        x = W - M - right
-        chart_h = right * 3.1 / 4.2
-        size = 9.5
-        rows = slide.table or []
-        h = top - BOTTOM
-        card(page, x, top - h, right, h, bar=True)
-        page.add(Line(x + 18, top - 30, [Span(slide.chart["title"], SEMIBOLD, 11, INK)]))
-        chart_h -= 18
-        bar_chart(page, slide.chart, x + 22, top - 44 - chart_h, right - 44, chart_h)
-        if rows:
-            table(page, rows, x + 16, top - 46 - chart_h, right - 32, size)
+        chart_card(page, slide.chart, slide.table or [], W - M - right, top, right, top - BOTTOM)
     elif slide.table:
         table(page, slide.table, M, y, left_w, 10)
+
+
+def chart_card(page: Page, chart: dict, rows: list[list[str]], x: float, top: float, w: float, h: float) -> None:
+    """A card with the chart's title, its bars and (if given) the table of its numbers."""
+    card(page, x, top - h, w, h, bar=True)
+    page.add(Line(x + 18, top - 30, [Span(chart["title"], SEMIBOLD, 11, INK)]))
+    chart_h = min(w * 3.1 / 4.2, h - 60) - 18
+    if rows:
+        chart_h = min(chart_h, h - 70 - table_height(rows, w - 32, 9.5))
+    bar_chart(page, chart, x + 22, top - 44 - chart_h, w - 44, chart_h)
+    if rows:
+        table(page, rows, x + 16, top - 46 - chart_h, w - 32, 9.5)
+
+
+def _bottom(shape: Shape) -> float:
+    if isinstance(shape, Disc):
+        return shape.cy - shape.r
+    if isinstance(shape, Line):
+        return shape.y - max(sp.size for sp in shape.spans) * 0.3
+    return shape.y
+
+
+def _lower(shapes: list[Shape], dy: float) -> None:
+    for shape in shapes:
+        if isinstance(shape, Disc):
+            shape.cy -= dy
+        else:
+            shape.y -= dy
+
+
+def generic(page: Page, slide: Slide, top: float) -> None:
+    """Any mix of stat tiles, a table, a chart and bullet cards (slides the copilot writes), drawn from the top
+    and then lowered so the block sits a little above the middle of the body."""
+    first = len(page.shapes)
+    y = top
+    items = [labelled(b) for b in slide.bullets]
+    stats = [(value, [(label, REGULAR)]) for value, label in slide.stats[:4]]
+    if stats and len(stats) <= 2 and items and not slide.table and not slide.chart:
+        # One or two figures: a column of tiles beside the bullets, not tiles stretched across the slide
+        side = (W - 2 * M) * 0.34
+        below = stat_cards(page, stats, Area(M, y, side, min(len(stats) * 130, top - BOTTOM)), cols=1)
+        stack(page, items, Area(M + side + 24, y, W - 2 * M - side - 24, top - BOTTOM), min_h=52, centre=False)
+        y = min(below, y)
+    else:
+        if stats:
+            y = stat_cards(page, stats, Area(M, y, W - 2 * M, min(118, (top - BOTTOM) * 0.36)), cols=len(stats)) - GAP
+        right = 300 if slide.chart else 0
+        left_w = W - 2 * M - (right + 24 if right else 0)
+        if slide.chart:
+            chart_card(page, slide.chart, [], W - M - right, y, right, min(y - BOTTOM, 300))
+        if slide.table:
+            room = (y - BOTTOM) * (0.6 if items else 1)
+            size = next(s for s in (12.5, 12, 11.5, 11, 10.5, 10, 9.5, 9, 8.5)
+                        if table_height(slide.table, left_w - 40, s) + 40 <= room or s == 8.5)
+            h = table_height(slide.table, left_w - 40, size) + 40
+            card(page, M, y - h, left_w, h)
+            table(page, slide.table, M + 20, y - 20, left_w - 40, size)
+            y -= h + GAP
+        if items:
+            stack(page, items, Area(M, y, left_w, y - BOTTOM), min_h=52, centre=False)
+    drawn = page.shapes[first:]
+    if drawn:
+        free = min(_bottom(sh) for sh in drawn) - BOTTOM
+        if free > 0:
+            _lower(drawn, free * 0.38)
+
+
+# What each composition can show besides bullets; anything else goes to ``generic``.
+EXTRAS = {"market": set(), "traction": {"table", "chart"}, "unit_economics": set(), "competition": {"table"},
+          "gtm": set(), "team": set(), "ask": set(), "problem": set(), "solution": set(), "business_model": set()}
 
 
 def unit_economics(page: Page, slide: Slide, top: float) -> None:
@@ -554,13 +660,12 @@ def team(page: Page, slide: Slide, top: float) -> None:
     stack(page, items, Area(M, top, W - 2 * M, top - BOTTOM), min_h=58)
 
 
-def ask(page: Page, spec: StartupSpec, slide: Slide, top: float) -> None:
-    r = spec.round
+def ask(page: Page, spec: Brand, slide: Slide, top: float) -> None:
     crore = lambda rupees: f"{rupees / 1e7:g}"  # noqa: E731
     stats = [
-        (f"Rs {crore(r.ask_inr)} crore", [(f"{STAGE_LABELS[spec.stage]} round", REGULAR)]),
-        (f"Rs {crore(r.pre_money_inr)} crore", [("Pre-money valuation", REGULAR)]),
-        (f"{r.min_raise_pct}%", [("Minimum raise to close", REGULAR)]),
+        (f"Rs {crore(spec.ask_inr or 0)} crore", [(f"{STAGE_LABELS[spec.stage]} round", REGULAR)]),
+        (f"Rs {crore(spec.pre_money_inr or 0)} crore", [("Pre-money valuation", REGULAR)]),
+        (f"{spec.min_raise_pct}%", [("Minimum raise to close", REGULAR)]),
     ]
     y = stat_cards(page, stats, Area(M, top, W - 2 * M, 104), cols=3, warm_last=True) - GAP
     tranches = [b for b in slide.bullets if b.startswith("Tranche")]
@@ -587,17 +692,21 @@ def ask(page: Page, spec: StartupSpec, slide: Slide, top: float) -> None:
             page.add(Disc(x + 30.2, ny - 5, 7.5, WHITE), Disc(x + 30.2, ny - 5, 5.5, colours[0], gradient=colours))
 
 
-def lay_out(spec: StartupSpec, slide: Slide, number: int, total: int) -> Page:
+def lay_out(spec: Brand, slide: Slide, number: int, total: int) -> Page:
     """One slide as shapes."""
     page = Page(notes=slide.notes)
     logo(page, spec)
     footer(page, spec, number, total)
+    extras = {kind for kind, present in (("table", slide.table), ("chart", slide.chart)) if present}
     if slide.key == "title":
         cover(page, spec, slide)
     else:
         top = header(page, slide, number)
         body = Area(M, top, W - 2 * M, top - BOTTOM)
-        if slide.key == "market":
+        if (slide.stats or slide.key not in EXTRAS or extras - EXTRAS[slide.key]
+                or (slide.key == "ask" and spec.ask_inr is None)):
+            generic(page, slide, top)
+        elif slide.key == "market":
             market(page, slide, top)
         elif slide.key == "traction":
             traction(page, slide, top)

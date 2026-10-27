@@ -8,7 +8,7 @@ from reportlab.lib.utils import ImageReader
 from reportlab.pdfgen import canvas
 from reportlab.pdfgen.canvas import FILL_NON_ZERO
 
-from aura.decks.design import Disc, Fill, H, Line, Page, Picture, Shadow, W, lay_out
+from aura.decks.design import Brand, Disc, Fill, H, Line, Page, Picture, Shadow, W, lay_out
 from aura.decks.slides import Slide, build_slides
 from aura.decks.spec import StartupSpec
 from aura.decks.theme import JADE_900, PAPER, RGB, WASH, register_fonts, unit
@@ -106,17 +106,20 @@ def draw_page(c: canvas.Canvas, page: Page) -> None:
         _line(c, line)
 
 
-def render_pdf(spec: StartupSpec, slides: list[Slide] | None = None) -> bytes:
+def render_slides_pdf(brand: Brand, slides: list[Slide]) -> bytes:
     register_fonts()
-    slides = slides or build_slides(spec)
     buf = io.BytesIO()
     c = canvas.Canvas(buf, pagesize=(W, H), invariant=1, pageCompression=1)
-    c.setTitle(f"{spec.name} — pitch deck")
-    c.setAuthor(spec.legal_name)
+    c.setTitle(f"{brand.name} — pitch deck")
+    c.setAuthor(brand.legal_name)
     c.setCreator("AURA-3 deck builder")
     c.setProducer("AURA-3 deck builder")
     for number, slide in enumerate(slides, start=1):
-        draw_page(c, lay_out(spec, slide, number, len(slides)))
+        draw_page(c, lay_out(brand, slide, number, len(slides)))
         c.showPage()
     c.save()
     return buf.getvalue()
+
+
+def render_pdf(spec: StartupSpec, slides: list[Slide] | None = None) -> bytes:
+    return render_slides_pdf(Brand.from_spec(spec), slides or build_slides(spec))

@@ -21,6 +21,7 @@ from langgraph.graph.message import add_messages
 
 from aura.agent.tools import TOOLS, Ctx, run_tool
 from aura.core import clock
+from aura.core.db import read_session
 from aura.core.llm import chat_model, gateway_slot
 from aura.core.untrusted import POLICY
 from aura.evaluation.graph import validate_citations
@@ -28,9 +29,9 @@ from aura.models import Startup
 
 logger = logging.getLogger("aura.copilot")
 
-MAX_ROUNDS = 5
+MAX_ROUNDS = 7  # room to read a deck and the evaluation, research, and then build a new deck
 MAX_CALLS_PER_ROUND = 6
-TURN_TIMEOUT_S = 180
+TURN_TIMEOUT_S = 300  # a deck build writes every slide, renders it and reads it back
 Emit = Callable[[str, dict[str, Any]], None]
 
 
@@ -66,11 +67,23 @@ def system_prompt(ctx: Ctx, focus: Startup | None) -> str:
             "platform does not have (market size, competitors, funding news)."
         )
     else:
-        who = f"You are AURA3's copilot for founders, helping {v.name} with their own startup."
+        own = None
+        if v.startup_id:
+            with read_session() as s:
+                own = s.get(Startup, v.startup_id)
+        who = (f"You are AURA3's copilot for founders, helping {v.name} with their own startup"
+               + (f", {own.name} (slug {own.slug}, {own.domain}, {own.stage.replace('_', '-')}): 'my startup', 'my deck' "
+                  f"and 'my evaluation' mean {own.name}, so pass that name to tools." if own else ".")
+               )
         guide = (
             "Help them understand and improve their pitch: read their deck with search_documents or read_page, "
             "explain their evaluation with get_evaluation, compare with peers using search_startups and get_startup, "
-            "and research their market with web_search. Be specific about what to change and why."
+            "and research their market with web_search. Be specific about what to change and why. When they ask you "
+            "to make, create, rebuild or export their deck or slides (PPT, PPTX, PDF): read their current deck in one "
+            "call (read_page without a page) and their evaluation, then call build_pitch_deck with every slide written "
+            "out; you can create files, so never answer that you cannot. "
+            "Use only figures from their documents, evaluation or cited web sources, labelled as estimates where they "
+            "are."
         )
     context = (f"\nThis conversation was opened from {focus.name} (slug {focus.slug}); questions are about it unless "
                "the user says otherwise.") if focus else ""
@@ -92,6 +105,7 @@ def system_prompt(ctx: Ctx, focus: Startup | None) -> str:
         "problems (struck off, name mismatch) and decks flagged for hidden instructions.\n"
         "- If a tool says the plan does not include something, say so plainly and mention the upgrade; never guess "
         "the hidden content.\n"
+        "- Never say you created, built, changed or fixed a file unless a tool returned it in this conversation.\n"
         "- Do not narrate tool use (\"let me look up…\"): the user sees each tool call as a card. Call tools "
         "silently, then write the answer.\n"
         "- Be concise and lead with the answer. Use short bullet lists, and a small table for comparisons. Keep "
@@ -106,7 +120,7 @@ def build_graph(ctx: Ctx, system: str, turn: Turn, emit: Emit):
 
     async def agent(state: State) -> dict:
         tools_allowed = state["rounds"] < MAX_ROUNDS
-        llm = chat_model("agent", temperature=0.2, max_tokens=2000)
+        llm = chat_model("agent", temperature=0.2, max_tokens=8000)  # room for a whole deck as tool arguments
         if tools_allowed:
             llm = llm.bind_tools(specs)
         prompt: list[BaseMessage] = [SystemMessage(content=system), *state["messages"]]

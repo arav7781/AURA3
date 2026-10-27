@@ -11,147 +11,147 @@
    "traction": 7.8
   },
   "citations": {
-   "c:5opapnn": {
-    "bbox": [
-     0.05939,
-     0.12926,
-     0.9179,
-     0.80352
-    ],
-    "chunk_id": "0b09f49b-3b45-5abc-8ac0-54a846852ece",
-    "document_id": "971768b1-fb75-4776-ac5e-666526748e67",
-    "page_no": 8,
-    "slide_title": "Competitive Landscape",
-    "type": "deck"
-   },
-   "c:aji7ysb": {
-    "bbox": [
-     0.05939,
-     0.22339,
-     0.52978,
-     0.72271
-    ],
-    "chunk_id": "32245fab-ffa0-5e89-8909-74a30f123813",
-    "document_id": "971768b1-fb75-4776-ac5e-666526748e67",
-    "page_no": 1,
-    "slide_title": "NeuronForge",
-    "type": "deck"
-   },
-   "c:av4xwdl": {
-    "bbox": [
-     0.05939,
-     0.12926,
-     0.92303,
-     0.88155
-    ],
-    "chunk_id": "2f8b16bb-4c0c-5997-a6bc-edf2b4a7ab93",
-    "document_id": "971768b1-fb75-4776-ac5e-666526748e67",
-    "page_no": 6,
-    "slide_title": "Traction (as of FY2026)",
-    "type": "deck"
-   },
-   "c:g3y6aoq": {
-    "bbox": [
-     0.05939,
-     0.12926,
-     0.83037,
-     0.71981
-    ],
-    "chunk_id": "0a37eb84-8764-52ac-b0b4-b15a90f9e0dd",
-    "document_id": "971768b1-fb75-4776-ac5e-666526748e67",
-    "page_no": 7,
-    "slide_title": "Unit Economics",
-    "type": "deck"
-   },
-   "c:h7fuoaw": {
-    "bbox": [
-     0.05939,
-     0.12926,
-     0.88279,
-     0.67367
-    ],
-    "chunk_id": "88313fb2-5d95-57d9-9486-903446fb7db8",
-    "document_id": "971768b1-fb75-4776-ac5e-666526748e67",
-    "page_no": 5,
-    "slide_title": "Business Model",
-    "type": "deck"
-   },
-   "c:ql7e333": {
-    "bbox": [
-     0.05939,
-     0.12926,
-     0.61557,
-     0.80727
-    ],
-    "chunk_id": "438f9898-f9b5-55c0-95b3-e31e44aa1510",
-    "document_id": "971768b1-fb75-4776-ac5e-666526748e67",
-    "page_no": 9,
-    "slide_title": "Go-to-Market & Key Risks",
-    "type": "deck"
-   },
-   "c:uaxuf7u": {
-    "bbox": [
-     0.05939,
-     0.12926,
-     0.79825,
-     0.76418
-    ],
-    "chunk_id": "198daaa4-bfa0-5fcb-9074-a7ed3b4f2128",
-    "document_id": "971768b1-fb75-4776-ac5e-666526748e67",
-    "page_no": 3,
-    "slide_title": "Solution",
-    "type": "deck"
-   },
-   "c:vi72t3g": {
-    "bbox": [
-     0.05939,
-     0.12926,
-     0.80272,
-     0.82268
-    ],
-    "chunk_id": "e7a0ac2e-ff5c-5deb-85eb-327169f33fe8",
-    "document_id": "971768b1-fb75-4776-ac5e-666526748e67",
-    "page_no": 4,
-    "slide_title": "Market Opportunity (TAM / SAM / SOM)",
-    "type": "deck"
-   },
-   "c:w5bd5pu": {
-    "bbox": [
-     0.05939,
-     0.12926,
-     0.9144,
-     0.79796
-    ],
-    "chunk_id": "c503a866-a897-5fd3-8226-fe439096b623",
-    "document_id": "971768b1-fb75-4776-ac5e-666526748e67",
-    "page_no": 11,
-    "slide_title": "The Ask",
-    "type": "deck"
-   },
-   "c:wjuboeu": {
+   "c:5yfyith": {
     "bbox": [
      0.05939,
      0.12926,
      0.89183,
      0.75157
     ],
-    "chunk_id": "8245e750-1c61-5519-81cb-c9d16627f62f",
-    "document_id": "971768b1-fb75-4776-ac5e-666526748e67",
+    "chunk_id": "2b670eb7-08dc-5034-8525-762a23ce5f9e",
+    "document_id": "6faf80a7-8aa6-4119-a64c-40688da78a35",
     "page_no": 10,
     "slide_title": "Team",
     "type": "deck"
    },
-   "c:xdtoclm": {
+   "c:elpkkkh": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.8965,
+     0.8433
+    ],
+    "chunk_id": "e59abbe6-3f69-5aca-9e50-b1d7776048e0",
+    "document_id": "6faf80a7-8aa6-4119-a64c-40688da78a35",
+    "page_no": 6,
+    "slide_title": "Traction (as of FY2026)",
+    "type": "deck"
+   },
+   "c:gvqs35d": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.9144,
+     0.79796
+    ],
+    "chunk_id": "0b7f5edd-9649-5de4-b703-d49b1b27005c",
+    "document_id": "6faf80a7-8aa6-4119-a64c-40688da78a35",
+    "page_no": 11,
+    "slide_title": "The Ask",
+    "type": "deck"
+   },
+   "c:jc5q6ha": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.9179,
+     0.80352
+    ],
+    "chunk_id": "5c25d72a-f6a6-5921-913e-3626391482b3",
+    "document_id": "6faf80a7-8aa6-4119-a64c-40688da78a35",
+    "page_no": 8,
+    "slide_title": "Competitive Landscape",
+    "type": "deck"
+   },
+   "c:jllgs6w": {
+    "bbox": [
+     0.05939,
+     0.22339,
+     0.52978,
+     0.72271
+    ],
+    "chunk_id": "ad5cc24a-be65-536e-a868-240e31aa0c15",
+    "document_id": "6faf80a7-8aa6-4119-a64c-40688da78a35",
+    "page_no": 1,
+    "slide_title": "NeuronForge",
+    "type": "deck"
+   },
+   "c:kphhfog": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.80272,
+     0.82268
+    ],
+    "chunk_id": "5449a1c0-59aa-5f62-b841-6e7c7ae740b8",
+    "document_id": "6faf80a7-8aa6-4119-a64c-40688da78a35",
+    "page_no": 4,
+    "slide_title": "Market Opportunity (TAM / SAM / SOM)",
+    "type": "deck"
+   },
+   "c:pnltudp": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.61557,
+     0.80727
+    ],
+    "chunk_id": "fa7deab2-0071-5d5e-826f-ed7cd3699b38",
+    "document_id": "6faf80a7-8aa6-4119-a64c-40688da78a35",
+    "page_no": 9,
+    "slide_title": "Go-to-Market & Key Risks",
+    "type": "deck"
+   },
+   "c:qa5lp2i": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.83037,
+     0.71981
+    ],
+    "chunk_id": "5d91db32-1cc1-52bc-a33c-d9d82738c625",
+    "document_id": "6faf80a7-8aa6-4119-a64c-40688da78a35",
+    "page_no": 7,
+    "slide_title": "Unit Economics",
+    "type": "deck"
+   },
+   "c:wloodf3": {
     "bbox": [
      0.05939,
      0.12926,
      0.90324,
      0.73508
     ],
-    "chunk_id": "b78b3e92-2475-50fa-96dc-542bcebb2934",
-    "document_id": "971768b1-fb75-4776-ac5e-666526748e67",
+    "chunk_id": "ab21caa2-1924-5a60-b8ba-5378e99049d2",
+    "document_id": "6faf80a7-8aa6-4119-a64c-40688da78a35",
     "page_no": 2,
     "slide_title": "Problem",
+    "type": "deck"
+   },
+   "c:yunzll2": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.88279,
+     0.67367
+    ],
+    "chunk_id": "f470accd-2af1-5d8f-926e-df68bcbe04bb",
+    "document_id": "6faf80a7-8aa6-4119-a64c-40688da78a35",
+    "page_no": 5,
+    "slide_title": "Business Model",
+    "type": "deck"
+   },
+   "c:zfcssus": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.79825,
+     0.76418
+    ],
+    "chunk_id": "3352ddf7-16b4-57d6-bbc6-c7bf2be171ef",
+    "document_id": "6faf80a7-8aa6-4119-a64c-40688da78a35",
+    "page_no": 3,
+    "slide_title": "Solution",
     "type": "deck"
    },
    "w:2": {
@@ -191,7 +191,7 @@
   ],
   "evidence_version": 2,
   "generated_at": "2026-10-27T06:44:01.710244Z",
-  "input_hash": "3a0f2f54efe4e334d217dbbf4bfe1d1ba3b05596165b4eb0c252e2ae0594495c",
+  "input_hash": "6e5874c179d5841b23ee3ccb63e64403ad643fc46e03df066a536046633a407a",
   "invalid_citations": [],
   "market_sizing": {
    "basis": "Only figures traceable to retrieved search excerpts are plotted as market data.",
@@ -208,9 +208,9 @@
        0.80272,
        0.82268
       ],
-      "chunk_id": "e7a0ac2e-ff5c-5deb-85eb-327169f33fe8",
-      "cid": "c:vi72t3g",
-      "document_id": "971768b1-fb75-4776-ac5e-666526748e67",
+      "chunk_id": "5449a1c0-59aa-5f62-b841-6e7c7ae740b8",
+      "cid": "c:kphhfog",
+      "document_id": "6faf80a7-8aa6-4119-a64c-40688da78a35",
       "page_no": 4
      },
      "currency": "%",
@@ -239,9 +239,9 @@
        0.80272,
        0.82268
       ],
-      "chunk_id": "e7a0ac2e-ff5c-5deb-85eb-327169f33fe8",
-      "cid": "c:vi72t3g",
-      "document_id": "971768b1-fb75-4776-ac5e-666526748e67",
+      "chunk_id": "5449a1c0-59aa-5f62-b841-6e7c7ae740b8",
+      "cid": "c:kphhfog",
+      "document_id": "6faf80a7-8aa6-4119-a64c-40688da78a35",
       "page_no": 4
      },
      "currency": "INR",
@@ -274,12 +274,12 @@
      "bbox": [
       0.05939,
       0.12926,
-      0.92303,
-      0.88155
+      0.8965,
+      0.8433
      ],
-     "chunk_id": "2f8b16bb-4c0c-5997-a6bc-edf2b4a7ab93",
-     "cid": "c:av4xwdl",
-     "document_id": "971768b1-fb75-4776-ac5e-666526748e67",
+     "chunk_id": "e59abbe6-3f69-5aca-9e50-b1d7776048e0",
+     "cid": "c:elpkkkh",
+     "document_id": "6faf80a7-8aa6-4119-a64c-40688da78a35",
      "page_no": 6
     },
     "geography": "India",
@@ -299,19 +299,19 @@
    }
   ],
   "recommendation_label": "Buy",
-  "report_markdown": "## 1. Executive Summary\n\nNeuronForge is a Series A deeptech startup offering a speech-to-text API for 22 Indian languages, purpose-built for noisy, code-mixed call-centre audio. The company has achieved strong early traction: ARR of Rs 8.6 crore in FY2026 (up 65% YoY), 140 enterprise customers including 6 banks on on-premise deployments, and 9 million minutes transcribed monthly [c:av4xwdl]. Net revenue retention of 138% and a CAC payback of 11.5 months indicate healthy unit economics [c:g3y6aoq]. The team combines deep domain expertise in speech recognition, ML infrastructure, enterprise sales, and Indian-language linguistics [c:wjuboeu]. Key risks include competition from well-funded players like Sarvam AI (recently valued at $1.5 billion) [w:3][w:6] and large cloud providers, as well as revenue concentration in BFSI [c:ql7e333]. The company is raising Rs 45 crore at a Rs 240 crore pre-money valuation [c:w5bd5pu]. Overall score: 6.6/10, Buy.\n\n## 2. Problem & Solution\n\nIndian enterprises record vast volumes of multilingual, code-mixed calls but can transcribe less than 5% of them accurately, as most speech models are trained on clean, single-language audio [c:xdtoclm]. NeuronForge solves this with speech-to-text models trained on 38,000 hours of licensed, labelled telephony audio in 22 Indian languages and code-mixed speech (e.g., Hinglish, Tanglish) [c:5opapnn]. The solution is offered as a streaming/batch API or on-premise for regulated customers, with features like speaker separation, timestamps, and personal data redaction [c:uaxuf7u]. This enables banks and contact centres to analyse near 100% of their call data, unlocking compliance, quality monitoring, and customer-insight use cases.\n\n## 3. Market Opportunity\n\nNeuronForge estimates the Indian speech-recognition and voice-AI software TAM at Rs 3,800 crore in 2025, growing to Rs 11,000 crore by 2030 at a 23.7% CAGR (company-projected) [c:vi72t3g]. The SAM for enterprise telephony and media transcription in Indian languages is pegged at Rs 1,100 crore in 2025 (company estimate), with a 3-year SOM of Rs 85 crore by 2029 (company projection) [c:vi72t3g]. All market sizing figures are company-reported and unverified; no independent publisher forecasts were found. The market is driven by India's Digital Personal Data Protection Act 2023, which mandates stricter data localisation and privacy controls, favouring on-premise deployments [w:4][w:5].\n\n## 4. Competitive Landscape\n\nNeuronForge competes with global cloud providers (Google Cloud Speech-to-Text), Indian full-stack AI startups (Sarvam AI), and localisation specialists (Reverie Language Technologies) [c:5opapnn]. Sarvam AI is a particularly well-funded rival, having raised $234 million at a $1.5 billion valuation and launched Saaras V4, an ASR model supporting 22 Indian languages [w:2][w:3][w:6]. NeuronForge's differentiators include 38,000 hours of proprietary telephony audio data, on-premise deployments that create sticky contracts with banks, and models tuned for code-mixed speech [c:5opapnn]. However, the deck acknowledges risks from large cloud providers undercutting on price and open-source Indic speech models commoditising accuracy [c:ql7e333].\n\n## 5. Business Model\n\nRevenue is generated via two channels: API usage at Rs 0.55 per minute (69% of revenue) and on-premise licences at Rs 3,000,000 per year (31% of revenue) [c:h7fuoaw]. Gross margin is 68% after GPU compute costs [c:h7fuoaw]. Unit economics show a CAC of Rs 400,000, CAC payback of 11.5 months, NRR of 138%, and monthly churn of 0.9% [c:g3y6aoq]. The company is raising Rs 45 crore in Series A at a Rs 240 crore pre-money valuation (Rs 285 crore post-money), with funds allocated to R&D & compute (40%), sales (25%), data acquisition (20%), and G&A (15%) [c:w5bd5pu]. The round includes tranches tied to ARR and product milestones [c:w5bd5pu].\n\n## 6. Team Assessment\n\nThe founding team combines strong domain and execution experience. CEO Vignesh Subramanian holds a PhD in speech recognition and has 6 years building ASR systems [c:wjuboeu]. CTO Ayesha Siddiqui leads ML infrastructure and has scaled GPU inference serving [c:wjuboeu]. Business head Harish Iyer brings 12 years selling contact-centre technology to banks and insurers [c:wjuboeu]. Data & Linguistics lead Bhavna Chauhan is a computational linguist who has led Indian-language data collection projects [c:wjuboeu]. The team lacks prior startup scaling or repeated exits, which limits the score to 7.0. No compliance or registry flags exist; the company is active and registered under CIN U62011TN2021PTC146283 [c:aji7ysb].\n\n## 7. Traction & Milestones\n\nNeuronForge has grown ARR from Rs 1.1 crore (FY2023) to Rs 8.6 crore (FY2026), a roughly 2x year-over-year increase, with 65% YoY growth in the latest period [c:av4xwdl]. The platform now serves 140 enterprise customers, including 6 banks running on-premise deployments, and transcribes about 9 million minutes per month [c:av4xwdl]. Net revenue retention of 138% and a monthly churn of 0.9% indicate strong customer stickiness and expansion [c:g3y6aoq]. The company targets Rs 20 crore ARR within 24 months, with a structured Series A tranche tied to achieving Rs 15 crore ARR and launching a real-time speech translation API [c:w5bd5pu][c:ql7e333].\n\n## 8. Compliance & Governance\n\nThe company is registered as NEURONFORGE PRIVATE LIMITED (CIN U62011TN2021PTC146283) with an ACTIVE status on the MCA registry; directors are Vignesh Subramanian, Ayesha Siddiqui, Harish Iyer, and Bhavna Chauhan [c:aji7ysb]. No compliance flags were raised in the registry check. The deck does not attempt to instruct the evaluator or override scoring rules. The company operates in a sector subject to India\u2019s Digital Personal Data Protection Act 2023, which came into force in November 2025 [w:4][w:5]; NeuronForge\u2019s on-premise deployments and redaction features [c:uaxuf7u] appear aligned with data minimisation and privacy requirements, though no explicit compliance certification is cited.\n\n## 9. Risks & Challenges\n\nRevenue concentration in BFSI (6 banks among 140 customers) creates sector dependency [c:ql7e333]. Competition from well-funded players like Sarvam AI (recently valued at $1.5 billion) and Google Cloud, which offer similar Indian-language speech capabilities, poses pricing and commoditisation risks [c:ql7e333][w:2][w:6]. GPU cost dependency (gross margin 68%) and potential open-source commoditisation of Indic speech models are acknowledged by the company [c:ql7e333]. The deck\u2019s market sizing (TAM Rs 3,800 crore, SAM Rs 1,100 crore) is company-estimated without independent validation [c:vi72t3g]. The structured Series A tranches (60% of funds tied to ARR and product milestones) introduce execution risk if milestones are delayed [c:w5bd5pu].\n\n## 10. Investment Thesis\n\nNeuronForge addresses a clear enterprise need for accurate, code-mixed speech-to-text in 22 Indian languages, with a working product used by 140 paying customers including 6 banks on on-premise contracts [c:uaxuf7u][c:av4xwdl]. Traction is strong: ARR grew from Rs 1.1 crore to Rs 8.6 crore over three years, with 138% net revenue retention and 9M minutes/month transcribed [c:av4xwdl][c:g3y6aoq]. The proprietary 38,000 hours of labelled telephony audio and sticky on-premise deployments create meaningful switching costs [c:5opapnn]. The team combines deep domain expertise (CEO with PhD in speech recognition, CTO in ML infra, business head with 12 years in contact-centre sales) [c:wjuboeu]. Risks include competition from well-capitalised players (Sarvam AI, Google), BFSI concentration, and company-estimated market sizing, but the product-market fit and retention metrics support a Buy at the current stage.\n\n## 11. Recommendation\n\n**Buy** (overall 6.6/10). NeuronForge shows strong product-market fit with 140 enterprise customers, 138% NRR, and 2x ARR growth over three years. The proprietary data moat and on-premise contracts in banking provide defensibility. Key risks\u2014competition from Sarvam AI and Google, BFSI concentration, and unverified market sizing\u2014are manageable at Series A. The structured tranche aligns capital with milestones. Recommended for investors seeking exposure to Indian-language AI infrastructure with proven enterprise traction.",
+  "report_markdown": "## 1. Executive Summary\n\nNeuronForge is a Series A deeptech startup offering a speech-to-text API for 22 Indian languages, purpose-built for noisy, code-mixed call-centre audio. The company has achieved strong early traction: ARR of Rs 8.6 crore in FY2026 (up 65% YoY), 140 enterprise customers including 6 banks on on-premise deployments, and 9 million minutes transcribed monthly [c:elpkkkh]. Net revenue retention of 138% and a CAC payback of 11.5 months indicate healthy unit economics [c:qa5lp2i]. The team combines deep domain expertise in speech recognition, ML infrastructure, enterprise sales, and Indian-language linguistics [c:5yfyith]. Key risks include competition from well-funded players like Sarvam AI (recently valued at $1.5 billion) [w:3][w:6] and large cloud providers, as well as revenue concentration in BFSI [c:pnltudp]. The company is raising Rs 45 crore at a Rs 240 crore pre-money valuation [c:gvqs35d]. Overall score: 6.6/10, Buy.\n\n## 2. Problem & Solution\n\nIndian enterprises record vast volumes of multilingual, code-mixed calls but can transcribe less than 5% of them accurately, as most speech models are trained on clean, single-language audio [c:wloodf3]. NeuronForge solves this with speech-to-text models trained on 38,000 hours of licensed, labelled telephony audio in 22 Indian languages and code-mixed speech (e.g., Hinglish, Tanglish) [c:jc5q6ha]. The solution is offered as a streaming/batch API or on-premise for regulated customers, with features like speaker separation, timestamps, and personal data redaction [c:zfcssus]. This enables banks and contact centres to analyse near 100% of their call data, unlocking compliance, quality monitoring, and customer-insight use cases.\n\n## 3. Market Opportunity\n\nNeuronForge estimates the Indian speech-recognition and voice-AI software TAM at Rs 3,800 crore in 2025, growing to Rs 11,000 crore by 2030 at a 23.7% CAGR (company-projected) [c:kphhfog]. The SAM for enterprise telephony and media transcription in Indian languages is pegged at Rs 1,100 crore in 2025 (company estimate), with a 3-year SOM of Rs 85 crore by 2029 (company projection) [c:kphhfog]. All market sizing figures are company-reported and unverified; no independent publisher forecasts were found. The market is driven by India's Digital Personal Data Protection Act 2023, which mandates stricter data localisation and privacy controls, favouring on-premise deployments [w:4][w:5].\n\n## 4. Competitive Landscape\n\nNeuronForge competes with global cloud providers (Google Cloud Speech-to-Text), Indian full-stack AI startups (Sarvam AI), and localisation specialists (Reverie Language Technologies) [c:jc5q6ha]. Sarvam AI is a particularly well-funded rival, having raised $234 million at a $1.5 billion valuation and launched Saaras V4, an ASR model supporting 22 Indian languages [w:2][w:3][w:6]. NeuronForge's differentiators include 38,000 hours of proprietary telephony audio data, on-premise deployments that create sticky contracts with banks, and models tuned for code-mixed speech [c:jc5q6ha]. However, the deck acknowledges risks from large cloud providers undercutting on price and open-source Indic speech models commoditising accuracy [c:pnltudp].\n\n## 5. Business Model\n\nRevenue is generated via two channels: API usage at Rs 0.55 per minute (69% of revenue) and on-premise licences at Rs 3,000,000 per year (31% of revenue) [c:yunzll2]. Gross margin is 68% after GPU compute costs [c:yunzll2]. Unit economics show a CAC of Rs 400,000, CAC payback of 11.5 months, NRR of 138%, and monthly churn of 0.9% [c:qa5lp2i]. The company is raising Rs 45 crore in Series A at a Rs 240 crore pre-money valuation (Rs 285 crore post-money), with funds allocated to R&D & compute (40%), sales (25%), data acquisition (20%), and G&A (15%) [c:gvqs35d]. The round includes tranches tied to ARR and product milestones [c:gvqs35d].\n\n## 6. Team Assessment\n\nThe founding team combines strong domain and execution experience. CEO Vignesh Subramanian holds a PhD in speech recognition and has 6 years building ASR systems [c:5yfyith]. CTO Ayesha Siddiqui leads ML infrastructure and has scaled GPU inference serving [c:5yfyith]. Business head Harish Iyer brings 12 years selling contact-centre technology to banks and insurers [c:5yfyith]. Data & Linguistics lead Bhavna Chauhan is a computational linguist who has led Indian-language data collection projects [c:5yfyith]. The team lacks prior startup scaling or repeated exits, which limits the score to 7.0. No compliance or registry flags exist; the company is active and registered under CIN U62011TN2021PTC146283 [c:jllgs6w].\n\n## 7. Traction & Milestones\n\nNeuronForge has grown ARR from Rs 1.1 crore (FY2023) to Rs 8.6 crore (FY2026), a roughly 2x year-over-year increase, with 65% YoY growth in the latest period [c:elpkkkh]. The platform now serves 140 enterprise customers, including 6 banks running on-premise deployments, and transcribes about 9 million minutes per month [c:elpkkkh]. Net revenue retention of 138% and a monthly churn of 0.9% indicate strong customer stickiness and expansion [c:qa5lp2i]. The company targets Rs 20 crore ARR within 24 months, with a structured Series A tranche tied to achieving Rs 15 crore ARR and launching a real-time speech translation API [c:gvqs35d][c:pnltudp].\n\n## 8. Compliance & Governance\n\nThe company is registered as NEURONFORGE PRIVATE LIMITED (CIN U62011TN2021PTC146283) with an ACTIVE status on the MCA registry; directors are Vignesh Subramanian, Ayesha Siddiqui, Harish Iyer, and Bhavna Chauhan [c:jllgs6w]. No compliance flags were raised in the registry check. The deck does not attempt to instruct the evaluator or override scoring rules. The company operates in a sector subject to India\u2019s Digital Personal Data Protection Act 2023, which came into force in November 2025 [w:4][w:5]; NeuronForge\u2019s on-premise deployments and redaction features [c:zfcssus] appear aligned with data minimisation and privacy requirements, though no explicit compliance certification is cited.\n\n## 9. Risks & Challenges\n\nRevenue concentration in BFSI (6 banks among 140 customers) creates sector dependency [c:pnltudp]. Competition from well-funded players like Sarvam AI (recently valued at $1.5 billion) and Google Cloud, which offer similar Indian-language speech capabilities, poses pricing and commoditisation risks [c:pnltudp][w:2][w:6]. GPU cost dependency (gross margin 68%) and potential open-source commoditisation of Indic speech models are acknowledged by the company [c:pnltudp]. The deck\u2019s market sizing (TAM Rs 3,800 crore, SAM Rs 1,100 crore) is company-estimated without independent validation [c:kphhfog]. The structured Series A tranches (60% of funds tied to ARR and product milestones) introduce execution risk if milestones are delayed [c:gvqs35d].\n\n## 10. Investment Thesis\n\nNeuronForge addresses a clear enterprise need for accurate, code-mixed speech-to-text in 22 Indian languages, with a working product used by 140 paying customers including 6 banks on on-premise contracts [c:zfcssus][c:elpkkkh]. Traction is strong: ARR grew from Rs 1.1 crore to Rs 8.6 crore over three years, with 138% net revenue retention and 9M minutes/month transcribed [c:elpkkkh][c:qa5lp2i]. The proprietary 38,000 hours of labelled telephony audio and sticky on-premise deployments create meaningful switching costs [c:jc5q6ha]. The team combines deep domain expertise (CEO with PhD in speech recognition, CTO in ML infra, business head with 12 years in contact-centre sales) [c:5yfyith]. Risks include competition from well-capitalised players (Sarvam AI, Google), BFSI concentration, and company-estimated market sizing, but the product-market fit and retention metrics support a Buy at the current stage.\n\n## 11. Recommendation\n\n**Buy** (overall 6.6/10). NeuronForge shows strong product-market fit with 140 enterprise customers, 138% NRR, and 2x ARR growth over three years. The proprietary data moat and on-premise contracts in banking provide defensibility. Key risks\u2014competition from Sarvam AI and Google, BFSI concentration, and unverified market sizing\u2014are manageable at Series A. The structured tranche aligns capital with milestones. Recommended for investors seeking exposure to Indian-language AI infrastructure with proven enterprise traction.",
   "revenue_currency": "INR",
   "revenue_metric": "ARR",
   "rewrites": 2,
   "rubric_version": "r1",
   "score_rationales": {
-   "business_model": "Pricing is defined (Rs 0.55/min API, Rs 3M/yr on-premise) with gross margin 68% and early unit economics: CAC payback 11.5 months, NRR 138% [c:g3y6aoq][c:h7fuoaw]. Payback over 6 months and no net revenue retention above 110% threshold limit to 6.",
-   "execution_risk": "Typical early-stage risks: revenue concentration in BFSI, GPU cost dependency, and competition from Google/Sarvam AI [c:ql7e333]. Mitigations include on-premise contracts and proprietary data [c:5opapnn]. No regulatory or registry red flags; company is active and compliant [c:aji7ysb].",
-   "market": "The TAM of Rs 3,800 crore and SAM of Rs 1,100 crore for 2025 are sizable and scoped to enterprise telephony in India [c:vi72t3g], but all sizing is company-estimated without independent source backing, and the CAGR is also a company projection [c:vi72t3g].",
-   "moat": "Meaningful switching costs from on-premise deployments in banks (sticky contracts) and proprietary 38,000 hours of labelled telephony audio [c:5opapnn]. However, risks from large cloud providers and open-source commoditisation are acknowledged [c:ql7e333], and moats are not yet reinforced with multiple layers.",
-   "product": "The product is a working speech-to-text API with 140 paying enterprise customers, including 6 banks running on-premise, and clear value for noisy, code-mixed call-centre audio [c:uaxuf7u][c:av4xwdl]. Net revenue retention of 138% and 9M minutes/month suggest strong product-market fit, but it is not yet category-defining as competitors like Sarvam AI offer similar capabilities [c:5opapnn][w:2].",
-   "team": "The founding team covers CEO (PhD in speech recognition), CTO (ML infra), business head (12 years selling contact-centre tech), and data linguist (Indian-language data projects) \u2013 strong domain and execution experience [c:wjuboeu]. Missing evidence of prior startup scaling or repeated successes to reach 8 or higher.",
-   "traction": "ARR grew from Rs 1.1 crore (FY2023) to Rs 8.6 crore (FY2026) \u2013 roughly 2x year-over-year \u2013 with 140 enterprise customers, 9M minutes/month, and NRR 138% [c:av4xwdl]. Strong growth with retention evidence, though not yet at exceptional scale."
+   "business_model": "Pricing is defined (Rs 0.55/min API, Rs 3M/yr on-premise) with gross margin 68% and early unit economics: CAC payback 11.5 months, NRR 138% [c:qa5lp2i][c:yunzll2]. Payback over 6 months and no net revenue retention above 110% threshold limit to 6.",
+   "execution_risk": "Typical early-stage risks: revenue concentration in BFSI, GPU cost dependency, and competition from Google/Sarvam AI [c:pnltudp]. Mitigations include on-premise contracts and proprietary data [c:jc5q6ha]. No regulatory or registry red flags; company is active and compliant [c:jllgs6w].",
+   "market": "The TAM of Rs 3,800 crore and SAM of Rs 1,100 crore for 2025 are sizable and scoped to enterprise telephony in India [c:kphhfog], but all sizing is company-estimated without independent source backing, and the CAGR is also a company projection [c:kphhfog].",
+   "moat": "Meaningful switching costs from on-premise deployments in banks (sticky contracts) and proprietary 38,000 hours of labelled telephony audio [c:jc5q6ha]. However, risks from large cloud providers and open-source commoditisation are acknowledged [c:pnltudp], and moats are not yet reinforced with multiple layers.",
+   "product": "The product is a working speech-to-text API with 140 paying enterprise customers, including 6 banks running on-premise, and clear value for noisy, code-mixed call-centre audio [c:zfcssus][c:elpkkkh]. Net revenue retention of 138% and 9M minutes/month suggest strong product-market fit, but it is not yet category-defining as competitors like Sarvam AI offer similar capabilities [c:jc5q6ha][w:2].",
+   "team": "The founding team covers CEO (PhD in speech recognition), CTO (ML infra), business head (12 years selling contact-centre tech), and data linguist (Indian-language data projects) \u2013 strong domain and execution experience [c:5yfyith]. Missing evidence of prior startup scaling or repeated successes to reach 8 or higher.",
+   "traction": "ARR grew from Rs 1.1 crore (FY2023) to Rs 8.6 crore (FY2026) \u2013 roughly 2x year-over-year \u2013 with 140 enterprise customers, 9M minutes/month, and NRR 138% [c:elpkkkh]. Strong growth with retention evidence, though not yet at exceptional scale."
   },
   "score_spread": {
    "business_model": 1.0,
@@ -323,17 +323,17 @@
    "traction": 1.0
   },
   "sections": {
-   "business_model": "Revenue is generated via two channels: API usage at Rs 0.55 per minute (69% of revenue) and on-premise licences at Rs 3,000,000 per year (31% of revenue) [c:h7fuoaw]. Gross margin is 68% after GPU compute costs [c:h7fuoaw]. Unit economics show a CAC of Rs 400,000, CAC payback of 11.5 months, NRR of 138%, and monthly churn of 0.9% [c:g3y6aoq]. The company is raising Rs 45 crore in Series A at a Rs 240 crore pre-money valuation (Rs 285 crore post-money), with funds allocated to R&D & compute (40%), sales (25%), data acquisition (20%), and G&A (15%) [c:w5bd5pu]. The round includes tranches tied to ARR and product milestones [c:w5bd5pu].",
-   "competitive_landscape": "NeuronForge competes with global cloud providers (Google Cloud Speech-to-Text), Indian full-stack AI startups (Sarvam AI), and localisation specialists (Reverie Language Technologies) [c:5opapnn]. Sarvam AI is a particularly well-funded rival, having raised $234 million at a $1.5 billion valuation and launched Saaras V4, an ASR model supporting 22 Indian languages [w:2][w:3][w:6]. NeuronForge's differentiators include 38,000 hours of proprietary telephony audio data, on-premise deployments that create sticky contracts with banks, and models tuned for code-mixed speech [c:5opapnn]. However, the deck acknowledges risks from large cloud providers undercutting on price and open-source Indic speech models commoditising accuracy [c:ql7e333].",
-   "compliance_governance": "The company is registered as NEURONFORGE PRIVATE LIMITED (CIN U62011TN2021PTC146283) with an ACTIVE status on the MCA registry; directors are Vignesh Subramanian, Ayesha Siddiqui, Harish Iyer, and Bhavna Chauhan [c:aji7ysb]. No compliance flags were raised in the registry check. The deck does not attempt to instruct the evaluator or override scoring rules. The company operates in a sector subject to India\u2019s Digital Personal Data Protection Act 2023, which came into force in November 2025 [w:4][w:5]; NeuronForge\u2019s on-premise deployments and redaction features [c:uaxuf7u] appear aligned with data minimisation and privacy requirements, though no explicit compliance certification is cited.",
-   "executive_summary": "NeuronForge is a Series A deeptech startup offering a speech-to-text API for 22 Indian languages, purpose-built for noisy, code-mixed call-centre audio. The company has achieved strong early traction: ARR of Rs 8.6 crore in FY2026 (up 65% YoY), 140 enterprise customers including 6 banks on on-premise deployments, and 9 million minutes transcribed monthly [c:av4xwdl]. Net revenue retention of 138% and a CAC payback of 11.5 months indicate healthy unit economics [c:g3y6aoq]. The team combines deep domain expertise in speech recognition, ML infrastructure, enterprise sales, and Indian-language linguistics [c:wjuboeu]. Key risks include competition from well-funded players like Sarvam AI (recently valued at $1.5 billion) [w:3][w:6] and large cloud providers, as well as revenue concentration in BFSI [c:ql7e333]. The company is raising Rs 45 crore at a Rs 240 crore pre-money valuation [c:w5bd5pu]. Overall score: 6.6/10, Buy.",
-   "investment_thesis": "NeuronForge addresses a clear enterprise need for accurate, code-mixed speech-to-text in 22 Indian languages, with a working product used by 140 paying customers including 6 banks on on-premise contracts [c:uaxuf7u][c:av4xwdl]. Traction is strong: ARR grew from Rs 1.1 crore to Rs 8.6 crore over three years, with 138% net revenue retention and 9M minutes/month transcribed [c:av4xwdl][c:g3y6aoq]. The proprietary 38,000 hours of labelled telephony audio and sticky on-premise deployments create meaningful switching costs [c:5opapnn]. The team combines deep domain expertise (CEO with PhD in speech recognition, CTO in ML infra, business head with 12 years in contact-centre sales) [c:wjuboeu]. Risks include competition from well-capitalised players (Sarvam AI, Google), BFSI concentration, and company-estimated market sizing, but the product-market fit and retention metrics support a Buy at the current stage.",
-   "market_opportunity": "NeuronForge estimates the Indian speech-recognition and voice-AI software TAM at Rs 3,800 crore in 2025, growing to Rs 11,000 crore by 2030 at a 23.7% CAGR (company-projected) [c:vi72t3g]. The SAM for enterprise telephony and media transcription in Indian languages is pegged at Rs 1,100 crore in 2025 (company estimate), with a 3-year SOM of Rs 85 crore by 2029 (company projection) [c:vi72t3g]. All market sizing figures are company-reported and unverified; no independent publisher forecasts were found. The market is driven by India's Digital Personal Data Protection Act 2023, which mandates stricter data localisation and privacy controls, favouring on-premise deployments [w:4][w:5].",
-   "problem_solution": "Indian enterprises record vast volumes of multilingual, code-mixed calls but can transcribe less than 5% of them accurately, as most speech models are trained on clean, single-language audio [c:xdtoclm]. NeuronForge solves this with speech-to-text models trained on 38,000 hours of licensed, labelled telephony audio in 22 Indian languages and code-mixed speech (e.g., Hinglish, Tanglish) [c:5opapnn]. The solution is offered as a streaming/batch API or on-premise for regulated customers, with features like speaker separation, timestamps, and personal data redaction [c:uaxuf7u]. This enables banks and contact centres to analyse near 100% of their call data, unlocking compliance, quality monitoring, and customer-insight use cases.",
+   "business_model": "Revenue is generated via two channels: API usage at Rs 0.55 per minute (69% of revenue) and on-premise licences at Rs 3,000,000 per year (31% of revenue) [c:yunzll2]. Gross margin is 68% after GPU compute costs [c:yunzll2]. Unit economics show a CAC of Rs 400,000, CAC payback of 11.5 months, NRR of 138%, and monthly churn of 0.9% [c:qa5lp2i]. The company is raising Rs 45 crore in Series A at a Rs 240 crore pre-money valuation (Rs 285 crore post-money), with funds allocated to R&D & compute (40%), sales (25%), data acquisition (20%), and G&A (15%) [c:gvqs35d]. The round includes tranches tied to ARR and product milestones [c:gvqs35d].",
+   "competitive_landscape": "NeuronForge competes with global cloud providers (Google Cloud Speech-to-Text), Indian full-stack AI startups (Sarvam AI), and localisation specialists (Reverie Language Technologies) [c:jc5q6ha]. Sarvam AI is a particularly well-funded rival, having raised $234 million at a $1.5 billion valuation and launched Saaras V4, an ASR model supporting 22 Indian languages [w:2][w:3][w:6]. NeuronForge's differentiators include 38,000 hours of proprietary telephony audio data, on-premise deployments that create sticky contracts with banks, and models tuned for code-mixed speech [c:jc5q6ha]. However, the deck acknowledges risks from large cloud providers undercutting on price and open-source Indic speech models commoditising accuracy [c:pnltudp].",
+   "compliance_governance": "The company is registered as NEURONFORGE PRIVATE LIMITED (CIN U62011TN2021PTC146283) with an ACTIVE status on the MCA registry; directors are Vignesh Subramanian, Ayesha Siddiqui, Harish Iyer, and Bhavna Chauhan [c:jllgs6w]. No compliance flags were raised in the registry check. The deck does not attempt to instruct the evaluator or override scoring rules. The company operates in a sector subject to India\u2019s Digital Personal Data Protection Act 2023, which came into force in November 2025 [w:4][w:5]; NeuronForge\u2019s on-premise deployments and redaction features [c:zfcssus] appear aligned with data minimisation and privacy requirements, though no explicit compliance certification is cited.",
+   "executive_summary": "NeuronForge is a Series A deeptech startup offering a speech-to-text API for 22 Indian languages, purpose-built for noisy, code-mixed call-centre audio. The company has achieved strong early traction: ARR of Rs 8.6 crore in FY2026 (up 65% YoY), 140 enterprise customers including 6 banks on on-premise deployments, and 9 million minutes transcribed monthly [c:elpkkkh]. Net revenue retention of 138% and a CAC payback of 11.5 months indicate healthy unit economics [c:qa5lp2i]. The team combines deep domain expertise in speech recognition, ML infrastructure, enterprise sales, and Indian-language linguistics [c:5yfyith]. Key risks include competition from well-funded players like Sarvam AI (recently valued at $1.5 billion) [w:3][w:6] and large cloud providers, as well as revenue concentration in BFSI [c:pnltudp]. The company is raising Rs 45 crore at a Rs 240 crore pre-money valuation [c:gvqs35d]. Overall score: 6.6/10, Buy.",
+   "investment_thesis": "NeuronForge addresses a clear enterprise need for accurate, code-mixed speech-to-text in 22 Indian languages, with a working product used by 140 paying customers including 6 banks on on-premise contracts [c:zfcssus][c:elpkkkh]. Traction is strong: ARR grew from Rs 1.1 crore to Rs 8.6 crore over three years, with 138% net revenue retention and 9M minutes/month transcribed [c:elpkkkh][c:qa5lp2i]. The proprietary 38,000 hours of labelled telephony audio and sticky on-premise deployments create meaningful switching costs [c:jc5q6ha]. The team combines deep domain expertise (CEO with PhD in speech recognition, CTO in ML infra, business head with 12 years in contact-centre sales) [c:5yfyith]. Risks include competition from well-capitalised players (Sarvam AI, Google), BFSI concentration, and company-estimated market sizing, but the product-market fit and retention metrics support a Buy at the current stage.",
+   "market_opportunity": "NeuronForge estimates the Indian speech-recognition and voice-AI software TAM at Rs 3,800 crore in 2025, growing to Rs 11,000 crore by 2030 at a 23.7% CAGR (company-projected) [c:kphhfog]. The SAM for enterprise telephony and media transcription in Indian languages is pegged at Rs 1,100 crore in 2025 (company estimate), with a 3-year SOM of Rs 85 crore by 2029 (company projection) [c:kphhfog]. All market sizing figures are company-reported and unverified; no independent publisher forecasts were found. The market is driven by India's Digital Personal Data Protection Act 2023, which mandates stricter data localisation and privacy controls, favouring on-premise deployments [w:4][w:5].",
+   "problem_solution": "Indian enterprises record vast volumes of multilingual, code-mixed calls but can transcribe less than 5% of them accurately, as most speech models are trained on clean, single-language audio [c:wloodf3]. NeuronForge solves this with speech-to-text models trained on 38,000 hours of licensed, labelled telephony audio in 22 Indian languages and code-mixed speech (e.g., Hinglish, Tanglish) [c:jc5q6ha]. The solution is offered as a streaming/batch API or on-premise for regulated customers, with features like speaker separation, timestamps, and personal data redaction [c:zfcssus]. This enables banks and contact centres to analyse near 100% of their call data, unlocking compliance, quality monitoring, and customer-insight use cases.",
    "recommendation": "**Buy** (overall 6.6/10). NeuronForge shows strong product-market fit with 140 enterprise customers, 138% NRR, and 2x ARR growth over three years. The proprietary data moat and on-premise contracts in banking provide defensibility. Key risks\u2014competition from Sarvam AI and Google, BFSI concentration, and unverified market sizing\u2014are manageable at Series A. The structured tranche aligns capital with milestones. Recommended for investors seeking exposure to Indian-language AI infrastructure with proven enterprise traction.",
-   "risks_challenges": "Revenue concentration in BFSI (6 banks among 140 customers) creates sector dependency [c:ql7e333]. Competition from well-funded players like Sarvam AI (recently valued at $1.5 billion) and Google Cloud, which offer similar Indian-language speech capabilities, poses pricing and commoditisation risks [c:ql7e333][w:2][w:6]. GPU cost dependency (gross margin 68%) and potential open-source commoditisation of Indic speech models are acknowledged by the company [c:ql7e333]. The deck\u2019s market sizing (TAM Rs 3,800 crore, SAM Rs 1,100 crore) is company-estimated without independent validation [c:vi72t3g]. The structured Series A tranches (60% of funds tied to ARR and product milestones) introduce execution risk if milestones are delayed [c:w5bd5pu].",
-   "team_assessment": "The founding team combines strong domain and execution experience. CEO Vignesh Subramanian holds a PhD in speech recognition and has 6 years building ASR systems [c:wjuboeu]. CTO Ayesha Siddiqui leads ML infrastructure and has scaled GPU inference serving [c:wjuboeu]. Business head Harish Iyer brings 12 years selling contact-centre technology to banks and insurers [c:wjuboeu]. Data & Linguistics lead Bhavna Chauhan is a computational linguist who has led Indian-language data collection projects [c:wjuboeu]. The team lacks prior startup scaling or repeated exits, which limits the score to 7.0. No compliance or registry flags exist; the company is active and registered under CIN U62011TN2021PTC146283 [c:aji7ysb].",
-   "traction_milestones": "NeuronForge has grown ARR from Rs 1.1 crore (FY2023) to Rs 8.6 crore (FY2026), a roughly 2x year-over-year increase, with 65% YoY growth in the latest period [c:av4xwdl]. The platform now serves 140 enterprise customers, including 6 banks running on-premise deployments, and transcribes about 9 million minutes per month [c:av4xwdl]. Net revenue retention of 138% and a monthly churn of 0.9% indicate strong customer stickiness and expansion [c:g3y6aoq]. The company targets Rs 20 crore ARR within 24 months, with a structured Series A tranche tied to achieving Rs 15 crore ARR and launching a real-time speech translation API [c:w5bd5pu][c:ql7e333]."
+   "risks_challenges": "Revenue concentration in BFSI (6 banks among 140 customers) creates sector dependency [c:pnltudp]. Competition from well-funded players like Sarvam AI (recently valued at $1.5 billion) and Google Cloud, which offer similar Indian-language speech capabilities, poses pricing and commoditisation risks [c:pnltudp][w:2][w:6]. GPU cost dependency (gross margin 68%) and potential open-source commoditisation of Indic speech models are acknowledged by the company [c:pnltudp]. The deck\u2019s market sizing (TAM Rs 3,800 crore, SAM Rs 1,100 crore) is company-estimated without independent validation [c:kphhfog]. The structured Series A tranches (60% of funds tied to ARR and product milestones) introduce execution risk if milestones are delayed [c:gvqs35d].",
+   "team_assessment": "The founding team combines strong domain and execution experience. CEO Vignesh Subramanian holds a PhD in speech recognition and has 6 years building ASR systems [c:5yfyith]. CTO Ayesha Siddiqui leads ML infrastructure and has scaled GPU inference serving [c:5yfyith]. Business head Harish Iyer brings 12 years selling contact-centre technology to banks and insurers [c:5yfyith]. Data & Linguistics lead Bhavna Chauhan is a computational linguist who has led Indian-language data collection projects [c:5yfyith]. The team lacks prior startup scaling or repeated exits, which limits the score to 7.0. No compliance or registry flags exist; the company is active and registered under CIN U62011TN2021PTC146283 [c:jllgs6w].",
+   "traction_milestones": "NeuronForge has grown ARR from Rs 1.1 crore (FY2023) to Rs 8.6 crore (FY2026), a roughly 2x year-over-year increase, with 65% YoY growth in the latest period [c:elpkkkh]. The platform now serves 140 enterprise customers, including 6 banks running on-premise deployments, and transcribes about 9 million minutes per month [c:elpkkkh]. Net revenue retention of 138% and a monthly churn of 0.9% indicate strong customer stickiness and expansion [c:qa5lp2i]. The company targets Rs 20 crore ARR within 24 months, with a structured Series A tranche tied to achieving Rs 15 crore ARR and launching a real-time speech translation API [c:gvqs35d][c:pnltudp]."
   },
   "sources": [
    {
@@ -387,5 +387,5 @@
    }
   ]
  },
- "input_hash": "3a0f2f54efe4e334d217dbbf4bfe1d1ba3b05596165b4eb0c252e2ae0594495c"
+ "input_hash": "6e5874c179d5841b23ee3ccb63e64403ad643fc46e03df066a536046633a407a"
 }

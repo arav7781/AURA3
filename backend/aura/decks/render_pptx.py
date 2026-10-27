@@ -14,7 +14,7 @@ from pptx.enum.text import MSO_AUTO_SIZE
 from pptx.oxml.ns import qn
 from pptx.util import Emu, Pt
 
-from aura.decks.design import Disc, Fill, H, Line, Page, Picture, Shadow, W, lay_out
+from aura.decks.design import Brand, Disc, Fill, H, Line, Page, Picture, Shadow, W, lay_out
 from aura.decks.slides import Slide, build_slides
 from aura.decks.spec import StartupSpec
 from aura.decks.theme import JADE_900, PPTX_FONTS, RGB, WASH
@@ -152,18 +152,21 @@ def _stable_zip(data: bytes) -> bytes:
     return out.getvalue()
 
 
-def render_pptx(spec: StartupSpec, slides: list[Slide] | None = None) -> bytes:
-    slides = slides or build_slides(spec)
+def render_slides_pptx(brand: Brand, slides: list[Slide]) -> bytes:
     deck = Presentation()
     deck.slide_width, deck.slide_height = _emu(W), _emu(H)
     blank = deck.slide_layouts[6]
     for number, slide in enumerate(slides, start=1):
-        draw_page(deck.slides.add_slide(blank), lay_out(spec, slide, number, len(slides)))
+        draw_page(deck.slides.add_slide(blank), lay_out(brand, slide, number, len(slides)))
     props = deck.core_properties
-    props.title = f"{spec.name} — pitch deck"
-    props.author = props.last_modified_by = spec.legal_name
+    props.title = f"{brand.name} — pitch deck"
+    props.author = props.last_modified_by = brand.legal_name
     props.created = props.modified = FIXED_DATE
     props.revision = 1
     buf = io.BytesIO()
     deck.save(buf)
     return _stable_zip(buf.getvalue())
+
+
+def render_pptx(spec: StartupSpec, slides: list[Slide] | None = None) -> bytes:
+    return render_slides_pptx(Brand.from_spec(spec), slides or build_slides(spec))

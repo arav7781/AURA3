@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
-import { AlertTriangle, BarChart3, Check, ChevronDown, Download, ExternalLink, FileSearch, FileText, Globe, Loader2, Lock, MessageSquare, Paperclip, Search, Table2, Building2 } from 'lucide-react'
+import { AlertTriangle, BarChart3, Check, ChevronDown, Download, ExternalLink, FileSearch, FileText, Globe, Loader2, Lock, MessageSquare, Paperclip, Presentation, Search, Table2, Building2 } from 'lucide-react'
 import { clsx } from 'clsx'
 import type { Card, Part } from '@/lib/copilot'
 import { Badge, FlagBadges, RecommendationBadge, ScoreRing, STAGE_LABELS } from '@/components/ui'
@@ -11,7 +11,7 @@ type ToolPart = Extract<Part, { type: 'tool' }>
 
 const ICONS: Record<string, typeof Search> = {
   search_startups: Search, get_startup: Building2, list_documents: FileText, search_documents: FileSearch,
-  read_page: FileText, read_attachment: Paperclip, get_evaluation: BarChart3, compare_startups: Table2, get_reviews: MessageSquare, web_search: Globe,
+  read_page: FileText, read_attachment: Paperclip, build_pitch_deck: Presentation, get_evaluation: BarChart3, compare_startups: Table2, get_reviews: MessageSquare, web_search: Globe,
 }
 
 function label(part: ToolPart): string {
@@ -23,6 +23,7 @@ function label(part: ToolPart): string {
     case 'list_documents': return `Submitted documents${who}`
     case 'search_documents': return `Searched documents · “${a.query}”${who}`
     case 'read_page': return `Read page ${a.page}${who}`
+    case 'build_pitch_deck': return part.status === 'running' ? 'Designing your deck and checking it with TitanOCR…' : 'Built your pitch deck'
     case 'read_attachment': return `Read your attached file${a.page ? ` · page ${a.page}` : ''}${a.document ? ` · ${a.document}` : ''}`
     case 'get_evaluation': return `AI evaluation${who}`
     case 'compare_startups': return `Compared ${(a.startups as string[] | undefined)?.join(', ') ?? 'startups'}`
@@ -161,6 +162,35 @@ function Body({ card }: { card: Card }) {
             </li>
           ))}
         </ol>
+      )
+    case 'deck':
+      return (
+        <div className="space-y-3">
+          <div className="grid grid-cols-2 gap-2 sm:grid-cols-3">
+            {card.previews.slice(0, 6).map((src: string, i: number) => (
+              <a key={src} href={src} target="_blank" rel="noopener noreferrer" title={card.slides[i]}
+                 className="group relative overflow-hidden rounded-lg border border-slate-200 bg-white">
+                {/* eslint-disable-next-line @next/next/no-img-element -- private page render */}
+                <img src={src} alt={`Slide ${i + 1}: ${card.slides[i]}`} loading="lazy" className="aspect-[1754/1241] w-full object-cover transition-transform group-hover:scale-[1.02]" />
+                <span className="absolute left-1.5 top-1.5 rounded bg-white/90 px-1.5 font-mono text-[0.6rem] text-slate-600">{i + 1}</span>
+              </a>
+            ))}
+          </div>
+          {card.pages > 6 && <p className="font-mono text-[0.65rem] text-slate-500">+ {card.pages - 6} more slides in the file</p>}
+          <div className="flex flex-wrap items-center gap-2">
+            <a href={card.pptx_url} className="inline-flex items-center gap-1.5 rounded-lg bg-jade-600 px-3 py-2 text-sm font-semibold text-white hover:bg-jade-700">
+              <Download className="h-4 w-4" /> PowerPoint (.pptx)
+            </a>
+            <a href={card.pdf_url} className="inline-flex items-center gap-1.5 rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm font-semibold text-slate-700 hover:border-jade-600">
+              <Download className="h-4 w-4" /> PDF
+            </a>
+            <span className={`ml-auto inline-flex items-center gap-1 rounded-md px-2 py-1 font-mono text-[0.65rem] ${card.check.missing.length ? 'bg-amber-50 text-amber-800' : 'bg-jade-50 text-jade-700'}`}
+                  title={card.check.missing.length ? `Not found: ${card.check.missing.join(', ')}` : 'Every figure on the slides was read back by TitanOCR'}>
+              <Check className="h-3 w-3" /> TitanOCR read back {card.check.found}/{card.check.figures} figures
+            </span>
+          </div>
+          <p className="text-xs text-slate-500">A private draft in this conversation: investors don&apos;t see it, and your published deck is unchanged.</p>
+        </div>
       )
     case 'error':
       return (

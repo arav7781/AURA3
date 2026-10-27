@@ -218,6 +218,18 @@ def document_file(document_id: str, viewer: Viewer = Depends(current_viewer)) ->
                         headers={"Cache-Control": "private, max-age=600", "X-Content-Type-Options": "nosniff"})
 
 
+@router.get("/documents/{document_id}/deck.pptx")
+def document_pptx(document_id: str, viewer: Viewer = Depends(current_viewer)) -> FileResponse:
+    """The PowerPoint version of a deck AURA3 rendered (seeded decks and decks the copilot built)."""
+    doc, _ = visible_document(viewer, document_id)
+    path = document_dir(doc.id) / "deck.pptx"
+    if not path.is_file():
+        raise NotFound("This document has no PowerPoint version")
+    return FileResponse(path, media_type="application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                        filename=doc.filename.rsplit(".", 1)[0] + ".pptx",
+                        headers={"Cache-Control": "private, max-age=600", "X-Content-Type-Options": "nosniff"})
+
+
 @router.get("/documents/{document_id}/pages/{page_no}/chunks")
 def page_chunks(document_id: str, page_no: int, viewer: Viewer = Depends(current_viewer)) -> dict[str, Any]:
     doc, _ = visible_document(viewer, document_id)

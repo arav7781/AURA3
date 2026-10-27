@@ -109,15 +109,20 @@ def _check_attachments(viewer: Viewer, thread: CopilotThread, ids: list[str]) ->
 
 
 def _thread_attachments(thread_id: str) -> list[Attachment]:
-    """Every file attached so far in the conversation, oldest first, so later turns can still read them."""
+    """Every file attached (or deck built) so far in the conversation, so later turns can still read them."""
     with read_session() as s:
         rows = s.scalars(select(CopilotMessage.parts).where(CopilotMessage.thread_id == thread_id,
                                                            CopilotMessage.role == "user").order_by(CopilotMessage.seq)).all()
+        built = s.execute(select(Document.id, Document.filename, Document.page_count).where(
+            Document.thread_id == thread_id, Document.kind == "generated_deck", Document.status == "ready")
+            .order_by(Document.created_at)).all()
     seen: dict[str, Attachment] = {}
     for parts in rows:
         for p in parts or []:
             if p.get("type") == "attachment":
                 seen[p["document_id"]] = Attachment(p["document_id"], p["filename"], p.get("pages") or 0)
+    for doc_id, filename, pages in built:  # decks the copilot built here can be read back too
+        seen.setdefault(doc_id, Attachment(doc_id, filename, pages or 0))
     return list(seen.values())
 
 
@@ -185,7 +190,7 @@ def _save_answer(thread_id: str, run_id: str, parts: list[dict[str, Any]], citat
 
 async def _run(job: JobContext, viewer: Viewer, thread_id: str, user_seq: int, question: str) -> dict[str, Any]:
     history, cited = _history(thread_id, user_seq)
-    ctx = Ctx(viewer=viewer, attachments=_thread_attachments(thread_id))
+    ctx = Ctx(viewer=viewer, attachments=_thread_attachments(thread_id), thread_id=thread_id)
     ctx.evidence.deck.update(cited)
     with read_session() as s:
         thread = s.get(CopilotThread, thread_id)
