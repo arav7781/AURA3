@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from 'react'
 import { AnimatePresence, MotionConfig, motion, useReducedMotion } from 'framer-motion'
 import { clsx } from 'clsx'
 import type { Box, Desk, DeskFrame } from './desk/scene'
-import { CITED_LINES, HERO_EVALUATION, HERO_LINES, HERO_PAGE } from './heroData'
+import { CITED_LINES, HERO_EVALUATION, HERO_FIGURE, HERO_LINES, HERO_PAGE } from './heroData'
 
 // The hero: a WebGL desk fills the section and the copy sits over its dark side. Four steps follow one real
 // claim from KrishiMitra AI's deck: TitanOCR reads the page, the claim is cited to its lines, its figure is
@@ -19,25 +19,10 @@ const STEPS = [
 const EASE = [0.16, 1, 0.3, 1] as const
 /** The entrance (camera settles, pages and coins land) plays before the first scan. */
 const SCAN_DELAY = 1800
-const FIGURE = 'USD 82.3M in 2025'
-const CLAIM_LINE = HERO_LINES[CITED_LINES[0]]
 const CITED_BOX: Box = [
   Math.min(...CITED_LINES.map(i => HERO_LINES[i].box[0])), Math.min(...CITED_LINES.map(i => HERO_LINES[i].box[1])),
   Math.max(...CITED_LINES.map(i => HERO_LINES[i].box[2])), Math.max(...CITED_LINES.map(i => HERO_LINES[i].box[3])),
 ]
-
-/** Where the figure sits inside its line, measured with the slide's font metrics. */
-function figureBox(): Box {
-  const g = document.createElement('canvas').getContext('2d')!
-  g.font = '40px Helvetica, Arial, sans-serif'
-  const text = CLAIM_LINE.text
-  const at = text.indexOf(FIGURE)
-  const full = g.measureText(text).width
-  const a = g.measureText(text.slice(0, at)).width / full
-  const b = g.measureText(text.slice(0, at + FIGURE.length)).width / full
-  const [x0, y0, x1, y1] = CLAIM_LINE.box
-  return [x0 + (x1 - x0) * a, y0, x0 + (x1 - x0) * b, y1]
-}
 
 function ReadNote({ line, done }: { line: React.Ref<HTMLSpanElement>; done: React.Ref<HTMLSpanElement> }) {
   return (
@@ -59,7 +44,7 @@ function CiteNote() {
         USD 82.3M <span className="text-[0.95rem] font-normal text-mist-2">TAM, 2025</span>
       </p>
       <p className="mt-3 inline-flex rounded-md bg-jade-400/15 px-2 py-1 font-mono text-[0.66rem] text-jade-200 ring-1 ring-jade-400/30">
-        [{HERO_PAGE.cid}] → p.4 · lines 2–4
+        [{HERO_PAGE.cid}] → p.4 · lines {CITED_LINES[0] + 1}–{CITED_LINES[CITED_LINES.length - 1] + 1}
       </p>
     </div>
   )
@@ -189,7 +174,7 @@ export function HeroDesk({ children, footer }: { children: React.ReactNode; foot
   useEffect(() => {
     let cancelled = false
     let made: Desk | null = null
-    const figure = figureBox()
+    const figure = HERO_FIGURE
     const pos = { x: NaN, y: NaN }
     let lastRead = -1
 

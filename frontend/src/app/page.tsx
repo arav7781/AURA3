@@ -15,7 +15,7 @@ const LINE = { hidden: { y: '110%' }, show: { y: '0%', transition: { duration: 1
 const REVEAL = { initial: { opacity: 0, y: 22 }, whileInView: { opacity: 1, y: 0 }, viewport: { once: true, margin: '-60px' }, transition: { duration: 0.7, ease: [0.16, 1, 0.3, 1] as const } }
 
 const LEDGER = [
-  { n: '01', title: 'Read every page', text: 'Decks, slides and scans are read by TitanOCR. Each line keeps its box on the page, its confidence, and a flag if it hides instructions for an AI.', receipt: '11 pages · 6.0 s · conf 1.00' },
+  { n: '01', title: 'Read every page', text: 'Decks, slides and scans are read by TitanOCR. Each line keeps its box on the page, its confidence, and a flag if it hides instructions for an AI.', receipt: '11 pages · 5.5 s · conf 1.00' },
   { n: '02', title: 'Research like an analyst', text: 'An agent searches the market, checks the deck’s own figures against what it finds, and records every source it read.', receipt: 'deck [c:…] · web [w:n]' },
   { n: '03', title: 'Score on a fixed rubric', text: 'Seven anchored dimensions, five independent judgments each. The overall is computed, never guessed; registry problems cap the label.', receipt: 'σ 0.16 over 5 runs' },
   { n: '04', title: 'Decide together', text: 'Investors review and rank, then vote quadratically and pledge AuraCoin into escrow that is released milestone by milestone.', receipt: 'n votes = n² AC' },

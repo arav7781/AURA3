@@ -49,8 +49,8 @@ const SCAN_END = 1.06
 // One camera shot per step: where on the page to look, how close, and a small orbit.
 const SHOTS = [
   { u: 0.56, v: 0.52, zoom: 1, azim: 0, elev: 0 },
-  { u: 0.6, v: 0.32, zoom: 1.3, azim: -4, elev: 3 },
-  { u: 0.5, v: 0.26, zoom: 1.6, azim: 5, elev: 5 },
+  { u: 0.44, v: 0.37, zoom: 1.3, azim: -4, elev: 3 },
+  { u: 0.42, v: 0.32, zoom: 1.6, azim: 5, elev: 5 },
   { u: 0.66, v: 0.58, zoom: 0.94, azim: 9, elev: -3 },
 ]
 // Overlay strength per step: every line, the cited claim, the checked figure.
