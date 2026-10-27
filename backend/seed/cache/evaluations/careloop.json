@@ -1,0 +1,646 @@
+{
+ "analysis": {
+  "category_scores": {
+   "business_model": 5.7,
+   "execution_risk": 5.0,
+   "market": 5.0,
+   "moat": 4.0,
+   "product": 6.0,
+   "team": 6.3,
+   "traction": 5.0
+  },
+  "citations": {
+   "c:3noad4x": {
+    "bbox": [
+     0.05788,
+     0.0554,
+     0.94473,
+     0.63526
+    ],
+    "chunk_id": "d71451c8-23ba-5a7b-87e6-dbe8e91e5f0a",
+    "document_id": "187faa68-b8e5-4bac-b917-26e105c2fa47",
+    "page_no": 8,
+    "slide_title": "Competitive Landscape",
+    "type": "deck"
+   },
+   "c:7lpvrx2": {
+    "bbox": [
+     0.05746,
+     0.0554,
+     0.88056,
+     0.76715
+    ],
+    "chunk_id": "4d298e48-837c-5d12-ab82-9e64713f9bab",
+    "document_id": "187faa68-b8e5-4bac-b917-26e105c2fa47",
+    "page_no": 6,
+    "slide_title": "Traction (as of FY2026)",
+    "type": "deck"
+   },
+   "c:cd52r3s": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.92793,
+     0.4682
+    ],
+    "chunk_id": "ea3b450e-29cf-5fd0-bbe6-257bf3b35b01",
+    "document_id": "187faa68-b8e5-4bac-b917-26e105c2fa47",
+    "page_no": 10,
+    "slide_title": "Team",
+    "type": "deck"
+   },
+   "c:cxaxoa2": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.91409,
+     0.59965
+    ],
+    "chunk_id": "d70a91f3-be2e-5292-b02d-fa4d94d9efa3",
+    "document_id": "187faa68-b8e5-4bac-b917-26e105c2fa47",
+    "page_no": 3,
+    "slide_title": "Solution",
+    "type": "deck"
+   },
+   "c:fykr27v": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.85096,
+     0.50907
+    ],
+    "chunk_id": "d7c620ed-b1e3-53cf-ad8e-4370650d936d",
+    "document_id": "187faa68-b8e5-4bac-b917-26e105c2fa47",
+    "page_no": 1,
+    "slide_title": "CareLoop",
+    "type": "deck"
+   },
+   "c:kf3umlk": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.92414,
+     0.42291
+    ],
+    "chunk_id": "bde54291-6158-5d6b-af34-8e0d1b2c8e31",
+    "document_id": "187faa68-b8e5-4bac-b917-26e105c2fa47",
+    "page_no": 4,
+    "slide_title": "Market Opportunity (TAM / SAM / SOM)",
+    "type": "deck"
+   },
+   "c:lbbeqcn": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.88153,
+     0.60663
+    ],
+    "chunk_id": "c787b109-c94c-5860-b0b2-b9826a5439da",
+    "document_id": "187faa68-b8e5-4bac-b917-26e105c2fa47",
+    "page_no": 11,
+    "slide_title": "The Ask",
+    "type": "deck"
+   },
+   "c:ouuq66q": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.90908,
+     0.63306
+    ],
+    "chunk_id": "ce63a7ef-c08e-5b5c-a37f-567d7427c87d",
+    "document_id": "187faa68-b8e5-4bac-b917-26e105c2fa47",
+    "page_no": 2,
+    "slide_title": "Problem",
+    "type": "deck"
+   },
+   "c:p6njtdk": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.9117,
+     0.42291
+    ],
+    "chunk_id": "ed14f679-0d50-527f-b572-7bed871b0bc6",
+    "document_id": "187faa68-b8e5-4bac-b917-26e105c2fa47",
+    "page_no": 5,
+    "slide_title": "Business Model",
+    "type": "deck"
+   },
+   "c:tefussi": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.68585,
+     0.57729
+    ],
+    "chunk_id": "3bff9f4d-c083-5332-8a06-93e75e5a7015",
+    "document_id": "187faa68-b8e5-4bac-b917-26e105c2fa47",
+    "page_no": 7,
+    "slide_title": "Unit Economics",
+    "type": "deck"
+   },
+   "c:tzcuyip": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.89288,
+     0.63853
+    ],
+    "chunk_id": "c423d06e-a733-5902-af38-dfaa240b70f6",
+    "document_id": "187faa68-b8e5-4bac-b917-26e105c2fa47",
+    "page_no": 9,
+    "slide_title": "Go-to-Market & Key Risks",
+    "type": "deck"
+   },
+   "w:10": {
+    "title": "Sanofi signs LOI with Tricog Health to support AI-enabled cardiac diagnostics solutions",
+    "type": "web",
+    "url": "https://www.msn.com/en-in/money/other/sanofi-signs-loi-with-tricog-health-to-support-ai-enabled-cardiac-diagnostics-solutions/ar-AA2bJMsL?ocid=BingNewsVerp"
+   },
+   "w:12": {
+    "title": "Connected Home Medical Monitoring Devices to Reach 160 Million by 2030",
+    "type": "web",
+    "url": "https://iotbusinessnews.com/2026/10/23/connected-home-medical-monitoring-devices-to-reach-160-million-by-2030/"
+   },
+   "w:14": {
+    "title": "CDSCO Medical Device Registration in India: What&#x27;s Changed in 2026 (And ...",
+    "type": "web",
+    "url": "https://www.qualio.com/blog/cdsco-registration-india-2026-update"
+   },
+   "w:16": {
+    "title": "Medical Device Regulation India: CDSCO Guide 2026",
+    "type": "web",
+    "url": "https://www.altacit.com/medical-device-regulation-in-india-cdsco-compliance-guide-2026/"
+   },
+   "w:2": {
+    "title": "Dozee - 2026 Company Profile, Team, Funding, Competitors ... - Tracxn",
+    "type": "web",
+    "url": "https://tracxn.com/d/companies/dozee/__b-sfuD00XlcE4T7YxCdP5f23mN9xVOiY0no1WseX1Ts"
+   },
+   "w:23": {
+    "title": "Beyond Hospital Walls: New AI-Driven Remote Monitoring Platform ...",
+    "type": "web",
+    "url": "https://healthandfamily.in/beyond-hospital-walls-new-ai-driven-remote-monitoring-platform-launches-in-chennai-to-combat-heart-disease/"
+   },
+   "w:25": {
+    "title": "Doctor-led AI platform offering 24x7 remote monitoring launched in ...",
+    "type": "web",
+    "url": "https://www.business-standard.com/health/doctor-led-ai-platform-offering-24x7-remote-monitoring-launched-in-chennai-126041900106_1.html"
+   },
+   "w:28": {
+    "title": "India Cardiac Monitoring Market (2025-2031) | Companies &amp; Forecast",
+    "type": "web",
+    "url": "https://www.6wresearch.com/industry-report/india-cardiac-monitoring-market"
+   },
+   "w:29": {
+    "title": "India Cardiac Monitoring Advance Technologies Market",
+    "type": "web",
+    "url": "https://www.marketresearchfuture.com/reports/india-cardiac-monitoring-advance-technologies-market-56370"
+   },
+   "w:31": {
+    "title": "india Cardiac Monitoring &amp; Rhythm Management Devices Market Size, Share ...",
+    "type": "web",
+    "url": "https://www.marketsandmarkets.com/Market-Reports/geography/cardiac-monitoring-advanced-technologies-and-global-market/india"
+   },
+   "w:32": {
+    "title": "India Cardiovascular Devices Market - Trends, Companies &amp; Analysis",
+    "type": "web",
+    "url": "https://www.mordorintelligence.com/industry-reports/india-cardiovascular-devices-market-growth"
+   },
+   "w:4": {
+    "title": "Dozee Valuation 2026 \u2014 $98.4M | PrivateMarketView",
+    "type": "web",
+    "url": "https://privatemarketview.com/companies/dozee/valuation"
+   },
+   "w:6": {
+    "title": "Dozee - 2026 Funding Rounds & List of Investors - Tracxn",
+    "type": "web",
+    "url": "https://tracxn.com/d/companies/dozee/__b-sfuD00XlcE4T7YxCdP5f23mN9xVOiY0no1WseX1Ts/funding-and-investors"
+   },
+   "w:7": {
+    "title": "Tricog builds on global ties with Sanofi and OMRON Healthcare to take Indian cardiac innovation further",
+    "type": "web",
+    "url": "https://www.msn.com/en-in/news/other/tricog-builds-on-global-ties-with-sanofi-and-omron-healthcare-to-take-indian-cardiac-innovation-further/ar-AA2fRA9g?ocid=BingNewsVerp"
+   },
+   "w:8": {
+    "title": "Tricog Health targets 100 million cardiac screenings by 2030: CEO Dr Charit Bhograj",
+    "type": "web",
+    "url": "https://www.msn.com/en-in/news/other/tricog-health-targets-100-million-cardiac-screenings-by-2030-ceo-dr-charit-bhograj/ar-AA2dZEtf?ocid=BingNewsVerp"
+   }
+  },
+  "citations_removed": 0,
+  "compliance_flags": [],
+  "data_gaps": [
+   "CAGR: no usable source excerpt with value, unit and period.",
+   "TAM: no independent source found; the deck claims 2600 INR crore (p.4).",
+   "SAM: no independent source found; the deck claims 380 INR crore (p.4).",
+   "SOM: no independent source found; the deck claims 22 INR crore (p.4).",
+   "Market trend unavailable: no sourced annual observations or publisher forecasts. No years were interpolated."
+  ],
+  "evidence_version": 2,
+  "generated_at": "2026-10-26T19:40:27.667619Z",
+  "input_hash": "7ed7207a62aa007846a761f672069c868cd66db3bba10c4bf3728afbbf80d553",
+  "invalid_citations": [],
+  "market_sizing": {
+   "basis": "Only figures traceable to retrieved search excerpts are plotted as market data.",
+   "cagr_pct": null,
+   "claims": {
+    "sam_usd_b": {
+     "check": {
+      "status": "unverified"
+     },
+     "citation": {
+      "bbox": [
+       0.0677,
+       0.0554,
+       0.92414,
+       0.42291
+      ],
+      "chunk_id": "bde54291-6158-5d6b-af34-8e0d1b2c8e31",
+      "cid": "c:kf3umlk",
+      "document_id": "187faa68-b8e5-4bac-b917-26e105c2fa47",
+      "page_no": 4
+     },
+     "currency": "INR",
+     "geography": "South India",
+     "kind": "company_estimate",
+     "low_confidence": false,
+     "market": "Private cardiac-care hospitals in South India",
+     "normalised": 3.8,
+     "period": "",
+     "quote": "SAM \u2014 Private cardiac-care hospitals in South India: Rs 380 crore in 2025 (company estimate)",
+     "retrieved_at": null,
+     "source_title": "CareLoop_Pitch_Deck.pdf, p.4",
+     "source_url": null,
+     "unit": "INR crore",
+     "value": 380.0,
+     "year": 2025
+    },
+    "som_usd_b": {
+     "check": {
+      "status": "unverified"
+     },
+     "citation": {
+      "bbox": [
+       0.0677,
+       0.0554,
+       0.92414,
+       0.42291
+      ],
+      "chunk_id": "bde54291-6158-5d6b-af34-8e0d1b2c8e31",
+      "cid": "c:kf3umlk",
+      "document_id": "187faa68-b8e5-4bac-b917-26e105c2fa47",
+      "page_no": 4
+     },
+     "currency": "INR",
+     "geography": "South India",
+     "kind": "company_forecast",
+     "low_confidence": false,
+     "market": "3-year obtainable share of SAM",
+     "normalised": 0.22,
+     "period": "",
+     "quote": "SOM \u2014 3-year obtainable share of SAM: Rs 22 crore in 2029 (company projection)",
+     "retrieved_at": null,
+     "source_title": "CareLoop_Pitch_Deck.pdf, p.4",
+     "source_url": null,
+     "unit": "INR crore",
+     "value": 22.0,
+     "year": 2029
+    },
+    "tam_usd_b": {
+     "check": {
+      "status": "unverified"
+     },
+     "citation": {
+      "bbox": [
+       0.0677,
+       0.0554,
+       0.92414,
+       0.42291
+      ],
+      "chunk_id": "bde54291-6158-5d6b-af34-8e0d1b2c8e31",
+      "cid": "c:kf3umlk",
+      "document_id": "187faa68-b8e5-4bac-b917-26e105c2fa47",
+      "page_no": 4
+     },
+     "currency": "INR",
+     "geography": "India",
+     "kind": "company_estimate",
+     "low_confidence": false,
+     "market": "Post-acute remote monitoring for cardiac patients in India",
+     "normalised": 26.0,
+     "period": "",
+     "quote": "TAM \u2014 Post-acute remote monitoring for cardiac patients in India: Rs 2,600 crore in 2025 (company estimate)",
+     "retrieved_at": null,
+     "source_title": "CareLoop_Pitch_Deck.pdf, p.4",
+     "source_url": null,
+     "unit": "INR crore",
+     "value": 2600.0,
+     "year": 2025
+    }
+   },
+   "evidence": {},
+   "sam_usd_b": null,
+   "som_usd_b": null,
+   "tam_usd_b": null,
+   "trend": []
+  },
+  "model": "azure/deepSeek-V4-Flash",
+  "overall_score": 5.4,
+  "projected_revenue": [
+   {
+    "citation": {
+     "bbox": [
+      0.05746,
+      0.0554,
+      0.88056,
+      0.76715
+     ],
+     "chunk_id": "4d298e48-837c-5d12-ab82-9e64713f9bab",
+     "cid": "c:7lpvrx2",
+     "document_id": "187faa68-b8e5-4bac-b917-26e105c2fa47",
+     "page_no": 6
+    },
+    "geography": "India",
+    "kind": "company_reported",
+    "low_confidence": false,
+    "market": "CareLoop",
+    "metric": "ARR",
+    "period": "",
+    "quote": "ARR: Rs 1 crore in FY2026",
+    "retrieved_at": null,
+    "revenue": 10.0,
+    "source_title": "CareLoop_Pitch_Deck.pdf, p.6",
+    "source_url": null,
+    "unit": "INR crore",
+    "value": 1.0,
+    "year": 2026
+   }
+  ],
+  "recommendation_label": "Hold",
+  "report_markdown": "## 1. Executive Summary\n\nCareLoop is a seed-stage healthtech startup offering a 90-day remote monitoring and nurse-led follow-up programme for cardiac patients post-discharge. The company has a working product used by 5 hospitals in Kerala and Tamil Nadu, with 1,850 patients monitored and an ARR of Rs 1.0 crore (FY2026), up from Rs 0.35 crore (FY2025) [c:7lpvrx2]. Early outcome data from two hospitals shows a reduction in 30-day readmissions from 12.4% to 7.9% (company-reported, unverified) [c:7lpvrx2]. The team combines clinical, operational, and technical expertise: the CEO is a cardiologist, the COO ran nursing operations, and the CTO built connected-device platforms [c:cd52r3s]. However, the market sizing (TAM Rs 2,600 crore, SAM Rs 380 crore) is company-estimated and not independently verified [c:kf3umlk], and the competitive landscape includes well-funded players like Dozee ($39.1M raised) and Tricog (40M+ patients) [w:6][w:7]. The business model shows early positive unit economics (CAC Rs 500,000, payback 6.3 months, gross margin 48%) [c:tefussi], but net revenue retention is undisclosed and monthly churn on the extension plan is 6.5% [c:tefussi]. Key risks include dependence on hospital willingness to pay, nurse cost caps on margins, non-randomised outcome data, and potential regulatory tightening [c:tzcuyip]. Overall, CareLoop shows early traction and a clear value proposition but faces significant execution and competitive challenges, warranting a Hold recommendation.\n\n## 2. Problem & Solution\n\n**Problem:** After a heart attack or cardiac surgery, patients are discharged with little follow-up, leading to missed warning signs and avoidable 30-day readmissions. Hospitals rarely have staff to call patients regularly, and patients from smaller towns travel 2-4 hours for each follow-up visit (company estimates) [c:ouuq66q].\n\n**Solution:** CareLoop provides a connected home kit (Bluetooth BP monitor, pulse oximeter, single-lead ECG) paired with a phone app and a 90-day nurse-led follow-up programme in Malayalam, Tamil, and English [c:cxaxoa2]. Nurses call patients on a cardiologist-set schedule, rule-based alerts escalate abnormal readings to the treating hospital within 30 minutes, and weekly summary reports integrate into the hospital's discharge workflow [c:cxaxoa2]. The programme is sold to hospitals at Rs 6,000 per enrolled patient, with a patient extension plan at Rs 799/month after 90 days [c:p6njtdk]. Early outcome data from two hospitals shows a reduction in 30-day readmissions from 12.4% to 7.9% (company-reported, unverified) [c:7lpvrx2].\n\n## 3. Market Opportunity\n\nCareLoop targets the post-acute remote monitoring market for cardiac patients in India. The company estimates a TAM of Rs 2,600 crore, SAM of Rs 380 crore, and SOM of Rs 22 crore by 2029 [c:kf3umlk]. These figures are company-reported and unverified; no independent source was found to validate them. Independent market data shows the India cardiac monitoring market is sizable: the India Cardiac Monitoring & Rhythm Management Devices Market was valued at $190.5 million in 2026 and is projected to reach $309.4 million by 2031, a CAGR of 10.2% [w:31]. The India cardiovascular devices market was valued at $1.55 billion in 2025, growing at a CAGR of 8.54% to $2.53 billion by 2031 [w:32]. The global connected home medical monitoring devices installed base is projected to grow from 92.7 million in 2025 to 160 million by 2030 [w:12]. These independent sources confirm a large and growing market, though CareLoop's specific TAM/SAM/SOM estimates remain unverified.\n\n## 4. Competitive Landscape\n\nCareLoop faces competition from established players and in-house hospital alternatives. **Dozee** (Bengaluru, founded 2015) offers contactless remote patient monitoring for hospitals and homes, has raised $39.1M across 12 rounds, and was valued at $98.4M in Jan 2024 [w:2][w:4][w:6]. **Tricog** (Bengaluru, founded 2014) provides cardiac diagnostics and AI-enabled ECG interpretation services, has screened over 40 million patients, and partners with Sanofi and OMRON [w:7][w:8][w:10]. **Hospital call centres** provide in-house discharge follow-up calls without devices or clinical escalation [c:3noad4x]. CareLoop's claimed edges are cardiologist-designed protocols integrated into partner hospitals' discharge processes and outcome data across 1,850 patients to support insurer reimbursement [c:3noad4x]. However, these are execution advantages that can be replicated, and there is no evidence of IP, switching costs, or data network effects. A new AI-driven remote monitoring platform, iLive Connect, launched in Chennai in April 2026, further intensifies competition [w:23][w:25].\n\n## 5. Business Model\n\nCareLoop generates revenue through two streams: a hospital programme fee of Rs 6,000 per enrolled patient (82% of revenue) for the 90-day programme, and a patient extension plan at Rs 799 per month (18% of revenue) after 90 days [c:p6njtdk]. The gross margin is 48% after nurse and device costs [c:p6njtdk]. Unit economics show a customer acquisition cost (CAC) of Rs 500,000 per hospital, a CAC payback of 6.3 months, and monthly churn of 6.5% on the extension plan [c:tefussi]. Device kits cost Rs 3,200 and are reused across 4-5 patients [c:tefussi]. The company is raising Rs 6 crore at a Rs 32 crore pre-money valuation, with funds allocated to clinical operations (35%), sales (25%), product (25%), and devices (15%) [c:lbbeqcn]. The raise is structured in three tranches tied to milestones: 40% at close, 30% at 12 partner hospitals enrolling monthly, and 30% at a paid insurer pilot [c:lbbeqcn]. Net revenue retention is not disclosed. The business model is clear and early unit economics are positive, but the 6.5% monthly churn on the extension plan and reliance on hospital willingness to pay are risks.\n\n## 6. Team Assessment\n\nThe founding team covers key domain areas with relevant experience. **Anjali Menon** (Co-founder & CEO) is an interventional cardiologist (DM Cardiology) with 11 years at private hospitals in Kerala [c:cd52r3s]. **Joseph Thomas** (Co-founder & CTO) built connected-device platforms at a health IoT company [c:cd52r3s]. **Lakshmi Narayanan** (Co-founder & COO) ran nursing operations for a South Indian hospital chain [c:cd52r3s]. The team has strong domain fit: the CEO brings clinical credibility with cardiologists, the COO understands nursing operations, and the CTO has relevant technical experience. However, there is no evidence of prior startup scaling or repeated entrepreneurial successes, so the team does not reach the 'proven operators' level. The MCA registry confirms the company is ACTIVE with CIN U86909KL2023PTC081462 and the three named directors [c:fykr27v]. No compliance flags were raised.\n\n## 7. Traction & Milestones\n\nCareLoop has achieved early paying customer traction with 5 partner hospitals in Kerala and Tamil Nadu and 1,850 cardiac patients monitored to date [c:7lpvrx2]. The company reports ARR of Rs 1.0 crore in FY2026, up from Rs 0.35 crore in FY2025 (company-reported, unverified) [c:7lpvrx2]. A key clinical outcome is a reduction in 30-day readmissions from 12.4% to 7.9% for enrolled patients versus matched non-enrolled patients at two hospitals (company-reported, unverified) [c:7lpvrx2]. The company targets 12 partner hospitals and 6,000 enrolled patients per year within 24 months [c:tzcuyip]. Unit economics show a CAC of Rs 500,000 per hospital, a payback period of 6.3 months, and a gross margin of 48% [c:tefussi]. Monthly churn on the patient extension plan is 6.5% [c:tefussi].\n\n## 8. Compliance & Governance\n\nThe MCA registry confirms CareLoop Private Limited (CIN U86909KL2023PTC081462) is ACTIVE, with directors Anjali Menon, Joseph Thomas, and Lakshmi Narayanan. No compliance flags were raised. The deck does not attempt to instruct the evaluator. The company acknowledges risks around medical-device and health-data regulation tightening [c:tzcuyip], which is consistent with CDSCO's evolving framework for Software as a Medical Device (SaMD) and connected devices [w:14][w:16]. No critical regulatory or legal red flags are present.\n\n## 9. Risks & Challenges\n\nCareLoop faces several execution risks. Demand depends on hospitals choosing to pay for follow-up, which is not yet a standard budget line [c:tzcuyip]. Nurse costs cap gross margin below 50%, limiting scalability [c:tzcuyip]. Outcome claims rest on small, non-randomised samples from only two hospitals [c:tzcuyip]. Medical-device and health-data regulation may tighten, increasing compliance costs [c:tzcuyip]. The competitive landscape includes well-funded players like Dozee (raised $39.1M, valued at $98.4M) [w:4][w:6] and Tricog (screened 40M+ patients) [w:7][w:8], as well as new entrants like iLive Connect [w:23][w:25]. CareLoop's edge\u2014cardiologist-designed protocols and outcome data for insurer reimbursement [c:3noad4x]\u2014is an execution advantage that can be replicated. The deck's tranched funding structure (milestones for 12 hospitals and an insurer pilot) [c:lbbeqcn] partially mitigates risk but also creates dependency on achieving those milestones.\n\n## 10. Investment Thesis\n\nCareLoop addresses a genuine clinical need: reducing cardiac readmissions through structured post-discharge monitoring. The product is live with paying customers and shows promising early outcome data (30-day readmission reduction from 12.4% to 7.9%) [c:7lpvrx2]. The team has strong domain fit: a cardiologist CEO, a nursing operations COO, and a health-tech CTO [c:cd52r3s]. The business model has clear unit economics (CAC Rs 500,000, payback 6.3 months, gross margin 48%) [c:tefussi]. However, the market opportunity figures (TAM Rs 2,600 crore, SAM Rs 380 crore) are company estimates without independent validation [c:kf3umlk]. Independent sources show a moderate-growth cardiac monitoring market in India (e.g., $190.5M in 2026, growing at 10.2% CAGR) [w:31]. The moat is weak: no IP, no data network effects, and competitors (Dozee, Tricog) are well-capitalised [w:4][w:6][w:7]. Traction is early (ARR Rs 1.0 crore from a small base) and growth is not yet proven at scale. The valuation of Rs 38 crore post-money (approx. $4.6M) is reasonable for a seed-stage healthtech with working product and early revenue, but the risk/reward is balanced given execution risks and competitive pressure.\n\n## 11. Recommendation\n\n**Hold (5.4/10)**. CareLoop has a working product, early traction, and a domain-fit team, but faces significant execution risks, a weak moat, and well-funded competitors. The valuation is not excessive, but the path to scale is uncertain. Monitor progress toward the 12-hospital and insurer pilot milestones before considering an investment.",
+  "revenue_currency": "INR",
+  "revenue_metric": "ARR",
+  "rewrites": 2,
+  "rubric_version": "r1",
+  "score_rationales": {
+   "business_model": "Pricing is clear (Rs 6,000/hospital program fee, Rs 799/month patient extension), with early unit economics: CAC Rs 500,000, payback 6.3 months, gross margin 48%. These are positive but based on early data; net revenue retention is not disclosed. [c:p6njtdk][c:tefussi]",
+   "execution_risk": "Risks are acknowledged: demand depends on hospitals paying, nurse costs cap margins, outcome data is non-randomised, and medical-device regulation may tighten [c:tzcuyip]. These are significant but have some mitigation (e.g., pilot with insurers). No critical regulatory or legal red flags are present, but the risks are not well mitigated yet.",
+   "market": "The TAM of Rs 2,600 crore and SAM of Rs 380 crore are company estimates [c:kf3umlk] and not independently sourced. The market is sizable but the provided sizing is not backed by third-party data; independent sources show a large but moderate-growth cardiac monitoring market [w:28][w:29].",
+   "moat": "CareLoop's edge is cardiologist-designed protocols integrated into hospital discharge processes and outcome data for insurer reimbursement [c:3noad4x]. These are execution advantages that can be replicated by competitors (e.g., Dozee, Tricog) [c:3noad4x], and there is no evidence of switching costs, IP, or data network effects.",
+   "product": "CareLoop has a working product used by paying customers (5 hospitals, 1,850 patients) with a clear value proposition: reducing 30-day readmissions from 12.4% to 7.9% [c:7lpvrx2]. However, the differentiation is moderate (competitors like Dozee and Tricog exist [c:3noad4x]) and evidence of product-market fit is still limited to early outcome data from two hospitals.",
+   "team": "The team has relevant domain experience: CEO is a cardiologist, COO ran nursing operations, CTO built connected-device platforms [c:cd52r3s]. This covers key roles with domain fit, but there is no evidence of prior startup scaling or repeated successes, so it does not reach the 'proven operators' level.",
+   "traction": "CareLoop has ARR of Rs 1.0 crore (FY2026) up from Rs 0.35 crore (FY2025) [c:7lpvrx2], showing growth but not yet 2x year-over-year (it is ~2.86x, but from a small base). It has 5 partner hospitals and 1,850 patients [c:7lpvrx2], which is early paying customer traction but not strong growth with retention evidence (30-day readmission reduction is promising but from only two hospitals [c:7lpvrx2])."
+  },
+  "score_spread": {
+   "business_model": 1.0,
+   "execution_risk": 1.0,
+   "market": 2.0,
+   "moat": 0.0,
+   "product": 1.0,
+   "team": 1.0,
+   "traction": 1.0
+  },
+  "sections": {
+   "business_model": "CareLoop generates revenue through two streams: a hospital programme fee of Rs 6,000 per enrolled patient (82% of revenue) for the 90-day programme, and a patient extension plan at Rs 799 per month (18% of revenue) after 90 days [c:p6njtdk]. The gross margin is 48% after nurse and device costs [c:p6njtdk]. Unit economics show a customer acquisition cost (CAC) of Rs 500,000 per hospital, a CAC payback of 6.3 months, and monthly churn of 6.5% on the extension plan [c:tefussi]. Device kits cost Rs 3,200 and are reused across 4-5 patients [c:tefussi]. The company is raising Rs 6 crore at a Rs 32 crore pre-money valuation, with funds allocated to clinical operations (35%), sales (25%), product (25%), and devices (15%) [c:lbbeqcn]. The raise is structured in three tranches tied to milestones: 40% at close, 30% at 12 partner hospitals enrolling monthly, and 30% at a paid insurer pilot [c:lbbeqcn]. Net revenue retention is not disclosed. The business model is clear and early unit economics are positive, but the 6.5% monthly churn on the extension plan and reliance on hospital willingness to pay are risks.",
+   "competitive_landscape": "CareLoop faces competition from established players and in-house hospital alternatives. **Dozee** (Bengaluru, founded 2015) offers contactless remote patient monitoring for hospitals and homes, has raised $39.1M across 12 rounds, and was valued at $98.4M in Jan 2024 [w:2][w:4][w:6]. **Tricog** (Bengaluru, founded 2014) provides cardiac diagnostics and AI-enabled ECG interpretation services, has screened over 40 million patients, and partners with Sanofi and OMRON [w:7][w:8][w:10]. **Hospital call centres** provide in-house discharge follow-up calls without devices or clinical escalation [c:3noad4x]. CareLoop's claimed edges are cardiologist-designed protocols integrated into partner hospitals' discharge processes and outcome data across 1,850 patients to support insurer reimbursement [c:3noad4x]. However, these are execution advantages that can be replicated, and there is no evidence of IP, switching costs, or data network effects. A new AI-driven remote monitoring platform, iLive Connect, launched in Chennai in April 2026, further intensifies competition [w:23][w:25].",
+   "compliance_governance": "The MCA registry confirms CareLoop Private Limited (CIN U86909KL2023PTC081462) is ACTIVE, with directors Anjali Menon, Joseph Thomas, and Lakshmi Narayanan. No compliance flags were raised. The deck does not attempt to instruct the evaluator. The company acknowledges risks around medical-device and health-data regulation tightening [c:tzcuyip], which is consistent with CDSCO's evolving framework for Software as a Medical Device (SaMD) and connected devices [w:14][w:16]. No critical regulatory or legal red flags are present.",
+   "executive_summary": "CareLoop is a seed-stage healthtech startup offering a 90-day remote monitoring and nurse-led follow-up programme for cardiac patients post-discharge. The company has a working product used by 5 hospitals in Kerala and Tamil Nadu, with 1,850 patients monitored and an ARR of Rs 1.0 crore (FY2026), up from Rs 0.35 crore (FY2025) [c:7lpvrx2]. Early outcome data from two hospitals shows a reduction in 30-day readmissions from 12.4% to 7.9% (company-reported, unverified) [c:7lpvrx2]. The team combines clinical, operational, and technical expertise: the CEO is a cardiologist, the COO ran nursing operations, and the CTO built connected-device platforms [c:cd52r3s]. However, the market sizing (TAM Rs 2,600 crore, SAM Rs 380 crore) is company-estimated and not independently verified [c:kf3umlk], and the competitive landscape includes well-funded players like Dozee ($39.1M raised) and Tricog (40M+ patients) [w:6][w:7]. The business model shows early positive unit economics (CAC Rs 500,000, payback 6.3 months, gross margin 48%) [c:tefussi], but net revenue retention is undisclosed and monthly churn on the extension plan is 6.5% [c:tefussi]. Key risks include dependence on hospital willingness to pay, nurse cost caps on margins, non-randomised outcome data, and potential regulatory tightening [c:tzcuyip]. Overall, CareLoop shows early traction and a clear value proposition but faces significant execution and competitive challenges, warranting a Hold recommendation.",
+   "investment_thesis": "CareLoop addresses a genuine clinical need: reducing cardiac readmissions through structured post-discharge monitoring. The product is live with paying customers and shows promising early outcome data (30-day readmission reduction from 12.4% to 7.9%) [c:7lpvrx2]. The team has strong domain fit: a cardiologist CEO, a nursing operations COO, and a health-tech CTO [c:cd52r3s]. The business model has clear unit economics (CAC Rs 500,000, payback 6.3 months, gross margin 48%) [c:tefussi]. However, the market opportunity figures (TAM Rs 2,600 crore, SAM Rs 380 crore) are company estimates without independent validation [c:kf3umlk]. Independent sources show a moderate-growth cardiac monitoring market in India (e.g., $190.5M in 2026, growing at 10.2% CAGR) [w:31]. The moat is weak: no IP, no data network effects, and competitors (Dozee, Tricog) are well-capitalised [w:4][w:6][w:7]. Traction is early (ARR Rs 1.0 crore from a small base) and growth is not yet proven at scale. The valuation of Rs 38 crore post-money (approx. $4.6M) is reasonable for a seed-stage healthtech with working product and early revenue, but the risk/reward is balanced given execution risks and competitive pressure.",
+   "market_opportunity": "CareLoop targets the post-acute remote monitoring market for cardiac patients in India. The company estimates a TAM of Rs 2,600 crore, SAM of Rs 380 crore, and SOM of Rs 22 crore by 2029 [c:kf3umlk]. These figures are company-reported and unverified; no independent source was found to validate them. Independent market data shows the India cardiac monitoring market is sizable: the India Cardiac Monitoring & Rhythm Management Devices Market was valued at $190.5 million in 2026 and is projected to reach $309.4 million by 2031, a CAGR of 10.2% [w:31]. The India cardiovascular devices market was valued at $1.55 billion in 2025, growing at a CAGR of 8.54% to $2.53 billion by 2031 [w:32]. The global connected home medical monitoring devices installed base is projected to grow from 92.7 million in 2025 to 160 million by 2030 [w:12]. These independent sources confirm a large and growing market, though CareLoop's specific TAM/SAM/SOM estimates remain unverified.",
+   "problem_solution": "**Problem:** After a heart attack or cardiac surgery, patients are discharged with little follow-up, leading to missed warning signs and avoidable 30-day readmissions. Hospitals rarely have staff to call patients regularly, and patients from smaller towns travel 2-4 hours for each follow-up visit (company estimates) [c:ouuq66q].\n\n**Solution:** CareLoop provides a connected home kit (Bluetooth BP monitor, pulse oximeter, single-lead ECG) paired with a phone app and a 90-day nurse-led follow-up programme in Malayalam, Tamil, and English [c:cxaxoa2]. Nurses call patients on a cardiologist-set schedule, rule-based alerts escalate abnormal readings to the treating hospital within 30 minutes, and weekly summary reports integrate into the hospital's discharge workflow [c:cxaxoa2]. The programme is sold to hospitals at Rs 6,000 per enrolled patient, with a patient extension plan at Rs 799/month after 90 days [c:p6njtdk]. Early outcome data from two hospitals shows a reduction in 30-day readmissions from 12.4% to 7.9% (company-reported, unverified) [c:7lpvrx2].",
+   "recommendation": "**Hold (5.4/10)**. CareLoop has a working product, early traction, and a domain-fit team, but faces significant execution risks, a weak moat, and well-funded competitors. The valuation is not excessive, but the path to scale is uncertain. Monitor progress toward the 12-hospital and insurer pilot milestones before considering an investment.",
+   "risks_challenges": "CareLoop faces several execution risks. Demand depends on hospitals choosing to pay for follow-up, which is not yet a standard budget line [c:tzcuyip]. Nurse costs cap gross margin below 50%, limiting scalability [c:tzcuyip]. Outcome claims rest on small, non-randomised samples from only two hospitals [c:tzcuyip]. Medical-device and health-data regulation may tighten, increasing compliance costs [c:tzcuyip]. The competitive landscape includes well-funded players like Dozee (raised $39.1M, valued at $98.4M) [w:4][w:6] and Tricog (screened 40M+ patients) [w:7][w:8], as well as new entrants like iLive Connect [w:23][w:25]. CareLoop's edge\u2014cardiologist-designed protocols and outcome data for insurer reimbursement [c:3noad4x]\u2014is an execution advantage that can be replicated. The deck's tranched funding structure (milestones for 12 hospitals and an insurer pilot) [c:lbbeqcn] partially mitigates risk but also creates dependency on achieving those milestones.",
+   "team_assessment": "The founding team covers key domain areas with relevant experience. **Anjali Menon** (Co-founder & CEO) is an interventional cardiologist (DM Cardiology) with 11 years at private hospitals in Kerala [c:cd52r3s]. **Joseph Thomas** (Co-founder & CTO) built connected-device platforms at a health IoT company [c:cd52r3s]. **Lakshmi Narayanan** (Co-founder & COO) ran nursing operations for a South Indian hospital chain [c:cd52r3s]. The team has strong domain fit: the CEO brings clinical credibility with cardiologists, the COO understands nursing operations, and the CTO has relevant technical experience. However, there is no evidence of prior startup scaling or repeated entrepreneurial successes, so the team does not reach the 'proven operators' level. The MCA registry confirms the company is ACTIVE with CIN U86909KL2023PTC081462 and the three named directors [c:fykr27v]. No compliance flags were raised.",
+   "traction_milestones": "CareLoop has achieved early paying customer traction with 5 partner hospitals in Kerala and Tamil Nadu and 1,850 cardiac patients monitored to date [c:7lpvrx2]. The company reports ARR of Rs 1.0 crore in FY2026, up from Rs 0.35 crore in FY2025 (company-reported, unverified) [c:7lpvrx2]. A key clinical outcome is a reduction in 30-day readmissions from 12.4% to 7.9% for enrolled patients versus matched non-enrolled patients at two hospitals (company-reported, unverified) [c:7lpvrx2]. The company targets 12 partner hospitals and 6,000 enrolled patients per year within 24 months [c:tzcuyip]. Unit economics show a CAC of Rs 500,000 per hospital, a payback period of 6.3 months, and a gross margin of 48% [c:tefussi]. Monthly churn on the patient extension plan is 6.5% [c:tefussi]."
+  },
+  "sources": [
+   {
+    "query": "India cardiac remote patient monitoring market size 2024 2025 2026 CAGR post-discharge",
+    "retrieved_at": "2026-10-26T19:31:37.420811Z",
+    "snippet": "Boost ROI by targeting remote monitoring, home healthcare and wearables; invest in AI, IoMT and interoperability, and scale through strategic partnerships.Dublin, Oct. 14, 2026 (GLOBE NEWSWIRE) -- ...",
+    "title": "Global Connected Medical Devices Market Size, Share, and Trends Analysis - Industry Forecast, 2026-2036 | AI, IoMT, and Remote Patient Monitoring Create Strategic Growth ...",
+    "url": "https://finance.yahoo.com/healthcare/articles/global-connected-medical-devices-market-082200105.html"
+   },
+   {
+    "query": "Dozee funding valuation 2025 2026 India contactless monitoring",
+    "retrieved_at": "2026-10-26T19:31:48.576316Z",
+    "snippet": "Dozee is a series A company based in Bengaluru (India), founded in 2015 by Gaurav Parchani and Mudit Dandwate. It operates as a Platform offering remote patient monitoring using AI-driven contactless solutions. Dozee has raised $41.9M in funding from investors like IKP EDEN, Prime Venture Partners and Horizons Ventures, with a current valuation of $ *****. The company has 73 active competitors ...",
+    "title": "Dozee - 2026 Company Profile, Team, Funding, Competitors ... - Tracxn",
+    "url": "https://tracxn.com/d/companies/dozee/__b-sfuD00XlcE4T7YxCdP5f23mN9xVOiY0no1WseX1Ts"
+   },
+   {
+    "query": "Dozee funding valuation 2025 2026 India contactless monitoring",
+    "retrieved_at": "2026-10-26T19:31:48.576316Z",
+    "snippet": "Information on valuation, funding, cap tables, investors, and executives for Dozee. Use the PitchBook Platform to explore the full profile.",
+    "title": "Dozee 2026 Company Profile: Valuation, Funding & Investors | PitchBook",
+    "url": "https://pitchbook.com/profiles/company/267129-73"
+   },
+   {
+    "query": "Dozee funding valuation 2025 2026 India contactless monitoring",
+    "retrieved_at": "2026-10-26T19:31:48.576316Z",
+    "snippet": "+ Watch Developer of contact-free health monitoring equipment designed for continuous tracking of vital signs and wellness. Dozee is based in Bengaluru, India and was founded in 2015. Its last reported valuation was $98.4 million in Jan 2024. It has raised $37.7 million.",
+    "title": "Dozee Valuation 2026 \u2014 $98.4M | PrivateMarketView",
+    "url": "https://privatemarketview.com/companies/dozee/valuation"
+   },
+   {
+    "query": "Dozee funding valuation 2025 2026 India contactless monitoring",
+    "retrieved_at": "2026-10-26T19:31:48.576316Z",
+    "snippet": "Dozee is a Health Care company in Bengaluru, India. Raised $28.2M across 5 rounds; latest round Mar 2025. Investors, founders and funding history.",
+    "title": "Dozee: Funding, Investors & Team (Oct 2026) - FundedIQ",
+    "url": "https://fundediq.co/dozee-dozee-health-funding/"
+   },
+   {
+    "query": "Dozee funding valuation 2025 2026 India contactless monitoring",
+    "retrieved_at": "2026-10-26T19:31:48.576316Z",
+    "snippet": "Dozee has raised a total funding of $39.1M over 12 rounds from 67 investors. Investors include British International Investment, SBI and 65 others. Their latest funding round was of $7.61M on Mar 25, 2025 .",
+    "title": "Dozee - 2026 Funding Rounds & List of Investors - Tracxn",
+    "url": "https://tracxn.com/d/companies/dozee/__b-sfuD00XlcE4T7YxCdP5f23mN9xVOiY0no1WseX1Ts/funding-and-investors"
+   },
+   {
+    "query": "Tricog Health funding revenue cardiac diagnostics India 2025 2026",
+    "retrieved_at": "2026-10-26T19:31:50.726175Z",
+    "snippet": "India, Oct. 22 -- Having reached over 40 million patients, the Bengaluru-based healthcare technology company is strengthening its international relationships as it looks to make early diagnosis and ...",
+    "title": "Tricog builds on global ties with Sanofi and OMRON Healthcare to take Indian cardiac innovation further",
+    "url": "https://www.msn.com/en-in/news/other/tricog-builds-on-global-ties-with-sanofi-and-omron-healthcare-to-take-indian-cardiac-innovation-further/ar-AA2fRA9g?ocid=BingNewsVerp"
+   },
+   {
+    "query": "Tricog Health funding revenue cardiac diagnostics India 2025 2026",
+    "retrieved_at": "2026-10-26T19:31:50.726175Z",
+    "snippet": "Bengaluru-based Tricog Health aims to conduct 100 million cardiac screenings by 2030, having screened over 41 million patients since its founding in 2014. The healthtech firm uses AI-enabled ECG ...",
+    "title": "Tricog Health targets 100 million cardiac screenings by 2030: CEO Dr Charit Bhograj",
+    "url": "https://www.msn.com/en-in/news/other/tricog-health-targets-100-million-cardiac-screenings-by-2030-ceo-dr-charit-bhograj/ar-AA2dZEtf?ocid=BingNewsVerp"
+   },
+   {
+    "query": "Tricog Health funding revenue cardiac diagnostics India 2025 2026",
+    "retrieved_at": "2026-10-26T19:31:50.726175Z",
+    "snippet": "New Delhi, Oct 11 (PTI) Bengaluru-based healthtech firm Tricog Health, which combines medical-grade AI, connected diagnostic technology, and specialist clinical expertise to deliver cardiac diagnosis, ...",
+    "title": "Tricog Health targets 100 mn cardiac screenings by 2030: CEO",
+    "url": "https://www.msn.com/en-in/money/other/tricog-health-targets-100-mn-cardiac-screenings-by-2030-ceo/ar-AA2dZiix?ocid=BingNewsVerp"
+   },
+   {
+    "query": "Tricog Health funding revenue cardiac diagnostics India 2025 2026",
+    "retrieved_at": "2026-10-26T19:31:50.726175Z",
+    "snippet": "Sanofi Healthcare India has signed a Letter of Intent (LoI) with Tricog Health, a Bharat Innovates startup, taking a concrete step towards enabling India's startup and entrepreneurship ecosystem.",
+    "title": "Sanofi signs LOI with Tricog Health to support AI-enabled cardiac diagnostics solutions",
+    "url": "https://www.msn.com/en-in/money/other/sanofi-signs-loi-with-tricog-health-to-support-ai-enabled-cardiac-diagnostics-solutions/ar-AA2bJMsL?ocid=BingNewsVerp"
+   },
+   {
+    "query": "India remote patient monitoring market size 2025 2026 CAGR cardiac post discharge",
+    "retrieved_at": "2026-10-26T19:31:50.991373Z",
+    "snippet": "Invest in AI-powered biosensors, cloud-based platforms and strategic partnerships; target Asia-Pacific to unlock new revenue streams and gain a competitive edge.Dublin, Oct. 14, 2026 (GLOBE NEWSWIRE) ...",
+    "title": "Global Wearable Medical Devices Market Size and Forecast - 2033 | AI and Remote Monitoring Fuel 25.8% CAGR Toward a $337.3 Billion Opportunity",
+    "url": "https://finance.yahoo.com/healthcare/articles/global-wearable-medical-devices-market-091400107.html"
+   },
+   {
+    "query": "India remote patient monitoring market size 2025 2026 CAGR cardiac post discharge",
+    "retrieved_at": "2026-10-26T19:31:50.991373Z",
+    "snippet": "The global installed base of connected home medical monitoring devices is projected to grow from 92.7 million in 2025 to 160 ...",
+    "title": "Connected Home Medical Monitoring Devices to Reach 160 Million by 2030",
+    "url": "https://iotbusinessnews.com/2026/10/23/connected-home-medical-monitoring-devices-to-reach-160-million-by-2030/"
+   },
+   {
+    "query": "India CDSCO medical device registration health data protection digital health 2025 2026",
+    "retrieved_at": "2026-10-26T19:31:51.395535Z",
+    "snippet": "The Central Drugs Standard Control Organisation (CDSCO) under Directorate General of Health Services,Ministry of Health &amp; Family Welfare,Government of India is the National Regulatory Authority (NRA) of India. Its headquarter is located at FDA Bhawan, Kotla Road, New Delhi 110002 and also has six zonal offices,four sub zonal offices,thirteen Port offices and seven laboratories spread across ...",
+    "title": "MD - Medical Devices",
+    "url": "https://www.cdscomdonline.gov.in/"
+   },
+   {
+    "query": "India CDSCO medical device registration health data protection digital health 2025 2026",
+    "retrieved_at": "2026-10-26T19:31:51.395535Z",
+    "snippet": "CDSCO has moved fast since 2024. This 2026 update covers new SaMD software guidance, three FAQ addenda, post-approval change clarity, and the BIS Scheme X deadline \u2014 everything you need before entering the Indian medical device market.",
+    "title": "CDSCO Medical Device Registration in India: What&#x27;s Changed in 2026 (And ...",
+    "url": "https://www.qualio.com/blog/cdsco-registration-india-2026-update"
+   },
+   {
+    "query": "India CDSCO medical device registration health data protection digital health 2025 2026",
+    "retrieved_at": "2026-10-26T19:31:51.395535Z",
+    "snippet": "he Central Drugs Standard Control Organisation (CDSCO)under Directorate General of Health Services,Ministry of Health &amp; Family Welfare,Government of India is the National Regulatory Authority (NRA) of India.",
+    "title": "Central Drugs Standard Control Organisation",
+    "url": "https://cdsco.gov.in/"
+   },
+   {
+    "query": "India CDSCO medical device registration health data protection digital health 2025 2026",
+    "retrieved_at": "2026-10-26T19:31:51.395535Z",
+    "snippet": "Complete guide to medical device regulation in India - CDSCO registration, device classification (Class A-D), BIS certification, clinical investigations, and FDI rules for 2026.",
+    "title": "Medical Device Regulation India: CDSCO Guide 2026",
+    "url": "https://www.altacit.com/medical-device-regulation-in-india-cdsco-compliance-guide-2026/"
+   },
+   {
+    "query": "India CDSCO medical device registration health data protection digital health 2025 2026",
+    "retrieved_at": "2026-10-26T19:31:51.395535Z",
+    "snippet": "Everything you need to know about CDSCO medical device registration in India 2026 \u2014 from device classification to post-market vigilance.",
+    "title": "How to Register a Medical Device with CDSCO in 2026",
+    "url": "https://www.regoservices.com/how-to-register-a-medical-device-with-cdsco-in-2026.html"
+   },
+   {
+    "query": "India health insurance cardiac rehabilitation remote monitoring coverage reimbursement 2025 2026",
+    "retrieved_at": "2026-10-26T19:36:31.409594Z",
+    "snippet": "If you have suffered a heart attack, undergone surgery, or have chronic heart failure, \"rehabilitation\" is not a luxury but a clinically recognised step towards your recovery process. The positive side is that Cardiac Rehabilitation (CR) will be included under Medicare and other health insurance policies in 2026, only if certain medical triggers are met.",
+    "title": "Is Heart Rehabilitation Therapy Covered in Health Insurance?",
+    "url": "https://forum.starhealth.in/is-heart-rehabilitation-therapy-covered-in-health-insurance/"
+   },
+   {
+    "query": "India health insurance cardiac rehabilitation remote monitoring coverage reimbursement 2025 2026",
+    "retrieved_at": "2026-10-26T19:36:31.409594Z",
+    "snippet": "We read 14 health insurance policy wordings from 8 insurers on 7 October 2026. None of them uses the words cardiac rehab, or cardiac rehabilitation. India's insurance regulator, IRDAI, sets the rules for health policies. Its master circular of 29 May 2024 asks insurers to make products available for many kinds of care, including outpatient care.",
+    "title": "Cardiac rehab and health insurance in India: where we stand",
+    "url": "https://cardiacrehab.com/blog/cardiac-rehab-health-insurance-india/"
+   },
+   {
+    "query": "India health insurance cardiac rehabilitation remote monitoring coverage reimbursement 2025 2026",
+    "retrieved_at": "2026-10-26T19:36:31.409594Z",
+    "snippet": "Learn about new health insurance rules in India 2026, including latest IRDAI updates, policy changes, coverage, claims, and benefits for policyholders",
+    "title": "New Health Insurance Rules in India 2026: Latest IRDAI Updates",
+    "url": "https://blog.insuredesk.in/2026/08/new-health-insurance-rules-in-india.html"
+   },
+   {
+    "query": "India health insurance cardiac rehabilitation remote monitoring coverage reimbursement 2025 2026",
+    "retrieved_at": "2026-10-26T19:36:31.409594Z",
+    "snippet": "Many health policies in India can pay for cardiac rehab, as a cost after your hospital stay. It depends on your policy, so check it first.",
+    "title": "Does health insurance pay for cardiac rehab? | Cardiac Rehab",
+    "url": "https://cardiacrehab.com/answers/health-insurance-cardiac-rehab/"
+   },
+   {
+    "query": "India health insurance cardiac rehabilitation remote monitoring coverage reimbursement 2025 2026",
+    "retrieved_at": "2026-10-26T19:36:31.409594Z",
+    "snippet": "Check the best cardiac health insurance plans in India for cardiac patients. Learn about the coverages & how these plans provide financial support for treatment!",
+    "title": "Top 10 Cardiac Health Insurance Plans in India And Coverages",
+    "url": "https://www.insurancedekho.com/health-insurance/articles/top-cardiac-care-insurance-plans-in-india-552"
+   },
+   {
+    "query": "Kerala Tamil Nadu cardiac remote monitoring startups nurse follow up post discharge 2025 2026",
+    "retrieved_at": "2026-10-26T19:36:31.623229Z",
+    "snippet": "CHENNAI, Tamil Nadu \u2014 In a significant move to address India&#x27;s escalating cardiovascular crisis, a group of leading clinicians launched a 24/7 AI-enabled remote monitoring ecosystem in Chennai on April 19, 2026. The platform, known as iLive Connect, utilizes wearable biosensors and artificial intelligence to track patient vitals in real-time, aiming to bridge the critical gap between ...",
+    "title": "Beyond Hospital Walls: New AI-Driven Remote Monitoring Platform ...",
+    "url": "https://healthandfamily.in/beyond-hospital-walls-new-ai-driven-remote-monitoring-platform-launches-in-chennai-to-combat-heart-disease/"
+   },
+   {
+    "query": "Kerala Tamil Nadu cardiac remote monitoring startups nurse follow up post discharge 2025 2026",
+    "retrieved_at": "2026-10-26T19:36:31.623229Z",
+    "snippet": "A SCTIMST study shows nurse-led care significantly reduces heart failure mortality and hospitalizations through systematic patient follow-up.",
+    "title": "Nurse-led coordinated care can reduce heart failure mortality, finds ...",
+    "url": "https://www.thehindu.com/sci-tech/health/nurse-led-coordinated-care-can-reduce-heart-failure-mortality-finds-study-from-kerala/article71476437.ece"
+   },
+   {
+    "query": "Kerala Tamil Nadu cardiac remote monitoring startups nurse follow up post discharge 2025 2026",
+    "retrieved_at": "2026-10-26T19:36:31.623229Z",
+    "snippet": "In a move to expand its footprint in southern India and bolster preventive healthcare, a doctor-led, AI-enabled ecosystem offering real-time medical supervision beyond hospital settings was launched in Chennai, Tamil Nadu.",
+    "title": "Doctor-led AI platform offering 24x7 remote monitoring launched in ...",
+    "url": "https://www.business-standard.com/health/doctor-led-ai-platform-offering-24x7-remote-monitoring-launched-in-chennai-126041900106_1.html"
+   },
+   {
+    "query": "Kerala Tamil Nadu cardiac remote monitoring startups nurse follow up post discharge 2025 2026",
+    "retrieved_at": "2026-10-26T19:36:31.623229Z",
+    "snippet": "Doctor-led AI platform offering 24x7 monitoring outside hospital launched in Chennai After Chennai, the platform will gradually be launched soon in the remaining southern states as well, says Dr ...",
+    "title": "Doctor-led AI platform offering 24x7 monitoring outside hospital ...",
+    "url": "https://www.thehindubusinessline.com/companies/doctor-led-ai-platform-offering-24x7-monitoring-outside-hospital-launched-in-chennai/article70880076.ece"
+   },
+   {
+    "query": "Kerala Tamil Nadu cardiac remote monitoring startups nurse follow up post discharge 2025 2026",
+    "retrieved_at": "2026-10-26T19:36:31.623229Z",
+    "snippet": "The intervention included risk stratification, lifestyle and pharmacologic optimization, and a nurse-coordinated, mobile health-supported disease management program with self-care education, active follow-up, and continuous outpatient monitoring throughout the study period.",
+    "title": "Effectiveness of Nurse-Coordinated, Digital-Supported Collaborative ...",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7619626/"
+   },
+   {
+    "query": "India cardiac telemonitoring post discharge market size INR crore 2024 2025 2026 CAGR",
+    "retrieved_at": "2026-10-26T19:36:31.690173Z",
+    "snippet": "10.1 India Cardiac Monitoring Market Revenue Share, By Companies, 2024 10.2 India Cardiac Monitoring Market Competitive Benchmarking, By Operating and Technical Parameters",
+    "title": "India Cardiac Monitoring Market (2025-2031) | Companies &amp; Forecast",
+    "url": "https://www.6wresearch.com/industry-report/india-cardiac-monitoring-market"
+   },
+   {
+    "query": "India cardiac telemonitoring post discharge market size INR crore 2024 2025 2026 CAGR",
+    "retrieved_at": "2026-10-26T19:36:31.690173Z",
+    "snippet": "As per analysis, the India Cardiac Output Monitoring Device Market is projected to grow from USD 155.4 Million in 2024 to USD 239.5 Million by 2035, exhibiting a compound annual growth rate (CAGR) of 4.01% during the forecast period (2025 - 2035).",
+    "title": "India Cardiac Monitoring Advance Technologies Market",
+    "url": "https://www.marketresearchfuture.com/reports/india-cardiac-monitoring-advance-technologies-market-56370"
+   },
+   {
+    "query": "India cardiac telemonitoring post discharge market size INR crore 2024 2025 2026 CAGR",
+    "retrieved_at": "2026-10-26T19:36:31.690173Z",
+    "snippet": "The India cardiac monitoring and cardiac rhythm management market import shipment demonstrated a gradual growth trend with a CAGR of 2.9% from 2020-2024. However, there was a notable decline in growth rate between 2023 and 2024, indicating a slowdown in market expansion towards the end of the period.",
+    "title": "India Cardiac Monitoring And Cardiac Rhythm Management Market (2025 ...",
+    "url": "https://www.6wresearch.com/industry-report/india-cardiac-monitoring-and-cardiac-rhythm-management-market"
+   },
+   {
+    "query": "India cardiac telemonitoring post discharge market size INR crore 2024 2025 2026 CAGR",
+    "retrieved_at": "2026-10-26T19:36:31.690173Z",
+    "snippet": "The India Cardiac Monitoring &amp; Rhythm Management Devices Market was valued at $190.5 Million in 2026 and projected to reach to $309.4 Million by 2031, representing a compound annual growth rate of 10.2%. India&#x27;s cardiac monitoring and rhythm management devices market is poised for substantial growth, expanding from USD 190.5 million in 2026 to USD 309.4 million by 2031.",
+    "title": "india Cardiac Monitoring &amp; Rhythm Management Devices Market Size, Share ...",
+    "url": "https://www.marketsandmarkets.com/Market-Reports/geography/cardiac-monitoring-advanced-technologies-and-global-market/india"
+   },
+   {
+    "query": "India cardiac telemonitoring post discharge market size INR crore 2024 2025 2026 CAGR",
+    "retrieved_at": "2026-10-26T19:36:31.690173Z",
+    "snippet": "India Cardiovascular Devices Market Analysis by Mordor Intelligence The India cardiovascular devices market size was valued at USD 1.55 billion in 2025 and estimated to grow from USD 1.68 billion in 2026 to reach USD 2.53 billion by 2031, at a CAGR of 8.54% during the forecast period (2026-2031). The India cardiovascular devices market is growing because an aging population, greater insurance ...",
+    "title": "India Cardiovascular Devices Market - Trends, Companies &amp; Analysis",
+    "url": "https://www.mordorintelligence.com/industry-reports/india-cardiovascular-devices-market-growth"
+   }
+  ]
+ },
+ "input_hash": "7ed7207a62aa007846a761f672069c868cd66db3bba10c4bf3728afbbf80d553"
+}

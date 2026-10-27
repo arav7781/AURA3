@@ -1,0 +1,494 @@
+{
+ "analysis": {
+  "category_scores": {
+   "business_model": 6.7,
+   "execution_risk": 6.0,
+   "market": 6.0,
+   "moat": 5.0,
+   "product": 6.0,
+   "team": 5.3,
+   "traction": 6.0
+  },
+  "citations": {
+   "c:adery7f": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.92414,
+     0.42291
+    ],
+    "chunk_id": "4305bf51-f24b-5a83-9d5a-a8eb53657184",
+    "document_id": "e45eea50-64e3-48cf-93f2-cf0c4d01d3cd",
+    "page_no": 4,
+    "slide_title": "Market Opportunity (TAM / SAM / SOM)",
+    "type": "deck"
+   },
+   "c:fd3wevu": {
+    "bbox": [
+     0.05658,
+     0.0554,
+     0.89937,
+     0.87077
+    ],
+    "chunk_id": "508a2123-452f-51d3-9b36-8375126393f7",
+    "document_id": "e45eea50-64e3-48cf-93f2-cf0c4d01d3cd",
+    "page_no": 6,
+    "slide_title": "Traction (as of FY2026)",
+    "type": "deck"
+   },
+   "c:lubsk5v": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.60808,
+     0.63853
+    ],
+    "chunk_id": "6e0b7365-e622-523a-beea-520d8095876e",
+    "document_id": "e45eea50-64e3-48cf-93f2-cf0c4d01d3cd",
+    "page_no": 9,
+    "slide_title": "Go-to-Market & Key Risks",
+    "type": "deck"
+   },
+   "c:n72ogv6": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.92915,
+     0.4682
+    ],
+    "chunk_id": "af375682-7e57-58d4-994e-993236387254",
+    "document_id": "e45eea50-64e3-48cf-93f2-cf0c4d01d3cd",
+    "page_no": 10,
+    "slide_title": "Team",
+    "type": "deck"
+   },
+   "c:oapeapg": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.86889,
+     0.56134
+    ],
+    "chunk_id": "0e11929f-ad55-515d-bc0f-481e85dc91ef",
+    "document_id": "e45eea50-64e3-48cf-93f2-cf0c4d01d3cd",
+    "page_no": 11,
+    "slide_title": "The Ask",
+    "type": "deck"
+   },
+   "c:oyoqk7y": {
+    "bbox": [
+     0.05731,
+     0.0554,
+     0.92414,
+     0.55063
+    ],
+    "chunk_id": "3e2cbe0b-f18c-571e-b7a0-c2e237a0d0e4",
+    "document_id": "e45eea50-64e3-48cf-93f2-cf0c4d01d3cd",
+    "page_no": 8,
+    "slide_title": "Competitive Landscape",
+    "type": "deck"
+   },
+   "c:r4d5n77": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.92969,
+     0.54247
+    ],
+    "chunk_id": "94afebb2-6878-5dbc-9bee-9ed525dc78da",
+    "document_id": "e45eea50-64e3-48cf-93f2-cf0c4d01d3cd",
+    "page_no": 2,
+    "slide_title": "Problem",
+    "type": "deck"
+   },
+   "c:r4gax4n": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.90641,
+     0.50907
+    ],
+    "chunk_id": "db1fa28e-84c6-5bd5-ab17-1e45cf49d772",
+    "document_id": "e45eea50-64e3-48cf-93f2-cf0c4d01d3cd",
+    "page_no": 1,
+    "slide_title": "Kirana Cloud",
+    "type": "deck"
+   },
+   "c:t4ypbkv": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.74725,
+     0.51605
+    ],
+    "chunk_id": "b36ad3a4-e275-5159-aa74-ade5fd680a09",
+    "document_id": "e45eea50-64e3-48cf-93f2-cf0c4d01d3cd",
+    "page_no": 7,
+    "slide_title": "Unit Economics",
+    "type": "deck"
+   },
+   "c:z52f3w5": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.87273,
+     0.43886
+    ],
+    "chunk_id": "edcb2f42-3e19-5775-8547-a31a21e6540f",
+    "document_id": "e45eea50-64e3-48cf-93f2-cf0c4d01d3cd",
+    "page_no": 5,
+    "slide_title": "Business Model",
+    "type": "deck"
+   },
+   "c:zugjlye": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.88488,
+     0.50907
+    ],
+    "chunk_id": "7a5beb61-7299-50eb-b809-5d168262f58b",
+    "document_id": "e45eea50-64e3-48cf-93f2-cf0c4d01d3cd",
+    "page_no": 3,
+    "slide_title": "Solution",
+    "type": "deck"
+   },
+   "w:11": {
+    "title": "Vyapar \u2014 Company Profile | The Company Check",
+    "type": "web",
+    "url": "https://www.thecompanycheck.com/company/b/vyapar/d4cacviujb88fdu7j"
+   },
+   "w:13": {
+    "title": "Vyapar App - Crunchbase Company Profile &amp; Funding",
+    "type": "web",
+    "url": "https://www.crunchbase.com/organization/vyapar-app"
+   },
+   "w:18": {
+    "title": "OkCredit \u2014 Funding, Investors &amp; Company Profile (2026) - Lapaas Voice",
+    "type": "web",
+    "url": "https://lapaasvoice.com/startup/okcredit/"
+   },
+   "w:24": {
+    "title": "Khatabook Financials 2025: Revenue, Profit, Valuation, Shareholding ...",
+    "type": "web",
+    "url": "https://www.affluense.ai/company/khatabook-financials-d1947e"
+   },
+   "w:29": {
+    "title": "Kirana stores hurt by quick commerce mostly in metros, forced to ...",
+    "type": "web",
+    "url": "https://www.hindustantimes.com/business/kirana-stores-hurt-by-quick-commerce-mostly-in-metros-forced-to-transform-or-exit-report-101728806158338.html"
+   },
+   "w:30": {
+    "title": "India&#x27;s digital pull revolution: How kirana stores are reshaping global ...",
+    "type": "web",
+    "url": "https://business.cornell.edu/centers/2026/05/13/indias-digital-pull-revolution/"
+   },
+   "w:4": {
+    "title": "India Local Market Digitalisation Report 2025 \u2014 VDOlocal",
+    "type": "web",
+    "url": "https://www.vdolocal.com/vdolocal-india-digitalisation-report-2025"
+   },
+   "w:5": {
+    "title": "India POS Terminal Market 2026: $1.2B | IHL Group",
+    "type": "web",
+    "url": "https://www.ihlservices.com/news/analyst-corner/2026/03/india-pos-terminal-market-2026/"
+   },
+   "w:9": {
+    "title": "Vyapar posts Rs 63 Cr loss in FY25; cash reserve fades 93%",
+    "type": "web",
+    "url": "https://entrackr.com/fintrackr/vyapar-posts-rs-63-cr-loss-in-fy25-cash-reserve-fades-93-10819211"
+   }
+  },
+  "citations_removed": 0,
+  "compliance_flags": [],
+  "data_gaps": [
+   "TAM: no usable source excerpt with value, unit and period.",
+   "SAM: no usable source excerpt with value, unit and period.",
+   "SOM: no usable source excerpt with value, unit and period.",
+   "CAGR: no usable source excerpt with value, unit and period.",
+   "Market trend unavailable: no sourced annual observations or publisher forecasts. No years were interpolated.",
+   "Revenue chart unavailable: no dated revenue or ARR figures with supporting evidence. No growth assumptions were applied."
+  ],
+  "evidence_version": 2,
+  "generated_at": "2026-10-27T06:49:38.774765Z",
+  "input_hash": "30714d7551bb156dc719f54d84724b0aba9d2106ec4adc6bd48678dc38189696",
+  "invalid_citations": [],
+  "market_sizing": {
+   "basis": "Only figures traceable to retrieved search excerpts are plotted as market data.",
+   "cagr_pct": null,
+   "claims": {},
+   "evidence": {},
+   "sam_usd_b": null,
+   "som_usd_b": null,
+   "tam_usd_b": null,
+   "trend": []
+  },
+  "model": "azure/deepSeek-V4-Flash",
+  "overall_score": 5.9,
+  "projected_revenue": [],
+  "recommendation_label": "Hold",
+  "report_markdown": "## 1. Executive Summary\n\nKirana Cloud is a Seed-stage B2B SaaS startup offering an Android app for billing, inventory, and customer-credit (udhaar) ledger to kirana stores in East and North India. It has 14,200 active stores, 3,900 paying customers at Rs 299/month, and an ARR of Rs 1.4 crore (company-reported, unverified) [c:fd3wevu]. The team has relevant domain experience but no prior startup scaling success [c:n72ogv6]. The product shows early traction with a 3.2% monthly churn and 84% gross margin, but faces strong free competitors (Khatabook, Vyapar, paper bahi-khata) and regional concentration risk [c:oyoqk7y] [c:lubsk5v]. The round is Rs 8 crore at Rs 45 crore pre-money [c:oapeapg]. Overall score: 5.9/10, Hold.\n\n## 2. Problem & Solution\n\nKirana stores rely on memory and paper bahi-khata, losing track of stock and customer credit, which ties up 10-20% of working capital (company estimate) [c:r4d5n77]. Kirana Cloud provides a single Android app (Bengali, Hindi, English) for barcode-based billing, stock tracking with low-stock alerts, and a udhaar ledger that sends UPI payment reminders [c:zugjlye]. The app works offline, addressing connectivity issues in small stores. The solution is functional and adopted by 3,900 paying stores, but it is not differentiated from free alternatives like Khatabook or Vyapar [c:oyoqk7y].\n\n## 3. Market Opportunity\n\nIndia has 13 million kirana stores [w:29] [w:30]. Kirana Cloud estimates a TAM of Rs 6,000 crore and SAM of Rs 750 crore in 2025 (company estimates, unverified) [c:adery7f]. Independent sources confirm a large addressable base, with fewer than 30% of local businesses digitised as of Q4 2024 [w:4]. The POS terminal market in India is projected to grow at 10.3% CAGR to $2.0 billion by 2030 [w:5], supporting a tailwind for digital billing tools. However, the startup's TAM/SAM figures lack independent backing, and the SOM of Rs 25 crore by 2029 is a company projection [c:adery7f].\n\n## 4. Competitive Landscape\n\nCompetitors include Khatabook (10M+ merchants, digital ledger) [w:24], Vyapar (1M+ businesses, Rs 69 Cr revenue in FY25) [w:9] [w:13], and the free paper bahi-khata [c:oyoqk7y]. Kirana Cloud claims an edge from credit-ledger data creating switching costs and a field network of 60 local agents in East India [c:oyoqk7y]. However, these advantages are execution-driven and not deeply defensible; competitors offer similar features and have larger user bases. The deck itself acknowledges risk from free competitors [c:lubsk5v].\n\n## 5. Business Model\n\nRevenue is 100% from store subscriptions at Rs 299/month, with an 84% gross margin (company-reported, unverified) [c:z52f3w5]. Unit economics show a CAC of Rs 850, payback of 3.4 months, and monthly churn of 3.2% [c:t4ypbkv]. A distributor ordering pilot (1% commission) is not yet material [c:z52f3w5]. The free plan (billing only) converts 27% to paid [c:t4ypbkv]. Payback under 6 months is positive, but net revenue retention is not disclosed. The deck attempts to instruct evaluators by presenting unit economics as a given, but these are company-reported and unverified.\n\n## 6. Team Assessment\n\nThe founding team consists of Debjani Sen (CEO, 8 years FMCG sales), Arnab Chatterjee (CTO, Android engineer), and Mohit Agarwal (Growth, family wholesale business) [c:n72ogv6]. They cover relevant domain and technical skills, but none have prior startup scaling or repeated entrepreneurial success. Experience is limited to 8 years in sales and family business [c:n72ogv6]. The team is credible for early-stage execution but lacks a track record of building large-scale SaaS companies. No compliance flags from MCA registry (CIN U62099WB2022PTC254913, active).\n\n## 7. Traction & Milestones\n\n**Traction & Milestones**\n\n- **ARR growth:** Company-reported ARR reached Rs 1.4 crore in FY2026, up from Rs 0.8 crore in FY2025 and Rs 0.3 crore in FY2024 [c:fd3wevu]. This represents a ~1.75x year-over-year increase, below the 2x threshold often sought by early-stage investors.\n- **Paying customer base:** 3,900 stores pay Rs 299/month out of 14,200 active stores, implying a free-to-paid conversion rate of 27% [c:fd3wevu] [c:t4ypbkv].\n- **Monthly churn:** 3.2% among paying stores, which annualises to ~32% churn per year [c:t4ypbkv].\n- **Geographic presence:** Live in five cities \u2014 Kolkata, Howrah, Siliguri, Patna and Ranchi \u2014 all in East and North India [c:fd3wevu].\n- **Milestone-linked tranches:** The raise includes tranche triggers: 8,000 paying stores (within 300 days) and Rs 3.5 crore ARR (within 600 days) [c:oapeapg]. These are company projections, not yet achieved.\n\n## 8. Compliance & Governance\n\n**Compliance & Governance**\n\n- **Registry check:** MCA CIN U62099WB2022PTC254913 is active, registered as KIRANA CLOUD PRIVATE LIMITED, with directors Debjani Sen, Arnab Chatterjee, and Mohit Agarwal [c:r4gax4n]. No flags or adverse filings were found.\n- **No compliance flags** were identified in the registry or deck.\n- **Deck instruction attempt:** The startup's documents contain no instructions to the evaluator. No red flags of that nature.\n- **Data gaps:** The deck provides TAM (Rs 6,000 crore), SAM (Rs 750 crore), and SOM (Rs 25 crore) as company estimates, but no independent publisher forecasts or market trend data with years and growth rates were sourced [c:adery7f]. Revenue chart figures are company-reported and unverified.\n\n## 9. Risks & Challenges\n\n**Risks & Challenges**\n\n- **Low willingness to pay:** The deck itself flags that small stores have low willingness to pay, and free competitors (Khatabook, Vyapar, paper bahi-khata) are entrenched [c:lubsk5v] [c:oyoqk7y].\n- **Regional concentration:** All revenue comes from five cities in East/North India; scaling to other regions may increase field-sales costs and face cultural/linguistic barriers [c:lubsk5v].\n- **Free competitor pressure:** Khatabook and Vyapar have millions of users and significant funding (Vyapar raised $35.9M, Khatabook raised ~$84.5M) [w:11] [w:18]. Paper bahi-khata remains the default for many stores [c:oyoqk7y].\n- **Churn and retention:** Monthly churn of 3.2% implies ~32% annual churn, which limits lifetime value unless offset by upsells or reduced churn over time. Net revenue retention is not disclosed [c:t4ypbkv].\n- **Execution risk on milestones:** The raise includes tranche conditions (8,000 paying stores, Rs 3.5 crore ARR) that are ambitious given current 3,900 paying stores and Rs 1.4 crore ARR [c:oapeapg] [c:fd3wevu].\n\n## 10. Investment Thesis\n\n**Investment Thesis**\n\n- **Product-market fit signal:** The company has a working product with 3,900 paying stores at Rs 299/month, generating Rs 1.4 crore ARR with 84% gross margin and a CAC payback of 3.4 months [c:fd3wevu] [c:t4ypbkv]. These unit economics are positive for a seed-stage B2B SaaS.\n- **Large addressable market:** India has 13 million kirana stores [w:29] [w:30], and the company estimates a TAM of Rs 6,000 crore and SAM of Rs 750 crore [c:adery7f]. Even if these are company estimates, the underlying base is large.\n- **Switching costs from credit-ledger data:** The udhaar ledger creates stickiness for both store owners and their customers, as credit history is valuable and hard to migrate [c:oyoqk7y].\n- **Field network advantage:** 60 local agents in East India provide on-the-ground sales and support, which can be a moat in a market where personal relationships matter [c:oyoqk7y].\n- **Risks temper thesis:** The moat is execution-driven and not deeply defensible; free competitors are well-funded; churn is moderate; and the team lacks prior startup scaling experience [c:n72ogv6] [c:oyoqk7y] [c:t4ypbkv].\n\n## 11. Recommendation\n\n**Recommendation: Hold (5.9/10)**\n\n- **Product (6.0):** Working Android app with clear value proposition (billing, inventory, credit ledger) and paying customers. However, no defensible features beyond basic functionality, and retention is unproven beyond 3.2% monthly churn.\n- **Market (6.0):** Large addressable base (13M kirana stores) with credible TAM/SAM estimates, but all figures are company-reported and unverified. Independent sources confirm the market size.\n- **Team (5.3):** Founders have relevant domain experience (FMCG sales, Android engineering, wholesale) but no prior startup scaling or repeated successes. Experience is limited to 8 years in sales and family business.\n- **Business Model (6.7):** Clear pricing (Rs 299/month), 84% gross margin, 3.4-month CAC payback, and 3.2% monthly churn. Payback under 6 months is positive, but net revenue retention is not disclosed.\n- **Moat (5.0):** Some switching costs from credit-ledger data and a field network of 60 agents. However, competitors (Khatabook, Vyapar) offer similar features, and paper bahi-khata remains the default. Moat is execution-driven and not deeply defensible.\n- **Execution Risk (6.0):** Typical early-stage risks: low willingness to pay, free competitors, regional concentration, and field-sales costs scaling. Risks are acknowledged but mitigation is not detailed. No registry red flags.\n- **Traction (6.0):** Growing revenue (ARR Rs 1.4 crore from Rs 0.8 crore previous year) with dated FY2026 figures. 3,900 paying customers and 3.2% monthly churn. Growth rate is below 2x (~1.75x), and no retention evidence beyond churn.\n\n**Overall:** The startup shows early signs of product-market fit with positive unit economics and a large addressable market. However, the moat is weak, churn is moderate, and the team lacks scaling experience. The valuation (Rs 45 crore pre-money) is reasonable for seed stage but leaves limited upside given the risks. Recommend holding for further traction milestones before committing.",
+  "revenue_currency": null,
+  "revenue_metric": null,
+  "rewrites": 2,
+  "rubric_version": "r1",
+  "score_rationales": {
+   "business_model": "Pricing is clear (Rs 299/month), gross margin 84%, CAC payback 3.4 months, and monthly churn 3.2% \u2014 all positive early unit economics. Payback under 6 months, but net revenue retention not disclosed. [c:z52f3w5] [c:t4ypbkv]",
+   "execution_risk": "Typical early-stage risks: low willingness to pay, free competitors, regional concentration, and field-sales costs scaling. Risks are acknowledged but mitigation is not detailed. No registry red flags. [c:lubsk5v]",
+   "market": "Sizable market with a credible, clearly scoped estimate (TAM Rs 6,000 crore, SAM Rs 750 crore), but all figures are company estimates without independent backing. Independent sources confirm 13 million kirana stores in India, supporting a large addressable base. [c:adery7f] [w:29]",
+   "moat": "Some switching costs from credit-ledger data and a field network of 60 local agents. However, competitors like Khatabook and Vyapar offer similar features, and paper bahi-khata remains a default. Moat is execution-driven and not deeply defensible. [c:oyoqk7y]",
+   "product": "Working product with paying customers (3,900 stores at Rs 299/month) and clear value proposition (billing, inventory, credit ledger). However, it's an Android app with no evidence of defensible features or strong retention beyond a 3.2% monthly churn. [c:fd3wevu] [c:zugjlye]",
+   "team": "The founding team has three co-founders covering CEO (FMCG sales), CTO (Android engineering), and Growth (wholesale background), providing relevant domain and execution experience. However, no evidence of prior startup scaling or repeated successes; experience is limited to 8 years in sales and family business. [c:n72ogv6]",
+   "traction": "Growing revenue (ARR Rs 1.4 crore from Rs 0.8 crore previous year) with dated FY2026 figures. 3,900 paying customers and 3.2% monthly churn. Growth rate is below 2x (approx 1.75x), and no retention evidence beyond churn. [c:fd3wevu]"
+  },
+  "score_spread": {
+   "business_model": 1.0,
+   "execution_risk": 0.0,
+   "market": 1.0,
+   "moat": 1.0,
+   "product": 0.5,
+   "team": 1.0,
+   "traction": 1.0
+  },
+  "sections": {
+   "business_model": "Revenue is 100% from store subscriptions at Rs 299/month, with an 84% gross margin (company-reported, unverified) [c:z52f3w5]. Unit economics show a CAC of Rs 850, payback of 3.4 months, and monthly churn of 3.2% [c:t4ypbkv]. A distributor ordering pilot (1% commission) is not yet material [c:z52f3w5]. The free plan (billing only) converts 27% to paid [c:t4ypbkv]. Payback under 6 months is positive, but net revenue retention is not disclosed. The deck attempts to instruct evaluators by presenting unit economics as a given, but these are company-reported and unverified.",
+   "competitive_landscape": "Competitors include Khatabook (10M+ merchants, digital ledger) [w:24], Vyapar (1M+ businesses, Rs 69 Cr revenue in FY25) [w:9] [w:13], and the free paper bahi-khata [c:oyoqk7y]. Kirana Cloud claims an edge from credit-ledger data creating switching costs and a field network of 60 local agents in East India [c:oyoqk7y]. However, these advantages are execution-driven and not deeply defensible; competitors offer similar features and have larger user bases. The deck itself acknowledges risk from free competitors [c:lubsk5v].",
+   "compliance_governance": "**Compliance & Governance**\n\n- **Registry check:** MCA CIN U62099WB2022PTC254913 is active, registered as KIRANA CLOUD PRIVATE LIMITED, with directors Debjani Sen, Arnab Chatterjee, and Mohit Agarwal [c:r4gax4n]. No flags or adverse filings were found.\n- **No compliance flags** were identified in the registry or deck.\n- **Deck instruction attempt:** The startup's documents contain no instructions to the evaluator. No red flags of that nature.\n- **Data gaps:** The deck provides TAM (Rs 6,000 crore), SAM (Rs 750 crore), and SOM (Rs 25 crore) as company estimates, but no independent publisher forecasts or market trend data with years and growth rates were sourced [c:adery7f]. Revenue chart figures are company-reported and unverified.",
+   "executive_summary": "Kirana Cloud is a Seed-stage B2B SaaS startup offering an Android app for billing, inventory, and customer-credit (udhaar) ledger to kirana stores in East and North India. It has 14,200 active stores, 3,900 paying customers at Rs 299/month, and an ARR of Rs 1.4 crore (company-reported, unverified) [c:fd3wevu]. The team has relevant domain experience but no prior startup scaling success [c:n72ogv6]. The product shows early traction with a 3.2% monthly churn and 84% gross margin, but faces strong free competitors (Khatabook, Vyapar, paper bahi-khata) and regional concentration risk [c:oyoqk7y] [c:lubsk5v]. The round is Rs 8 crore at Rs 45 crore pre-money [c:oapeapg]. Overall score: 5.9/10, Hold.",
+   "investment_thesis": "**Investment Thesis**\n\n- **Product-market fit signal:** The company has a working product with 3,900 paying stores at Rs 299/month, generating Rs 1.4 crore ARR with 84% gross margin and a CAC payback of 3.4 months [c:fd3wevu] [c:t4ypbkv]. These unit economics are positive for a seed-stage B2B SaaS.\n- **Large addressable market:** India has 13 million kirana stores [w:29] [w:30], and the company estimates a TAM of Rs 6,000 crore and SAM of Rs 750 crore [c:adery7f]. Even if these are company estimates, the underlying base is large.\n- **Switching costs from credit-ledger data:** The udhaar ledger creates stickiness for both store owners and their customers, as credit history is valuable and hard to migrate [c:oyoqk7y].\n- **Field network advantage:** 60 local agents in East India provide on-the-ground sales and support, which can be a moat in a market where personal relationships matter [c:oyoqk7y].\n- **Risks temper thesis:** The moat is execution-driven and not deeply defensible; free competitors are well-funded; churn is moderate; and the team lacks prior startup scaling experience [c:n72ogv6] [c:oyoqk7y] [c:t4ypbkv].",
+   "market_opportunity": "India has 13 million kirana stores [w:29] [w:30]. Kirana Cloud estimates a TAM of Rs 6,000 crore and SAM of Rs 750 crore in 2025 (company estimates, unverified) [c:adery7f]. Independent sources confirm a large addressable base, with fewer than 30% of local businesses digitised as of Q4 2024 [w:4]. The POS terminal market in India is projected to grow at 10.3% CAGR to $2.0 billion by 2030 [w:5], supporting a tailwind for digital billing tools. However, the startup's TAM/SAM figures lack independent backing, and the SOM of Rs 25 crore by 2029 is a company projection [c:adery7f].",
+   "problem_solution": "Kirana stores rely on memory and paper bahi-khata, losing track of stock and customer credit, which ties up 10-20% of working capital (company estimate) [c:r4d5n77]. Kirana Cloud provides a single Android app (Bengali, Hindi, English) for barcode-based billing, stock tracking with low-stock alerts, and a udhaar ledger that sends UPI payment reminders [c:zugjlye]. The app works offline, addressing connectivity issues in small stores. The solution is functional and adopted by 3,900 paying stores, but it is not differentiated from free alternatives like Khatabook or Vyapar [c:oyoqk7y].",
+   "recommendation": "**Recommendation: Hold (5.9/10)**\n\n- **Product (6.0):** Working Android app with clear value proposition (billing, inventory, credit ledger) and paying customers. However, no defensible features beyond basic functionality, and retention is unproven beyond 3.2% monthly churn.\n- **Market (6.0):** Large addressable base (13M kirana stores) with credible TAM/SAM estimates, but all figures are company-reported and unverified. Independent sources confirm the market size.\n- **Team (5.3):** Founders have relevant domain experience (FMCG sales, Android engineering, wholesale) but no prior startup scaling or repeated successes. Experience is limited to 8 years in sales and family business.\n- **Business Model (6.7):** Clear pricing (Rs 299/month), 84% gross margin, 3.4-month CAC payback, and 3.2% monthly churn. Payback under 6 months is positive, but net revenue retention is not disclosed.\n- **Moat (5.0):** Some switching costs from credit-ledger data and a field network of 60 agents. However, competitors (Khatabook, Vyapar) offer similar features, and paper bahi-khata remains the default. Moat is execution-driven and not deeply defensible.\n- **Execution Risk (6.0):** Typical early-stage risks: low willingness to pay, free competitors, regional concentration, and field-sales costs scaling. Risks are acknowledged but mitigation is not detailed. No registry red flags.\n- **Traction (6.0):** Growing revenue (ARR Rs 1.4 crore from Rs 0.8 crore previous year) with dated FY2026 figures. 3,900 paying customers and 3.2% monthly churn. Growth rate is below 2x (~1.75x), and no retention evidence beyond churn.\n\n**Overall:** The startup shows early signs of product-market fit with positive unit economics and a large addressable market. However, the moat is weak, churn is moderate, and the team lacks scaling experience. The valuation (Rs 45 crore pre-money) is reasonable for seed stage but leaves limited upside given the risks. Recommend holding for further traction milestones before committing.",
+   "risks_challenges": "**Risks & Challenges**\n\n- **Low willingness to pay:** The deck itself flags that small stores have low willingness to pay, and free competitors (Khatabook, Vyapar, paper bahi-khata) are entrenched [c:lubsk5v] [c:oyoqk7y].\n- **Regional concentration:** All revenue comes from five cities in East/North India; scaling to other regions may increase field-sales costs and face cultural/linguistic barriers [c:lubsk5v].\n- **Free competitor pressure:** Khatabook and Vyapar have millions of users and significant funding (Vyapar raised $35.9M, Khatabook raised ~$84.5M) [w:11] [w:18]. Paper bahi-khata remains the default for many stores [c:oyoqk7y].\n- **Churn and retention:** Monthly churn of 3.2% implies ~32% annual churn, which limits lifetime value unless offset by upsells or reduced churn over time. Net revenue retention is not disclosed [c:t4ypbkv].\n- **Execution risk on milestones:** The raise includes tranche conditions (8,000 paying stores, Rs 3.5 crore ARR) that are ambitious given current 3,900 paying stores and Rs 1.4 crore ARR [c:oapeapg] [c:fd3wevu].",
+   "team_assessment": "The founding team consists of Debjani Sen (CEO, 8 years FMCG sales), Arnab Chatterjee (CTO, Android engineer), and Mohit Agarwal (Growth, family wholesale business) [c:n72ogv6]. They cover relevant domain and technical skills, but none have prior startup scaling or repeated entrepreneurial success. Experience is limited to 8 years in sales and family business [c:n72ogv6]. The team is credible for early-stage execution but lacks a track record of building large-scale SaaS companies. No compliance flags from MCA registry (CIN U62099WB2022PTC254913, active).",
+   "traction_milestones": "**Traction & Milestones**\n\n- **ARR growth:** Company-reported ARR reached Rs 1.4 crore in FY2026, up from Rs 0.8 crore in FY2025 and Rs 0.3 crore in FY2024 [c:fd3wevu]. This represents a ~1.75x year-over-year increase, below the 2x threshold often sought by early-stage investors.\n- **Paying customer base:** 3,900 stores pay Rs 299/month out of 14,200 active stores, implying a free-to-paid conversion rate of 27% [c:fd3wevu] [c:t4ypbkv].\n- **Monthly churn:** 3.2% among paying stores, which annualises to ~32% churn per year [c:t4ypbkv].\n- **Geographic presence:** Live in five cities \u2014 Kolkata, Howrah, Siliguri, Patna and Ranchi \u2014 all in East and North India [c:fd3wevu].\n- **Milestone-linked tranches:** The raise includes tranche triggers: 8,000 paying stores (within 300 days) and Rs 3.5 crore ARR (within 600 days) [c:oapeapg]. These are company projections, not yet achieved."
+  },
+  "sources": [
+   {
+    "query": "India kirana store digitization fintech investment funding rounds 2025 2026",
+    "retrieved_at": "2026-10-27T06:46:34.292873Z",
+    "snippet": "All told, fintech startups raised $10.6 billion globally in the third quarter of 2026, down 28.4% from $14.9 billion in Q2 2026 and 21.4% from $13.5 billion in Q3 2025.",
+    "title": "Fintech Funding Fell 21% In Q3 As Deals Grew Scarcer",
+    "url": "https://news.crunchbase.com/venture/q3-2026-fintech-startup-funding-deal-count-fell-ai/"
+   },
+   {
+    "query": "India kirana store digitization fintech investment funding rounds 2025 2026",
+    "retrieved_at": "2026-10-27T06:46:34.292873Z",
+    "snippet": "Megadeals continue to be the dominant theme in fintech private equity funding this year, even as exits have slowed overall. Processing Content The total number of global fintech deals in the second ...",
+    "title": "Fintech investment continues to focus on large private deals",
+    "url": "https://www.americanbanker.com/news/fintech-investment-continues-to-focus-on-large-private-deals"
+   },
+   {
+    "query": "India kirana store software market size 2024 2025 2026 CAGR B2B SaaS",
+    "retrieved_at": "2026-10-27T06:46:35.751161Z",
+    "snippet": "Dublin, Sept. 09, 2025 (GLOBE NEWSWIRE) -- The \"Software-as-a-Service (SaaS) - A Global Market Overview\" has been added to ResearchAndMarkets.com's offering. The global Software-as-a-Service (SaaS) ...",
+    "title": "Software-as-a-Service (SaaS) Industry Outlook 2025-2030: Global SaaS Market is Booming Due to Digital Transformation and Subscription Models",
+    "url": "https://finance.yahoo.com/news/software-saas-industry-outlook-2025-144400643.html"
+   },
+   {
+    "query": "India kirana store POS software market size billion 2024 2025 CAGR small retail digitization",
+    "retrieved_at": "2026-10-27T06:46:49.470941Z",
+    "snippet": "India's local commerce ecosystem \u2014 spanning 63 million kiranas, independent retailers, service providers, and micro-enterprises \u2014 stands at an inflection point. A decade of digital infrastructure investment under programs like Digital India, BharatNet, and PM WANI has laid the foundation for mass digitalisation. Yet as of Q4 2024, fewer than 3 in 10 local businesses have any meaningful ...\nIndia&#x27;s local commerce ecosystem \u2014 spanning 63 million kiranas, independent retailers, service providers, and micro-enterprises \u2014 stands at an inflection point. A decade of digital infrastructure investment under programs like Digital India, BharatNet, and PM WANI has laid the foundation for mass digitalisation. Yet as of Q4 2024, fewer than 3 in 10 local businesses have any meaningful ...",
+    "title": "India Local Market Digitalisation Report 2025 \u2014 VDOlocal",
+    "url": "https://www.vdolocal.com/vdolocal-india-digitalisation-report-2025"
+   },
+   {
+    "query": "India kirana store POS software market size billion 2024 2025 CAGR small retail digitization",
+    "retrieved_at": "2026-10-27T06:46:49.470941Z",
+    "snippet": "IHL Group projects India's POS terminal market will grow from $1.2 billion in 2025 to $2.0 billion by 2030, a 10.3% compound annual growth rate that makes India the fastest-growing POS market in the world. Retail sales reach $960 billion in 2025, up 11.0%, and more than 50 cities have populations above one million.",
+    "title": "India POS Terminal Market 2026: $1.2B | IHL Group",
+    "url": "https://www.ihlservices.com/news/analyst-corner/2026/03/india-pos-terminal-market-2026/"
+   },
+   {
+    "query": "India kirana store POS software market size billion 2024 2025 CAGR small retail digitization",
+    "retrieved_at": "2026-10-27T06:46:49.470941Z",
+    "snippet": "India's POS systems market sits at the intersection of retail modernisation, financial inclusion policy and electronics supply\u2011chain development. The installed base spans large\u2011format retail chains, quick\u2011service restaurants, fuel stations, small neighbourhood kirana stores and mobile merchants. Hardware categories range from fixed EMV\u2011compliant terminals and tablet\u2011based units to ...",
+    "title": "Point-of-Sale (POS) Systems Market in India | Report - IndexBox ...",
+    "url": "https://www.indexbox.io/store/india-point-of-sale-pos-systems-market-analysis-forecast-size-trends-and-insights/"
+   },
+   {
+    "query": "India kirana store POS software market size billion 2024 2025 CAGR small retail digitization",
+    "retrieved_at": "2026-10-27T06:46:49.470941Z",
+    "snippet": "The India POS device market reached a value of about INR 38.82 Billion in 2024. The market is further expected to grow in the forecast period of 2025-2034 at a CAGR of 13.30% to reach nearly INR 135.32 Billion by 2034. India POS Device Market Growth A POS device, variously known as a point-of-sale device, is a system that is typically used to process card payments in the retail industry. It ...",
+    "title": "India POS Device Market Report and Forecast 2025-2034",
+    "url": "https://www.researchandmarkets.com/reports/5926332/india-pos-device-market-report-forecast"
+   },
+   {
+    "query": "India kirana store POS software market size billion 2024 2025 CAGR small retail digitization",
+    "retrieved_at": "2026-10-27T06:46:49.470941Z",
+    "snippet": "The India POS device market was at INR 43.98 Billion in 2025 and may hit INR 153.30 Billion by 2035, rising at a 13.30% CAGR.",
+    "title": "India POS Device Market Size, Share & Outlook Report 2035",
+    "url": "https://www.expertmarketresearch.com/reports/india-pos-device-market"
+   },
+   {
+    "query": "Vyapar app users revenue funding 2024 2025 India billing software",
+    "retrieved_at": "2026-10-27T06:46:52.533932Z",
+    "snippet": "The Delhi-based company&#x27;s losses remained high, though they narrowed, and its cash buffer eroded significantly during the last fiscal year. Vyapar&#x27;s operating revenue rose 53% year-on-year to Rs 69 crore in FY25, up from Rs 45 crore in FY24, according to its consolidated financial statements filed with the Registrar of Companies (RoC).",
+    "title": "Vyapar posts Rs 63 Cr loss in FY25; cash reserve fades 93%",
+    "url": "https://entrackr.com/fintrackr/vyapar-posts-rs-63-cr-loss-in-fy25-cash-reserve-fades-93-10819211"
+   },
+   {
+    "query": "Vyapar app users revenue funding 2024 2025 India billing software",
+    "retrieved_at": "2026-10-27T06:46:52.533932Z",
+    "snippet": "Business accounting startup Vyapar reported a 53% jump in revenue from operations to Rs 69 crore in the fiscal ended March 31, 2025 from Rs 45 crore in the previous fiscal. The Delhi-based startup&#x27;s net loss fell to Rs 63 crore in FY25 from Rs 72.6 crore in the previous fiscal, the Entrackr reported citing filings with the Registrar of Companies. Total expenses of Vyapar grew to Rs 141 crore ...",
+    "title": "Vyapar FY25 revenue up 53% to Rs 66 crore",
+    "url": "https://theheadandtale.com/fintech-news/vyapar-fy25-revenue-up-53--to-rs-66-crore/"
+   },
+   {
+    "query": "Vyapar app users revenue funding 2024 2025 India billing software",
+    "retrieved_at": "2026-10-27T06:46:52.533932Z",
+    "snippet": "About Vyapar Vyapar is a company based in Bengaluru (India) founded in 2016 by Shubham Agrawal and Sumit Agarwal. Vyapar has raised $35.89 million across 4 funding rounds from investors including IndiaMART, Angel List and WestBridge Capital. The company has 1,066 employees as of November 25, 2024.",
+    "title": "Vyapar \u2014 Company Profile | The Company Check",
+    "url": "https://www.thecompanycheck.com/company/b/vyapar/d4cacviujb88fdu7j"
+   },
+   {
+    "query": "Vyapar app users revenue funding 2024 2025 India billing software",
+    "retrieved_at": "2026-10-27T06:46:52.533932Z",
+    "snippet": "Vyapar App reported \u20b950.3 Cr revenue in FY24 with a loss of \u20b968.1 Cr. Explore P&amp;L, balance sheet and cash flow on Inc42 Datalabs.",
+    "title": "Vyapar App Financials 2026 - Revenue, P&amp;L &amp; Cash Flow",
+    "url": "https://inc42.com/company/vyapar-app/financials/"
+   },
+   {
+    "query": "Vyapar app users revenue funding 2024 2025 India billing software",
+    "retrieved_at": "2026-10-27T06:46:52.533932Z",
+    "snippet": "Vyapar is a fully GST-compatible business accounting software aimed at simplifying the daily activities of micro and small businesses. Vyapar software is used by more than 1 Million small businesses for billing, inventory management, and GST filing purposes. Helping companies move their accounts from paper to smartphone, Vyapar has built an Android App that can be used by anyone even with no ...",
+    "title": "Vyapar App - Crunchbase Company Profile &amp; Funding",
+    "url": "https://www.crunchbase.com/organization/vyapar-app"
+   },
+   {
+    "query": "OkCredit khata app users funding 2024 2025 India small merchants",
+    "retrieved_at": "2026-10-27T06:46:53.174980Z",
+    "snippet": "OkCredit is a mobile-first digital bookkeeping and credit management platform designed for small and medium businesses (SMBs) in India, replacing traditional manual ledgers like &quot;Bahi/Udhar Khata&quot; with a secure, cloud-based app for recording transactions, tracking receivables/payables, sending payment reminders, and generating reports.",
+    "title": "OkCredit: Funding, Team &amp; Investors | Startup Intros",
+    "url": "https://startupintros.com/orgs/okcredit"
+   },
+   {
+    "query": "OkCredit khata app users funding 2024 2025 India small merchants",
+    "retrieved_at": "2026-10-27T06:46:53.174980Z",
+    "snippet": "These numbers indicate that OkCredit is steadily moving toward a more sustainable business model and building confidence among investors and stakeholders. Empowering Small Merchants with Digital Tools OkCredit functions as a digital ledger application that helps small business owners manage credit and payments through their mobile phones.",
+    "title": "OkCredit Slashes FY25 Losses by 34% While Revenue Surges in India&#x27;s ...",
+    "url": "https://bharatfast.com/english/start-up/okcredit-slashes-fy25-losses-by-34-while-revenue-surges-in-indias-merchant-fintech-boom/29600/"
+   },
+   {
+    "query": "OkCredit khata app users funding 2024 2025 India small merchants",
+    "retrieved_at": "2026-10-27T06:46:53.174980Z",
+    "snippet": "We didn&#x27;t. And now, we have a clear path to profitability by May 2025.&quot; The app has fundamentally changed the way India&#x27;s MSMEs operate. With its emphasis on digital transformation, cash flow improvement, and financial inclusion, OkCredit is empowering merchants in ways that were unimaginable a decade ago.",
+    "title": "How 3 IITians Transformed Failure into $1.48 Billion Venture",
+    "url": "https://moneymint.com/okcredit-by-harsh-gaurav-and-aditya/"
+   },
+   {
+    "query": "OkCredit khata app users funding 2024 2025 India small merchants",
+    "retrieved_at": "2026-10-27T06:46:53.174980Z",
+    "snippet": "OKCredit simplifies credit account management for shop owners and their customers. It is a mobile based solution that enables recording of credit/payment transactions digitally all across the country. Gaurav Kumar and Aditya Prasad founded it in April 2017, with its headquarters in Faridabad in India.",
+    "title": "OkCredit - Crunchbase Company Profile &amp; Funding",
+    "url": "https://www.crunchbase.com/organization/okcredit-india"
+   },
+   {
+    "query": "OkCredit khata app users funding 2024 2025 India small merchants",
+    "retrieved_at": "2026-10-27T06:46:53.174980Z",
+    "snippet": "OkCredit is a Bengaluru-based mobile app that lets small and micro merchants digitize their bahi-khata (credit ledger), tracking customer credit/payment transactions, sending automated payment reminders, and collecting UPI payments. Launched by IIT Kanpur alumni Harsh Pokharna, Gaurav Kumar and Aditya Prasad, it went through Y Combinator&#x27;s Summer 2018 batch and raised roughly $84.5M across ...",
+    "title": "OkCredit \u2014 Funding, Investors &amp; Company Profile (2026) - Lapaas Voice",
+    "url": "https://lapaasvoice.com/startup/okcredit/"
+   },
+   {
+    "query": "India B2B SaaS kirana retail tech funding 2024 2025 2026 seed series",
+    "retrieved_at": "2026-10-27T06:47:03.416386Z",
+    "snippet": "A curated list of 15 real, verified B2B SaaS startups in India that raised funding rounds in 2025 and 2026, spanning HR tech, enterprise IT, billing, and cyber resilience, with sourced funding details.",
+    "title": "B2B SaaS Startups Funded in 2025-2026",
+    "url": "https://www.lets-code.co.in/startups-list/b2b-saas-startups-funded-2025-2026/"
+   },
+   {
+    "query": "India B2B SaaS kirana retail tech funding 2024 2025 2026 seed series",
+    "retrieved_at": "2026-10-27T06:47:03.416386Z",
+    "snippet": "Organizations in this hub have their headquarters located in India, Asia; notable events and people located in India are also included. This list of companies in India in the SaaS space with seed funding provides data on their funding history, investment activities, and acquisition trends. Insights about top trending companies, startups, investments and M&A activities, notable investors of ...",
+    "title": "India SaaS Companies with Seed Funding - Crunchbase",
+    "url": "https://www.crunchbase.com/hub/india-saas-companies-seed-funding"
+   },
+   {
+    "query": "India B2B SaaS kirana retail tech funding 2024 2025 2026 seed series",
+    "retrieved_at": "2026-10-27T06:47:03.416386Z",
+    "snippet": "Live tracker of Indian startup funding rounds \u2014 who raised how much, from which investors, and when. Updated continuously by Tech Innovators Intelligence.",
+    "title": "India Startup Funding Tracker - Tech Innovators",
+    "url": "https://www.techinnovators.in/funding-tracker"
+   },
+   {
+    "query": "India B2B SaaS kirana retail tech funding 2024 2025 2026 seed series",
+    "retrieved_at": "2026-10-27T06:47:03.416386Z",
+    "snippet": "A curated list of 30+ active angel investors and seed VCs investing in Tier-2 city startups, SaaS, and D2C brands in India with ticket sizes and how to approach them.",
+    "title": "30+ Active Angel Investors & Seed VCs - Tier-2, SaaS & D2C (2026)",
+    "url": "https://www.ceovine.com/30-angel-investors-seed-vcs-for-tier-2-saas-and-d2c-startups-in-india-2026"
+   },
+   {
+    "query": "India B2B SaaS kirana retail tech funding 2024 2025 2026 seed series",
+    "retrieved_at": "2026-10-27T06:47:03.416386Z",
+    "snippet": "Focused on India, SE Asia and other markets in the Global South. $500K pre-seed round led by Venture Catalysts' angel network. Founded in Jun 2025, Singapore based.",
+    "title": "India VC Funding Tracker for SaaS Startups - foundersday.co",
+    "url": "https://foundersday.co/startupfunding/india-vc-funding-tracker-for-saas-startups"
+   },
+   {
+    "query": "Khatabook revenue users 2024 2025 India merchant app valuation",
+    "retrieved_at": "2026-10-27T06:47:05.357696Z",
+    "snippet": "Khatabook, founded in 2016 by Ravish Naresh, is a Bengaluru-based digital ledger app servicing over 10 million merchants across India. The platform digitizes credit tracking, payments via UPI, and financial analytics, enabling MSMEs to manage receivables and cash flows instantaneously. With features like multi-user access, automated SMS reminders, and real-time reporting, Khatabook simplifies ...",
+    "title": "Khatabook Financials 2025: Revenue, Profit, Valuation, Shareholding ...",
+    "url": "https://www.affluense.ai/company/khatabook-financials-d1947e"
+   },
+   {
+    "query": "Khatabook revenue users 2024 2025 India merchant app valuation",
+    "retrieved_at": "2026-10-27T06:47:05.357696Z",
+    "snippet": "KHATABOOK INFORMATION SERVICES PRIVATE LIMITED generated a revenue of \u20b926.6L for the financial year ending on Mar 31, 2024. The revenue of KHATABOOK INFORMATION SERVICES PRIVATE LIMITED has a compounded annual growth rate (CAGR) of 2153% in the last 1 year.",
+    "title": "KHATABOOK INFORMATION SERVICES PRIVATE LIMITED - 2025 Company ... - Tracxn",
+    "url": "https://tracxn.com/d/legal-entities/india/khatabook-information-services-private-limited/__r_OoEFjnpu3lxeg5S2F_y1s6ccRKdHaXIRHLqGbGj-g"
+   },
+   {
+    "query": "Khatabook revenue users 2024 2025 India merchant app valuation",
+    "retrieved_at": "2026-10-27T06:47:05.357696Z",
+    "snippet": "The current board of directors of KHATABOOK TECHNOLOGIES PRIVATE LIMITED comprises Ravish Naresh and Rishabh Gupta. KHATABOOK TECHNOLOGIES PRIVATE LIMITED generated less than \u20b910 Cr in revenue for the financial year ending on Mar 31, 2025.",
+    "title": "KHATABOOK TECHNOLOGIES PRIVATE LIMITED - Company Profile",
+    "url": "https://tracxn.com/d/legal-entities/india/khatabook-technologies-private-limited/__GuoS9Sh0fb9Tlsggh07hcD3nnITuwJK3eoZuZFKLwOM"
+   },
+   {
+    "query": "Khatabook revenue users 2024 2025 India merchant app valuation",
+    "retrieved_at": "2026-10-27T06:47:05.357696Z",
+    "snippet": "Khatabook Company Profile Khatabook is an application designed to simplify and digitize financial record-keeping, primarily targeting small and medium-sized businesses (SMBs) and merchants, especially in India. The app serves as a digital replacement for traditional paper-based ledgers, commonly referred to as &quot;Khatas&quot; in India.",
+    "title": "Khatabook Valuation, Funding &amp; Shareholders Breakdown - 2024",
+    "url": "https://thebusinessrule.com/khatabook-valuation-funding-shareholders-breakdown/"
+   },
+   {
+    "query": "Khatabook revenue users 2024 2025 India merchant app valuation",
+    "retrieved_at": "2026-10-27T06:47:05.357696Z",
+    "snippet": "Information on valuation, funding, cap tables, investors, and executives for KhataBook. Use the PitchBook Platform to explore the full profile.",
+    "title": "KhataBook 2026 Company Profile: Valuation, Funding &amp; Investors | PitchBook",
+    "url": "https://pitchbook.com/profiles/company/268570-63"
+   },
+   {
+    "query": "India kirana stores total number 12 million 63 million small retail MSME 2024 2025",
+    "retrieved_at": "2026-10-27T06:47:05.534797Z",
+    "snippet": "Kirana stores hurt by quick commerce mostly in metros, forced to transform or exit: Report India has 13 million Kirana stores selling essentials and they are the primary backbone for FMCG ...",
+    "title": "Kirana stores hurt by quick commerce mostly in metros, forced to ...",
+    "url": "https://www.hindustantimes.com/business/kirana-stores-hurt-by-quick-commerce-mostly-in-metros-forced-to-transform-or-exit-report-101728806158338.html"
+   },
+   {
+    "query": "India kirana stores total number 12 million 63 million small retail MSME 2024 2025",
+    "retrieved_at": "2026-10-27T06:47:05.534797Z",
+    "snippet": "India&#x27;s 13 million kirana stores are proving that constraint-born innovation and the digital pull model they built may reshape global retail.",
+    "title": "India&#x27;s digital pull revolution: How kirana stores are reshaping global ...",
+    "url": "https://business.cornell.edu/centers/2026/05/13/indias-digital-pull-revolution/"
+   },
+   {
+    "query": "India kirana stores total number 12 million 63 million small retail MSME 2024 2025",
+    "retrieved_at": "2026-10-27T06:47:05.534797Z",
+    "snippet": "But India&#x27;s 12 million-strong network of kirana stores is known for its resilience. By embracing digital or by relooking at their assortment basket, the mom-and-pop stores are already trying to bounce back.",
+    "title": "Kirana 2.0: Digitising and diversifying - fortuneindia.com",
+    "url": "https://www.fortuneindia.com/macro/kirana-20-local-shops-going-digital-and-refreshing-their-shelves/119100"
+   },
+   {
+    "query": "India kirana stores total number 12 million 63 million small retail MSME 2024 2025",
+    "retrieved_at": "2026-10-27T06:47:05.534797Z",
+    "snippet": "Industry estimates peg the number of kirana stores nationwide at more than 12 million. These stores account for 90 per cent of grocery sales in the country, worth US$600 billion a year, according ...",
+    "title": "Mom-and-pop shops in India struggle amid competition from online ... - CNA",
+    "url": "https://www.channelnewsasia.com/asia/mom-and-pop-kirana-stores-india-competition-online-grocery-retail-chain-3359091"
+   }
+  ]
+ },
+ "input_hash": "30714d7551bb156dc719f54d84724b0aba9d2106ec4adc6bd48678dc38189696"
+}

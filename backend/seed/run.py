@@ -28,6 +28,7 @@ from aura.core import clock, db, migrate
 from aura.core.config import get_settings
 from aura.core.db import read_session, write_tx
 from aura.core.embeddings import DenseEmbedder
+from aura.core.errors import AppError
 from aura.decks.build import build_deck, deck_filename
 from aura.decks.spec import StartupSpec, load_specs
 from aura.evaluation import mca, service
@@ -38,6 +39,7 @@ from aura.ingest.ocr import ocr_service
 from aura.ingest.pipeline import ingest_document
 from aura.ingest.storage import document_dir
 from aura.models import AppState, Chunk, Document, Evaluation, Ranking, Review, Startup, User
+from aura.publishing import publish_startup
 from aura.rag import profiles, projection, store
 
 logger = logging.getLogger("seed")
@@ -223,6 +225,10 @@ async def seed_evaluation(spec: StartupSpec, startup_id: str, *, allow_llm: bool
     research = ResearchProvider("record", CACHE / "research" / f"{spec.slug}.json")
     started = time.monotonic()
     analysis = await run_evaluation(context, research=research, progress=Progress(spec.slug).progress)
+    if not analysis.get("sources"):
+        # Web search was unreachable: a report without market research must not become the demo's cache.
+        logger.warning("%s: no web sources were retrieved; not saving this evaluation (re-run later)", spec.slug)
+        return "no_research"
     analysis["input_hash"] = expected
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps({"input_hash": expected, "analysis": analysis}, indent=1, sort_keys=True))
@@ -236,22 +242,10 @@ async def seed_evaluation(spec: StartupSpec, startup_id: str, *, allow_llm: bool
 # ── publishing, reviews, rankings ───────────────────────────────────────────────────────────────────────
 
 async def publish(startup_id: str) -> bool:
-    with write_tx() as s:
-        startup = s.get(Startup, startup_id)
-        latest = s.scalars(select(Evaluation).where(Evaluation.startup_id == startup_id, Evaluation.status == "complete")
-                           .order_by(Evaluation.version.desc()).limit(1)).first()
-        if latest is None:
-            return False
-        if startup.status != "published":
-            startup.status = "published"
-            startup.published_at = clock.now()
-        for doc in s.scalars(select(Document).where(Document.startup_id == startup_id)):
-            doc.visibility = "published"
-        latest.visibility = "published"
-        startup.latest_evaluation_id = latest.id
-        startup.ai_score_x10 = latest.overall_score_x10
-        startup.recommendation = latest.recommendation
-    await store.set_startup_visibility(startup_id, "dao")
+    try:
+        await publish_startup(startup_id)
+    except AppError:  # no evaluation yet
+        return False
     return True
 
 
@@ -373,7 +367,8 @@ async def main(args: argparse.Namespace) -> int:
                 return spec.slug, "failed"
 
     outcomes = dict(await asyncio.gather(*(evaluate(spec) for spec in specs)))
-    counts = {kind: sum(1 for v in outcomes.values() if v == kind) for kind in ("kept", "cache", "live", "missing", "failed")}
+    counts = {kind: sum(1 for v in outcomes.values() if v == kind)
+              for kind in ("kept", "cache", "live", "missing", "no_research", "failed")}
     print(f"evaluations: {counts}")
     if counts["missing"]:
         print("  without an evaluation (run with --allow-llm): " + ", ".join(k for k, v in outcomes.items() if v == "missing"))
@@ -382,16 +377,16 @@ async def main(args: argparse.Namespace) -> int:
     for spec in specs:
         if await publish(startups[spec.slug]):
             published += 1
-            await profiles.index_startup(startups[spec.slug])
         save_embeddings(spec, startups[spec.slug])
     print(f"published: {published}/{len(specs)}")
 
     reviews = seed_reviews_and_rankings(load_specs(SPECS), users, startups)
     print(f"reviews added: {reviews}")
     save_demo_accounts(load_specs(SPECS))
-    if ingested:
-        await projection.refit()
-        print("embedding map refitted")
+    with read_session() as s:
+        unplaced = s.scalars(select(Chunk.id).where(Chunk.proj_x.is_(None))).all()
+    if unplaced:
+        print(f"embedding map: {await projection.refresh(list(unplaced))} ({len(unplaced)} chunks were not on it)")
     ocr_service.close()
     print(f"done in {time.monotonic() - started:.0f}s")
     from seed.verify import verify

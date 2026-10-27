@@ -64,7 +64,7 @@ def test_run_publish_and_read_by_plan(client):
     with write_tx() as s:
         s.add(Document(startup_id=startup_id, filename="deck.pdf", mime="application/pdf", size_bytes=1,
                        sha256="0" * 64, storage_dir="x", status="ready"))
-    with patch("aura.api.routes.startups.profiles.index_startup", AsyncMock()) as index:
+    with patch("aura.publishing.profiles.index_startup", AsyncMock()) as index:
         published = client.post(f"{base}/publish")
     index.assert_awaited_once_with(startup_id)
     assert published.status_code == 200, published.text

@@ -1,0 +1,544 @@
+{
+ "analysis": {
+  "category_scores": {
+   "business_model": 6.7,
+   "execution_risk": 2.0,
+   "market": 5.0,
+   "moat": 5.0,
+   "product": 6.0,
+   "team": 6.0,
+   "traction": 6.7
+  },
+  "citations": {
+   "c:apdojiq": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.90499,
+     0.50907
+    ],
+    "chunk_id": "69eb212e-22fd-5348-8ff8-78cb0be6e0a7",
+    "document_id": "a40e309b-99eb-4c44-99e0-ab9a6755512c",
+    "page_no": 1,
+    "slide_title": "PortPulse",
+    "type": "deck"
+   },
+   "c:aqn245p": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.90504,
+     0.55436
+    ],
+    "chunk_id": "22c4d078-2b99-5a3e-9bab-4e43e9d59669",
+    "document_id": "a40e309b-99eb-4c44-99e0-ab9a6755512c",
+    "page_no": 3,
+    "slide_title": "Solution",
+    "type": "deck"
+   },
+   "c:btt7sjv": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.92163,
+     0.4682
+    ],
+    "chunk_id": "ae1d4d86-d170-58a1-a36f-75518fb3a15a",
+    "document_id": "a40e309b-99eb-4c44-99e0-ab9a6755512c",
+    "page_no": 10,
+    "slide_title": "Team",
+    "type": "deck"
+   },
+   "c:deh66rf": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.84639,
+     0.57729
+    ],
+    "chunk_id": "376d865a-561b-5f08-aa7d-c0ceb6b81c9c",
+    "document_id": "a40e309b-99eb-4c44-99e0-ab9a6755512c",
+    "page_no": 9,
+    "slide_title": "Go-to-Market & Key Risks",
+    "type": "deck"
+   },
+   "c:f6oetlc": {
+    "bbox": [
+     0.05998,
+     0.0554,
+     0.93474,
+     0.74265
+    ],
+    "chunk_id": "5329e64f-069b-52d1-b165-15ac967f3496",
+    "document_id": "a40e309b-99eb-4c44-99e0-ab9a6755512c",
+    "page_no": 8,
+    "slide_title": "Competitive Landscape",
+    "type": "deck"
+   },
+   "c:f7v6idc": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.85641,
+     0.43886
+    ],
+    "chunk_id": "4504840c-0fe9-5d54-a3da-f54f614789c8",
+    "document_id": "a40e309b-99eb-4c44-99e0-ab9a6755512c",
+    "page_no": 5,
+    "slide_title": "Business Model",
+    "type": "deck"
+   },
+   "c:lub3tmy": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.54909,
+     0.45481
+    ],
+    "chunk_id": "e964a47a-54a7-52a5-ab4f-98f200a9917c",
+    "document_id": "a40e309b-99eb-4c44-99e0-ab9a6755512c",
+    "page_no": 7,
+    "slide_title": "Unit Economics",
+    "type": "deck"
+   },
+   "c:qso7juo": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.918,
+     0.63306
+    ],
+    "chunk_id": "97f64408-bbaa-510c-8ca9-27ceea95dcb1",
+    "document_id": "a40e309b-99eb-4c44-99e0-ab9a6755512c",
+    "page_no": 2,
+    "slide_title": "Problem",
+    "type": "deck"
+   },
+   "c:sxf6puu": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.84007,
+     0.65193
+    ],
+    "chunk_id": "b85bb0a5-6adf-5b36-9c80-dcc7775f66c2",
+    "document_id": "a40e309b-99eb-4c44-99e0-ab9a6755512c",
+    "page_no": 11,
+    "slide_title": "The Ask",
+    "type": "deck"
+   },
+   "c:ybvsoji": {
+    "bbox": [
+     0.05556,
+     0.0554,
+     0.90707,
+     0.82082
+    ],
+    "chunk_id": "230f919a-4751-5b77-a392-d9f9aed399dc",
+    "document_id": "a40e309b-99eb-4c44-99e0-ab9a6755512c",
+    "page_no": 6,
+    "slide_title": "Traction (as of FY2026)",
+    "type": "deck"
+   },
+   "c:zl2r3ng": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.92917,
+     0.42291
+    ],
+    "chunk_id": "7ff22d93-ee29-5830-87c0-4d6014ca1cf0",
+    "document_id": "a40e309b-99eb-4c44-99e0-ab9a6755512c",
+    "page_no": 4,
+    "slide_title": "Market Opportunity (TAM / SAM / SOM)",
+    "type": "deck"
+   },
+   "w:20": {
+    "title": "GoComet - 2026 Company Profile, Team, Funding, Competitors ... - Tracxn",
+    "type": "web",
+    "url": "https://tracxn.com/d/companies/gocomet/__ATPE_qxavGLnxoKpEn0iJTILjYQ-Ftsr1Q2jfRoCFF4"
+   },
+   "w:21": {
+    "title": "GoComet \u2014 Company Profile &amp; Funding (2026) | Indexed.vc",
+    "type": "web",
+    "url": "https://indexed.vc/companies/gocomet"
+   },
+   "w:8": {
+    "title": "PDF The Future of Logistics: Startup landscape in India",
+    "type": "web",
+    "url": "https://eac-consulting.de/wp-content/uploads/2024/05/Messe-Stuttgart_EAC_Report_on_The-Future-of-Logistics_Startup_landscape_in_India.pdf"
+   }
+  },
+  "citations_removed": 3,
+  "compliance_flags": [
+   "COMPANY_STATUS_STRUCK_OFF"
+  ],
+  "data_gaps": [
+   "TAM: no usable source excerpt with value, unit and period.",
+   "SAM: no usable source excerpt with value, unit and period.",
+   "CAGR: no usable source excerpt with value, unit and period.",
+   "SOM: no independent source found; the deck claims 45 INR crore (p.4).",
+   "Market trend unavailable: no sourced annual observations or publisher forecasts. No years were interpolated."
+  ],
+  "evidence_version": 2,
+  "generated_at": "2026-10-26T19:31:30.626903Z",
+  "input_hash": "c106d99f264bb813504cd2dfa92bdbd62a5349a67b23c333710e8578832629fb",
+  "invalid_citations": [
+   "compliance flags",
+   "compliance flags",
+   "compliance flags"
+  ],
+  "market_sizing": {
+   "basis": "Only figures traceable to retrieved search excerpts are plotted as market data.",
+   "cagr_pct": null,
+   "claims": {
+    "som_usd_b": {
+     "check": {
+      "status": "unverified"
+     },
+     "citation": {
+      "bbox": [
+       0.0677,
+       0.0554,
+       0.92917,
+       0.42291
+      ],
+      "chunk_id": "7ff22d93-ee29-5830-87c0-4d6014ca1cf0",
+      "cid": "c:zl2r3ng",
+      "document_id": "a40e309b-99eb-4c44-99e0-ab9a6755512c",
+      "page_no": 4
+     },
+     "currency": "INR",
+     "geography": "India",
+     "kind": "company_forecast",
+     "low_confidence": false,
+     "market": "3-year obtainable share of SAM",
+     "normalised": 0.45,
+     "period": "",
+     "quote": "SOM \u2014 3-year obtainable share of SAM: Rs 45 crore in 2029 (company projection)",
+     "retrieved_at": null,
+     "source_title": "PortPulse_Pitch_Deck.pdf, p.4",
+     "source_url": null,
+     "unit": "INR crore",
+     "value": 45.0,
+     "year": 2029
+    }
+   },
+   "evidence": {},
+   "sam_usd_b": null,
+   "som_usd_b": null,
+   "tam_usd_b": null,
+   "trend": []
+  },
+  "model": "azure/deepSeek-V4-Flash",
+  "overall_score": 5.6,
+  "projected_revenue": [
+   {
+    "citation": {
+     "bbox": [
+      0.05556,
+      0.0554,
+      0.90707,
+      0.82082
+     ],
+     "chunk_id": "230f919a-4751-5b77-a392-d9f9aed399dc",
+     "cid": "c:ybvsoji",
+     "document_id": "a40e309b-99eb-4c44-99e0-ab9a6755512c",
+     "page_no": 6
+    },
+    "geography": "India",
+    "kind": "company_reported",
+    "low_confidence": false,
+    "market": "PortPulse",
+    "metric": "ARR",
+    "period": "",
+    "quote": "ARR: Rs 9.8 crore in FY2026",
+    "retrieved_at": null,
+    "revenue": 98.0,
+    "source_title": "PortPulse_Pitch_Deck.pdf, p.6",
+    "source_url": null,
+    "unit": "INR crore",
+    "value": 9.8,
+    "year": 2026
+   }
+  ],
+  "recommendation_label": "Pass",
+  "report_markdown": "## 1. Executive Summary\n\nPortPulse is a Series A logistics SaaS startup providing a live container-visibility dashboard and API for freight forwarders and customs brokers, covering Indian ports, CFSs and ICDs. It tracks ~38,000 containers/month for 140 paid forwarders, with an ARR of Rs 9.8 crore in FY2026 (42% YoY growth), NRR of 112%, and monthly churn of 1.2% [c:ybvsoji][c:lub3tmy]. The company is raising Rs 30 crore at Rs 150 crore pre-money [c:apdojiq]. **Critical red flag:** The company's CIN U62099MH2020PTC341567 shows MCA status 'STRUCK_OFF', indicating the entity is not in good standing [c:apdojiq]. The raise is structured in tranches tied to milestones, adding execution pressure [c:sxf6puu]. Overall score: 5.6/10, Pass.\n\n## 2. Problem & Solution\n\nFreight forwarders spend 2-3 hours/day per mid-size forwarder chasing container status across multiple shipping-line sites and terminal portals, and demurrage/detention can add Rs 8,000-25,000 to the cost of a delayed import container (company estimates) [c:qso7juo]. Global visibility platforms cover ocean legs but miss Indian CFS and ICD milestones, so delays surface late and costs pile up [c:qso7juo]. PortPulse provides a single dashboard and API that unifies milestones from shipping lines, port terminals, CFSs, ICDs and rail operators, with predicted ETAs, delay reasons, free-time countdowns, and demurrage/detention alerts [c:aqn245p]. Forwarders can also embed branded tracking pages for their own customers [c:aqn245p].\n\n## 3. Market Opportunity\n\nThe company estimates TAM at Rs 2,400 crore (2025) and SAM at Rs 620 crore, but these are company-reported and unverified figures without independent source backing [c:zl2r3ng]. The SOM is projected at Rs 45 crore in 2029 (company projection) [c:zl2r3ng]. The Indian logistics SaaS market is large and growing, with the broader logistics startup sector estimated at USD 10 billion and projected to reach USD 30 billion by 2025 [w:8]. However, the specific segment for Indian-port visibility is not independently validated, and no publisher CAGR or market trend data was sourced for this niche.\n\n## 4. Competitive Landscape\n\nPortPulse competes with global platforms like project44 and FourKites, and Indian players like GoComet [c:f6oetlc]. The company claims three edges: data connections to Indian CFS and ICD operators that global platforms lack, ETA models trained on five years of Indian port dwell-time data, and the ability for forwarders to embed PortPulse tracking pages in their own customer portals [c:f6oetlc]. The deck itself lists as a key risk that 'global visibility platforms could add Indian CFS and ICD coverage' [c:deh66rf], indicating the moat is execution-based and potentially replicable. GoComet, a Series A competitor, has raised $9.51M and operates in supply chain visibility [w:20][w:21].\n\n## 5. Business Model\n\nRevenue is 84% from a per-container tracking fee of Rs 180/container and 16% from a platform subscription of Rs 115,000/year per forwarder [c:f7v6idc]. Gross margin is 74%, CAC is Rs 320,000, CAC payback is 7.4 months, NRR is 112%, and monthly churn is 1.2% [c:lub3tmy]. Unit economics are positive and trending well, but the payback period is slightly above the 6-month threshold for a higher score. The raise is structured in three tranches tied to milestones: 40% at close, 30% at Rs 15 crore ARR (within 365 days), and 30% at air cargo launch with 40 paying forwarders (within 540 days) [c:sxf6puu]. This adds execution pressure and risk.\n\n## 6. Team Assessment\n\nCo-founders have relevant domain experience: CEO Siddharth Menon has 10 years in ocean freight operations at a global freight forwarder; COO Vikram Rathod is a former licensed customs broker at Nhava Sheva; CTO Farah Qureshi is a data-integration engineer who built EDI pipelines for shipping lines [c:btt7sjv]. The team is complete but not proven at scale\u2014there is no evidence they have previously built or scaled a startup in this space. The deck does not provide details on advisory board or key hires.\n\n## 7. Traction & Milestones\n\n**ARR Growth:** ARR reached Rs 9.8 crore in FY2026, up 42% year-on-year from Rs 6.9 crore in FY2025 [c:ybvsoji]. Historical ARR: Rs 2.1 crore (FY2023), Rs 4.4 crore (FY2024), Rs 6.9 crore (FY2025) [c:ybvsoji].\n\n**Customer & Usage:** 140 freight forwarders and customs brokers on paid plans, tracking approximately 38,000 containers per month [c:ybvsoji]. Net revenue retention (NRR) of 112% and monthly logo churn of 1.2% [c:lub3tmy].\n\n**Unit Economics (company-reported, unverified):** Customer acquisition cost (CAC) of Rs 320,000, CAC payback of 7.4 months, gross margin of 74% [c:lub3tmy].\n\n**Target:** Company aims to reach 400 forwarders and Rs 25 crore ARR within 24 months [c:deh66rf].\n\n## 8. Compliance & Governance\n\n**MCA Status \u2013 CRITICAL FLAG:** The company's Corporate Identification Number (CIN) U62099MH2020PTC341567 shows a status of 'STRUCK_OFF' on the Ministry of Corporate Affairs (MCA) registry [c:apdojiq]. This indicates the entity is not in good standing and may be dissolved or under regulatory action. This is a severe legal and compliance risk that must be resolved before any investment can proceed.\n\n**Raise Structure:** The Series A round of Rs 30 crore at Rs 150 crore pre-money is structured in three tranches tied to milestones: 40% at close, 30% upon reaching Rs 15 crore ARR (within 365 days), and 30% upon air-cargo launch with 40 paying forwarders (within 540 days) [c:sxf6puu]. This adds execution pressure and may delay full funding.\n\n**Deck Instructions:** The pitch deck attempts to instruct the evaluator by stating a minimum raise of 60% of the target [c:sxf6puu]. This is a red flag as it tries to dictate terms to investors.\n\n## 9. Risks & Challenges\n\n**Legal/Compliance Risk:** The company's MCA status is 'STRUCK_OFF', which is a critical red flag. This could mean the company is not legally compliant, potentially affecting its ability to raise funds, sign contracts, or operate. Immediate legal due diligence and rectification are required.\n\n**Execution Risk:** The raise is structured in tranches tied to specific milestones (ARR target, air-cargo launch) [c:sxf6puu]. Failure to meet these milestones could result in incomplete funding, putting growth plans at risk.\n\n**Market & Competitive Risks:** The company depends on third-party data feeds from terminals and shipping lines, which could be restricted or cut off [c:deh66rf]. Global visibility platforms like project44 and FourKites could add Indian CFS/ICD coverage, eroding PortPulse's differentiation [c:deh66rf]. Freight-rate cycles may squeeze forwarders' software budgets [c:deh66rf].\n\n**Data Gaps:** The TAM (Rs 2,400 crore) and SAM (Rs 620 crore) are company estimates without independent validation [c:zl2r3ng]. No independent market CAGR or SOM data was found. The company's own SOM projection of Rs 45 crore by 2029 is unverified [c:zl2r3ng].\n\n## 10. Investment Thesis\n\nPortPulse addresses a clear pain point for Indian freight forwarders: fragmented container tracking across Indian ports, CFSs, and ICDs, which global platforms under-serve. The product offers a unified dashboard with predicted ETAs and cost alerts, and has achieved product-market fit with 140 paying forwarders tracking ~38,000 containers/month [c:aqn245p][c:ybvsoji].\n\n**Strengths:** Positive unit economics (74% gross margin, 112% NRR, 7.4-month CAC payback) and 42% YoY ARR growth to Rs 9.8 crore [c:lub3tmy][c:ybvsoji]. The team has relevant domain expertise in ocean freight, customs brokerage, and data integration [c:btt7sjv]. The company's data connections to Indian CFS/ICD operators and five years of dwell-time data provide a temporary moat [c:f6oetlc].\n\n**Weaknesses:** The critical compliance issue (MCA status 'STRUCK_OFF') overshadows the thesis. Revenue is still small for Series A, and growth (42% YoY) is solid but not exceptional. The market size estimates are unverified, and competitive threats from global platforms are real [c:deh66rf].\n\n**Opportunity:** The Indian logistics SaaS market is large and growing [w:8], and PortPulse is well-positioned to capture a niche in Indian-port visibility. If the compliance issue is resolved, the company could scale to Rs 25 crore ARR within 24 months as targeted [c:deh66rf].\n\n## 11. Recommendation\n\n**Overall Score: 5.6/10 \u2013 Pass (Conditional)**\n\n**Rationale:** The product has clear differentiation and solid unit economics, but the investment thesis is severely undermined by the company's MCA status being 'STRUCK_OFF'. This is a non-negotiable compliance risk that must be resolved before any funds are deployed. The tranche-based raise structure adds execution risk. If the legal issue is rectified, the company's traction (42% YoY growth, 112% NRR) and experienced team make it a viable investment in the Indian logistics SaaS space. However, the current risk profile is too high for an unconditional pass.\n\n**Conditions for Investment:**\n1. Immediate resolution of the MCA 'STRUCK_OFF' status and proof of good standing.\n2. Independent legal audit confirming no other compliance issues.\n3. Achievement of the first milestone (Rs 15 crore ARR) before releasing subsequent tranches.\n4. Validation of TAM/SAM figures by an independent source.",
+  "revenue_currency": "INR",
+  "revenue_metric": "ARR",
+  "rewrites": 2,
+  "rubric_version": "r1",
+  "score_rationales": {
+   "business_model": "Pricing is clear (per-container fee + subscription), gross margin 74%, CAC payback 7.4 months, NRR 112% [c:f7v6idc][c:lub3tmy]. Unit economics are positive and trending well but payback is slightly above the 6-month threshold for a higher score.",
+   "execution_risk": "CRITICAL RED FLAG: The company's CIN U62099MH2020PTC341567 shows MCA status 'STRUCK_OFF', indicating the entity is not in good standing. This is a severe legal/compliance risk. Additionally, the raise is structured in tranches tied to milestones, adding execution pressure. [c:apdojiq]",
+   "market": "The company sizes TAM at Rs 2,400 crore and SAM at Rs 620 crore, but these are company estimates without independent source backing [c:zl2r3ng]. The Indian logistics SaaS market is large and growing [w:8], but the specific segment for Indian-port visibility is not independently validated.",
+   "moat": "The company claims data connections to Indian CFS/ICD operators and ETA models trained on five years of Indian port data [c:f6oetlc]. These are execution advantages that create some switching costs, but global platforms could replicate them, and the company itself lists this as a risk [c:deh66rf].",
+   "product": "The product is a live container-visibility dashboard and API with predicted ETAs and cost alerts, used by 140 paying forwarders tracking ~38,000 containers/month [c:aqn245p][c:ybvsoji]. It has clear differentiation in Indian CFS/ICD coverage, but no evidence of category-defining outcomes or deep retention metrics beyond NRR [c:lub3tmy].",
+   "team": "Co-founders have relevant domain experience: CEO in ocean freight operations, COO as a customs broker, CTO in data integration [c:btt7sjv]. However, there is no evidence they have previously built or scaled a startup in this space, and the team is complete but not proven at scale.",
+   "traction": "ARR of Rs 9.8 crore in FY2026, 42% YoY growth, 140 paid forwarders, 38,000 containers/month tracked, NRR 112%, monthly churn 1.2% [c:ybvsoji][c:lub3tmy]. Growth is solid but not exceptional (42% < 2x/year), and revenue is still relatively small for Series A."
+  },
+  "score_spread": {
+   "business_model": 1.0,
+   "execution_risk": 2.0,
+   "market": 0.0,
+   "moat": 1.0,
+   "product": 0.0,
+   "team": 0.0,
+   "traction": 1.0
+  },
+  "sections": {
+   "business_model": "Revenue is 84% from a per-container tracking fee of Rs 180/container and 16% from a platform subscription of Rs 115,000/year per forwarder [c:f7v6idc]. Gross margin is 74%, CAC is Rs 320,000, CAC payback is 7.4 months, NRR is 112%, and monthly churn is 1.2% [c:lub3tmy]. Unit economics are positive and trending well, but the payback period is slightly above the 6-month threshold for a higher score. The raise is structured in three tranches tied to milestones: 40% at close, 30% at Rs 15 crore ARR (within 365 days), and 30% at air cargo launch with 40 paying forwarders (within 540 days) [c:sxf6puu]. This adds execution pressure and risk.",
+   "competitive_landscape": "PortPulse competes with global platforms like project44 and FourKites, and Indian players like GoComet [c:f6oetlc]. The company claims three edges: data connections to Indian CFS and ICD operators that global platforms lack, ETA models trained on five years of Indian port dwell-time data, and the ability for forwarders to embed PortPulse tracking pages in their own customer portals [c:f6oetlc]. The deck itself lists as a key risk that 'global visibility platforms could add Indian CFS and ICD coverage' [c:deh66rf], indicating the moat is execution-based and potentially replicable. GoComet, a Series A competitor, has raised $9.51M and operates in supply chain visibility [w:20][w:21].",
+   "compliance_governance": "**MCA Status \u2013 CRITICAL FLAG:** The company's Corporate Identification Number (CIN) U62099MH2020PTC341567 shows a status of 'STRUCK_OFF' on the Ministry of Corporate Affairs (MCA) registry [c:apdojiq]. This indicates the entity is not in good standing and may be dissolved or under regulatory action. This is a severe legal and compliance risk that must be resolved before any investment can proceed.\n\n**Raise Structure:** The Series A round of Rs 30 crore at Rs 150 crore pre-money is structured in three tranches tied to milestones: 40% at close, 30% upon reaching Rs 15 crore ARR (within 365 days), and 30% upon air-cargo launch with 40 paying forwarders (within 540 days) [c:sxf6puu]. This adds execution pressure and may delay full funding.\n\n**Deck Instructions:** The pitch deck attempts to instruct the evaluator by stating a minimum raise of 60% of the target [c:sxf6puu]. This is a red flag as it tries to dictate terms to investors.",
+   "executive_summary": "PortPulse is a Series A logistics SaaS startup providing a live container-visibility dashboard and API for freight forwarders and customs brokers, covering Indian ports, CFSs and ICDs. It tracks ~38,000 containers/month for 140 paid forwarders, with an ARR of Rs 9.8 crore in FY2026 (42% YoY growth), NRR of 112%, and monthly churn of 1.2% [c:ybvsoji][c:lub3tmy]. The company is raising Rs 30 crore at Rs 150 crore pre-money [c:apdojiq]. **Critical red flag:** The company's CIN U62099MH2020PTC341567 shows MCA status 'STRUCK_OFF', indicating the entity is not in good standing [c:apdojiq]. The raise is structured in tranches tied to milestones, adding execution pressure [c:sxf6puu]. Overall score: 5.6/10, Pass.",
+   "investment_thesis": "PortPulse addresses a clear pain point for Indian freight forwarders: fragmented container tracking across Indian ports, CFSs, and ICDs, which global platforms under-serve. The product offers a unified dashboard with predicted ETAs and cost alerts, and has achieved product-market fit with 140 paying forwarders tracking ~38,000 containers/month [c:aqn245p][c:ybvsoji].\n\n**Strengths:** Positive unit economics (74% gross margin, 112% NRR, 7.4-month CAC payback) and 42% YoY ARR growth to Rs 9.8 crore [c:lub3tmy][c:ybvsoji]. The team has relevant domain expertise in ocean freight, customs brokerage, and data integration [c:btt7sjv]. The company's data connections to Indian CFS/ICD operators and five years of dwell-time data provide a temporary moat [c:f6oetlc].\n\n**Weaknesses:** The critical compliance issue (MCA status 'STRUCK_OFF') overshadows the thesis. Revenue is still small for Series A, and growth (42% YoY) is solid but not exceptional. The market size estimates are unverified, and competitive threats from global platforms are real [c:deh66rf].\n\n**Opportunity:** The Indian logistics SaaS market is large and growing [w:8], and PortPulse is well-positioned to capture a niche in Indian-port visibility. If the compliance issue is resolved, the company could scale to Rs 25 crore ARR within 24 months as targeted [c:deh66rf].",
+   "market_opportunity": "The company estimates TAM at Rs 2,400 crore (2025) and SAM at Rs 620 crore, but these are company-reported and unverified figures without independent source backing [c:zl2r3ng]. The SOM is projected at Rs 45 crore in 2029 (company projection) [c:zl2r3ng]. The Indian logistics SaaS market is large and growing, with the broader logistics startup sector estimated at USD 10 billion and projected to reach USD 30 billion by 2025 [w:8]. However, the specific segment for Indian-port visibility is not independently validated, and no publisher CAGR or market trend data was sourced for this niche.",
+   "problem_solution": "Freight forwarders spend 2-3 hours/day per mid-size forwarder chasing container status across multiple shipping-line sites and terminal portals, and demurrage/detention can add Rs 8,000-25,000 to the cost of a delayed import container (company estimates) [c:qso7juo]. Global visibility platforms cover ocean legs but miss Indian CFS and ICD milestones, so delays surface late and costs pile up [c:qso7juo]. PortPulse provides a single dashboard and API that unifies milestones from shipping lines, port terminals, CFSs, ICDs and rail operators, with predicted ETAs, delay reasons, free-time countdowns, and demurrage/detention alerts [c:aqn245p]. Forwarders can also embed branded tracking pages for their own customers [c:aqn245p].",
+   "recommendation": "**Overall Score: 5.6/10 \u2013 Pass (Conditional)**\n\n**Rationale:** The product has clear differentiation and solid unit economics, but the investment thesis is severely undermined by the company's MCA status being 'STRUCK_OFF'. This is a non-negotiable compliance risk that must be resolved before any funds are deployed. The tranche-based raise structure adds execution risk. If the legal issue is rectified, the company's traction (42% YoY growth, 112% NRR) and experienced team make it a viable investment in the Indian logistics SaaS space. However, the current risk profile is too high for an unconditional pass.\n\n**Conditions for Investment:**\n1. Immediate resolution of the MCA 'STRUCK_OFF' status and proof of good standing.\n2. Independent legal audit confirming no other compliance issues.\n3. Achievement of the first milestone (Rs 15 crore ARR) before releasing subsequent tranches.\n4. Validation of TAM/SAM figures by an independent source.",
+   "risks_challenges": "**Legal/Compliance Risk:** The company's MCA status is 'STRUCK_OFF', which is a critical red flag. This could mean the company is not legally compliant, potentially affecting its ability to raise funds, sign contracts, or operate. Immediate legal due diligence and rectification are required.\n\n**Execution Risk:** The raise is structured in tranches tied to specific milestones (ARR target, air-cargo launch) [c:sxf6puu]. Failure to meet these milestones could result in incomplete funding, putting growth plans at risk.\n\n**Market & Competitive Risks:** The company depends on third-party data feeds from terminals and shipping lines, which could be restricted or cut off [c:deh66rf]. Global visibility platforms like project44 and FourKites could add Indian CFS/ICD coverage, eroding PortPulse's differentiation [c:deh66rf]. Freight-rate cycles may squeeze forwarders' software budgets [c:deh66rf].\n\n**Data Gaps:** The TAM (Rs 2,400 crore) and SAM (Rs 620 crore) are company estimates without independent validation [c:zl2r3ng]. No independent market CAGR or SOM data was found. The company's own SOM projection of Rs 45 crore by 2029 is unverified [c:zl2r3ng].",
+   "team_assessment": "Co-founders have relevant domain experience: CEO Siddharth Menon has 10 years in ocean freight operations at a global freight forwarder; COO Vikram Rathod is a former licensed customs broker at Nhava Sheva; CTO Farah Qureshi is a data-integration engineer who built EDI pipelines for shipping lines [c:btt7sjv]. The team is complete but not proven at scale\u2014there is no evidence they have previously built or scaled a startup in this space. The deck does not provide details on advisory board or key hires.",
+   "traction_milestones": "**ARR Growth:** ARR reached Rs 9.8 crore in FY2026, up 42% year-on-year from Rs 6.9 crore in FY2025 [c:ybvsoji]. Historical ARR: Rs 2.1 crore (FY2023), Rs 4.4 crore (FY2024), Rs 6.9 crore (FY2025) [c:ybvsoji].\n\n**Customer & Usage:** 140 freight forwarders and customs brokers on paid plans, tracking approximately 38,000 containers per month [c:ybvsoji]. Net revenue retention (NRR) of 112% and monthly logo churn of 1.2% [c:lub3tmy].\n\n**Unit Economics (company-reported, unverified):** Customer acquisition cost (CAC) of Rs 320,000, CAC payback of 7.4 months, gross margin of 74% [c:lub3tmy].\n\n**Target:** Company aims to reach 400 forwarders and Rs 25 crore ARR within 24 months [c:deh66rf]."
+  },
+  "sources": [
+   {
+    "query": "PortPulse competitors India container tracking freight forwarder visibility project44 FourKites GoComet",
+    "retrieved_at": "2026-10-26T19:30:44.384598Z",
+    "snippet": "TL;DR \u2014 The Short Version \u2022 Container tracking in 2026 is no longer about \"can you find my box.\" Every serious platform pulls AIS, terminal, and carrier data \u2014 the differentiation is what they do with it. \u2022 We compared 8 platforms across event coverage, ETA accuracy, integration depth, and price-to-value: SeaVantage, project44, FourKites, Terminal49, Vizion, GoComet, Portcast, and ...",
+    "title": "Best Container Tracking Software in 2026: 8 Platforms Compared",
+    "url": "https://www.seavantage.com/blog/best-container-tracking-software-in-2026-8-platforms-compared"
+   },
+   {
+    "query": "PortPulse competitors India container tracking freight forwarder visibility project44 FourKites GoComet",
+    "retrieved_at": "2026-10-26T19:30:44.384598Z",
+    "snippet": "Home / Reviews / Transportation Logistics / Top 10 Best Container Tracking System Software of 2026 Worldmetrics SOFTWARE ADVICE Transportation Logistics Commissioned Research Funding details Top 10 Best Container Tracking System Software of 2026 Ranked roundup of container tracking system software for logistics teams. Reviews features, visibility, and coverage for FourKites, Project44, Flexport.",
+    "title": "Best Container Tracking System Software (2026)",
+    "url": "https://worldmetrics.org/best/container-tracking-system-software/"
+   },
+   {
+    "query": "PortPulse competitors India container tracking freight forwarder visibility project44 FourKites GoComet",
+    "retrieved_at": "2026-10-26T19:30:44.384598Z",
+    "snippet": "A balanced comparison of the best container tracking software in 2026 \u2014 including Terminal49, project44, FourKites, Shippeo, ShipsGo, and Vizion API.",
+    "title": "Best Container Tracking Software in 2026: An\u2026 | Terminal49",
+    "url": "https://terminal49.com/blog/best-container-tracking-software-in-2026-an-honest-comparison"
+   },
+   {
+    "query": "PortPulse competitors India container tracking freight forwarder visibility project44 FourKites GoComet",
+    "retrieved_at": "2026-10-26T19:30:44.384598Z",
+    "snippet": "Considering alternatives to FourKites? See what real-time transportation visibility platforms FourKites users also considered in their purchasing decision. When evaluating different solutions, potential buyers compare Check out real reviews verified by Gartner to see how FourKites compares to its competitors and find the best software or service for your organization.",
+    "title": "Top FourKites Alternatives & Competitors 2026 - Gartner",
+    "url": "https://www.gartner.com/reviews/product/fourkites-1891692705/alternatives"
+   },
+   {
+    "query": "PortPulse competitors India container tracking freight forwarder visibility project44 FourKites GoComet",
+    "retrieved_at": "2026-10-26T19:30:44.384598Z",
+    "snippet": "The definitive guide to freight tracking software for Indian enterprises in 2026 \u2014 comparing FourKites, Project44, Intugine, Pando, Shippeo, and FarEye on India coverage, tracking methods, and enterprise fit.",
+    "title": "Best Freight Tracking Software India 2026: Enterprise Buyer's Guide",
+    "url": "https://library.intugine.com/best-freight-tracking-software-india-2026"
+   },
+   {
+    "query": "India container tracking logistics visibility software market size 2024 2025 2026 CAGR forecast",
+    "retrieved_at": "2026-10-26T19:30:45.533320Z",
+    "snippet": "AI-driven tracking, API integrations and IoT visibility reduce delays and costs, optimize routes, improve delivery accuracy and strengthen customer experience.Dublin, Oct. (GLOBE NEWSWIRE) -- ...",
+    "title": "Shipment Tracking Platform Market Size, Share, Growth Trends, Competitive Landscape, and Forecast, 2026 to 2034 | AI, IoT, and E-Commerce Drive 8.3% CAGR and Real-Time Visibility",
+    "url": "https://finance.yahoo.com/technology/articles/shipment-tracking-platform-market-size-134000742.html"
+   },
+   {
+    "query": "India logistics SaaS supply chain visibility startup funding 2024 2025 2026 investment trends",
+    "retrieved_at": "2026-10-26T19:30:45.938532Z",
+    "snippet": "Access the full list of 1,290 Logistics SaaS startups in India. Discover emerging companies, funding activity, key investors and M&amp;A trends.",
+    "title": "List of 1,290 Logistics SaaS Startups in India &amp; Market Trends ... - Tracxn",
+    "url": "https://tracxn.com/d/explore/logistics-saas-startups-in-india/__oLt7JMjol5k_JLhaybKEhf7_toLJ90tvjfw39adF5CI"
+   },
+   {
+    "query": "India logistics SaaS supply chain visibility startup funding 2024 2025 2026 investment trends",
+    "retrieved_at": "2026-10-26T19:30:45.938532Z",
+    "snippet": "In today&#x27;s dynamic landscape, startups are pivotal in driving innovation and shaping the future of logistics. India&#x27;s logistics industry, valued at over USD 200 billion, is experiencing rapid growth, fuelled by the e-commerce boom and demand for efficient supply chains. The startup sector, estimated at USD 10 billion, is projected to reach USD 30 billion by 2025. With over 1,500 logistics ...",
+    "title": "PDF The Future of Logistics: Startup landscape in India",
+    "url": "https://eac-consulting.de/wp-content/uploads/2024/05/Messe-Stuttgart_EAC_Report_on_The-Future-of-Logistics_Startup_landscape_in_India.pdf"
+   },
+   {
+    "query": "India logistics SaaS supply chain visibility startup funding 2024 2025 2026 investment trends",
+    "retrieved_at": "2026-10-26T19:30:45.938532Z",
+    "snippet": "A wave of fresh capital is flowing into India&#x27;s logistics tech sector in April 2026, from middle-mile trucking platforms to AI-led supply chain orchestration. We map the deals, the leaders, and what investors are betting on next.",
+    "title": "India&#x27;s Logistics Tech Sector Heats Up: Funding Trends and Top Startups ...",
+    "url": "https://startupory.com/article/india-logistics-tech-funding-trends-april-2026"
+   },
+   {
+    "query": "India logistics SaaS supply chain visibility startup funding 2024 2025 2026 investment trends",
+    "retrieved_at": "2026-10-26T19:30:45.938532Z",
+    "snippet": "India&#x27;s logistics startups in 2026: funded leaders, segment map, IPO pipeline and capital flows across Delhivery, Shiprocket, Porter, Shadowfax, Locus.",
+    "title": "India&#x27;s Logistics Startup Ecosystem: A Sourced Map",
+    "url": "https://www.courierbook.in/blog/logistics-startup-ecosystem-india/"
+   },
+   {
+    "query": "India logistics SaaS supply chain visibility startup funding 2024 2025 2026 investment trends",
+    "retrieved_at": "2026-10-26T19:30:45.938532Z",
+    "snippet": "Comprehensive guide to Logistics startups in India - top companies, funding landscape, key investors, incubators, events, mentors, and growth opportunities in logistics startups sector.",
+    "title": "Logistics Startups in India 2026 - Ecosystem, Funding &amp; Opportunities ...",
+    "url": "https://www.startupsindia.in/ecosystem/logistics"
+   },
+   {
+    "query": "India port container tracking regulation CFS ICD data sharing policy 2024 2025",
+    "retrieved_at": "2026-10-26T19:30:45.996636Z",
+    "snippet": "Ministry of Ports, Shipping and Waterways has been entrusted with the responsibility to formulate policies and programs on these subjects and their implementation. A comprehensive policy package is necessary to address the diverse issues facing the Maritime transport sector.",
+    "title": "Homepage | Ministry of Ports, Shipping and Waterways",
+    "url": "https://shipmin.gov.in/"
+   },
+   {
+    "query": "India port container tracking regulation CFS ICD data sharing policy 2024 2025",
+    "retrieved_at": "2026-10-26T19:30:45.996636Z",
+    "snippet": "NICDC Logistics Data Services (NLDS) is a joint venture between Government of India represented by National Industrial Corridor Development and Implementation Trust (NICDIT) and Japanese IT major NEC Corporation, with 50:50 equity participation.\nThe objective is to provide the Export Import Container visibility service across the PAN India along with comparative performance metrics for all Logistics Container Operators to enable the users in taking informed decisions.",
+    "title": "NICDC Logistics Data Services (NLDS)",
+    "url": "https://nldsl.in/"
+   },
+   {
+    "query": "India port container tracking regulation CFS ICD data sharing policy 2024 2025",
+    "retrieved_at": "2026-10-26T19:30:45.996636Z",
+    "snippet": "Learn how container tracking in India works for importers. 2025 guide on ICD networks, port-to-door visibility, and AI-driven logistics.",
+    "title": "Container Tracking India Import (2025 Guide) - cogoport.com",
+    "url": "https://www.cogoport.com/en-IN/blogs/container-tracking-india-import-v20251003"
+   },
+   {
+    "query": "India port container tracking regulation CFS ICD data sharing policy 2024 2025",
+    "retrieved_at": "2026-10-26T19:30:45.996636Z",
+    "snippet": "Established in September 1949, the Directorate General of Maritime Administration is the apex maritime authority of the Government of India, functioning as an attached office of the Ministry of Ports, Shipping and Waterways. As India transitions towards a modern and facilitative maritime governance framework under the Merchant Shipping Act, 2025, the Directorate is evolving into the ...",
+    "title": "Directorate General of Shipping - Government of India",
+    "url": "https://dgma.gov.in/"
+   },
+   {
+    "query": "India port container tracking regulation CFS ICD data sharing policy 2024 2025",
+    "retrieved_at": "2026-10-26T19:30:45.996636Z",
+    "snippet": "2. Statutory provisions for levy of Customs duty: 2.1 Entry No. 83 of List 1 to Schedule VII of the Constitution empowers the Union Government to legislate and collect duties on imports and exports. Accordingly, the Customs Act, 1962, effective from 01.02.1963 provides vide its Section 12 for the levy of duties on goods imported into or exported from India. The items and the rates of duties ...",
+    "title": "PDF Customs Manual, 2025",
+    "url": "https://mumbaicustomszone3.gov.in/images/pdf/Customs-Manual-2025.pdf"
+   },
+   {
+    "query": "India freight forwarder container tracking software market size 2025 2026 rupees crore TAM SAM",
+    "retrieved_at": "2026-10-26T19:30:54.027430Z",
+    "snippet": "U.S. importers sourcing from India are heading into the fourth quarter with scarce vessel space on India-North America services, as strong Indian export growth collides with changes to carrier ...",
+    "title": "India-to-US Shippers Scramble for Space Amid Container Capacity Crunch",
+    "url": "https://finance.yahoo.com/markets/commodities/articles/india-us-shippers-scramble-space-174705735.html"
+   },
+   {
+    "query": "GoComet India logistics SaaS revenue funding valuation 2025 2026",
+    "retrieved_at": "2026-10-26T19:30:54.396684Z",
+    "snippet": "Revenue, valuation, and funding figures for GoComet are estimates based on publicly available information, industry analysis, regulatory filings, company-provided profile updates, and proprietary data aggregation methods.",
+    "title": "GoComet - Industry Ranking &amp; Company Valuation - 2026",
+    "url": "https://compworth.com/company/gocomet"
+   },
+   {
+    "query": "GoComet India logistics SaaS revenue funding valuation 2025 2026",
+    "retrieved_at": "2026-10-26T19:30:54.396684Z",
+    "snippet": "Information on valuation, funding, cap tables, investors, and executives for GoComet. Use the PitchBook Platform to explore the full profile.",
+    "title": "GoComet 2026 Company Profile: Valuation, Funding &amp; Investors | PitchBook",
+    "url": "https://pitchbook.com/profiles/company/168899-59"
+   },
+   {
+    "query": "GoComet India logistics SaaS revenue funding valuation 2025 2026",
+    "retrieved_at": "2026-10-26T19:30:54.396684Z",
+    "snippet": "GoComet is a series A company based in Singapore (Singapore), founded in 2016 by Ayush Lodhi, Mehul Katiyar, Gautam Prem Jain and Chitransh Sahai. It operates as a Provider of software for managing international trade and logistics workflows. GoComet has raised $9.51M in funding from investors like Leo Capital, Atlas Ventures and Rider Global. The company has 300 active competitors, including ...",
+    "title": "GoComet - 2026 Company Profile, Team, Funding, Competitors ... - Tracxn",
+    "url": "https://tracxn.com/d/companies/gocomet/__ATPE_qxavGLnxoKpEn0iJTILjYQ-Ftsr1Q2jfRoCFF4"
+   },
+   {
+    "query": "GoComet India logistics SaaS revenue funding valuation 2025 2026",
+    "retrieved_at": "2026-10-26T19:30:54.396684Z",
+    "snippet": "GoComet is an AI-native transportation management and freight intelligence platform founded in 2016 and headquartered in New Delhi, India. The company provides enterprise SaaS solutions that automate end-to-end international freight procurement, real-time shipment tracking, and supply chain visibility for manufacturers and exporters across 35 ...",
+    "title": "GoComet \u2014 Company Profile &amp; Funding (2026) | Indexed.vc",
+    "url": "https://indexed.vc/companies/gocomet"
+   },
+   {
+    "query": "GoComet India logistics SaaS revenue funding valuation 2025 2026",
+    "retrieved_at": "2026-10-26T19:30:54.396684Z",
+    "snippet": "GoComet - About the company GoComet is a funded company based in Mumbai (India), founded in 2017 by Gautam Prem Jain and Mehul Katiyar. It operates as a Developer of a platform for supply chain visibility and automation. The company has 135 active competitors, including 31 funded and 23 that have exited. Its top competitor s include companies like FourKites, Project44 and ORBCOMM.",
+    "title": "GoComet - 2026 Company Profile, Team, Funding &amp; Competitors - Tracxn",
+    "url": "https://tracxn.com/d/companies/gocomet/__Rp0TUjBZX8W0LEY_nPF5SqLskJHXhrIz9n3UEe3pnw4"
+   },
+   {
+    "query": "India container freight station CFS ICD digitalization data sharing platform market",
+    "retrieved_at": "2026-10-26T19:30:54.582086Z",
+    "snippet": "Chennai Port debuts Port Setu to digitally track export containers, enabling faster, transparent movement from CFS to port and phase II digital gate processes.",
+    "title": "&#x27;Port Setu&#x27; launched to digitise tracking of export container movement",
+    "url": "https://www.thehindu.com/news/cities/chennai/port-setu-launched-to-digitise-tracking-of-export-container-movement/article71537364.ece"
+   },
+   {
+    "query": "India container freight station CFS ICD digitalization data sharing platform market",
+    "retrieved_at": "2026-10-26T19:30:54.582086Z",
+    "snippet": "Logistics Data Bank (LDB) iner numbers. This system tracks containers between ports and their hinterlands, including Inland Container Depots (ICDs), Container Freight Stations (CFSs), port-associated parking plazas, toll plazas, railway stations, industrial corridors, SEZs, and empty yards, etc. during EXIM /dome",
+    "title": "PDF 09th Annual Report - nldsl.in",
+    "url": "https://nldsl.in/pdf/annual-report-2023-24.pdf"
+   },
+   {
+    "query": "India container freight station CFS ICD digitalization data sharing platform market",
+    "retrieved_at": "2026-10-26T19:30:54.582086Z",
+    "snippet": "Container Freight Station: DPR Summary &lt;p&gt;The Container Freight Station (CFS) sector in India represents a pivotal link in the nation&#x27;s export-import logistics chain, bridging seaports and inland destinations through consolidation, deconsolidation, and customs clearance of containerized cargo.",
+    "title": "Container Freight Station Project Report | KAMRIT",
+    "url": "https://www.kamrit.com/business-plans/container-freight-station-plan"
+   },
+   {
+    "query": "India container freight station CFS ICD digitalization data sharing platform market",
+    "retrieved_at": "2026-10-26T19:30:54.582086Z",
+    "snippet": "The rising demand of cloud management tools and cloud-based solutions due to its cost-saving benefits for stakeholders in the maritime supply space, therefore triggering the digital transformation of maritime freight market growth in the near future. India Digital Transformation of Maritime Freight Market, Recent Development:",
+    "title": "India Digital Transformation of Maritime Freight Market",
+    "url": "https://www.maximizemarketresearch.com/market-report/india-digital-transformation-of-maritime-freight-market/40679/"
+   },
+   {
+    "query": "Kale Logistics Solutions India container tracking CFS ICD revenue funding",
+    "retrieved_at": "2026-10-26T19:31:02.264299Z",
+    "snippet": "Kale Logistics Solutions, an Indian startup offering a vertical SaaS platform to assist logistics needs, has raised $30 million in a fresh funding round, as the 14-year-old startup eyes expansion in ...",
+    "title": "India's Kale Logistics raises $30M in global expansion push",
+    "url": "https://finance.yahoo.com/news/indias-kale-logistics-raises-30m-153814051.html"
+   },
+   {
+    "query": "Kale Logistics Solutions India container tracking CFS ICD revenue funding",
+    "retrieved_at": "2026-10-26T19:31:02.264299Z",
+    "snippet": "Kale Logistics Solutions, an Indian startup offering a vertical SaaS platform to assist logistics needs, has raised $30 million in a fresh funding round, as the 14-year-old startup eyes expansion in ...",
+    "title": "India\u2019s Kale Logistics raises $30M in global expansion push",
+    "url": "https://techcrunch.com/2023/09/11/kale-logistics-solutions-funding/"
+   },
+   {
+    "query": "India container port throughput TEU 2024 2025 volume freight forwarders market size",
+    "retrieved_at": "2026-10-26T19:31:02.484177Z",
+    "snippet": "U.S. importers sourcing from India are heading into the fourth quarter with scarce vessel space on India-North America services, as strong Indian export growth collides with changes to carrier ...",
+    "title": "India-to-US Shippers Scramble for Space Amid Container Capacity Crunch",
+    "url": "https://wwd.com/sourcing-journal/logistics/india-us-vessel-space-container-shipping-msc-one-maersk-freight-rates-1239305261/"
+   },
+   {
+    "query": "Portcast Singapore India container tracking visibility startup funding 2025 2026",
+    "retrieved_at": "2026-10-26T19:31:03.278081Z",
+    "snippet": "Portcast is a series A company based in Singapore (Singapore), founded in 2017 by Nidhi Gupta. It operates as a Provider of real-time and predictive data for transportation visibility solutions. Portcast has raised $9.7M in funding from Newtownpartners and SIG Venture Capital. The company has 360 active competitors, including 30 funded and 39 that have exited. Its top competitor s include ...",
+    "title": "Portcast - 2026 Company Profile, Team, Funding, Competitors ... - Tracxn",
+    "url": "https://tracxn.com/d/companies/portcast/__M9rL2rMyU10nOUC93Ziy-Ut3o2-AhkrLidqedAyWzCk"
+   },
+   {
+    "query": "Portcast Singapore India container tracking visibility startup funding 2025 2026",
+    "retrieved_at": "2026-10-26T19:31:03.278081Z",
+    "snippet": "Portcast is a Transportation, Automotive &amp; Logistics company based in Singapore, Singapore, founded in 2017. It has raised $9.7M across 3 funding rounds.",
+    "title": "Portcast - 2026 Company Profile, Funding &amp; Investors - The Company Check",
+    "url": "https://www.thecompanycheck.com/company/b/portcast/3mhi9bxura5ink2w4"
+   },
+   {
+    "query": "Portcast Singapore India container tracking visibility startup funding 2025 2026",
+    "retrieved_at": "2026-10-26T19:31:03.278081Z",
+    "snippet": "Information on valuation, funding, cap tables, investors, and executives for Portcast. Use the PitchBook Platform to explore the full profile.",
+    "title": "Portcast 2026 Company Profile: Valuation, Funding &amp; Investors | PitchBook",
+    "url": "https://pitchbook.com/profiles/company/228944-17"
+   },
+   {
+    "query": "Portcast Singapore India container tracking visibility startup funding 2025 2026",
+    "retrieved_at": "2026-10-26T19:31:03.278081Z",
+    "snippet": "Portcast is a logistics technology company that offers services for tracking containers and enhancing customer communication.",
+    "title": "Portcast Funding &amp; Investors - Series A - Singapore | VCBacked",
+    "url": "https://www.vcbacked.co/company/portcast"
+   },
+   {
+    "query": "Portcast Singapore India container tracking visibility startup funding 2025 2026",
+    "retrieved_at": "2026-10-26T19:31:03.278081Z",
+    "snippet": "Portcast: Funding, Investors &amp; Team (Oct 2026) Portcast makes global supply chains more predictive and dynamic. Our technology enables logistics companies to improve profitability through dynamic demand forecasting and real-time vessel and container tracking. Improve the profitability of your logistics business with Portcast today.",
+    "title": "Portcast: Funding, Investors &amp; Team (Oct 2026) | FundedIQ",
+    "url": "https://fundediq.co/portcast-portcast-io-funding/"
+   }
+  ]
+ },
+ "input_hash": "c106d99f264bb813504cd2dfa92bdbd62a5349a67b23c333710e8578832629fb"
+}

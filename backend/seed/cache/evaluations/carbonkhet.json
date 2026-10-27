@@ -1,0 +1,768 @@
+{
+ "analysis": {
+  "category_scores": {
+   "business_model": 6.8,
+   "execution_risk": 5.0,
+   "market": 6.0,
+   "moat": 5.0,
+   "product": 5.8,
+   "team": 6.0,
+   "traction": 5.3
+  },
+  "citations": {
+   "c:5atdpzs": {
+    "bbox": [
+     0.06091,
+     0.0554,
+     0.94779,
+     0.63269
+    ],
+    "chunk_id": "46f33a3a-ab73-53c5-9637-06e91bbf8811",
+    "document_id": "cddb8bad-df74-470f-bfbd-5f6e4d8506c7",
+    "page_no": 8,
+    "slide_title": "Competitive Landscape",
+    "type": "deck"
+   },
+   "c:6uma3ih": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.88056,
+     0.6943
+    ],
+    "chunk_id": "6e78df68-d44f-5a8e-88b0-19a518a7475d",
+    "document_id": "cddb8bad-df74-470f-bfbd-5f6e4d8506c7",
+    "page_no": 6,
+    "slide_title": "Traction (as of FY2026)",
+    "type": "deck"
+   },
+   "c:cred2fo": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.8477,
+     0.43886
+    ],
+    "chunk_id": "41336b60-f483-5762-a66c-a0077d1e6d43",
+    "document_id": "cddb8bad-df74-470f-bfbd-5f6e4d8506c7",
+    "page_no": 5,
+    "slide_title": "Business Model",
+    "type": "deck"
+   },
+   "c:evygukd": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.60056,
+     0.57729
+    ],
+    "chunk_id": "ec849c3a-3037-590d-9bfb-e8f68bf9e5c7",
+    "document_id": "cddb8bad-df74-470f-bfbd-5f6e4d8506c7",
+    "page_no": 7,
+    "slide_title": "Unit Economics",
+    "type": "deck"
+   },
+   "c:hd2ygik": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.92924,
+     0.60663
+    ],
+    "chunk_id": "e9adf3f9-3b84-5767-a17f-c81bd5714a8c",
+    "document_id": "cddb8bad-df74-470f-bfbd-5f6e4d8506c7",
+    "page_no": 11,
+    "slide_title": "The Ask",
+    "type": "deck"
+   },
+   "c:hfceyab": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.88556,
+     0.50907
+    ],
+    "chunk_id": "36973d07-cfb8-5011-8084-1f0d42d5de17",
+    "document_id": "cddb8bad-df74-470f-bfbd-5f6e4d8506c7",
+    "page_no": 1,
+    "slide_title": "CarbonKhet",
+    "type": "deck"
+   },
+   "c:jtrarsi": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.92416,
+     0.4682
+    ],
+    "chunk_id": "ccc99419-6038-5003-9357-714817dbfee2",
+    "document_id": "cddb8bad-df74-470f-bfbd-5f6e4d8506c7",
+    "page_no": 10,
+    "slide_title": "Team",
+    "type": "deck"
+   },
+   "c:mj2fas6": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.75228,
+     0.63853
+    ],
+    "chunk_id": "56f864b9-2263-5ab3-9851-44129cbc326f",
+    "document_id": "cddb8bad-df74-470f-bfbd-5f6e4d8506c7",
+    "page_no": 9,
+    "slide_title": "Go-to-Market & Key Risks",
+    "type": "deck"
+   },
+   "c:ntnarx7": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.92414,
+     0.52945
+    ],
+    "chunk_id": "1952f01c-4b53-57b9-94b3-70371ad4709e",
+    "document_id": "cddb8bad-df74-470f-bfbd-5f6e4d8506c7",
+    "page_no": 4,
+    "slide_title": "Market Opportunity (TAM / SAM / SOM)",
+    "type": "deck"
+   },
+   "c:uape6bs": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.89281,
+     0.59965
+    ],
+    "chunk_id": "ef4c7295-662f-5359-bae1-0945c72a8488",
+    "document_id": "cddb8bad-df74-470f-bfbd-5f6e4d8506c7",
+    "page_no": 3,
+    "slide_title": "Solution",
+    "type": "deck"
+   },
+   "c:wdis5t6": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.91466,
+     0.63306
+    ],
+    "chunk_id": "e0b8ca42-5007-5439-9d84-963aef761dc6",
+    "document_id": "cddb8bad-df74-470f-bfbd-5f6e4d8506c7",
+    "page_no": 2,
+    "slide_title": "Problem",
+    "type": "deck"
+   },
+   "w:15": {
+    "title": "Agriculture Carbon MRV via Satellite Market Size, Share &amp; Forecast ...",
+    "type": "web",
+    "url": "https://dataintelo.com/report/agriculture-carbon-mrv-via-satellite-market"
+   },
+   "w:16": {
+    "title": "Soil Carbon Monitoring for Indian Farms",
+    "type": "web",
+    "url": "https://www.scribd.com/document/945339799/Boomitra-Social-Carbon-India-MRV-Framework"
+   },
+   "w:17": {
+    "title": "Global Agricultural Carbon MRV Market Size &amp; Forecast 2026-2030",
+    "type": "web",
+    "url": "https://marqstats.com/reports/global-agricultural-carbon-mrv-market/"
+   },
+   "w:19": {
+    "title": "Microsoft taps Alt Carbon in sign of India\u2019s growing role in carbon removal",
+    "type": "web",
+    "url": "https://techcrunch.com/2026/06/11/microsoft-taps-alt-carbon-in-sign-of-indias-growing-rile-in-carbon-removal/"
+   },
+   "w:2": {
+    "title": "Soil carbon credit prices in 2026: what SOC credits are worth",
+    "type": "web",
+    "url": "https://soilorganiccarbon.com/blog/soil-carbon-credit-prices-2026"
+   },
+   "w:21": {
+    "title": "Google signs its biggest rice-methane carbon credit deal with Indian startup Mitti Labs",
+    "type": "web",
+    "url": "https://techcrunch.com/2026/09/10/google-signs-its-biggest-rice-methane-carbon-credit-deal-with-indian-startup-mitti-labs/"
+   },
+   "w:26": {
+    "title": "Boomitra&#x27;s Carbon Farming Project in India Achieves Verra Registration",
+    "type": "web",
+    "url": "https://boomitra.com/boomitras-carbon-farming-project-in-india-achieves-verra-registration/"
+   },
+   "w:27": {
+    "title": "Boomitra Carbon Farming in India",
+    "type": "web",
+    "url": "https://landing.boomitra.com/boomitra-carbon-farming-in-india"
+   },
+   "w:28": {
+    "title": "PDF Boomitra&#x27;s MRV Framework for Monitoring Soil Carbon in Indian ...",
+    "type": "web",
+    "url": "https://44586229.fs1.hubspotusercontent-na2.net/hubfs/44586229/Boomitra-Social%20Carbon-India-MRV%20Framework.pdf"
+   },
+   "w:31": {
+    "title": "Carbon Farming India 2026 - Earn Carbon Credits &amp; Sell",
+    "type": "web",
+    "url": "https://www.agrijob.in/carbon-farming-india-2026-earn-carbon-credits-sell-globally/"
+   },
+   "w:32": {
+    "title": "Carbon Credits for Farmers in India: The Complete 2026 Guide",
+    "type": "web",
+    "url": "https://agricarboncredits.in/blog/carbon-credits-for-farmers-india-2026"
+   },
+   "w:33": {
+    "title": "AgriCarbon Credits \u2014 Earn from your land \u2014 carbon credits for Indian ...",
+    "type": "web",
+    "url": "https://agricarboncredits.in/"
+   },
+   "w:34": {
+    "title": "Cropin | Agricultural and Physical-World Intelligence",
+    "type": "web",
+    "url": "https://www.cropin.com/"
+   },
+   "w:35": {
+    "title": "Cropin Newsroom: Press Releases and Company News",
+    "type": "web",
+    "url": "https://www.cropin.com/newsroom/"
+   },
+   "w:6": {
+    "title": "UK recognises India\u2019s carbon credit scheme under CBAM, easing tax burden for exporters",
+    "type": "web",
+    "url": "https://www.msn.com/en-in/news/other/uk-recognises-india-s-carbon-credit-scheme-under-cbam-easing-tax-burden-for-exporters/ar-AA2bLEOw?ocid=BingNewsVerp"
+   },
+   "w:9": {
+    "title": "UK recognises India\u2019s carbon credit scheme under CBAM, easing tax burden for exporters",
+    "type": "web",
+    "url": "https://www.msn.com/en-in/money/economy/uk-recognises-india-s-carbon-credit-scheme-under-cbam-easing-tax-burden-for-exporters/ar-AA2bLEOw?ocid=BingNewsVerp"
+   }
+  },
+  "citations_removed": 0,
+  "compliance_flags": [],
+  "data_gaps": [
+   "TAM: the deck claims 650 INR crore (p.4); the retrieved source reports 3.2 USD billion, a different currency, so the two were not compared.",
+   "SAM: no independent source found; the deck claims 140 INR crore (p.4).",
+   "SOM: no independent source found; the deck claims 11 INR crore (p.4).",
+   "CAGR: the deck claims 29.9 % (p.4); the retrieved source covers a different period, so the two were not compared."
+  ],
+  "evidence_version": 2,
+  "generated_at": "2026-10-26T19:43:15.836080Z",
+  "input_hash": "5dadd3a1b9b27949194b11ecaf089774eea292153392f7706e91fa02cbd5e760",
+  "invalid_citations": [],
+  "market_sizing": {
+   "basis": "Only figures traceable to retrieved search excerpts are plotted as market data.",
+   "cagr_pct": 12.8,
+   "claims": {
+    "cagr_pct": {
+     "check": {
+      "source_value": 12.8,
+      "status": "different_period"
+     },
+     "citation": {
+      "bbox": [
+       0.0677,
+       0.0554,
+       0.92414,
+       0.52945
+      ],
+      "chunk_id": "1952f01c-4b53-57b9-94b3-70371ad4709e",
+      "cid": "c:ntnarx7",
+      "document_id": "cddb8bad-df74-470f-bfbd-5f6e4d8506c7",
+      "page_no": 4
+     },
+     "currency": "%",
+     "geography": "India",
+     "kind": "company_forecast",
+     "low_confidence": false,
+     "market": "MRV services for agricultural carbon projects in India",
+     "normalised": 29.9,
+     "period": "2025-2030",
+     "quote": "MRV services for agricultural carbon projects in India CAGR: 29.9% (2025-2030) (company projection)",
+     "retrieved_at": null,
+     "source_title": "CarbonKhet_Pitch_Deck.pdf, p.4",
+     "source_url": null,
+     "unit": "%",
+     "value": 29.9,
+     "year": null
+    },
+    "sam_usd_b": {
+     "check": {
+      "status": "unverified"
+     },
+     "citation": {
+      "bbox": [
+       0.0677,
+       0.0554,
+       0.92414,
+       0.52945
+      ],
+      "chunk_id": "1952f01c-4b53-57b9-94b3-70371ad4709e",
+      "cid": "c:ntnarx7",
+      "document_id": "cddb8bad-df74-470f-bfbd-5f6e4d8506c7",
+      "page_no": 4
+     },
+     "currency": "INR",
+     "geography": "South and Central India",
+     "kind": "company_estimate",
+     "low_confidence": false,
+     "market": "Regenerative-agriculture projects in South and Central India",
+     "normalised": 1.4,
+     "period": "",
+     "quote": "SAM \u2014 Regenerative-agriculture projects in South and Central India: Rs 140 crore in 2025 (company estimate)",
+     "retrieved_at": null,
+     "source_title": "CarbonKhet_Pitch_Deck.pdf, p.4",
+     "source_url": null,
+     "unit": "INR crore",
+     "value": 140.0,
+     "year": 2025
+    },
+    "som_usd_b": {
+     "check": {
+      "status": "unverified"
+     },
+     "citation": {
+      "bbox": [
+       0.0677,
+       0.0554,
+       0.92414,
+       0.52945
+      ],
+      "chunk_id": "1952f01c-4b53-57b9-94b3-70371ad4709e",
+      "cid": "c:ntnarx7",
+      "document_id": "cddb8bad-df74-470f-bfbd-5f6e4d8506c7",
+      "page_no": 4
+     },
+     "currency": "INR",
+     "geography": "South and Central India",
+     "kind": "company_forecast",
+     "low_confidence": false,
+     "market": "3-year obtainable share of SAM",
+     "normalised": 0.11,
+     "period": "",
+     "quote": "SOM \u2014 3-year obtainable share of SAM: Rs 11 crore in 2028 (company projection)",
+     "retrieved_at": null,
+     "source_title": "CarbonKhet_Pitch_Deck.pdf, p.4",
+     "source_url": null,
+     "unit": "INR crore",
+     "value": 11.0,
+     "year": 2028
+    },
+    "tam_usd_b": {
+     "check": {
+      "source_value": 3.2,
+      "status": "different_currency"
+     },
+     "citation": {
+      "bbox": [
+       0.0677,
+       0.0554,
+       0.92414,
+       0.52945
+      ],
+      "chunk_id": "1952f01c-4b53-57b9-94b3-70371ad4709e",
+      "cid": "c:ntnarx7",
+      "document_id": "cddb8bad-df74-470f-bfbd-5f6e4d8506c7",
+      "page_no": 4
+     },
+     "currency": "INR",
+     "geography": "India",
+     "kind": "company_estimate",
+     "low_confidence": false,
+     "market": "MRV services for agricultural carbon projects in India",
+     "normalised": 6.5,
+     "period": "",
+     "quote": "TAM \u2014 MRV services for agricultural carbon projects in India: Rs 650 crore in 2025, projected Rs 2,400 crore by 2030 at 29.9% CAGR (company estimate)",
+     "retrieved_at": null,
+     "source_title": "CarbonKhet_Pitch_Deck.pdf, p.4",
+     "source_url": null,
+     "unit": "INR crore",
+     "value": 650.0,
+     "year": 2025
+    }
+   },
+   "evidence": {
+    "cagr_pct": {
+     "citation": null,
+     "geography": "Global",
+     "kind": "source_forecast",
+     "low_confidence": false,
+     "market": "Agriculture Carbon MRV via Satellite",
+     "period": "2025-2034",
+     "quote": "Agriculture Carbon MRV via Satellite market valued at $3.2 billion in 2025, projected to reach $8.7 billion by 2034, growing at 12.8% CAGR driven by climate compliance.",
+     "retrieved_at": "2026-10-26T19:42:35.021074Z",
+     "source_title": "Agriculture Carbon MRV via Satellite Market Size, Share &amp; Forecast ...",
+     "source_url": "https://dataintelo.com/report/agriculture-carbon-mrv-via-satellite-market",
+     "unit": "%",
+     "value": 12.8,
+     "year": null
+    },
+    "tam_usd_b": {
+     "citation": null,
+     "geography": "Global",
+     "kind": "source_forecast",
+     "low_confidence": false,
+     "market": "Agriculture Carbon MRV via Satellite",
+     "period": "",
+     "quote": "Agriculture Carbon MRV via Satellite market valued at $3.2 billion in 2025, projected to reach $8.7 billion by 2034, growing at 12.8% CAGR driven by climate compliance.",
+     "retrieved_at": "2026-10-26T19:42:35.021074Z",
+     "source_title": "Agriculture Carbon MRV via Satellite Market Size, Share &amp; Forecast ...",
+     "source_url": "https://dataintelo.com/report/agriculture-carbon-mrv-via-satellite-market",
+     "unit": "USD billion",
+     "value": 3.2,
+     "year": 2025
+    }
+   },
+   "sam_usd_b": null,
+   "som_usd_b": null,
+   "tam_usd_b": 3.2,
+   "trend": [
+    {
+     "citation": null,
+     "geography": "Global",
+     "kind": "source_forecast",
+     "low_confidence": false,
+     "market": "Global farm carbon MRV",
+     "period": "",
+     "quote": "The global farm carbon MRV market was valued at USD 1.52 billion in 2025, projected to reach USD 3.48 billion by 2030 at 18.04% CAGR.",
+     "retrieved_at": "2026-10-26T19:42:35.021074Z",
+     "size_usd_b": 1.52,
+     "source_title": "Global Agricultural Carbon MRV Market Size &amp; Forecast 2026-2030",
+     "source_url": "https://marqstats.com/reports/global-agricultural-carbon-mrv-market/",
+     "unit": "USD billion",
+     "value": 1.52,
+     "year": 2025
+    },
+    {
+     "citation": null,
+     "geography": "Global",
+     "kind": "source_forecast",
+     "low_confidence": false,
+     "market": "Global farm carbon MRV",
+     "period": "",
+     "quote": "The global farm carbon MRV market was valued at USD 1.52 billion in 2025, projected to reach USD 3.48 billion by 2030 at 18.04% CAGR.",
+     "retrieved_at": "2026-10-26T19:42:35.021074Z",
+     "size_usd_b": 3.48,
+     "source_title": "Global Agricultural Carbon MRV Market Size &amp; Forecast 2026-2030",
+     "source_url": "https://marqstats.com/reports/global-agricultural-carbon-mrv-market/",
+     "unit": "USD billion",
+     "value": 3.48,
+     "year": 2030
+    }
+   ]
+  },
+  "model": "azure/deepSeek-V4-Flash",
+  "overall_score": 5.8,
+  "projected_revenue": [
+   {
+    "citation": {
+     "bbox": [
+      0.0677,
+      0.0554,
+      0.88056,
+      0.6943
+     ],
+     "chunk_id": "6e78df68-d44f-5a8e-88b0-19a518a7475d",
+     "cid": "c:6uma3ih",
+     "document_id": "cddb8bad-df74-470f-bfbd-5f6e4d8506c7",
+     "page_no": 6
+    },
+    "geography": "India",
+    "kind": "company_reported",
+    "low_confidence": false,
+    "market": "CarbonKhet",
+    "metric": "ARR",
+    "period": "",
+    "quote": "ARR: Rs 0.9 crore in FY2026",
+    "retrieved_at": null,
+    "revenue": 9.0,
+    "source_title": "CarbonKhet_Pitch_Deck.pdf, p.6",
+    "source_url": null,
+    "unit": "INR crore",
+    "value": 0.9,
+    "year": 2026
+   }
+  ],
+  "recommendation_label": "Hold",
+  "report_markdown": "## 1. Executive Summary\n\nCarbonKhet provides satellite and soil-sample MRV for regenerative-agriculture carbon projects in India, targeting the high cost of plot-by-plot measurement. The company has a working product with 3 paying customers covering 43,000 acres and 16,800 farmers, generating an ARR of Rs 0.9 crore in FY2026, up from Rs 0.25 crore in FY2025 [c:6uma3ih]. Unit economics are early but positive: 61% gross margin, 3.9-month CAC payback, 140% NRR, and 0% monthly churn [c:evygukd]. The team combines remote-sensing, soil-science, and farmer-network expertise [c:jtrarsi]. Key risks include voluntary carbon price volatility, registry methodology acceptance, customer concentration (only 3 developers), and farmer practice reversal [c:mj2fas6]. The first credit issuance is expected only in 2027 [c:6uma3ih]. The company is raising Rs 6 crore seed at Rs 34 crore pre-money, with tranches tied to milestones [c:hd2ygik]. Overall score: 5.8/10, Hold.\n\n## 2. Problem & Solution\n\n**Problem**: Regenerative-agriculture carbon projects on small Indian farms struggle to issue credits because measuring and verifying soil carbon plot by plot costs more than the credits earn. About 86% of India's agricultural holdings are small or marginal (under 2 hectares) [c:wdis5t6]. Manual soil sampling and lab analysis cost Rs 1,500-3,000 per sample (company-reported, unverified), and soil-carbon credits from smallholder projects sell at a discount because buyers doubt the measurements (company estimate) [c:wdis5t6].\n\n**Solution**: CarbonKhet uses remote sensing plus targeted soil sampling to cut MRV cost per acre while producing audit-ready evidence [c:uape6bs]. The system includes satellite detection of tillage, cover crops, and rice-field flooding for every enrolled plot; a farmer app in Kannada, Telugu, and Hindi for practice records and geo-tagged photos; stratified soil sampling (fewer samples, statistically designed); and audit-ready data packages for third-party verifiers and registries [c:uape6bs].\n\n## 3. Market Opportunity\n\n**TAM**: The company estimates the MRV services market for agricultural carbon projects in India at Rs 650 crore in 2025, projected to reach Rs 2,400 crore by 2030 at a 29.9% CAGR (company-reported, unverified) [c:ntnarx7]. For context, the global Agriculture Carbon MRV via Satellite market was valued at $3.2 billion in 2025, growing at 12.8% CAGR [w:15], and the global farm carbon MRV market was valued at $1.52 billion in 2025, projected to reach $3.48 billion by 2030 at 18.04% CAGR [w:17].\n\n**SAM**: The company estimates the SAM for regenerative-agriculture projects in South and Central India at Rs 140 crore in 2025 (company-reported, unverified) [c:ntnarx7].\n\n**SOM**: The company projects a 3-year obtainable share of SAM of Rs 11 crore in 2028 (company projection) [c:ntnarx7].\n\n**Market context**: The voluntary carbon market is shifting toward quality, with soil carbon credits in India priced at roughly Rs 500-2,500 per tonne (July 2026 estimate) [w:2]. India's domestic Carbon Credit Trading Scheme (CCTS) is gaining recognition, e.g., the UK has recognised it under CBAM [w:6][w:9]. Major tech buyers like Google and Microsoft are signing large carbon credit deals with Indian startups [w:19][w:21], indicating growing demand.\n\n## 4. Competitive Landscape\n\nCarbonKhet positions itself against three types of competitors: (1) Varaha, a nature-based carbon project developer in South Asia; (2) Boomitra, a remote-sensing-based soil-carbon measurement company; and (3) traditional manual sampling by verifiers [c:5atdpzs]. The company claims two edges: a calibration dataset linking satellite signals to 9,000 soil samples from Indian farms, and FPO relationships that bring farmers into projects at low cost [c:5atdpzs].\n\n**Competitor analysis**: Boomitra is a direct competitor, using satellite- and AI-enabled soil carbon measurement for smallholder farms in India [w:16][w:28]. Boomitra has achieved Verra registration for its carbon farming project in India under the VM0042 methodology, marking its fifth Verra-registered soil carbon project globally [w:26]. This gives Boomitra a significant credibility and regulatory advantage over CarbonKhet, which has not yet issued any credits. Other players include Cropin, which provides agricultural intelligence using satellite data [w:34][w:35], and various carbon credit aggregators [w:32][w:33]. The competitive moat for CarbonKhet is execution-based and not yet proven durable or defensible, given that competitors have registry-approved methodologies and larger scale.\n\n## 5. Business Model\n\n**Revenue model**: CarbonKhet generates revenue from two streams: (1) an MRV subscription of Rs 210 per acre per year (85% of revenue), and (2) verification audit support at Rs 350,000 per audit (15% of revenue) [c:cred2fo]. ARR counts only the per-acre MRV subscription [c:cred2fo].\n\n**Unit economics**: The company reports a gross margin of 61% after sampling and imagery costs [c:cred2fo]. Customer acquisition cost (CAC) is Rs 600,000 per project developer, with a CAC payback of 3.9 months [c:evygukd]. Net revenue retention (NRR) is 140%, driven by developers enrolling more acres, and monthly churn is 0% [c:evygukd]. These metrics are positive and impressive for seed stage, but based on only 3 customers and early data, so a slight discount applies.\n\n**Pricing context**: Soil carbon credits in India are priced at roughly Rs 500-2,500 per tonne (July 2026 estimate) [w:2], and carbon farming can generate Rs 8,000 to Rs 15,000 per acre per year (company-reported, unverified) [w:31]. CarbonKhet's MRV fee of Rs 210/acre/year represents a small fraction of potential credit revenue, making it affordable for developers.\n\n**Funding structure**: The seed round of Rs 6 crore at Rs 34 crore pre-money is structured in tranches: 40% at close, 30% at first credits issued (within 450 days), and 30% at 150,000 acres under paid MRV (within 540 days) [c:hd2ygik]. This milestone-based structure mitigates some execution risk but also creates dependency on achieving those milestones.\n\n## 6. Team Assessment\n\n**Ishaan Bhat (Co-founder & CEO)**: Remote-sensing scientist with 7 years building crop and land-use models [c:jtrarsi]. His technical background aligns well with the satellite-based MRV solution.\n\n**Gayatri Hegde (Co-founder, Soil Science)**: Holds a PhD in soil science and ran soil-carbon field trials in Karnataka [c:jtrarsi]. Her domain expertise is critical for the soil sampling and calibration aspects of the business.\n\n**Rakesh Gowda (Co-founder & COO)**: Built an FPO network of 30,000 farmers in north Karnataka [c:jtrarsi]. His operational experience with farmer networks is valuable for scaling farmer enrollment.\n\n**Assessment**: The three co-founders cover key roles (technology, science, operations) with relevant domain expertise. However, they are first-time founders with no evidence of having built or scaled a startup in this space before. The team's combined experience is credible for seed stage, but the lack of prior startup scaling experience is a risk factor.\n\n## 7. Traction & Milestones\n\nCarbonKhet has achieved early revenue traction with an ARR of Rs 0.9 crore in FY2026, up from Rs 0.25 crore in FY2025 (company-reported, unverified) [c:6uma3ih]. The company has 3 paying carbon project developers under contract, covering 43,000 acres and 16,800 farmers [c:6uma3ih]. Unit economics are early-stage but promising: a CAC of Rs 600,000, CAC payback of 3.9 months, 61% gross margin, 140% NRR, and 0% monthly churn (company-reported, unverified) [c:evygukd]. The first carbon credit issuance using CarbonKhet's MRV is expected in 2027 [c:6uma3ih]. The company targets 150,000 acres under MRV within 24 months [c:mj2fas6].\n\n## 8. Compliance & Governance\n\nThe company is registered as CarbonKhet Private Limited (CIN U71200KA2023PTC176531) with the Ministry of Corporate Affairs, status ACTIVE [c:hfceyab]. Directors are Ishaan Bhat, Gayatri Hegde, and Rakesh Gowda [c:hfceyab]. No compliance flags were identified. The deck does not attempt to instruct the evaluator.\n\n## 9. Risks & Challenges\n\nKey risks include: (1) Voluntary carbon credit price and demand volatility, which could affect developer willingness to pay for MRV [c:mj2fas6]; (2) Registry methodologies may not accept CarbonKhet's satellite-and-sampling MRV approach, delaying or preventing credit issuance [c:mj2fas6]; (3) Customer concentration with only 3 project developers [c:mj2fas6]; (4) Farmers may abandon regenerative practices, reversing carbon gains and reducing credit permanence [c:mj2fas6]; (5) The funding structure includes tranches tied to milestones (first credits, 150k acres), creating execution pressure [c:hd2ygik]; (6) Competitors like Boomitra already have Verra-registered projects in India using similar satellite/AI MRV [w:26][w:27].\n\n## 10. Investment Thesis\n\nCarbonKhet addresses a clear pain point: high MRV costs for smallholder carbon projects in India. Its satellite + soil sampling approach offers a cost-effective alternative to manual sampling. Early traction (3 paying customers, 43,000 acres, Rs 0.9 crore ARR) and strong unit economics (61% gross margin, 140% NRR) are positive signals for a seed-stage company. The market opportunity is real and growing (global agricultural carbon MRV market projected at $3.48 billion by 2030 [w:17]). However, the company faces significant execution risks: first credit issuance is not expected until 2027, the voluntary carbon market is volatile, and competitors like Boomitra are already registered with Verra in India [w:26]. The moat (9,000 soil samples, FPO relationships) is execution-based and not yet proven defensible. The team has relevant domain expertise but is first-time founders. The valuation (Rs 34 crore pre-money) is reasonable for the stage given the traction, but the risks warrant a cautious approach.\n\n## 11. Recommendation\n\n**Hold** (overall score: 5.8/10). CarbonKhet has a working product, early revenue, and a credible market opportunity. However, significant risks around registry acceptance, customer concentration, and market volatility remain unmitigated. The company needs to demonstrate first credit issuance and expand its customer base before a stronger conviction can be formed. We recommend monitoring progress toward the 150,000-acre milestone and first credit issuance before considering an investment.",
+  "revenue_currency": "INR",
+  "revenue_metric": "ARR",
+  "rewrites": 2,
+  "rubric_version": "r1",
+  "score_rationales": {
+   "business_model": "Pricing is clear (Rs 210/acre/year MRV subscription + audit support) with 61% gross margin [c:cred2fo]. Unit economics show strong early metrics: CAC payback of 3.9 months, NRR of 140%, and 0% monthly churn [c:evygukd]. These are positive and impressive for seed stage, but based on only 3 customers and early data, so a slight discount applies.",
+   "execution_risk": "Key risks are acknowledged: voluntary carbon price volatility, registry methodology acceptance, customer concentration (only 3 developers), and farmer practice reversal [c:mj2fas6]. The funding has tranches tied to milestones (first credits, 150k acres) [c:hd2ygik], which mitigates some risk, but the risks are significant and not fully mitigated.",
+   "market": "The TAM is sized at Rs 650 crore (2025) growing at 29.9% CAGR, with a SAM of Rs 140 crore [c:ntnarx7]. The sizing is credible and scoped to India's agricultural carbon MRV, but the estimates are company projections without independent third-party backing, and the market is still emerging (voluntary carbon market volatility noted) [c:mj2fas6].",
+   "moat": "CarbonKhet claims a calibration dataset of 9,000 soil samples and FPO relationships as edges [c:5atdpzs]. These provide some data and distribution advantage, but competitors like Boomitra also use satellite/AI MRV and have Verra-registered projects in India [w:26][w:27]. The moat is execution-based and not yet proven durable or defensible.",
+   "product": "CarbonKhet has a working product (satellite + soil sampling + farmer app) used by 3 paying customers covering 43,000 acres, generating Rs 0.9 crore ARR [c:6uma3ih]. There is a clear value proposition (cost-effective MRV for carbon credits), but no strong evidence of product-market fit (retention, expansion, or defensible features) yet; the first credit issuance is still expected in 2027 [c:6uma3ih].",
+   "team": "Three co-founders cover key roles: CEO with 7 years remote-sensing experience, Soil Science PhD, and COO who built an FPO network of 30,000 farmers [c:jtrarsi]. They have relevant domain expertise, but no evidence of having built or scaled a startup in this space before (first-time founders).",
+   "traction": "The company has an ARR of Rs 0.9 crore (FY2026), up from Rs 0.25 crore (FY2025), with 3 paying developers and 43,000 acres. This shows early revenue growth (approx. 3.6x year-over-year) but from a small base and no retention evidence beyond NRR. First credit issuance is expected only in 2027. [c:6uma3ih]"
+  },
+  "score_spread": {
+   "business_model": 0.5,
+   "execution_risk": 0.5,
+   "market": 0.5,
+   "moat": 0.5,
+   "product": 1.0,
+   "team": 0.0,
+   "traction": 1.0
+  },
+  "sections": {
+   "business_model": "**Revenue model**: CarbonKhet generates revenue from two streams: (1) an MRV subscription of Rs 210 per acre per year (85% of revenue), and (2) verification audit support at Rs 350,000 per audit (15% of revenue) [c:cred2fo]. ARR counts only the per-acre MRV subscription [c:cred2fo].\n\n**Unit economics**: The company reports a gross margin of 61% after sampling and imagery costs [c:cred2fo]. Customer acquisition cost (CAC) is Rs 600,000 per project developer, with a CAC payback of 3.9 months [c:evygukd]. Net revenue retention (NRR) is 140%, driven by developers enrolling more acres, and monthly churn is 0% [c:evygukd]. These metrics are positive and impressive for seed stage, but based on only 3 customers and early data, so a slight discount applies.\n\n**Pricing context**: Soil carbon credits in India are priced at roughly Rs 500-2,500 per tonne (July 2026 estimate) [w:2], and carbon farming can generate Rs 8,000 to Rs 15,000 per acre per year (company-reported, unverified) [w:31]. CarbonKhet's MRV fee of Rs 210/acre/year represents a small fraction of potential credit revenue, making it affordable for developers.\n\n**Funding structure**: The seed round of Rs 6 crore at Rs 34 crore pre-money is structured in tranches: 40% at close, 30% at first credits issued (within 450 days), and 30% at 150,000 acres under paid MRV (within 540 days) [c:hd2ygik]. This milestone-based structure mitigates some execution risk but also creates dependency on achieving those milestones.",
+   "competitive_landscape": "CarbonKhet positions itself against three types of competitors: (1) Varaha, a nature-based carbon project developer in South Asia; (2) Boomitra, a remote-sensing-based soil-carbon measurement company; and (3) traditional manual sampling by verifiers [c:5atdpzs]. The company claims two edges: a calibration dataset linking satellite signals to 9,000 soil samples from Indian farms, and FPO relationships that bring farmers into projects at low cost [c:5atdpzs].\n\n**Competitor analysis**: Boomitra is a direct competitor, using satellite- and AI-enabled soil carbon measurement for smallholder farms in India [w:16][w:28]. Boomitra has achieved Verra registration for its carbon farming project in India under the VM0042 methodology, marking its fifth Verra-registered soil carbon project globally [w:26]. This gives Boomitra a significant credibility and regulatory advantage over CarbonKhet, which has not yet issued any credits. Other players include Cropin, which provides agricultural intelligence using satellite data [w:34][w:35], and various carbon credit aggregators [w:32][w:33]. The competitive moat for CarbonKhet is execution-based and not yet proven durable or defensible, given that competitors have registry-approved methodologies and larger scale.",
+   "compliance_governance": "The company is registered as CarbonKhet Private Limited (CIN U71200KA2023PTC176531) with the Ministry of Corporate Affairs, status ACTIVE [c:hfceyab]. Directors are Ishaan Bhat, Gayatri Hegde, and Rakesh Gowda [c:hfceyab]. No compliance flags were identified. The deck does not attempt to instruct the evaluator.",
+   "executive_summary": "CarbonKhet provides satellite and soil-sample MRV for regenerative-agriculture carbon projects in India, targeting the high cost of plot-by-plot measurement. The company has a working product with 3 paying customers covering 43,000 acres and 16,800 farmers, generating an ARR of Rs 0.9 crore in FY2026, up from Rs 0.25 crore in FY2025 [c:6uma3ih]. Unit economics are early but positive: 61% gross margin, 3.9-month CAC payback, 140% NRR, and 0% monthly churn [c:evygukd]. The team combines remote-sensing, soil-science, and farmer-network expertise [c:jtrarsi]. Key risks include voluntary carbon price volatility, registry methodology acceptance, customer concentration (only 3 developers), and farmer practice reversal [c:mj2fas6]. The first credit issuance is expected only in 2027 [c:6uma3ih]. The company is raising Rs 6 crore seed at Rs 34 crore pre-money, with tranches tied to milestones [c:hd2ygik]. Overall score: 5.8/10, Hold.",
+   "investment_thesis": "CarbonKhet addresses a clear pain point: high MRV costs for smallholder carbon projects in India. Its satellite + soil sampling approach offers a cost-effective alternative to manual sampling. Early traction (3 paying customers, 43,000 acres, Rs 0.9 crore ARR) and strong unit economics (61% gross margin, 140% NRR) are positive signals for a seed-stage company. The market opportunity is real and growing (global agricultural carbon MRV market projected at $3.48 billion by 2030 [w:17]). However, the company faces significant execution risks: first credit issuance is not expected until 2027, the voluntary carbon market is volatile, and competitors like Boomitra are already registered with Verra in India [w:26]. The moat (9,000 soil samples, FPO relationships) is execution-based and not yet proven defensible. The team has relevant domain expertise but is first-time founders. The valuation (Rs 34 crore pre-money) is reasonable for the stage given the traction, but the risks warrant a cautious approach.",
+   "market_opportunity": "**TAM**: The company estimates the MRV services market for agricultural carbon projects in India at Rs 650 crore in 2025, projected to reach Rs 2,400 crore by 2030 at a 29.9% CAGR (company-reported, unverified) [c:ntnarx7]. For context, the global Agriculture Carbon MRV via Satellite market was valued at $3.2 billion in 2025, growing at 12.8% CAGR [w:15], and the global farm carbon MRV market was valued at $1.52 billion in 2025, projected to reach $3.48 billion by 2030 at 18.04% CAGR [w:17].\n\n**SAM**: The company estimates the SAM for regenerative-agriculture projects in South and Central India at Rs 140 crore in 2025 (company-reported, unverified) [c:ntnarx7].\n\n**SOM**: The company projects a 3-year obtainable share of SAM of Rs 11 crore in 2028 (company projection) [c:ntnarx7].\n\n**Market context**: The voluntary carbon market is shifting toward quality, with soil carbon credits in India priced at roughly Rs 500-2,500 per tonne (July 2026 estimate) [w:2]. India's domestic Carbon Credit Trading Scheme (CCTS) is gaining recognition, e.g., the UK has recognised it under CBAM [w:6][w:9]. Major tech buyers like Google and Microsoft are signing large carbon credit deals with Indian startups [w:19][w:21], indicating growing demand.",
+   "problem_solution": "**Problem**: Regenerative-agriculture carbon projects on small Indian farms struggle to issue credits because measuring and verifying soil carbon plot by plot costs more than the credits earn. About 86% of India's agricultural holdings are small or marginal (under 2 hectares) [c:wdis5t6]. Manual soil sampling and lab analysis cost Rs 1,500-3,000 per sample (company-reported, unverified), and soil-carbon credits from smallholder projects sell at a discount because buyers doubt the measurements (company estimate) [c:wdis5t6].\n\n**Solution**: CarbonKhet uses remote sensing plus targeted soil sampling to cut MRV cost per acre while producing audit-ready evidence [c:uape6bs]. The system includes satellite detection of tillage, cover crops, and rice-field flooding for every enrolled plot; a farmer app in Kannada, Telugu, and Hindi for practice records and geo-tagged photos; stratified soil sampling (fewer samples, statistically designed); and audit-ready data packages for third-party verifiers and registries [c:uape6bs].",
+   "recommendation": "**Hold** (overall score: 5.8/10). CarbonKhet has a working product, early revenue, and a credible market opportunity. However, significant risks around registry acceptance, customer concentration, and market volatility remain unmitigated. The company needs to demonstrate first credit issuance and expand its customer base before a stronger conviction can be formed. We recommend monitoring progress toward the 150,000-acre milestone and first credit issuance before considering an investment.",
+   "risks_challenges": "Key risks include: (1) Voluntary carbon credit price and demand volatility, which could affect developer willingness to pay for MRV [c:mj2fas6]; (2) Registry methodologies may not accept CarbonKhet's satellite-and-sampling MRV approach, delaying or preventing credit issuance [c:mj2fas6]; (3) Customer concentration with only 3 project developers [c:mj2fas6]; (4) Farmers may abandon regenerative practices, reversing carbon gains and reducing credit permanence [c:mj2fas6]; (5) The funding structure includes tranches tied to milestones (first credits, 150k acres), creating execution pressure [c:hd2ygik]; (6) Competitors like Boomitra already have Verra-registered projects in India using similar satellite/AI MRV [w:26][w:27].",
+   "team_assessment": "**Ishaan Bhat (Co-founder & CEO)**: Remote-sensing scientist with 7 years building crop and land-use models [c:jtrarsi]. His technical background aligns well with the satellite-based MRV solution.\n\n**Gayatri Hegde (Co-founder, Soil Science)**: Holds a PhD in soil science and ran soil-carbon field trials in Karnataka [c:jtrarsi]. Her domain expertise is critical for the soil sampling and calibration aspects of the business.\n\n**Rakesh Gowda (Co-founder & COO)**: Built an FPO network of 30,000 farmers in north Karnataka [c:jtrarsi]. His operational experience with farmer networks is valuable for scaling farmer enrollment.\n\n**Assessment**: The three co-founders cover key roles (technology, science, operations) with relevant domain expertise. However, they are first-time founders with no evidence of having built or scaled a startup in this space before. The team's combined experience is credible for seed stage, but the lack of prior startup scaling experience is a risk factor.",
+   "traction_milestones": "CarbonKhet has achieved early revenue traction with an ARR of Rs 0.9 crore in FY2026, up from Rs 0.25 crore in FY2025 (company-reported, unverified) [c:6uma3ih]. The company has 3 paying carbon project developers under contract, covering 43,000 acres and 16,800 farmers [c:6uma3ih]. Unit economics are early-stage but promising: a CAC of Rs 600,000, CAC payback of 3.9 months, 61% gross margin, 140% NRR, and 0% monthly churn (company-reported, unverified) [c:evygukd]. The first carbon credit issuance using CarbonKhet's MRV is expected in 2027 [c:6uma3ih]. The company targets 150,000 acres under MRV within 24 months [c:mj2fas6]."
+  },
+  "sources": [
+   {
+    "query": "soil carbon credit price per ton 2025 2026 voluntary market Verra Puro",
+    "retrieved_at": "2026-10-26T19:42:20.158099Z",
+    "snippet": "Carbon credit prices per ton differ from market to market. Several factors set the price, and the 2025 and 2026 figures matter for farms and forests.",
+    "title": "Carbon Credit Price Per Ton: 2026 Market Prices Update",
+    "url": "https://farmonaut.com/mining/carbon-credit-price-per-ton-2026-market-prices-update"
+   },
+   {
+    "query": "soil carbon credit price per ton 2025 2026 voluntary market Verra Puro",
+    "retrieved_at": "2026-10-26T19:42:20.158099Z",
+    "snippet": "An honest, estimate-only look at soil carbon credit prices as of July 2026 \u2014 voluntary SOC roughly \u20b9500-2,500 per tonne, the drivers of price, and why fair benefit-sharing beats the 20-50% aggregator commission.",
+    "title": "Soil carbon credit prices in 2026: what SOC credits are worth",
+    "url": "https://soilorganiccarbon.com/blog/soil-carbon-credit-prices-2026"
+   },
+   {
+    "query": "soil carbon credit price per ton 2025 2026 voluntary market Verra Puro",
+    "retrieved_at": "2026-10-26T19:42:20.158099Z",
+    "snippet": "Current carbon credit prices per tonne for biochar, DAC, forestry and more. Trends, forecasts and what quality costs in 2026. Updated October 2026.",
+    "title": "Carbon Credit Prices 2026: Current Prices by Project Type",
+    "url": "https://www.regreener.earth/blog/carbon-credit-prices-today-trends-and-forecasts-for-2026"
+   },
+   {
+    "query": "soil carbon credit price per ton 2025 2026 voluntary market Verra Puro",
+    "retrieved_at": "2026-10-26T19:42:20.158099Z",
+    "snippet": "Soil carbon in the voluntary market: current share, \u00d715 growth since 2019, spot prices for high-quality credits, 2030 outlook.",
+    "title": "Soil carbon market: figures, prices, growth | Arka",
+    "url": "https://arkaclimate.com/learn/soil-carbon-market/"
+   },
+   {
+    "query": "soil carbon credit price per ton 2025 2026 voluntary market Verra Puro",
+    "retrieved_at": "2026-10-26T19:42:20.158099Z",
+    "snippet": "January 2025: The Great Pivot - Quality over quantity Short roundup: market trends & key developments 2024 was a transformative year for the voluntary carbon market (VCM). While headline figures\u2014like credit retirements and average prices\u2014remained relatively flat, the foundations of the market began to shift. Demand for high-integrity carbon credits grew steadily, driven by a growing ...",
+    "title": "Voluntary Carbon Market Update (July 2026): Prices & Trends",
+    "url": "https://www.regreener.earth/blog/voluntary-carbon-market-update"
+   },
+   {
+    "query": "India voluntary carbon market regulation 2025 2026 carbon credits trading scheme agriculture",
+    "retrieved_at": "2026-10-26T19:42:23.647984Z",
+    "snippet": "The UK has recognised India\u2019s Carbon Credit Trading Scheme (CCTS) as a qualifying carbon pricing mechanism under its Carbon Border Adjustment Mechanism (CBAM), potentially lowering the carbon-related ...",
+    "title": "UK recognises India\u2019s carbon credit scheme under CBAM, easing tax burden for exporters",
+    "url": "https://www.msn.com/en-in/news/other/uk-recognises-india-s-carbon-credit-scheme-under-cbam-easing-tax-burden-for-exporters/ar-AA2bLEOw?ocid=BingNewsVerp"
+   },
+   {
+    "query": "India voluntary carbon market regulation 2025 2026 carbon credits trading scheme agriculture",
+    "retrieved_at": "2026-10-26T19:42:23.647984Z",
+    "snippet": "July 1, 2026 \u2014 The Asia Society Policy Institute (ASPI) has published a new report Carbon Credit Trading Scheme & Energy Transition Finance: Preparing India for Optimal Use of Compliance CCTS Revenue ...",
+    "title": "New Report | Carbon Credit Trading Scheme & Energy Transition Finance",
+    "url": "https://asiasociety.org/policy-institute/new-report-carbon-credit-trading-scheme-energy-transition-finance"
+   },
+   {
+    "query": "India agricultural carbon credits market size 2025 2030 CAGR MRV services",
+    "retrieved_at": "2026-10-26T19:42:24.667847Z",
+    "snippet": "HYDERABAD, India, Oct. 27, 2025 /PRNewswire/ -- According to the latest insights from Mordor Intelligence, the voluntary carbon credit market size is valued at USD 15.83 billion in 2025 and is ...",
+    "title": "Voluntary Carbon Credit Market - 50% CAGR for 2025-2030 Driven by Expanding Corporate Net-Zero Commitments, Reports Mordor Intelligence",
+    "url": "https://finance.yahoo.com/news/voluntary-carbon-credit-market-50-105000689.html"
+   },
+   {
+    "query": "India carbon credit trading scheme CCTS 2025 2026 agriculture soil carbon methodology",
+    "retrieved_at": "2026-10-26T19:42:34.069869Z",
+    "snippet": "The UK has recognised India\u2019s Carbon Credit Trading Scheme (CCTS) as a qualifying carbon pricing mechanism under its Carbon Border Adjustment Mechanism (CBAM), potentially lowering the carbon-related ...",
+    "title": "UK recognises India\u2019s carbon credit scheme under CBAM, easing tax burden for exporters",
+    "url": "https://www.msn.com/en-in/money/economy/uk-recognises-india-s-carbon-credit-scheme-under-cbam-easing-tax-burden-for-exporters/ar-AA2bLEOw?ocid=BingNewsVerp"
+   },
+   {
+    "query": "India carbon credit trading scheme CCTS 2025 2026 agriculture soil carbon methodology",
+    "retrieved_at": "2026-10-26T19:42:34.069869Z",
+    "snippet": "Prakriti Summit 2026: From March 19 to 22, 2026, New Delhi became the global epicenter for climate finance. The 2nd International Conference on Carbon Markets\u2014PRAKRITI 2026 It is an acronym for ...",
+    "title": "What is Prakriti 2026? Explore the key objective of India's carbon market portal",
+    "url": "https://www.msn.com/en-in/money/topstories/what-is-prakriti-2026-explore-the-key-objective-of-india-s-carbon-market-portal/ar-AA1ZcwcE?ocid=BingNewsVerp"
+   },
+   {
+    "query": "Varaha climate tech India funding 2025 2026 carbon credits agriculture",
+    "retrieved_at": "2026-10-26T19:42:34.751598Z",
+    "snippet": "Climate change is putting growing pressure on small farmers, who typically cultivate on one or two hectares. Erratic weather, poor soil health and rising input costs are squeezing their incomes. This ...",
+    "title": "ET Startup Awards 2026 | Social enterprise: Varaha delivers carbon dollars to smallholder farmers",
+    "url": "https://www.msn.com/en-in/news/other/et-startup-awards-2026-social-enterprise-varaha-delivers-carbon-dollars-to-smallholder-farmers/ar-AA2aZUDD?ocid=BingNewsVerp"
+   },
+   {
+    "query": "Varaha climate tech India funding 2025 2026 carbon credits agriculture",
+    "retrieved_at": "2026-10-26T19:42:34.751598Z",
+    "snippet": "Experts at the Bharat International Rice Conference 2026 highlight how carbon credits and eco-friendly farming can boost ...",
+    "title": "Carbon Credits Can Boost Rice Farmer Incomes and Aid Sustainability",
+    "url": "https://www.msn.com/en-in/money/general/carbon-credits-can-boost-rice-farmer-incomes-and-aid-sustainability/ar-AA2fYJaP?ocid=BingNewsVerp"
+   },
+   {
+    "query": "India agricultural MRV market size remote sensing soil carbon 2024 2025 2030 forecast",
+    "retrieved_at": "2026-10-26T19:42:35.021074Z",
+    "snippet": "India Remote Sensing Technology for Agriculture Market Top 5 Importing Countries and Market Competition (HHI) Analysis India`s increasing reliance on remote sensing technology for agriculture is evident in the import shipments data for 2024. Top exporting countries such as Mexico, Netherlands, USA, Finland, and Metropolitan France are contributing significantly to this sector. The shift from ...",
+    "title": "India Remote Sensing Technology For Agriculture Market (2025-2031 ...",
+    "url": "https://www.6wresearch.com/industry-report/india-remote-sensing-technology-for-agriculture-market"
+   },
+   {
+    "query": "India agricultural MRV market size remote sensing soil carbon 2024 2025 2030 forecast",
+    "retrieved_at": "2026-10-26T19:42:35.021074Z",
+    "snippet": "The India Soil Carbon Sequestration Technologies market is emerging as a critical nexus for climate action, agricultural resilience, and economic opportunity. Driven by the confluence of national policy imperatives, corporate net-zero commitments, and the urgent need to enhance soil health, the market is transitioning from pilot-scale demonstrations to broader commercial adoption. This report ...",
+    "title": "Soil Carbon Sequestration Technologies Market in India | Report ...",
+    "url": "https://www.indexbox.io/store/india-soil-carbon-sequestration-technologies-market-analysis-forecast-size-trends-and-insights/"
+   },
+   {
+    "query": "India agricultural MRV market size remote sensing soil carbon 2024 2025 2030 forecast",
+    "retrieved_at": "2026-10-26T19:42:35.021074Z",
+    "snippet": "Agriculture Carbon MRV via Satellite market valued at $3.2 billion in 2025, projected to reach $8.7 billion by 2034, growing at 12.8% CAGR driven by climate compliance.",
+    "title": "Agriculture Carbon MRV via Satellite Market Size, Share &amp; Forecast ...",
+    "url": "https://dataintelo.com/report/agriculture-carbon-mrv-via-satellite-market"
+   },
+   {
+    "query": "India agricultural MRV market size remote sensing soil carbon 2024 2025 2030 forecast",
+    "retrieved_at": "2026-10-26T19:42:35.021074Z",
+    "snippet": "Boomitra&#x27;s MRV Framework provides a science-based overview of a satellite- and AI-enabled soil carbon measurement system aimed at smallholder farms in India, focusing on cost-effective precision and broad inclusion. The framework integrates remote sensing, machine learning, and ground-truth data to accurately estimate soil organic carbon (SOC) changes while addressing challenges related to ...",
+    "title": "Soil Carbon Monitoring for Indian Farms",
+    "url": "https://www.scribd.com/document/945339799/Boomitra-Social-Carbon-India-MRV-Framework"
+   },
+   {
+    "query": "India agricultural MRV market size remote sensing soil carbon 2024 2025 2030 forecast",
+    "retrieved_at": "2026-10-26T19:42:35.021074Z",
+    "snippet": "The global farm carbon MRV market was valued at USD 1.52 billion in 2025, projected to reach USD 3.48 billion by 2030 at 18.04% CAGR. Get the full analysis.",
+    "title": "Global Agricultural Carbon MRV Market Size &amp; Forecast 2026-2030",
+    "url": "https://marqstats.com/reports/global-agricultural-carbon-mrv-market/"
+   },
+   {
+    "query": "Varaha carbon credits India acres farmers MRV technology 2025 2026",
+    "retrieved_at": "2026-10-26T19:42:45.371344Z",
+    "snippet": "Experts at the Bharat International Rice Conference 2026 highlight how carbon credits and eco-friendly farming can boost ...",
+    "title": "Carbon Credits Can Boost Rice Farmer Incomes and Aid Sustainability",
+    "url": "https://www.msn.com/en-in/news/other/carbon-credits-can-boost-rice-farmer-incomes-and-aid-sustainability/ar-AA2fYJaP?ocid=BingNewsVerp"
+   },
+   {
+    "query": "Varaha carbon credits India acres farmers MRV technology 2025 2026",
+    "retrieved_at": "2026-10-26T19:42:45.371344Z",
+    "snippet": "Microsoft has signed a three-year agreement to buy nearly 37,000 metric tons of carbon removal credits from Indian startup Alt Carbon, marking the tech giant\u2019s first enhanced rock weathering deal in ...",
+    "title": "Microsoft taps Alt Carbon in sign of India\u2019s growing role in carbon removal",
+    "url": "https://techcrunch.com/2026/06/11/microsoft-taps-alt-carbon-in-sign-of-indias-growing-rile-in-carbon-removal/"
+   },
+   {
+    "query": "Varaha carbon credits India acres farmers MRV technology 2025 2026",
+    "retrieved_at": "2026-10-26T19:42:45.371344Z",
+    "snippet": "Boston, July 30, 2026 (GLOBE NEWSWIRE) -- Artificial intelligence is rapidly transforming the carbon farming industry as venture capital flows accelerate and regulatory pressures intensify around ...",
+    "title": "AI Technology Disrupts Carbon Farming Market as Investors Pour Millions into Digital Agriculture Solutions",
+    "url": "https://finance.yahoo.com/technology/ai/articles/ai-technology-disrupts-carbon-farming-151500639.html"
+   },
+   {
+    "query": "Varaha carbon credits India acres farmers MRV technology 2025 2026",
+    "retrieved_at": "2026-10-26T19:42:45.371344Z",
+    "snippet": "Google has agreed to buy 1 million carbon credits from Indian climate-tech startup Mitti Labs through 2030, in what the companies say is the largest publicly announced deal to date for credits ...",
+    "title": "Google signs its biggest rice-methane carbon credit deal with Indian startup Mitti Labs",
+    "url": "https://techcrunch.com/2026/09/10/google-signs-its-biggest-rice-methane-carbon-credit-deal-with-indian-startup-mitti-labs/"
+   },
+   {
+    "query": "India soil carbon credit market size 2025 2030 rupees smallholder farmers regenerative agriculture",
+    "retrieved_at": "2026-10-26T19:42:45.649955Z",
+    "snippet": "Dublin, Jan. 27, 2026 (GLOBE NEWSWIRE) -- The \"Carbon Credit for Agriculture, Forestry, and Land Use Market Report 2026\" has been added to ResearchAndMarkets.com's offering. The global carbon credit ...",
+    "title": "Carbon Credit for Agriculture, Forestry, and Land Use Market Report 2026: $26.35 Bn Opportunities, Trends, Competitive Landscape, Strategies, and Forecasts, 2020-2025, 2025 ...",
+    "url": "https://finance.yahoo.com/news/carbon-credit-agriculture-forestry-land-095800400.html"
+   },
+   {
+    "query": "India soil carbon credit market size 2025 2030 rupees smallholder farmers regenerative agriculture",
+    "retrieved_at": "2026-10-26T19:42:45.649955Z",
+    "snippet": "Austin, April 06, 2026 (GLOBE NEWSWIRE)-- Regenerative Agriculture Market Size & Growth Insights: According to the SNS Insider, \"The Regenerative Agriculture Market Size was valued at USD 9.83 Billion ...",
+    "title": "Regenerative Agriculture Market Size to Grow $37.44 Billion by 2035 | SNS Insider",
+    "url": "https://finance.yahoo.com/sectors/energy/articles/regenerative-agriculture-market-size-grow-143000586.html"
+   },
+   {
+    "query": "India soil carbon credit market size 2025 2030 rupees smallholder farmers regenerative agriculture",
+    "retrieved_at": "2026-10-26T19:42:45.649955Z",
+    "snippet": "Dublin, May 26, 2026 (GLOBE NEWSWIRE) -- The \"Voluntary Agriculture Carbon Credit Market Size, Market Share, Application Analysis, Regional Outlook, Growth Trends, Key Players, Competitive Strategies ...",
+    "title": "Voluntary Agriculture Carbon Credit Research Report: Regional Outlook, Growth Trends, Key Players, Competitive Strategies and Forecasts 2025-2033",
+    "url": "https://finance.yahoo.com/sectors/energy/articles/voluntary-agriculture-carbon-credit-research-080200675.html"
+   },
+   {
+    "query": "India soil carbon credit market size 2025 2030 rupees smallholder farmers regenerative agriculture",
+    "retrieved_at": "2026-10-26T19:42:45.649955Z",
+    "snippet": "Dublin, April 09, 2026 (GLOBE NEWSWIRE)-- The \"Regenerative Agriculture Market - Global Forecast 2026-2030\" report has been added to ResearchAndMarkets.com's offering. The Regenerative Agriculture ...",
+    "title": "Regenerative Agriculture Global Market Forecast Report 2026-2030: Strategic Alliances Between Startups and Agribusinesses Accelerate Scaling of Data-Driven Agricultural ...",
+    "url": "https://finance.yahoo.com/sectors/energy/articles/regenerative-agriculture-global-market-forecast-085600184.html"
+   },
+   {
+    "query": "Boomitra India operations acres farmers MRV soil carbon 2025 2026",
+    "retrieved_at": "2026-10-26T19:42:45.847388Z",
+    "snippet": "This marks Boomitra&#x27;s fifth Verra-registered soil carbon project globally and the first in India to be registered under the VM0042 methodology, further validating our scalable and inclusive model for regenerative agriculture.",
+    "title": "Boomitra&#x27;s Carbon Farming Project in India Achieves Verra Registration",
+    "url": "https://boomitra.com/boomitras-carbon-farming-project-in-india-achieves-verra-registration/"
+   },
+   {
+    "query": "Boomitra India operations acres farmers MRV soil carbon 2025 2026",
+    "retrieved_at": "2026-10-26T19:42:45.847388Z",
+    "snippet": "Explore Boomitra&#x27;s Carbon Farming Project in India\u2014advancing regenerative agriculture, empowering smallholder farmers with carbon finance, and enabling soil carbon removal through AI and satellite-based monitoring.",
+    "title": "Boomitra Carbon Farming in India",
+    "url": "https://landing.boomitra.com/boomitra-carbon-farming-in-india"
+   },
+   {
+    "query": "Boomitra India operations acres farmers MRV soil carbon 2025 2026",
+    "retrieved_at": "2026-10-26T19:42:45.847388Z",
+    "snippet": "Boomitra&#x27;s MRV Framework for Monitoring Soil Carbon in Indian Smallholder Farms (URVARA Project) A transparent, science-based overview of our satellite- and AI-enabled soil carbon measurement system, designed for cost-effective precision and broad smallholder inclusion\u2014featuring detailed methods, calibration data, uncertainty quantification, and validation results.",
+    "title": "PDF Boomitra&#x27;s MRV Framework for Monitoring Soil Carbon in Indian ...",
+    "url": "https://44586229.fs1.hubspotusercontent-na2.net/hubfs/44586229/Boomitra-Social%20Carbon-India-MRV%20Framework.pdf"
+   },
+   {
+    "query": "Boomitra India operations acres farmers MRV soil carbon 2025 2026",
+    "retrieved_at": "2026-10-26T19:42:45.847388Z",
+    "snippet": "Discover Boomitra&#x27;s URVARA project in India\u2014empowering smallholder farmers with regenerative agriculture and carbon finance. Verified soil carbon removals, equitable impact, and scalable climate solutions.",
+    "title": "Boomitra URVARA Carbon Farming in India",
+    "url": "https://landing.boomitra.com/boomitra-urvara-carbon-farming-in-india"
+   },
+   {
+    "query": "Boomitra India operations acres farmers MRV soil carbon 2025 2026",
+    "retrieved_at": "2026-10-26T19:42:45.847388Z",
+    "snippet": "The Boomitra Carbon Farming project in India focuses on reversing land degradation and increasing soil carbon through sustainable farming practices. This initiative empowers small and marginal farmers with techniques like residue management and improved cropping, enhancing soil health and productivity.",
+    "title": "Carbon Farming in India - Boomitra",
+    "url": "https://boomitra.com/projects/boomitra-carbon-farming-india/"
+   },
+   {
+    "query": "CropIn AgriTech carbon credits MRV agriculture India 2025 2026",
+    "retrieved_at": "2026-10-26T19:42:46.445968Z",
+    "snippet": "Carbon farming India 2026 has emerged as one of the most exciting new income streams for Indian farmers \u2014 turning climate-positive land practices into tradeable carbon credits worth Rs.8,000 to Rs.15,000 per acre per year. With the Union Budget 2026 announcing a Rs.20,000 crore Carbon Capture, Utilisation and Storage (CCUS) programme and India&#x27;s domestic Carbon Credit Trading Scheme (CCTS ...",
+    "title": "Carbon Farming India 2026 - Earn Carbon Credits &amp; Sell",
+    "url": "https://www.agrijob.in/carbon-farming-india-2026-earn-carbon-credits-sell-globally/"
+   },
+   {
+    "query": "CropIn AgriTech carbon credits MRV agriculture India 2025 2026",
+    "retrieved_at": "2026-10-26T19:42:46.445968Z",
+    "snippet": "A plain-English 2026 guide to carbon credits for Indian farmers: what they are, which practices qualify, how much you can realistically earn, why you need an FPO, and the step-by-step path from field to payment.",
+    "title": "Carbon Credits for Farmers in India: The Complete 2026 Guide",
+    "url": "https://agricarboncredits.in/blog/carbon-credits-for-farmers-india-2026"
+   },
+   {
+    "query": "CropIn AgriTech carbon credits MRV agriculture India 2025 2026",
+    "retrieved_at": "2026-10-26T19:42:46.445968Z",
+    "snippet": "Agriculture carbon credits \u00b7 India Earn from your land \u2014 turn farming into carbon income We help Indian farmers, FPOs, cooperatives and agribusinesses earn verified carbon credits from soil carbon, agroforestry and rice methane reduction \u2014 with rigorous MRV, trusted verification and fair monetization.",
+    "title": "AgriCarbon Credits \u2014 Earn from your land \u2014 carbon credits for Indian ...",
+    "url": "https://agricarboncredits.in/"
+   },
+   {
+    "query": "CropIn AgriTech carbon credits MRV agriculture India 2025 2026",
+    "retrieved_at": "2026-10-26T19:42:46.445968Z",
+    "snippet": "Cropin turns field records, satellite observation and climate data into decisions on crops, supply, water, forests and land risk, with work in 103 countries.",
+    "title": "Cropin | Agricultural and Physical-World Intelligence",
+    "url": "https://www.cropin.com/"
+   },
+   {
+    "query": "CropIn AgriTech carbon credits MRV agriculture India 2025 2026",
+    "retrieved_at": "2026-10-26T19:42:46.445968Z",
+    "snippet": "Cropin in the news Coverage of Cropin&#x27;s work by business, technology and agriculture media.",
+    "title": "Cropin Newsroom: Press Releases and Company News",
+    "url": "https://www.cropin.com/newsroom/"
+   }
+  ]
+ },
+ "input_hash": "5dadd3a1b9b27949194b11ecaf089774eea292153392f7706e91fa02cbd5e760"
+}

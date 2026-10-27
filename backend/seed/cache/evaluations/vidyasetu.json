@@ -1,0 +1,500 @@
+{
+ "analysis": {
+  "category_scores": {
+   "business_model": 6.7,
+   "execution_risk": 5.3,
+   "market": 5.7,
+   "moat": 4.3,
+   "product": 6.0,
+   "team": 6.0,
+   "traction": 6.0
+  },
+  "citations": {
+   "c:2nxjghc": {
+    "bbox": [
+     0.05608,
+     0.0554,
+     0.89339,
+     0.84991
+    ],
+    "chunk_id": "d8833777-4a5a-505f-9cf3-61f01e4c8a60",
+    "document_id": "4237ba90-b646-4f81-9e19-4e93baf235ff",
+    "page_no": 6,
+    "slide_title": "Traction (as of Sep 2026)",
+    "type": "deck"
+   },
+   "c:3c6irjz": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.85096,
+     0.50907
+    ],
+    "chunk_id": "e3fff591-a409-5c8a-befd-35b3b9ec1bf2",
+    "document_id": "4237ba90-b646-4f81-9e19-4e93baf235ff",
+    "page_no": 3,
+    "slide_title": "Solution",
+    "type": "deck"
+   },
+   "c:4fcl4nr": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.92414,
+     0.42291
+    ],
+    "chunk_id": "3a3f150a-3b09-577e-b9fc-f6753afef608",
+    "document_id": "4237ba90-b646-4f81-9e19-4e93baf235ff",
+    "page_no": 4,
+    "slide_title": "Market Opportunity (TAM / SAM / SOM)",
+    "type": "deck"
+   },
+   "c:amgfrk6": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.9041,
+     0.63306
+    ],
+    "chunk_id": "927178b5-1a14-50d1-834c-e24352f07f07",
+    "document_id": "4237ba90-b646-4f81-9e19-4e93baf235ff",
+    "page_no": 2,
+    "slide_title": "Problem",
+    "type": "deck"
+   },
+   "c:bibak2a": {
+    "bbox": [
+     0.05757,
+     0.0554,
+     0.94513,
+     0.65291
+    ],
+    "chunk_id": "ca515306-ca6b-59e1-b1a9-32c9ab55ca5f",
+    "document_id": "4237ba90-b646-4f81-9e19-4e93baf235ff",
+    "page_no": 8,
+    "slide_title": "Competitive Landscape",
+    "type": "deck"
+   },
+   "c:eqayze7": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.86275,
+     0.37762
+    ],
+    "chunk_id": "02157732-7a62-59ec-9193-e6260c3d3793",
+    "document_id": "4237ba90-b646-4f81-9e19-4e93baf235ff",
+    "page_no": 5,
+    "slide_title": "Business Model",
+    "type": "deck"
+   },
+   "c:ezgd3qe": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.89667,
+     0.65193
+    ],
+    "chunk_id": "ad05d491-dd0b-5c9a-872c-c01f753f547a",
+    "document_id": "4237ba90-b646-4f81-9e19-4e93baf235ff",
+    "page_no": 11,
+    "slide_title": "The Ask",
+    "type": "deck"
+   },
+   "c:hr3s663": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.78742,
+     0.57729
+    ],
+    "chunk_id": "ec116a16-cd56-5289-8620-3fa4f3cfe977",
+    "document_id": "4237ba90-b646-4f81-9e19-4e93baf235ff",
+    "page_no": 9,
+    "slide_title": "Go-to-Market & Key Risks",
+    "type": "deck"
+   },
+   "c:o5tcq6f": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.88782,
+     0.4682
+    ],
+    "chunk_id": "33a3c6d7-d92b-5e63-8596-9aeec074cd46",
+    "document_id": "4237ba90-b646-4f81-9e19-4e93baf235ff",
+    "page_no": 10,
+    "slide_title": "Team",
+    "type": "deck"
+   },
+   "c:urse2in": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.71225,
+     0.51605
+    ],
+    "chunk_id": "f561a7bb-0b6f-5331-b2eb-d11e6bd89950",
+    "document_id": "4237ba90-b646-4f81-9e19-4e93baf235ff",
+    "page_no": 7,
+    "slide_title": "Unit Economics",
+    "type": "deck"
+   },
+   "c:xhkm5lw": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.85515,
+     0.50907
+    ],
+    "chunk_id": "2441ce40-2887-5529-9b91-5405efc26239",
+    "document_id": "4237ba90-b646-4f81-9e19-4e93baf235ff",
+    "page_no": 1,
+    "slide_title": "VidyaSetu",
+    "type": "deck"
+   },
+   "w:12": {
+    "title": "EdTech in India - Research and Markets",
+    "type": "web",
+    "url": "https://www.researchandmarkets.com/reports/5973200/edtech-in-india"
+   },
+   "w:13": {
+    "title": "India Edtech Market Size, Share | Growth and Analysis 2034",
+    "type": "web",
+    "url": "https://www.imarcgroup.com/india-edtech-market"
+   },
+   "w:19": {
+    "title": "Doubtnut: Funding, Team &amp; Investors | Startup Intros",
+    "type": "web",
+    "url": "https://startupintros.com/orgs/doubtnut"
+   },
+   "w:20": {
+    "title": "Doubtnut - 2026 Company Profile, Team, Funding, Competitors ... - Tracxn",
+    "type": "web",
+    "url": "https://tracxn.com/d/companies/doubtnut/__lKIWQgQpn9hGBmZN6onaXwupub948IuF1omI8R3YRLQ"
+   },
+   "w:21": {
+    "title": "National Digital Education Policy Updates for 2026",
+    "type": "web",
+    "url": "https://www.3university.io/learn/national-digital-education-policy-updates/"
+   },
+   "w:22": {
+    "title": "Indian EdTech Laws for Teachers: 2026 Compliance Guide",
+    "type": "web",
+    "url": "https://allcoaching.in/blog/indian-edtech-laws-and-regulations-for-teachers"
+   },
+   "w:24": {
+    "title": "Classroom AI India 2026: NEP rollout playbook - ecorpit.com",
+    "type": "web",
+    "url": "https://ecorpit.com/edtech-india-classroom-ai-nep-rollout-playbook-2026/"
+   },
+   "w:25": {
+    "title": "PDF \u0915\u0947\u0928\u094d\u0926\u094d\u0930\u0940\u092f \u092e\u093e\u0927\u094d\u092f\u0936\u092e\u0915 \u0936\u093f\u0915\u094d\u0937\u093e \u092c\u094b\u0930\u094d\u0921",
+    "type": "web",
+    "url": "https://cbseacademic.nic.in/web_material/Circulars/2025/81_Circular_2025.pdf"
+   }
+  },
+  "citations_removed": 0,
+  "compliance_flags": [],
+  "data_gaps": [
+   "TAM: no usable source excerpt with value, unit and period.",
+   "SAM: no usable source excerpt with value, unit and period.",
+   "CAGR: no usable source excerpt with value, unit and period.",
+   "SOM: no independent source found; the deck claims 40 INR crore (p.4).",
+   "Market trend unavailable: no sourced annual observations or publisher forecasts. No years were interpolated."
+  ],
+  "evidence_version": 2,
+  "generated_at": "2026-10-26T19:40:36.568150Z",
+  "input_hash": "865b91ff6e9964cfa590b53c448551c0d3fdf53734077c01a233bce6b9c78218",
+  "invalid_citations": [],
+  "market_sizing": {
+   "basis": "Only figures traceable to retrieved search excerpts are plotted as market data.",
+   "cagr_pct": null,
+   "claims": {
+    "som_usd_b": {
+     "check": {
+      "status": "unverified"
+     },
+     "citation": {
+      "bbox": [
+       0.0677,
+       0.0554,
+       0.92414,
+       0.42291
+      ],
+      "chunk_id": "3a3f150a-3b09-577e-b9fc-f6753afef608",
+      "cid": "c:4fcl4nr",
+      "document_id": "4237ba90-b646-4f81-9e19-4e93baf235ff",
+      "page_no": 4
+     },
+     "currency": "INR",
+     "geography": "India (UP, Bihar, MP, Rajasthan)",
+     "kind": "company_forecast",
+     "low_confidence": false,
+     "market": "3-year obtainable share of SAM",
+     "normalised": 0.4,
+     "period": "",
+     "quote": "SOM \u2014 3-year obtainable share of SAM: Rs 40 crore in 2029 (company projection)",
+     "retrieved_at": null,
+     "source_title": "VidyaSetu_Pitch_Deck.pdf, p.4",
+     "source_url": null,
+     "unit": "INR crore",
+     "value": 40.0,
+     "year": 2029
+    }
+   },
+   "evidence": {},
+   "sam_usd_b": null,
+   "som_usd_b": null,
+   "tam_usd_b": null,
+   "trend": []
+  },
+  "model": "azure/deepSeek-V4-Flash",
+  "overall_score": 5.8,
+  "projected_revenue": [
+   {
+    "citation": {
+     "bbox": [
+      0.05608,
+      0.0554,
+      0.89339,
+      0.84991
+     ],
+     "chunk_id": "d8833777-4a5a-505f-9cf3-61f01e4c8a60",
+     "cid": "c:2nxjghc",
+     "document_id": "4237ba90-b646-4f81-9e19-4e93baf235ff",
+     "page_no": 6
+    },
+    "geography": "India",
+    "kind": "company_reported",
+    "low_confidence": false,
+    "market": "VidyaSetu",
+    "metric": "ARR",
+    "period": "",
+    "quote": "ARR: Rs 1.8 crore in 2026",
+    "retrieved_at": null,
+    "revenue": 18.0,
+    "source_title": "VidyaSetu_Pitch_Deck.pdf, p.6",
+    "source_url": null,
+    "unit": "INR crore",
+    "value": 1.8,
+    "year": 2026
+   }
+  ],
+  "recommendation_label": "Hold",
+  "report_markdown": "## 1. Executive Summary\n\nVidyaSetu is a Hindi-first AI tutor on WhatsApp and Android targeting state-board students in grades 6-10, with 61,000 monthly active students and 9,200 paying subscribers at Rs 149/month. The company has grown ARR from Rs 0.3 crore in 2024 to Rs 1.8 crore in 2026 (company-reported, unverified) [c:2nxjghc]. Unit economics are positive (CAC Rs 420, payback 3.4 months, gross margin 82%) but monthly churn is high at 7.5% [c:urse2in]. The team has relevant domain experience but no prior scaling track record [c:o5tcq6f]. The product works and has early traction, but retention and competitive moat are concerns. Overall score: 5.8/10, Hold.\n\n## 2. Problem & Solution\n\nStudents in Hindi-medium state-board schools (grades 6-10) lack homework support outside class, and most edtech apps are English-first and priced for metro families. Private tuition costs Rs 500-1,500 per subject per month in tier-2/3 towns (company estimates) [c:amgfrk6]. VidyaSetu offers a low-cost AI tutor in Hindi and Hinglish on WhatsApp and a lightweight Android app, providing step-by-step explanations (text or voice), photo-based homework checking, weekly practice tests aligned to NCERT and state-board syllabi, and parent progress reports [c:3c6irjz]. The solution directly addresses the language and affordability gap in the market.\n\n## 3. Market Opportunity\n\nVidyaSetu sizes its TAM at Rs 9,800 crore and SAM at Rs 1,500 crore for 2025 (company estimates, unverified) [c:4fcl4nr]. Independent sources show the Indian EdTech market at $6.5B in 2025 (Rs ~54,000 crore) with K-12 at $2.9B, growing at 18-28% CAGR [w:12][w:13]. The company's SAM is scoped to Hindi-medium state-board students in UP, Bihar, MP, and Rajasthan, which is plausible but not independently verified. The SOM projection of Rs 40 crore by 2029 is a company projection [c:4fcl4nr]. The market is large and growing, but the company's specific TAM/SAM figures lack third-party validation.\n\n## 4. Competitive Landscape\n\nVidyaSetu claims edges from Hindi/Hinglish tutoring data (4M questions), chapter-level state-board alignment, and WhatsApp distribution keeping CAC low (Rs 420) [c:bibak2a]. Competitors include PhysicsWallah (low-cost test prep with Hindi content), Khan Academy (free Hindi content), and local tuition centres (the default for families) [c:bibak2a]. These are execution advantages, not structural moats. No IP, network effects, or switching costs are demonstrated. The company also faces potential competition from Doubtnut, a well-funded doubt-clearing app with WhatsApp integration [w:19][w:20].\n\n## 5. Business Model\n\nRevenue comes from student subscriptions (Rs 149/month, 91% of revenue) and school licences (Rs 40,000/year, 9% of revenue) [c:eqayze7]. Unit economics are positive: CAC Rs 420, payback 3.4 months, gross margin 82% [c:urse2in]. However, monthly churn of 7.5% is high, and net revenue retention is not disclosed [c:urse2in]. The funding is structured in tranches with milestones (25,000 paying students with churn below 6%, Bihar/MP launch) to mitigate execution risk [c:ezgd3qe]. The business model is clear and early unit metrics are strong, but churn limits the score.\n\n## 6. Team Assessment\n\nThe founding team has relevant domain experience: CEO Saurabh Tiwari was a maths teacher and ran a coaching centre for 6 years; CTO Nandini Rao has NLP engineering experience building Hindi speech/text models; Content lead Pooja Yadav was a curriculum lead at a state-board publisher [c:o5tcq6f]. This covers key roles with domain fit. However, there is no evidence they have previously built or scaled a venture to significant size. The team is credible for the seed stage but lacks a track record of scaling.\n\n## 7. Traction & Milestones\n\n**Traction & Milestones**\n\n- **ARR growth:** Rs 1.8 crore (Sep 2026, company-reported), up from Rs 0.3 crore in 2024 and Rs 0.9 crore in 2025 [c:2nxjghc].\n- **User base:** 61,000 monthly active students; 9,200 paying subscribers at Rs 149/month [c:2nxjghc].\n- **School licences:** 39 schools paying Rs 40,000/year each [c:eqayze7][c:2nxjghc].\n- **Engagement:** Paying students use the tutor 11 times per week on average [c:2nxjghc].\n- **Learning outcome:** Average maths test score improvement of 9 points over one term, reported for 1,100 paying students (company-reported) [c:2nxjghc].\n- **Unit economics:** CAC Rs 420, payback 3.4 months, gross margin 82%, monthly churn 7.5%, free-to-paid conversion 15% [c:urse2in].\n- **Milestone target:** 25,000 paying students within 18 months [c:hr3s663].\n\n## 8. Compliance & Governance\n\n**Compliance & Governance**\n\n- **Registry check:** MCA CIN U85499UP2023PTC187356, status ACTIVE, registered as VIDYASETU PRIVATE LIMITED. Directors: Saurabh Tiwari, Nandini Rao, Pooja Yadav [c:xhkm5lw].\n- **Compliance flags:** None identified.\n- **Data privacy:** The startup operates in the Indian EdTech space and must comply with the DPDP Act 2023, especially for children's data [w:22][w:24]. No specific compliance measures are disclosed in the deck.\n- **Regulatory context:** NEP 2020 rollout and AI mandates in curricula create both opportunities and compliance requirements [w:21][w:25]. The deck does not address these.\n- **Governance note:** The funding is structured in tranches with milestones (25,000 paying students, Bihar/MP launch) [c:ezgd3qe], which provides investor protection but also indicates the startup is still proving scalability.\n\n## 9. Risks & Challenges\n\n**Risks & Challenges**\n\n- **High churn:** Monthly churn of 7.5% is high for a subscription model, implying significant customer lifetime value risk [c:urse2in]. The company itself flags this as a key risk [c:hr3s663].\n- **Seasonal demand:** Usage peaks during exam season, which could create revenue volatility and capacity management issues [c:hr3s663].\n- **AI reliability:** Wrong AI answers could damage trust with parents and schools, a critical risk for an education product [c:hr3s663].\n- **Pricing pressure:** Free content from large players (e.g., Khan Academy, PhysicsWallah) caps pricing power [c:hr3s663].\n- **Execution dependency:** The tranche-based funding structure ties capital to specific milestones (25,000 paying students, Bihar/MP launch) [c:ezgd3qe]. Missing these could stall growth.\n- **Competitive landscape:** Competitors like PhysicsWallah and Khan Academy already offer Hindi content, and local tuition centres are deeply entrenched [c:bibak2a].\n- **Data gaps:** No independent validation of TAM/SAM figures; no net revenue retention disclosed; limited retention data beyond churn.\n\n## 10. Investment Thesis\n\n**Investment Thesis**\n\nVidyaSetu addresses a clear, underserved need: Hindi-medium state-board students in grades 6-10 who lack affordable, accessible tutoring. The product is live, with 61,000 monthly active students and 9,200 paying users, and early unit economics are positive (CAC Rs 420, payback 3.4 months, gross margin 82%) [c:urse2in]. The ARR has grown from Rs 0.3 crore (2024) to Rs 1.8 crore (2026) [c:2nxjghc], and the team has relevant domain experience [c:o5tcq6f].\n\nHowever, the investment case is tempered by high monthly churn (7.5%), limited moat (no IP or network effects), and a competitive landscape where free alternatives exist [c:bibak2a][c:hr3s663]. The TAM/SAM figures are company estimates without independent backing [c:4fcl4nr]. The tranche-based funding structure mitigates some execution risk but also signals the startup is still proving scalability [c:ezgd3qe].\n\nAt a Rs 30 crore pre-money valuation and Rs 1.8 crore ARR, the multiple is ~16.7x, which is high for a seed-stage company with 7.5% monthly churn. The opportunity is real, but the risk/reward balance suggests a Hold.\n\n## 11. Recommendation\n\n**Recommendation: Hold (5.8/10)**\n\nVidyaSetu has a working product with early traction and positive unit economics, but high churn, limited moat, and execution risks prevent a stronger rating. The team is domain-fit but unproven at scale. The market is large and growing, but the company's estimates are unverified. The tranche-based funding structure provides some downside protection for investors. Overall, a cautious Hold \u2014 wait for evidence of churn reduction and milestone achievement before committing.",
+  "revenue_currency": "INR",
+  "revenue_metric": "ARR",
+  "rewrites": 1,
+  "rubric_version": "r1",
+  "score_rationales": {
+   "business_model": "Pricing is clear (Rs 149/month subscription + school licences), and unit economics are positive on early data: CAC Rs 420, payback 3.4 months, gross margin 82% [c:urse2in]. Monthly churn of 7.5% is high, which limits the score below 8 despite strong early unit metrics. Net revenue retention is not disclosed.",
+   "execution_risk": "Key risks are identified: high monthly churn (7.5%), exam-season peaks, potential AI errors damaging trust, and pricing pressure from free competitors [c:hr3s663]. The funding is structured in tranches with milestones to mitigate some risks [c:ezgd3qe]. No regulatory or registry red flags exist. Risks are significant but partially mitigated, placing the score at 5.",
+   "market": "The company sizes TAM at Rs 9,800 crore and SAM at Rs 1,500 crore using its own estimates [c:4fcl4nr]. Independent sources show the Indian EdTech market at $6.5B in 2025 (Rs ~54,000 crore) with K-12 at $2.9B [w:12], and the broader market growing at 18-28% CAGR [w:12][w:13]. The company's SAM is plausible and scoped to Hindi-medium state-board students, but the TAM/SAM figures are company estimates without independent backing. Score 6: sizable market with credible scoped estimate, but company-sourced.",
+   "moat": "The company claims edges from Hindi/Hinglish tutoring data (4M questions), chapter-level state-board alignment, and WhatsApp distribution keeping CAC low [c:bibak2a]. These are execution advantages and data accumulation, but competitors like PhysicsWallah and Khan Academy also offer Hindi content, and local tuition centres are entrenched. No IP, network effects, or switching costs are demonstrated. Score 4: execution advantages only, easily replicable.",
+   "product": "The product is a working AI tutor on WhatsApp and Android used by 61,000 monthly active students, with paying customers (9,200) and a clear value proposition: Hindi/Hinglish explanations, photo-based homework checking, and weekly tests aligned to state-board syllabi [c:3c6irjz]. However, evidence of strong product-market fit (e.g., retention, expansion beyond initial users) is limited, and the company itself flags high monthly churn (7.5%) and exam-season peaks [c:hr3s663].",
+   "team": "The founding team has relevant domain experience: CEO Saurabh Tiwari was a maths teacher and ran a coaching centre; CTO Nandini Rao has NLP engineering experience; Content lead Pooja Yadav was a curriculum lead at a state-board publisher [c:o5tcq6f]. This covers key roles with domain fit, but there is no evidence they have previously built or scaled a venture to significant size.",
+   "traction": "The startup has a growing ARR of Rs 1.8 crore (up from Rs 0.3 crore in 2024 and Rs 0.9 crore in 2025) [c:2nxjghc], with 9,200 paying students and 39 school licences. Growth is strong but not yet at the 2x/year benchmark (2024\u21922025 was 3x, 2025\u21922026 is 2x). Retention data is limited (7.5% monthly churn), and the average test score improvement of 9 points is reported only for 1,100 students [c:2nxjghc]."
+  },
+  "score_spread": {
+   "business_model": 2.0,
+   "execution_risk": 2.0,
+   "market": 2.0,
+   "moat": 1.0,
+   "product": 0.0,
+   "team": 0.0,
+   "traction": 0.0
+  },
+  "sections": {
+   "business_model": "Revenue comes from student subscriptions (Rs 149/month, 91% of revenue) and school licences (Rs 40,000/year, 9% of revenue) [c:eqayze7]. Unit economics are positive: CAC Rs 420, payback 3.4 months, gross margin 82% [c:urse2in]. However, monthly churn of 7.5% is high, and net revenue retention is not disclosed [c:urse2in]. The funding is structured in tranches with milestones (25,000 paying students with churn below 6%, Bihar/MP launch) to mitigate execution risk [c:ezgd3qe]. The business model is clear and early unit metrics are strong, but churn limits the score.",
+   "competitive_landscape": "VidyaSetu claims edges from Hindi/Hinglish tutoring data (4M questions), chapter-level state-board alignment, and WhatsApp distribution keeping CAC low (Rs 420) [c:bibak2a]. Competitors include PhysicsWallah (low-cost test prep with Hindi content), Khan Academy (free Hindi content), and local tuition centres (the default for families) [c:bibak2a]. These are execution advantages, not structural moats. No IP, network effects, or switching costs are demonstrated. The company also faces potential competition from Doubtnut, a well-funded doubt-clearing app with WhatsApp integration [w:19][w:20].",
+   "compliance_governance": "**Compliance & Governance**\n\n- **Registry check:** MCA CIN U85499UP2023PTC187356, status ACTIVE, registered as VIDYASETU PRIVATE LIMITED. Directors: Saurabh Tiwari, Nandini Rao, Pooja Yadav [c:xhkm5lw].\n- **Compliance flags:** None identified.\n- **Data privacy:** The startup operates in the Indian EdTech space and must comply with the DPDP Act 2023, especially for children's data [w:22][w:24]. No specific compliance measures are disclosed in the deck.\n- **Regulatory context:** NEP 2020 rollout and AI mandates in curricula create both opportunities and compliance requirements [w:21][w:25]. The deck does not address these.\n- **Governance note:** The funding is structured in tranches with milestones (25,000 paying students, Bihar/MP launch) [c:ezgd3qe], which provides investor protection but also indicates the startup is still proving scalability.",
+   "executive_summary": "VidyaSetu is a Hindi-first AI tutor on WhatsApp and Android targeting state-board students in grades 6-10, with 61,000 monthly active students and 9,200 paying subscribers at Rs 149/month. The company has grown ARR from Rs 0.3 crore in 2024 to Rs 1.8 crore in 2026 (company-reported, unverified) [c:2nxjghc]. Unit economics are positive (CAC Rs 420, payback 3.4 months, gross margin 82%) but monthly churn is high at 7.5% [c:urse2in]. The team has relevant domain experience but no prior scaling track record [c:o5tcq6f]. The product works and has early traction, but retention and competitive moat are concerns. Overall score: 5.8/10, Hold.",
+   "investment_thesis": "**Investment Thesis**\n\nVidyaSetu addresses a clear, underserved need: Hindi-medium state-board students in grades 6-10 who lack affordable, accessible tutoring. The product is live, with 61,000 monthly active students and 9,200 paying users, and early unit economics are positive (CAC Rs 420, payback 3.4 months, gross margin 82%) [c:urse2in]. The ARR has grown from Rs 0.3 crore (2024) to Rs 1.8 crore (2026) [c:2nxjghc], and the team has relevant domain experience [c:o5tcq6f].\n\nHowever, the investment case is tempered by high monthly churn (7.5%), limited moat (no IP or network effects), and a competitive landscape where free alternatives exist [c:bibak2a][c:hr3s663]. The TAM/SAM figures are company estimates without independent backing [c:4fcl4nr]. The tranche-based funding structure mitigates some execution risk but also signals the startup is still proving scalability [c:ezgd3qe].\n\nAt a Rs 30 crore pre-money valuation and Rs 1.8 crore ARR, the multiple is ~16.7x, which is high for a seed-stage company with 7.5% monthly churn. The opportunity is real, but the risk/reward balance suggests a Hold.",
+   "market_opportunity": "VidyaSetu sizes its TAM at Rs 9,800 crore and SAM at Rs 1,500 crore for 2025 (company estimates, unverified) [c:4fcl4nr]. Independent sources show the Indian EdTech market at $6.5B in 2025 (Rs ~54,000 crore) with K-12 at $2.9B, growing at 18-28% CAGR [w:12][w:13]. The company's SAM is scoped to Hindi-medium state-board students in UP, Bihar, MP, and Rajasthan, which is plausible but not independently verified. The SOM projection of Rs 40 crore by 2029 is a company projection [c:4fcl4nr]. The market is large and growing, but the company's specific TAM/SAM figures lack third-party validation.",
+   "problem_solution": "Students in Hindi-medium state-board schools (grades 6-10) lack homework support outside class, and most edtech apps are English-first and priced for metro families. Private tuition costs Rs 500-1,500 per subject per month in tier-2/3 towns (company estimates) [c:amgfrk6]. VidyaSetu offers a low-cost AI tutor in Hindi and Hinglish on WhatsApp and a lightweight Android app, providing step-by-step explanations (text or voice), photo-based homework checking, weekly practice tests aligned to NCERT and state-board syllabi, and parent progress reports [c:3c6irjz]. The solution directly addresses the language and affordability gap in the market.",
+   "recommendation": "**Recommendation: Hold (5.8/10)**\n\nVidyaSetu has a working product with early traction and positive unit economics, but high churn, limited moat, and execution risks prevent a stronger rating. The team is domain-fit but unproven at scale. The market is large and growing, but the company's estimates are unverified. The tranche-based funding structure provides some downside protection for investors. Overall, a cautious Hold \u2014 wait for evidence of churn reduction and milestone achievement before committing.",
+   "risks_challenges": "**Risks & Challenges**\n\n- **High churn:** Monthly churn of 7.5% is high for a subscription model, implying significant customer lifetime value risk [c:urse2in]. The company itself flags this as a key risk [c:hr3s663].\n- **Seasonal demand:** Usage peaks during exam season, which could create revenue volatility and capacity management issues [c:hr3s663].\n- **AI reliability:** Wrong AI answers could damage trust with parents and schools, a critical risk for an education product [c:hr3s663].\n- **Pricing pressure:** Free content from large players (e.g., Khan Academy, PhysicsWallah) caps pricing power [c:hr3s663].\n- **Execution dependency:** The tranche-based funding structure ties capital to specific milestones (25,000 paying students, Bihar/MP launch) [c:ezgd3qe]. Missing these could stall growth.\n- **Competitive landscape:** Competitors like PhysicsWallah and Khan Academy already offer Hindi content, and local tuition centres are deeply entrenched [c:bibak2a].\n- **Data gaps:** No independent validation of TAM/SAM figures; no net revenue retention disclosed; limited retention data beyond churn.",
+   "team_assessment": "The founding team has relevant domain experience: CEO Saurabh Tiwari was a maths teacher and ran a coaching centre for 6 years; CTO Nandini Rao has NLP engineering experience building Hindi speech/text models; Content lead Pooja Yadav was a curriculum lead at a state-board publisher [c:o5tcq6f]. This covers key roles with domain fit. However, there is no evidence they have previously built or scaled a venture to significant size. The team is credible for the seed stage but lacks a track record of scaling.",
+   "traction_milestones": "**Traction & Milestones**\n\n- **ARR growth:** Rs 1.8 crore (Sep 2026, company-reported), up from Rs 0.3 crore in 2024 and Rs 0.9 crore in 2025 [c:2nxjghc].\n- **User base:** 61,000 monthly active students; 9,200 paying subscribers at Rs 149/month [c:2nxjghc].\n- **School licences:** 39 schools paying Rs 40,000/year each [c:eqayze7][c:2nxjghc].\n- **Engagement:** Paying students use the tutor 11 times per week on average [c:2nxjghc].\n- **Learning outcome:** Average maths test score improvement of 9 points over one term, reported for 1,100 paying students (company-reported) [c:2nxjghc].\n- **Unit economics:** CAC Rs 420, payback 3.4 months, gross margin 82%, monthly churn 7.5%, free-to-paid conversion 15% [c:urse2in].\n- **Milestone target:** 25,000 paying students within 18 months [c:hr3s663]."
+  },
+  "sources": [
+   {
+    "query": "UP Bihar state board students Hindi medium supplementary education spending India 2025",
+    "retrieved_at": "2026-10-26T19:35:15.350480Z",
+    "snippet": "English summary Bihar's 2025 budget sees over INR 60,000 crore dedicated to education, enhancing scholarships and establishing new colleges to support underprivileged students.",
+    "title": "Bihar Budget 2025: \u0936\u093f\u0915\u094d\u0937\u093e ... - Oneindia Hindi",
+    "url": "https://hindi.oneindia.com/news/bihar/bihar-budget-2025-allocates-inr-60-000-crore-for-education-and-student-support-initiatives-1237611.html"
+   },
+   {
+    "query": "UP Bihar state board students Hindi medium supplementary education spending India 2025",
+    "retrieved_at": "2026-10-26T19:35:15.350480Z",
+    "snippet": "Bihar Education Budget: \u092c\u093f\u0939\u093e\u0930 \u0915\u0947 \u0909\u092a \u092e\u0941\u0916\u094d\u092f\u092e\u0902\u0924\u094d\u0930\u0940 \u0938\u0939 \u0935\u093f\u0924\u094d\u0924 \u092e\u0902\u0924\u094d\u0930\u0940 \u0938\u092e\u094d\u0930\u093e\u091f \u091a\u094c\u0927\u0930\u0940 \u0928\u0947 \u0938\u094b\u092e\u0935\u093e\u0930 \u0915\u094b \u0935\u093f\u0927\u093e\u0928\u0938\u092d\u093e \u092e\u0947\u0902 \u0905\u0917\u0932\u0947 \u0935\u093f\u0924\u094d\u0924\u0940\u092f \u0935\u0930\u094d\u0937 2025-26 \u0915\u093e \u092c\u091c\u091f \u092a\u0947\u0936 \u0915\u093f\u092f\u093e\u0964 \u0907\u0938 ...",
+    "title": "Bihar Education Budget 2025: \u0928\u090f \u0921\u093f\u0917\u094d\u0930\u0940 \u0915\u0949\u0932\u0947\u091c \u0914\u0930 \u0921\u092c\u0932 \u0938\u094d\u0915\u0949\u0932\u0930\u0936\u093f\u092a! \u092c\u093f\u0939\u093e\u0930 \u0915\u0947 ...",
+    "url": "https://www.timesnowhindi.com/education/bihar-education-budget-2025-govt-allocates-60954-crore-for-education-doubles-scholarship-amount-article-118683873"
+   },
+   {
+    "query": "UP Bihar state board students Hindi medium supplementary education spending India 2025",
+    "retrieved_at": "2026-10-26T19:35:15.350480Z",
+    "snippet": "It provides an All-India overview to set the national context, followed by direct links to individual state dashboards that offer more detailed insights. Together, these resources are intended to support academic research, administrative review, policy dialogue, and informed public discussion on the status and progress of school education in India.",
+    "title": "State-wise School Education Dashboards & Infographics of India",
+    "url": "https://educationforallinindia.com/state-wise-school-education-dashboards-infographics-of-india/"
+   },
+   {
+    "query": "UP Bihar state board students Hindi medium supplementary education spending India 2025",
+    "retrieved_at": "2026-10-26T19:35:15.350480Z",
+    "snippet": "Bihar Budget 2025: \u092c\u093f\u0939\u093e\u0930 \u0915\u0947 \u0909\u092a\u092e\u0941\u0916\u094d\u092f\u092e\u0902\u0924\u094d\u0930\u0940 \u0938\u0939 \u0935\u093f\u0924\u094d\u0924 \u092e\u0902\u0924\u094d\u0930\u0940 \u0938\u092e\u094d\u0930\u093e\u091f \u091a\u094c\u0927\u0930\u0940 \u0906\u091c \u0938\u094b\u092e\u0935\u093e\u0930 \u0915\u094b \u0930\u093e\u091c\u094d\u092f \u0915\u093e \u0935\u093e\u0930\u094d\u0937\u093f\u0915 \u092c\u091c\u091f \u092a\u0947\u0936 \u0915\u093f\u090f. \u092f\u0939 \u092c\u091c\u091f 3.17 \u0932\u093e\u0916 \u0915\u0930\u094b\u0921\u093c \u0915\u093e \u0939\u0948.",
+    "title": "Bihar Budget 2025: \u092c\u093f\u0939\u093e\u0930 \u0915\u0947 \u0938\u092d\u0940 \u092a\u094d\u0930\u0916\u0902\u0921\u094b\u0902 \u092e\u0947\u0902 \u0916\u0941\u0932\u0947\u0917\u093e \u0921\u093f\u0917\u094d\u0930\u0940 \u0915\u0949\u0932\u0947\u091c, \u092c\u091c\u091f ...",
+    "url": "https://www.prabhatkhabar.com/state/bihar/patna/nitish-government-will-spent-rs-60964-crore-on-education-samrat-chaudhary-announcement-in-bihar-budge"
+   },
+   {
+    "query": "UP Bihar state board students Hindi medium supplementary education spending India 2025",
+    "retrieved_at": "2026-10-26T19:35:15.350480Z",
+    "snippet": "Bihar Budget 2025: \u092c\u093f\u0939\u093e\u0930 \u0938\u0930\u0915\u093e\u0930 \u0928\u0947 \u0936\u093f\u0915\u094d\u0937\u093e \u0915\u0947 \u0932\u093f\u090f 60,964 ...",
+    "title": "Bihar Budget 2025:\u0906\u0930\u0915\u094d\u0937\u093f\u0924 \u091b\u093e\u0924\u094d\u0930-\u091b\u093e\u0924\u094d\u0930\u093e\u0913\u0902 \u0915\u094b \u0926\u094b\u0917\u0941\u0928\u0940 \u0930\u093e\u0936\u093f \u0926\u0947\u0917\u0940 \u0938\u0930\u0915\u093e\u0930 ...",
+    "url": "https://www.amarujala.com/bihar/patna/bihar-budget-bihar-govt-kept-budget-of-60-964-crores-for-education-double-scholarship-to-reserved-students-2025-03-03"
+   },
+   {
+    "query": "India edtech market size 2025 2026 CAGR grades 6-10 Hindi medium state board students",
+    "retrieved_at": "2026-10-26T19:35:17.771285Z",
+    "snippet": "Key trends, growth drivers, opportunities and competitive dynamics shaping the global education industry.Dublin, Oct. (GLOBE NEWSWIRE) -- \"Education Industry Market Outlook 2026-2036\" has been added ...",
+    "title": "Global Education Industry Market Size and Outlook, 2026-2036 | Generative AI and EdTech Drive 5.86% CAGR Toward a USD 13.63 Trillion Market by 2036",
+    "url": "https://finance.yahoo.com/technology/ai/articles/global-education-industry-market-size-134400738.html"
+   },
+   {
+    "query": "India edtech funding seed stage 2025 2026 WhatsApp AI tutor investment trends",
+    "retrieved_at": "2026-10-26T19:35:17.961456Z",
+    "snippet": "Explore how edtech platforms in India transformed from 2025 to 2026, funding flows, market size, top investors and the India\u2011Nigeria contrast.",
+    "title": "Edtech Platforms In India 2025 vs 2026 Shift",
+    "url": "https://edtech.help/edtech-platforms-india-2025-vs-2026-shift/"
+   },
+   {
+    "query": "India edtech funding seed stage 2025 2026 WhatsApp AI tutor investment trends",
+    "retrieved_at": "2026-10-26T19:35:17.961456Z",
+    "snippet": "EdTech funding in India surges 5X to $2.1 billion in H1 2025. AI-powered tutoring startups attract major VC investment as sector recovers from funding winter. Comprehensive analysis of market trends, key players, and future outlook.",
+    "title": "India Startup Review",
+    "url": "https://indiastartupreview.com/industry-news-insights/details/204/edtech-funding-surges-5x-in-h1-2025-as-ai-tutoring-startups-attract-major-vc-investment"
+   },
+   {
+    "query": "India edtech funding seed stage 2025 2026 WhatsApp AI tutor investment trends",
+    "retrieved_at": "2026-10-26T19:35:17.961456Z",
+    "snippet": "India&#x27;s edtech sector witnessed a rebound in the first half of 2025 after a period of slowdown. Funding activity surged more than fivefold year-on-year, with capital largely flowing into companies focused on study-abroad services, workforce skilling platforms and startups leveraging artificial intelligence (AI) to expand into language learning and vernacular education. In the January-June ...",
+    "title": "Driven by AI, edtech funding rebounds with 5X surge in H1 2025",
+    "url": "https://economictimes.indiatimes.com/tech/startups/driven-by-ai-edtech-funding-rebounds-with-5x-surge-in-h1-2025/articleshow/123884905.cms"
+   },
+   {
+    "query": "India edtech funding seed stage 2025 2026 WhatsApp AI tutor investment trends",
+    "retrieved_at": "2026-10-26T19:35:17.961456Z",
+    "snippet": "EdTech Investment Trends 2026 Post-Pandemic Stabilization After EdTech bubble burst (2022-23), sustainable EdTech companies with positive unit economics are attracting Series B-D rounds. AI EdTech is the New Frontier Generative AI tutors, automated grading, personalized content creation - AI EdTech startups raised $1.2B in India in 2025.\nEdTech Industry Analysis India 2026 - Market Size, Trends & Players Deep analysis of India EdTech industry in 2026. Market size $8B, top players, funding trends, growth drivers, challenges, and future outlook for 2030.",
+    "title": "EdTech Industry India 2026 - cosmosiq.ai",
+    "url": "https://cosmosiq.ai/blog/edtech-industry-analysis-india-2026"
+   },
+   {
+    "query": "India edtech funding seed stage 2025 2026 WhatsApp AI tutor investment trends",
+    "retrieved_at": "2026-10-26T19:35:17.961456Z",
+    "snippet": "Access the full list of 24.3k EdTech startups in India. Discover emerging companies, funding activity, key investors and M&amp;A trends.",
+    "title": "List of 24.3k EdTech Startups in India &amp; Market Trends (Aug 2026 ...",
+    "url": "https://tracxn.com/d/explore/edtech-startups-in-india/__hVMq_SvfouSavYtGTT238icbqczzROn6crHAB_yIIoA"
+   },
+   {
+    "query": "India K-12 edtech market size 2025 2026 INR crore grades 6-10 supplementary learning",
+    "retrieved_at": "2026-10-26T19:35:33.495858Z",
+    "snippet": "The Indian EdTech market recorded a revenue of $6.5 billion in 2025, representing a compound annual growth rate (CAGR) of 18.3% between 2020-25. The pre-K-12 and K-12 segment accounted for the market's largest proportion in 2025, with total revenue of $2.9 billion, equivalent to 44.5% of the market's overall value.",
+    "title": "EdTech in India - Research and Markets",
+    "url": "https://www.researchandmarkets.com/reports/5973200/edtech-in-india"
+   },
+   {
+    "query": "India K-12 edtech market size 2025 2026 INR crore grades 6-10 supplementary learning",
+    "retrieved_at": "2026-10-26T19:35:33.495858Z",
+    "snippet": "The India edtech market valued USD 3.63 Bn in 2025, is reaching USD 4.60 Bn in 2026 and USD 33.31 Bn by 2034 at an 27.94% CAGR from 2026-2034.",
+    "title": "India Edtech Market Size, Share | Growth and Analysis 2034",
+    "url": "https://www.imarcgroup.com/india-edtech-market"
+   },
+   {
+    "query": "India K-12 edtech market size 2025 2026 INR crore grades 6-10 supplementary learning",
+    "retrieved_at": "2026-10-26T19:35:33.495858Z",
+    "snippet": "Explore a data-driven forecast of India's edtech market size by 2025, with K\u201112 projections, growth drivers, and strategic insights for founders.",
+    "title": "Build a Data-Driven Forecast for EdTech Platforms in India 2025 Market ...",
+    "url": "https://edtech.help/edtech-forecast-india-2025/"
+   },
+   {
+    "query": "India K-12 edtech market size 2025 2026 INR crore grades 6-10 supplementary learning",
+    "retrieved_at": "2026-10-26T19:35:33.495858Z",
+    "snippet": "The Indian EdTech market recorded a revenue of $6.5 billion in 2025, representing a compound annual growth rate (CAGR) of 18.3% between 2020-25. The pre-K-12 and K-12 segment accounted for the market's largest proportion in 2025, with total revenue of $2.9 billion, equivalent to 44.5% of the market's overall value.",
+    "title": "EdTech in India - MarketResearch.com",
+    "url": "https://www.marketresearch.com/GlobalData-v3648/EdTech-India-46108496/"
+   },
+   {
+    "query": "Doubtnut Hindi medium AI tutor WhatsApp edtech India 2025 2026 funding",
+    "retrieved_at": "2026-10-26T19:35:35.794314Z",
+    "snippet": "Doubtnut&#x27;s latest valuation and net worth in 2026 \u2014 full funding history, what changed after the acquisition, and where the numbers come from.",
+    "title": "Doubtnut Valuation 2026: Net Worth &amp; Funding Explained",
+    "url": "https://cripsywire.com/doubtnut-valuation/"
+   },
+   {
+    "query": "Doubtnut Hindi medium AI tutor WhatsApp edtech India 2025 2026 funding",
+    "retrieved_at": "2026-10-26T19:35:35.794314Z",
+    "snippet": "Founded in 2016, Doubtnut has raised $255.08 Mn+ from 10 investors. Explore funding rounds, investors and valuation on Inc42 Datalabs.",
+    "title": "Doubtnut Funding 2026 - Total Funding, Rounds &amp; Investors",
+    "url": "https://inc42.com/company/doubtnut/funding/"
+   },
+   {
+    "query": "Doubtnut Hindi medium AI tutor WhatsApp edtech India 2025 2026 funding",
+    "retrieved_at": "2026-10-26T19:35:35.794314Z",
+    "snippet": "Read the latest news on Doubtnut covering funding updates, financials, leadership changes and key announcements on Inc42.",
+    "title": "Doubtnut Latest News 2026 - Funding, Financials &amp; Updates",
+    "url": "https://inc42.com/company/doubtnut/latest/"
+   },
+   {
+    "query": "Doubtnut Hindi medium AI tutor WhatsApp edtech India 2025 2026 funding",
+    "retrieved_at": "2026-10-26T19:35:35.794314Z",
+    "snippet": "Doubtnut is a Gurugram, India-based educational technology platform that provides instant video solutions for student questions in subjects like mathematics, physics, and chemistry. Operating on a freemium model, the service allows K-12 and exam preparation students to upload images of their academic queries via a mobile application or WhatsApp to receive matched, pre-recorded explanatory ...",
+    "title": "Doubtnut: Funding, Team &amp; Investors | Startup Intros",
+    "url": "https://startupintros.com/orgs/doubtnut"
+   },
+   {
+    "query": "Doubtnut Hindi medium AI tutor WhatsApp edtech India 2025 2026 funding",
+    "retrieved_at": "2026-10-26T19:35:35.794314Z",
+    "snippet": "Doubtnut is an acquired company based in Gurugram (India), founded in 2016 by Aditya Shankar, Tanushree Nagori, Sonia Sinha and Ravi Sekhar KV. It operates as a Doubt clearing app for various subjects. Doubtnut has raised $53.7M in funding from investors like Innoven Capital, Peak XV Partners and Tencent, with last known valuation of $ *****. The company has 990 active competitors, including ...",
+    "title": "Doubtnut - 2026 Company Profile, Team, Funding, Competitors ... - Tracxn",
+    "url": "https://tracxn.com/d/companies/doubtnut/__lKIWQgQpn9hGBmZN6onaXwupub948IuF1omI8R3YRLQ"
+   },
+   {
+    "query": "India edtech regulation 2025 2026 NCERT state board syllabus compliance K-12",
+    "retrieved_at": "2026-10-26T19:35:36.700329Z",
+    "snippet": "India&#x27;s digital education policy updates for 2025-26 centre on the full rollout of NEP 2020&#x27;s technology framework: PM e-VIDYA expansion, the National Digital Education Architecture (NDEAR), and new AI and coding mandates in school curricula.",
+    "title": "National Digital Education Policy Updates for 2026",
+    "url": "https://www.3university.io/learn/national-digital-education-policy-updates/"
+   },
+   {
+    "query": "India edtech regulation 2025 2026 NCERT state board syllabus compliance K-12",
+    "retrieved_at": "2026-10-26T19:35:36.700329Z",
+    "snippet": "Indian edtech laws every online teacher must know in 2026: DPDP Act, GST, refunds, ASCI, POCSO and IT Rules in plain English, with penalties and a printable compliance checklist.",
+    "title": "Indian EdTech Laws for Teachers: 2026 Compliance Guide",
+    "url": "https://allcoaching.in/blog/indian-edtech-laws-and-regulations-for-teachers"
+   },
+   {
+    "query": "India edtech regulation 2025 2026 NCERT state board syllabus compliance K-12",
+    "retrieved_at": "2026-10-26T19:35:36.700329Z",
+    "snippet": "Discover the legal, regulatory, tax, and data privacy requirements global EdTech companies must meet to enter the India education market. Your compliance guide for 2025-26.",
+    "title": "India Education Market Entry: Legal &amp; Compliance Essentials for EdTech ...",
+    "url": "https://indiamarketentry.com/india-education-market-entry-legal-compliance-guide/"
+   },
+   {
+    "query": "India edtech regulation 2025 2026 NCERT state board syllabus compliance K-12",
+    "retrieved_at": "2026-10-26T19:35:36.700329Z",
+    "snippet": "India teaches AI from Class 3 in 2026-27. A playbook for EdTech founders on curriculum fit, DPDP children&#x27;s-data rules, and low-infrastructure rollout.",
+    "title": "Classroom AI India 2026: NEP rollout playbook - ecorpit.com",
+    "url": "https://ecorpit.com/edtech-india-classroom-ai-nep-rollout-playbook-2026/"
+   },
+   {
+    "query": "India edtech regulation 2025 2026 NCERT state board syllabus compliance K-12",
+    "retrieved_at": "2026-10-26T19:35:36.700329Z",
+    "snippet": "This is with reference to the CBSE Circular No. Acad-29/2024 and Circular No. Acad-12/2025 regarding availability and implementation of the new competency-based textbooks published by NCERT aligned with the vision of NEP-2020 and NCF-SE -2023.",
+    "title": "PDF \u0915\u0947\u0928\u094d\u0926\u094d\u0930\u0940\u092f \u092e\u093e\u0927\u094d\u092f\u0936\u092e\u0915 \u0936\u093f\u0915\u094d\u0937\u093e \u092c\u094b\u0930\u094d\u0921",
+    "url": "https://cbseacademic.nic.in/web_material/Circulars/2025/81_Circular_2025.pdf"
+   }
+  ]
+ },
+ "input_hash": "865b91ff6e9964cfa590b53c448551c0d3fdf53734077c01a233bce6b9c78218"
+}

@@ -35,15 +35,14 @@ export function Navbar() {
             </Link>
             <div className="flex items-center h-full">
               {userRole === 'investor' && (
-                <Link href="/investor" className={`${linkClass} hover:text-[#0284c7]`}>Investor Dash</Link>
+                <Link href="/investor" className={`${linkClass} hover:text-[#0284c7]`}>Deal flow</Link>
               )}
               {userRole === 'startup' && (
-                <Link href="/founder" className={`${linkClass} hover:text-[#0284c7]`}>Founder Portal</Link>
+                <Link href="/founder" className={`${linkClass} hover:text-[#0284c7]`}>Founder portal</Link>
               )}
-              <Link href="/evaluations" className={`${linkClass} hover:text-[#0284c7]`}>AI Evaluations</Link>
-              <Link href="/finscope" className={`${linkClass} hover:text-[#7c3aed]`}>FinScope AI</Link>
-              <Link href="/portfolio" className={`${linkClass} hover:text-[#059669]`}>Portfolio</Link>
-              <Link href="/exit-window" className={`${linkClass} hover:text-[#059669]`}>Exit Window</Link>
+              {me && <Link href="/rankings" className={`${linkClass} hover:text-[#0284c7]`}>Rankings</Link>}
+              {me && <Link href="/wallet" className={`${linkClass} hover:text-[#059669]`}>Wallet</Link>}
+              <Link href="/pricing" className={`${linkClass} hover:text-[#0284c7]`}>Pricing</Link>
             </div>
           </div>
 

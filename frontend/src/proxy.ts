@@ -38,12 +38,8 @@ export const config = {
   matcher: [
     '/investor/:path*',
     '/founder/:path*',
-    '/portfolio/:path*',
-    '/evaluation/:path*',
-    '/evaluations/:path*',
-    '/proposal/:path*',
-    '/startup/:path*',
-    '/finscope/:path*',
-    '/exit-window/:path*',
+    '/startups/:path*',
+    '/rankings/:path*',
+    '/wallet/:path*',
   ],
 }

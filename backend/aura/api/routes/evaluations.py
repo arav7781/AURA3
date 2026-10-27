@@ -77,7 +77,11 @@ def list_evaluations(startup_id: str, viewer: Viewer = Depends(current_viewer)) 
     with read_session() as s:
         rows = s.scalars(select(Evaluation).where(Evaluation.startup_id == startup.id)
                          .order_by(Evaluation.version.desc())).all()
-    return {"items": [evaluation_out(e) | {"report": None} for e in rows]}
+    return {"items": [evaluation_out(e) | {
+        "report": None,
+        "score": e.overall_score_x10 / 10 if e.overall_score_x10 is not None else None,
+        "recommendation": e.recommendation,
+    } for e in rows]}
 
 
 @router.post("/startups/{startup_id}/evaluations/{evaluation_id}/publish")

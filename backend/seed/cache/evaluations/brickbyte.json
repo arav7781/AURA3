@@ -1,0 +1,388 @@
+{
+ "analysis": {
+  "category_scores": {
+   "business_model": 6.0,
+   "execution_risk": 5.0,
+   "market": 5.0,
+   "moat": 4.3,
+   "product": 6.0,
+   "team": 6.0,
+   "traction": 6.0
+  },
+  "citations": {
+   "c:a2qomjb": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.83011,
+     0.50907
+    ],
+    "chunk_id": "8c558cb0-ddff-5482-b9c8-ba1fa4b40523",
+    "document_id": "bddc3a4c-c056-4b63-947e-709eec1a7cd5",
+    "page_no": 1,
+    "slide_title": "BrickByte",
+    "type": "deck"
+   },
+   "c:agwhm24": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.87593,
+     0.50907
+    ],
+    "chunk_id": "d43ea70f-0621-5fca-970c-16daa3bf2915",
+    "document_id": "bddc3a4c-c056-4b63-947e-709eec1a7cd5",
+    "page_no": 3,
+    "slide_title": "Solution",
+    "type": "deck"
+   },
+   "c:avhwrjp": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.92447,
+     0.53841
+    ],
+    "chunk_id": "ba2ea6c4-d896-5840-9bfc-3cbde438c519",
+    "document_id": "bddc3a4c-c056-4b63-947e-709eec1a7cd5",
+    "page_no": 2,
+    "slide_title": "Problem",
+    "type": "deck"
+   },
+   "c:dkr3s6m": {
+    "bbox": [
+     0.06108,
+     0.0554,
+     0.95151,
+     0.55098
+    ],
+    "chunk_id": "ede62752-1568-566d-9073-8b4da089926c",
+    "document_id": "bddc3a4c-c056-4b63-947e-709eec1a7cd5",
+    "page_no": 8,
+    "slide_title": "Competitive Landscape",
+    "type": "deck"
+   },
+   "c:ghjmfbr": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.91788,
+     0.4682
+    ],
+    "chunk_id": "c6cbb639-7f18-5136-acfc-f2d2f2c43208",
+    "document_id": "bddc3a4c-c056-4b63-947e-709eec1a7cd5",
+    "page_no": 10,
+    "slide_title": "Team",
+    "type": "deck"
+   },
+   "c:hwvo6b3": {
+    "bbox": [
+     0.05392,
+     0.0554,
+     0.89937,
+     0.88284
+    ],
+    "chunk_id": "849d298a-d23d-5234-a560-be13bbaf523d",
+    "document_id": "bddc3a4c-c056-4b63-947e-709eec1a7cd5",
+    "page_no": 6,
+    "slide_title": "Traction (as of FY2026)",
+    "type": "deck"
+   },
+   "c:mhlecwq": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.77359,
+     0.63853
+    ],
+    "chunk_id": "a52df9bc-205e-5c10-802e-e4b775202218",
+    "document_id": "bddc3a4c-c056-4b63-947e-709eec1a7cd5",
+    "page_no": 9,
+    "slide_title": "Go-to-Market & Key Risks",
+    "type": "deck"
+   },
+   "c:uhybsh7": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.91292,
+     0.56134
+    ],
+    "chunk_id": "28220ce8-7ac7-5367-9ec9-3544ddc94b48",
+    "document_id": "bddc3a4c-c056-4b63-947e-709eec1a7cd5",
+    "page_no": 11,
+    "slide_title": "The Ask",
+    "type": "deck"
+   },
+   "c:vavhcay": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.73353,
+     0.39357
+    ],
+    "chunk_id": "a5d99f91-5fe4-5abd-9b1c-49f09f5c7f6a",
+    "document_id": "bddc3a4c-c056-4b63-947e-709eec1a7cd5",
+    "page_no": 5,
+    "slide_title": "Business Model",
+    "type": "deck"
+   },
+   "c:wrp57xn": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.92414,
+     0.42291
+    ],
+    "chunk_id": "e3ed2cfb-c611-5dec-a581-590a9738e5ce",
+    "document_id": "bddc3a4c-c056-4b63-947e-709eec1a7cd5",
+    "page_no": 4,
+    "slide_title": "Market Opportunity (TAM / SAM / SOM)",
+    "type": "deck"
+   },
+   "c:x3gb5au": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.72597,
+     0.51605
+    ],
+    "chunk_id": "b8a80433-371f-5555-b3a9-03833cc73340",
+    "document_id": "bddc3a4c-c056-4b63-947e-709eec1a7cd5",
+    "page_no": 7,
+    "slide_title": "Unit Economics",
+    "type": "deck"
+   },
+   "w:1": {
+    "title": "India DGCA Drone Regulations 2026: Registration, No-Fly Zones, and ...",
+    "type": "web",
+    "url": "https://blog.uavmodel.com/india-dgca-drone-regulations-2026-registration-no-fly-zones-and-remote-pilot-license/"
+   },
+   "w:10": {
+    "title": "DroneDeploy Launches Ground Pro, Bringing Measurable 3D ... - Procore",
+    "type": "web",
+    "url": "https://www.procore.com/press/dronedeploy-launches-ground-pro-bringing-measurable-3d-records-into-procore"
+   },
+   "w:14": {
+    "title": "Skylark Drones - 2026 Company Profile & Team - Tracxn",
+    "type": "web",
+    "url": "https://tracxn.com/d/companies/skylark-drones/__mERhgMBni6FP352qtBQ_KGzaLg3kWPZV-uabMyuKJYw"
+   },
+   "w:15": {
+    "title": "Skylark Drones - 2026 Company Profile & Team - Tracxn",
+    "type": "web",
+    "url": "https://tracxn.com/d/companies/skylarkdrones/__mERhgMBni6FP352qtBQ_KGzaLg3kWPZV-uabMyuKJYw"
+   },
+   "w:2": {
+    "title": "India DGCA Drone Regulations 2026: Everything You Need to Know",
+    "type": "web",
+    "url": "https://blog.uavmodel.com/india-dgca-drone-regulations-2026-everything-you-need-to-know/"
+   },
+   "w:8": {
+    "title": "Procore acquires DroneDeploy to bring visual intelligence to every ...",
+    "type": "web",
+    "url": "https://www.procore.com/blog/procore-acquires-dronedeploy-to-bring-visual-intelligence-to-every-jobsite"
+   }
+  },
+  "citations_removed": 0,
+  "compliance_flags": [],
+  "data_gaps": [
+   "TAM: no usable source excerpt with value, unit and period.",
+   "SAM: no usable source excerpt with value, unit and period.",
+   "SOM: no usable source excerpt with value, unit and period.",
+   "CAGR: no usable source excerpt with value, unit and period.",
+   "Market trend unavailable: no sourced annual observations or publisher forecasts. No years were interpolated.",
+   "Revenue chart unavailable: no dated revenue or ARR figures with supporting evidence. No growth assumptions were applied."
+  ],
+  "evidence_version": 2,
+  "generated_at": "2026-10-27T06:44:58.974318Z",
+  "input_hash": "f65ee8f333d8a042fe9fe8d37cca5f505c7407d03a193500222b36c60a2842bc",
+  "invalid_citations": [],
+  "market_sizing": {
+   "basis": "Only figures traceable to retrieved search excerpts are plotted as market data.",
+   "cagr_pct": null,
+   "claims": {},
+   "evidence": {},
+   "sam_usd_b": null,
+   "som_usd_b": null,
+   "tam_usd_b": null,
+   "trend": []
+  },
+  "model": "azure/deepSeek-V4-Flash",
+  "overall_score": 5.6,
+  "projected_revenue": [],
+  "recommendation_label": "Hold",
+  "report_markdown": "## 1. Executive Summary\n\nBrickByte provides weekly drone scans compared with BIM models to track construction progress and catch deviations early, targeting developers, contractors and construction lenders in India. The startup has 23 paying customers across 61 active sites, generating an ARR of Rs 1.3 crore (FY2026, company-reported and unverified) with a net revenue retention of 126% and monthly churn of 1.5% [c:hwvo6b3][c:x3gb5au]. The team of three co-founders brings relevant domain experience in civil engineering, photogrammetry, and drone operations [c:ghjmfbr]. The company is raising Rs 6 crore at a Rs 32 crore pre-money valuation, with a tranche-based structure tied to milestones of 150 active sites and Rs 3 crore ARR [c:uhybsh7]. Key risks include reliance on real-estate cycles, drone regulations, operations-heavy margins, and limited BIM adoption among Indian developers [c:mhlecwq]. Overall score: 5.6/10, recommendation: Hold.\n\n## 2. Problem & Solution\n\nDevelopers, contractors and lenders learn about construction delays and deviations weeks late because progress reporting is manual and hard to verify. BrickByte estimates that manual progress reports lag site reality by 2-4 weeks and that large Indian real-estate projects frequently overrun schedules [c:avhwrjp]. BrickByte\u2019s solution is automated weekly drone flights by certified remote pilots, turning imagery into 3D models compared with BIM to flag deviations by floor and element, and providing progress against schedule and quantity estimates for billing checks [c:agwhm24]. The service also delivers independent progress reports for construction lenders [c:agwhm24].\n\n## 3. Market Opportunity\n\nBrickByte estimates the TAM for construction progress-monitoring and reality-capture software in India at Rs 1,600 crore in 2025, the SAM at Rs 300 crore scoped to five cities (NCR, Mumbai, Pune, Bengaluru, Hyderabad), and the SOM at Rs 14 crore by 2029 [c:wrp57xn]. All figures are company-reported and unverified; no independent third-party sizing or publisher forecasts are provided. The market is sizable and clearly defined, but the lack of external validation and the reliance on company projections cap the market score at 5.0.\n\n## 4. Competitive Landscape\n\nBrickByte\u2019s competitive edge is a BIM-comparison engine tuned for Indian construction methods and a growing dataset across 61 sites that improves delay prediction [c:dkr3s6m]. Competitors include Procore (global construction-management software, which acquired DroneDeploy to bring visual intelligence to jobsites) [w:8][w:10], Skylark Drones (Indian drone-data platform for surveys and infrastructure, Series A, raised $4.58M) [w:14][w:15], and manual site reports using spreadsheets and photos [c:dkr3s6m]. The deck\u2019s positioning is execution-based rather than defensible; competitors can replicate similar capabilities, and no IP protection or network effects are cited.\n\n## 5. Business Model\n\nRevenue comes from per-site subscriptions at Rs 18,000 per month (88% of revenue) and lender progress reports at Rs 45,000 per report (12% of revenue) [c:vavhcay]. ARR counts only site subscriptions. Unit economics: gross margin 64%, customer acquisition cost Rs 250,000, CAC payback 8.2 months, net revenue retention 126%, monthly churn 1.5% [c:x3gb5au]. The payback period is above the 6-month threshold for a higher score, and early data is positive but not yet proven at scale. The business model is clear and the unit economics are disclosed, supporting a score of 6.0.\n\n## 6. Team Assessment\n\nThe three co-founders have relevant domain and execution experience: Kunal Sethi (CEO) is a civil engineer with 9 years in project planning at a large NCR developer; Ritu Choudhary (CTO) is a photogrammetry and computer-vision engineer who built 3D reconstruction pipelines; Gaurav Bhatia (COO) ran drone-survey operations for mining and infrastructure clients [c:ghjmfbr]. This is a complete founding team with good domain fit, but none have prior startup founding or scaling experience at a proven high-growth company. The team scores 6.0.\n\n## 7. Traction & Milestones\n\nBrickByte has grown ARR from Rs 0.2 crore (FY2024) to Rs 0.6 crore (FY2025) to Rs 1.3 crore (FY2026), representing ~2x year-over-year growth [c:hwvo6b3]. The company serves 23 paying customers across 61 active sites in NCR, Pune, and Hyderabad, with a net revenue retention (NRR) of 126% as customers add sites [c:hwvo6b3]. It has also sold progress-verification reports to 2 construction lenders, a secondary revenue stream [c:hwvo6b3]. Unit economics show a gross margin of 64%, CAC of Rs 250,000, CAC payback of 8.2 months, and monthly churn of 1.5% [c:x3gb5au]. All traction figures are company-reported and unverified.\n\n## 8. Compliance & Governance\n\nThe MCA registry confirms BrickByte Private Limited (CIN U71100HR2023PTC113592) is ACTIVE, with directors Kunal Sethi, Ritu Choudhary, and Gaurav Bhatia [c:a2qomjb]. No compliance flags were raised. The deck does not attempt to instruct the evaluator. The company operates under India's DGCA drone regulations, which require registration on the Digital Sky Platform and compliance with no-fly zones [w:1][w:2]; BrickByte states it uses certified remote pilots [c:agwhm24].\n\n## 9. Risks & Challenges\n\nKey risks include: (1) Real-estate cycles directly affect new site starts, making growth lumpy [c:mhlecwq]; (2) Drone regulations and no-fly zones near airports limit site coverage [c:mhlecwq][w:1]; (3) Operations-heavy delivery (drone flights, processing) keeps gross margins at 64%, below pure-software benchmarks [c:mhlecwq]; (4) Few Indian developers maintain up-to-date BIM models, reducing the core value proposition [c:mhlecwq]; (5) The tranche-based raise (40% at close, 30% at 150 sites, 30% at Rs 3 crore ARR) creates execution pressure and funding risk if milestones are missed [c:uhybsh7]; (6) Competitors like Procore/DroneDeploy and Skylark Drones have deeper resources and can replicate BIM-comparison features [c:dkr3s6m][w:8][w:14].\n\n## 10. Investment Thesis\n\nBrickByte addresses a genuine pain point in Indian construction: manual progress reporting that lags site reality by 2-4 weeks [c:avhwrjp]. Its product\u2014weekly drone scans compared with BIM models\u2014is used by 23 paying customers with 126% NRR, indicating early product-market fit [c:hwvo6b3][c:x3gb5au]. The team combines civil engineering, computer vision, and drone operations expertise [c:ghjmfbr]. However, the market sizing (TAM Rs 1,600 crore, SAM Rs 300 crore) is company-reported and unverified [c:wrp57xn], and the business model is operations-heavy, limiting margin expansion. The moat is thin: the BIM-comparison engine and dataset are execution advantages, not durable barriers, especially as Procore/DroneDeploy enters the Indian market [w:8][w:10]. At a Rs 38 crore post-money valuation, the company is priced for significant growth that is not yet proven at scale.\n\n## 11. Recommendation\n\n**Hold (5.6/10)**. BrickByte shows solid early traction with 2x ARR growth, positive unit economics, and a complete founding team. However, the operations-heavy model, thin moat, and reliance on company-reported market data cap the upside. The tranche-based raise adds execution risk. Investors should wait for evidence of sustained growth beyond 61 sites and independent validation of market size before committing.",
+  "revenue_currency": null,
+  "revenue_metric": null,
+  "rewrites": 2,
+  "rubric_version": "r1",
+  "score_rationales": {
+   "business_model": "Pricing is clear at Rs 18,000/site/month with additional lender reports, and unit economics are disclosed: 64% gross margin, CAC of Rs 250,000, payback of 8.2 months, NRR of 126%, and monthly churn of 1.5% [c:vavhcay] [c:x3gb5au]. Payback is above the 6-month threshold for a higher score, and early data is positive but not yet proven at scale.",
+   "execution_risk": "Key risks are acknowledged: real-estate cycles, drone regulations/no-fly zones, operations-heavy delivery limiting margins, and few Indian developers maintaining up-to-date BIM models [c:mhlecwq]. The tranche-based raise with milestones adds execution pressure. These are significant risks with partial mitigation but still substantial.",
+   "market": "The TAM of Rs 1,600 crore is provided but only as a company estimate, and the SAM of Rs 300 crore is scoped to five Indian cities [c:wrp57xn]. While the market is sizable and clearly defined, the lack of independent third-party sizing and reliance on company projections caps the score at 5.",
+   "moat": "BrickByte claims an edge from a BIM-comparison engine tuned for Indian methods and a growing dataset across 61 sites [c:dkr3s6m]. However, these are execution advantages rather than durable moats; competitors like Procore/DroneDeploy and Skylark Drones can replicate similar capabilities [c:dkr3s6m][w:8][w:14]. No evidence of switching costs, IP protection, or network effects.",
+   "product": "BrickByte has a working product used by 23 paying customers across 61 active sites, with a clear value proposition of weekly drone scans compared to BIM models for progress tracking and deviation detection [c:a2qomjb][c:agwhm24]. However, there is no evidence of strong retention or defensible features beyond the BIM-comparison engine, so it fits a score of 6.",
+   "team": "The three co-founders have relevant domain and execution experience: civil engineering/project planning, photogrammetry/computer vision, and drone operations [c:ghjmfbr]. This is a complete founding team with good domain fit, but none have prior startup founding or scaling experience at a proven high-growth company.",
+   "traction": "ARR grew from Rs 0.2 crore (FY2024) to Rs 0.6 crore (FY2025) to Rs 1.3 crore (FY2026), implying ~2x year-over-year growth, with 23 customers and 61 active sites, NRR of 126% [c:hwvo6b3]. Revenue is growing but the base is still small and figures are dated (FY2026); no evidence of sustained growth at scale."
+  },
+  "score_spread": {
+   "business_model": 1.0,
+   "execution_risk": 1.0,
+   "market": 1.0,
+   "moat": 1.0,
+   "product": 0.0,
+   "team": 1.0,
+   "traction": 1.0
+  },
+  "sections": {
+   "business_model": "Revenue comes from per-site subscriptions at Rs 18,000 per month (88% of revenue) and lender progress reports at Rs 45,000 per report (12% of revenue) [c:vavhcay]. ARR counts only site subscriptions. Unit economics: gross margin 64%, customer acquisition cost Rs 250,000, CAC payback 8.2 months, net revenue retention 126%, monthly churn 1.5% [c:x3gb5au]. The payback period is above the 6-month threshold for a higher score, and early data is positive but not yet proven at scale. The business model is clear and the unit economics are disclosed, supporting a score of 6.0.",
+   "competitive_landscape": "BrickByte\u2019s competitive edge is a BIM-comparison engine tuned for Indian construction methods and a growing dataset across 61 sites that improves delay prediction [c:dkr3s6m]. Competitors include Procore (global construction-management software, which acquired DroneDeploy to bring visual intelligence to jobsites) [w:8][w:10], Skylark Drones (Indian drone-data platform for surveys and infrastructure, Series A, raised $4.58M) [w:14][w:15], and manual site reports using spreadsheets and photos [c:dkr3s6m]. The deck\u2019s positioning is execution-based rather than defensible; competitors can replicate similar capabilities, and no IP protection or network effects are cited.",
+   "compliance_governance": "The MCA registry confirms BrickByte Private Limited (CIN U71100HR2023PTC113592) is ACTIVE, with directors Kunal Sethi, Ritu Choudhary, and Gaurav Bhatia [c:a2qomjb]. No compliance flags were raised. The deck does not attempt to instruct the evaluator. The company operates under India's DGCA drone regulations, which require registration on the Digital Sky Platform and compliance with no-fly zones [w:1][w:2]; BrickByte states it uses certified remote pilots [c:agwhm24].",
+   "executive_summary": "BrickByte provides weekly drone scans compared with BIM models to track construction progress and catch deviations early, targeting developers, contractors and construction lenders in India. The startup has 23 paying customers across 61 active sites, generating an ARR of Rs 1.3 crore (FY2026, company-reported and unverified) with a net revenue retention of 126% and monthly churn of 1.5% [c:hwvo6b3][c:x3gb5au]. The team of three co-founders brings relevant domain experience in civil engineering, photogrammetry, and drone operations [c:ghjmfbr]. The company is raising Rs 6 crore at a Rs 32 crore pre-money valuation, with a tranche-based structure tied to milestones of 150 active sites and Rs 3 crore ARR [c:uhybsh7]. Key risks include reliance on real-estate cycles, drone regulations, operations-heavy margins, and limited BIM adoption among Indian developers [c:mhlecwq]. Overall score: 5.6/10, recommendation: Hold.",
+   "investment_thesis": "BrickByte addresses a genuine pain point in Indian construction: manual progress reporting that lags site reality by 2-4 weeks [c:avhwrjp]. Its product\u2014weekly drone scans compared with BIM models\u2014is used by 23 paying customers with 126% NRR, indicating early product-market fit [c:hwvo6b3][c:x3gb5au]. The team combines civil engineering, computer vision, and drone operations expertise [c:ghjmfbr]. However, the market sizing (TAM Rs 1,600 crore, SAM Rs 300 crore) is company-reported and unverified [c:wrp57xn], and the business model is operations-heavy, limiting margin expansion. The moat is thin: the BIM-comparison engine and dataset are execution advantages, not durable barriers, especially as Procore/DroneDeploy enters the Indian market [w:8][w:10]. At a Rs 38 crore post-money valuation, the company is priced for significant growth that is not yet proven at scale.",
+   "market_opportunity": "BrickByte estimates the TAM for construction progress-monitoring and reality-capture software in India at Rs 1,600 crore in 2025, the SAM at Rs 300 crore scoped to five cities (NCR, Mumbai, Pune, Bengaluru, Hyderabad), and the SOM at Rs 14 crore by 2029 [c:wrp57xn]. All figures are company-reported and unverified; no independent third-party sizing or publisher forecasts are provided. The market is sizable and clearly defined, but the lack of external validation and the reliance on company projections cap the market score at 5.0.",
+   "problem_solution": "Developers, contractors and lenders learn about construction delays and deviations weeks late because progress reporting is manual and hard to verify. BrickByte estimates that manual progress reports lag site reality by 2-4 weeks and that large Indian real-estate projects frequently overrun schedules [c:avhwrjp]. BrickByte\u2019s solution is automated weekly drone flights by certified remote pilots, turning imagery into 3D models compared with BIM to flag deviations by floor and element, and providing progress against schedule and quantity estimates for billing checks [c:agwhm24]. The service also delivers independent progress reports for construction lenders [c:agwhm24].",
+   "recommendation": "**Hold (5.6/10)**. BrickByte shows solid early traction with 2x ARR growth, positive unit economics, and a complete founding team. However, the operations-heavy model, thin moat, and reliance on company-reported market data cap the upside. The tranche-based raise adds execution risk. Investors should wait for evidence of sustained growth beyond 61 sites and independent validation of market size before committing.",
+   "risks_challenges": "Key risks include: (1) Real-estate cycles directly affect new site starts, making growth lumpy [c:mhlecwq]; (2) Drone regulations and no-fly zones near airports limit site coverage [c:mhlecwq][w:1]; (3) Operations-heavy delivery (drone flights, processing) keeps gross margins at 64%, below pure-software benchmarks [c:mhlecwq]; (4) Few Indian developers maintain up-to-date BIM models, reducing the core value proposition [c:mhlecwq]; (5) The tranche-based raise (40% at close, 30% at 150 sites, 30% at Rs 3 crore ARR) creates execution pressure and funding risk if milestones are missed [c:uhybsh7]; (6) Competitors like Procore/DroneDeploy and Skylark Drones have deeper resources and can replicate BIM-comparison features [c:dkr3s6m][w:8][w:14].",
+   "team_assessment": "The three co-founders have relevant domain and execution experience: Kunal Sethi (CEO) is a civil engineer with 9 years in project planning at a large NCR developer; Ritu Choudhary (CTO) is a photogrammetry and computer-vision engineer who built 3D reconstruction pipelines; Gaurav Bhatia (COO) ran drone-survey operations for mining and infrastructure clients [c:ghjmfbr]. This is a complete founding team with good domain fit, but none have prior startup founding or scaling experience at a proven high-growth company. The team scores 6.0.",
+   "traction_milestones": "BrickByte has grown ARR from Rs 0.2 crore (FY2024) to Rs 0.6 crore (FY2025) to Rs 1.3 crore (FY2026), representing ~2x year-over-year growth [c:hwvo6b3]. The company serves 23 paying customers across 61 active sites in NCR, Pune, and Hyderabad, with a net revenue retention (NRR) of 126% as customers add sites [c:hwvo6b3]. It has also sold progress-verification reports to 2 construction lenders, a secondary revenue stream [c:hwvo6b3]. Unit economics show a gross margin of 64%, CAC of Rs 250,000, CAC payback of 8.2 months, and monthly churn of 1.5% [c:x3gb5au]. All traction figures are company-reported and unverified."
+  },
+  "sources": [
+   {
+    "query": "India drone regulations construction sites DGCA 2025 2026 no-fly zones real estate",
+    "retrieved_at": "2026-10-27T06:44:05.680086Z",
+    "snippet": "The regulatory framework operates through the Digital Sky Platform (digitalsky.dgca.gov.in), a unified online portal that handles drone registration, pilot licensing, flight permission requests, and no-fly zone mapping. All drone operations in India, regardless of weight class or purpose, must interface with this platform.",
+    "title": "India DGCA Drone Regulations 2026: Registration, No-Fly Zones, and ...",
+    "url": "https://blog.uavmodel.com/india-dgca-drone-regulations-2026-registration-no-fly-zones-and-remote-pilot-license/"
+   },
+   {
+    "query": "India drone regulations construction sites DGCA 2025 2026 no-fly zones real estate",
+    "retrieved_at": "2026-10-27T06:44:05.680086Z",
+    "snippet": "The 2026 iteration of Digital Sky has introduced significant improvements: a redesigned mobile-first interface, faster UIN issuance (often within 24 hours), and integrated airspace maps that show real-time no-fly zones and temporary restrictions. Key functions of the Digital Sky Platform in 2026 include:",
+    "title": "India DGCA Drone Regulations 2026: Everything You Need to Know",
+    "url": "https://blog.uavmodel.com/india-dgca-drone-regulations-2026-everything-you-need-to-know/"
+   },
+   {
+    "query": "India drone regulations construction sites DGCA 2025 2026 no-fly zones real estate",
+    "retrieved_at": "2026-10-27T06:44:05.680086Z",
+    "snippet": "The #1 source for drone laws, airspace regulations, and flying guides worldwide. Covers 100+ countries with daily news and free tools for drone pilots.",
+    "title": "India Drone Laws 2026: Rules & Fines | DroneRules.world",
+    "url": "https://dronerules.world/country/india"
+   },
+   {
+    "query": "India drone regulations construction sites DGCA 2025 2026 no-fly zones real estate",
+    "retrieved_at": "2026-10-27T06:44:05.680086Z",
+    "snippet": "Drone rules India 2026: everything on DGCA registration, no-fly zones, pilot licenses, and fines. A complete guide for hobbyists and businesses.",
+    "title": "Drone Rules India 2026: Complete DGCA Guide - roboticshub.in",
+    "url": "https://roboticshub.in/drone-rules-india-2026/"
+   },
+   {
+    "query": "India drone regulations construction sites DGCA 2025 2026 no-fly zones real estate",
+    "retrieved_at": "2026-10-27T06:44:05.680086Z",
+    "snippet": "DGCA drone rules in India 2026 explained \u2014 registration, pilot license, airspace zones and the new Civil Drone Bill. Complete guide by Dronevex.",
+    "title": "DGCA Drone Rules in India 2026: What You Need to Know",
+    "url": "https://dronevex.in/dgca-drone-rules-india-2026-complete-guide/"
+   },
+   {
+    "query": "BrickByte competitors drone BIM construction monitoring India Skylark Drones Procore",
+    "retrieved_at": "2026-10-27T06:44:06.115854Z",
+    "snippet": "There are 46 Drone Analytics Software startups which include Skylark Drones, EagleView, Cyberhawk, StirlingX, Deepmatrix. Out of these, 15 startup s are funded, with 4 having secured Series A+ funding. India has the most number of companies in Drone Analytics Software (18), followed by United States (12), and then Australia (2).",
+    "title": "Top Companies in Drone Analytics Software (Apr, 2026) - Tracxn",
+    "url": "https://tracxn.com/d/trending-business-models/startups-in-drone-analytics-software/__nkKf3miEnRi8hz2y63aQKdsDa1XSoItmjlE6K1OKLLQ/companies"
+   },
+   {
+    "query": "BrickByte competitors drone BIM construction monitoring India Skylark Drones Procore",
+    "retrieved_at": "2026-10-27T06:44:06.115854Z",
+    "snippet": "Falcon Eye Drones provides drone services in aerial surveying, mapping, construction monitoring, and inspection for the engineering and construction, agriculture, and power & utilities industries.",
+    "title": "Top Skylark Drones Alternatives, Competitors - CB Insights",
+    "url": "https://www.cbinsights.com/company/skylark-drones/alternatives-competitors"
+   },
+   {
+    "query": "BrickByte competitors drone BIM construction monitoring India Skylark Drones Procore",
+    "retrieved_at": "2026-10-27T06:44:06.115854Z",
+    "snippet": "Company Procore acquires DroneDeploy to bring visual intelligence to every jobsite Procore's acquisition of DroneDeploy merges visual jobsite data with AI capabilities to help automate site tracking, streamline safety inspections, and save construction teams time and money.",
+    "title": "Procore acquires DroneDeploy to bring visual intelligence to every ...",
+    "url": "https://www.procore.com/blog/procore-acquires-dronedeploy-to-bring-visual-intelligence-to-every-jobsite"
+   },
+   {
+    "query": "BrickByte competitors drone BIM construction monitoring India Skylark Drones Procore",
+    "retrieved_at": "2026-10-27T06:44:06.115854Z",
+    "snippet": "Top 7 Procore alternatives in India for construction management. Compare features & pricing. Call 86306 76890 for expert support today.",
+    "title": "Top 7 Procore Alternatives in India",
+    "url": "https://constructionestimatorindia.com/top-7-procore-alternatives-in-india/"
+   },
+   {
+    "query": "BrickByte competitors drone BIM construction monitoring India Skylark Drones Procore",
+    "retrieved_at": "2026-10-27T06:44:06.115854Z",
+    "snippet": "The launch follows Procore's recently completed acquisition of DroneDeploy. Integrating DroneDeploy's multi-modal reality capture - spanning drones, ground robots, and cameras - with Procore's AI-powered construction management platform, site managers can access a richer picture of the jobsite than ever before possible.",
+    "title": "DroneDeploy Launches Ground Pro, Bringing Measurable 3D ... - Procore",
+    "url": "https://www.procore.com/press/dronedeploy-launches-ground-pro-bringing-measurable-3d-records-into-procore"
+   },
+   {
+    "query": "India proptech construction tech funding 2025 2026 seed investment trends",
+    "retrieved_at": "2026-10-27T06:44:07.943830Z",
+    "snippet": "Proptech investment surged in the first quarter \u2014 but a handful of oversized deals, many of them debt, did most of the heavy lifting. Investment into proptech firms jumped about 64 percent year over ...",
+    "title": "Proptech investment rises, powered by a few big bets",
+    "url": "https://therealdeal.com/data/national/2026/proptech-funding-surges-in-q1-to-3b/"
+   },
+   {
+    "query": "India proptech construction tech funding 2025 2026 seed investment trends",
+    "retrieved_at": "2026-10-27T06:44:07.943830Z",
+    "snippet": "To the surprise of some, or perhaps many, proptech has reportedly drawn the largest number of $5 million to $10 million seed rounds across industries in 2026. To the surprise of no one, artificial ...",
+    "title": "Proptech Seed Rounds This Year Are in Full Bloom",
+    "url": "https://commercialobserver.com/2026/08/proptech-seed-rounds-2026-amounts/"
+   },
+   {
+    "query": "India proptech construction tech funding 2025 2026 seed investment trends",
+    "retrieved_at": "2026-10-27T06:44:07.943830Z",
+    "snippet": "Proptech funding rose to $3.3 billion across 125 deals in Q1 2026, up from $2.01 billion and 114 deals a year earlier, according to CRETI data, driven by a few large financings amid steady early-stage ...",
+    "title": "The proptech funding rebound is real \u2014 but more selective than ever",
+    "url": "https://www.inman.com/2026/04/09/the-proptech-funding-rebound-is-real-but-more-selective-than-ever/"
+   },
+   {
+    "query": "Skylark Drones India funding revenue construction monitoring 2025 2026",
+    "retrieved_at": "2026-10-27T06:44:20.150431Z",
+    "snippet": "Skylark Drones is a series A company based in Bengaluru (India), founded in 2015 by Mrinal Pai. It operates as a Provider of drone-enabled data analytics for mining, solar, and infrastructure. Skylark Drones has raised $4.58M in funding from investors like LetsVenture, Vruddhi Ventures and Thakral, with a current valuation of $ *****.",
+    "title": "Skylark Drones - 2026 Company Profile & Team - Tracxn",
+    "url": "https://tracxn.com/d/companies/skylark-drones/__mERhgMBni6FP352qtBQ_KGzaLg3kWPZV-uabMyuKJYw"
+   },
+   {
+    "query": "Skylark Drones India funding revenue construction monitoring 2025 2026",
+    "retrieved_at": "2026-10-27T06:44:20.150431Z",
+    "snippet": "Skylark Drones is a series A company based in Bengaluru (India), founded in 2015 by Mughilan Thiru Ramasamy, Mrinal Pai and Thiru Ramasamy. It operates as a Provider of drone-enabled data analytics for mining, solar, and infrastructure. Skylark Drones has raised $4.58M in funding from investors like LetsVenture, Vruddhi Ventures and Thakral, with a current valuation of \u20b9 *****. The company ...",
+    "title": "Skylark Drones - 2026 Company Profile & Team - Tracxn",
+    "url": "https://tracxn.com/d/companies/skylarkdrones/__mERhgMBni6FP352qtBQ_KGzaLg3kWPZV-uabMyuKJYw"
+   },
+   {
+    "query": "Skylark Drones India funding revenue construction monitoring 2025 2026",
+    "retrieved_at": "2026-10-27T06:44:20.150431Z",
+    "snippet": "Information on valuation, funding, cap tables, investors, and executives for Skylark Drones. Use the PitchBook Platform to explore the full profile.",
+    "title": "Skylark Drones 2026 Company Profile: Valuation, Funding & Investors ...",
+    "url": "https://pitchbook.com/profiles/company/104400-28"
+   },
+   {
+    "query": "Skylark Drones India funding revenue construction monitoring 2025 2026",
+    "retrieved_at": "2026-10-27T06:44:20.150431Z",
+    "snippet": "Skylark Drones: Funding, Investors & Team (Oct 2026) Skylark Drones is a drone solutions company that builds and delivers products to make drone operations scalable and drone data usable for enterprises in infrastructure, mining, agriculture, and renewable energy. The company's core mission is to translate the key benefits of drones and drone data such as increased productivity, security, and ...",
+    "title": "Skylark Drones: Funding, Investors & Team (Oct 2026)",
+    "url": "https://fundediq.co/skylark-drones-skylarkdrones-com-funding/"
+   },
+   {
+    "query": "Skylark Drones India funding revenue construction monitoring 2025 2026",
+    "retrieved_at": "2026-10-27T06:44:20.150431Z",
+    "snippet": "Skylark Drones's operating revenue range is INR 1 cr - 100 cr for the financial year ending on 31 March, 2025. It's book networth has increased by 76.34%. The current status of Skylark Drones Private Limited is - Active. The last reported AGM (Annual General Meeting) of Skylark Drones Private Limited, per our records, was held on 30 October, 2025.",
+    "title": "Skylark Drones Financials | Company Details | Tofler",
+    "url": "https://www.tofler.in/skylark-drones-private-limited/company/U29253KA2015PTC183331"
+   },
+   {
+    "query": "India real estate construction market size 2025 2026 growth rate NCR Mumbai Pune Bengaluru Hyderabad",
+    "retrieved_at": "2026-10-27T06:44:22.902625Z",
+    "snippet": "Mumbai Metropolitan Region (MMR) has emerged as India\u2019s largest Tier-1 housing market, overtaking the National Capital Region (NCR) in terms of primary housing sales value in the first half of 2026, ...",
+    "title": "MMR overtakes NCR as India's biggest housing market: Mumbai region takes 26% share",
+    "url": "https://www.msn.com/en-in/money/topstories/mmr-overtakes-ncr-as-indias-biggest-housing-market-mumbai-region-takes-26-share/ar-AA2d07Qf?ocid=BingNewsVerp"
+   }
+  ]
+ },
+ "input_hash": "f65ee8f333d8a042fe9fe8d37cca5f505c7407d03a193500222b36c60a2842bc"
+}

@@ -1,0 +1,796 @@
+{
+ "analysis": {
+  "category_scores": {
+   "business_model": 2.0,
+   "execution_risk": 4.0,
+   "market": 5.7,
+   "moat": 4.0,
+   "product": 4.0,
+   "team": 6.0,
+   "traction": 2.0
+  },
+  "citations": {
+   "c:4w4x7sb": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.88022,
+     0.4682
+    ],
+    "chunk_id": "3a3d62bb-e16c-5d8e-82f5-326442aed653",
+    "document_id": "e2dcc8bb-03ec-4095-adbb-78a5007388af",
+    "page_no": 10,
+    "slide_title": "Team",
+    "type": "deck"
+   },
+   "c:4zzqr3r": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.92917,
+     0.65193
+    ],
+    "chunk_id": "753fdcf6-42a4-58ac-a5a0-edcce5914793",
+    "document_id": "e2dcc8bb-03ec-4095-adbb-78a5007388af",
+    "page_no": 11,
+    "slide_title": "The Ask",
+    "type": "deck"
+   },
+   "c:5gb3dqe": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.90405,
+     0.63306
+    ],
+    "chunk_id": "b3dea5e5-d110-5114-a219-d0fcb471d0d9",
+    "document_id": "e2dcc8bb-03ec-4095-adbb-78a5007388af",
+    "page_no": 2,
+    "slide_title": "Problem",
+    "type": "deck"
+   },
+   "c:eh4pvkk": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.92669,
+     0.57474
+    ],
+    "chunk_id": "81ab61b9-d086-5efe-b68a-be148ed2eeb3",
+    "document_id": "e2dcc8bb-03ec-4095-adbb-78a5007388af",
+    "page_no": 4,
+    "slide_title": "Market Opportunity (TAM / SAM / SOM)",
+    "type": "deck"
+   },
+   "c:owpchzr": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.62685,
+     0.33233
+    ],
+    "chunk_id": "910cb620-c8c7-536c-82d9-631f5b900628",
+    "document_id": "e2dcc8bb-03ec-4095-adbb-78a5007388af",
+    "page_no": 7,
+    "slide_title": "Unit Economics",
+    "type": "deck"
+   },
+   "c:palmpri": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.83879,
+     0.45481
+    ],
+    "chunk_id": "1120257e-18ac-58c2-867b-8905d7e88434",
+    "document_id": "e2dcc8bb-03ec-4095-adbb-78a5007388af",
+    "page_no": 5,
+    "slide_title": "Business Model",
+    "type": "deck"
+   },
+   "c:phjr4af": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.85643,
+     0.43886
+    ],
+    "chunk_id": "a04e83ef-8764-5d28-a4db-7dc24ca5d38f",
+    "document_id": "e2dcc8bb-03ec-4095-adbb-78a5007388af",
+    "page_no": 6,
+    "slide_title": "Traction (as of Sep 2026)",
+    "type": "deck"
+   },
+   "c:sc2hehf": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.83888,
+     0.74506
+    ],
+    "chunk_id": "d36f87c8-9c5d-57d2-b806-afd17d2a459b",
+    "document_id": "e2dcc8bb-03ec-4095-adbb-78a5007388af",
+    "page_no": 9,
+    "slide_title": "Go-to-Market & Key Risks",
+    "type": "deck"
+   },
+   "c:vcyibzn": {
+    "bbox": [
+     0.0558,
+     0.0554,
+     0.95025,
+     0.62962
+    ],
+    "chunk_id": "caad71a7-a768-5d63-9021-875991e25be5",
+    "document_id": "e2dcc8bb-03ec-4095-adbb-78a5007388af",
+    "page_no": 8,
+    "slide_title": "Competitive Landscape",
+    "type": "deck"
+   },
+   "c:vfgcf3b": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.88029,
+     0.55436
+    ],
+    "chunk_id": "fb623796-de2b-5794-92bd-14c33a17e942",
+    "document_id": "e2dcc8bb-03ec-4095-adbb-78a5007388af",
+    "page_no": 3,
+    "slide_title": "Solution",
+    "type": "deck"
+   },
+   "c:wp6cixz": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.85368,
+     0.50907
+    ],
+    "chunk_id": "cdbc7178-c932-53ce-a045-b64763a198d3",
+    "document_id": "e2dcc8bb-03ec-4095-adbb-78a5007388af",
+    "page_no": 1,
+    "slide_title": "SiliconSutra",
+    "type": "deck"
+   },
+   "w:1": {
+    "title": "India Chip Startups Pull $92 Million in Just Five Months of 2026",
+    "type": "web",
+    "url": "https://www.semiconhunt.com/article/india-semiconductor-startups-92-million-funding-2026/"
+   },
+   "w:10": {
+    "title": "RISC-V Accelerator Chip Market Size, Share & Forecast Report 2025 to ...",
+    "type": "web",
+    "url": "https://dataintelo.com/report/risc-v-accelerator-chip-market"
+   },
+   "w:14": {
+    "title": "Semicon India 2.0 targets 200 chip design startups, 1 lakh technicians, Ashwini Vaishnaw says",
+    "type": "web",
+    "url": "https://www.msn.com/en-in/technology/general/semicon-india-2-0-targets-200-chip-design-startups-1-lakh-technicians-ashwini-vaishnaw-says/ar-AA2couGL?ocid=BingNewsVerp"
+   },
+   "w:20": {
+    "title": "Indian chip startup Mindgrove Technologies eyes first revenues this ...",
+    "type": "web",
+    "url": "https://www.livemint.com/companies/news/indian-chip-startup-mindgrove-technologies-eyes-first-revenues-this-fiscal-year-11789563796918.html"
+   },
+   "w:21": {
+    "title": "Mindgrove - 2026 Company Profile, Team, Funding, Competitors ... - Tracxn",
+    "type": "web",
+    "url": "https://tracxn.com/d/companies/mindgrove/__-Do6jVQlyS_861Dm7fKw-MqtJebC3YaKQEosnRMrZvQ"
+   },
+   "w:36": {
+    "title": "Edge AI Chip Market Size, Share & Trends - MarketsandMarkets",
+    "type": "web",
+    "url": "https://www.marketsandmarkets.com/Market-Reports/edge-ai-hardware-market-158498281.html"
+   }
+  },
+  "citations_removed": 0,
+  "compliance_flags": [],
+  "data_gaps": [
+   "TAM: the deck claims 180 USD million (p.4), but the retrieved source reports 0.87 USD billion for the same period.",
+   "SAM: no independent source found; the deck claims 70 USD million (p.4).",
+   "SOM: no independent source found; the deck claims 6 USD million (p.4).",
+   "CAGR: the deck claims 29.3 % (p.4); the retrieved source covers a different period, so the two were not compared.",
+   "Revenue chart unavailable: no dated revenue or ARR figures with supporting evidence. No growth assumptions were applied."
+  ],
+  "evidence_version": 2,
+  "generated_at": "2026-10-27T06:44:06.367961Z",
+  "input_hash": "88cf249ca6798f47fc88d07611d8b071e9816f0247b9b9b0b69a6d0594db7a42",
+  "invalid_citations": [],
+  "market_sizing": {
+   "basis": "Only figures traceable to retrieved search excerpts are plotted as market data.",
+   "cagr_pct": 28.5,
+   "claims": {
+    "cagr_pct": {
+     "check": {
+      "source_value": 28.5,
+      "status": "different_period"
+     },
+     "citation": {
+      "bbox": [
+       0.0677,
+       0.0554,
+       0.92669,
+       0.57474
+      ],
+      "chunk_id": "81ab61b9-d086-5efe-b68a-be148ed2eeb3",
+      "cid": "c:eh4pvkk",
+      "document_id": "e2dcc8bb-03ec-4095-adbb-78a5007388af",
+      "page_no": 4
+     },
+     "currency": "%",
+     "geography": "India",
+     "kind": "company_forecast",
+     "low_confidence": false,
+     "market": "Edge-AI vision chips sold in India",
+     "normalised": 29.3,
+     "period": "2025-2030",
+     "quote": "Edge-AI vision chips sold in India CAGR: 29.3% (2025-2030) (company projection)",
+     "retrieved_at": null,
+     "source_title": "SiliconSutra_Pitch_Deck.pdf, p.4",
+     "source_url": null,
+     "unit": "%",
+     "value": 29.3,
+     "year": null
+    },
+    "sam_usd_b": {
+     "check": {
+      "status": "unverified"
+     },
+     "citation": {
+      "bbox": [
+       0.0677,
+       0.0554,
+       0.92669,
+       0.57474
+      ],
+      "chunk_id": "81ab61b9-d086-5efe-b68a-be148ed2eeb3",
+      "cid": "c:eh4pvkk",
+      "document_id": "e2dcc8bb-03ec-4095-adbb-78a5007388af",
+      "page_no": 4
+     },
+     "currency": "USD",
+     "geography": "India",
+     "kind": "company_forecast",
+     "low_confidence": false,
+     "market": "Mid-range smart cameras and drones made in India",
+     "normalised": 0.07,
+     "period": "",
+     "quote": "SAM \u2014 Mid-range smart cameras and drones made in India: USD 70M in 2030 (company projection)",
+     "retrieved_at": null,
+     "source_title": "SiliconSutra_Pitch_Deck.pdf, p.4",
+     "source_url": null,
+     "unit": "USD million",
+     "value": 70.0,
+     "year": 2030
+    },
+    "som_usd_b": {
+     "check": {
+      "status": "unverified"
+     },
+     "citation": {
+      "bbox": [
+       0.0677,
+       0.0554,
+       0.92669,
+       0.57474
+      ],
+      "chunk_id": "81ab61b9-d086-5efe-b68a-be148ed2eeb3",
+      "cid": "c:eh4pvkk",
+      "document_id": "e2dcc8bb-03ec-4095-adbb-78a5007388af",
+      "page_no": 4
+     },
+     "currency": "USD",
+     "geography": "India",
+     "kind": "company_forecast",
+     "low_confidence": false,
+     "market": "Obtainable share of SAM in the first 2 production years",
+     "normalised": 0.006,
+     "period": "",
+     "quote": "SOM \u2014 Obtainable share of SAM in the first 2 production years: USD 6M in 2031 (company projection)",
+     "retrieved_at": null,
+     "source_title": "SiliconSutra_Pitch_Deck.pdf, p.4",
+     "source_url": null,
+     "unit": "USD million",
+     "value": 6.0,
+     "year": 2031
+    },
+    "tam_usd_b": {
+     "check": {
+      "ratio": 0.21,
+      "source_value": 0.87,
+      "status": "differs"
+     },
+     "citation": {
+      "bbox": [
+       0.0677,
+       0.0554,
+       0.92669,
+       0.57474
+      ],
+      "chunk_id": "81ab61b9-d086-5efe-b68a-be148ed2eeb3",
+      "cid": "c:eh4pvkk",
+      "document_id": "e2dcc8bb-03ec-4095-adbb-78a5007388af",
+      "page_no": 4
+     },
+     "currency": "USD",
+     "geography": "India",
+     "kind": "company_estimate",
+     "low_confidence": false,
+     "market": "Edge-AI vision chips for cameras, drones and industrial sensors sold in India",
+     "normalised": 0.18,
+     "period": "",
+     "quote": "TAM \u2014 Edge-AI vision chips for cameras, drones and industrial sensors sold in India: USD 180M in 2025, projected USD 650M by 2030 at 29.3% CAGR (company estimate)",
+     "retrieved_at": null,
+     "source_title": "SiliconSutra_Pitch_Deck.pdf, p.4",
+     "source_url": null,
+     "unit": "USD million",
+     "value": 180.0,
+     "year": 2025
+    }
+   },
+   "evidence": {
+    "cagr_pct": {
+     "citation": null,
+     "geography": "Global",
+     "kind": "source_forecast",
+     "low_confidence": false,
+     "market": "RISC-V Accelerator Chip Market",
+     "period": "2025-2034",
+     "quote": "RISC-V Accelerator Chip Market valued at $0.87 billion in 2025, projected to reach $8.38 billion by 2034, growing at 28.5% CAGR through 2034.",
+     "retrieved_at": "2026-10-27T06:43:03.965212Z",
+     "source_title": "RISC-V Accelerator Chip Market Size, Share & Forecast Report 2025 to ...",
+     "source_url": "https://dataintelo.com/report/risc-v-accelerator-chip-market",
+     "unit": "%",
+     "value": 28.5,
+     "year": null
+    },
+    "tam_usd_b": {
+     "citation": null,
+     "geography": "Global",
+     "kind": "source_forecast",
+     "low_confidence": false,
+     "market": "RISC-V Accelerator Chip Market",
+     "period": "",
+     "quote": "RISC-V Accelerator Chip Market valued at $0.87 billion in 2025, projected to reach $8.38 billion by 2034, growing at 28.5% CAGR through 2034.",
+     "retrieved_at": "2026-10-27T06:43:03.965212Z",
+     "source_title": "RISC-V Accelerator Chip Market Size, Share & Forecast Report 2025 to ...",
+     "source_url": "https://dataintelo.com/report/risc-v-accelerator-chip-market",
+     "unit": "USD billion",
+     "value": 0.87,
+     "year": 2025
+    }
+   },
+   "sam_usd_b": null,
+   "som_usd_b": null,
+   "tam_usd_b": 0.87,
+   "trend": [
+    {
+     "citation": null,
+     "geography": "Global",
+     "kind": "source_forecast",
+     "low_confidence": false,
+     "market": "Edge AI Hardware Market",
+     "period": "",
+     "quote": "The global Edge AI Hardware Market in terms of revenue is estimated to be worth $26.14 billion in 2025 and is poised to reach $58.90 billion by 2030, growing at a CAGR of 17.6% during the forecast period.",
+     "retrieved_at": "2026-10-27T06:43:28.099232Z",
+     "size_usd_b": 26.14,
+     "source_title": "Edge AI Chip Market Size, Share & Trends - MarketsandMarkets",
+     "source_url": "https://www.marketsandmarkets.com/Market-Reports/edge-ai-hardware-market-158498281.html",
+     "unit": "USD billion",
+     "value": 26.14,
+     "year": 2025
+    },
+    {
+     "citation": null,
+     "geography": "Global",
+     "kind": "source_forecast",
+     "low_confidence": false,
+     "market": "Edge AI Hardware Market",
+     "period": "",
+     "quote": "The global Edge AI Hardware Market in terms of revenue is estimated to be worth $26.14 billion in 2025 and is poised to reach $58.90 billion by 2030, growing at a CAGR of 17.6% during the forecast period.",
+     "retrieved_at": "2026-10-27T06:43:28.099232Z",
+     "size_usd_b": 58.9,
+     "source_title": "Edge AI Chip Market Size, Share & Trends - MarketsandMarkets",
+     "source_url": "https://www.marketsandmarkets.com/Market-Reports/edge-ai-hardware-market-158498281.html",
+     "unit": "USD billion",
+     "value": 58.9,
+     "year": 2030
+    }
+   ]
+  },
+  "model": "azure/deepSeek-V4-Flash",
+  "overall_score": 4.0,
+  "projected_revenue": [],
+  "recommendation_label": "Pass",
+  "report_markdown": "## 1. Executive Summary\n\nSiliconSutra is a pre-revenue, pre-seed deep-tech startup designing a low-power RISC-V vision chip for on-device AI in cameras, drones, and industrial sensors. The company has a working FPGA prototype running YOLO at 30 fps under 1 watt and three non-binding letters of intent, but tape-out is not planned until late 2027 and volume production is unlikely before 2029 [c:phjr4af] [c:vfgcf3b]. The team of three co-founders has relevant chip-design experience, including prior SoC tape-outs [c:4w4x7sb]. The company is raising Rs 3 crore at an Rs 18 crore pre-money valuation [c:wp6cixz]. The overall score is 4.0/10 (Pass), reflecting a plausible but unvalidated product, a credible but company-estimated market, and significant execution risk due to the long R&D timeline and lack of revenue.\n\n## 2. Problem & Solution\n\nIndian camera, drone, and industrial-sensor makers currently rely on imported AI vision chips or cloud-based video analytics, which the company estimates costs Rs 300-800 per camera per month in bandwidth and compute, and edge-AI modules priced above USD 100 are too costly for mass-market devices [c:5gb3dqe]. SiliconSutra's solution is an open-ISA (RISC-V) vision chip with a custom INT8 neural-network accelerator that runs object detection at 30 frames per second under 1 watt (FPGA-measured, scaled estimate) and includes a compiler toolchain that imports standard PyTorch and ONNX models [c:vfgcf3b]. The target price is under USD 12 per chip at volume [c:vfgcf3b]. The problem-solution fit is plausible but unvalidated beyond non-binding LOIs [c:phjr4af].\n\n## 3. Market Opportunity\n\nThe company estimates a TAM of USD 180 million in 2025 for edge-AI vision chips sold in India, growing at a 29.3% CAGR to USD 650 million by 2030, with a SAM of USD 70 million and a SOM of USD 6 million in the first two production years [c:eh4pvkk]. However, all market sizing is company-projected without independent source backing [c:eh4pvkk]. An independent source values the global RISC-V accelerator chip market at USD 0.87 billion in 2025, growing at 28.5% CAGR through 2034 [w:10], and the global edge AI hardware market is estimated at USD 26.14 billion in 2025, growing at 17.6% CAGR to USD 58.90 billion by 2030 [w:36]. The company's TAM of USD 180 million for India alone appears credible in scope but lacks third-party validation.\n\n## 4. Competitive Landscape\n\nSiliconSutra competes with well-funded global edge-AI chip vendors such as NVIDIA Jetson (high-performance edge-AI modules), Hailo (edge-AI accelerator chips), and Indian RISC-V microcontroller SoC maker Mindgrove Technologies [c:vcyibzn] [c:sc2hehf]. The company claims its edge comes from accelerator architecture co-designed with its compiler for low-power INT8 inference and a team with prior SoC tape-out experience [c:vcyibzn]. However, the RISC-V open-ISA approach is easily replicated by competitors, and no switching costs or IP moats are evidenced [c:vcyibzn]. Mindgrove, a more advanced Indian competitor, has raised $10.6 million in Series A funding and expects to start generating revenue this fiscal year [w:21] [w:20].\n\n## 5. Business Model\n\nSiliconSutra operates a fabless model with three revenue streams: chip sales at a target price of Rs 950 per unit, design services for custom chip variants billed per project, and SDK/compiler licence fees [c:palmpri]. The target gross margin is 55% at 1 million units per year, but no CAC, margin, or churn data exists because the company is pre-revenue [c:owpchzr] [c:palmpri]. The multi-project-wafer tape-out is estimated at Rs 1.6 crore [c:owpchzr]. The business model is unproven, with all prices and margins being targets not yet validated by orders [c:palmpri].\n\n## 6. Team Assessment\n\nThe three co-founders have relevant domain experience: Lakshmi Venkatesan (CEO) has 14 years in chip design at semiconductor multinationals and led two SoC tape-outs; Rohit Malviya (CTO) has 10 years in RTL design and verification of processor cores; and Priya Ghosh (Software) is an ML compiler and model-quantisation engineer [c:4w4x7sb]. The team has prior SoC tape-out success, but there is no evidence they have previously built or scaled a startup together [c:4w4x7sb]. The company is registered as SILICONSUTRA PRIVATE LIMITED (CIN U72100KA2025PTC201846) with the three co-founders as directors, and no compliance flags were found [c:wp6cixz].\n\n## 7. Traction & Milestones\n\n**FPGA prototype** \u2013 A working FPGA prototype runs a YOLO-class object-detection model at 30 frames per second under 1 watt (company-reported, unverified). [c:phjr4af] [c:vfgcf3b]\n\n**Letters of intent** \u2013 Three non-binding LOIs from Indian camera and drone makers have been signed; no committed orders or revenue. [c:phjr4af]\n\n**RTL progress** \u2013 The accelerator RTL is approximately 70% complete. [c:phjr4af]\n\n**Tape-out and revenue timeline** \u2013 A multi-project-wafer tape-out is planned for late 2027; first revenue is expected from design services in 2028, with volume production unlikely before 2029. [c:phjr4af] [c:sc2hehf]\n\n**Pre-revenue** \u2013 The company is pre-revenue with no paying customers. [c:phjr4af]\n\n## 8. Compliance & Governance\n\n**MCA registry check** \u2013 The company is registered as SILICONSUTRA PRIVATE LIMITED, CIN U72100KA2025PTC201846, status ACTIVE. Directors: Lakshmi Venkatesan, Rohit Malviya, Priya Ghosh. No compliance flags were raised.\n\n**No flags** \u2013 No governance or compliance issues were identified in the registry or in the deck.\n\n**Deck instruction attempt** \u2013 The startup documents contain no instructions to the evaluator. No red flags.\n\n## 9. Risks & Challenges\n\n**Long R&D timeline** \u2013 No product revenue is expected before 2028, and volume production is unlikely before 2029. The tape-out is only planned for late 2027, and first silicon may fail, requiring a costly re-spin. [c:sc2hehf]\n\n**Pre-revenue with no committed orders** \u2013 The company has only three non-binding letters of intent; there is no revenue, no paying customers, and no committed purchase orders. [c:phjr4af] [c:sc2hehf]\n\n**Funding risk** \u2013 The company acknowledges it needs a much larger follow-on round (or grants) to fund tape-out and production. The tranched pre-seed structure partially mitigates funding risk but does not address technical or market risks. [c:sc2hehf] [c:4zzqr3r]\n\n**Competitive pressure** \u2013 The company competes with well-funded global edge-AI chip vendors such as NVIDIA Jetson and Hailo, as well as Indian peers like Mindgrove Technologies. The RISC-V open-ISA approach is easily replicated. [c:vcyibzn] [c:sc2hehf]\n\n**Market sizing gaps** \u2013 The deck claims a TAM of USD 180M (2025) growing at 29.3% CAGR, but an independent source reports the RISC-V accelerator chip market at USD 0.87 billion in 2025. The SAM and SOM figures (USD 70M and USD 6M) have no independent source backing. [c:eh4pvkk] [w:10]\n\n## 10. Investment Thesis\n\n**Plausible problem-solution fit** \u2013 The company targets a real need for low-power, on-device AI vision chips in Indian cameras, drones, and industrial sensors, addressing cost, power, and supply-chain risks. The FPGA prototype demonstrates technical feasibility at 30 fps under 1 watt. [c:vfgcf3b] [c:5gb3dqe]\n\n**Strong team with domain expertise** \u2013 All three co-founders have relevant experience in chip design, RTL, and ML compilers, with prior SoC tape-out success. However, they have not previously built or scaled a startup together. [c:4w4x7sb]\n\n**Supportive ecosystem** \u2013 India's semiconductor ecosystem is attracting significant funding (USD 92M in H1 2026) and government support through schemes like Semicon India 2.0, which targets 200 chip design startups. [w:1] [w:14]\n\n**Significant execution and market risks** \u2013 The company is pre-revenue, with a long R&D timeline, no committed orders, and a need for substantial follow-on funding. The market sizing is unvalidated, and competition from well-funded global players is intense. [c:sc2hehf] [c:eh4pvkk]\n\n**Unproven business model** \u2013 Pricing is defined (Rs 950 per chip, target gross margin 55%) but unit economics are entirely unproven: no CAC, margin, or churn data exists. [c:palmpri] [c:owpchzr]\n\n## 11. Recommendation\n\n**Overall score: 4.0/10 \u2013 Pass**\n\n**Rationale** \u2013 SiliconSutra addresses a genuine market need with a technically plausible solution and a capable team. However, the company is at a very early stage: pre-revenue, with only an FPGA prototype and non-binding LOIs. The long R&D timeline, unvalidated market sizing, and intense competition from well-funded incumbents present significant risks. The tranched pre-seed structure provides some funding discipline, but the company will require a much larger follow-on round to reach production. The pass recommendation reflects the team's domain expertise and the supportive Indian semiconductor ecosystem, but investors should expect a high-risk, long-duration profile with no near-term revenue visibility.",
+  "revenue_currency": null,
+  "revenue_metric": null,
+  "rewrites": 2,
+  "rubric_version": "r1",
+  "score_rationales": {
+   "business_model": "Pricing is defined (Rs 950 per chip, target gross margin 55%) but unit economics are entirely unproven: no CAC, margin, or churn data exists because the company is pre-revenue. [c:palmpri] [c:owpchzr]",
+   "execution_risk": "Severe risks are clearly acknowledged: long R&D timeline, no product revenue before 2028, first silicon may fail, and reliance on a much larger follow-on round. The tranched pre-seed structure partially mitigates funding risk but does not address technical or market risks. [c:sc2hehf] [c:4zzqr3r]",
+   "market": "Company estimates a TAM of USD 180M (2025) growing at 29.3% CAGR, but the sizing is entirely company-projected without independent source backing; credible scope but lacks third-party validation. [c:eh4pvkk]",
+   "moat": "The accelerator-compiler co-design and prior tape-out experience provide some execution advantage, but the RISC-V open-ISA approach is easily replicated by well-funded competitors like NVIDIA Jetson and Hailo. No switching costs or IP moats are evidenced. [c:vcyibzn]",
+   "product": "The product is a working FPGA prototype (runs YOLO at 30 fps under 1 watt) but tape-out is only planned for late 2027, and there are no paying customers yet. The problem-solution fit is plausible but unvalidated beyond non-binding LOIs. [c:phjr4af] [c:vfgcf3b]",
+   "team": "All three co-founders have relevant domain experience (chip design, RTL, ML compiler) with prior SoC tape-out success, but there is no evidence they have previously built or scaled a startup together. [c:4w4x7sb]",
+   "traction": "Traction is limited to an FPGA prototype and three non-binding letters of intent. There is no revenue, no paying customers, and no committed orders. [c:phjr4af]"
+  },
+  "score_spread": {
+   "business_model": 0.0,
+   "execution_risk": 1.0,
+   "market": 2.0,
+   "moat": 1.0,
+   "product": 0.0,
+   "team": 1.0,
+   "traction": 0.0
+  },
+  "sections": {
+   "business_model": "SiliconSutra operates a fabless model with three revenue streams: chip sales at a target price of Rs 950 per unit, design services for custom chip variants billed per project, and SDK/compiler licence fees [c:palmpri]. The target gross margin is 55% at 1 million units per year, but no CAC, margin, or churn data exists because the company is pre-revenue [c:owpchzr] [c:palmpri]. The multi-project-wafer tape-out is estimated at Rs 1.6 crore [c:owpchzr]. The business model is unproven, with all prices and margins being targets not yet validated by orders [c:palmpri].",
+   "competitive_landscape": "SiliconSutra competes with well-funded global edge-AI chip vendors such as NVIDIA Jetson (high-performance edge-AI modules), Hailo (edge-AI accelerator chips), and Indian RISC-V microcontroller SoC maker Mindgrove Technologies [c:vcyibzn] [c:sc2hehf]. The company claims its edge comes from accelerator architecture co-designed with its compiler for low-power INT8 inference and a team with prior SoC tape-out experience [c:vcyibzn]. However, the RISC-V open-ISA approach is easily replicated by competitors, and no switching costs or IP moats are evidenced [c:vcyibzn]. Mindgrove, a more advanced Indian competitor, has raised $10.6 million in Series A funding and expects to start generating revenue this fiscal year [w:21] [w:20].",
+   "compliance_governance": "**MCA registry check** \u2013 The company is registered as SILICONSUTRA PRIVATE LIMITED, CIN U72100KA2025PTC201846, status ACTIVE. Directors: Lakshmi Venkatesan, Rohit Malviya, Priya Ghosh. No compliance flags were raised.\n\n**No flags** \u2013 No governance or compliance issues were identified in the registry or in the deck.\n\n**Deck instruction attempt** \u2013 The startup documents contain no instructions to the evaluator. No red flags.",
+   "executive_summary": "SiliconSutra is a pre-revenue, pre-seed deep-tech startup designing a low-power RISC-V vision chip for on-device AI in cameras, drones, and industrial sensors. The company has a working FPGA prototype running YOLO at 30 fps under 1 watt and three non-binding letters of intent, but tape-out is not planned until late 2027 and volume production is unlikely before 2029 [c:phjr4af] [c:vfgcf3b]. The team of three co-founders has relevant chip-design experience, including prior SoC tape-outs [c:4w4x7sb]. The company is raising Rs 3 crore at an Rs 18 crore pre-money valuation [c:wp6cixz]. The overall score is 4.0/10 (Pass), reflecting a plausible but unvalidated product, a credible but company-estimated market, and significant execution risk due to the long R&D timeline and lack of revenue.",
+   "investment_thesis": "**Plausible problem-solution fit** \u2013 The company targets a real need for low-power, on-device AI vision chips in Indian cameras, drones, and industrial sensors, addressing cost, power, and supply-chain risks. The FPGA prototype demonstrates technical feasibility at 30 fps under 1 watt. [c:vfgcf3b] [c:5gb3dqe]\n\n**Strong team with domain expertise** \u2013 All three co-founders have relevant experience in chip design, RTL, and ML compilers, with prior SoC tape-out success. However, they have not previously built or scaled a startup together. [c:4w4x7sb]\n\n**Supportive ecosystem** \u2013 India's semiconductor ecosystem is attracting significant funding (USD 92M in H1 2026) and government support through schemes like Semicon India 2.0, which targets 200 chip design startups. [w:1] [w:14]\n\n**Significant execution and market risks** \u2013 The company is pre-revenue, with a long R&D timeline, no committed orders, and a need for substantial follow-on funding. The market sizing is unvalidated, and competition from well-funded global players is intense. [c:sc2hehf] [c:eh4pvkk]\n\n**Unproven business model** \u2013 Pricing is defined (Rs 950 per chip, target gross margin 55%) but unit economics are entirely unproven: no CAC, margin, or churn data exists. [c:palmpri] [c:owpchzr]",
+   "market_opportunity": "The company estimates a TAM of USD 180 million in 2025 for edge-AI vision chips sold in India, growing at a 29.3% CAGR to USD 650 million by 2030, with a SAM of USD 70 million and a SOM of USD 6 million in the first two production years [c:eh4pvkk]. However, all market sizing is company-projected without independent source backing [c:eh4pvkk]. An independent source values the global RISC-V accelerator chip market at USD 0.87 billion in 2025, growing at 28.5% CAGR through 2034 [w:10], and the global edge AI hardware market is estimated at USD 26.14 billion in 2025, growing at 17.6% CAGR to USD 58.90 billion by 2030 [w:36]. The company's TAM of USD 180 million for India alone appears credible in scope but lacks third-party validation.",
+   "problem_solution": "Indian camera, drone, and industrial-sensor makers currently rely on imported AI vision chips or cloud-based video analytics, which the company estimates costs Rs 300-800 per camera per month in bandwidth and compute, and edge-AI modules priced above USD 100 are too costly for mass-market devices [c:5gb3dqe]. SiliconSutra's solution is an open-ISA (RISC-V) vision chip with a custom INT8 neural-network accelerator that runs object detection at 30 frames per second under 1 watt (FPGA-measured, scaled estimate) and includes a compiler toolchain that imports standard PyTorch and ONNX models [c:vfgcf3b]. The target price is under USD 12 per chip at volume [c:vfgcf3b]. The problem-solution fit is plausible but unvalidated beyond non-binding LOIs [c:phjr4af].",
+   "recommendation": "**Overall score: 4.0/10 \u2013 Pass**\n\n**Rationale** \u2013 SiliconSutra addresses a genuine market need with a technically plausible solution and a capable team. However, the company is at a very early stage: pre-revenue, with only an FPGA prototype and non-binding LOIs. The long R&D timeline, unvalidated market sizing, and intense competition from well-funded incumbents present significant risks. The tranched pre-seed structure provides some funding discipline, but the company will require a much larger follow-on round to reach production. The pass recommendation reflects the team's domain expertise and the supportive Indian semiconductor ecosystem, but investors should expect a high-risk, long-duration profile with no near-term revenue visibility.",
+   "risks_challenges": "**Long R&D timeline** \u2013 No product revenue is expected before 2028, and volume production is unlikely before 2029. The tape-out is only planned for late 2027, and first silicon may fail, requiring a costly re-spin. [c:sc2hehf]\n\n**Pre-revenue with no committed orders** \u2013 The company has only three non-binding letters of intent; there is no revenue, no paying customers, and no committed purchase orders. [c:phjr4af] [c:sc2hehf]\n\n**Funding risk** \u2013 The company acknowledges it needs a much larger follow-on round (or grants) to fund tape-out and production. The tranched pre-seed structure partially mitigates funding risk but does not address technical or market risks. [c:sc2hehf] [c:4zzqr3r]\n\n**Competitive pressure** \u2013 The company competes with well-funded global edge-AI chip vendors such as NVIDIA Jetson and Hailo, as well as Indian peers like Mindgrove Technologies. The RISC-V open-ISA approach is easily replicated. [c:vcyibzn] [c:sc2hehf]\n\n**Market sizing gaps** \u2013 The deck claims a TAM of USD 180M (2025) growing at 29.3% CAGR, but an independent source reports the RISC-V accelerator chip market at USD 0.87 billion in 2025. The SAM and SOM figures (USD 70M and USD 6M) have no independent source backing. [c:eh4pvkk] [w:10]",
+   "team_assessment": "The three co-founders have relevant domain experience: Lakshmi Venkatesan (CEO) has 14 years in chip design at semiconductor multinationals and led two SoC tape-outs; Rohit Malviya (CTO) has 10 years in RTL design and verification of processor cores; and Priya Ghosh (Software) is an ML compiler and model-quantisation engineer [c:4w4x7sb]. The team has prior SoC tape-out success, but there is no evidence they have previously built or scaled a startup together [c:4w4x7sb]. The company is registered as SILICONSUTRA PRIVATE LIMITED (CIN U72100KA2025PTC201846) with the three co-founders as directors, and no compliance flags were found [c:wp6cixz].",
+   "traction_milestones": "**FPGA prototype** \u2013 A working FPGA prototype runs a YOLO-class object-detection model at 30 frames per second under 1 watt (company-reported, unverified). [c:phjr4af] [c:vfgcf3b]\n\n**Letters of intent** \u2013 Three non-binding LOIs from Indian camera and drone makers have been signed; no committed orders or revenue. [c:phjr4af]\n\n**RTL progress** \u2013 The accelerator RTL is approximately 70% complete. [c:phjr4af]\n\n**Tape-out and revenue timeline** \u2013 A multi-project-wafer tape-out is planned for late 2027; first revenue is expected from design services in 2028, with volume production unlikely before 2029. [c:phjr4af] [c:sc2hehf]\n\n**Pre-revenue** \u2013 The company is pre-revenue with no paying customers. [c:phjr4af]"
+  },
+  "sources": [
+   {
+    "query": "edge AI chip investment funding rounds 2025 2026 India semiconductor",
+    "retrieved_at": "2026-10-27T06:43:03.747320Z",
+    "snippet": "Indian semiconductor startups attracted $92 million in venture and institutional funding in just the first five months of 2026, a near-doubling of the pace seen in all of 2025. The surge reflects growing investor confidence in India's chip design ecosystem, backed by DLI scheme tapeout milestones, ISM 2.0's equity co-investment signal, and a cohort of startups moving from prototype silicon to ...",
+    "title": "India Chip Startups Pull $92 Million in Just Five Months of 2026",
+    "url": "https://www.semiconhunt.com/article/india-semiconductor-startups-92-million-funding-2026/"
+   },
+   {
+    "query": "edge AI chip investment funding rounds 2025 2026 India semiconductor",
+    "retrieved_at": "2026-10-27T06:43:03.747320Z",
+    "snippet": "Share this: Indian semiconductor chip design startup Netrasemi has secured an investment of $12.5 million (\u20b9107 crore) in a Series A funding round led by Zoho Corporation and Unicorn India Ventures. The company is developing chips for specific edge applications, including computer vision, image signal processing, and multi-sensor fusion.",
+    "title": "Indian Startup Builds Full-Stack Edge AI Chips Using In-House IP",
+    "url": "https://www.eetimes.com/indian-startup-builds-full-stack-edge-ai-chips-using-in-house-ip/"
+   },
+   {
+    "query": "edge AI chip investment funding rounds 2025 2026 India semiconductor",
+    "retrieved_at": "2026-10-27T06:43:03.747320Z",
+    "snippet": "India's semiconductor ecosystem has raised approximately \u20b91.34 lakh crore ($1.4 billion) in equity funding to date, with half of the capital coming in since 2025, according to a report by data intelligence platform Tracxn Technologies. The funding, however, is becoming concentrated in fewer, larger deals.",
+    "title": "India's semiconductor funding reaches \u20b91.34 lakh crore, but capital ...",
+    "url": "https://economictimes.indiatimes.com/ai/ai-insights/indias-semiconductor-funding-reaches-1-34-lakh-crore-but-capital-flows-into-fewer-players/articleshow/134260513.cms"
+   },
+   {
+    "query": "edge AI chip investment funding rounds 2025 2026 India semiconductor",
+    "retrieved_at": "2026-10-27T06:43:03.747320Z",
+    "snippet": "India's semiconductor startups have cleared the design stage with government support and seed funding, but few are securing the much larger investments needed to move from initial chip production ...",
+    "title": "India's chip startups struggle to fund leap from design to ... - Mint",
+    "url": "https://www.livemint.com/industry/indias-chip-startups-can-design-funding-them-to-scale-is-the-harder-part-11786679998785.html"
+   },
+   {
+    "query": "edge AI chip investment funding rounds 2025 2026 India semiconductor",
+    "retrieved_at": "2026-10-27T06:43:03.747320Z",
+    "snippet": "The funding came through just seven rounds in H1 2026, compared to 13 rounds in 2025 and 16 in 2024. The decline in deal count alongside the rise in capital deployed indicates that investors are concentrating larger cheques in semiconductor startups that have progressed further in product development and commercialisation.",
+    "title": "Indian Chip Startups Nearly Match 2025's Entire Funding Total in H1 2026",
+    "url": "https://analyticsindiamag.com/ai-news/indian-chip-startups-nearly-match-2025s-entire-funding-total-in-h1-2026"
+   },
+   {
+    "query": "RISC-V AI accelerator chip startup competitors India 2025 2026",
+    "retrieved_at": "2026-10-27T06:43:03.965212Z",
+    "snippet": "Most are headquartered in Bengaluru, Hyderabad, or Chennai, India's major semiconductor design hubs, where homegrown designs are emerging despite intense global chip competition. Many of these startups are betting on open-source RISC-V processors, 5G SoCs, edge AI, and energy-efficient PMICs.",
+    "title": "India's top semiconductor startups of 2026 - Engineers Garage",
+    "url": "https://www.engineersgarage.com/indias-top-semiconductor-startups-of-2026/"
+   },
+   {
+    "query": "RISC-V AI accelerator chip startup competitors India 2025 2026",
+    "retrieved_at": "2026-10-27T06:43:03.965212Z",
+    "snippet": "India's RISC-V ecosystem is gaining strength through two parallel efforts, one led by C-DAC, the other emerging from chip startups.",
+    "title": "India Paves Dual RISC-V Tracks with C-DAC and Startup Silicon",
+    "url": "https://www.eetimes.com/india-paves-dual-risc-v-tracks-with-c-dac-and-startup-silicon/"
+   },
+   {
+    "query": "RISC-V AI accelerator chip startup competitors India 2025 2026",
+    "retrieved_at": "2026-10-27T06:43:03.965212Z",
+    "snippet": "By Yashasvini Razdan, EETimes | December 8, 2025 A global move toward customizable processor architectures is creating room for India to push into RISC-V, with government labs and young chip firms taking different paths. India is now coupling a state-funded processor effort with a parallel rise of startups using RISC-V for embedded and IoT designs.",
+    "title": "India Paves Dual RISC-V Tracks with C-DAC and Startup Silicon",
+    "url": "https://semiiphub.com/pulse/news/india-risc-v-ecosystem-c-dac-chip-startups"
+   },
+   {
+    "query": "RISC-V AI accelerator chip startup competitors India 2025 2026",
+    "retrieved_at": "2026-10-27T06:43:03.965212Z",
+    "snippet": "How India's AI chip startups are using RISC-V, edge AI, and the DLI scheme to turn homegrown chips into a global semiconductor design powerhouse.",
+    "title": "Can India's AI Chip Startups Beat Taiwan and the US?",
+    "url": "https://indiatechdesk.com/indias-ai-chip-startups-are-quietly-rewriting-the-rules-of-the-global-semiconductor-race/"
+   },
+   {
+    "query": "RISC-V AI accelerator chip startup competitors India 2025 2026",
+    "retrieved_at": "2026-10-27T06:43:03.965212Z",
+    "snippet": "RISC-V Accelerator Chip Market valued at $0.87 billion in 2025, projected to reach $8.38 billion by 2034, growing at 28.5% CAGR through 2034.",
+    "title": "RISC-V Accelerator Chip Market Size, Share & Forecast Report 2025 to ...",
+    "url": "https://dataintelo.com/report/risc-v-accelerator-chip-market"
+   },
+   {
+    "query": "India semiconductor design policy PLI chip manufacturing regulation 2025 2026",
+    "retrieved_at": "2026-10-27T06:43:05.155296Z",
+    "snippet": "At the CHIPS 2026 conclave hosted by Adani University, Dr Priti Adani and industry leaders called for aligning technical ...",
+    "title": "Adani University urges closer industry\u2013academia ties to build India\u2019s semiconductor talent",
+    "url": "https://eoto.tech/adani-university-urges-closer-industry-academia-ties-to-build-india-s-semiconductor-talent"
+   },
+   {
+    "query": "India semiconductor design policy PLI chip manufacturing regulation 2025 2026",
+    "retrieved_at": "2026-10-27T06:43:05.155296Z",
+    "snippet": "New Delhi: The Delhi government\u2019s proposed semiconductor policy (2026\u20132031) seeks to position the national capital as a major hub for semiconductor chip design, research and development (R&D), ...",
+    "title": "Delhi\u2019s semiconductor policy eyes R&D, manufacturing",
+    "url": "https://www.msn.com/en-in/technology/general/delhi-s-semiconductor-policy-eyes-r-d-manufacturing/ar-AA2cebsi?ocid=BingNewsVerp"
+   },
+   {
+    "query": "India semiconductor design policy PLI chip manufacturing regulation 2025 2026",
+    "retrieved_at": "2026-10-27T06:43:05.155296Z",
+    "snippet": "For five years, India has worked to attract semiconductor fabs, testing and packaging plants. Now, the ecosystem around them is taking shape. Ahead of SEMICON India 2026, global suppliers of ...",
+    "title": "India's chip push goes global: Semiconductor heavyweights deepen footprint ahead of SEMICON 2026",
+    "url": "https://www.msn.com/en-in/technology/general/india-s-chip-push-goes-global-semiconductor-heavyweights-deepen-footprint-ahead-of-semicon-2026/ar-AA2cm1N3?ocid=BingNewsVerp"
+   },
+   {
+    "query": "India semiconductor design policy PLI chip manufacturing regulation 2025 2026",
+    "retrieved_at": "2026-10-27T06:43:05.155296Z",
+    "snippet": "Semicon India 2.0 will target at least 200 startups and companies designing chips in India, while also creating a new pool of 1 lakh semiconductor technicians and other industry-ready talent, Union ...",
+    "title": "Semicon India 2.0 targets 200 chip design startups, 1 lakh technicians, Ashwini Vaishnaw says",
+    "url": "https://www.msn.com/en-in/technology/general/semicon-india-2-0-targets-200-chip-design-startups-1-lakh-technicians-ashwini-vaishnaw-says/ar-AA2couGL?ocid=BingNewsVerp"
+   },
+   {
+    "query": "India semiconductor design policy PLI chip manufacturing regulation 2025 2026",
+    "retrieved_at": "2026-10-27T06:43:05.155296Z",
+    "snippet": "New Delhi, Sep 17 (PTI) Prime Minister Narendra Modi on Thursday pitched India as a trusted alternative for global manufacturing, telling chip industry leaders that his government is taking every step ...",
+    "title": "Modi pitches India as trusted manufacturing hub, vows to do everything needed for chip industry",
+    "url": "https://www.msn.com/en-in/money/economy/modi-pitches-india-as-trusted-manufacturing-hub-vows-to-do-everything-needed-for-chip-industry/ar-AA2cpuQt?ocid=BingNewsVerp"
+   },
+   {
+    "query": "edge AI vision chip market size India 2025 2030 CAGR",
+    "retrieved_at": "2026-10-27T06:43:05.348999Z",
+    "snippet": "The above button links to Coinbase. Yahoo Finance is not a broker-dealer or investment adviser and does not offer securities or cryptocurrencies for sale or facilitate trading. Coinbase pays us for ...",
+    "title": "Computer Vision Global Market Report 2026: Secure Your Share of a $37.1 Billion Market Growing 15.9% Annually by 2030\u2014Benchmark Microsoft, Sony, Intel, Texas Instruments and ...",
+    "url": "https://finance.yahoo.com/technology/ai/articles/computer-vision-global-market-report-092800425.html"
+   },
+   {
+    "query": "edge AI vision chip market size India 2025 2030 CAGR",
+    "retrieved_at": "2026-10-27T06:43:05.348999Z",
+    "snippet": "The above button links to Coinbase. Yahoo Finance is not a broker-dealer or investment adviser and does not offer securities or cryptocurrencies for sale or facilitate trading. Coinbase pays us for ...",
+    "title": "Client Computing Global Market Report 2026: Capitalize on AI, Hybrid and Edge Disruption as Revenue Climbs $41.73B to $277.88B by 2030\u2014Benchmark Microsoft, Apple, Dell ...",
+    "url": "https://finance.yahoo.com/technology/articles/client-computing-global-market-report-081600133.html"
+   },
+   {
+    "query": "Mindgrove Technologies India RISC-V chip startup funding traction 2025 2026",
+    "retrieved_at": "2026-10-27T06:43:15.654694Z",
+    "snippet": "The underlying architecture traces back to IIT Madras's Shakti C-Class RISC-V design, the open instruction-set alternative to Arm that India's chip mission has embraced as a route toward technological self-reliance.",
+    "title": "Mindgrove eyes first revenues as chip startup goes commercial",
+    "url": "https://www.founderland.ai/articles/mindgrove-eyes-first-revenues-as-chip-startup-goes-commercia-mu5euq2l"
+   },
+   {
+    "query": "Mindgrove Technologies India RISC-V chip startup funding traction 2025 2026",
+    "retrieved_at": "2026-10-27T06:43:15.654694Z",
+    "snippet": "General Information Description Developer of system-on-a-chip semiconductor devices designed to support connected and compute-intensive applications in power-constrained environments. The company designs microprocessor-based chips for use in automotive electronics, consumer devices, industrial equipment, smart home products, and security hardware for AI inferencing, vision and signal ...",
+    "title": "Mindgrove 2026 Company Profile: Valuation, Funding & Investors | PitchBook",
+    "url": "https://pitchbook.com/profiles/company/520086-25"
+   },
+   {
+    "query": "Mindgrove Technologies India RISC-V chip startup funding traction 2025 2026",
+    "retrieved_at": "2026-10-27T06:43:15.654694Z",
+    "snippet": "New Delhi: As India's annual chip conference kicks off, Mindgrove Technologies, a homegrown semiconductor design startup incubated at IIT Madras, expects to start generating revenue this fiscal ...",
+    "title": "Indian chip startup Mindgrove Technologies eyes first revenues this ...",
+    "url": "https://www.livemint.com/companies/news/indian-chip-startup-mindgrove-technologies-eyes-first-revenues-this-fiscal-year-11789563796918.html"
+   },
+   {
+    "query": "Mindgrove Technologies India RISC-V chip startup funding traction 2025 2026",
+    "retrieved_at": "2026-10-27T06:43:15.654694Z",
+    "snippet": "Mindgrove - About the company Mindgrove is a series A company based in Chennai (India), founded in 2021 by Jagathrakshakan Srinivas Sharan Srinivas and Thirukkarugavoor Ramkumar Shashwath. It operates as a Developer of system on chips for IoT, vision, and edge applications. Mindgrove has raised $10.6M in funding from investors like Peak XV Partners, Speciale Invest and Rocketship, with a ...",
+    "title": "Mindgrove - 2026 Company Profile, Team, Funding, Competitors ... - Tracxn",
+    "url": "https://tracxn.com/d/companies/mindgrove/__-Do6jVQlyS_861Dm7fKw-MqtJebC3YaKQEosnRMrZvQ"
+   },
+   {
+    "query": "Mindgrove Technologies India RISC-V chip startup funding traction 2025 2026",
+    "retrieved_at": "2026-10-27T06:43:15.654694Z",
+    "snippet": "Mindgrove Technologies, a fabless semiconductor design startup, has announced that it has raised $8 million in a Series A funding round.",
+    "title": "India's Mindgrove Technologies secures $8 million - My Startup World ...",
+    "url": "https://mystartupworld.com/indias-mindgrove-technologies-secures-8-million/"
+   },
+   {
+    "query": "edge AI vision chip market size 2025 2030 low power camera drone industrial sensor",
+    "retrieved_at": "2026-10-27T06:43:17.725481Z",
+    "snippet": "Dublin, July 02, 2026 (GLOBE NEWSWIRE) -- The \"Edge AI in Retail Market Report 2026\" has been added to ResearchAndMarkets.com's offering. The edge artificial intelligence (AI) in retail market has ...",
+    "title": "Explosive Growth in Edge AI Market: From $21.84 Billion in 2025 to $81.71 Billion by 2030",
+    "url": "https://finance.yahoo.com/technology/ai/articles/explosive-growth-edge-ai-market-141500586.html"
+   },
+   {
+    "query": "edge AI vision chip market size 2025 2030 low power camera drone industrial sensor",
+    "retrieved_at": "2026-10-27T06:43:17.725481Z",
+    "snippet": "Dublin, July 10, 2026 (GLOBE NEWSWIRE) -- The \"Autonomous Vehicle (AV) Edge Compute Rig Global Market Report 2026\" has been added to ResearchAndMarkets.com's offering. The autonomous vehicle (AV) edge ...",
+    "title": "Autonomous Vehicle Edge Compute Rig Market to Skyrocket: Projected Growth from $3.35 Billion in 2025 to $9.14 Billion by 2030",
+    "url": "https://finance.yahoo.com/technology/articles/autonomous-vehicle-edge-compute-rig-144900488.html"
+   },
+   {
+    "query": "edge AI vision chip market size 2025 2030 low power camera drone industrial sensor",
+    "retrieved_at": "2026-10-27T06:43:17.725481Z",
+    "snippet": "Dublin, Oct. (GLOBE NEWSWIRE) -- \"AI In Drone Market Size, Share & Trends Analysis Report By Type, Component, Application, End Use, and Region | Forecasts 2026-2034\" has been added to ...",
+    "title": "AI in Drone Market Size, Share, Trends, and Forecast 2026-2034 | 16.44% CAGR to Drive USD 54.89 Billion Opportunity in Autonomous, Defense, and Industrial Drones",
+    "url": "https://finance.yahoo.com/technology/ai/articles/ai-drone-market-size-share-093600320.html"
+   },
+   {
+    "query": "edge AI vision chip market size 2025 2030 low power camera drone industrial sensor",
+    "retrieved_at": "2026-10-27T06:43:17.725481Z",
+    "snippet": "Lola Vision Systems' LVS-250 edge AI chip targets 230 TOPS under 25W for defense use, aiming to simplify AI deployment ahead of a 2027 launch.",
+    "title": "Lola Vision Systems aims to simplify AI model deployment on chips",
+    "url": "https://cryptobriefing.com/lola-vision-systems-edge-ai-chip/"
+   },
+   {
+    "query": "edge AI vision chip market size 2025 2030 low power camera drone industrial sensor",
+    "retrieved_at": "2026-10-27T06:43:17.725481Z",
+    "snippet": "ANAHEIM, Calif., Sept. 15, 2026 (GLOBE NEWSWIRE)-- At Embedded World North America 2026, BrainChip Holdings Ltd. (ASX: BRN, OTCQX: BRCHF, ADR: BCHPY), a global leader ...",
+    "title": "BrainChip Demonstrates Ultra-Low-Power Edge AI At Embedded World North America",
+    "url": "https://finance.yahoo.com/technology/ai/articles/brainchip-demonstrates-ultra-low-power-030000772.html"
+   },
+   {
+    "query": "Hailo Ambarella GreenWaves low power edge AI chip revenue market share 2025 2026",
+    "retrieved_at": "2026-10-27T06:43:18.065857Z",
+    "snippet": "Dublin, Sept. 14, 2026 (GLOBE NEWSWIRE)-- \"Edge AI Chips: Technologies, Markets, and Forecasts 2026-2036\" has been added to ResearchAndMarkets.com's offering. The global edge AI chip market is ...",
+    "title": "Edge AI Chip Market Set for Strong Growth Through 2036 as On-Device Intelligence Accelerates Automotive, IoT, Consumer and Industrial Opportunities",
+    "url": "https://finance.yahoo.com/technology/ai/articles/edge-ai-chip-market-set-093800230.html"
+   },
+   {
+    "query": "Hailo Ambarella GreenWaves low power edge AI chip revenue market share 2025 2026",
+    "retrieved_at": "2026-10-27T06:43:18.065857Z",
+    "snippet": "Ambarella is transitioning into edge AI, expanding beyond security cameras with new 5nm chips and the X7 AI accelerator. Read ...",
+    "title": "Ambarella: The Biggest AI Growth Opportunity Is Still Ahead",
+    "url": "https://seekingalpha.com/article/4955367-ambarella-stock-biggest-ai-growth-opportunity-still-ahead"
+   },
+   {
+    "query": "Hailo Ambarella GreenWaves low power edge AI chip revenue market share 2025 2026",
+    "retrieved_at": "2026-10-27T06:43:18.065857Z",
+    "snippet": "The above button links to Coinbase. Yahoo Finance is not a broker-dealer or investment adviser and does not offer securities or cryptocurrencies for sale or facilitate trading. Coinbase pays us for ...",
+    "title": "Ambarella Beat Estimates but Fell as NXP Buyout Talk Lingered. Is the Edge-AI Upside Already Priced In?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/ambarella-beat-estimates-fell-nxp-224000253.html"
+   },
+   {
+    "query": "India drone camera edge AI chip import regulation policy 2025 2026",
+    "retrieved_at": "2026-10-27T06:43:18.303407Z",
+    "snippet": "Under this structure, India restricts imports while ensuring easy export of drones, with an aim to grow domestic manufacturing and help Indian products compete in global markets. This article provides a guide to India&#x27;s drone import and export regulations, covering both civilian and defense/military applications.",
+    "title": "Drone Import &amp; Export Rules in India | DGFT &amp; SCOMET",
+    "url": "https://www.sigmachambers.in/post/import-export-regulations-for-drones-in-india"
+   },
+   {
+    "query": "India drone camera edge AI chip import regulation policy 2025 2026",
+    "retrieved_at": "2026-10-27T06:43:18.303407Z",
+    "snippet": "The Civil Drone (Promotion and Regulation) Bill, 2025 A Bill to provide for the promotion and regulation of Unmanned Aircraft Systems and for matters connected therewith or incidental thereto.",
+    "title": "PDF Draft Civil Drone Promotion and Regulation Bill, 2025",
+    "url": "https://www.civilaviation.gov.in/sites/default/files/2025-09/Draft%20Civil%20Drone%20%28Promotion%20and%20Regulation%29%20Bill%202025.pdf"
+   },
+   {
+    "query": "India drone camera edge AI chip import regulation policy 2025 2026",
+    "retrieved_at": "2026-10-27T06:43:18.303407Z",
+    "snippet": "Type Certificate, UIN, Remote Pilot Certificate, NPNT, green/yellow/red airspace, and the July 2025 split between eGCA and DigitalSky \u2014 this is the practical DGCA drone rules 2026 compliance guide for anyone building, buying or flying unmanned aircraft in India. Written for manufacturers preparing CSUAS type certification, universities setting up drone labs, and defence and enterprise ...",
+    "title": "DGCA Drone Rules 2026: A Complete Compliance Guide for Indian ...",
+    "url": "https://www.autoabode.com/blog/dgca-drone-rules-2026-compliance-guide-india"
+   },
+   {
+    "query": "India drone camera edge AI chip import regulation policy 2025 2026",
+    "retrieved_at": "2026-10-27T06:43:18.303407Z",
+    "snippet": "Home Ministry Documents Rules Archive",
+    "title": "Rules - Ministry of Civil Aviation",
+    "url": "https://www.civilaviation.gov.in/ministry-documents/rules"
+   },
+   {
+    "query": "India drone camera edge AI chip import regulation policy 2025 2026",
+    "retrieved_at": "2026-10-27T06:43:18.303407Z",
+    "snippet": "How to import drone components into India. Covers DGCA guidelines, import policies, regulations, and logistics requirements for drone parts suppliers.",
+    "title": "Import Drone Components to India: Guide | DHL IN",
+    "url": "https://www.dhl.com/discover/en-in/logistics-advice/import-export-advice/how-to-import-drone-components-to-india"
+   },
+   {
+    "query": "edge AI chip market size 2025 2030 billion CAGR global forecast research report",
+    "retrieved_at": "2026-10-27T06:43:28.099232Z",
+    "snippet": "The global Edge AI Hardware Market in terms of revenue is estimated to be worth $26.14 billion in 2025 and is poised to reach $58.90 billion by 2030, growing at a CAGR of 17.6% during the forecast period.",
+    "title": "Edge AI Chip Market Size, Share & Trends - MarketsandMarkets",
+    "url": "https://www.marketsandmarkets.com/Market-Reports/edge-ai-hardware-market-158498281.html"
+   },
+   {
+    "query": "edge AI chip market size 2025 2030 billion CAGR global forecast research report",
+    "retrieved_at": "2026-10-27T06:43:28.099232Z",
+    "snippet": "BCC Research Report: Dive into edge ai market market trends includes global revenue ($ Million) for the base year data 2024, estimated data for 2025, and the forecast data for 2026 through 2030.",
+    "title": "Global Edge AI Market Size, Share & Growth Trends Analysis",
+    "url": "https://www.bccresearch.com/market-research/information-technology/edge-ai-market.html"
+   },
+   {
+    "query": "edge AI chip market size 2025 2030 billion CAGR global forecast research report",
+    "retrieved_at": "2026-10-27T06:43:28.099232Z",
+    "snippet": "What Is The Edge Artificial Intelligence Chips Market Size and Share 2026? The edge artificial intelligence chips market size has grown rapidly in recent years. It will grow from $7.05 billion in 2025 to $8.33 billion in 2026 at a compound annual growth rate (CAGR) of 18.2%. The growth in the historic period can be attributed to rising adoption of consumer AI devices, increasing demand for ...",
+    "title": "Edge Artificial Intelligence Chips Market Report 2026",
+    "url": "https://www.thebusinessresearchcompany.com/report/edge-artificial-intelligence-chips-global-market-report"
+   },
+   {
+    "query": "edge AI chip market size 2025 2030 billion CAGR global forecast research report",
+    "retrieved_at": "2026-10-27T06:43:28.099232Z",
+    "snippet": "Global edge AI market projected to reach $20.78B by 2024 with 21.7% CAGR from 2025-2030, driven by industries seeking real-time processing and reduced latency.",
+    "title": "Edge Ai Market Forecast, Size | Growth Analysis [2030]",
+    "url": "https://www.theresearchinsights.com/reports/edge-ai-market-700"
+   },
+   {
+    "query": "edge AI chip market size 2025 2030 billion CAGR global forecast research report",
+    "retrieved_at": "2026-10-27T06:43:28.099232Z",
+    "snippet": "Edge AI Market reached USD 19.34 billion in 2023. Our study forecasts a surge to USD 105.75 billion by 2030 with detailed industry trends and growth insights.",
+    "title": "Edge AI Market: Global 2030 Growth Outlook and Forecasts",
+    "url": "https://www.nextmsc.com/report/edge-ai-market"
+   },
+   {
+    "query": "India semiconductor DLI design linked incentive scheme 2025 2026 chip startups funding",
+    "retrieved_at": "2026-10-27T06:43:28.541303Z",
+    "snippet": "He stated that to make India a global hub for semiconductor chip design, the government had accorded high priority to workforce capacity building and indigenous chip design through two complementary ...",
+    "title": "Semi-conductor laboratory in Punjab's Mohali tapes out 175 student-made chips",
+    "url": "https://www.msn.com/en-in/news/other/semi-conductor-laboratory-in-punjab-s-mohali-tapes-out-175-student-made-chips/ar-AA29vS8h?ocid=BingNewsVerp"
+   },
+   {
+    "query": "India semiconductor DLI design linked incentive scheme 2025 2026 chip startups funding",
+    "retrieved_at": "2026-10-27T06:43:28.541303Z",
+    "snippet": "India is looking to significantly expand its semiconductor ecosystem under the second phase of its national chip programme. Electronics and IT Minister Ashwini Vaishnaw says the government will target ...",
+    "title": "Semicon 2.0: India targets 200 chip design startups and 1 lakh semiconductor technicians",
+    "url": "https://www.msn.com/en-in/technology/tech-companies/semicon-2-0-india-targets-200-chip-design-startups-and-1-lakh-semiconductor-technicians/ar-AA2cukqX?ocid=BingNewsVerp"
+   },
+   {
+    "query": "India semiconductor DLI design linked incentive scheme 2025 2026 chip startups funding",
+    "retrieved_at": "2026-10-27T06:43:28.541303Z",
+    "snippet": "Semiconductor startups in India face a challenge in finding people who can design, verify and take a chip through fabrication and into a commercial product, according to Cadence Design Systems group ...",
+    "title": "Talent, not design software, is the biggest bill for chip startups: Cadence's Jayashankar Narayanankutty",
+    "url": "https://www.msn.com/en-in/news/other/talent-not-design-software-is-the-biggest-bill-of-chip-startups-cadences-jayashankar-narayanankutty/ar-AA2cyDLQ?ocid=BingNewsVerp"
+   },
+   {
+    "query": "India semiconductor DLI design linked incentive scheme 2025 2026 chip startups funding",
+    "retrieved_at": "2026-10-27T06:43:28.541303Z",
+    "snippet": "Bengaluru: After decades of designing chips for global companies such as Intel, AMD and Texas Instruments, a growing number of India\u2019s semiconductor veterans are stepping out to build chip companies ...",
+    "title": "India\u2019s chip veterans leave MNCs to build their own startups",
+    "url": "https://www.msn.com/en-in/money/general/india-s-chip-veterans-leave-mncs-to-build-their-own-startups/ar-AA29WIiR?ocid=BingNewsVerp"
+   },
+   {
+    "query": "India semiconductor DLI design linked incentive scheme 2025 2026 chip startups funding",
+    "retrieved_at": "2026-10-27T06:43:28.541303Z",
+    "snippet": "Semiconductor equipment maker ASML has started operations in India and plans to hire 20-30 young engineering graduates initially to meet its requirements, a senior official of the company said.",
+    "title": "ASML enters India: What does its Tata partnership mean for country\u2019s semiconductor ambitions?",
+    "url": "https://www.msn.com/en-in/money/technology/asml-enters-india-what-does-its-tata-partnership-mean-for-country-s-semiconductor-ambitions/ar-AA2cE7hw?ocid=BingNewsVerp"
+   },
+   {
+    "query": "Hailo Technologies funding valuation revenue 2025 2026 edge AI accelerator",
+    "retrieved_at": "2026-10-27T06:43:29.095619Z",
+    "snippet": "Revenue hit USD 1.48 billion in fiscal first quarter 2027, up 38.00 percent. Microchip Technology stock trades at EUR 71.12 on October 2, 2026 after EUR 69.82. Fotorealistische Ansicht eines ...",
+    "title": "Microchip Technology completes Hailo deal. Microchip Technology stock gains 1.86 percent",
+    "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/microchip-technology-completes-hailo-deal-microchip-technology-stock-gains-1-86-percent/70214813"
+   },
+   {
+    "query": "Hailo Technologies funding valuation revenue 2025 2026 edge AI accelerator",
+    "retrieved_at": "2026-10-27T06:43:29.095619Z",
+    "snippet": "BlackBerry Limited BB is trending after the company announced Thursday that its QNX division revealed support for the Hailo-8 AI Accelerator on QNX Software Development Platform 8.0. Shares rose ...",
+    "title": "BlackBerry stock trending as QNX expands into edge AI with Hailo-8 support",
+    "url": "https://www.msn.com/en-us/news/other/blackberry-stock-trending-as-qnx-expands-into-edge-ai-with-hailo-8-support/ar-AA2b7VH4?ocid=BingNewsVerp"
+   },
+   {
+    "query": "Hailo Technologies funding valuation revenue 2025 2026 edge AI accelerator",
+    "retrieved_at": "2026-10-27T06:43:29.095619Z",
+    "snippet": "Microchip Technology Incorporated (NASDAQ:MCHP) said on September 21 that it has completed its acquisition of Hailo. The Israeli company makes processors that run AI on devices rather than in the ...",
+    "title": "Microchip (MCHP) Closes its Hailo Deal. Why the Chipmaker is Buying Edge AI on the Cheap",
+    "url": "https://www.insidermonkey.com/news/microchip-mchp-closes-its-hailo-deal-why-the-chipmaker-is-buying-edge-ai-on-the-cheap-1842262/"
+   },
+   {
+    "query": "Hailo Technologies funding valuation revenue 2025 2026 edge AI accelerator",
+    "retrieved_at": "2026-10-27T06:43:29.095619Z",
+    "snippet": "The above button links to Coinbase. Yahoo Finance is not a broker-dealer or investment adviser and does not offer securities or cryptocurrencies for sale or facilitate trading. Coinbase pays us for ...",
+    "title": "Microchip Technology Completes Acquisition of Hailo",
+    "url": "https://finance.yahoo.com/technology/ai/articles/microchip-technology-completes-acquisition-hailo-130000257.html"
+   },
+   {
+    "query": "Netrasemi India edge AI chip funding Series A 2025 2026",
+    "retrieved_at": "2026-10-27T06:43:30.220447Z",
+    "snippet": "The funding momentum comes as startups expand beyond chip design into equipment, packaging, photonics and AI-focused semiconductor technologies Indian semiconductor startups raised approximately USD ...",
+    "title": "Indian Semiconductor Startups Raise $61.9 Mn In H1 2026: Report",
+    "url": "https://www.businessworld.in/article/indian-semiconductor-startups-raise-61-9-mn-in-h1-2026-report-619098"
+   }
+  ]
+ },
+ "input_hash": "88cf249ca6798f47fc88d07611d8b071e9816f0247b9b9b0b69a6d0594db7a42"
+}

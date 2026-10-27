@@ -1,0 +1,316 @@
+{
+ "analysis": {
+  "category_scores": {
+   "business_model": 6.0,
+   "execution_risk": 5.7,
+   "market": 4.7,
+   "moat": 4.0,
+   "product": 6.0,
+   "team": 6.0,
+   "traction": 6.0
+  },
+  "citations": {
+   "c:2pigfxa": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.92165,
+     0.48415
+    ],
+    "chunk_id": "44c22f4d-91d5-50d6-b058-b34d47e79638",
+    "document_id": "d326f093-684b-465f-8b23-9409691d06c0",
+    "page_no": 5,
+    "slide_title": "Business Model",
+    "type": "deck"
+   },
+   "c:6zyfpgt": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.68718,
+     0.45481
+    ],
+    "chunk_id": "8749bdd0-e54e-5bf4-ba13-bad03a15a16b",
+    "document_id": "d326f093-684b-465f-8b23-9409691d06c0",
+    "page_no": 7,
+    "slide_title": "Unit Economics",
+    "type": "deck"
+   },
+   "c:fbtwc2u": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.87151,
+     0.68382
+    ],
+    "chunk_id": "c226ab7e-50eb-5d2c-ae14-f66320af152d",
+    "document_id": "d326f093-684b-465f-8b23-9409691d06c0",
+    "page_no": 9,
+    "slide_title": "Go-to-Market & Key Risks",
+    "type": "deck"
+   },
+   "c:h4ztiis": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.93174,
+     0.63306
+    ],
+    "chunk_id": "4fdf3cae-e89a-580e-9fd9-b677b7808f3d",
+    "document_id": "d326f093-684b-465f-8b23-9409691d06c0",
+    "page_no": 2,
+    "slide_title": "Problem",
+    "type": "deck"
+   },
+   "c:ke4oiy3": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.89396,
+     0.83797
+    ],
+    "chunk_id": "5d1fbeb3-1350-5200-a8dd-656b7893d17f",
+    "document_id": "d326f093-684b-465f-8b23-9409691d06c0",
+    "page_no": 6,
+    "slide_title": "Traction (as of Sep 2026)",
+    "type": "deck"
+   },
+   "c:oe633sh": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.89122,
+     0.50907
+    ],
+    "chunk_id": "4d1e1b87-32c1-5da6-aca1-00280511d2ff",
+    "document_id": "d326f093-684b-465f-8b23-9409691d06c0",
+    "page_no": 3,
+    "slide_title": "Solution",
+    "type": "deck"
+   },
+   "c:psinjfi": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.92971,
+     0.4682
+    ],
+    "chunk_id": "a564edbc-fd67-5806-8b93-623b37106015",
+    "document_id": "d326f093-684b-465f-8b23-9409691d06c0",
+    "page_no": 10,
+    "slide_title": "Team",
+    "type": "deck"
+   },
+   "c:qjvwsdj": {
+    "bbox": [
+     0.05241,
+     0.0554,
+     0.92722,
+     0.63184
+    ],
+    "chunk_id": "6cf0229e-d766-5367-b705-0d7fc952d33a",
+    "document_id": "d326f093-684b-465f-8b23-9409691d06c0",
+    "page_no": 8,
+    "slide_title": "Competitive Landscape",
+    "type": "deck"
+   },
+   "c:umw4zzt": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.91287,
+     0.65193
+    ],
+    "chunk_id": "f8e36b69-b846-5c3a-8ba2-447ede844979",
+    "document_id": "d326f093-684b-465f-8b23-9409691d06c0",
+    "page_no": 11,
+    "slide_title": "The Ask",
+    "type": "deck"
+   },
+   "c:w5lnslf": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.92414,
+     0.42291
+    ],
+    "chunk_id": "77833065-50f7-5498-bb3c-169523fb92dc",
+    "document_id": "d326f093-684b-465f-8b23-9409691d06c0",
+    "page_no": 4,
+    "slide_title": "Market Opportunity (TAM / SAM / SOM)",
+    "type": "deck"
+   },
+   "c:zyebrvh": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.91197,
+     0.50907
+    ],
+    "chunk_id": "7ce41a2b-0933-5cb7-a886-395571ee2c36",
+    "document_id": "d326f093-684b-465f-8b23-9409691d06c0",
+    "page_no": 1,
+    "slide_title": "HostelHive",
+    "type": "deck"
+   },
+   "w:1": {
+    "title": "Tier-2 cities such as Goa, Bhopal, Lucknow, Coimbatore see 63% rise in housing prices in 5 years: Report",
+    "type": "web",
+    "url": "https://www.msn.com/en-in/money/general/tier-2-cities-such-as-goa-bhopal-lucknow-coimbatore-see-63-rise-in-housing-prices-in-5-years-report/ar-AA2cwcj4?ocid=BingNewsVerp"
+   },
+   "w:2": {
+    "title": "Proptech Seed Rounds This Year Are in Full Bloom",
+    "type": "web",
+    "url": "https://commercialobserver.com/2026/08/proptech-seed-rounds-2026-amounts/"
+   }
+  },
+  "citations_removed": 0,
+  "compliance_flags": [],
+  "data_gaps": [
+   "TAM: no usable source excerpt with value, unit and period.",
+   "SAM: no usable source excerpt with value, unit and period.",
+   "CAGR: no usable source excerpt with value, unit and period.",
+   "SOM: no independent source found; the deck claims 70 INR crore (p.4).",
+   "Market trend unavailable: no sourced annual observations or publisher forecasts. No years were interpolated."
+  ],
+  "evidence_version": 2,
+  "generated_at": "2026-10-27T06:45:05.906256Z",
+  "input_hash": "0d24daa44d6e4986fc9332f40a82a4053908ea82e98bf291be6bd3d03a2b5051",
+  "invalid_citations": [],
+  "market_sizing": {
+   "basis": "Only figures traceable to retrieved search excerpts are plotted as market data.",
+   "cagr_pct": null,
+   "claims": {
+    "som_usd_b": {
+     "check": {
+      "status": "unverified"
+     },
+     "citation": {
+      "bbox": [
+       0.0677,
+       0.0554,
+       0.92414,
+       0.42291
+      ],
+      "chunk_id": "77833065-50f7-5498-bb3c-169523fb92dc",
+      "cid": "c:w5lnslf",
+      "document_id": "d326f093-684b-465f-8b23-9409691d06c0",
+      "page_no": 4
+     },
+     "currency": "INR",
+     "geography": "India (Rajasthan and Madhya Pradesh)",
+     "kind": "company_forecast",
+     "low_confidence": false,
+     "market": "3-year obtainable share of SAM",
+     "normalised": 0.7,
+     "period": "",
+     "quote": "SOM \u2014 3-year obtainable share of SAM: Rs 70 crore in 2029 (company projection)",
+     "retrieved_at": null,
+     "source_title": "HostelHive_Pitch_Deck.pdf, p.4",
+     "source_url": null,
+     "unit": "INR crore",
+     "value": 70.0,
+     "year": 2029
+    }
+   },
+   "evidence": {},
+   "sam_usd_b": null,
+   "som_usd_b": null,
+   "tam_usd_b": null,
+   "trend": []
+  },
+  "model": "azure/deepSeek-V4-Flash",
+  "overall_score": 5.6,
+  "projected_revenue": [
+   {
+    "citation": {
+     "bbox": [
+      0.0677,
+      0.0554,
+      0.89396,
+      0.83797
+     ],
+     "chunk_id": "5d1fbeb3-1350-5200-a8dd-656b7893d17f",
+     "cid": "c:ke4oiy3",
+     "document_id": "d326f093-684b-465f-8b23-9409691d06c0",
+     "page_no": 6
+    },
+    "geography": "India",
+    "kind": "company_reported",
+    "low_confidence": false,
+    "market": "HostelHive annualised revenue",
+    "metric": "ARR",
+    "period": "",
+    "quote": "Annualised revenue: Rs 14.4 crore in 2026",
+    "retrieved_at": null,
+    "revenue": 144.0,
+    "source_title": "HostelHive_Pitch_Deck.pdf, p.6",
+    "source_url": null,
+    "unit": "INR crore",
+    "value": 14.4,
+    "year": 2026
+   }
+  ],
+  "recommendation_label": "Hold",
+  "report_markdown": "## 1. Executive Summary\n\nHostelHive operates 1,150 beds across 11 properties in tier-2 education hubs (Kota, Jaipur, Indore) with 91% occupancy and annualised revenue of Rs 14.4 crore as of Sep 2026 [c:ke4oiy3]. The company leases and refurbishes buildings, offering meals, Wi-Fi, CCTV, and a parent app, charging an average of Rs 10,600 per bed per month [c:2pigfxa][c:oe633sh]. Revenue has grown from Rs 4.2 crore (2024) to Rs 8.9 crore (2025) to Rs 14.4 crore (2026), representing roughly 2x year-over-year growth, though these are company-reported and unverified figures [c:ke4oiy3]. The seed round of Rs 8 crore at Rs 44 crore pre-money is structured in three tranches tied to operational milestones [c:umw4zzt]. The overall score is 5.6/10, reflecting a working product with early traction but limited defensibility and market sizing that lacks external validation.\n\n## 2. Problem & Solution\n\nStudents in tier-2 education hubs mostly live in unregulated PGs with poor food, safety, and maintenance, while branded student housing is concentrated in metros [c:h4ztiis]. Parents pay Rs 8,000\u201315,000 per month for basic accommodation and food, with safety and food quality being top complaints (all company estimates) [c:h4ztiis]. HostelHive\u2019s solution is an asset-light managed hostel model: leased and refurbished buildings near coaching centres and colleges, providing three meals a day, Wi-Fi, housekeeping, laundry, CCTV, biometric entry, wardens on every floor, and a parent app with attendance, meal, and fee updates [c:oe633sh]. This addresses the gap between unorganised PGs and metro-focused branded operators.\n\n## 3. Market Opportunity\n\nThe company estimates a TAM of Rs 18,000 crore for annual student-housing spend in India's tier-2 education hubs in 2025, a SAM of Rs 2,200 crore in Rajasthan and Madhya Pradesh, and a SOM of Rs 70 crore by 2029 [c:w5lnslf]. All figures are company-reported and unverified; no independent source was found for the TAM, SAM, or CAGR [Data gaps]. The tier-2 education hub focus is plausible given the concentration of coaching centres in Kota and similar cities, but the sizing lacks external validation. A web report notes a 63% rise in housing prices across 11 tier-2 cities over five years, indicating growing demand in these markets [w:1]. Proptech seed rounds of $5\u201310 million are reportedly common in 2026, suggesting a favourable funding environment [w:2].\n\n## 4. Competitive Landscape\n\nHostelHive competes with Stanza Living (managed housing in larger cities), Zolo (co-living and PG platform), and unorganised PG/hostel operators [c:qjvwsdj]. The company claims its edge comes from a local landlord network built over 6 years in Kota and brand trust with parents through safety standards and the parent app [c:qjvwsdj]. However, these are execution advantages that can be replicated; there is no evidence of proprietary technology, data, IP, or switching costs. The competitive landscape suggests limited differentiation, as Stanza Living and Zolo operate in similar spaces with more scale. The moat score of 4.0/10 reflects this vulnerability.\n\n## 5. Business Model\n\nRevenue is 92% from bed rent with meals (Rs 10,600/month average) and 8% from add-on services (AC rooms, laundry, mess passes for non-residents) [c:2pigfxa]. Gross margin is 34% after lease rent and food costs, and property-level EBITDA margin is 22% at 90%+ occupancy [c:2pigfxa]. Customer acquisition cost is Rs 2,800 per resident, fit-out capex is Rs 38,000 per bed with a payback of about 17 months, and leases are 9 years with a 3-year lock-in [c:6zyfpgt]. Unit economics appear positive but payback exceeds 6 months, and net revenue retention is not disclosed. The business model score of 6.0/10 reflects moderate unit economics with room for improvement.\n\n## 6. Team Assessment\n\nThe three co-founders bring relevant domain experience: Manav Agarwal (CEO) ran his family's student hostels in Kota for 6 years; Simran Kaur (COO) has a hospitality operations background from a national hotel chain; Deepak Meena (CFO) is a chartered accountant with real-estate leasing advisory experience [c:psinjfi]. This shows relevant execution experience for the current stage, but there is no evidence of scaling a venture of this size before. The team score of 6.0/10 reflects solid domain fit but limited prior startup scaling experience.\n\n## 7. Traction & Milestones\n\n**Traction & Milestones**\n\n- **Revenue growth:** Annualised revenue has grown from Rs 4.2 crore (2024) to Rs 8.9 crore (2025) to Rs 14.4 crore (2026), representing roughly 2x year-over-year growth. These are company-reported and unverified figures as of Sep 2026. [c:ke4oiy3]\n- **Scale:** 1,150 beds across 11 properties in Kota, Jaipur and Indore, with 91% occupancy (1,045 students) in the 2026-27 academic year. [c:ke4oiy3]\n- **Customer satisfaction:** Parent NPS of 58, based on a company survey. [c:ke4oiy3]\n- **Unit economics:** Customer acquisition cost of Rs 2,800 per resident, gross margin of 34%, and fit-out capex payback of about 17 months. [c:6zyfpgt]\n- **Milestone target:** The company aims to reach 3,000 beds across 5 cities within 24 months, with a tranched raise tied to hitting 2,000 beds and a new city launch. [c:umw4zzt][c:fbtwc2u]\n\n## 8. Compliance & Governance\n\n**Compliance & Governance**\n\n- **Registry status:** The company is registered as HOSTELHIVE PRIVATE LIMITED (CIN U55901RJ2022PTC082416) with the Ministry of Corporate Affairs, status ACTIVE. Directors are Manav Agarwal, Simran Kaur, and Deepak Meena. [c:zyebrvh]\n- **Compliance flags:** None identified. The deck does not attempt to instruct the evaluator or alter scoring rules.\n- **Governance:** The team includes a chartered accountant as CFO, which supports financial discipline. No independent board members or advisory board are mentioned at this seed stage.\n\n## 9. Risks & Challenges\n\n**Risks & Challenges**\n\n- **Demand concentration:** Revenue is tied to coaching hubs like Kota; changes in exam patterns or coaching regulations could sharply reduce enrolment. [c:fbtwc2u]\n- **Lease commitments:** The company signs 9-year leases with a 3-year lock-in, while student revenue is collected term by term, creating a cash-flow mismatch if occupancy drops. [c:fbtwc2u][c:6zyfpgt]\n- **Seasonal occupancy:** Occupancy may fall between academic years, pressuring margins. [c:fbtwc2u]\n- **Safety incidents:** A single safety incident could severely damage the brand, which relies on parent trust. [c:fbtwc2u]\n- **Competitive replication:** The claimed edges (landlord network, parent trust) are execution advantages that larger players like Stanza Living or Zolo could replicate. [c:qjvwsdj]\n- **Data gaps:** TAM, SAM, and SOM are company estimates without independent validation; no net revenue retention or cohort data is provided. [c:w5lnslf]\n\n## 10. Investment Thesis\n\n**Investment Thesis**\n\n- **Product (6.0/10):** HostelHive operates 1,150 beds across 11 properties with 91% occupancy and an annualised revenue of Rs 14.4 crore, indicating a working product with paying customers and a clear value proposition (meals, Wi-Fi, CCTV, parent app). However, the product is not yet category-defining and lacks strong evidence of defensible features beyond standard offerings. [c:ke4oiy3][c:oe633sh]\n- **Market (4.7/10):** The TAM of Rs 18,000 crore is a company estimate without independent source backing, and the SAM and SOM are also self-projected. The tier-2 education hub focus is plausible but sizing lacks external validation. [c:w5lnslf]\n- **Team (6.0/10):** The three co-founders bring relevant domain experience: Manav ran family hostels in Kota for 6 years, Simran has hospitality operations background, and Deepak is a CA with real-estate leasing advisory experience. This shows relevant execution experience, but no evidence of scaling a venture of this size before. [c:psinjfi]\n- **Business Model (6.0/10):** Pricing is defined (Rs 10,600/month), unit economics show a gross margin of 34%, property-level EBITDA margin of 22%, and a CAC of Rs 2,800. Payback on fit-out capex is about 17 months, which is moderate. Early data suggests positive unit economics, but payback is above 6 months and net revenue retention is not disclosed. [c:2pigfxa][c:6zyfpgt]\n- **Moat (4.0/10):** The company cites a local landlord network and brand trust with parents as edges, but these appear to be execution advantages that can be replicated. No evidence of proprietary technology, data, IP, or switching costs. The competitive landscape (Stanza Living, Zolo, unorganised operators) suggests limited differentiation. [c:qjvwsdj]\n- **Execution Risk (5.7/10):** Risks are identified (demand concentration, lease commitments, seasonal occupancy, safety incidents) but not fully mitigated. No regulatory or legal red flags. Typical early-stage risks with some mitigation. [c:fbtwc2u]\n- **Traction (6.0/10):** Annualised revenue grew from Rs 4.2 crore (2024) to Rs 8.9 crore (2025) to Rs 14.4 crore (2026), representing roughly 2x year-over-year growth. However, these are dated figures (as of Sep 2026) and no retention or cohort data is provided. 91% occupancy is strong but expected in academic season. [c:ke4oiy3]\n\n## 11. Recommendation\n\n**Recommendation: Hold (5.6/10)**\n\nHostelHive demonstrates a working product with growing revenue and solid occupancy in a niche tier-2 education hub market. The team has relevant operational experience, and the unit economics are positive. However, the market sizing is unvalidated, the moat is weak, and the business faces concentration risk and seasonal demand. The 17-month capex payback is moderate but above the 6-month threshold for ideal unit economics. The tranched raise structure provides some investor protection. At a Rs 44 crore pre-money valuation, the company is priced for significant growth that has yet to be proven beyond its current 1,150-bed base. We recommend holding for further evidence of scalable execution and market validation before committing capital.",
+  "revenue_currency": "INR",
+  "revenue_metric": "ARR",
+  "rewrites": 2,
+  "rubric_version": "r1",
+  "score_rationales": {
+   "business_model": "Pricing is defined (Rs 10,600/month), unit economics show a gross margin of 34%, property-level EBITDA margin of 22%, and a CAC of Rs 2,800. Payback on fit-out capex is about 17 months, which is moderate. Early data suggests positive unit economics, but payback is above 6 months and net revenue retention is not disclosed. [c:2pigfxa][c:6zyfpgt]",
+   "execution_risk": "Risks are identified (demand concentration, lease commitments, seasonal occupancy, safety incidents) but not fully mitigated. No regulatory or legal red flags. Typical early-stage risks with some mitigation. [c:fbtwc2u]",
+   "market": "The TAM of Rs 18,000 crore is a company estimate without independent source backing, and the SAM and SOM are also self-projected. The tier-2 education hub focus is plausible but sizing lacks external validation. [c:w5lnslf]",
+   "moat": "The company cites a local landlord network and brand trust with parents as edges, but these appear to be execution advantages that can be replicated. No evidence of proprietary technology, data, IP, or switching costs. The competitive landscape (Stanza Living, Zolo, unorganised operators) suggests limited differentiation. [c:qjvwsdj]",
+   "product": "HostelHive operates 1,150 beds across 11 properties with 91% occupancy and an annualised revenue of Rs 14.4 crore, indicating a working product with paying customers and a clear value proposition (meals, Wi-Fi, CCTV, parent app). However, the product is not yet category-defining and lacks strong evidence of defensible features beyond standard offerings. [c:ke4oiy3][c:oe633sh]",
+   "team": "The three co-founders bring relevant domain experience: Manav ran family hostels in Kota for 6 years, Simran has hospitality operations background, and Deepak is a CA with real-estate leasing advisory experience. This shows relevant execution experience, but no evidence of scaling a venture of this size before. [c:psinjfi]",
+   "traction": "Annualised revenue grew from Rs 4.2 crore (2024) to Rs 8.9 crore (2025) to Rs 14.4 crore (2026), representing roughly 2x year-over-year growth. However, these are dated figures (as of Sep 2026) and no retention or cohort data is provided. 91% occupancy is strong but expected in academic season. [c:ke4oiy3]"
+  },
+  "score_spread": {
+   "business_model": 1.0,
+   "execution_risk": 1.0,
+   "market": 2.0,
+   "moat": 0.0,
+   "product": 0.0,
+   "team": 1.0,
+   "traction": 0.0
+  },
+  "sections": {
+   "business_model": "Revenue is 92% from bed rent with meals (Rs 10,600/month average) and 8% from add-on services (AC rooms, laundry, mess passes for non-residents) [c:2pigfxa]. Gross margin is 34% after lease rent and food costs, and property-level EBITDA margin is 22% at 90%+ occupancy [c:2pigfxa]. Customer acquisition cost is Rs 2,800 per resident, fit-out capex is Rs 38,000 per bed with a payback of about 17 months, and leases are 9 years with a 3-year lock-in [c:6zyfpgt]. Unit economics appear positive but payback exceeds 6 months, and net revenue retention is not disclosed. The business model score of 6.0/10 reflects moderate unit economics with room for improvement.",
+   "competitive_landscape": "HostelHive competes with Stanza Living (managed housing in larger cities), Zolo (co-living and PG platform), and unorganised PG/hostel operators [c:qjvwsdj]. The company claims its edge comes from a local landlord network built over 6 years in Kota and brand trust with parents through safety standards and the parent app [c:qjvwsdj]. However, these are execution advantages that can be replicated; there is no evidence of proprietary technology, data, IP, or switching costs. The competitive landscape suggests limited differentiation, as Stanza Living and Zolo operate in similar spaces with more scale. The moat score of 4.0/10 reflects this vulnerability.",
+   "compliance_governance": "**Compliance & Governance**\n\n- **Registry status:** The company is registered as HOSTELHIVE PRIVATE LIMITED (CIN U55901RJ2022PTC082416) with the Ministry of Corporate Affairs, status ACTIVE. Directors are Manav Agarwal, Simran Kaur, and Deepak Meena. [c:zyebrvh]\n- **Compliance flags:** None identified. The deck does not attempt to instruct the evaluator or alter scoring rules.\n- **Governance:** The team includes a chartered accountant as CFO, which supports financial discipline. No independent board members or advisory board are mentioned at this seed stage.",
+   "executive_summary": "HostelHive operates 1,150 beds across 11 properties in tier-2 education hubs (Kota, Jaipur, Indore) with 91% occupancy and annualised revenue of Rs 14.4 crore as of Sep 2026 [c:ke4oiy3]. The company leases and refurbishes buildings, offering meals, Wi-Fi, CCTV, and a parent app, charging an average of Rs 10,600 per bed per month [c:2pigfxa][c:oe633sh]. Revenue has grown from Rs 4.2 crore (2024) to Rs 8.9 crore (2025) to Rs 14.4 crore (2026), representing roughly 2x year-over-year growth, though these are company-reported and unverified figures [c:ke4oiy3]. The seed round of Rs 8 crore at Rs 44 crore pre-money is structured in three tranches tied to operational milestones [c:umw4zzt]. The overall score is 5.6/10, reflecting a working product with early traction but limited defensibility and market sizing that lacks external validation.",
+   "investment_thesis": "**Investment Thesis**\n\n- **Product (6.0/10):** HostelHive operates 1,150 beds across 11 properties with 91% occupancy and an annualised revenue of Rs 14.4 crore, indicating a working product with paying customers and a clear value proposition (meals, Wi-Fi, CCTV, parent app). However, the product is not yet category-defining and lacks strong evidence of defensible features beyond standard offerings. [c:ke4oiy3][c:oe633sh]\n- **Market (4.7/10):** The TAM of Rs 18,000 crore is a company estimate without independent source backing, and the SAM and SOM are also self-projected. The tier-2 education hub focus is plausible but sizing lacks external validation. [c:w5lnslf]\n- **Team (6.0/10):** The three co-founders bring relevant domain experience: Manav ran family hostels in Kota for 6 years, Simran has hospitality operations background, and Deepak is a CA with real-estate leasing advisory experience. This shows relevant execution experience, but no evidence of scaling a venture of this size before. [c:psinjfi]\n- **Business Model (6.0/10):** Pricing is defined (Rs 10,600/month), unit economics show a gross margin of 34%, property-level EBITDA margin of 22%, and a CAC of Rs 2,800. Payback on fit-out capex is about 17 months, which is moderate. Early data suggests positive unit economics, but payback is above 6 months and net revenue retention is not disclosed. [c:2pigfxa][c:6zyfpgt]\n- **Moat (4.0/10):** The company cites a local landlord network and brand trust with parents as edges, but these appear to be execution advantages that can be replicated. No evidence of proprietary technology, data, IP, or switching costs. The competitive landscape (Stanza Living, Zolo, unorganised operators) suggests limited differentiation. [c:qjvwsdj]\n- **Execution Risk (5.7/10):** Risks are identified (demand concentration, lease commitments, seasonal occupancy, safety incidents) but not fully mitigated. No regulatory or legal red flags. Typical early-stage risks with some mitigation. [c:fbtwc2u]\n- **Traction (6.0/10):** Annualised revenue grew from Rs 4.2 crore (2024) to Rs 8.9 crore (2025) to Rs 14.4 crore (2026), representing roughly 2x year-over-year growth. However, these are dated figures (as of Sep 2026) and no retention or cohort data is provided. 91% occupancy is strong but expected in academic season. [c:ke4oiy3]",
+   "market_opportunity": "The company estimates a TAM of Rs 18,000 crore for annual student-housing spend in India's tier-2 education hubs in 2025, a SAM of Rs 2,200 crore in Rajasthan and Madhya Pradesh, and a SOM of Rs 70 crore by 2029 [c:w5lnslf]. All figures are company-reported and unverified; no independent source was found for the TAM, SAM, or CAGR [Data gaps]. The tier-2 education hub focus is plausible given the concentration of coaching centres in Kota and similar cities, but the sizing lacks external validation. A web report notes a 63% rise in housing prices across 11 tier-2 cities over five years, indicating growing demand in these markets [w:1]. Proptech seed rounds of $5\u201310 million are reportedly common in 2026, suggesting a favourable funding environment [w:2].",
+   "problem_solution": "Students in tier-2 education hubs mostly live in unregulated PGs with poor food, safety, and maintenance, while branded student housing is concentrated in metros [c:h4ztiis]. Parents pay Rs 8,000\u201315,000 per month for basic accommodation and food, with safety and food quality being top complaints (all company estimates) [c:h4ztiis]. HostelHive\u2019s solution is an asset-light managed hostel model: leased and refurbished buildings near coaching centres and colleges, providing three meals a day, Wi-Fi, housekeeping, laundry, CCTV, biometric entry, wardens on every floor, and a parent app with attendance, meal, and fee updates [c:oe633sh]. This addresses the gap between unorganised PGs and metro-focused branded operators.",
+   "recommendation": "**Recommendation: Hold (5.6/10)**\n\nHostelHive demonstrates a working product with growing revenue and solid occupancy in a niche tier-2 education hub market. The team has relevant operational experience, and the unit economics are positive. However, the market sizing is unvalidated, the moat is weak, and the business faces concentration risk and seasonal demand. The 17-month capex payback is moderate but above the 6-month threshold for ideal unit economics. The tranched raise structure provides some investor protection. At a Rs 44 crore pre-money valuation, the company is priced for significant growth that has yet to be proven beyond its current 1,150-bed base. We recommend holding for further evidence of scalable execution and market validation before committing capital.",
+   "risks_challenges": "**Risks & Challenges**\n\n- **Demand concentration:** Revenue is tied to coaching hubs like Kota; changes in exam patterns or coaching regulations could sharply reduce enrolment. [c:fbtwc2u]\n- **Lease commitments:** The company signs 9-year leases with a 3-year lock-in, while student revenue is collected term by term, creating a cash-flow mismatch if occupancy drops. [c:fbtwc2u][c:6zyfpgt]\n- **Seasonal occupancy:** Occupancy may fall between academic years, pressuring margins. [c:fbtwc2u]\n- **Safety incidents:** A single safety incident could severely damage the brand, which relies on parent trust. [c:fbtwc2u]\n- **Competitive replication:** The claimed edges (landlord network, parent trust) are execution advantages that larger players like Stanza Living or Zolo could replicate. [c:qjvwsdj]\n- **Data gaps:** TAM, SAM, and SOM are company estimates without independent validation; no net revenue retention or cohort data is provided. [c:w5lnslf]",
+   "team_assessment": "The three co-founders bring relevant domain experience: Manav Agarwal (CEO) ran his family's student hostels in Kota for 6 years; Simran Kaur (COO) has a hospitality operations background from a national hotel chain; Deepak Meena (CFO) is a chartered accountant with real-estate leasing advisory experience [c:psinjfi]. This shows relevant execution experience for the current stage, but there is no evidence of scaling a venture of this size before. The team score of 6.0/10 reflects solid domain fit but limited prior startup scaling experience.",
+   "traction_milestones": "**Traction & Milestones**\n\n- **Revenue growth:** Annualised revenue has grown from Rs 4.2 crore (2024) to Rs 8.9 crore (2025) to Rs 14.4 crore (2026), representing roughly 2x year-over-year growth. These are company-reported and unverified figures as of Sep 2026. [c:ke4oiy3]\n- **Scale:** 1,150 beds across 11 properties in Kota, Jaipur and Indore, with 91% occupancy (1,045 students) in the 2026-27 academic year. [c:ke4oiy3]\n- **Customer satisfaction:** Parent NPS of 58, based on a company survey. [c:ke4oiy3]\n- **Unit economics:** Customer acquisition cost of Rs 2,800 per resident, gross margin of 34%, and fit-out capex payback of about 17 months. [c:6zyfpgt]\n- **Milestone target:** The company aims to reach 3,000 beds across 5 cities within 24 months, with a tranched raise tied to hitting 2,000 beds and a new city launch. [c:umw4zzt][c:fbtwc2u]"
+  },
+  "sources": [
+   {
+    "query": "India student housing market size 2025 2026 CAGR tier-2 cities managed hostels",
+    "retrieved_at": "2026-10-27T06:44:11.947601Z",
+    "snippet": "As infrastructure improves and economic activity deepens, residential prices across 11 emerging Tier-2 real estate markets, including Goa, Lucknow, Nagpur, Visakhapatnam and Coimbatore, have risen 63% ...",
+    "title": "Tier-2 cities such as Goa, Bhopal, Lucknow, Coimbatore see 63% rise in housing prices in 5 years: Report",
+    "url": "https://www.msn.com/en-in/money/general/tier-2-cities-such-as-goa-bhopal-lucknow-coimbatore-see-63-rise-in-housing-prices-in-5-years-report/ar-AA2cwcj4?ocid=BingNewsVerp"
+   },
+   {
+    "query": "India proptech student accommodation investment seed funding 2025 2026",
+    "retrieved_at": "2026-10-27T06:44:12.207241Z",
+    "snippet": "To the surprise of some, or perhaps many, proptech has reportedly drawn the largest number of $5 million to $10 million seed rounds across industries in 2026. To the surprise of no one, artificial ...",
+    "title": "Proptech Seed Rounds This Year Are in Full Bloom",
+    "url": "https://commercialobserver.com/2026/08/proptech-seed-rounds-2026-amounts/"
+   },
+   {
+    "query": "Kota coaching hub student enrollment numbers 2025 2026 IIT JEE NEET",
+    "retrieved_at": "2026-10-27T06:44:27.205561Z",
+    "snippet": "JEE Advanced 2026: The Indian Institute of Technology (IIT), Roorkee, announced the Joint Entrance Examination (JEE) Advanced 2026 result last night. A total of 1,79,694 candidates appeared in both ...",
+    "title": "Kota celebrates rank 1 hat-trick, 6 of 10 toppers in JEE Advanced 2026",
+    "url": "https://www.msn.com/en-in/news/India/kota-celebrates-rank-1-hat-trick-6-of-10-toppers-in-jee-advanced-2026/ar-AA24wChm?ocid=BingNewsVerp"
+   }
+  ]
+ },
+ "input_hash": "0d24daa44d6e4986fc9332f40a82a4053908ea82e98bf291be6bd3d03a2b5051"
+}

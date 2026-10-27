@@ -1,0 +1,468 @@
+{
+ "analysis": {
+  "category_scores": {
+   "business_model": 6.0,
+   "execution_risk": 5.5,
+   "market": 5.0,
+   "moat": 4.7,
+   "product": 6.0,
+   "team": 6.0,
+   "traction": 6.0
+  },
+  "citations": {
+   "c:4ar7ibr": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.91779,
+     0.58777
+    ],
+    "chunk_id": "a4f4698e-e1c3-5c0f-b641-c52366fbaca3",
+    "document_id": "7bc4fd8c-5f0d-489b-8156-e33e28988782",
+    "page_no": 2,
+    "slide_title": "Problem",
+    "type": "deck"
+   },
+   "c:65nfsd3": {
+    "bbox": [
+     0.05783,
+     0.0554,
+     0.93788,
+     0.58882
+    ],
+    "chunk_id": "47194311-2513-57a2-a45b-e0b42d80d0e6",
+    "document_id": "7bc4fd8c-5f0d-489b-8156-e33e28988782",
+    "page_no": 8,
+    "slide_title": "Competitive Landscape",
+    "type": "deck"
+   },
+   "c:6sbjlbx": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.87654,
+     0.56134
+    ],
+    "chunk_id": "5bb999cf-09d0-5cc4-bb19-efddf3e4dea4",
+    "document_id": "7bc4fd8c-5f0d-489b-8156-e33e28988782",
+    "page_no": 11,
+    "slide_title": "The Ask",
+    "type": "deck"
+   },
+   "c:at5krle": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.70589,
+     0.51605
+    ],
+    "chunk_id": "8ba016cc-9e36-5a2c-8d98-65dc529b6db2",
+    "document_id": "7bc4fd8c-5f0d-489b-8156-e33e28988782",
+    "page_no": 7,
+    "slide_title": "Unit Economics",
+    "type": "deck"
+   },
+   "c:dfebsr5": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.87571,
+     0.6943
+    ],
+    "chunk_id": "1604294e-c08e-5c15-841e-da3818a5e66e",
+    "document_id": "7bc4fd8c-5f0d-489b-8156-e33e28988782",
+    "page_no": 6,
+    "slide_title": "Traction (as of Sep 2026)",
+    "type": "deck"
+   },
+   "c:fm6cmk5": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.91409,
+     0.55436
+    ],
+    "chunk_id": "c1269e80-ae11-5493-99c0-5bae3e655608",
+    "document_id": "7bc4fd8c-5f0d-489b-8156-e33e28988782",
+    "page_no": 3,
+    "slide_title": "Solution",
+    "type": "deck"
+   },
+   "c:gmhxegv": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.9066,
+     0.63853
+    ],
+    "chunk_id": "037dcc24-eda2-5ca2-99a2-01b276c1c5e5",
+    "document_id": "7bc4fd8c-5f0d-489b-8156-e33e28988782",
+    "page_no": 9,
+    "slide_title": "Go-to-Market & Key Risks",
+    "type": "deck"
+   },
+   "c:hgeyj3t": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.92414,
+     0.42291
+    ],
+    "chunk_id": "eb4cc344-ac70-53dc-ba92-7f713115213d",
+    "document_id": "7bc4fd8c-5f0d-489b-8156-e33e28988782",
+    "page_no": 4,
+    "slide_title": "Market Opportunity (TAM / SAM / SOM)",
+    "type": "deck"
+   },
+   "c:jg6cg2u": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.83064,
+     0.43886
+    ],
+    "chunk_id": "399cfe66-17b3-59ec-8b92-1ad3d08533d9",
+    "document_id": "7bc4fd8c-5f0d-489b-8156-e33e28988782",
+    "page_no": 5,
+    "slide_title": "Business Model",
+    "type": "deck"
+   },
+   "c:k27n4ks": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.83428,
+     0.50907
+    ],
+    "chunk_id": "a90a6d73-6f99-57c6-96ac-4fe169dcad9a",
+    "document_id": "7bc4fd8c-5f0d-489b-8156-e33e28988782",
+    "page_no": 1,
+    "slide_title": "Nyaya AI",
+    "type": "deck"
+   },
+   "c:ls2nxkd": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.93043,
+     0.4682
+    ],
+    "chunk_id": "e202b4a8-2689-57db-bb8f-75ead4738615",
+    "document_id": "7bc4fd8c-5f0d-489b-8156-e33e28988782",
+    "page_no": 10,
+    "slide_title": "Team",
+    "type": "deck"
+   },
+   "w:11": {
+    "title": "[Latest] Global Legal Technology Market Size/Share Worth USD 71.9 Billion by 2034 at a 10.5% CAGR: Custom Market Insights (Analysis, Outlook, Leaders, Report, Trends, Forecast ...",
+    "type": "web",
+    "url": "https://finance.yahoo.com/technology/articles/latest-global-legal-technology-market-173000318.html"
+   },
+   "w:12": {
+    "title": "AI in Legal Technology Market Size, Share, and Trends - Global Forecast to 2036 | Market to Reach USD 42.18 Billion at 20.2% CAGR as Generative AI Transforms Legal Operations",
+    "type": "web",
+    "url": "https://finance.yahoo.com/technology/ai/articles/ai-legal-technology-market-size-134300512.html"
+   },
+   "w:4": {
+    "title": "AI Legal Ethics in India: A Bar Council Guide | Vidhaana",
+    "type": "web",
+    "url": "https://www.vidhaana.com/blog/ai-legal-ethics-india-bar-council-guide"
+   },
+   "w:5": {
+    "title": "Understanding the Supreme Court Draft AI Regulations, 2026",
+    "type": "web",
+    "url": "https://www.legalserviceindia.com/Legal-Articles/understanding-the-supreme-court-draft-ai-regulations-2026/"
+   },
+   "w:6": {
+    "title": "Best SpotDraft Alternatives in India (2026)",
+    "type": "web",
+    "url": "https://clawlaw.in/blog/best-spotdraft-alternatives-in-india-2026"
+   },
+   "w:7": {
+    "title": "vs SpotDraft, Spellbook, Harvey & More - Clauseium",
+    "type": "web",
+    "url": "https://clauseium.com/compare"
+   },
+   "w:8": {
+    "title": "SpotDraft vs Harvey AI \u2014 AI Visibility Comparison | geo.sig.ai",
+    "type": "web",
+    "url": "https://geo.sig.ai/compare/spotdraft-vs-harvey-ai"
+   },
+   "w:9": {
+    "title": "Best Legal AI Tools in India 2026: 18 Compared | Judicio",
+    "type": "web",
+    "url": "https://judicio.ai/blogs/best-legal-ai-tools-india-2026"
+   }
+  },
+  "citations_removed": 0,
+  "compliance_flags": [],
+  "data_gaps": [
+   "TAM: no usable source excerpt with value, unit and period.",
+   "CAGR: no usable source excerpt with value, unit and period.",
+   "SAM: no independent source found; the deck claims 420 INR crore (p.4).",
+   "SOM: no independent source found; the deck claims 15 INR crore (p.4).",
+   "Market trend unavailable: no sourced annual observations or publisher forecasts. No years were interpolated."
+  ],
+  "evidence_version": 2,
+  "generated_at": "2026-10-27T06:50:36.586260Z",
+  "input_hash": "44acd76527172a510eed51f985529ad03d10fc1f113ec31f274889051b09429b",
+  "invalid_citations": [],
+  "market_sizing": {
+   "basis": "Only figures traceable to retrieved search excerpts are plotted as market data.",
+   "cagr_pct": null,
+   "claims": {
+    "sam_usd_b": {
+     "check": {
+      "status": "unverified"
+     },
+     "citation": {
+      "bbox": [
+       0.0677,
+       0.0554,
+       0.92414,
+       0.42291
+      ],
+      "chunk_id": "eb4cc344-ac70-53dc-ba92-7f713115213d",
+      "cid": "c:hgeyj3t",
+      "document_id": "7bc4fd8c-5f0d-489b-8156-e33e28988782",
+      "page_no": 4
+     },
+     "currency": "INR",
+     "geography": "India",
+     "kind": "company_estimate",
+     "low_confidence": false,
+     "market": "Contract-heavy law firms and corporate legal teams",
+     "normalised": 4.2,
+     "period": "",
+     "quote": "SAM \u2014 Contract-heavy law firms and corporate legal teams: Rs 420 crore in 2025 (company estimate)",
+     "retrieved_at": null,
+     "source_title": "Nyaya_AI_Pitch_Deck.pdf, p.4",
+     "source_url": null,
+     "unit": "INR crore",
+     "value": 420.0,
+     "year": 2025
+    },
+    "som_usd_b": {
+     "check": {
+      "status": "unverified"
+     },
+     "citation": {
+      "bbox": [
+       0.0677,
+       0.0554,
+       0.92414,
+       0.42291
+      ],
+      "chunk_id": "eb4cc344-ac70-53dc-ba92-7f713115213d",
+      "cid": "c:hgeyj3t",
+      "document_id": "7bc4fd8c-5f0d-489b-8156-e33e28988782",
+      "page_no": 4
+     },
+     "currency": "INR",
+     "geography": "India",
+     "kind": "company_forecast",
+     "low_confidence": false,
+     "market": "3-year obtainable share of SAM",
+     "normalised": 0.15,
+     "period": "",
+     "quote": "SOM \u2014 3-year obtainable share of SAM: Rs 15 crore in 2029 (company projection)",
+     "retrieved_at": null,
+     "source_title": "Nyaya_AI_Pitch_Deck.pdf, p.4",
+     "source_url": null,
+     "unit": "INR crore",
+     "value": 15.0,
+     "year": 2029
+    }
+   },
+   "evidence": {},
+   "sam_usd_b": null,
+   "som_usd_b": null,
+   "tam_usd_b": null,
+   "trend": []
+  },
+  "model": "azure/deepSeek-V4-Flash",
+  "overall_score": 5.7,
+  "projected_revenue": [
+   {
+    "citation": {
+     "bbox": [
+      0.0677,
+      0.0554,
+      0.87571,
+      0.6943
+     ],
+     "chunk_id": "1604294e-c08e-5c15-841e-da3818a5e66e",
+     "cid": "c:dfebsr5",
+     "document_id": "7bc4fd8c-5f0d-489b-8156-e33e28988782",
+     "page_no": 6
+    },
+    "geography": "",
+    "kind": "company_reported",
+    "low_confidence": false,
+    "market": "",
+    "metric": "ARR",
+    "period": "",
+    "quote": "ARR: Rs 0.95 crore in 2026",
+    "retrieved_at": null,
+    "revenue": 9.5,
+    "source_title": "Nyaya_AI_Pitch_Deck.pdf, p.6",
+    "source_url": null,
+    "unit": "INR crore",
+    "value": 0.95,
+    "year": 2026
+   }
+  ],
+  "recommendation_label": "Hold",
+  "report_markdown": "## 1. Executive Summary\n\nNyaya AI is a Seed-stage B2B SaaS startup offering an AI contract-review copilot tuned to Indian law, targeting mid-size law firms and their corporate clients. The product integrates with Microsoft Word, checks contracts against firm-specific playbooks and Indian legal requirements (e.g., stamp duty, enforceability), and is used by 38 paying law firms with 330 seats, generating an ARR of Rs 0.95 crore as of September 2026 [c:dfebsr5]. The company is raising Rs 5 crore at a Rs 28 crore pre-money valuation [c:k27n4ks]. The team combines legal, NLP engineering, and legal-knowledge expertise, but lacks prior startup founding or scaling experience at a venture-backed company. The product shows early traction with a 124% net revenue retention and 1% monthly churn, but revenue remains small and the competitive landscape includes well-funded players like Harvey and SpotDraft [c:65nfsd3][c:at5krle]. Overall, the startup scores 5.7/10, leading to a Hold recommendation.\n\n## 2. Problem & Solution\n\nJunior lawyers at mid-size Indian law firms spend 40-60% of their time on first-pass contract review, a company-reported estimate [c:4ar7ibr]. Global legal-AI tools are trained mostly on US and UK law, missing India-specific issues such as stamp duty, governing law, and enforceability under the Indian Contract Act, 1872 [c:4ar7ibr][c:fm6cmk5]. Mid-size firms often bill fixed fees for routine contracts, so review time directly erodes margins [c:4ar7ibr]. Nyaya AI addresses this with an India-first contract-review copilot that extracts clauses, flags risks against firm-specific playbooks, checks for Indian-law issues, and drafts suggested redlines inside Microsoft Word [c:fm6cmk5]. The solution is delivered in an India-hosted, single-tenant environment to address data confidentiality concerns [c:fm6cmk5]. In a 6-firm pilot, first-pass review time was cut by about 55% (company-reported) [c:dfebsr5].\n\n## 3. Market Opportunity\n\nNyaya AI estimates its total addressable market (TAM) for legal technology in Indian law firms and in-house legal teams at Rs 2,300 crore in 2025, its serviceable addressable market (SAM) for contract-heavy firms at Rs 420 crore, and its serviceable obtainable market (SOM) at Rs 15 crore by 2029 [c:hgeyj3t]. All three figures are company estimates without independent source backing. The global legal technology market is projected to reach USD 71.9 billion by 2034 at a 10.5% CAGR (publisher forecast) [w:11], and the AI-in-legal-technology segment is forecast to reach USD 42.18 billion by 2036 at a 20.2% CAGR [w:12]. India-specific market data is limited; the deck's TAM/SAM/SOM are self-reported and unverified. The SOM projection of Rs 15 crore by 2029 appears reasonable given the startup's current ARR of Rs 0.95 crore and target of 120 law firms and 1,200 seats within 24 months [c:gmhxegv][c:dfebsr5].\n\n## 4. Competitive Landscape\n\nNyaya AI competes with global legal-AI platforms such as Harvey (generative AI for large global law firms) and SpotDraft (contract lifecycle management for in-house teams), as well as Indian legal research databases like Manupatra and SCC Online [c:65nfsd3]. The startup's claimed edge is its Indian-law clause library and playbooks built with practising lawyers, and the stickiness created by firm-specific playbooks and precedents [c:65nfsd3]. However, well-funded competitors like Harvey and SpotDraft could add Indian-law capabilities, and the market is seeing new entrants such as Clauseium and Legora [w:7][w:9]. The product's defensibility beyond the Indian-law clause library is unclear, as foundation-model vendors may also add Indian-law capabilities [c:gmhxegv]. The deck's competitive positioning is modest and does not quantify market share or differentiation in terms of performance benchmarks.\n\n## 5. Business Model\n\nNyaya AI operates a per-seat subscription model at Rs 2,400 per month (90% of revenue), with a one-time playbook setup fee of Rs 150,000 (10% of revenue) [c:jg6cg2u]. Gross margin is 80% after LLM and hosting costs [c:jg6cg2u]. Unit economics show a customer acquisition cost (CAC) of Rs 160,000 per law firm (average 8.7 seats), a CAC payback of 9.6 months, net revenue retention (NRR) of 124%, and monthly churn of 1% [c:at5krle]. The payback period is above the 6-month threshold typically preferred for a higher score, but NRR is strong, albeit based on a small base of 38 firms. The company is raising Rs 5 crore Seed at a Rs 33 crore post-money valuation, with funds allocated 45% to product & AI, 30% to sales, 15% to security & compliance, and 10% to G&A [c:6sbjlbx]. The raise includes tranches tied to milestones: 100 paying law firms within 365 days and Rs 3 crore ARR within 600 days [c:6sbjlbx].\n\n## 6. Team Assessment\n\nThe three co-founders bring relevant domain experience: Tanvi Agarwal (Co-founder & CEO) has 7 years as an M&A associate at a large Indian law firm; Rajat Bhardwaj (Co-founder & CTO) is an NLP engineer who built document-understanding models for banks; and Sana Mirza (Co-founder, Legal Knowledge) holds an LL.M. and built clause libraries for a legal publisher [c:ls2nxkd]. This covers legal, technical, and product knowledge. However, none of the co-founders have prior startup founding or scaling experience at a venture-backed company, which is a gap for a Seed-stage company aiming to scale from 38 to 120 law firms within 24 months [c:gmhxegv]. The team's combined expertise is credible for the product's niche, but execution risk is elevated given the lack of startup scaling experience.\n\n## 7. Traction & Milestones\n\nNyaya AI has grown ARR from Rs 0.2 crore in 2025 to Rs 0.95 crore in 2026, a 4.75x increase, with 38 paying law firms and 330 lawyer seats as of September 2026 [c:dfebsr5]. The company reports a 55% reduction in first-pass review time from a 6-firm pilot, net revenue retention of 124%, and monthly churn of 1% [c:dfebsr5][c:at5krle]. Unit economics show a CAC of Rs 160,000 per firm (average 8.7 seats) and a CAC payback of 9.6 months, with gross margin at 80% [c:at5krle]. The target is 120 law firms and 1,200 seats within 24 months, with a tranched raise tied to milestones of 100 paying firms and Rs 3 crore ARR [c:gmhxegv][c:6sbjlbx].\n\n## 8. Compliance & Governance\n\nThe company is registered as Nyaya AI Private Limited (CIN U62099DL2024PTC428615) with an ACTIVE status in the MCA registry; directors are Tanvi Agarwal, Rajat Bhardwaj, and Sana Mirza [c:k27n4ks]. No compliance flags were identified. The deck does not attempt to instruct the evaluator. The product operates in a regulated environment: India's Supreme Court declared zero tolerance for unverified AI citations in July 2026 [w:9], and the Bar Council of India has issued guidance on AI adoption without breaching privilege or the DPDP Act, 2023 [w:4]. Nyaya AI's single-tenant India-hosted data environment [c:fm6cmk5] aligns with these requirements, but the company should monitor evolving AI regulations, including the Supreme Court Draft AI Regulations, 2026 [w:5].\n\n## 9. Risks & Challenges\n\nKey risks include AI errors in client contracts creating liability and reputational damage, slow adoption by price-sensitive law firms, potential entry of foundation-model vendors adding Indian-law capabilities, and client confidentiality constraints limiting data use [c:gmhxegv]. The deck identifies these risks but provides only partial mitigation: the product uses firm-specific playbooks and India-hosted data, but no indemnity or error-correction mechanism is disclosed. Competition from well-funded players like Harvey and SpotDraft, which are expanding into the Indian market [w:7][w:8][w:9], poses a threat to Nyaya AI's differentiation. The company's reliance on a single-tenant architecture may limit scalability, and the tranched funding structure (60% minimum raise, milestones for 100 firms and Rs 3 crore ARR) [c:6sbjlbx] introduces execution risk if targets are missed.\n\n## 10. Investment Thesis\n\nNyaya AI addresses a clear pain point for mid-size Indian law firms: junior lawyers spend 40-60% of time on first-pass contract review, and global AI tools miss India-specific issues like stamp duty and enforceability [c:4ar7ibr][c:fm6cmk5]. The product has early traction with 38 paying firms, 330 seats, and 124% NRR, indicating product-market fit in a niche segment [c:dfebsr5][c:at5krle]. The team combines legal domain expertise (Tanvi Agarwal, 7 years M&A associate; Sana Mirza, LL.M. clause library builder) with NLP engineering (Rajat Bhardwaj) [c:ls2nxkd]. However, the market opportunity is modest: the TAM of Rs 2,300 crore and SAM of Rs 420 crore are company estimates without independent verification [c:hgeyj3t], and the SOM of Rs 15 crore by 2029 is small. Competition from Harvey, SpotDraft, and emerging Indian legal AI tools [w:6][w:7][w:9] could erode the company's Indian-law advantage. The valuation of Rs 28 crore pre-money (approx. $3.3M) for a seed-stage company with Rs 0.95 crore ARR is reasonable but not a bargain, given the execution risks and modest growth rate.\n\n## 11. Recommendation\n\n**Hold** \u2014 Overall score 5.7/10. Nyaya AI has a working product with early traction and a clear value proposition for Indian law firms, but the market is small, competition is intensifying, and the team lacks prior startup scaling experience. The unit economics are healthy (80% gross margin, 124% NRR) but based on a small base. The company should be monitored for progress toward the 120-firm, 1,200-seat target and for signs of competitive pressure from Harvey or SpotDraft entering the Indian market. A follow-on round at a higher valuation would require faster growth and stronger defensibility.",
+  "revenue_currency": "INR",
+  "revenue_metric": "ARR",
+  "rewrites": 0,
+  "rubric_version": "r1",
+  "score_rationales": {
+   "business_model": "Pricing is clear (Rs 2,400/seat/month, one-time setup fee) and unit economics are early but positive: 80% gross margin, 9.6-month CAC payback, 124% NRR, 1% monthly churn [c:jg6cg2u][c:at5krle]. Payback is above the 6-month threshold for a higher score, and NRR is strong but based on a small base (38 firms).",
+   "execution_risk": "Risks are well-identified (AI errors, slow adoption, foundation-model competition, data confidentiality) but only partially mitigated; no regulatory red flags, though the product is early-stage. [c:gmhxegv]",
+   "market": "The TAM of Rs 2,300 crore and SAM of Rs 420 crore are company estimates without independent source backing; the SOM projection of Rs 15 crore by 2029 is reasonable but self-reported. [c:hgeyj3t]",
+   "moat": "Switching costs are emerging from firm-specific playbooks and Indian-law clause libraries, but these are execution advantages that could be replicated by well-funded competitors like Harvey or SpotDraft. [c:65nfsd3]",
+   "product": "Nyaya AI has a working product used by 38 paying law firms (330 seats) that checks Indian-law issues and integrates with Microsoft Word [c:fm6cmk5][c:dfebsr5]. However, differentiation is modest \u2014 competitors like SpotDraft and Harvey also target legal review, and the product's defensibility beyond the Indian-law clause library is unclear [c:65nfsd3].",
+   "team": "The three co-founders bring relevant domain experience: Tanvi Agarwal (7 years M&A associate at a large Indian law firm), Rajat Bhardwaj (NLP engineer for banks), and Sana Mirza (LL.M., built clause libraries) [c:ls2nxkd]. This covers legal, technical, and product knowledge, but none have prior startup founding or scaling experience at a venture-backed company.",
+   "traction": "Paying customers (38 firms, 330 seats), growing ARR from Rs 0.2 crore to Rs 0.95 crore in one year, and strong NRR of 124% indicate early traction, but revenue is still small and growth rate is modest. [c:dfebsr5]"
+  },
+  "score_spread": {
+   "business_model": 0.5,
+   "execution_risk": 1.0,
+   "market": 1.0,
+   "moat": 1.0,
+   "product": 0.5,
+   "team": 0.5,
+   "traction": 0.0
+  },
+  "sections": {
+   "business_model": "Nyaya AI operates a per-seat subscription model at Rs 2,400 per month (90% of revenue), with a one-time playbook setup fee of Rs 150,000 (10% of revenue) [c:jg6cg2u]. Gross margin is 80% after LLM and hosting costs [c:jg6cg2u]. Unit economics show a customer acquisition cost (CAC) of Rs 160,000 per law firm (average 8.7 seats), a CAC payback of 9.6 months, net revenue retention (NRR) of 124%, and monthly churn of 1% [c:at5krle]. The payback period is above the 6-month threshold typically preferred for a higher score, but NRR is strong, albeit based on a small base of 38 firms. The company is raising Rs 5 crore Seed at a Rs 33 crore post-money valuation, with funds allocated 45% to product & AI, 30% to sales, 15% to security & compliance, and 10% to G&A [c:6sbjlbx]. The raise includes tranches tied to milestones: 100 paying law firms within 365 days and Rs 3 crore ARR within 600 days [c:6sbjlbx].",
+   "competitive_landscape": "Nyaya AI competes with global legal-AI platforms such as Harvey (generative AI for large global law firms) and SpotDraft (contract lifecycle management for in-house teams), as well as Indian legal research databases like Manupatra and SCC Online [c:65nfsd3]. The startup's claimed edge is its Indian-law clause library and playbooks built with practising lawyers, and the stickiness created by firm-specific playbooks and precedents [c:65nfsd3]. However, well-funded competitors like Harvey and SpotDraft could add Indian-law capabilities, and the market is seeing new entrants such as Clauseium and Legora [w:7][w:9]. The product's defensibility beyond the Indian-law clause library is unclear, as foundation-model vendors may also add Indian-law capabilities [c:gmhxegv]. The deck's competitive positioning is modest and does not quantify market share or differentiation in terms of performance benchmarks.",
+   "compliance_governance": "The company is registered as Nyaya AI Private Limited (CIN U62099DL2024PTC428615) with an ACTIVE status in the MCA registry; directors are Tanvi Agarwal, Rajat Bhardwaj, and Sana Mirza [c:k27n4ks]. No compliance flags were identified. The deck does not attempt to instruct the evaluator. The product operates in a regulated environment: India's Supreme Court declared zero tolerance for unverified AI citations in July 2026 [w:9], and the Bar Council of India has issued guidance on AI adoption without breaching privilege or the DPDP Act, 2023 [w:4]. Nyaya AI's single-tenant India-hosted data environment [c:fm6cmk5] aligns with these requirements, but the company should monitor evolving AI regulations, including the Supreme Court Draft AI Regulations, 2026 [w:5].",
+   "executive_summary": "Nyaya AI is a Seed-stage B2B SaaS startup offering an AI contract-review copilot tuned to Indian law, targeting mid-size law firms and their corporate clients. The product integrates with Microsoft Word, checks contracts against firm-specific playbooks and Indian legal requirements (e.g., stamp duty, enforceability), and is used by 38 paying law firms with 330 seats, generating an ARR of Rs 0.95 crore as of September 2026 [c:dfebsr5]. The company is raising Rs 5 crore at a Rs 28 crore pre-money valuation [c:k27n4ks]. The team combines legal, NLP engineering, and legal-knowledge expertise, but lacks prior startup founding or scaling experience at a venture-backed company. The product shows early traction with a 124% net revenue retention and 1% monthly churn, but revenue remains small and the competitive landscape includes well-funded players like Harvey and SpotDraft [c:65nfsd3][c:at5krle]. Overall, the startup scores 5.7/10, leading to a Hold recommendation.",
+   "investment_thesis": "Nyaya AI addresses a clear pain point for mid-size Indian law firms: junior lawyers spend 40-60% of time on first-pass contract review, and global AI tools miss India-specific issues like stamp duty and enforceability [c:4ar7ibr][c:fm6cmk5]. The product has early traction with 38 paying firms, 330 seats, and 124% NRR, indicating product-market fit in a niche segment [c:dfebsr5][c:at5krle]. The team combines legal domain expertise (Tanvi Agarwal, 7 years M&A associate; Sana Mirza, LL.M. clause library builder) with NLP engineering (Rajat Bhardwaj) [c:ls2nxkd]. However, the market opportunity is modest: the TAM of Rs 2,300 crore and SAM of Rs 420 crore are company estimates without independent verification [c:hgeyj3t], and the SOM of Rs 15 crore by 2029 is small. Competition from Harvey, SpotDraft, and emerging Indian legal AI tools [w:6][w:7][w:9] could erode the company's Indian-law advantage. The valuation of Rs 28 crore pre-money (approx. $3.3M) for a seed-stage company with Rs 0.95 crore ARR is reasonable but not a bargain, given the execution risks and modest growth rate.",
+   "market_opportunity": "Nyaya AI estimates its total addressable market (TAM) for legal technology in Indian law firms and in-house legal teams at Rs 2,300 crore in 2025, its serviceable addressable market (SAM) for contract-heavy firms at Rs 420 crore, and its serviceable obtainable market (SOM) at Rs 15 crore by 2029 [c:hgeyj3t]. All three figures are company estimates without independent source backing. The global legal technology market is projected to reach USD 71.9 billion by 2034 at a 10.5% CAGR (publisher forecast) [w:11], and the AI-in-legal-technology segment is forecast to reach USD 42.18 billion by 2036 at a 20.2% CAGR [w:12]. India-specific market data is limited; the deck's TAM/SAM/SOM are self-reported and unverified. The SOM projection of Rs 15 crore by 2029 appears reasonable given the startup's current ARR of Rs 0.95 crore and target of 120 law firms and 1,200 seats within 24 months [c:gmhxegv][c:dfebsr5].",
+   "problem_solution": "Junior lawyers at mid-size Indian law firms spend 40-60% of their time on first-pass contract review, a company-reported estimate [c:4ar7ibr]. Global legal-AI tools are trained mostly on US and UK law, missing India-specific issues such as stamp duty, governing law, and enforceability under the Indian Contract Act, 1872 [c:4ar7ibr][c:fm6cmk5]. Mid-size firms often bill fixed fees for routine contracts, so review time directly erodes margins [c:4ar7ibr]. Nyaya AI addresses this with an India-first contract-review copilot that extracts clauses, flags risks against firm-specific playbooks, checks for Indian-law issues, and drafts suggested redlines inside Microsoft Word [c:fm6cmk5]. The solution is delivered in an India-hosted, single-tenant environment to address data confidentiality concerns [c:fm6cmk5]. In a 6-firm pilot, first-pass review time was cut by about 55% (company-reported) [c:dfebsr5].",
+   "recommendation": "**Hold** \u2014 Overall score 5.7/10. Nyaya AI has a working product with early traction and a clear value proposition for Indian law firms, but the market is small, competition is intensifying, and the team lacks prior startup scaling experience. The unit economics are healthy (80% gross margin, 124% NRR) but based on a small base. The company should be monitored for progress toward the 120-firm, 1,200-seat target and for signs of competitive pressure from Harvey or SpotDraft entering the Indian market. A follow-on round at a higher valuation would require faster growth and stronger defensibility.",
+   "risks_challenges": "Key risks include AI errors in client contracts creating liability and reputational damage, slow adoption by price-sensitive law firms, potential entry of foundation-model vendors adding Indian-law capabilities, and client confidentiality constraints limiting data use [c:gmhxegv]. The deck identifies these risks but provides only partial mitigation: the product uses firm-specific playbooks and India-hosted data, but no indemnity or error-correction mechanism is disclosed. Competition from well-funded players like Harvey and SpotDraft, which are expanding into the Indian market [w:7][w:8][w:9], poses a threat to Nyaya AI's differentiation. The company's reliance on a single-tenant architecture may limit scalability, and the tranched funding structure (60% minimum raise, milestones for 100 firms and Rs 3 crore ARR) [c:6sbjlbx] introduces execution risk if targets are missed.",
+   "team_assessment": "The three co-founders bring relevant domain experience: Tanvi Agarwal (Co-founder & CEO) has 7 years as an M&A associate at a large Indian law firm; Rajat Bhardwaj (Co-founder & CTO) is an NLP engineer who built document-understanding models for banks; and Sana Mirza (Co-founder, Legal Knowledge) holds an LL.M. and built clause libraries for a legal publisher [c:ls2nxkd]. This covers legal, technical, and product knowledge. However, none of the co-founders have prior startup founding or scaling experience at a venture-backed company, which is a gap for a Seed-stage company aiming to scale from 38 to 120 law firms within 24 months [c:gmhxegv]. The team's combined expertise is credible for the product's niche, but execution risk is elevated given the lack of startup scaling experience.",
+   "traction_milestones": "Nyaya AI has grown ARR from Rs 0.2 crore in 2025 to Rs 0.95 crore in 2026, a 4.75x increase, with 38 paying law firms and 330 lawyer seats as of September 2026 [c:dfebsr5]. The company reports a 55% reduction in first-pass review time from a 6-firm pilot, net revenue retention of 124%, and monthly churn of 1% [c:dfebsr5][c:at5krle]. Unit economics show a CAC of Rs 160,000 per firm (average 8.7 seats) and a CAC payback of 9.6 months, with gross margin at 80% [c:at5krle]. The target is 120 law firms and 1,200 seats within 24 months, with a tranched raise tied to milestones of 100 paying firms and Rs 3 crore ARR [c:gmhxegv][c:6sbjlbx]."
+  },
+  "sources": [
+   {
+    "query": "India legal AI regulation Bar Council India AI tools law firms 2025 2026",
+    "retrieved_at": "2026-10-27T06:49:42.619733Z",
+    "snippet": "AI Laws and Regulations in India as of 2026: A Comprehensive Overview for Practitioners, Businesses, and Policymakers As over two decades navigating the intersections of technology, cybersecurity, and the law, I've witnessed India's digital journey from the early days of the IT Act to today's AI-driven ambitions.",
+    "title": "AI Laws and Regulations in India as of 2026 - prashantmali.com",
+    "url": "https://www.prashantmali.com/cyber-law-blog-india/ai-laws-and-regulations-in-india-as-of-2026"
+   },
+   {
+    "query": "India legal AI regulation Bar Council India AI tools law firms 2025 2026",
+    "retrieved_at": "2026-10-27T06:49:42.619733Z",
+    "snippet": "The India AI Regulatory Update is a monthly publication by AZB & Partners that consolidates key legal, regulatory and policy developments relevant to AI development and deployment in India, providing readers with a centralised and structured reference point. Each edition captures significant regulatory updates, proposed and enacted legal developments, regulatory guidance, policy initiatives ...",
+    "title": "PDF India Ai Regulatory Update",
+    "url": "https://www.azbpartners.com/wp-content/uploads/2026/09/India-AI-Regulatory-Tracker-2nd-Ed-Correct-Final.pdf"
+   },
+   {
+    "query": "India legal AI regulation Bar Council India AI tools law firms 2025 2026",
+    "retrieved_at": "2026-10-27T06:49:42.619733Z",
+    "snippet": "The Information Technology Act, 2000 (\"IT Act\") is the principal legislation governing electronic communications, electronic records, cybersecurity and intermediary liability in India. The Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021 (\"IT Rules\"), issued under the IT Act, prescribe due diligence obligations required to be complied with by ...",
+    "title": "PDF India Ai Regulatory Tracker",
+    "url": "https://www.azbpartners.com/wp-content/uploads/2026/07/India_AI_Regulatory-Tracker-July-03-2026-002.pdf"
+   },
+   {
+    "query": "India legal AI regulation Bar Council India AI tools law firms 2025 2026",
+    "retrieved_at": "2026-10-27T06:49:42.619733Z",
+    "snippet": "How law-firm leaders and general counsel in India can adopt legal AI without breaching Bar Council duties, privilege obligations or the DPDP Act, 2023.",
+    "title": "AI Legal Ethics in India: A Bar Council Guide | Vidhaana",
+    "url": "https://www.vidhaana.com/blog/ai-legal-ethics-india-bar-council-guide"
+   },
+   {
+    "query": "India legal AI regulation Bar Council India AI tools law firms 2025 2026",
+    "retrieved_at": "2026-10-27T06:49:42.619733Z",
+    "snippet": "Understanding the Supreme Court Draft AI Regulations, 2026 A comprehensive legal analysis of India's Draft AI Regulations for Courts, covering AI disclosure, Human-in-the-Loop (HITL), AI hallucinations, judicial oversight, constitutional safeguards, and the future of AI governance in the Indian judiciary.",
+    "title": "Understanding the Supreme Court Draft AI Regulations, 2026",
+    "url": "https://www.legalserviceindia.com/Legal-Articles/understanding-the-supreme-court-draft-ai-regulations-2026/"
+   },
+   {
+    "query": "AI contract review software India competitors SpotDraft Harvey legal tech",
+    "retrieved_at": "2026-10-27T06:49:42.812477Z",
+    "snippet": "If SpotDraft is not the right fit, here are the alternatives Indian legal teams actually use in 2026, what each one does well, and how to choose between them.",
+    "title": "Best SpotDraft Alternatives in India (2026)",
+    "url": "https://clawlaw.in/blog/best-spotdraft-alternatives-in-india-2026"
+   },
+   {
+    "query": "AI contract review software India competitors SpotDraft Harvey legal tech",
+    "retrieved_at": "2026-10-27T06:49:42.812477Z",
+    "snippet": "Compare Clauseium against SpotDraft, Spellbook, Harvey, and other AI contract review platforms. See feature-by-feature breakdowns built for Indian counsel.",
+    "title": "vs SpotDraft, Spellbook, Harvey & More - Clauseium",
+    "url": "https://clauseium.com/compare"
+   },
+   {
+    "query": "AI contract review software India competitors SpotDraft Harvey legal tech",
+    "retrieved_at": "2026-10-27T06:49:42.812477Z",
+    "snippet": "Harvey AI is one of the most prominent generative AI companies built specifically for the legal profession, providing large law firms, in-house legal teams, and professional services organizations with a powerful AI platform for legal research, contract analysis, regulatory review, due diligence, and legal drafting.",
+    "title": "SpotDraft vs Harvey AI \u2014 AI Visibility Comparison | geo.sig.ai",
+    "url": "https://geo.sig.ai/compare/spotdraft-vs-harvey-ai"
+   },
+   {
+    "query": "AI contract review software India competitors SpotDraft Harvey legal tech",
+    "retrieved_at": "2026-10-27T06:49:42.812477Z",
+    "snippet": "Best Legal AI Tools in India 2026: Research, Drafting & Review India's Supreme Court declared zero tolerance for unverified AI citations in July 2026: the same year SCC Online and Manupatra shipped AI research and Harvey and Legora arrived at Indian BigLaw. Here is the full 2026 field, compared honestly: 18 tools, a 12-capability matrix, INR pricing, and how to choose.",
+    "title": "Best Legal AI Tools in India 2026: 18 Compared | Judicio",
+    "url": "https://judicio.ai/blogs/best-legal-ai-tools-india-2026"
+   },
+   {
+    "query": "AI contract review software India competitors SpotDraft Harvey legal tech",
+    "retrieved_at": "2026-10-27T06:49:42.812477Z",
+    "snippet": "Detailed comparison of Harvey AI vs SpotDraft. Side-by-side analysis of features, pricing, and performance with expert verdict.",
+    "title": "Harvey AI vs SpotDraft: Comparison | Ehsan Jahandarpour",
+    "url": "https://jahandarpour.com/compare/harvey-ai-vs-spotdraft"
+   },
+   {
+    "query": "India legal technology market size 2025 2026 CAGR law firms",
+    "retrieved_at": "2026-10-27T06:49:44.306708Z",
+    "snippet": "Austin, TX, USA, June 02, 2026 (GLOBE NEWSWIRE)-- Custom Market Insights has published a new research report titled \"Legal Technology Market Size, Trends and Insights By Solution (Software, Services), ...",
+    "title": "[Latest] Global Legal Technology Market Size/Share Worth USD 71.9 Billion by 2034 at a 10.5% CAGR: Custom Market Insights (Analysis, Outlook, Leaders, Report, Trends, Forecast ...",
+    "url": "https://finance.yahoo.com/technology/articles/latest-global-legal-technology-market-173000318.html"
+   },
+   {
+    "query": "India legal technology market size 2025 2026 CAGR law firms",
+    "retrieved_at": "2026-10-27T06:49:44.306708Z",
+    "snippet": "Dublin, Oct. 05, 2026 (GLOBE NEWSWIRE)-- \"AI in Legal Technology Market - Global Forecast to 2036\" has been added to ResearchAndMarkets.com's offering. The global AI in legal technology market is ...",
+    "title": "AI in Legal Technology Market Size, Share, and Trends - Global Forecast to 2036 | Market to Reach USD 42.18 Billion at 20.2% CAGR as Generative AI Transforms Legal Operations",
+    "url": "https://finance.yahoo.com/technology/ai/articles/ai-legal-technology-market-size-134300512.html"
+   },
+   {
+    "query": "India legal technology market size 2025 2026 CAGR law firms",
+    "retrieved_at": "2026-10-27T06:49:44.306708Z",
+    "snippet": "As India's IPO market surges, some firms are prioritising higher-value mandates while others are pursuing deal volume, with a ...",
+    "title": "Volume vs. Fees: How Indian Law Firms Are Competing for IPO Market Share",
+    "url": "https://www.law.com/international-edition/2026/10/22/volume-vs-fees-how-indian-law-firms-are-competing-for-ipo-market-share/"
+   },
+   {
+    "query": "Indian legal tech startups funding investment 2025 2026",
+    "retrieved_at": "2026-10-27T06:49:44.544529Z",
+    "snippet": "Indian AI coding startup Emergent has raised $130 million in a Series C funding round at a $1.5 billion post-money valuation, a five-fold jump in six months. The funding round was led by private ...",
+    "title": "Indian AI coding startup Emergent becomes a unicorn with $130M Series C",
+    "url": "https://techcrunch.com/2026/07/15/indian-ai-coding-startup-emergent-becomes-a-unicorn-just-over-a-year-after-launch/"
+   },
+   {
+    "query": "Indian legal tech startups funding investment 2025 2026",
+    "retrieved_at": "2026-10-27T06:49:44.544529Z",
+    "snippet": "A group of general counsels and Wilson Sonsini Goodrich & Rosati have joined forces to launch a new venture capital fund dedicated to investing in legal technology startups. Reuters reported Tuesday ...",
+    "title": "Group of GCs, Wilson Sonsini launch new legal tech venture capital fund",
+    "url": "https://www.abajournal.com/news/article/new-legal-tech-vc-fund-consisting-of-general-counsels-and-wilson-sonsini-launches/"
+   },
+   {
+    "query": "Indian legal tech startups funding investment 2025 2026",
+    "retrieved_at": "2026-10-27T06:49:44.544529Z",
+    "snippet": "Lightspeed is sharpening its India strategy around AI, targeting $250 million for a new early-stage fund as the venture firm bets the technology will drive the next wave of startups in one of the ...",
+    "title": "Lightspeed targets $250M for new India fund, focusing on early-stage AI",
+    "url": "https://techcrunch.com/2026/09/24/lightspeed-targets-250m-for-new-india-fund-focusing-on-early-stage-ai/"
+   }
+  ]
+ },
+ "input_hash": "44acd76527172a510eed51f985529ad03d10fc1f113ec31f274889051b09429b"
+}

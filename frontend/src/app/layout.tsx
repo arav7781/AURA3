@@ -3,14 +3,12 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import { Providers } from '@/components/Providers'
 import { Navbar } from '@/components/Navbar'
-import { CustomCursor } from '@/components/CustomCursor'
-import { NewsTicker } from '@/components/NewsTicker'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'AURA3 Platform',
-  description: 'Decentralized Capital Intelligence Protocol',
+  title: 'AURA3',
+  description: 'Evidence-first startup investing: TitanOCR deck evidence, AI due diligence and AuraCoin DAO rounds.',
   icons: {
     icon: '/icon.png',
     shortcut: '/icon.png',
@@ -25,8 +23,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} min-h-screen bg-white text-black text-[17px] md:text-[18px] selection:bg-gray-300`}>
-        <CustomCursor />
+      <body className={`${inter.className} min-h-screen bg-white text-slate-900 text-[16px] selection:bg-sky-100`}>
         <Providers>
             <div className="relative flex flex-col min-h-screen">
               {/* Live Data Mesh - Moving Flow */}
@@ -40,7 +37,6 @@ export default function RootLayout({
               </div>
               
               <Navbar />
-              <NewsTicker />
               <main className="flex-1 relative z-10 w-full">
                 {children}
               </main>

@@ -1,24 +1,22 @@
 """Startups: the catalogue, profiles, registry checks and publishing."""
 
-import logging
 from typing import Any, Literal
 
 from fastapi import APIRouter, Depends, Query
 from pydantic import BaseModel, Field
 from sqlalchemy import func, or_, select
 
+from aura import publishing
 from aura.access import is_owner, visible_startup
 from aura.api.deps import Viewer, current_viewer, startup_owner
 from aura.core import clock
 from aura.core.db import read_session, write_tx
-from aura.core.errors import AppError, NotFound
+from aura.core.errors import NotFound
 from aura.evaluation import mca
-from aura.models import Document, Evaluation, Startup
+from aura.models import Startup
 from aura.models.startups import STAGES
-from aura.rag import profiles, store
 
 router = APIRouter(prefix="/api", tags=["startups"])
-logger = logging.getLogger("aura.startups")
 
 
 def startup_card(startup: Startup) -> dict[str, Any]:
@@ -164,32 +162,4 @@ def verify_mca(startup_id: str, body: VerifyIn, viewer: Viewer = Depends(startup
 async def publish_startup(startup_id: str, viewer: Viewer = Depends(startup_owner)) -> dict[str, Any]:
     if viewer.startup_id != startup_id and not viewer.is_admin:
         raise NotFound("Startup not found")
-    with write_tx() as s:
-        startup = s.get(Startup, startup_id)
-        ready = s.scalar(select(func.count()).select_from(Document)
-                         .where(Document.startup_id == startup_id, Document.status == "ready")) or 0
-        if ready == 0:
-            raise AppError("Upload a pitch deck before publishing", code="DECK_REQUIRED", status=409)
-        evaluated = s.scalar(select(func.count()).select_from(Evaluation).where(
-            Evaluation.startup_id == startup_id, Evaluation.status == "complete")) or 0
-        if evaluated == 0:
-            raise AppError("Run an AI evaluation before publishing", code="EVALUATION_REQUIRED", status=409)
-        startup.status = "published"
-        startup.published_at = startup.published_at or clock.now()
-        for doc in s.scalars(select(Document).where(Document.startup_id == startup_id, Document.status == "ready")):
-            doc.visibility = "published"
-        latest = s.scalars(select(Evaluation).where(Evaluation.startup_id == startup_id,
-                                                    Evaluation.status == "complete")
-                           .order_by(Evaluation.version.desc()).limit(1)).first()
-        if latest is not None and latest.visibility != "published":
-            latest.visibility = "published"
-            startup.latest_evaluation_id = latest.id
-            startup.ai_score_x10 = latest.overall_score_x10
-            startup.recommendation = latest.recommendation
-        card = startup_card(startup)
-    await store.set_startup_visibility(startup_id, "dao")
-    try:
-        await profiles.index_startup(startup_id)
-    except Exception as exc:  # semantic catalogue search is an extra; publishing must not depend on it
-        logger.warning("could not index the profile of %s: %s", startup_id, exc)
-    return card
+    return startup_card(await publishing.publish_startup(startup_id))

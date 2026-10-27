@@ -1,0 +1,448 @@
+{
+ "analysis": {
+  "category_scores": {
+   "business_model": 4.7,
+   "execution_risk": 5.0,
+   "market": 5.0,
+   "moat": 4.0,
+   "product": 5.2,
+   "team": 6.0,
+   "traction": 4.5
+  },
+  "citations": {
+   "c:2scyj2c": {
+    "bbox": [
+     0.06438,
+     0.05391,
+     0.91938,
+     0.64514
+    ],
+    "chunk_id": "709d90ed-3372-54f4-89e9-85edb10091ea",
+    "document_id": "1a6f9b65-0a0c-4b32-a7f0-4cb3d2cfcbb1",
+    "page_no": 2,
+    "slide_title": "Problem",
+    "type": "deck"
+   },
+   "c:4y35wey": {
+    "bbox": [
+     0.06625,
+     0.0633,
+     0.86688,
+     0.5187
+    ],
+    "chunk_id": "8379df8d-897d-5acb-920d-ed8be810e3e6",
+    "document_id": "1a6f9b65-0a0c-4b32-a7f0-4cb3d2cfcbb1",
+    "page_no": 1,
+    "slide_title": "ShikshaGrid",
+    "type": "deck"
+   },
+   "c:5drwuan": {
+    "bbox": [
+     0.06438,
+     0.05722,
+     0.93188,
+     0.4375
+    ],
+    "chunk_id": "4e2eb1c1-fe0d-5631-8302-954cddb1a5d3",
+    "document_id": "1a6f9b65-0a0c-4b32-a7f0-4cb3d2cfcbb1",
+    "page_no": 4,
+    "slide_title": "Market Opportunity (TAM / SAM / SOM)",
+    "type": "deck"
+   },
+   "c:76vg6iq": {
+    "bbox": [
+     0.0675,
+     0.06233,
+     0.93188,
+     0.39066
+    ],
+    "chunk_id": "c8c95fc5-6c38-5faf-b622-6880c8358ef0",
+    "document_id": "1a6f9b65-0a0c-4b32-a7f0-4cb3d2cfcbb1",
+    "page_no": 5,
+    "slide_title": "Business Model",
+    "type": "deck"
+   },
+   "c:czabiu5": {
+    "bbox": [
+     0.06563,
+     0.06144,
+     0.88563,
+     0.52222
+    ],
+    "chunk_id": "830eab02-b40d-5222-8a90-7e2deca9c7c5",
+    "document_id": "1a6f9b65-0a0c-4b32-a7f0-4cb3d2cfcbb1",
+    "page_no": 3,
+    "slide_title": "Solution",
+    "type": "deck"
+   },
+   "c:hpdzyaf": {
+    "bbox": [
+     0.06688,
+     0.06235,
+     0.91062,
+     0.60332
+    ],
+    "chunk_id": "7f2e7167-13c8-58b7-8e91-df3a5877bfe3",
+    "document_id": "1a6f9b65-0a0c-4b32-a7f0-4cb3d2cfcbb1",
+    "page_no": 11,
+    "slide_title": "The Ask",
+    "type": "deck"
+   },
+   "c:jlpfdi3": {
+    "bbox": [
+     0.06625,
+     0.06324,
+     0.6825,
+     0.469
+    ],
+    "chunk_id": "c4977965-de01-5930-893c-6f8b1b377def",
+    "document_id": "1a6f9b65-0a0c-4b32-a7f0-4cb3d2cfcbb1",
+    "page_no": 7,
+    "slide_title": "Unit Economics",
+    "type": "deck"
+   },
+   "c:pnq46fx": {
+    "bbox": [
+     0.06625,
+     0.06065,
+     0.82688,
+     0.65128
+    ],
+    "chunk_id": "c0b46c41-c71a-534b-afab-9fec89c671bc",
+    "document_id": "1a6f9b65-0a0c-4b32-a7f0-4cb3d2cfcbb1",
+    "page_no": 9,
+    "slide_title": "Go-to-Market & Key Risks",
+    "type": "deck"
+   },
+   "c:rybkg62": {
+    "bbox": [
+     0.065,
+     0.05546,
+     0.88125,
+     0.77286
+    ],
+    "chunk_id": "28614ebb-b279-5858-bb97-09db86d8d0dc",
+    "document_id": "1a6f9b65-0a0c-4b32-a7f0-4cb3d2cfcbb1",
+    "page_no": 6,
+    "slide_title": "Traction (as of Sep 2026)",
+    "type": "deck"
+   },
+   "c:w7qjvqv": {
+    "bbox": [
+     0.06563,
+     0.05125,
+     0.93875,
+     0.7007
+    ],
+    "chunk_id": "49852a2c-05ea-5df0-a8b6-f70ec0320781",
+    "document_id": "1a6f9b65-0a0c-4b32-a7f0-4cb3d2cfcbb1",
+    "page_no": 8,
+    "slide_title": "Competitive Landscape",
+    "type": "deck"
+   },
+   "c:xe3ut4x": {
+    "bbox": [
+     0.06438,
+     0.05391,
+     0.93625,
+     0.47459
+    ],
+    "chunk_id": "65d3c1d8-84ef-5c2a-aa8f-78251950d942",
+    "document_id": "1a6f9b65-0a0c-4b32-a7f0-4cb3d2cfcbb1",
+    "page_no": 10,
+    "slide_title": "Team",
+    "type": "deck"
+   },
+   "w:3": {
+    "title": "Best Job Portals in India 2026: Which One Should You Choose?",
+    "type": "web",
+    "url": "https://blogs.workindia.in/best-job-portals-in-india/"
+   },
+   "w:4": {
+    "title": "Indian Blue Collar Platform Landscape Report | PDF | Workforce ... - Scribd",
+    "type": "web",
+    "url": "https://www.scribd.com/document/1004653474/Indian-Blue-Collar-Platform-Landscape-Report"
+   },
+   "w:5": {
+    "title": "Top 10 Staffing Companies in India - Careerfit",
+    "type": "web",
+    "url": "https://careerfit.ai/blog/top-10-staffing-companies-in-india"
+   },
+   "w:6": {
+    "title": "India Vocational Training Market Size, Share & Employer Perception ...",
+    "type": "web",
+    "url": "https://www.kenresearch.com/industry-reports/india-vocational-training-market"
+   },
+   "w:7": {
+    "title": "India Vocational Training Market Nears USD 2.79B - pdfhost.io",
+    "type": "web",
+    "url": "https://pdfhost.io/v/qjWDh52hsK_India_Vocational_Training_Market_Nears_USD_2_79B___Ken_Research_Tracks_an_Employer_Alignment_Gap"
+   },
+   "w:8": {
+    "title": "India Vocational Training Market Size & Trends Report 2034",
+    "type": "web",
+    "url": "https://www.imarcgroup.com/india-vocational-training-market"
+   }
+  },
+  "citations_removed": 2,
+  "compliance_flags": [],
+  "data_gaps": [
+   "TAM: no usable source excerpt with value, unit and period.",
+   "SAM: no independent source found; the deck claims 240 INR crore (p.4).",
+   "SOM: no independent source found; the deck claims 9 INR crore (p.4).",
+   "Market trend unavailable: no sourced annual observations or publisher forecasts. No years were interpolated.",
+   "Revenue chart unavailable: no dated revenue or ARR figures with supporting evidence. No growth assumptions were applied."
+  ],
+  "evidence_version": 2,
+  "generated_at": "2026-10-26T19:40:54.895408Z",
+  "input_hash": "1aaa46d58e469f066fd071b2eefc84d347f661a62b05cd149ec3a0cab8084026",
+  "invalid_citations": [
+   "c:w7qjqnv",
+   "c:w7qjqnv"
+  ],
+  "market_sizing": {
+   "basis": "Only figures traceable to retrieved search excerpts are plotted as market data.",
+   "cagr_pct": 10.55,
+   "claims": {
+    "sam_usd_b": {
+     "check": {
+      "status": "unverified"
+     },
+     "citation": {
+      "bbox": [
+       0.06438,
+       0.05722,
+       0.93188,
+       0.4375
+      ],
+      "chunk_id": "4e2eb1c1-fe0d-5631-8302-954cddb1a5d3",
+      "cid": "c:5drwuan",
+      "document_id": "1a6f9b65-0a0c-4b32-a7f0-4cb3d2cfcbb1",
+      "page_no": 4
+     },
+     "currency": "INR",
+     "geography": "Tamil Nadu, Karnataka, Maharashtra",
+     "kind": "company_estimate",
+     "low_confidence": false,
+     "market": "Manufacturing clusters in Tamil Nadu, Karnataka and Maharashtra",
+     "normalised": 2.4,
+     "period": "",
+     "quote": "SAM \u2014 Manufacturing clusters in Tamil Nadu, Karnataka and Maharashtra: Rs 240 crore in 2025 (company estimate)",
+     "retrieved_at": null,
+     "source_title": "ShikshaGrid_Pitch_Deck.pdf, p.4",
+     "source_url": null,
+     "unit": "INR crore",
+     "value": 240.0,
+     "year": 2025
+    },
+    "som_usd_b": {
+     "check": {
+      "status": "unverified"
+     },
+     "citation": {
+      "bbox": [
+       0.06438,
+       0.05722,
+       0.93188,
+       0.4375
+      ],
+      "chunk_id": "4e2eb1c1-fe0d-5631-8302-954cddb1a5d3",
+      "cid": "c:5drwuan",
+      "document_id": "1a6f9b65-0a0c-4b32-a7f0-4cb3d2cfcbb1",
+      "page_no": 4
+     },
+     "currency": "INR",
+     "geography": "Tamil Nadu, Karnataka, Maharashtra",
+     "kind": "company_forecast",
+     "low_confidence": false,
+     "market": "3-year obtainable share of SAM",
+     "normalised": 0.09,
+     "period": "",
+     "quote": "SOM \u2014 3-year obtainable share of SAM: Rs 9 crore in 2029 (company projection)",
+     "retrieved_at": null,
+     "source_title": "ShikshaGrid_Pitch_Deck.pdf, p.4",
+     "source_url": null,
+     "unit": "INR crore",
+     "value": 9.0,
+     "year": 2029
+    }
+   },
+   "evidence": {
+    "cagr_pct": {
+     "citation": null,
+     "geography": "India",
+     "kind": "source_forecast",
+     "low_confidence": false,
+     "market": "India Vocational Training Market",
+     "period": "2025-2032",
+     "quote": "The India Vocational Training Market worth USD 1,380 million in 2025 is growing at a CAGR of 10.55% to reach USD 2,785 million by 2032.",
+     "retrieved_at": "2026-10-26T19:40:32.293180Z",
+     "source_title": "India Vocational Training Market Size, Share & Employer Perception ...",
+     "source_url": "https://www.kenresearch.com/industry-reports/india-vocational-training-market",
+     "unit": "%",
+     "value": 10.55,
+     "year": null
+    }
+   },
+   "sam_usd_b": null,
+   "som_usd_b": null,
+   "tam_usd_b": null,
+   "trend": []
+  },
+  "model": "azure/deepSeek-V4-Flash",
+  "overall_score": 5.0,
+  "projected_revenue": [],
+  "recommendation_label": "Hold",
+  "report_markdown": "## 1. Executive Summary\n\nShikshaGrid is a pre-seed edtech startup that runs employer-designed short modules inside Industrial Training Institutes (ITIs) in Tamil Nadu and places graduates with manufacturers, who pay Rs 8,000 per hire [c:4y35wey][c:5drwuan]. It has trained 410 students, placed 132 with 23 employers, and generated Rs 0.15 crore in trailing 12-month revenue as of September 2026 [c:rybkg62]. The company is raising Rs 1.5 crore at a Rs 9 crore pre-money valuation [c:4y35wey]. The product is functional and has early paying customers, but the business model shows a long payback period (CAC Rs 40,000 vs. revenue per hire Rs 8,000) and the market opportunity figures are company-reported and unverified [c:5drwuan][c:jlpfdi3]. The team has relevant domain experience but lacks a track record of scaling a similar venture [c:xe3ut4x]. Overall, the startup scores 5.0/10, leading to a Hold recommendation.\n\n## 2. Problem & Solution\n\nThe deck identifies a clear problem: ITI graduates struggle to find good jobs while manufacturers cannot hire job-ready technicians because curricula lag shop-floor technology such as CNC, PLC, and EV servicing, and there is no effective connection between the two sides [c:2scyj2c]. The company estimates that fresh ITI graduates need 3\u20136 months of on-the-job training before becoming productive, and many leave their trade within a year due to poor job matching [c:2scyj2c]. ShikshaGrid\u2019s solution is to run 6\u20138 week modules co-designed with hiring manufacturers, taught in Tamil and English by ITI instructors trained by the startup, ending with a guaranteed interview [c:czabiu5]. Employers pay only when they hire, at Rs 8,000 per placement [c:5drwuan]. This model directly addresses the stated problem, but the solution is early-stage and its differentiation relies on execution rather than proprietary technology.\n\n## 3. Market Opportunity\n\nShikshaGrid reports a TAM of Rs 1,900 crore, a SAM of Rs 240 crore, and a SOM of Rs 9 crore by 2029, all company estimates without independent source backing [c:5drwuan]. The broader India vocational training market was worth USD 1,380 million in 2025 and is forecast to grow at a CAGR of 10.55% to USD 2,785 million by 2032 [w:6][w:7]. Another publisher estimates the market at USD 1,349.8 million in 2025 with a CAGR of 4.51% to 2034 [w:8]. The blue-collar workforce platform landscape is vast, with over 450 million informal workers in India [w:4]. However, the startup\u2019s own TAM/SAM/SOM figures are unverified and the SOM projection is narrow, covering only three states. The market is sizable and growing, but the company\u2019s specific addressable segment is unvalidated by third-party data.\n\n## 4. Competitive Landscape\n\nThe deck positions ShikshaGrid against Apna (jobs marketplace for blue- and grey-collar workers), staffing and apprenticeship agencies (placement for a fee, little training), and government skilling portals (free courses and job listings at national scale). The startup claims its edge lies in employer-designed curricula and hiring commitments that ITIs cannot get alone, plus placement outcome data by trade and employer. However, these advantages are execution-based and easily replicated by competitors like Apna or staffing agencies, which have larger networks and more resources [w:3][w:4][w:5]. No evidence of intellectual property, proprietary data, or switching costs is provided. The competitive moat is rated 4.0/10, reflecting low defensibility.\n\n## 5. Business Model\n\nRevenue comes from two streams: an employer placement fee of Rs 8,000 per hire (70% of revenue) and an ITI programme licence fee of Rs 75,000 per year (30% of revenue) [c:5drwuan]. Gross margin is 58% after trainer and assessment costs [c:5drwuan]. Customer acquisition cost is Rs 40,000 per hiring employer, and the placement rate is 32% (132 of 410 trained students) [c:jlpfdi3]. The unit economics show a significant imbalance: CAC of Rs 40,000 versus revenue per hire of Rs 8,000 implies a long payback period, and the model relies on repeat placements from the same employer to recover CAC. The licence fee from ITIs is small and may stay limited due to small ITI budgets [c:pnq46fx]. The business model scores 4.7/10, reflecting unproven unit economics at scale.\n\n## 6. Team Assessment\n\nThe founding team consists of Meenakshi Sundaram (CEO, 9 years as HR head at an auto-components maker), Prakash Natarajan (Programmes, 12 years as ITI instructor in fitter and electrician trades), and Farhan Ali (CTO, full-stack engineer who built a jobs app for blue-collar workers) [c:xe3ut4x]. The team covers key operational domains (HR, ITI instruction, technology) and has relevant industry experience. However, none of the founders has a track record of building or scaling a similar venture before. The team scores 6.0/10, indicating adequate coverage but limited entrepreneurial experience.\n\n## 7. Traction & Milestones\n\nShikshaGrid has achieved early, verifiable traction in a narrow geography. As of September 2026 (company-reported, unverified), it has trained 410 students and placed 132 with 23 employers across 6 partner ITIs in Coimbatore and Tiruppur, Tamil Nadu [c:rybkg62]. Trailing 12-month revenue reached Rs 0.15 crore, up from Rs 0.03 crore in the prior year (5x growth), though absolute numbers remain very small [c:rybkg62]. The average starting salary for placed graduates is Rs 14,500 per month [c:rybkg62]. The company has set a target of 20 partner ITIs and 600 placements per year within 18 months [c:pnq46fx]. No cohort retention or repeat-placement data is provided, and the revenue chart shows only two annual data points, limiting the ability to assess growth trajectory.\n\n## 8. Compliance & Governance\n\nThe company is registered as SHIKSHAGRID PRIVATE LIMITED (CIN U85499TN2025PTC173925) with the Ministry of Corporate Affairs and has an ACTIVE status [c:4y35wey]. Directors listed are Meenakshi Sundaram, Prakash Natarajan, and Farhan Ali [c:4y35wey]. No compliance flags were identified in the registry or in the provided documents. The pitch deck does not contain any instructions to the evaluator. The company is at pre-seed stage and has not disclosed any regulatory filings beyond incorporation.\n\n## 9. Risks & Challenges\n\nThe deck openly acknowledges several key risks: placement revenue is lumpy and tied to manufacturing hiring cycles, operations are limited to one state (Tamil Nadu), ITI budgets are small so licence revenue may stay small, and revenue is very early at Rs 0.15 crore [c:pnq46fx]. Unit economics show a CAC of Rs 40,000 per hiring employer versus revenue per hire of Rs 8,000, implying a long payback period of at least 5 hires per employer to recover CAC, assuming no churn [c:76vg6iq][c:jlpfdi3]. The placement rate of 32% (132 of 410 trained) is modest and may not improve without scaling employer commitments [c:jlpfdi3]. The TAM of Rs 1,900 crore, SAM of Rs 240 crore, and SOM of Rs 9 crore are all company estimates without independent source backing [c:5drwuan]. The vocational training market is sizable (USD 1,380 million in 2025, growing at 10.55% CAGR [w:6][w:7]), but ShikshaGrid's SOM projection of Rs 9 crore by 2029 is narrow and unverified. Competitors like Apna, staffing agencies, and government skilling portals have greater scale and resources [c:w7qjvqv]. The deck's target of 20 ITIs and 600 placements within 18 months is ambitious given current 6 ITIs and 132 placements, and the tranche-based funding structure (50% at close, 50% at milestone) adds execution pressure [c:hpdzyaf].\n\n## 10. Investment Thesis\n\nShikshaGrid addresses a genuine pain point: ITI graduates lack job-ready skills and manufacturers struggle to find trained technicians [c:2scyj2c]. The employer-designed module model and pay-per-hire pricing align incentives and could create a defensible niche if scaled [c:czabiu5][c:76vg6iq]. The founding team has relevant domain experience (HR head, ITI instructor, full-stack engineer) covering key operational and technical roles [c:xe3ut4x]. However, the business model faces fundamental unit economics challenges: a CAC of Rs 40,000 versus Rs 8,000 per hire revenue means the company must retain each employer for at least 5 hires to break even on acquisition, and no retention data is provided [c:76vg6iq][c:jlpfdi3]. The market is competitive, with well-funded platforms like Apna and traditional staffing agencies offering similar services [c:w7qjvqv]. The company is pre-revenue at scale, with only Rs 0.15 crore trailing revenue and no evidence of repeat business or employer stickiness [c:rybkg62]. The Rs 1.5 crore raise at Rs 9 crore pre-money values the company at 60x trailing revenue, which is high for a pre-seed stage with limited differentiation. The investment thesis hinges on the ability to scale ITI partnerships and employer commitments faster than competitors can replicate the model, which is unproven.\n\n## 11. Recommendation\n\n**Hold (5.0/10)**. ShikshaGrid has a clear problem-solution fit and early traction in a niche market, but the unit economics, competitive landscape, and valuation present significant risks. The CAC-to-revenue ratio is unfavorable, the market is crowded, and the company has not demonstrated repeatable scaling beyond 6 ITIs. The team is experienced but lacks a track record of building a similar venture. The hold rating reflects the potential of the employer-designed module concept offset by the high execution risk and unproven business model at scale. Investors should wait for evidence of improved unit economics (e.g., lower CAC, higher placement rates, employer retention) and expansion beyond Tamil Nadu before committing.",
+  "revenue_currency": null,
+  "revenue_metric": null,
+  "rewrites": 0,
+  "rubric_version": "r1",
+  "score_rationales": {
+   "business_model": "Pricing is defined (Rs 8,000 per hire, Rs 75,000 licence fee) with a 58% gross margin, but unit economics are unproven at scale (CAC Rs 40,000 vs. revenue per hire Rs 8,000 implies a long payback period) [c:76vg6iq][c:jlpfdi3].",
+   "execution_risk": "Risks are typical for pre-seed (lumpy placement revenue, single-state operations, small ITI budgets) and are openly acknowledged, but no critical regulatory or legal red flags are present [c:pnq46fx].",
+   "market": "The TAM of Rs 1,900 crore and SAM of Rs 240 crore are company estimates without independent source backing, and the SOM projection is narrow, though the vocational training market is sizable and growing [c:5drwuan][w:6][w:7].",
+   "moat": "Execution advantages include employer-designed curricula and placement data, but these are easily replicated by competitors like Apna or staffing agencies; no evidence of IP or switching costs [c:w7qjvqv].",
+   "product": "ShikshaGrid has a working product with 410 students trained and 132 placed, generating revenue from employers per hire, but it is early-stage with limited differentiation beyond the employer-designed module concept [c:czabiu5][c:rybkg62].",
+   "team": "The founding team has relevant domain experience (HR head, ITI instructor, full-stack engineer) and covers key roles, but lacks a track record of building or scaling a similar venture before [c:xe3ut4x].",
+   "traction": "ShikshaGrid has early paying customers with Rs 0.15 crore trailing 12-month revenue, 132 placements, and 23 employers [c:rybkg62]. Revenue grew from Rs 0.03 crore to Rs 0.15 crore year-over-year (5x), but absolute numbers are small and retention data is absent, so it qualifies as early traction without strong growth evidence."
+  },
+  "score_spread": {
+   "business_model": 1.0,
+   "execution_risk": 1.0,
+   "market": 0.0,
+   "moat": 1.0,
+   "product": 2.0,
+   "team": 1.0,
+   "traction": 1.0
+  },
+  "sections": {
+   "business_model": "Revenue comes from two streams: an employer placement fee of Rs 8,000 per hire (70% of revenue) and an ITI programme licence fee of Rs 75,000 per year (30% of revenue) [c:5drwuan]. Gross margin is 58% after trainer and assessment costs [c:5drwuan]. Customer acquisition cost is Rs 40,000 per hiring employer, and the placement rate is 32% (132 of 410 trained students) [c:jlpfdi3]. The unit economics show a significant imbalance: CAC of Rs 40,000 versus revenue per hire of Rs 8,000 implies a long payback period, and the model relies on repeat placements from the same employer to recover CAC. The licence fee from ITIs is small and may stay limited due to small ITI budgets [c:pnq46fx]. The business model scores 4.7/10, reflecting unproven unit economics at scale.",
+   "competitive_landscape": "The deck positions ShikshaGrid against Apna (jobs marketplace for blue- and grey-collar workers), staffing and apprenticeship agencies (placement for a fee, little training), and government skilling portals (free courses and job listings at national scale). The startup claims its edge lies in employer-designed curricula and hiring commitments that ITIs cannot get alone, plus placement outcome data by trade and employer. However, these advantages are execution-based and easily replicated by competitors like Apna or staffing agencies, which have larger networks and more resources [w:3][w:4][w:5]. No evidence of intellectual property, proprietary data, or switching costs is provided. The competitive moat is rated 4.0/10, reflecting low defensibility.",
+   "compliance_governance": "The company is registered as SHIKSHAGRID PRIVATE LIMITED (CIN U85499TN2025PTC173925) with the Ministry of Corporate Affairs and has an ACTIVE status [c:4y35wey]. Directors listed are Meenakshi Sundaram, Prakash Natarajan, and Farhan Ali [c:4y35wey]. No compliance flags were identified in the registry or in the provided documents. The pitch deck does not contain any instructions to the evaluator. The company is at pre-seed stage and has not disclosed any regulatory filings beyond incorporation.",
+   "executive_summary": "ShikshaGrid is a pre-seed edtech startup that runs employer-designed short modules inside Industrial Training Institutes (ITIs) in Tamil Nadu and places graduates with manufacturers, who pay Rs 8,000 per hire [c:4y35wey][c:5drwuan]. It has trained 410 students, placed 132 with 23 employers, and generated Rs 0.15 crore in trailing 12-month revenue as of September 2026 [c:rybkg62]. The company is raising Rs 1.5 crore at a Rs 9 crore pre-money valuation [c:4y35wey]. The product is functional and has early paying customers, but the business model shows a long payback period (CAC Rs 40,000 vs. revenue per hire Rs 8,000) and the market opportunity figures are company-reported and unverified [c:5drwuan][c:jlpfdi3]. The team has relevant domain experience but lacks a track record of scaling a similar venture [c:xe3ut4x]. Overall, the startup scores 5.0/10, leading to a Hold recommendation.",
+   "investment_thesis": "ShikshaGrid addresses a genuine pain point: ITI graduates lack job-ready skills and manufacturers struggle to find trained technicians [c:2scyj2c]. The employer-designed module model and pay-per-hire pricing align incentives and could create a defensible niche if scaled [c:czabiu5][c:76vg6iq]. The founding team has relevant domain experience (HR head, ITI instructor, full-stack engineer) covering key operational and technical roles [c:xe3ut4x]. However, the business model faces fundamental unit economics challenges: a CAC of Rs 40,000 versus Rs 8,000 per hire revenue means the company must retain each employer for at least 5 hires to break even on acquisition, and no retention data is provided [c:76vg6iq][c:jlpfdi3]. The market is competitive, with well-funded platforms like Apna and traditional staffing agencies offering similar services [c:w7qjvqv]. The company is pre-revenue at scale, with only Rs 0.15 crore trailing revenue and no evidence of repeat business or employer stickiness [c:rybkg62]. The Rs 1.5 crore raise at Rs 9 crore pre-money values the company at 60x trailing revenue, which is high for a pre-seed stage with limited differentiation. The investment thesis hinges on the ability to scale ITI partnerships and employer commitments faster than competitors can replicate the model, which is unproven.",
+   "market_opportunity": "ShikshaGrid reports a TAM of Rs 1,900 crore, a SAM of Rs 240 crore, and a SOM of Rs 9 crore by 2029, all company estimates without independent source backing [c:5drwuan]. The broader India vocational training market was worth USD 1,380 million in 2025 and is forecast to grow at a CAGR of 10.55% to USD 2,785 million by 2032 [w:6][w:7]. Another publisher estimates the market at USD 1,349.8 million in 2025 with a CAGR of 4.51% to 2034 [w:8]. The blue-collar workforce platform landscape is vast, with over 450 million informal workers in India [w:4]. However, the startup\u2019s own TAM/SAM/SOM figures are unverified and the SOM projection is narrow, covering only three states. The market is sizable and growing, but the company\u2019s specific addressable segment is unvalidated by third-party data.",
+   "problem_solution": "The deck identifies a clear problem: ITI graduates struggle to find good jobs while manufacturers cannot hire job-ready technicians because curricula lag shop-floor technology such as CNC, PLC, and EV servicing, and there is no effective connection between the two sides [c:2scyj2c]. The company estimates that fresh ITI graduates need 3\u20136 months of on-the-job training before becoming productive, and many leave their trade within a year due to poor job matching [c:2scyj2c]. ShikshaGrid\u2019s solution is to run 6\u20138 week modules co-designed with hiring manufacturers, taught in Tamil and English by ITI instructors trained by the startup, ending with a guaranteed interview [c:czabiu5]. Employers pay only when they hire, at Rs 8,000 per placement [c:5drwuan]. This model directly addresses the stated problem, but the solution is early-stage and its differentiation relies on execution rather than proprietary technology.",
+   "recommendation": "**Hold (5.0/10)**. ShikshaGrid has a clear problem-solution fit and early traction in a niche market, but the unit economics, competitive landscape, and valuation present significant risks. The CAC-to-revenue ratio is unfavorable, the market is crowded, and the company has not demonstrated repeatable scaling beyond 6 ITIs. The team is experienced but lacks a track record of building a similar venture. The hold rating reflects the potential of the employer-designed module concept offset by the high execution risk and unproven business model at scale. Investors should wait for evidence of improved unit economics (e.g., lower CAC, higher placement rates, employer retention) and expansion beyond Tamil Nadu before committing.",
+   "risks_challenges": "The deck openly acknowledges several key risks: placement revenue is lumpy and tied to manufacturing hiring cycles, operations are limited to one state (Tamil Nadu), ITI budgets are small so licence revenue may stay small, and revenue is very early at Rs 0.15 crore [c:pnq46fx]. Unit economics show a CAC of Rs 40,000 per hiring employer versus revenue per hire of Rs 8,000, implying a long payback period of at least 5 hires per employer to recover CAC, assuming no churn [c:76vg6iq][c:jlpfdi3]. The placement rate of 32% (132 of 410 trained) is modest and may not improve without scaling employer commitments [c:jlpfdi3]. The TAM of Rs 1,900 crore, SAM of Rs 240 crore, and SOM of Rs 9 crore are all company estimates without independent source backing [c:5drwuan]. The vocational training market is sizable (USD 1,380 million in 2025, growing at 10.55% CAGR [w:6][w:7]), but ShikshaGrid's SOM projection of Rs 9 crore by 2029 is narrow and unverified. Competitors like Apna, staffing agencies, and government skilling portals have greater scale and resources [c:w7qjvqv]. The deck's target of 20 ITIs and 600 placements within 18 months is ambitious given current 6 ITIs and 132 placements, and the tranche-based funding structure (50% at close, 50% at milestone) adds execution pressure [c:hpdzyaf].",
+   "team_assessment": "The founding team consists of Meenakshi Sundaram (CEO, 9 years as HR head at an auto-components maker), Prakash Natarajan (Programmes, 12 years as ITI instructor in fitter and electrician trades), and Farhan Ali (CTO, full-stack engineer who built a jobs app for blue-collar workers) [c:xe3ut4x]. The team covers key operational domains (HR, ITI instruction, technology) and has relevant industry experience. However, none of the founders has a track record of building or scaling a similar venture before. The team scores 6.0/10, indicating adequate coverage but limited entrepreneurial experience.",
+   "traction_milestones": "ShikshaGrid has achieved early, verifiable traction in a narrow geography. As of September 2026 (company-reported, unverified), it has trained 410 students and placed 132 with 23 employers across 6 partner ITIs in Coimbatore and Tiruppur, Tamil Nadu [c:rybkg62]. Trailing 12-month revenue reached Rs 0.15 crore, up from Rs 0.03 crore in the prior year (5x growth), though absolute numbers remain very small [c:rybkg62]. The average starting salary for placed graduates is Rs 14,500 per month [c:rybkg62]. The company has set a target of 20 partner ITIs and 600 placements per year within 18 months [c:pnq46fx]. No cohort retention or repeat-placement data is provided, and the revenue chart shows only two annual data points, limiting the ability to assess growth trajectory."
+  },
+  "sources": [
+   {
+    "query": "blue collar job placement marketplace India competitors Apna staffing agencies 2025 2026",
+    "retrieved_at": "2026-10-26T19:40:31.918764Z",
+    "snippet": "Discover why JobsUPI is the best end-to-end blue and grey collar job platform in India. Compare top 10 frontline workforce hiring portals for 2026.",
+    "title": "10 Best Blue & Grey Collar Job Hiring Platforms in India (2026 ...",
+    "url": "https://www.jobsupi.com/blogs/best-blue-collar-job-hiring-platforms-india"
+   },
+   {
+    "query": "blue collar job placement marketplace India competitors Apna staffing agencies 2025 2026",
+    "retrieved_at": "2026-10-26T19:40:31.918764Z",
+    "snippet": "Guide to blue collar recruitment agencies and staffing firms in India for 2026. Discover verified agencies, staffing models, fee regulations, and how to avoid hiring scams.",
+    "title": "Blue Collar Recruitment Agencies in India (2026): Top Staffing Firms ...",
+    "url": "https://alphareach.tech/blog/blue-collar-recruitment-agencies/"
+   },
+   {
+    "query": "blue collar job placement marketplace India competitors Apna staffing agencies 2025 2026",
+    "retrieved_at": "2026-10-26T19:40:31.918764Z",
+    "snippet": "Best Job Portals in India for gray/blue-collar & frontline jobs: Compare WorkIndia, Apna, Job Hai, Indeed, and Vahan on coverage, applying & limitations.",
+    "title": "Best Job Portals in India 2026: Which One Should You Choose?",
+    "url": "https://blogs.workindia.in/best-job-portals-in-india/"
+   },
+   {
+    "query": "blue collar job placement marketplace India competitors Apna staffing agencies 2025 2026",
+    "retrieved_at": "2026-10-26T19:40:31.918764Z",
+    "snippet": "India's blue-collar and grey-collar workforce platform landscape is vast, with over 450 million informal workers and significant demand for digital employment solutions. While platforms like Apna and WorkIndia dominate the market, there are opportunities for innovation in areas such as verified worker identity and financial inclusion. However, challenges include high competition, thin margins ...",
+    "title": "Indian Blue Collar Platform Landscape Report | PDF | Workforce ... - Scribd",
+    "url": "https://www.scribd.com/document/1004653474/Indian-Blue-Collar-Platform-Landscape-Report"
+   },
+   {
+    "query": "blue collar job placement marketplace India competitors Apna staffing agencies 2025 2026",
+    "retrieved_at": "2026-10-26T19:40:31.918764Z",
+    "snippet": "The top 10 staffing companies in India for 2026, from bulk blue-collar deployment to fast, white-collar hiring for growing businesses.",
+    "title": "Top 10 Staffing Companies in India - Careerfit",
+    "url": "https://careerfit.ai/blog/top-10-staffing-companies-in-india"
+   },
+   {
+    "query": "India ITI vocational training market size 2025 2026 CAGR employer-funded skilling",
+    "retrieved_at": "2026-10-26T19:40:32.293180Z",
+    "snippet": "The India Vocational Training Market worth USD 1,380 million in 2025 is growing at a CAGR of 10.55% to reach USD 2,785 million by 2032. NIIT Limited, Centum Learning Limited, LabourNet Services India, Tata STRIVE and Orion Edutech are the major companies operating in this market.",
+    "title": "India Vocational Training Market Size, Share & Employer Perception ...",
+    "url": "https://www.kenresearch.com/industry-reports/india-vocational-training-market"
+   },
+   {
+    "query": "India ITI vocational training market size 2025 2026 CAGR employer-funded skilling",
+    "retrieved_at": "2026-10-26T19:40:32.293180Z",
+    "snippet": "The India Vocational Training Market is forecast to reach USD 2,785 million by 2032 , representing a 10.55% CAGR from 2025 to 2032 Growth is supported by apprenticeship expansion , infrastructure modernization , employer participation , and increasing demand for practical skills Value growth is expected to exceed simple learner - volume growth ...",
+    "title": "India Vocational Training Market Nears USD 2.79B - pdfhost.io",
+    "url": "https://pdfhost.io/v/qjWDh52hsK_India_Vocational_Training_Market_Nears_USD_2_79B___Ken_Research_Tracks_an_Employer_Alignment_Gap"
+   },
+   {
+    "query": "India ITI vocational training market size 2025 2026 CAGR employer-funded skilling",
+    "retrieved_at": "2026-10-26T19:40:32.293180Z",
+    "snippet": "India vocational training market size reached USD 1,349.8 Million in 2025 and expected to hit USD 2,037.8 Million with a CAGR of 4.51% during 2026-2034.",
+    "title": "India Vocational Training Market Size & Trends Report 2034",
+    "url": "https://www.imarcgroup.com/india-vocational-training-market"
+   },
+   {
+    "query": "India ITI vocational training market size 2025 2026 CAGR employer-funded skilling",
+    "retrieved_at": "2026-10-26T19:40:32.293180Z",
+    "snippet": "The India Career Skilling Market worth USD 12,400 million in 2025 is growing at a CAGR of 12.40% to reach USD 28,105 million by 2032. upGrad, Emeritus, Great Learning, Simplilearn and NIIT Limited are the major companies operating in this market.",
+    "title": "India Career Skilling Market Share, Companies & Trends Report 2025-2032",
+    "url": "https://www.kenresearch.com/industry-reports/india-career-skilling-market"
+   },
+   {
+    "query": "India ITI vocational training market size 2025 2026 CAGR employer-funded skilling",
+    "retrieved_at": "2026-10-26T19:40:32.293180Z",
+    "snippet": "The India IT training market size valued at USD 2.8 Billion in 2025 and is projected to reach USD 5.4 Billion with a CAGR of 7.02% during 2026-2034.",
+    "title": "India IT Training Market Size, Share and Forecast 2034",
+    "url": "https://www.imarcgroup.com/india-it-training-market"
+   },
+   {
+    "query": "edtech vocational training investment India pre-seed funding 2025 2026 regulation NSQF",
+    "retrieved_at": "2026-10-26T19:40:33.524639Z",
+    "snippet": "India, July 23 -- Sortmyprep, a vertical AI education platform built for school exam preparation, has raised approximately $350,000 in a pre-seed funding round led by a group of prominent Indian and ...",
+    "title": "Edtech startup sortmyprep raises $350,000 in pre-seed funding",
+    "url": "https://www.msn.com/en-in/money/startup/edtech-startup-sortmyprep-raises-350-000-in-pre-seed-funding/ar-AA28v2bJ?ocid=BingNewsVerp"
+   },
+   {
+    "query": "Tamil Nadu manufacturing employment ITI graduates placement statistics 2025 2026",
+    "retrieved_at": "2026-10-26T19:40:34.871309Z",
+    "snippet": "Tamil Nadu Graduate Employment Analysis An independent analysis of graduate employment, hiring market signals, and skill gaps across Tamil Nadu \u2014 based on publicly available government and industry data for students, institutions, employers, and policymakers.",
+    "title": "Tamil Nadu Graduate Employment Analysis | Ascendra\u2122",
+    "url": "https://ascendrainstitute.in/report.html"
+   },
+   {
+    "query": "Tamil Nadu manufacturing employment ITI graduates placement statistics 2025 2026",
+    "retrieved_at": "2026-10-26T19:40:34.871309Z",
+    "snippet": "The Tamil Nadu Graduate Employment Analysis is a research report published by AscendraTM Institute &amp; Placement Services for the benefit of students, colleges, and employers. It brings together government data, national job surveys, and industry hiring information to give a clear picture of graduate job opportunities across Tamil Nadu&#x27;s 38 districts. AscendraTM has not created any numbers on ...",
+    "title": "PDF Tamil Nadu Graduate Employment Analysis 2026 \u2014 AscendraTM",
+    "url": "https://ascendrainstitute.in/reports/Ascendra-Tamil-Nadu-Graduate-Employment-Analysis-2026.pdf"
+   },
+   {
+    "query": "Tamil Nadu manufacturing employment ITI graduates placement statistics 2025 2026",
+    "retrieved_at": "2026-10-26T19:40:34.871309Z",
+    "snippet": "Find out which ITI trades have the highest demand in Tamil Nadu in 2026. Real data on hiring rates, salaries, and which companies actively recruit each trade.",
+    "title": "ITI Certificate Jobs in Tamil Nadu - Which Trades Get Hired Fastest (2026)",
+    "url": "https://jobstamizhan.com/blog/iti-certificate-jobs-tamil-nadu-trades-hired-fastest-2026"
+   },
+   {
+    "query": "Tamil Nadu manufacturing employment ITI graduates placement statistics 2025 2026",
+    "retrieved_at": "2026-10-26T19:40:34.871309Z",
+    "snippet": "Classes for the 2026-27 academic year at government Industrial Training Institutes (ITIs) across Tamil Nadu commenced on Friday, with Labour Welfare and Skill Development Minister Mohamed Parvez inaugurating the new academic year at the Government ITI in Guindy.",
+    "title": "&#x27;95% of TN government ITI trainees secure jobs&#x27;",
+    "url": "https://newstodaynet.com/2026/08/15/95-of-tn-government-iti-trainees-secure-jobs/"
+   },
+   {
+    "query": "Tamil Nadu manufacturing employment ITI graduates placement statistics 2025 2026",
+    "retrieved_at": "2026-10-26T19:40:34.871309Z",
+    "snippet": "Access employment statistics and training information provided by the Department of Employment and Training, Tamil Nadu.",
+    "title": "Department of Employment and Training - tnvelaivaaippu.gov.in",
+    "url": "https://www.tnvelaivaaippu.gov.in/statistics.html"
+   }
+  ]
+ },
+ "input_hash": "1aaa46d58e469f066fd071b2eefc84d347f661a62b05cd149ec3a0cab8084026"
+}

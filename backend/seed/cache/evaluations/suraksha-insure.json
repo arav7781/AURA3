@@ -1,0 +1,575 @@
+{
+ "analysis": {
+  "category_scores": {
+   "business_model": 6.3,
+   "execution_risk": 4.7,
+   "market": 6.0,
+   "moat": 4.3,
+   "product": 6.0,
+   "team": 6.0,
+   "traction": 6.0
+  },
+  "citations": {
+   "c:7tsm7ho": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.93045,
+     0.60663
+    ],
+    "chunk_id": "c4745d9e-2315-5f1d-b6bf-01f23639551a",
+    "document_id": "e31ae108-b10e-426c-a3de-9c7c42d1c50c",
+    "page_no": 11,
+    "slide_title": "The Ask",
+    "type": "deck"
+   },
+   "c:l6ootyo": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.87429,
+     0.73959
+    ],
+    "chunk_id": "0b7513f5-0021-5f61-ab66-8b14b50ecfb9",
+    "document_id": "e31ae108-b10e-426c-a3de-9c7c42d1c50c",
+    "page_no": 6,
+    "slide_title": "Traction (as of Sep 2026)",
+    "type": "deck"
+   },
+   "c:m7d4rmm": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.82635,
+     0.50907
+    ],
+    "chunk_id": "b76f73f0-abbe-5270-a220-f3488e8f3570",
+    "document_id": "e31ae108-b10e-426c-a3de-9c7c42d1c50c",
+    "page_no": 1,
+    "slide_title": "Suraksha Insure",
+    "type": "deck"
+   },
+   "c:mplrale": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.62938,
+     0.63853
+    ],
+    "chunk_id": "44d1baea-f997-55fa-8966-fa95467c6710",
+    "document_id": "e31ae108-b10e-426c-a3de-9c7c42d1c50c",
+    "page_no": 7,
+    "slide_title": "Unit Economics",
+    "type": "deck"
+   },
+   "c:my76nk3": {
+    "bbox": [
+     0.06091,
+     0.0554,
+     0.94532,
+     0.58969
+    ],
+    "chunk_id": "dffe978c-b234-527c-ad9c-2e0e78c35eb1",
+    "document_id": "e31ae108-b10e-426c-a3de-9c7c42d1c50c",
+    "page_no": 8,
+    "slide_title": "Competitive Landscape",
+    "type": "deck"
+   },
+   "c:puhraxs": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.89529,
+     0.63853
+    ],
+    "chunk_id": "1f4a4fba-ce0e-5ef6-bb64-6e7a628b1e4e",
+    "document_id": "e31ae108-b10e-426c-a3de-9c7c42d1c50c",
+    "page_no": 9,
+    "slide_title": "Go-to-Market & Key Risks",
+    "type": "deck"
+   },
+   "c:rhmhi32": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.92734,
+     0.63306
+    ],
+    "chunk_id": "344f0723-c6c8-567c-9af1-ab727f7edabb",
+    "document_id": "e31ae108-b10e-426c-a3de-9c7c42d1c50c",
+    "page_no": 2,
+    "slide_title": "Problem",
+    "type": "deck"
+   },
+   "c:trv2gbo": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.91405,
+     0.4682
+    ],
+    "chunk_id": "c5227913-764c-51d5-87a1-0c3d3d6d3b10",
+    "document_id": "e31ae108-b10e-426c-a3de-9c7c42d1c50c",
+    "page_no": 4,
+    "slide_title": "Market Opportunity (TAM / SAM / SOM)",
+    "type": "deck"
+   },
+   "c:tunz3lq": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.89401,
+     0.55436
+    ],
+    "chunk_id": "7f9f7ac6-8549-5ec2-b35a-045a440c9a27",
+    "document_id": "e31ae108-b10e-426c-a3de-9c7c42d1c50c",
+    "page_no": 3,
+    "slide_title": "Solution",
+    "type": "deck"
+   },
+   "c:v3gsbn6": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.86523,
+     0.48415
+    ],
+    "chunk_id": "aea093f5-cee8-53b8-98b1-83272539336e",
+    "document_id": "e31ae108-b10e-426c-a3de-9c7c42d1c50c",
+    "page_no": 5,
+    "slide_title": "Business Model",
+    "type": "deck"
+   },
+   "c:zf4kbmf": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.93043,
+     0.42291
+    ],
+    "chunk_id": "b50a3c5d-9b87-5b17-9bb0-d7334f2716c0",
+    "document_id": "e31ae108-b10e-426c-a3de-9c7c42d1c50c",
+    "page_no": 10,
+    "slide_title": "Team",
+    "type": "deck"
+   },
+   "w:1": {
+    "title": "India Microinsurance Market Size, Share and Growth, 2034",
+    "type": "web",
+    "url": "https://www.imarcgroup.com/india-microinsurance-market"
+   },
+   "w:2": {
+    "title": "India Microinsurance Market Size | Share Report 2035",
+    "type": "web",
+    "url": "https://www.marketresearchfuture.com/reports/india-microinsurance-market-60179"
+   },
+   "w:23": {
+    "title": "List of 717 InsurTech Startups in India &amp; Market Trends (Aug 2026 ...",
+    "type": "web",
+    "url": "https://tracxn.com/d/explore/insurtech-startups-in-india/__7DUvpjRYg2icfFp-L5Leb_sycZzG0DczrfKIHBGJFpI"
+   },
+   "w:3": {
+    "title": "India's economic and insurance market outlook 2026\u20122030",
+    "type": "web",
+    "url": "https://www.swissre.com/institute/research/topics-and-risk-dialogues/economy-and-insurance-outlook/india-economic-insurance-market-growth-resilience.html"
+   },
+   "w:6": {
+    "title": "ACKO Investor Report 2026 \u2014 $1.4B Valuation &amp; Digital Insurance Model | VFS",
+    "type": "web",
+    "url": "https://valueforstartups.in/acko"
+   },
+   "w:8": {
+    "title": "General Atlantic Crosses 25% in Acko: | BimaNiti",
+    "type": "web",
+    "url": "https://bimaniti.in/post/general-atlantic-crosses-25-percent-acko-tech-insurtech-comeback"
+   }
+  },
+  "citations_removed": 5,
+  "compliance_flags": [
+   "NAME_MISMATCH"
+  ],
+  "data_gaps": [
+   "TAM: no independent source found; the deck claims 1900 INR crore (p.4).",
+   "SAM: no independent source found; the deck claims 420 INR crore (p.4).",
+   "SOM: no independent source found; the deck claims 25 INR crore (p.4).",
+   "Market trend unavailable: no sourced annual observations or publisher forecasts. No years were interpolated."
+  ],
+  "evidence_version": 2,
+  "generated_at": "2026-10-27T06:45:46.728209Z",
+  "input_hash": "bd2aac33547105b2aa5aa850594fbf3aec89daa233ace853fe37b6fc6f8cb31a",
+  "invalid_citations": [
+   "w:11-w:19",
+   "w:11\u2013w:19",
+   "w:11\u2013w:19",
+   "w:11\u2013w:19",
+   "w:11-w:19"
+  ],
+  "market_sizing": {
+   "basis": "Only figures traceable to retrieved search excerpts are plotted as market data.",
+   "cagr_pct": 14.44,
+   "claims": {
+    "sam_usd_b": {
+     "check": {
+      "status": "unverified"
+     },
+     "citation": {
+      "bbox": [
+       0.0677,
+       0.0554,
+       0.91405,
+       0.4682
+      ],
+      "chunk_id": "c5227913-764c-51d5-87a1-0c3d3d6d3b10",
+      "cid": "c:trv2gbo",
+      "document_id": "e31ae108-b10e-426c-a3de-9c7c42d1c50c",
+      "page_no": 4
+     },
+     "currency": "INR",
+     "geography": "India",
+     "kind": "company_estimate",
+     "low_confidence": false,
+     "market": "Delivery and ride-hailing workers on large platforms",
+     "normalised": 4.2,
+     "period": "",
+     "quote": "SAM \u2014 Delivery and ride-hailing workers on large platforms: Rs 420 crore in 2025 (company estimate)",
+     "retrieved_at": null,
+     "source_title": "Suraksha_Insure_Pitch_Deck.pdf, p.4",
+     "source_url": null,
+     "unit": "INR crore",
+     "value": 420.0,
+     "year": 2025
+    },
+    "som_usd_b": {
+     "check": {
+      "status": "unverified"
+     },
+     "citation": {
+      "bbox": [
+       0.0677,
+       0.0554,
+       0.91405,
+       0.4682
+      ],
+      "chunk_id": "c5227913-764c-51d5-87a1-0c3d3d6d3b10",
+      "cid": "c:trv2gbo",
+      "document_id": "e31ae108-b10e-426c-a3de-9c7c42d1c50c",
+      "page_no": 4
+     },
+     "currency": "INR",
+     "geography": "India",
+     "kind": "company_forecast",
+     "low_confidence": false,
+     "market": "3-year obtainable share of SAM (gross written premium)",
+     "normalised": 0.25,
+     "period": "",
+     "quote": "SOM \u2014 3-year obtainable share of SAM (gross written premium): Rs 25 crore in 2029 (company projection)",
+     "retrieved_at": null,
+     "source_title": "Suraksha_Insure_Pitch_Deck.pdf, p.4",
+     "source_url": null,
+     "unit": "INR crore",
+     "value": 25.0,
+     "year": 2029
+    },
+    "tam_usd_b": {
+     "check": {
+      "status": "unverified"
+     },
+     "citation": {
+      "bbox": [
+       0.0677,
+       0.0554,
+       0.91405,
+       0.4682
+      ],
+      "chunk_id": "c5227913-764c-51d5-87a1-0c3d3d6d3b10",
+      "cid": "c:trv2gbo",
+      "document_id": "e31ae108-b10e-426c-a3de-9c7c42d1c50c",
+      "page_no": 4
+     },
+     "currency": "INR",
+     "geography": "India",
+     "kind": "company_estimate",
+     "low_confidence": false,
+     "market": "Annual micro-insurance premium potential from India's gig and platform workers",
+     "normalised": 19.0,
+     "period": "",
+     "quote": "TAM \u2014 Annual micro-insurance premium potential from India's gig and platform workers: Rs 1,900 crore in 2025 (company estimate)",
+     "retrieved_at": null,
+     "source_title": "Suraksha_Insure_Pitch_Deck.pdf, p.4",
+     "source_url": null,
+     "unit": "INR crore",
+     "value": 1900.0,
+     "year": 2025
+    }
+   },
+   "evidence": {
+    "cagr_pct": {
+     "citation": null,
+     "geography": "India",
+     "kind": "source_forecast",
+     "low_confidence": false,
+     "market": "India microinsurance market",
+     "period": "2026-2034",
+     "quote": "CAGR of 14.44% (2026-2034)",
+     "retrieved_at": "2026-10-27T06:45:02.959959Z",
+     "source_title": "India Microinsurance Market Size, Share and Growth, 2034",
+     "source_url": "https://www.imarcgroup.com/india-microinsurance-market",
+     "unit": "%",
+     "value": 14.44,
+     "year": null
+    }
+   },
+   "sam_usd_b": null,
+   "som_usd_b": null,
+   "tam_usd_b": null,
+   "trend": []
+  },
+  "model": "azure/deepSeek-V4-Flash",
+  "overall_score": 5.7,
+  "projected_revenue": [
+   {
+    "citation": {
+     "bbox": [
+      0.0677,
+      0.0554,
+      0.87429,
+      0.73959
+     ],
+     "chunk_id": "0b7513f5-0021-5f61-ab66-8b14b50ecfb9",
+     "cid": "c:l6ootyo",
+     "document_id": "e31ae108-b10e-426c-a3de-9c7c42d1c50c",
+     "page_no": 6
+    },
+    "geography": "India",
+    "kind": "company_reported",
+    "low_confidence": false,
+    "market": "Suraksha Insure ARR",
+    "metric": "ARR",
+    "period": "",
+    "quote": "ARR: Rs 1 crore in 2026",
+    "retrieved_at": null,
+    "revenue": 10.0,
+    "source_title": "Suraksha_Insure_Pitch_Deck.pdf, p.6",
+    "source_url": null,
+    "unit": "INR crore",
+    "value": 1.0,
+    "year": 2026
+   }
+  ],
+  "recommendation_label": "Hold",
+  "report_markdown": "## 1. Executive Summary\n\nSuraksha Insure embeds per-shift accident and income cover into gig platforms, covering 52,000 active workers through 6 partners as of Sep 2026 [c:l6ootyo]. Annualised gross written premium is Rs 4.6 crore, with ARR of Rs 1.0 crore (up from Rs 0.2 crore in 2025) [c:l6ootyo]. The company is raising Rs 5 crore seed at Rs 28 crore pre-money, with funds allocated to platform integrations (30%), claims technology (25%), and partnerships/sales (30%) [c:7tsm7ho]. Key risks include regulatory changes to IRDAI commission caps [c:puhraxs], high monthly churn of 9.5% [c:mplrale], and partner concentration (largest partner 41% of insured) [c:puhraxs]. The MCA registry shows a name mismatch: the legal name is RAKSHA DIGITAL SERVICES PRIVATE LIMITED, not Suraksha Insure Private Limited [compliance_fixture]. Overall score 5.7/10, Hold.\n\n## 2. Problem & Solution\n\nIndia had an estimated 7.7 million gig workers in 2020-21, projected to reach 23.5 million by 2029-30 (NITI Aayog) [c:rhmhi32]. Most delivery and ride-hailing workers lack accident or income-loss cover because annual policies are unaffordable upfront and not designed for shift-based work [c:rhmhi32]. Suraksha Insure's solution is pay-per-shift cover embedded in the platform's app: accident, hospital-cash and lost-income cover for Rs 2-4 per shift, switching on when a worker logs in and off when the shift ends [c:tunz3lq]. Premium is deducted from earnings or co-paid by the platform, and claims can be filed in Hindi, Marathi, Tamil or English with a median settlement time of 3.5 days [c:tunz3lq]. The product is live with 52,000 active insured workers and 1,380 claims paid [c:l6ootyo].\n\n## 3. Market Opportunity\n\nThe company estimates a TAM of Rs 1,900 crore, SAM of Rs 420 crore, and SOM of Rs 25 crore by 2029 (all company-reported, unverified) [c:trv2gbo]. The underlying gig-worker population is backed by NITI Aayog data: 7.7 million in 2020-21, projected 23.5 million by 2029-30 [c:rhmhi32]. The India microinsurance market reached USD 495.5 million in 2025 and is projected to reach USD 1,728.4 million by 2034, CAGR 14.44% (IMARC Group, publisher forecast) [w:1]. Another report projects the market reaching USD 9,387.5 million by 2035 at 6.2% CAGR (Market Research Future, publisher forecast) [w:2]. The insurance sector is set for steady expansion, with India positioned as one of the world's fastest-growing insurance markets (Swiss Re) [w:3]. No independent source was found for the deck's TAM/SAM/SOM figures.\n\n## 4. Competitive Landscape\n\nCompetitors include Acko (digital general insurer with embedded micro-covers, valued at $1.4B, Rs 2,106 crore FY24 revenue) [c:my76nk3][w:6], Go Digit (digital general insurer selling through partners) [c:my76nk3], and platform-provided group covers [c:my76nk3]. The company claims its edge is per-shift pricing and claims data across 52,000 workers, plus deep integrations into partner platforms' onboarding and payout flows [c:my76nk3]. However, these are execution advantages rather than durable moats; competitors like Acko and Go Digit can replicate the model [c:my76nk3]. There is no evidence of proprietary data, IP, or strong switching costs. The insurtech sector in India has 717 startups (Tracxn) [w:23], and sector funding crashed 83% in H1 2026 [w:8], indicating a challenging fundraising environment.\n\n## 5. Business Model\n\nRevenue comes from two sources: distribution commission (~19% of the Rs 2-4 per-shift premium, paid by the insurer) which accounts for 90% of revenue, and a platform integration fee of Rs 14,000 per month per partner (10% of revenue) [c:v3gsbn6]. Insurers carry the underwriting risk; Suraksha earns commissions and fees [c:v3gsbn6]. Unit economics are defined: CAC of Rs 45, payback of 4.5 months, gross margin 70%, LTV of Rs 106, LTV/CAC of 2.4x, and monthly churn of 9.5% (all company-reported) [c:mplrale]. The claims ratio is 54% of premium [c:mplrale]. Net revenue retention is not provided, and the high monthly churn (9.5%) means the model is not yet proven at scale. The seed round is structured in tranches with milestones: 40% at close, 30% at 150,000 insured workers within 300 days, and 30% at Rs 3 crore ARR within 600 days [c:7tsm7ho].\n\n## 6. Team Assessment\n\nThe three co-founders cover product, actuarial/insurance, and technology roles. Aniket Sawant (CEO) was a product manager for driver and rider safety at a ride-hailing platform [c:zf4kbmf]. Revathi Krishnan (Insurance & Actuarial) has 7 years as an actuarial analyst at a general insurer [c:zf4kbmf]. Nikhil Joshi (CTO) built claims-automation systems at an insurtech [c:zf4kbmf]. None have previously founded or scaled a venture, and domain experience is moderate rather than exceptional. The MCA registry shows the legal name as RAKSHA DIGITAL SERVICES PRIVATE LIMITED, not Suraksha Insure Private Limited, with directors matching the founders [compliance_fixture]. This name mismatch is a minor compliance flag that should be resolved before investment.\n\n## 7. Traction & Milestones\n\n**Traction & Milestones**\n\n- **Active insured workers:** 52,000 through 6 platform partners as of Sep 2026 [c:l6ootyo].\n- **Annualised gross written premium:** Rs 4.6 crore (company-reported) [c:l6ootyo].\n- **ARR:** Rs 1.0 crore in 2026, up from Rs 0.2 crore in 2025 \u2014 a 5x increase (company-reported) [c:l6ootyo].\n- **Claims paid:** 1,380 claims settled with a median settlement time of 3.5 days [c:l6ootyo].\n- **Unit economics (company-reported):** CAC Rs 45, payback 4.5 months, gross margin 70%, LTV/CAC 2.4x, monthly churn 9.5% [c:mplrale].\n- **Target:** 200,000 active insured workers within 24 months [c:puhraxs].\n\n## 8. Compliance & Governance\n\n**Compliance & Governance**\n\n- **MCA registry:** The company is registered as **RAKSHA DIGITAL SERVICES PRIVATE LIMITED** (CIN U66220MH2024PTC429871, status ACTIVE) [c:m7d4rmm]. The pitch deck uses the name **Suraksha Insure Private Limited** [c:m7d4rmm]. This **NAME_MISMATCH** is a compliance flag; the legal entity name does not match the brand name used in fundraising materials. The directors listed (Aniket Sawant, Revathi Krishnan, Nikhil Joshi) are consistent [c:m7d4rmm].\n- **Regulatory risk:** The deck explicitly acknowledges that IRDAI rules on commissions and embedded insurance may change [c:puhraxs]. Multiple independent sources confirm IRDAI is proposing commission caps that could take effect as early as January 2027. This directly threatens Suraksha\u2019s primary revenue stream (distribution commission, ~90% of revenue) [c:v3gsbn6].\n- **No other flags** were identified in the provided evidence.\n\n## 9. Risks & Challenges\n\n**Risks & Challenges**\n\n- **Regulatory risk (high):** IRDAI\u2019s proposed commission caps, potentially effective Jan 2027, could compress Suraksha\u2019s ~19% commission margin [c:v3gsbn6]. The deck flags this risk [c:puhraxs].\n- **Partner concentration:** The largest platform partner accounts for 41% of insured workers [c:puhraxs]. Loss of this partner would severely impact scale.\n- **High churn:** Monthly churn of 9.5% implies an average worker lifetime of ~10.5 months [c:mplrale]. This limits LTV and requires constant new acquisition to maintain headcount.\n- **Claims fraud:** Per-shift micro-covers are vulnerable to fraud, as noted in the deck [c:puhraxs].\n- **Execution pressure:** The seed round is structured in tranches with milestones (150,000 workers, Rs 3 crore ARR) [c:7tsm7ho]. Missing these could trigger down-round or funding gap.\n- **Competitive replication:** Incumbents like Acko and Go Digit can replicate per-shift pricing and integrations [c:my76nk3], limiting moat.\n- **Deck instruction attempt:** The startup\u2019s documents contain no instructions to the evaluator.\n\n## 10. Investment Thesis\n\n**Investment Thesis**\n\nSuraksha Insure addresses a genuine, large, and underserved market: India\u2019s 7.7M+ gig workers (projected 23.5M by 2029-30) who lack shift-appropriate insurance [c:rhmhi32]. The product is live with 52,000 paying workers, 6 platform partners, and a clear per-shift value proposition (Rs 2-4/shift, median 3.5-day claims settlement) [c:tunz3lq][c:l6ootyo]. The India microinsurance market is independently forecast to grow at 14.44% CAGR to USD 1.7B by 2034 [w:1].\n\nHowever, the investment case is tempered by several factors. The company\u2019s moat is weak \u2014 per-shift pricing and deep integrations are execution advantages, not durable barriers, and well-funded incumbents (Acko, Go Digit) can replicate them [c:my76nk3]. Unit economics are positive but fragile: LTV/CAC of 2.4x is modest, and monthly churn of 9.5% means high ongoing acquisition costs [c:mplrale]. The regulatory overhang from IRDAI commission caps (potentially Jan 2027) directly threatens the 90% of revenue from commissions [c:v3gsbn6]. The team has relevant domain experience but no prior venture-building track record [c:zf4kbmf]. The MCA name mismatch is a minor governance concern [c:m7d4rmm].\n\nAt a Rs 28 crore pre-money valuation, the company is raising Rs 5 crore seed with milestone-based tranches [c:7tsm7ho]. The valuation is reasonable for a seed-stage insurtech with early traction, but the risk profile (regulatory, churn, concentration, weak moat) suggests a cautious approach.\n\n## 11. Recommendation\n\n**Recommendation: Hold (5.7/10)**\n\nSuraksha Insure has a compelling product-market fit for a large, growing gig-worker segment, with early traction (52,000 workers, 5x ARR growth to Rs 1 crore) and positive unit economics. However, the investment is held back by high regulatory risk (IRDAI commission caps), high monthly churn (9.5%), partner concentration (41% from one partner), and a weak moat against well-capitalised incumbents. The team is competent but unproven at scale. The MCA name mismatch is a minor compliance flag. The milestone-based seed round adds discipline but also execution risk. A Hold rating is appropriate until the company demonstrates retention improvements, regulatory adaptability, and reduced partner concentration.",
+  "revenue_currency": "INR",
+  "revenue_metric": "ARR",
+  "rewrites": 2,
+  "rubric_version": "r1",
+  "score_rationales": {
+   "business_model": "Unit economics are defined: CAC of Rs 45, payback of 4.5 months, gross margin 70%, LTV/CAC 2.4x [c:mplrale]. These are positive on early data, but net revenue retention is not provided and churn is high at 9.5% monthly [c:mplrale], so the model is not yet proven at scale.",
+   "execution_risk": "Key risks are identified and partially mitigated: regulatory risk from IRDAI commission caps (explicitly noted), partner concentration (largest partner 41% of insured), high monthly churn (9.5%), and claims fraud. The seed round is structured in tranches with milestones, which adds some discipline but also execution pressure. The MCA name mismatch is a minor compliance flag. [c:puhraxs][c:7tsm7ho]",
+   "market": "The TAM/SAM/SOM are sized by company estimates only, but the underlying gig-worker population is backed by NITI Aayog data (7.7M in 2020-21, projected 23.5M by 2029-30). The microinsurance market is supported by independent reports showing a large and growing market. [c:rhmhi32][c:trv2gbo][w:1]",
+   "moat": "The company cites deep integrations and per-shift pricing as edges [c:my76nk3], which are execution advantages rather than durable moats. Competitors like Acko and Go Digit can replicate the model [c:my76nk3], and there is no evidence of proprietary data, IP, or strong switching costs.",
+   "product": "The product is live and used by 52,000 paying workers through 6 platform partners, with a clear per-shift value proposition and fast claims settlement (median 3.5 days). However, evidence of retention or expansion beyond initial adoption is limited, and differentiation versus incumbents (Acko, Digit) is not deeply proven. [c:tunz3lq][c:l6ootyo][c:my76nk3]",
+   "team": "The three co-founders cover product, actuarial/insurance, and technology roles with relevant experience (product manager at ride-hailing, actuarial analyst at general insurer, insurtech CTO). However, none have previously founded or scaled a venture, and domain experience is moderate rather than exceptional. [c:m7d4rmm][c:zf4kbmf]",
+   "traction": "The startup has 52,000 active insured workers, 6 platform partners, Rs 1.0 crore ARR, and 1,380 claims paid. ARR grew from Rs 0.2 crore (2025) to Rs 1.0 crore (2026), a 5x increase, but this is early-stage growth from a small base and lacks retention evidence beyond churn figures. [c:l6ootyo]"
+  },
+  "score_spread": {
+   "business_model": 1.0,
+   "execution_risk": 1.0,
+   "market": 0.0,
+   "moat": 1.0,
+   "product": 0.0,
+   "team": 1.0,
+   "traction": 0.0
+  },
+  "sections": {
+   "business_model": "Revenue comes from two sources: distribution commission (~19% of the Rs 2-4 per-shift premium, paid by the insurer) which accounts for 90% of revenue, and a platform integration fee of Rs 14,000 per month per partner (10% of revenue) [c:v3gsbn6]. Insurers carry the underwriting risk; Suraksha earns commissions and fees [c:v3gsbn6]. Unit economics are defined: CAC of Rs 45, payback of 4.5 months, gross margin 70%, LTV of Rs 106, LTV/CAC of 2.4x, and monthly churn of 9.5% (all company-reported) [c:mplrale]. The claims ratio is 54% of premium [c:mplrale]. Net revenue retention is not provided, and the high monthly churn (9.5%) means the model is not yet proven at scale. The seed round is structured in tranches with milestones: 40% at close, 30% at 150,000 insured workers within 300 days, and 30% at Rs 3 crore ARR within 600 days [c:7tsm7ho].",
+   "competitive_landscape": "Competitors include Acko (digital general insurer with embedded micro-covers, valued at $1.4B, Rs 2,106 crore FY24 revenue) [c:my76nk3][w:6], Go Digit (digital general insurer selling through partners) [c:my76nk3], and platform-provided group covers [c:my76nk3]. The company claims its edge is per-shift pricing and claims data across 52,000 workers, plus deep integrations into partner platforms' onboarding and payout flows [c:my76nk3]. However, these are execution advantages rather than durable moats; competitors like Acko and Go Digit can replicate the model [c:my76nk3]. There is no evidence of proprietary data, IP, or strong switching costs. The insurtech sector in India has 717 startups (Tracxn) [w:23], and sector funding crashed 83% in H1 2026 [w:8], indicating a challenging fundraising environment.",
+   "compliance_governance": "**Compliance & Governance**\n\n- **MCA registry:** The company is registered as **RAKSHA DIGITAL SERVICES PRIVATE LIMITED** (CIN U66220MH2024PTC429871, status ACTIVE) [c:m7d4rmm]. The pitch deck uses the name **Suraksha Insure Private Limited** [c:m7d4rmm]. This **NAME_MISMATCH** is a compliance flag; the legal entity name does not match the brand name used in fundraising materials. The directors listed (Aniket Sawant, Revathi Krishnan, Nikhil Joshi) are consistent [c:m7d4rmm].\n- **Regulatory risk:** The deck explicitly acknowledges that IRDAI rules on commissions and embedded insurance may change [c:puhraxs]. Multiple independent sources confirm IRDAI is proposing commission caps that could take effect as early as January 2027. This directly threatens Suraksha\u2019s primary revenue stream (distribution commission, ~90% of revenue) [c:v3gsbn6].\n- **No other flags** were identified in the provided evidence.",
+   "executive_summary": "Suraksha Insure embeds per-shift accident and income cover into gig platforms, covering 52,000 active workers through 6 partners as of Sep 2026 [c:l6ootyo]. Annualised gross written premium is Rs 4.6 crore, with ARR of Rs 1.0 crore (up from Rs 0.2 crore in 2025) [c:l6ootyo]. The company is raising Rs 5 crore seed at Rs 28 crore pre-money, with funds allocated to platform integrations (30%), claims technology (25%), and partnerships/sales (30%) [c:7tsm7ho]. Key risks include regulatory changes to IRDAI commission caps [c:puhraxs], high monthly churn of 9.5% [c:mplrale], and partner concentration (largest partner 41% of insured) [c:puhraxs]. The MCA registry shows a name mismatch: the legal name is RAKSHA DIGITAL SERVICES PRIVATE LIMITED, not Suraksha Insure Private Limited [compliance_fixture]. Overall score 5.7/10, Hold.",
+   "investment_thesis": "**Investment Thesis**\n\nSuraksha Insure addresses a genuine, large, and underserved market: India\u2019s 7.7M+ gig workers (projected 23.5M by 2029-30) who lack shift-appropriate insurance [c:rhmhi32]. The product is live with 52,000 paying workers, 6 platform partners, and a clear per-shift value proposition (Rs 2-4/shift, median 3.5-day claims settlement) [c:tunz3lq][c:l6ootyo]. The India microinsurance market is independently forecast to grow at 14.44% CAGR to USD 1.7B by 2034 [w:1].\n\nHowever, the investment case is tempered by several factors. The company\u2019s moat is weak \u2014 per-shift pricing and deep integrations are execution advantages, not durable barriers, and well-funded incumbents (Acko, Go Digit) can replicate them [c:my76nk3]. Unit economics are positive but fragile: LTV/CAC of 2.4x is modest, and monthly churn of 9.5% means high ongoing acquisition costs [c:mplrale]. The regulatory overhang from IRDAI commission caps (potentially Jan 2027) directly threatens the 90% of revenue from commissions [c:v3gsbn6]. The team has relevant domain experience but no prior venture-building track record [c:zf4kbmf]. The MCA name mismatch is a minor governance concern [c:m7d4rmm].\n\nAt a Rs 28 crore pre-money valuation, the company is raising Rs 5 crore seed with milestone-based tranches [c:7tsm7ho]. The valuation is reasonable for a seed-stage insurtech with early traction, but the risk profile (regulatory, churn, concentration, weak moat) suggests a cautious approach.",
+   "market_opportunity": "The company estimates a TAM of Rs 1,900 crore, SAM of Rs 420 crore, and SOM of Rs 25 crore by 2029 (all company-reported, unverified) [c:trv2gbo]. The underlying gig-worker population is backed by NITI Aayog data: 7.7 million in 2020-21, projected 23.5 million by 2029-30 [c:rhmhi32]. The India microinsurance market reached USD 495.5 million in 2025 and is projected to reach USD 1,728.4 million by 2034, CAGR 14.44% (IMARC Group, publisher forecast) [w:1]. Another report projects the market reaching USD 9,387.5 million by 2035 at 6.2% CAGR (Market Research Future, publisher forecast) [w:2]. The insurance sector is set for steady expansion, with India positioned as one of the world's fastest-growing insurance markets (Swiss Re) [w:3]. No independent source was found for the deck's TAM/SAM/SOM figures.",
+   "problem_solution": "India had an estimated 7.7 million gig workers in 2020-21, projected to reach 23.5 million by 2029-30 (NITI Aayog) [c:rhmhi32]. Most delivery and ride-hailing workers lack accident or income-loss cover because annual policies are unaffordable upfront and not designed for shift-based work [c:rhmhi32]. Suraksha Insure's solution is pay-per-shift cover embedded in the platform's app: accident, hospital-cash and lost-income cover for Rs 2-4 per shift, switching on when a worker logs in and off when the shift ends [c:tunz3lq]. Premium is deducted from earnings or co-paid by the platform, and claims can be filed in Hindi, Marathi, Tamil or English with a median settlement time of 3.5 days [c:tunz3lq]. The product is live with 52,000 active insured workers and 1,380 claims paid [c:l6ootyo].",
+   "recommendation": "**Recommendation: Hold (5.7/10)**\n\nSuraksha Insure has a compelling product-market fit for a large, growing gig-worker segment, with early traction (52,000 workers, 5x ARR growth to Rs 1 crore) and positive unit economics. However, the investment is held back by high regulatory risk (IRDAI commission caps), high monthly churn (9.5%), partner concentration (41% from one partner), and a weak moat against well-capitalised incumbents. The team is competent but unproven at scale. The MCA name mismatch is a minor compliance flag. The milestone-based seed round adds discipline but also execution risk. A Hold rating is appropriate until the company demonstrates retention improvements, regulatory adaptability, and reduced partner concentration.",
+   "risks_challenges": "**Risks & Challenges**\n\n- **Regulatory risk (high):** IRDAI\u2019s proposed commission caps, potentially effective Jan 2027, could compress Suraksha\u2019s ~19% commission margin [c:v3gsbn6]. The deck flags this risk [c:puhraxs].\n- **Partner concentration:** The largest platform partner accounts for 41% of insured workers [c:puhraxs]. Loss of this partner would severely impact scale.\n- **High churn:** Monthly churn of 9.5% implies an average worker lifetime of ~10.5 months [c:mplrale]. This limits LTV and requires constant new acquisition to maintain headcount.\n- **Claims fraud:** Per-shift micro-covers are vulnerable to fraud, as noted in the deck [c:puhraxs].\n- **Execution pressure:** The seed round is structured in tranches with milestones (150,000 workers, Rs 3 crore ARR) [c:7tsm7ho]. Missing these could trigger down-round or funding gap.\n- **Competitive replication:** Incumbents like Acko and Go Digit can replicate per-shift pricing and integrations [c:my76nk3], limiting moat.\n- **Deck instruction attempt:** The startup\u2019s documents contain no instructions to the evaluator.",
+   "team_assessment": "The three co-founders cover product, actuarial/insurance, and technology roles. Aniket Sawant (CEO) was a product manager for driver and rider safety at a ride-hailing platform [c:zf4kbmf]. Revathi Krishnan (Insurance & Actuarial) has 7 years as an actuarial analyst at a general insurer [c:zf4kbmf]. Nikhil Joshi (CTO) built claims-automation systems at an insurtech [c:zf4kbmf]. None have previously founded or scaled a venture, and domain experience is moderate rather than exceptional. The MCA registry shows the legal name as RAKSHA DIGITAL SERVICES PRIVATE LIMITED, not Suraksha Insure Private Limited, with directors matching the founders [compliance_fixture]. This name mismatch is a minor compliance flag that should be resolved before investment.",
+   "traction_milestones": "**Traction & Milestones**\n\n- **Active insured workers:** 52,000 through 6 platform partners as of Sep 2026 [c:l6ootyo].\n- **Annualised gross written premium:** Rs 4.6 crore (company-reported) [c:l6ootyo].\n- **ARR:** Rs 1.0 crore in 2026, up from Rs 0.2 crore in 2025 \u2014 a 5x increase (company-reported) [c:l6ootyo].\n- **Claims paid:** 1,380 claims settled with a median settlement time of 3.5 days [c:l6ootyo].\n- **Unit economics (company-reported):** CAC Rs 45, payback 4.5 months, gross margin 70%, LTV/CAC 2.4x, monthly churn 9.5% [c:mplrale].\n- **Target:** 200,000 active insured workers within 24 months [c:puhraxs]."
+  },
+  "sources": [
+   {
+    "query": "India gig worker insurance market size 2024 2025 2026 CAGR micro-insurance",
+    "retrieved_at": "2026-10-27T06:45:02.959959Z",
+    "snippet": "The India microinsurance market reached USD 495.5 Million in 2025 and is projected to reach USD 1,728.4 Million by 2034, CAGR of 14.44% (2026-2034).",
+    "title": "India Microinsurance Market Size, Share and Growth, 2034",
+    "url": "https://www.imarcgroup.com/india-microinsurance-market"
+   },
+   {
+    "query": "India gig worker insurance market size 2024 2025 2026 CAGR micro-insurance",
+    "retrieved_at": "2026-10-27T06:45:02.959959Z",
+    "snippet": "India Microinsurance Market is projected to reach 9387.5 USD Million, at a 6.2% CAGR by driving industry size, share, top company analysis, segments research, trends and forecast report 2025 to 2035",
+    "title": "India Microinsurance Market Size | Share Report 2035",
+    "url": "https://www.marketresearchfuture.com/reports/india-microinsurance-market-60179"
+   },
+   {
+    "query": "India gig worker insurance market size 2024 2025 2026 CAGR micro-insurance",
+    "retrieved_at": "2026-10-27T06:45:02.959959Z",
+    "snippet": "Against this backdrop, India's insurance sector is set for a steady expansion through 2026 and beyond, after a muted phase in 2024-2025 when real premium growth slowed to an average of 2.5%. Long-term growth drivers remain intact, positioning India as one of the world's fastest-growing insurance markets in the medium term.",
+    "title": "India's economic and insurance market outlook 2026\u20122030",
+    "url": "https://www.swissre.com/institute/research/topics-and-risk-dialogues/economy-and-insurance-outlook/india-economic-insurance-market-growth-resilience.html"
+   },
+   {
+    "query": "India gig worker insurance market size 2024 2025 2026 CAGR micro-insurance",
+    "retrieved_at": "2026-10-27T06:45:02.959959Z",
+    "snippet": "6Wresearch actively monitors the India Micro Insurance Market and publishes its comprehensive annual report, highlighting emerging trends, growth drivers, revenue analysis, and forecast outlook. Our insights help businesses to make data-backed strategic decisions with ongoing market dynamics. Our analysts track relevent industries related to the India Micro Insurance Market, allowing our ...",
+    "title": "India Micro Insurance Market (2025-2031) | Trends & Outlook",
+    "url": "https://www.6wresearch.com/industry-report/india-micro-insurance-market"
+   },
+   {
+    "query": "India gig worker insurance market size 2024 2025 2026 CAGR micro-insurance",
+    "retrieved_at": "2026-10-27T06:45:02.959959Z",
+    "snippet": "Get key insights on India's insurance sector, including its growth, market size, types of insurance, top players and the fast-expanding insurance market.",
+    "title": "Insurance Industry in India: Market Size, Growth and Trends - IBEF",
+    "url": "https://www.ibef.org/industry/insurance-sector-india"
+   },
+   {
+    "query": "Acko Go Digit embedded insurance gig workers India insurtech funding 2025 2026",
+    "retrieved_at": "2026-10-27T06:45:04.979921Z",
+    "snippet": "Full ACKO analysis: $1.4B valuation, \u20b92,106Cr FY24 revenue, India&#x27;s digital-first D2C insurer. No agents, no paperwork insurance model. Free investor report.",
+    "title": "ACKO Investor Report 2026 \u2014 $1.4B Valuation &amp; Digital Insurance Model | VFS",
+    "url": "https://valueforstartups.in/acko"
+   },
+   {
+    "query": "Acko Go Digit embedded insurance gig workers India insurtech funding 2025 2026",
+    "retrieved_at": "2026-10-27T06:45:04.979921Z",
+    "snippet": "Acko begins IPO journey targeting $2.5B valuation as India&#x27;s insurtech sector gains momentum and investors watch digital insurance growth closely.",
+    "title": "Acko IPO Plans Signal New Wave in Indian Insurtech",
+    "url": "https://startupwired.com/2026/04/28/acko-ipo-plans-signal-new-wave-in-indian-insurtech/"
+   },
+   {
+    "query": "Acko Go Digit embedded insurance gig workers India insurtech funding 2025 2026",
+    "retrieved_at": "2026-10-27T06:45:04.979921Z",
+    "snippet": "While India&#x27;s insurtech funding story has been dominated by decline - sector funding crashed 83% in the first half of 2026 - one of the country&#x27;s earliest digital insurers just secured a fresh vote of confidence from its biggest backer. The Competition Commission of India has approved General Atlantic Singapore ACK Pte Ltd&#x27;s acquisition of additional shareholding in Acko Technology and ...",
+    "title": "General Atlantic Crosses 25% in Acko: | BimaNiti",
+    "url": "https://bimaniti.in/post/general-atlantic-crosses-25-percent-acko-tech-insurtech-comeback"
+   },
+   {
+    "query": "Acko Go Digit embedded insurance gig workers India insurtech funding 2025 2026",
+    "retrieved_at": "2026-10-27T06:45:04.979921Z",
+    "snippet": "Founded in 2016, Acko has raised $2.55 Bn+ from 22 investors. Explore funding rounds, investors and valuation on Inc42 Datalabs.",
+    "title": "Acko Funding 2026 - Total Funding, Rounds &amp; Investors",
+    "url": "https://inc42.com/company/acko/funding/"
+   },
+   {
+    "query": "Acko Go Digit embedded insurance gig workers India insurtech funding 2025 2026",
+    "retrieved_at": "2026-10-27T06:45:04.979921Z",
+    "snippet": "As of late 2025 and into 2026, ACKO operates as a late-stage private company with a reported valuation in the range of $1.4 billion to $1.5 billion, based on various industry estimates, while working toward IPO readiness. The company continues to sell motor, health, travel, and life insurance products through its app and embedded partner network.",
+    "title": "ACKO Case Study: How A Digital-First InsurTech Startup Is Reinventing ...",
+    "url": "https://foundlanes.com/acko-case-study-how-a-digital-first-insurtech-startup-is-reinventing-insurance-in-india/"
+   },
+   {
+    "query": "IRDAI regulations embedded insurance micro-insurance commission rules gig workers India 2025 2026",
+    "retrieved_at": "2026-10-27T06:45:07.044959Z",
+    "snippet": "MUMBAI, July 3 (Reuters) - India's insurance regulator is seeking to reform how distributors are paid in an effort to rein in mis-selling, and plans to propose commissions be paid out over the life ...",
+    "title": "India insurance regulator plans overhaul of commission rules to curb mis-selling, sources say",
+    "url": "https://www.reuters.com/world/india-insurance-regulator-plans-overhaul-commission-rules-curb-mis-selling-2026-07-03/"
+   },
+   {
+    "query": "IRDAI regulations embedded insurance micro-insurance commission rules gig workers India 2025 2026",
+    "retrieved_at": "2026-10-27T06:45:07.044959Z",
+    "snippet": "India\u2019s insurance regulator, the Insurance Regulatory and Development Authority of India (IRDAI), is considering major changes to the country\u2019s insurance distribution system, with implementation ...",
+    "title": "IRDAI plans major insurance reforms from 2027, commission caps put fintech stocks under pressure",
+    "url": "https://www.msn.com/en-in/news/other/irdai-plans-major-insurance-reforms-from-2027-commission-caps-put-fintech-stocks-under-pressure/ar-AA2dWvbP?ocid=BingNewsVerp"
+   },
+   {
+    "query": "IRDAI regulations embedded insurance micro-insurance commission rules gig workers India 2025 2026",
+    "retrieved_at": "2026-10-27T06:45:07.044959Z",
+    "snippet": "Buying insurance in India could become more transparent and potentially more cost-efficient if a new set of proposals from the Insurance Regulatory and Development Authority of India (IRDAI) is ...",
+    "title": "IRDAI proposes new insurance commission rules: How policyholders could benefit from lower costs",
+    "url": "https://www.msn.com/en-in/money/financial-regulation/irdai-proposes-new-insurance-commission-rules-how-policyholders-could-benefit-from-lower-costs/ar-AA2cWRKv?ocid=BingNewsVerp"
+   },
+   {
+    "query": "IRDAI regulations embedded insurance micro-insurance commission rules gig workers India 2025 2026",
+    "retrieved_at": "2026-10-27T06:45:07.044959Z",
+    "snippet": "When independent advice costs more to deliver but pays less to provide, the commercial case for broker distribution quietly disappears ...",
+    "title": "Brokers would earn less than tied agents under India\u2019s proposed commission rules",
+    "url": "https://www.insurancebusinessmag.com/asia/news/breaking-news/brokers-would-earn-less-than-tied-agents-under-indias-proposed-commission-rules-591968.aspx"
+   },
+   {
+    "query": "IRDAI micro-insurance regulations 2025 2026 embedded insurance distribution commission caps India",
+    "retrieved_at": "2026-10-27T06:45:14.337238Z",
+    "snippet": "MUMBAI: Insurance Regulatory and Development Authority of India (Irdai) introduced statutory caps on commissions and expenses of management (EoM) to put an end to commission-driven bidding wars and ...",
+    "title": "Draft caps on insurance commissions: IRDAI plans tighter limits on payouts; brokers and banks fear revenue hit",
+    "url": "https://www.msn.com/en-in/news/other/draft-caps-on-insurance-commissions-irdai-plans-tighter-limits-on-payouts-brokers-and-banks-fear-revenue-hit/ar-AA2dsDbe?ocid=BingNewsVerp"
+   },
+   {
+    "query": "IRDAI micro-insurance regulations 2025 2026 embedded insurance distribution commission caps India",
+    "retrieved_at": "2026-10-27T06:45:14.337238Z",
+    "snippet": "The Insurance Regulatory and Development Authority of India (IRDAI) may introduce its proposed insurance commission caps as early as January 2027, amid opposition from brokers over potential revenue ...",
+    "title": "IRDAI mulls introducing insurance commission caps from January 2027",
+    "url": "https://www.msn.com/en-in/money/financial-regulation/irdai-mulls-introducing-insurance-commission-caps-from-january-2027/ar-AA2dT1wa?ocid=BingNewsVerp"
+   },
+   {
+    "query": "IRDAI micro-insurance regulations 2025 2026 embedded insurance distribution commission caps India",
+    "retrieved_at": "2026-10-27T06:45:14.337238Z",
+    "snippet": "Indian insurance brokers are opposing proposed reforms by the Insurance Regulatory and Development Authority of India (IRDAI) that could cap commissions paid to banks, brokers and agents, Reuters ...",
+    "title": "IRDAI commission caps: Insurance brokers write to PM, FM \u2014 say proposed rules may not benefit policyholders",
+    "url": "https://www.msn.com/en-in/money/financial-regulation/irdai-commission-caps-insurance-brokers-write-to-pm-fm-say-proposed-rules-may-not-benefit-policyholders/ar-AA2dG16C?ocid=BingNewsVerp"
+   },
+   {
+    "query": "IRDAI micro-insurance regulations 2025 2026 embedded insurance distribution commission caps India",
+    "retrieved_at": "2026-10-27T06:45:14.337238Z",
+    "snippet": "India\u2019s insurance sector could see a major shake-up in how policies are sold as the Insurance Regulatory and Development Authority of India (IRDAI) considers introducing new distribution rules as ...",
+    "title": "IRDAI may roll out insurance commission caps from January; brokers face heat",
+    "url": "https://www.msn.com/en-in/money/financial-regulation/irdai-may-roll-out-insurance-commission-caps-from-january-brokers-face-heat/ar-AA2dSIUB?ocid=BingNewsVerp"
+   },
+   {
+    "query": "IRDAI micro-insurance regulations 2025 2026 embedded insurance distribution commission caps India",
+    "retrieved_at": "2026-10-27T06:45:14.337238Z",
+    "snippet": "India\u2019s insurance regulator, the Insurance Regulatory and Development Authority of India (IRDAI), is considering major changes to the country\u2019s insurance distribution system, with implementation ...",
+    "title": "IRDAI plans major insurance reforms from 2027, commission caps put fintech stocks under pressure",
+    "url": "https://www.msn.com/en-in/money/financial-regulation/irdai-plans-major-insurance-reforms-from-2027-commission-caps-put-fintech-stocks-under-pressure/ar-AA2dWvbP?ocid=BingNewsVerp"
+   },
+   {
+    "query": "Zomato Swiggy Uber Ola gig worker insurance cover India 2025 2026",
+    "retrieved_at": "2026-10-27T06:45:14.884812Z",
+    "snippet": "India\u2019s gig and platform workers can build a retirement corpus through the National Pension System (NPS) without being tied to a fixed minimum or maximum contribution under the NPS e-Shramik (Platform ...",
+    "title": "NPS without a fixed minimum: How Zomato, Swiggy, Ola, Uber workers can build retirement savings at their own pace",
+    "url": "https://www.msn.com/en-in/money/topstories/nps-without-a-fixed-minimum-how-zomato-swiggy-ola-uber-workers-can-build-retirement-savings-at-their-own-pace/ar-AA2afo4B?ocid=BingNewsVerp"
+   },
+   {
+    "query": "India insurtech funding 2025 2026 seed stage gig worker insurance startups",
+    "retrieved_at": "2026-10-27T06:45:15.494711Z",
+    "snippet": "The top InsurTech startups and companies in India to watch in 2026, ranked by the Seedtable Score from real funding, stage and traction data. See who&#x27;s raising and growing fastest \u2014 updated continuously.",
+    "title": "Best InsurTech Startups in India (2026) | Seedtable",
+    "url": "https://seedtable.com/best-insurtech-startups-in-india"
+   },
+   {
+    "query": "India insurtech funding 2025 2026 seed stage gig worker insurance startups",
+    "retrieved_at": "2026-10-27T06:45:15.494711Z",
+    "snippet": "Comprehensive guide to Insurtech startups in India - top companies, funding landscape, key investors, incubators, events, mentors, and growth opportunities in insurtech startups sector.",
+    "title": "Insurtech Startups in India 2026 - Ecosystem, Funding &amp; Opportunities",
+    "url": "https://www.startupsindia.in/ecosystem/insurtech"
+   },
+   {
+    "query": "India insurtech funding 2025 2026 seed stage gig worker insurance startups",
+    "retrieved_at": "2026-10-27T06:45:15.494711Z",
+    "snippet": "Access the full list of 717 InsurTech startups in India. Discover emerging companies, funding activity, key investors and M&amp;A trends.",
+    "title": "List of 717 InsurTech Startups in India &amp; Market Trends (Aug 2026 ...",
+    "url": "https://tracxn.com/d/explore/insurtech-startups-in-india/__7DUvpjRYg2icfFp-L5Leb_sycZzG0DczrfKIHBGJFpI"
+   },
+   {
+    "query": "India insurtech funding 2025 2026 seed stage gig worker insurance startups",
+    "retrieved_at": "2026-10-27T06:45:15.494711Z",
+    "snippet": "Discover the best Insurtech startups in India to watch in 2026 \u2014 funding, investors, founders, and full company profiles, ranked by Seedtable score.",
+    "title": "Best Insurtech Startups in India to Watch in 2026 | Seedtable",
+    "url": "https://seedtable.com/companies/country/india/insurtech"
+   },
+   {
+    "query": "India insurtech funding 2025 2026 seed stage gig worker insurance startups",
+    "retrieved_at": "2026-10-27T06:45:15.494711Z",
+    "snippet": "Everything you need to know about insurtech funding for Indian startups - what it is, how to raise it, top investors, eligibility, and step-by-step guide for founders in India.",
+    "title": "Insurtech Funding for Startups in India 2026 - Complete Guide ...",
+    "url": "https://www.startupsindia.in/funding/insurtech"
+   }
+  ]
+ },
+ "input_hash": "bd2aac33547105b2aa5aa850594fbf3aec89daa233ace853fe37b6fc6f8cb31a"
+}

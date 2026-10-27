@@ -1,0 +1,587 @@
+{
+ "analysis": {
+  "category_scores": {
+   "business_model": 7.0,
+   "execution_risk": 6.0,
+   "market": 7.2,
+   "moat": 5.8,
+   "product": 6.7,
+   "team": 6.8,
+   "traction": 7.8
+  },
+  "citations": {
+   "c:7nld4yh": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.88985,
+     0.55436
+    ],
+    "chunk_id": "9f63cb9f-c787-5039-a906-2c9f5251c5bc",
+    "document_id": "f167032b-3329-44e0-bbf8-9a40d39db351",
+    "page_no": 3,
+    "slide_title": "Solution",
+    "type": "deck"
+   },
+   "c:7vnffxk": {
+    "bbox": [
+     0.05451,
+     0.0554,
+     0.90707,
+     0.81959
+    ],
+    "chunk_id": "aff3a992-9cbe-5933-946e-fc7fbee80401",
+    "document_id": "f167032b-3329-44e0-bbf8-9a40d39db351",
+    "page_no": 6,
+    "slide_title": "Traction (as of FY2026)",
+    "type": "deck"
+   },
+   "c:hivedsg": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.91788,
+     0.57474
+    ],
+    "chunk_id": "3f1b35a6-891a-5ce9-ad97-847ff2cf007b",
+    "document_id": "f167032b-3329-44e0-bbf8-9a40d39db351",
+    "page_no": 10,
+    "slide_title": "Team",
+    "type": "deck"
+   },
+   "c:k3vst3c": {
+    "bbox": [
+     0.05717,
+     0.0554,
+     0.94831,
+     0.6588
+    ],
+    "chunk_id": "9e7e529e-cea8-5eb9-a26f-1adcf3fb081d",
+    "document_id": "f167032b-3329-44e0-bbf8-9a40d39db351",
+    "page_no": 8,
+    "slide_title": "Competitive Landscape",
+    "type": "deck"
+   },
+   "c:pgrqsbo": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.91917,
+     0.4682
+    ],
+    "chunk_id": "b51f7f2e-6c86-521c-89a1-dcb0cfa4f8e8",
+    "document_id": "f167032b-3329-44e0-bbf8-9a40d39db351",
+    "page_no": 4,
+    "slide_title": "Market Opportunity (TAM / SAM / SOM)",
+    "type": "deck"
+   },
+   "c:usbqy6l": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.72471,
+     0.63853
+    ],
+    "chunk_id": "56c6de2c-d517-5cf0-8192-1f3c5661e156",
+    "document_id": "f167032b-3329-44e0-bbf8-9a40d39db351",
+    "page_no": 9,
+    "slide_title": "Go-to-Market & Key Risks",
+    "type": "deck"
+   },
+   "c:wjh7nrf": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.90159,
+     0.49312
+    ],
+    "chunk_id": "7c9fd273-3237-5403-848e-466ccfdc56d3",
+    "document_id": "f167032b-3329-44e0-bbf8-9a40d39db351",
+    "page_no": 2,
+    "slide_title": "Problem",
+    "type": "deck"
+   },
+   "c:x237bcy": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.6633,
+     0.51605
+    ],
+    "chunk_id": "12c3bd95-5459-5864-aaec-3c53bd50b353",
+    "document_id": "f167032b-3329-44e0-bbf8-9a40d39db351",
+    "page_no": 7,
+    "slide_title": "Unit Economics",
+    "type": "deck"
+   },
+   "c:ywyi5ap": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.92542,
+     0.43886
+    ],
+    "chunk_id": "75ccdf78-55ac-528d-b5f1-b356ef5b7dbe",
+    "document_id": "f167032b-3329-44e0-bbf8-9a40d39db351",
+    "page_no": 5,
+    "slide_title": "Business Model",
+    "type": "deck"
+   },
+   "c:zwpvsuw": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.91154,
+     0.69722
+    ],
+    "chunk_id": "51fc0f94-6cbe-521c-874d-c233c7cfc5e1",
+    "document_id": "f167032b-3329-44e0-bbf8-9a40d39db351",
+    "page_no": 11,
+    "slide_title": "The Ask",
+    "type": "deck"
+   },
+   "w:1": {
+    "title": "India D2C E-commerce - Market Share Analysis, Industry Trends ...",
+    "type": "web",
+    "url": "https://www.researchandmarkets.com/reports/5996961/india-d2c-e-commerce-market-share-analysis"
+   },
+   "w:16": {
+    "title": "yellow.ai Funding 2026 - Total Funding, Rounds &amp; Investors",
+    "type": "web",
+    "url": "https://inc42.com/company/yellow-ai/funding/"
+   },
+   "w:17": {
+    "title": "Yellow.ai | SetterVC",
+    "type": "web",
+    "url": "https://settervc.com/company/yellow-ai"
+   },
+   "w:19": {
+    "title": "India Helpdesk Automation Market Size and Analysis, 2034",
+    "type": "web",
+    "url": "https://www.imarcgroup.com/india-helpdesk-automation-market"
+   },
+   "w:2": {
+    "title": "D2C Ecommerce in India 2026: 50+ Stats on Order Volumes, Returns ...",
+    "type": "web",
+    "url": "https://base.com/en-IN/blog/d2c-ecommerce-india-statistics-in-2026/"
+   },
+   "w:21": {
+    "title": "Customer Service Automation Market CAGR, size, share, trends, growth ...",
+    "type": "web",
+    "url": "https://www.strategymrc.com/report/customer-service-automation-market"
+   },
+   "w:9": {
+    "title": "India Conversational AI Market Size, Share, Report 2026-34",
+    "type": "web",
+    "url": "https://www.imarcgroup.com/india-conversational-ai-market"
+   }
+  },
+  "citations_removed": 0,
+  "compliance_flags": [],
+  "data_gaps": [
+   "TAM: no usable source excerpt with value, unit and period.",
+   "SAM: no usable source excerpt with value, unit and period.",
+   "CAGR: no usable source excerpt with value, unit and period.",
+   "SOM: no independent source found; the deck claims 120 INR crore (p.4).",
+   "Market trend: incompatible market scopes were omitted."
+  ],
+  "evidence_version": 2,
+  "generated_at": "2026-10-27T06:50:37.762260Z",
+  "input_hash": "6aebf19907cc80ef4517a11c466fffb9857919e9baaf07b2f221d13424460721",
+  "invalid_citations": [],
+  "market_sizing": {
+   "basis": "Only figures traceable to retrieved search excerpts are plotted as market data.",
+   "cagr_pct": null,
+   "claims": {
+    "som_usd_b": {
+     "check": {
+      "status": "unverified"
+     },
+     "citation": {
+      "bbox": [
+       0.0677,
+       0.0554,
+       0.91917,
+       0.4682
+      ],
+      "chunk_id": "b51f7f2e-6c86-521c-89a1-dcb0cfa4f8e8",
+      "cid": "c:pgrqsbo",
+      "document_id": "f167032b-3329-44e0-bbf8-9a40d39db351",
+      "page_no": 4
+     },
+     "currency": "INR",
+     "geography": "India",
+     "kind": "company_forecast",
+     "low_confidence": false,
+     "market": "3-year obtainable share of SAM",
+     "normalised": 1.2,
+     "period": "",
+     "quote": "SOM \u2014 3-year obtainable share of SAM: Rs 120 crore in 2029 (company projection)",
+     "retrieved_at": null,
+     "source_title": "OpsPilot_Pitch_Deck.pdf, p.4",
+     "source_url": null,
+     "unit": "INR crore",
+     "value": 120.0,
+     "year": 2029
+    }
+   },
+   "evidence": {},
+   "sam_usd_b": null,
+   "som_usd_b": null,
+   "tam_usd_b": null,
+   "trend": [
+    {
+     "citation": null,
+     "geography": "India",
+     "kind": "reported",
+     "low_confidence": false,
+     "market": "India D2C e-commerce market",
+     "period": "",
+     "quote": "The india d2C e-commerce market size was valued at USD 87.5 billion in 2025",
+     "retrieved_at": "2026-10-27T06:48:56.035568Z",
+     "size_usd_b": 87.5,
+     "source_title": "India D2C E-commerce - Market Share Analysis, Industry Trends ...",
+     "source_url": "https://www.researchandmarkets.com/reports/5996961/india-d2c-e-commerce-market-share-analysis",
+     "unit": "USD billion",
+     "value": 87.5,
+     "year": 2025
+    },
+    {
+     "citation": null,
+     "geography": "India",
+     "kind": "source_forecast",
+     "low_confidence": false,
+     "market": "India D2C e-commerce market",
+     "period": "",
+     "quote": "estimated to grow from USD 108.76 billion in 2026 to reach USD 322.1 billion by 2031, at a CAGR of 24.30% during the forecast period (2026-2031)",
+     "retrieved_at": "2026-10-27T06:48:56.035568Z",
+     "size_usd_b": 108.76,
+     "source_title": "India D2C E-commerce - Market Share Analysis, Industry Trends ...",
+     "source_url": "https://www.researchandmarkets.com/reports/5996961/india-d2c-e-commerce-market-share-analysis",
+     "unit": "USD billion",
+     "value": 108.76,
+     "year": 2026
+    },
+    {
+     "citation": null,
+     "geography": "India",
+     "kind": "source_forecast",
+     "low_confidence": false,
+     "market": "India D2C e-commerce market",
+     "period": "",
+     "quote": "estimated to grow from USD 108.76 billion in 2026 to reach USD 322.1 billion by 2031, at a CAGR of 24.30% during the forecast period (2026-2031)",
+     "retrieved_at": "2026-10-27T06:48:56.035568Z",
+     "size_usd_b": 322.1,
+     "source_title": "India D2C E-commerce - Market Share Analysis, Industry Trends ...",
+     "source_url": "https://www.researchandmarkets.com/reports/5996961/india-d2c-e-commerce-market-share-analysis",
+     "unit": "USD billion",
+     "value": 322.1,
+     "year": 2031
+    }
+   ]
+  },
+  "model": "azure/deepSeek-V4-Flash",
+  "overall_score": 6.9,
+  "projected_revenue": [
+   {
+    "citation": {
+     "bbox": [
+      0.05451,
+      0.0554,
+      0.90707,
+      0.81959
+     ],
+     "chunk_id": "aff3a992-9cbe-5933-946e-fc7fbee80401",
+     "cid": "c:7vnffxk",
+     "document_id": "f167032b-3329-44e0-bbf8-9a40d39db351",
+     "page_no": 6
+    },
+    "geography": "",
+    "kind": "company_reported",
+    "low_confidence": false,
+    "market": "",
+    "metric": "ARR",
+    "period": "",
+    "quote": "ARR: Rs 12.4 crore in FY2026",
+    "retrieved_at": null,
+    "revenue": 124.0,
+    "source_title": "OpsPilot_Pitch_Deck.pdf, p.6",
+    "source_url": null,
+    "unit": "INR crore",
+    "value": 12.4,
+    "year": 2026
+   }
+  ],
+  "recommendation_label": "Buy",
+  "report_markdown": "## 1. Executive Summary\n\nOpsPilot is a Series A B2B SaaS startup that deploys AI agents to resolve customer support tickets end-to-end for D2C brands, acting directly in Shopify, courier and payment systems. The company reports ARR of Rs 12.4 crore in FY2026, up 80% year-on-year, with 260 brands using the platform and 61% of tickets resolved without human intervention [c:7vnffxk]. Net revenue retention is 128% and monthly logo churn is 1.1% [c:x237bcy]. The round is for Rs 40 crore at Rs 220 crore pre-money, structured in three tranches tied to ARR and Middle East launch milestones [c:zwpvsuw]. The product shows clear early product-market fit and strong unit economics, but faces execution risks from LLM dependency, incumbent bundling, and D2C funding cycles [c:usbqy6l]. Overall score: 6.9/10, Buy.\n\n## 2. Problem & Solution\n\nD2C brands spend 3-6% of revenue on customer support (company estimate), with 60-70% of tickets being repetitive order-status, return and refund queries, and ticket volumes spiking 3-5x during sale events [c:wjh7nrf]. OpsPilot's AI agents resolve these tickets end-to-end on WhatsApp, web chat and email by taking actions in Shopify, courier aggregators and payment gateways\u2014cancelling orders, processing refunds, rescheduling deliveries\u2014while applying brand-specific policies and tone in English, Hindi and Hinglish [c:7nld4yh]. Edge cases are handed off to human agents with full context, and every conversation is QA-scored [c:7nld4yh]. The company reports that 61% of tickets are resolved without a human, demonstrating the solution's effectiveness [c:7vnffxk].\n\n## 3. Market Opportunity\n\nOpsPilot sizes its TAM at Rs 8,500 crore (company estimate) for customer-support software and AI agents serving Indian and South-East Asian e-commerce and D2C brands in 2025, with a SAM of Rs 1,700 crore (company estimate) for Indian D2C brands above Rs 10 crore annual GMV [c:pgrqsbo]. The broader India D2C e-commerce market is valued at USD 108.76 billion in 2026 and projected to reach USD 322.1 billion by 2031 at a CAGR of 24.30% [w:1][w:2]. The India conversational AI market is valued at USD 653.24 million in 2025, growing at 25.61% CAGR to 2034 [w:9], and the India helpdesk automation market is valued at USD 444.5 million in 2025, growing at 25.65% CAGR to 2034 [w:19]. The company's SOM projection of Rs 120 crore by 2029 is a company projection [c:pgrqsbo]. The TAM and SAM are self-estimated and scoped narrowly, but the underlying market tailwinds are strong and independently verified.\n\n## 4. Competitive Landscape\n\nOpsPilot competes with global helpdesk software (Zendesk, Freshworks) and enterprise conversational-AI platforms (Yellow.ai) [c:k3vst3c]. The company claims three edges: deep action integrations with the Indian commerce stack (storefronts, couriers, payments), resolution data from over 12 million conversations since 2023, and outcome-based pricing that aligns revenue with brand savings [c:k3vst3c]. Yellow.ai, a well-funded competitor, has raised over USD 356.6 million and handles 16 billion conversations annually for 650+ enterprise clients [w:16][w:17]. The company acknowledges risks from helpdesk incumbents bundling AI agents and from dependency on third-party LLM providers [c:usbqy6l]. The moat score of 5.8 reflects meaningful switching costs from integrations and data, but the space has well-funded competitors and no evidence of multiple reinforcing moats.\n\n## 5. Business Model\n\nOpsPilot uses a dual revenue model: a per-resolution fee of Rs 18 per resolved conversation (72% of revenue) and a platform subscription averaging Rs 11,000 per month (28% of revenue) [c:ywyi5ap]. Gross margin is 72% after LLM and messaging costs [c:ywyi5ap]. The company reports CAC of Rs 270,000, CAC payback of 9.4 months, NRR of 128%, and monthly churn of 1.1% [c:x237bcy]. The outcome-based pricing means brands pay only for tickets the AI resolves, aligning incentives [c:ywyi5ap]. The unit economics are strong, though the CAC payback period is above the 6-month threshold often preferred for SaaS. The company's own figures are company-reported and unverified.\n\n## 6. Team Assessment\n\nThe four co-founders bring relevant domain experience: Ananya Krishnan (CEO) spent 8 years as head of customer experience at a large D2C beauty brand; Vivek Saxena (CTO) was a staff engineer on conversational-AI products; Rhea D'Souza (Sales) scaled SMB SaaS sales teams in India and South-East Asia; Karan Malhotra (AI) built retrieval and agent systems as an ex-ML lead [c:hivedsg]. The team has no evidence of prior startup scaling or repeated successes, which is a gap. The MCA registry confirms the company is active with CIN U62099KA2022PTC163728 and the four named directors [compliance_fixture]. No compliance flags were raised. The deck does not attempt to instruct the evaluator.\n\n## 7. Traction & Milestones\n\n**Traction & Milestones**\n\n- **ARR growth:** ARR reached Rs 12.4 crore in FY2026, up 80% year-on-year from Rs 6.9 crore in FY2025 (company-reported, unverified) [c:7vnffxk]. Historical ARR: Rs 0.8 crore (FY2023), Rs 3.1 crore (FY2024), Rs 6.9 crore (FY2025), Rs 12.4 crore (FY2026) [c:7vnffxk].\n- **Customer base:** 260 D2C brands use the platform; 41 are on annual contracts above Rs 10 lakh [c:7vnffxk]. Monthly logo churn is 1.1% [c:x237bcy].\n- **Resolution performance:** 61% of tickets are resolved without human intervention; approximately 4.1 lakh conversations are resolved by AI every month [c:7vnffxk][c:x237bcy].\n- **Retention:** Net revenue retention (NRR) is 128% [c:x237bcy].\n- **Unit economics (company-reported, unverified):** Customer acquisition cost (CAC) Rs 270,000; CAC payback 9.4 months; gross margin 72% [c:x237bcy].\n- **Milestone target:** The company targets 700 brands and Rs 30 crore ARR within 24 months [c:usbqy6l].\n\n## 8. Compliance & Governance\n\n**Compliance & Governance**\n\n- **Registry status:** The MCA registry confirms CIN U62099KA2022PTC163728, status ACTIVE, registered as OPSPILOT PRIVATE LIMITED. Directors listed: Ananya Krishnan, Vivek Saxena, Rhea D'Souza, Karan Malhotra. No compliance flags were raised.\n- **Data integrity:** The deck does not attempt to instruct the evaluator or override scoring rules. All financial and operational figures are labelled as company-reported and unverified where appropriate.\n- **Governance:** The Series A round is structured in three tranches with milestone conditions (ARR of Rs 20 crore with NRR above 120% within 365 days; Middle East launch with 25 paying brands within 540 days), which aligns investor capital with execution progress [c:zwpvsuw].\n\n## 9. Risks & Challenges\n\n**Risks & Challenges**\n\n- **LLM dependency:** The product relies on third-party large language model providers for cost and quality; any price increase or degradation in model performance could directly impact gross margin and resolution quality [c:usbqy6l].\n- **Messaging-platform pricing changes:** Costs could rise if WhatsApp or other messaging channels alter their business API pricing, squeezing the per-resolution fee model [c:usbqy6l].\n- **D2C funding cycles:** The target customer base (D2C brands) is sensitive to venture capital and growth-stage funding cycles; a downturn could reduce customer budgets and slow new logo acquisition [c:usbqy6l].\n- **Incumbent bundling:** Established helpdesk platforms (Zendesk, Freshworks, Yellow.ai) are bundling AI agent capabilities, which could commoditise the offering and increase competitive pressure [c:usbqy6l].\n- **Execution risk on milestones:** The tranche structure ties 60% of capital to achieving specific ARR and geographic expansion milestones; failure to meet these within the stipulated timelines would leave the company undercapitalised [c:zwpvsuw].\n\n## 10. Investment Thesis\n\n**Investment Thesis**\n\nOpsPilot is a B2B SaaS startup providing AI agents that resolve customer support tickets end-to-end for D2C brands, with deep integrations into Shopify, courier aggregators, and payment gateways [c:7nld4yh]. The company has demonstrated strong early traction: ARR of Rs 12.4 crore (80% YoY growth), 128% NRR, 61% autonomous resolution rate, and 260 brands onboarded [c:7vnffxk]. The unit economics are healthy (72% gross margin, 9.4-month CAC payback) and the outcome-based pricing model (Rs 18 per resolution + Rs 11,000/month subscription) aligns incentives with customer savings [c:ywyi5ap][c:x237bcy].\n\nThe market opportunity is supported by the rapid growth of India's D2C e-commerce market (USD 108.76B in 2026, 24.3% CAGR) and the broader customer service automation market (USD 15.5B in 2026, 17.9% CAGR) [w:1][w:21]. The company's moat rests on proprietary resolution data from 12M+ conversations and deep integrations with the Indian commerce stack, creating switching costs [c:k3vst3c]. However, risks include dependency on third-party LLMs, potential pricing changes from messaging platforms, and competition from well-funded incumbents like Yellow.ai ($356M+ raised) [w:16][c:usbqy6l]. The tranche-based funding structure mitigates some execution risk by tying capital to milestones [c:zwpvsuw].\n\n## 11. Recommendation\n\n**Recommendation: Buy**\n\nOverall score: **6.9/10**. The company shows strong product-market fit with impressive traction metrics (80% ARR growth, 128% NRR, 61% autonomous resolution) and a clear value proposition for D2C brands. The market tailwinds are significant, and the unit economics are attractive. Key concerns are the reliance on third-party LLMs, competitive pressure from incumbents, and the execution risk embedded in the milestone-linked tranche structure. The team has relevant domain experience but lacks a track record of scaling a startup. At a Rs 220 crore pre-money valuation with Rs 12.4 crore ARR (approx. 17.7x ARR), the valuation is reasonable for a high-growth SaaS company in this segment. We recommend a Buy with a target to monitor milestone achievement and competitive developments closely.",
+  "revenue_currency": "INR",
+  "revenue_metric": "ARR",
+  "rewrites": 1,
+  "rubric_version": "r1",
+  "score_rationales": {
+   "business_model": "Pricing defined (per-resolution fee Rs 18 + subscription Rs 11k/month), gross margin 72%, CAC payback 9.4 months, NRR 128% \u2013 strong unit economics, but payback is above 6 months. [c:ywyi5ap] [c:x237bcy]",
+   "execution_risk": "Risks are identified (LLM dependency, messaging-platform pricing changes, D2C funding cycles, incumbent bundling) but only partially mitigated; the tranche structure ties funding to milestones, reducing some risk. [c:usbqy6l] [c:zwpvsuw]",
+   "market": "The company sizes TAM at Rs 8,500 crore (company estimate) for Indian and SE Asian e-commerce support software, and the broader D2C market is large and growing (USD 108.76B in 2026, 24.3% CAGR from independent sources), but the TAM/SAM are self-estimated and scoped narrowly. [c:pgrqsbo] [w:1] [w:2]",
+   "moat": "The company cites deep action integrations with the Indian commerce stack and resolution data from 12M+ conversations as edges [c:k3vst3c]. This provides meaningful switching costs and data advantages, but the space has well-funded competitors (Zendesk, Yellow.ai) and the company acknowledges risks from LLM dependency and bundling by incumbents [c:usbqy6l]. No evidence of multiple reinforcing moats.",
+   "product": "The product is a working AI agent deployed by 260 brands, resolving 61% of tickets without human intervention and acting directly in Shopify, courier and payment systems [c:7nld4yh][c:7vnffxk]. This shows clear value and early product-market fit, but it is not yet category-defining or backed by exceptional, evidenced customer outcomes beyond the resolution rate.",
+   "team": "Four co-founders with relevant domain experience (customer experience at a D2C brand, SMB SaaS sales, conversational-AI engineering, ML lead), but no evidence of prior startup scaling or repeated successes. [c:hivedsg]",
+   "traction": "ARR of Rs 12.4 crore in FY2026, up 80% YoY, with 128% NRR and 260 brands; growth is strong and retention is evidenced, though not yet at a scale that qualifies as exceptional. [c:7vnffxk]"
+  },
+  "score_spread": {
+   "business_model": 0.0,
+   "execution_risk": 0.5,
+   "market": 1.0,
+   "moat": 1.0,
+   "product": 1.5,
+   "team": 1.0,
+   "traction": 1.0
+  },
+  "sections": {
+   "business_model": "OpsPilot uses a dual revenue model: a per-resolution fee of Rs 18 per resolved conversation (72% of revenue) and a platform subscription averaging Rs 11,000 per month (28% of revenue) [c:ywyi5ap]. Gross margin is 72% after LLM and messaging costs [c:ywyi5ap]. The company reports CAC of Rs 270,000, CAC payback of 9.4 months, NRR of 128%, and monthly churn of 1.1% [c:x237bcy]. The outcome-based pricing means brands pay only for tickets the AI resolves, aligning incentives [c:ywyi5ap]. The unit economics are strong, though the CAC payback period is above the 6-month threshold often preferred for SaaS. The company's own figures are company-reported and unverified.",
+   "competitive_landscape": "OpsPilot competes with global helpdesk software (Zendesk, Freshworks) and enterprise conversational-AI platforms (Yellow.ai) [c:k3vst3c]. The company claims three edges: deep action integrations with the Indian commerce stack (storefronts, couriers, payments), resolution data from over 12 million conversations since 2023, and outcome-based pricing that aligns revenue with brand savings [c:k3vst3c]. Yellow.ai, a well-funded competitor, has raised over USD 356.6 million and handles 16 billion conversations annually for 650+ enterprise clients [w:16][w:17]. The company acknowledges risks from helpdesk incumbents bundling AI agents and from dependency on third-party LLM providers [c:usbqy6l]. The moat score of 5.8 reflects meaningful switching costs from integrations and data, but the space has well-funded competitors and no evidence of multiple reinforcing moats.",
+   "compliance_governance": "**Compliance & Governance**\n\n- **Registry status:** The MCA registry confirms CIN U62099KA2022PTC163728, status ACTIVE, registered as OPSPILOT PRIVATE LIMITED. Directors listed: Ananya Krishnan, Vivek Saxena, Rhea D'Souza, Karan Malhotra. No compliance flags were raised.\n- **Data integrity:** The deck does not attempt to instruct the evaluator or override scoring rules. All financial and operational figures are labelled as company-reported and unverified where appropriate.\n- **Governance:** The Series A round is structured in three tranches with milestone conditions (ARR of Rs 20 crore with NRR above 120% within 365 days; Middle East launch with 25 paying brands within 540 days), which aligns investor capital with execution progress [c:zwpvsuw].",
+   "executive_summary": "OpsPilot is a Series A B2B SaaS startup that deploys AI agents to resolve customer support tickets end-to-end for D2C brands, acting directly in Shopify, courier and payment systems. The company reports ARR of Rs 12.4 crore in FY2026, up 80% year-on-year, with 260 brands using the platform and 61% of tickets resolved without human intervention [c:7vnffxk]. Net revenue retention is 128% and monthly logo churn is 1.1% [c:x237bcy]. The round is for Rs 40 crore at Rs 220 crore pre-money, structured in three tranches tied to ARR and Middle East launch milestones [c:zwpvsuw]. The product shows clear early product-market fit and strong unit economics, but faces execution risks from LLM dependency, incumbent bundling, and D2C funding cycles [c:usbqy6l]. Overall score: 6.9/10, Buy.",
+   "investment_thesis": "**Investment Thesis**\n\nOpsPilot is a B2B SaaS startup providing AI agents that resolve customer support tickets end-to-end for D2C brands, with deep integrations into Shopify, courier aggregators, and payment gateways [c:7nld4yh]. The company has demonstrated strong early traction: ARR of Rs 12.4 crore (80% YoY growth), 128% NRR, 61% autonomous resolution rate, and 260 brands onboarded [c:7vnffxk]. The unit economics are healthy (72% gross margin, 9.4-month CAC payback) and the outcome-based pricing model (Rs 18 per resolution + Rs 11,000/month subscription) aligns incentives with customer savings [c:ywyi5ap][c:x237bcy].\n\nThe market opportunity is supported by the rapid growth of India's D2C e-commerce market (USD 108.76B in 2026, 24.3% CAGR) and the broader customer service automation market (USD 15.5B in 2026, 17.9% CAGR) [w:1][w:21]. The company's moat rests on proprietary resolution data from 12M+ conversations and deep integrations with the Indian commerce stack, creating switching costs [c:k3vst3c]. However, risks include dependency on third-party LLMs, potential pricing changes from messaging platforms, and competition from well-funded incumbents like Yellow.ai ($356M+ raised) [w:16][c:usbqy6l]. The tranche-based funding structure mitigates some execution risk by tying capital to milestones [c:zwpvsuw].",
+   "market_opportunity": "OpsPilot sizes its TAM at Rs 8,500 crore (company estimate) for customer-support software and AI agents serving Indian and South-East Asian e-commerce and D2C brands in 2025, with a SAM of Rs 1,700 crore (company estimate) for Indian D2C brands above Rs 10 crore annual GMV [c:pgrqsbo]. The broader India D2C e-commerce market is valued at USD 108.76 billion in 2026 and projected to reach USD 322.1 billion by 2031 at a CAGR of 24.30% [w:1][w:2]. The India conversational AI market is valued at USD 653.24 million in 2025, growing at 25.61% CAGR to 2034 [w:9], and the India helpdesk automation market is valued at USD 444.5 million in 2025, growing at 25.65% CAGR to 2034 [w:19]. The company's SOM projection of Rs 120 crore by 2029 is a company projection [c:pgrqsbo]. The TAM and SAM are self-estimated and scoped narrowly, but the underlying market tailwinds are strong and independently verified.",
+   "problem_solution": "D2C brands spend 3-6% of revenue on customer support (company estimate), with 60-70% of tickets being repetitive order-status, return and refund queries, and ticket volumes spiking 3-5x during sale events [c:wjh7nrf]. OpsPilot's AI agents resolve these tickets end-to-end on WhatsApp, web chat and email by taking actions in Shopify, courier aggregators and payment gateways\u2014cancelling orders, processing refunds, rescheduling deliveries\u2014while applying brand-specific policies and tone in English, Hindi and Hinglish [c:7nld4yh]. Edge cases are handed off to human agents with full context, and every conversation is QA-scored [c:7nld4yh]. The company reports that 61% of tickets are resolved without a human, demonstrating the solution's effectiveness [c:7vnffxk].",
+   "recommendation": "**Recommendation: Buy**\n\nOverall score: **6.9/10**. The company shows strong product-market fit with impressive traction metrics (80% ARR growth, 128% NRR, 61% autonomous resolution) and a clear value proposition for D2C brands. The market tailwinds are significant, and the unit economics are attractive. Key concerns are the reliance on third-party LLMs, competitive pressure from incumbents, and the execution risk embedded in the milestone-linked tranche structure. The team has relevant domain experience but lacks a track record of scaling a startup. At a Rs 220 crore pre-money valuation with Rs 12.4 crore ARR (approx. 17.7x ARR), the valuation is reasonable for a high-growth SaaS company in this segment. We recommend a Buy with a target to monitor milestone achievement and competitive developments closely.",
+   "risks_challenges": "**Risks & Challenges**\n\n- **LLM dependency:** The product relies on third-party large language model providers for cost and quality; any price increase or degradation in model performance could directly impact gross margin and resolution quality [c:usbqy6l].\n- **Messaging-platform pricing changes:** Costs could rise if WhatsApp or other messaging channels alter their business API pricing, squeezing the per-resolution fee model [c:usbqy6l].\n- **D2C funding cycles:** The target customer base (D2C brands) is sensitive to venture capital and growth-stage funding cycles; a downturn could reduce customer budgets and slow new logo acquisition [c:usbqy6l].\n- **Incumbent bundling:** Established helpdesk platforms (Zendesk, Freshworks, Yellow.ai) are bundling AI agent capabilities, which could commoditise the offering and increase competitive pressure [c:usbqy6l].\n- **Execution risk on milestones:** The tranche structure ties 60% of capital to achieving specific ARR and geographic expansion milestones; failure to meet these within the stipulated timelines would leave the company undercapitalised [c:zwpvsuw].",
+   "team_assessment": "The four co-founders bring relevant domain experience: Ananya Krishnan (CEO) spent 8 years as head of customer experience at a large D2C beauty brand; Vivek Saxena (CTO) was a staff engineer on conversational-AI products; Rhea D'Souza (Sales) scaled SMB SaaS sales teams in India and South-East Asia; Karan Malhotra (AI) built retrieval and agent systems as an ex-ML lead [c:hivedsg]. The team has no evidence of prior startup scaling or repeated successes, which is a gap. The MCA registry confirms the company is active with CIN U62099KA2022PTC163728 and the four named directors [compliance_fixture]. No compliance flags were raised. The deck does not attempt to instruct the evaluator.",
+   "traction_milestones": "**Traction & Milestones**\n\n- **ARR growth:** ARR reached Rs 12.4 crore in FY2026, up 80% year-on-year from Rs 6.9 crore in FY2025 (company-reported, unverified) [c:7vnffxk]. Historical ARR: Rs 0.8 crore (FY2023), Rs 3.1 crore (FY2024), Rs 6.9 crore (FY2025), Rs 12.4 crore (FY2026) [c:7vnffxk].\n- **Customer base:** 260 D2C brands use the platform; 41 are on annual contracts above Rs 10 lakh [c:7vnffxk]. Monthly logo churn is 1.1% [c:x237bcy].\n- **Resolution performance:** 61% of tickets are resolved without human intervention; approximately 4.1 lakh conversations are resolved by AI every month [c:7vnffxk][c:x237bcy].\n- **Retention:** Net revenue retention (NRR) is 128% [c:x237bcy].\n- **Unit economics (company-reported, unverified):** Customer acquisition cost (CAC) Rs 270,000; CAC payback 9.4 months; gross margin 72% [c:x237bcy].\n- **Milestone target:** The company targets 700 brands and Rs 30 crore ARR within 24 months [c:usbqy6l]."
+  },
+  "sources": [
+   {
+    "query": "India D2C e-commerce market size 2025 2026 growth rate regulation",
+    "retrieved_at": "2026-10-27T06:48:56.035568Z",
+    "snippet": "The india d2C e-commerce market size was valued at USD 87.5 billion in 2025 and estimated to grow from USD 108.76 billion in 2026 to reach USD 322.1 billion by 2031, at a CAGR of 24.30% during the forecast period (2026-2031).",
+    "title": "India D2C E-commerce - Market Share Analysis, Industry Trends ...",
+    "url": "https://www.researchandmarkets.com/reports/5996961/india-d2c-e-commerce-market-share-analysis"
+   },
+   {
+    "query": "India D2C e-commerce market size 2025 2026 growth rate regulation",
+    "retrieved_at": "2026-10-27T06:48:56.035568Z",
+    "snippet": "The India D2C ecommerce market is valued at USD 108.76 billion in 2026 and is projected to reach USD 322.1 billion by 2031 at a CAGR of 24.30%. The market grew from USD 87.5 billion in 2025, adding approximately USD 21 billion in a single year. These are the most current D2C e-commerce India statistics in 2026 available from a primary market research source.",
+    "title": "D2C Ecommerce in India 2026: 50+ Stats on Order Volumes, Returns ...",
+    "url": "https://base.com/en-IN/blog/d2c-ecommerce-india-statistics-in-2026/"
+   },
+   {
+    "query": "India D2C e-commerce market size 2025 2026 growth rate regulation",
+    "retrieved_at": "2026-10-27T06:48:56.035568Z",
+    "snippet": "Download India's most current D2C operational report \u2014 built from 410M+ shipments across 6,000+ brands. Covers RTO reduction (39% \u2192 21%), COD vs prepaid benchmarks, category growth rates, and Tier 2/3 expansion data for FY2026.",
+    "title": "India D2C Report 2026: Operations, RTO & Growth Data | Unicommerce",
+    "url": "https://unicommerce.com/india-d2c-report-2026-april/"
+   },
+   {
+    "query": "India D2C e-commerce market size 2025 2026 growth rate regulation",
+    "retrieved_at": "2026-10-27T06:48:56.035568Z",
+    "snippet": "Explore India's D2C market size, fastest-growing categories, and fulfilment benchmarks for 2026 to improve inventory, dispatch, RTO, and growth.\nExplore India&#x27;s D2C market size, fastest-growing categories, and fulfilment benchmarks for 2026 to improve inventory, dispatch, RTO, and growth.",
+    "title": "India D2C Market Size 2026: Growth Rate, Top Categories, and Fulfilment ...",
+    "url": "https://base.com/en-IN/blog/india-d2c-market-size-2026-growth-rate-top-categories-and-fulfilment-benchmarks/"
+   },
+   {
+    "query": "India D2C e-commerce market size 2025 2026 growth rate regulation",
+    "retrieved_at": "2026-10-27T06:48:56.035568Z",
+    "snippet": "India D2C E-commerce - Market Share Analysis, Industry Trends & Statistics, Growth Forecasts (2026 - 2031) - According to Mordor Intelligence, the India D2C e-commerce market size was valued at USD 87.5 billion in 2025 and estimated to grow from USD 108.76 billion in 2026 to reach USD 322.1 billion by 2031, at a CAGR of 24.30% during the forecast period (2026-2031).",
+    "title": "India D2C E-commerce - Market Share Analysis, Industry Trends ...",
+    "url": "https://www.giiresearch.com/report/moi2125430-india-d2c-e-commerce-market-share-analysis.html"
+   },
+   {
+    "query": "AI customer service agents India e-commerce market size growth 2025 2026",
+    "retrieved_at": "2026-10-27T06:48:56.076019Z",
+    "snippet": "Download the 2026 Ecommerce AI Agents Industry Survey to explore adoption trends, ROI insights, and how AI is transforming online retail growth.",
+    "title": "Ecommerce AI Agents Industry Survey 2026 Report",
+    "url": "https://www.salesmate.io/ai-agents/ecommerce-industry-survey-report/"
+   },
+   {
+    "query": "AI customer service agents India e-commerce market size growth 2025 2026",
+    "retrieved_at": "2026-10-27T06:48:56.076019Z",
+    "snippet": "The AI Agents in eCommerce Survey 2026 gathered insights from 312 professionals across leadership, customer support, sales, and product teams. This diverse mix reflects how AI adoption is no longer confined to a single department, but is influencing decisions across customer experience, revenue growth, and product strategy.",
+    "title": "AI Agents in Ecommerce: Survey Report 2026 - salesmate.io",
+    "url": "https://www.salesmate.io/blog/ai-agents-in-ecommerce-survey-report/"
+   },
+   {
+    "query": "AI customer service agents India e-commerce market size growth 2025 2026",
+    "retrieved_at": "2026-10-27T06:48:56.076019Z",
+    "snippet": "India's AI-driven retail and e-commerce market is set for significant expansion between 2025 and 2030, fuelled by advancements in machine learning, automation, and personalized consumer experiences. Growing AI adoption in inventory management, customer engagement, and fraud detection will drive efficiency and profitability. As businesses leverage AI for predictive analytics and hyper ...",
+    "title": "Artificial Intelligence in Retail and E-commerce Market in India (2025 ...",
+    "url": "https://www.researchandmarkets.com/reports/5908509/artificial-intelligence-in-retail-e-commerce"
+   },
+   {
+    "query": "AI customer service agents India e-commerce market size growth 2025 2026",
+    "retrieved_at": "2026-10-27T06:48:56.076019Z",
+    "snippet": "India conversational AI market size valued at USD 653.24 Million in 2025, projected to reach USD 5,907.5 Million by 2034, CAGR of 25.61% (2026-2034).",
+    "title": "India Conversational AI Market Size, Share, Report 2026-34",
+    "url": "https://www.imarcgroup.com/india-conversational-ai-market"
+   },
+   {
+    "query": "AI customer service agents India e-commerce market size growth 2025 2026",
+    "retrieved_at": "2026-10-27T06:48:56.076019Z",
+    "snippet": "AI customer service statistics: market hits $15.12B in 2026, AI costs $0.50 vs $8 per human interaction. See 45+ data points on adoption, costs, and ROI.",
+    "title": "45+ AI customer service statistics for 2026 - ringly.io",
+    "url": "https://www.ringly.io/blog/ai-customer-service-statistics-2026"
+   },
+   {
+    "query": "India D2C customer support software market size 2025 2026 CAGR forecast",
+    "retrieved_at": "2026-10-27T06:48:59.294735Z",
+    "snippet": "Driven by this shift, the Indian ecommerce market is projected to expand from $165 Bn in 2026 to $450 Bn by 2031, representing a ~22% CAGR.",
+    "title": "D2C 3.0: The Next Big Wave In Indian Ecommerce, Report 2026",
+    "url": "https://inc42.com/reports/d2c-3-0-the-next-big-wave-in-indian-ecommerce-report-2026/"
+   },
+   {
+    "query": "India D2C customer support software market size 2025 2026 CAGR forecast",
+    "retrieved_at": "2026-10-27T06:48:59.294735Z",
+    "snippet": "India D2C E-commerce Market reaches USD 385.3B by 2032 from USD 108.8B in 2026 at 23.3% CAGR, driven by GST-enabled logistics and social commerce amid rising demand.",
+    "title": "India D2C E-commerce Market Size, Growth &amp; Outlook 2031",
+    "url": "https://www.mordorintelligence.com/industry-reports/india-d2c-ecommerce-market"
+   },
+   {
+    "query": "India D2C customer support software market size 2025 2026 CAGR forecast",
+    "retrieved_at": "2026-10-27T06:48:59.294735Z",
+    "snippet": "Explore India&#x27;s booming D2C market, emerging niches, buyer trends, agency competition, and service gaps Vize can fill for manufacturers today.",
+    "title": "D2C Market in India (2023-2025): Trends, Size, Growth - LinkedIn",
+    "url": "https://www.linkedin.com/pulse/d2c-market-india-20232025-trends-size-growth-support-chaudhary-vfz6c"
+   },
+   {
+    "query": "Yellow.ai Zendesk Freshworks AI customer service funding rounds 2025 2026",
+    "retrieved_at": "2026-10-27T06:49:00.107712Z",
+    "snippet": "Information on valuation, funding, cap tables, investors, and executives for Yellow.ai. Use the PitchBook Platform to explore the full profile.",
+    "title": "Yellow.ai 2026 Company Profile: Valuation, Funding &amp; Investors | PitchBook",
+    "url": "https://pitchbook.com/profiles/company/103119-22"
+   },
+   {
+    "query": "Yellow.ai Zendesk Freshworks AI customer service funding rounds 2025 2026",
+    "retrieved_at": "2026-10-27T06:49:00.107712Z",
+    "snippet": "However, when you do need to call, Yellow.ai&#x27;s VoiceX has the ability to completely transform the customer&#x27;s interaction. Voice AI is a great tool for our customer service professionals and is so intuitive that it raises the bar on the customer&#x27;s experience with Ferrellgas.",
+    "title": "Yellow.ai Investor Overview",
+    "url": "https://yellow.ai/investors/"
+   },
+   {
+    "query": "Yellow.ai Zendesk Freshworks AI customer service funding rounds 2025 2026",
+    "retrieved_at": "2026-10-27T06:49:00.107712Z",
+    "snippet": "Founded in 2016, yellow.ai has raised $356.60 Mn+ from 5 investors. Explore funding rounds, investors and valuation on Inc42 Datalabs.",
+    "title": "yellow.ai Funding 2026 - Total Funding, Rounds &amp; Investors",
+    "url": "https://inc42.com/company/yellow-ai/funding/"
+   },
+   {
+    "query": "Yellow.ai Zendesk Freshworks AI customer service funding rounds 2025 2026",
+    "retrieved_at": "2026-10-27T06:49:00.107712Z",
+    "snippet": "Yellow.ai is an enterprise agentic AI platform for customer and employee service automation across chat and voice. Its Nexus platform runs on multiple large language models and handles more than 16 billion conversations a year in 135+ languages for 650+ enterprise clients in 85+ countries, with 100+ enterprise integrations.",
+    "title": "Yellow.ai | SetterVC",
+    "url": "https://settervc.com/company/yellow-ai"
+   },
+   {
+    "query": "Yellow.ai Zendesk Freshworks AI customer service funding rounds 2025 2026",
+    "retrieved_at": "2026-10-27T06:49:00.107712Z",
+    "snippet": "Yellow.ai is an Agentic AI platform that sets the bar for intelligent service automation to deliver unmatched customer and employee experiences for enterprises.",
+    "title": "Yellow.ai - Crunchbase Company Profile &amp; Funding",
+    "url": "https://www.crunchbase.com/organization/yellow-messenger"
+   },
+   {
+    "query": "Indian customer support automation market size B2B SaaS 2024 2025 CAGR forecast",
+    "retrieved_at": "2026-10-27T06:49:57.649864Z",
+    "snippet": "India helpdesk automation market size valued at USD 444.5M in 2025, is projected to reach USD 3,470.0M by 2034 at a CAGR of 25.65% from 2026-2034.",
+    "title": "India Helpdesk Automation Market Size and Analysis, 2034",
+    "url": "https://www.imarcgroup.com/india-helpdesk-automation-market"
+   },
+   {
+    "query": "Indian customer support automation market size B2B SaaS 2024 2025 CAGR forecast",
+    "retrieved_at": "2026-10-27T06:49:57.649864Z",
+    "snippet": "India's SaaS market was valued at USD 9.14 Billion in 2025 and is expected to reach USD 102.15 Billion by 2035, growing at a CAGR of 27.30%.",
+    "title": "India Software as a Service (SaaS) Market Size 2035 | CAGR 27.30%",
+    "url": "https://www.expertmarketresearch.com/reports/india-software-as-a-service-saas-market"
+   },
+   {
+    "query": "Indian customer support automation market size B2B SaaS 2024 2025 CAGR forecast",
+    "retrieved_at": "2026-10-27T06:49:57.649864Z",
+    "snippet": "Global Customer Service Automation Market is accounted for $15.5 billion in 2026 and is expected to reach $58.0 billion by 2034 growing at a CAGR of 17.9% during the forecast period 2026-2034",
+    "title": "Customer Service Automation Market CAGR, size, share, trends, growth ...",
+    "url": "https://www.strategymrc.com/report/customer-service-automation-market"
+   },
+   {
+    "query": "Indian customer support automation market size B2B SaaS 2024 2025 CAGR forecast",
+    "retrieved_at": "2026-10-27T06:49:57.649864Z",
+    "snippet": "The Indian SaaS landscape in 2024 reflects a robust recovery and continued innovation, setting the stage for projected growth to $25 billion by 2025, $35 billion by 2027, and $50 billion by 2030. The Rise of SaaS in India: India SaaS Report 2023 The Indian SaaS Industry gained worldwide recognition with its high growth rate.",
+    "title": "The Rise Of The Indian SaaS Industry: Revealing Its Growth",
+    "url": "https://techjury.net/industry-analysis/the-rise-of-the-indian-saas-industry/"
+   },
+   {
+    "query": "Indian customer support automation market size B2B SaaS 2024 2025 CAGR forecast",
+    "retrieved_at": "2026-10-27T06:49:57.649864Z",
+    "snippet": "The Software as a Service (SaaS) sector in India is gearing up for an extraordinary phase of growth and innovation in 2024. Against the backdrop of post-COVID dynamics, the Indian SaaS sector is positioned as a key player in driving digital transformation, with a multitude of factors shaping its future.",
+    "title": "The next phase of growth and innovation for India's SaaS sector",
+    "url": "https://economictimes.indiatimes.com/small-biz/security-tech/technology/the-next-phase-of-growth-and-innovation-for-indias-saas-sector/articleshow/106086659.cms"
+   },
+   {
+    "query": "AI customer service agent startup funding India 2025 2026 Series A B rounds",
+    "retrieved_at": "2026-10-27T06:49:57.857647Z",
+    "snippet": "Sept 24 (Reuters) - Cybersecurity startup Island said on Thursday it raised $400 million in a funding round that valued it at $6.4 billion, signalling growing interest in the sector as rapid adoption ...",
+    "title": "Cybersecurity startup Island valued at $6.4 billion amid AI agent security risks",
+    "url": "https://www.reuters.com/technology/ai-startup-island-valued-64-billion-latest-funding-round-2026-09-24/"
+   },
+   {
+    "query": "India D2C customer support spend percentage revenue 2025 statistics",
+    "retrieved_at": "2026-10-27T06:49:57.969949Z",
+    "snippet": "Discover all statistics and data on D2C market in India now on statista.com!",
+    "title": "D2C market in India - statistics & facts | Statista",
+    "url": "https://www.statista.com/topics/9783/d2c-market-in-india/"
+   },
+   {
+    "query": "India D2C customer support spend percentage revenue 2025 statistics",
+    "retrieved_at": "2026-10-27T06:49:57.969949Z",
+    "snippet": "Moreover, a great combination of major and mid-sized investors has supported India's D2C initiative. In three or five years following their start, several D2C brands have surpassed the one million Indian rupees' revenue threshold. Some D2C brands such as Lenskart, Licious, and boAt are filling niches, building aspirational brands, and adding remarkable value to their respective industries.",
+    "title": "D2C market in India - statistics & facts | Statista",
+    "url": "https://www-statista-com.libproxy.pcc.edu/topics/9783/d2c-market-in-india/"
+   },
+   {
+    "query": "India D2C customer support spend percentage revenue 2025 statistics",
+    "retrieved_at": "2026-10-27T06:49:57.969949Z",
+    "snippet": "Digitally native and established brands D2C e-commerce sales growth in U.S. 2020-2025 Direct-to-consumer (D2C) e-commerce sales growth by digitally native and established brands in the United ...",
+    "title": "D2C e-commerce - statistics and facts | Statista",
+    "url": "https://www.statista.com/topics/8838/d2c-e-commerce/"
+   },
+   {
+    "query": "India D2C customer support spend percentage revenue 2025 statistics",
+    "retrieved_at": "2026-10-27T06:49:57.969949Z",
+    "snippet": "The India D2C market is expected to witness rapid expansion between 2025 and 2031, fueled by increased consumer adoption of online shopping platforms. Brands that offer personalized experiences, innovative products, and leverage e-commerce platforms will continue to thrive.",
+    "title": "India D2C Market | Revenue, Size, Share 2031 - 6Wresearch",
+    "url": "https://www.6wresearch.com/industry-report/india-d2c-market-2021-2027"
+   },
+   {
+    "query": "Freshdesk Zendesk Intercom Yellow.ai WotNot AI agent pricing India D2C brands 2025 2026",
+    "retrieved_at": "2026-10-27T06:49:58.968687Z",
+    "snippet": "Compare AI agent pricing in 2026: Fin ($0.99/outcome), Zendesk (post-May restructure), Agentforce Flex Credits, and more. TCO scenarios included.",
+    "title": "AI Agent Pricing: Cost of Customer Support AI Agents - intercom.com",
+    "url": "https://www.intercom.com/learning-center/ai-customer-service-agent-pricing-comparison"
+   },
+   {
+    "query": "Freshdesk Zendesk Intercom Yellow.ai WotNot AI agent pricing India D2C brands 2025 2026",
+    "retrieved_at": "2026-10-27T06:49:58.968687Z",
+    "snippet": "Detailed pricing comparison: Intercom (usage-based), Zendesk (per-agent), Freshdesk (per-agent). Feature analysis, TCO by team size, real customer costs, and buying guide.",
+    "title": "Intercom vs Zendesk vs Freshdesk Pricing Comparison 2026",
+    "url": "https://www.getpricepulse.com/blog/intercom-vs-zendesk-vs-freshdesk-pricing-2026.html"
+   },
+   {
+    "query": "Freshdesk Zendesk Intercom Yellow.ai WotNot AI agent pricing India D2C brands 2025 2026",
+    "retrieved_at": "2026-10-27T06:49:58.968687Z",
+    "snippet": "The short version: In 2026, the three leading support platforms have diverged more than ever. Freshdesk remains the strongest value for growing teams, Zendesk dominates at enterprise scale with structured ticketing, and Intercom leads on conversational AI and customer engagement.",
+    "title": "Freshdesk vs Zendesk vs Intercom: Which Customer Support Platform Wins ...",
+    "url": "https://b2b-software.net/blog/freshdesk-vs-zendesk-vs-intercom-2026-comparison"
+   },
+   {
+    "query": "Freshdesk Zendesk Intercom Yellow.ai WotNot AI agent pricing India D2C brands 2025 2026",
+    "retrieved_at": "2026-10-27T06:49:58.968687Z",
+    "snippet": "Customer support software pricing is notoriously complex \u2014 per-agent fees, conversation-based billing, AI add-ons, and usage overages all compound to make your true annual cost 2-3\u00d7 the advertised price. This guide cuts through the noise with real 2026 pricing data.",
+    "title": "Customer Support Tools Pricing Guide 2026: Zendesk, Intercom, Freshdesk ...",
+    "url": "https://www.getpricepulse.com/blog/customer-support-tools-pricing-guide-2026.html"
+   },
+   {
+    "query": "Freshdesk Zendesk Intercom Yellow.ai WotNot AI agent pricing India D2C brands 2025 2026",
+    "retrieved_at": "2026-10-27T06:49:58.968687Z",
+    "snippet": "Intercom&#x27;s AI agent, Fin, operates on outcome-based pricing at $0.99 per resolution with no platform fee if a team already uses Intercom&#x27;s helpdesk. For teams using Fin on top of a different helpdesk like Zendesk or Freshdesk, the base Intercom plan starts at approximately $39 per seat per month.",
+    "title": "Top AI Customer Support Tools and Pricing Comparison (2026)",
+    "url": "https://www.analyticsinsight.net/artificial-intelligence/top-ai-customer-support-tools-and-pricing-comparison-2026"
+   }
+  ]
+ },
+ "input_hash": "6aebf19907cc80ef4517a11c466fffb9857919e9baaf07b2f221d13424460721"
+}

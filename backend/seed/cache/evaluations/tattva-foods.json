@@ -1,0 +1,430 @@
+{
+ "analysis": {
+  "category_scores": {
+   "business_model": 5.3,
+   "execution_risk": 4.0,
+   "market": 6.0,
+   "moat": 4.0,
+   "product": 5.7,
+   "team": 6.0,
+   "traction": 6.0
+  },
+  "citations": {
+   "c:2xu6to5": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.91876,
+     0.50907
+    ],
+    "chunk_id": "d867095d-9706-5f08-b6ea-5efcccede088",
+    "document_id": "3c9e2c17-4b89-49c6-8da3-fca20da34662",
+    "page_no": 3,
+    "slide_title": "Solution",
+    "type": "deck"
+   },
+   "c:4t7e2fx": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.92416,
+     0.4682
+    ],
+    "chunk_id": "7f41130d-7009-5750-a86c-58edbaa058a0",
+    "document_id": "3c9e2c17-4b89-49c6-8da3-fca20da34662",
+    "page_no": 10,
+    "slide_title": "Team",
+    "type": "deck"
+   },
+   "c:4utrw4z": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.69088,
+     0.45481
+    ],
+    "chunk_id": "5087af35-a741-526b-b68c-5cd10006bbdf",
+    "document_id": "3c9e2c17-4b89-49c6-8da3-fca20da34662",
+    "page_no": 7,
+    "slide_title": "Unit Economics",
+    "type": "deck"
+   },
+   "c:7mdjnmg": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.92544,
+     0.42291
+    ],
+    "chunk_id": "135e1f6a-77c7-5191-bbb0-289280c9d3ae",
+    "document_id": "3c9e2c17-4b89-49c6-8da3-fca20da34662",
+    "page_no": 4,
+    "slide_title": "Market Opportunity (TAM / SAM / SOM)",
+    "type": "deck"
+   },
+   "c:etiphck": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.90908,
+     0.50907
+    ],
+    "chunk_id": "b2853a9f-c8c9-58b5-a6b9-f51628e1d880",
+    "document_id": "3c9e2c17-4b89-49c6-8da3-fca20da34662",
+    "page_no": 1,
+    "slide_title": "Tattva Foods",
+    "type": "deck"
+   },
+   "c:ijjwfnw": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.75107,
+     0.45481
+    ],
+    "chunk_id": "0354853d-118c-5f8e-a7cb-bedcf6d626d3",
+    "document_id": "3c9e2c17-4b89-49c6-8da3-fca20da34662",
+    "page_no": 5,
+    "slide_title": "Business Model",
+    "type": "deck"
+   },
+   "c:kcdox3w": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.92917,
+     0.63306
+    ],
+    "chunk_id": "d5a228fa-defb-5686-9dd7-5ed19565ff52",
+    "document_id": "3c9e2c17-4b89-49c6-8da3-fca20da34662",
+    "page_no": 2,
+    "slide_title": "Problem",
+    "type": "deck"
+   },
+   "c:lbfbrjv": {
+    "bbox": [
+     0.05814,
+     0.0554,
+     0.89795,
+     0.76413
+    ],
+    "chunk_id": "a7337a44-68c1-5ea0-8d79-fbb35ec6cfa0",
+    "document_id": "3c9e2c17-4b89-49c6-8da3-fca20da34662",
+    "page_no": 6,
+    "slide_title": "Traction (as of FY2026)",
+    "type": "deck"
+   },
+   "c:xrdrzrj": {
+    "bbox": [
+     0.05973,
+     0.0554,
+     0.94497,
+     0.55353
+    ],
+    "chunk_id": "a437fbcb-5bbc-5005-9c12-70a1a242efa0",
+    "document_id": "3c9e2c17-4b89-49c6-8da3-fca20da34662",
+    "page_no": 8,
+    "slide_title": "Competitive Landscape",
+    "type": "deck"
+   },
+   "c:z2kcvji": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.85388,
+     0.74506
+    ],
+    "chunk_id": "dbe98955-50f5-5fdc-93e6-41fa0582fc37",
+    "document_id": "3c9e2c17-4b89-49c6-8da3-fca20da34662",
+    "page_no": 9,
+    "slide_title": "Go-to-Market & Key Risks",
+    "type": "deck"
+   },
+   "w:1": {
+    "title": "India Millets Based Snacks Market Growth Analysis, and Report 2026-34",
+    "type": "web",
+    "url": "https://www.thereportcubes.com/report-store/millets-based-snacks-market-india"
+   },
+   "w:2": {
+    "title": "Millet Snacks Market Size, Share | Forecast Report [2026-2034]",
+    "type": "web",
+    "url": "https://www.fortunebusinessinsights.com/millet-snacks-market-111107"
+   },
+   "w:3": {
+    "title": "Millet Snacks Market Size, Share & 2031 Growth Trends Report",
+    "type": "web",
+    "url": "https://www.mordorintelligence.com/industry-reports/millet-snacks-market"
+   }
+  },
+  "citations_removed": 1,
+  "compliance_flags": [
+   "INVALID_CIN_FORMAT"
+  ],
+  "data_gaps": [
+   "SAM: no usable source excerpt with value, unit and period.",
+   "SOM: no independent source found; the deck claims 60 INR crore (p.4).",
+   "Market trend: incompatible market scopes were omitted."
+  ],
+  "evidence_version": 2,
+  "generated_at": "2026-10-27T06:42:58.454717Z",
+  "input_hash": "8d473e8f72122aa576da746deceb6561920a60ae123c49b7ef16632f7e698280",
+  "invalid_citations": [
+   "compliance flags"
+  ],
+  "market_sizing": {
+   "basis": "Only figures traceable to retrieved search excerpts are plotted as market data.",
+   "cagr_pct": 14.7,
+   "claims": {
+    "som_usd_b": {
+     "check": {
+      "status": "unverified"
+     },
+     "citation": {
+      "bbox": [
+       0.0677,
+       0.0554,
+       0.92544,
+       0.42291
+      ],
+      "chunk_id": "135e1f6a-77c7-5191-bbb0-289280c9d3ae",
+      "cid": "c:7mdjnmg",
+      "document_id": "3c9e2c17-4b89-49c6-8da3-fca20da34662",
+      "page_no": 4
+     },
+     "currency": "INR",
+     "geography": "India (top 20 cities)",
+     "kind": "company_forecast",
+     "low_confidence": false,
+     "market": "Better-for-you packaged snacks",
+     "normalised": 0.6,
+     "period": "",
+     "quote": "SOM \u2014 3-year obtainable share of SAM: Rs 60 crore in 2029 (company projection)",
+     "retrieved_at": null,
+     "source_title": "Tattva_Foods_Pitch_Deck.pdf, p.4",
+     "source_url": null,
+     "unit": "INR crore",
+     "value": 60.0,
+     "year": 2029
+    }
+   },
+   "evidence": {
+    "cagr_pct": {
+     "citation": null,
+     "geography": "India",
+     "kind": "source_forecast",
+     "low_confidence": false,
+     "market": "Millets Based Snacks",
+     "period": "2026-2034",
+     "quote": "India Millets Based Snacks Market is projected to grow from USD 1.03 billion in 2026 to USD 3.09 billion by 2034, at a CAGR of 14.70%.",
+     "retrieved_at": "2026-10-27T06:42:17.753801Z",
+     "source_title": "India Millets Based Snacks Market Growth Analysis, and Report 2026-34",
+     "source_url": "https://www.thereportcubes.com/report-store/millets-based-snacks-market-india",
+     "unit": "%",
+     "value": 14.7,
+     "year": null
+    },
+    "tam_usd_b": {
+     "citation": null,
+     "geography": "India",
+     "kind": "source_forecast",
+     "low_confidence": false,
+     "market": "Millets Based Snacks",
+     "period": "",
+     "quote": "India Millets Based Snacks Market is projected to grow from USD 1.03 billion in 2026 to USD 3.09 billion by 2034, at a CAGR of 14.70%.",
+     "retrieved_at": "2026-10-27T06:42:17.753801Z",
+     "source_title": "India Millets Based Snacks Market Growth Analysis, and Report 2026-34",
+     "source_url": "https://www.thereportcubes.com/report-store/millets-based-snacks-market-india",
+     "unit": "USD billion",
+     "value": 1.03,
+     "year": 2026
+    }
+   },
+   "sam_usd_b": null,
+   "som_usd_b": null,
+   "tam_usd_b": 1.03,
+   "trend": [
+    {
+     "citation": null,
+     "geography": "India",
+     "kind": "source_forecast",
+     "low_confidence": false,
+     "market": "Millets Based Snacks",
+     "period": "",
+     "quote": "India Millets Based Snacks Market is projected to grow from USD 1.03 billion in 2026 to USD 3.09 billion by 2034, at a CAGR of 14.70%.",
+     "retrieved_at": "2026-10-27T06:42:17.753801Z",
+     "size_usd_b": 1.03,
+     "source_title": "India Millets Based Snacks Market Growth Analysis, and Report 2026-34",
+     "source_url": "https://www.thereportcubes.com/report-store/millets-based-snacks-market-india",
+     "unit": "USD billion",
+     "value": 1.03,
+     "year": 2026
+    },
+    {
+     "citation": null,
+     "geography": "India",
+     "kind": "source_forecast",
+     "low_confidence": false,
+     "market": "Millets Based Snacks",
+     "period": "",
+     "quote": "India Millets Based Snacks Market is projected to grow from USD 1.03 billion in 2026 to USD 3.09 billion by 2034, at a CAGR of 14.70%.",
+     "retrieved_at": "2026-10-27T06:42:17.753801Z",
+     "size_usd_b": 3.09,
+     "source_title": "India Millets Based Snacks Market Growth Analysis, and Report 2026-34",
+     "source_url": "https://www.thereportcubes.com/report-store/millets-based-snacks-market-india",
+     "unit": "USD billion",
+     "value": 3.09,
+     "year": 2034
+    }
+   ]
+  },
+  "model": "azure/deepSeek-V4-Flash",
+  "overall_score": 5.5,
+  "projected_revenue": [
+   {
+    "citation": {
+     "bbox": [
+      0.05814,
+      0.0554,
+      0.89795,
+      0.76413
+     ],
+     "chunk_id": "a7337a44-68c1-5ea0-8d79-fbb35ec6cfa0",
+     "cid": "c:lbfbrjv",
+     "document_id": "3c9e2c17-4b89-49c6-8da3-fca20da34662",
+     "page_no": 6
+    },
+    "geography": "India (9 cities)",
+    "kind": "company_reported",
+    "low_confidence": false,
+    "market": "Roasted millet snacks",
+    "metric": "Revenue",
+    "period": "",
+    "quote": "FY2026 revenue Rs 4.1 crore, up from Rs 2.6 crore in FY2025",
+    "retrieved_at": null,
+    "revenue": 26.0,
+    "source_title": "Tattva_Foods_Pitch_Deck.pdf, p.6",
+    "source_url": null,
+    "unit": "INR crore",
+    "value": 2.6,
+    "year": 2025
+   },
+   {
+    "citation": {
+     "bbox": [
+      0.05814,
+      0.0554,
+      0.89795,
+      0.76413
+     ],
+     "chunk_id": "a7337a44-68c1-5ea0-8d79-fbb35ec6cfa0",
+     "cid": "c:lbfbrjv",
+     "document_id": "3c9e2c17-4b89-49c6-8da3-fca20da34662",
+     "page_no": 6
+    },
+    "geography": "India (9 cities)",
+    "kind": "company_reported",
+    "low_confidence": false,
+    "market": "Roasted millet snacks",
+    "metric": "Revenue",
+    "period": "",
+    "quote": "FY2026 revenue Rs 4.1 crore, up from Rs 2.6 crore in FY2025",
+    "retrieved_at": null,
+    "revenue": 41.0,
+    "source_title": "Tattva_Foods_Pitch_Deck.pdf, p.6",
+    "source_url": null,
+    "unit": "INR crore",
+    "value": 4.1,
+    "year": 2026
+   }
+  ],
+  "recommendation_label": "Hold",
+  "report_markdown": "## 1. Executive Summary\n\nTattva Foods makes roasted millet snacks (ragi chips, jowar puffs, foxtail-millet namkeen) with no palm oil, sold mainly through quick-commerce apps in 9 cities. FY2026 revenue was Rs 4.1 crore (company-reported, unverified), up 58% from Rs 2.6 crore in FY2025 [c:lbfbrjv]. 68% of revenue comes from quick-commerce; 34% of website customers repeat within 60 days [c:lbfbrjv][c:4utrw4z]. The company is raising Rs 6 crore seed at Rs 30 crore pre-money [c:etiphck]. The product is differentiated and working, but unit economics are thin (contribution margin 11%) and dependence on quick-commerce platforms is high [c:ijjwfnw][c:z2kcvji]. An MCA check failed due to an invalid CIN format, a compliance red flag. Overall score: 5.5/10, Hold.\n\n## 2. Problem & Solution\n\nUrban shoppers want healthier snacks, but quick-commerce shelves are dominated by fried, palm-oil-based products, and millet foods are seen as bland staples [c:kcdox3w]. Tattva Foods offers roasted, never-fried millet snacks in impulse-sized 80 g packs at Rs 99, with no palm oil and no added maida [c:2xu6to5]. Flavours are developed for regional tastes (masala, peri-peri, pudina) [c:2xu6to5]. The product is a working, differentiated solution with paying customers, but evidence of strong product-market fit is limited to a 34% repeat purchase on the website and revenue growth, not yet strong retention or expansion metrics [c:2xu6to5][c:lbfbrjv].\n\n## 3. Market Opportunity\n\nThe India millet snacks market is projected at USD 1.03 billion in 2026, growing at 14.7% CAGR to USD 3.09 billion by 2034 [w:1]. The global millet snacks market was valued at USD 1.54 billion in 2025, with Asia Pacific holding 56.59% share [w:2]. Tattva Foods' TAM/SAM/SOM are company estimates without independent source backing: TAM of Rs 45,000 crore (packaged savoury snacks in India), SAM of Rs 2,800 crore (better-for-you snacks in top 20 cities), and SOM of Rs 60 crore by 2029 [c:7mdjnmg]. The SOM is plausible but not externally validated. The market is sizable and growing, but the startup's own projections are unverified.\n\n## 4. Competitive Landscape\n\nCompetitors include Slurrp Farm (millet-based foods for kids/families), Too Yumm! (better-for-you snacks), and Haldiram's (traditional snacks with mass distribution) [c:xrdrzrj]. Tattva Foods claims execution advantages: own roasting line, millet supply contracts with FPOs in Karnataka, and strong quick-commerce search ranking for healthy snacks [c:xrdrzrj]. However, these are easily copied by incumbents. No meaningful switching costs, IP, or data moat are evidenced [c:xrdrzrj]. The category is crowded with large incumbents, as noted in the deck's own risk section [c:z2kcvji].\n\n## 5. Business Model\n\nPricing is uniform at Rs 99/pack across quick-commerce (68% of revenue), own website/marketplaces (22%), and modern trade (10%) [c:ijjwfnw]. Gross margin is 42%, but contribution margin is only 11% after platform fees, ads, and delivery [c:ijjwfnw]. Customer acquisition cost (CAC) of Rs 310 is shown only for the own website, not for the dominant quick-commerce channel [c:4utrw4z]. Payback period is not provided. The thin contribution margin leaves little room for price competition or rising platform fees [c:z2kcvji]. The business model is clear but unit economics are fragile and heavily dependent on quick-commerce platforms.\n\n## 6. Team Assessment\n\nThe three co-founders have relevant domain experience: Kavya Gowda (CEO) was a brand manager for snacks at a large FMCG company for 6 years; Suresh Babu (COO) is a food technologist who ran a millet-processing unit in Mysuru; Neeraj Arora (Growth) was a category manager for packaged foods at an e-commerce marketplace [c:4t7e2fx]. However, they lack evidence of having built or scaled a similar venture before, and no prior startup successes are mentioned [c:4t7e2fx]. The team is experienced in the sector but unproven as founders.\n\n## 7. Traction & Milestones\n\nTattva Foods has grown revenue from Rs 0.9 crore (FY2024) to Rs 2.6 crore (FY2025) to Rs 4.1 crore (FY2026), a 58% year-over-year increase [c:lbfbrjv]. The company is live on three quick-commerce apps across 9 cities, with 68% of revenue coming from that channel [c:lbfbrjv]. On its own website, 34% of customers make a repeat purchase within 60 days [c:lbfbrjv]. The company has set a target of Rs 12 crore annual revenue across 15 cities within 24 months [c:z2kcvji]. All revenue figures are company-reported and unverified.\n\n## 8. Compliance & Governance\n\nThe MCA check failed: the provided CIN U10799KA2022PTC16382 is malformed (INVALID_CIN_FORMAT), so the company's legal registration status could not be confirmed. This is a red flag that must be resolved before any investment. The pitch deck contains no mention of any regulatory or legal issues, and no other compliance flags were identified. The deck does not attempt to instruct the evaluator.\n\n## 9. Risks & Challenges\n\nThe company faces several significant risks. **Platform dependence**: 68% of revenue comes from quick-commerce apps, where fees, listing policies, and visibility can change without notice [c:z2kcvji]. **Thin margins**: Contribution margin is only 11% after platform fees and ads, leaving little room for price competition or cost increases [c:ijjwfnw][c:z2kcvji]. **Millet price volatility**: Raw millet prices can swing with the monsoon, directly impacting input costs [c:z2kcvji]. **Crowded category**: Incumbents like Haldiram's, Slurrp Farm, and Too Yumm! compete in the better-for-you snack space [c:xrdrzrj]. **Limited retention data**: The 34% repeat purchase rate is only for the own-website channel, which accounts for just 22% of revenue; quick-commerce repeat rates are not disclosed [c:lbfbrjv][c:4utrw4z]. **Execution risk**: The team has relevant experience but no prior startup scaling success [c:4t7e2fx]. The deck itself identifies these risks [c:z2kcvji].\n\n## 10. Investment Thesis\n\nTattva Foods addresses a clear consumer trend toward healthier snacks, with a differentiated product (roasted, no palm oil) sold through fast-growing quick-commerce channels. The millet snacks market is projected to grow at 10.8\u201314.7% CAGR globally and in India [w:1][w:2][w:3]. The company has demonstrated early traction with Rs 4.1 crore revenue and a 58% growth rate. However, the business model is fragile: a thin 11% contribution margin, heavy platform dependence, and unit economics only validated on the own-website channel (CAC Rs 310, 34% repeat) [c:4utrw4z]. The moat is weak\u2014supply contracts and roasting lines are replicable by incumbents [c:xrdrzrj]. The team has relevant domain experience but no proven scaling track record [c:4t7e2fx]. The failed MCA check is a serious compliance concern. At a Rs 30 crore pre-money valuation, the ask of Rs 6 crore implies a post-money of Rs 36 crore, or ~8.8x FY2026 revenue, which is high given the risks and early stage.\n\n## 11. Recommendation\n\n**Hold** (overall score 5.5/10). The product and market opportunity are real, but execution risks, thin margins, platform dependence, and a compliance red flag (invalid CIN) make this a high-risk investment at the proposed valuation. The company must resolve the MCA issue, demonstrate repeat purchase rates on quick-commerce, and improve contribution margin before a re-evaluation. Recommend passing at current terms.",
+  "revenue_currency": "INR",
+  "revenue_metric": "Revenue",
+  "rewrites": 0,
+  "rubric_version": "r1",
+  "score_rationales": {
+   "business_model": "Pricing is clear (Rs 99/pack) and gross margin is 42%, but contribution margin is only 11% after platform fees and ads, and unit economics (CAC of Rs 310) are only shown for own website, not for the dominant quick-commerce channel. Payback period is not provided. [c:ijjwfnw][c:4utrw4z]",
+   "execution_risk": "Significant risks are identified (heavy dependence on quick-commerce platforms, thin contribution margin, millet price volatility, crowded category) without clear mitigation. Additionally, the MCA check failed with an invalid CIN format, raising a compliance red flag. [c:z2kcvji]",
+   "market": "The TAM/SAM/SOM are company estimates without independent source backing, but the millet snacks market is sizable and growing (e.g., India millet snacks projected at USD 1.03B in 2026 at 14.7% CAGR [w:1]). The startup's own SOM of Rs 60 crore by 2029 is plausible but not externally validated. [c:7mdjnmg][w:1]",
+   "moat": "Execution advantages are mentioned (own roasting line, millet supply contracts with FPOs, quick-commerce search ranking) but these are easily copied by incumbents. No meaningful switching costs, IP, or data moat are evidenced. [c:xrdrzrj]",
+   "product": "The product is a working, differentiated roasted millet snack sold through quick-commerce, with paying customers and specific value (no palm oil, roasted). However, evidence of product-market fit is limited to a 34% repeat purchase on the website and revenue growth, not yet strong retention or expansion metrics. [c:2xu6to5][c:lbfbrjv]",
+   "team": "The three co-founders have relevant domain experience (snacks brand management, food technology, e-commerce category management) but lack evidence of having built or scaled a similar venture before. No prior startup successes are mentioned. [c:4t7e2fx]",
+   "traction": "Revenue grew from Rs 2.6 crore (FY2025) to Rs 4.1 crore (FY2026), a 58% increase, and they have paying customers across 9 cities. However, growth is not at 2x per year and retention data (34% repeat on website) is limited to one channel. [c:lbfbrjv]"
+  },
+  "score_spread": {
+   "business_model": 2.0,
+   "execution_risk": 1.0,
+   "market": 0.0,
+   "moat": 0.0,
+   "product": 1.0,
+   "team": 0.0,
+   "traction": 1.0
+  },
+  "sections": {
+   "business_model": "Pricing is uniform at Rs 99/pack across quick-commerce (68% of revenue), own website/marketplaces (22%), and modern trade (10%) [c:ijjwfnw]. Gross margin is 42%, but contribution margin is only 11% after platform fees, ads, and delivery [c:ijjwfnw]. Customer acquisition cost (CAC) of Rs 310 is shown only for the own website, not for the dominant quick-commerce channel [c:4utrw4z]. Payback period is not provided. The thin contribution margin leaves little room for price competition or rising platform fees [c:z2kcvji]. The business model is clear but unit economics are fragile and heavily dependent on quick-commerce platforms.",
+   "competitive_landscape": "Competitors include Slurrp Farm (millet-based foods for kids/families), Too Yumm! (better-for-you snacks), and Haldiram's (traditional snacks with mass distribution) [c:xrdrzrj]. Tattva Foods claims execution advantages: own roasting line, millet supply contracts with FPOs in Karnataka, and strong quick-commerce search ranking for healthy snacks [c:xrdrzrj]. However, these are easily copied by incumbents. No meaningful switching costs, IP, or data moat are evidenced [c:xrdrzrj]. The category is crowded with large incumbents, as noted in the deck's own risk section [c:z2kcvji].",
+   "compliance_governance": "The MCA check failed: the provided CIN U10799KA2022PTC16382 is malformed (INVALID_CIN_FORMAT), so the company's legal registration status could not be confirmed. This is a red flag that must be resolved before any investment. The pitch deck contains no mention of any regulatory or legal issues, and no other compliance flags were identified. The deck does not attempt to instruct the evaluator.",
+   "executive_summary": "Tattva Foods makes roasted millet snacks (ragi chips, jowar puffs, foxtail-millet namkeen) with no palm oil, sold mainly through quick-commerce apps in 9 cities. FY2026 revenue was Rs 4.1 crore (company-reported, unverified), up 58% from Rs 2.6 crore in FY2025 [c:lbfbrjv]. 68% of revenue comes from quick-commerce; 34% of website customers repeat within 60 days [c:lbfbrjv][c:4utrw4z]. The company is raising Rs 6 crore seed at Rs 30 crore pre-money [c:etiphck]. The product is differentiated and working, but unit economics are thin (contribution margin 11%) and dependence on quick-commerce platforms is high [c:ijjwfnw][c:z2kcvji]. An MCA check failed due to an invalid CIN format, a compliance red flag. Overall score: 5.5/10, Hold.",
+   "investment_thesis": "Tattva Foods addresses a clear consumer trend toward healthier snacks, with a differentiated product (roasted, no palm oil) sold through fast-growing quick-commerce channels. The millet snacks market is projected to grow at 10.8\u201314.7% CAGR globally and in India [w:1][w:2][w:3]. The company has demonstrated early traction with Rs 4.1 crore revenue and a 58% growth rate. However, the business model is fragile: a thin 11% contribution margin, heavy platform dependence, and unit economics only validated on the own-website channel (CAC Rs 310, 34% repeat) [c:4utrw4z]. The moat is weak\u2014supply contracts and roasting lines are replicable by incumbents [c:xrdrzrj]. The team has relevant domain experience but no proven scaling track record [c:4t7e2fx]. The failed MCA check is a serious compliance concern. At a Rs 30 crore pre-money valuation, the ask of Rs 6 crore implies a post-money of Rs 36 crore, or ~8.8x FY2026 revenue, which is high given the risks and early stage.",
+   "market_opportunity": "The India millet snacks market is projected at USD 1.03 billion in 2026, growing at 14.7% CAGR to USD 3.09 billion by 2034 [w:1]. The global millet snacks market was valued at USD 1.54 billion in 2025, with Asia Pacific holding 56.59% share [w:2]. Tattva Foods' TAM/SAM/SOM are company estimates without independent source backing: TAM of Rs 45,000 crore (packaged savoury snacks in India), SAM of Rs 2,800 crore (better-for-you snacks in top 20 cities), and SOM of Rs 60 crore by 2029 [c:7mdjnmg]. The SOM is plausible but not externally validated. The market is sizable and growing, but the startup's own projections are unverified.",
+   "problem_solution": "Urban shoppers want healthier snacks, but quick-commerce shelves are dominated by fried, palm-oil-based products, and millet foods are seen as bland staples [c:kcdox3w]. Tattva Foods offers roasted, never-fried millet snacks in impulse-sized 80 g packs at Rs 99, with no palm oil and no added maida [c:2xu6to5]. Flavours are developed for regional tastes (masala, peri-peri, pudina) [c:2xu6to5]. The product is a working, differentiated solution with paying customers, but evidence of strong product-market fit is limited to a 34% repeat purchase on the website and revenue growth, not yet strong retention or expansion metrics [c:2xu6to5][c:lbfbrjv].",
+   "recommendation": "**Hold** (overall score 5.5/10). The product and market opportunity are real, but execution risks, thin margins, platform dependence, and a compliance red flag (invalid CIN) make this a high-risk investment at the proposed valuation. The company must resolve the MCA issue, demonstrate repeat purchase rates on quick-commerce, and improve contribution margin before a re-evaluation. Recommend passing at current terms.",
+   "risks_challenges": "The company faces several significant risks. **Platform dependence**: 68% of revenue comes from quick-commerce apps, where fees, listing policies, and visibility can change without notice [c:z2kcvji]. **Thin margins**: Contribution margin is only 11% after platform fees and ads, leaving little room for price competition or cost increases [c:ijjwfnw][c:z2kcvji]. **Millet price volatility**: Raw millet prices can swing with the monsoon, directly impacting input costs [c:z2kcvji]. **Crowded category**: Incumbents like Haldiram's, Slurrp Farm, and Too Yumm! compete in the better-for-you snack space [c:xrdrzrj]. **Limited retention data**: The 34% repeat purchase rate is only for the own-website channel, which accounts for just 22% of revenue; quick-commerce repeat rates are not disclosed [c:lbfbrjv][c:4utrw4z]. **Execution risk**: The team has relevant experience but no prior startup scaling success [c:4t7e2fx]. The deck itself identifies these risks [c:z2kcvji].",
+   "team_assessment": "The three co-founders have relevant domain experience: Kavya Gowda (CEO) was a brand manager for snacks at a large FMCG company for 6 years; Suresh Babu (COO) is a food technologist who ran a millet-processing unit in Mysuru; Neeraj Arora (Growth) was a category manager for packaged foods at an e-commerce marketplace [c:4t7e2fx]. However, they lack evidence of having built or scaled a similar venture before, and no prior startup successes are mentioned [c:4t7e2fx]. The team is experienced in the sector but unproven as founders.",
+   "traction_milestones": "Tattva Foods has grown revenue from Rs 0.9 crore (FY2024) to Rs 2.6 crore (FY2025) to Rs 4.1 crore (FY2026), a 58% year-over-year increase [c:lbfbrjv]. The company is live on three quick-commerce apps across 9 cities, with 68% of revenue coming from that channel [c:lbfbrjv]. On its own website, 34% of customers make a repeat purchase within 60 days [c:lbfbrjv]. The company has set a target of Rs 12 crore annual revenue across 15 cities within 24 months [c:z2kcvji]. All revenue figures are company-reported and unverified."
+  },
+  "sources": [
+   {
+    "query": "Consumer & D2C Roasted millet snacks with no palm oil, sold mainly through quick-commerce apps in 9 cities market size India CAGR",
+    "retrieved_at": "2026-10-27T06:42:17.753801Z",
+    "snippet": "India Millets Based Snacks Market is projected to grow from USD 1.03 billion in 2026 to USD 3.09 billion by 2034, at a CAGR of 14.70%.",
+    "title": "India Millets Based Snacks Market Growth Analysis, and Report 2026-34",
+    "url": "https://www.thereportcubes.com/report-store/millets-based-snacks-market-india"
+   },
+   {
+    "query": "Consumer & D2C Roasted millet snacks with no palm oil, sold mainly through quick-commerce apps in 9 cities market size India CAGR",
+    "retrieved_at": "2026-10-27T06:42:17.753801Z",
+    "snippet": "The global millet snacks market size was valued at USD 1,542.70 million in 2025. The market is projected to grow from USD 1,736.77 million in 2026 to USD 4,725.13 million by 2034, exhibiting a CAGR of 13.33% during the forecast period. Asia Pacific dominated the millet snacks market with a market share of 56.59% in 2025. Millet snacks are savory or baked packaged foods made entirely or partly ...",
+    "title": "Millet Snacks Market Size, Share | Forecast Report [2026-2034]",
+    "url": "https://www.fortunebusinessinsights.com/millet-snacks-market-111107"
+   },
+   {
+    "query": "Consumer & D2C Roasted millet snacks with no palm oil, sold mainly through quick-commerce apps in 9 cities market size India CAGR",
+    "retrieved_at": "2026-10-27T06:42:17.753801Z",
+    "snippet": "The Millet Snacks Market worth USD 2.46 billion in 2026 is growing at a CAGR of 10.76% to reach USD 4.10 billion by 2031. Nestl\u00e9 S.A., Tata Consumer Products, ITC Limited, Kellanova and Minkan Agro Industries Private Limited are the major companies operating in this market.",
+    "title": "Millet Snacks Market Size, Share & 2031 Growth Trends Report",
+    "url": "https://www.mordorintelligence.com/industry-reports/millet-snacks-market"
+   },
+   {
+    "query": "Consumer & D2C Roasted millet snacks with no palm oil, sold mainly through quick-commerce apps in 9 cities market size India CAGR",
+    "retrieved_at": "2026-10-27T06:42:17.753801Z",
+    "snippet": "The North American market remains the largest, driven by a growing demand for health-oriented snack options. In the Asia-Pacific region, the millet snacks market is rapidly expanding, fueled by increasing consumer awareness of health benefits. Sweet millet snacks dominate the market, while savory options are emerging as the fastest-growing segment. Rising health consciousness and ...",
+    "title": "Millet Snacks Market Size, Share, Industry Report, Forecast 2035",
+    "url": "https://www.marketresearchfuture.com/reports/millet-snacks-market-24779"
+   },
+   {
+    "query": "Consumer & D2C Roasted millet snacks with no palm oil, sold mainly through quick-commerce apps in 9 cities market size India CAGR",
+    "retrieved_at": "2026-10-27T06:42:17.753801Z",
+    "snippet": "The launch comes as the Indian millet market is projected to grow at a CAGR of 12.7%. Millwize\u2122 addresses this demand with a \"Zero-Compromise\" manifesto: 0% Refined Sugar (Date/jaggery-sweetened), 0% Palm Oil, 0% Maida, 0% Trans Fat, and zero artificial colours or flavours.",
+    "title": "India's 1st Scientific D2C Millet Startup Millwize\u2122 Disrupts $2 Billio",
+    "url": "https://millwize.in/blogs/posts/india-s-1st-scientific-d2c-millet-startup-millwize\u2122-disrupts-2-billion-superfood-market-unveils-global-ready-zero-compromise-snacking-range"
+   },
+   {
+    "query": "Tattva Foods Consumer & D2C competitors funding India",
+    "retrieved_at": "2026-10-27T06:42:21.918521Z",
+    "snippet": "D2C food brand Anveshan has raised \u20b9150 Cr (around $15.8 Mn) in its Series B funding round led by Vertex Ventures Southeast Asia & India. The round also saw participation from World Bank Group's International Finance Corporation, Swiggy cofounder ...",
+    "title": "D2C food brand Anveshan bags \u20b9150 cr in series B funding",
+    "url": "https://www.msn.com/en-in/foodanddrink/other/d2c-food-brand-anveshan-bags-150-cr-in-series-b-funding/ar-AA24wJNZ"
+   },
+   {
+    "query": "Tattva Foods Consumer & D2C competitors funding India",
+    "retrieved_at": "2026-10-27T06:42:21.918521Z",
+    "snippet": "D2C food brand Anveshan has raised \u20b9150 Cr (around $15.8 Mn) in its Series B funding round led by Vertex Ventures Southeast Asia & India. The round also saw participation from World Bank Group\u2019s ...",
+    "title": "D2C food brand Anveshan bags \u20b9150 cr in series B funding",
+    "url": "https://www.msn.com/en-in/foodanddrink/other/d2c-food-brand-anveshan-bags-150-cr-in-series-b-funding/ar-AA24wJNZ?ocid=BingNewsVerp"
+   }
+  ]
+ },
+ "input_hash": "8d473e8f72122aa576da746deceb6561920a60ae123c49b7ef16632f7e698280"
+}

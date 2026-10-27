@@ -132,8 +132,8 @@ body {
 
 html,
 body {
-  background: #ffffff !important;
-  color: #000000 !important;
+  background: #ffffff;
+  color: #0f172a;
 }
 
 
@@ -141,16 +141,7 @@ body {
 input,
 textarea,
 select {
-  background: #ffffff !important;
-  color: #000000 !important;
-  border-color: #d4d4d8 !important;
-}
-
-[class*="text-[9px]"],
-[class*="text-[10px]"],
-[class*="text-[11px]"],
-[class*="text-[12px]"] {
-  font-size: 0.95rem !important;
+  color: #0f172a;
 }
 
 @layer utilities {

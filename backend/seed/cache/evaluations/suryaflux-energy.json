@@ -1,0 +1,382 @@
+{
+ "analysis": {
+  "category_scores": {
+   "business_model": 6.0,
+   "execution_risk": 6.0,
+   "market": 6.0,
+   "moat": 4.0,
+   "product": 6.0,
+   "team": 6.0,
+   "traction": 6.0
+  },
+  "citations": {
+   "c:27t7vyj": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.90792,
+     0.82977
+    ],
+    "chunk_id": "b211ca69-b0b4-54ad-9114-cb770b01fdd7",
+    "document_id": "2109c414-d0d4-452a-8562-f6762ea8fc8a",
+    "page_no": 6,
+    "slide_title": "Traction (as of FY2026)",
+    "type": "deck"
+   },
+   "c:47e6tdq": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.74355,
+     0.45481
+    ],
+    "chunk_id": "51702be0-f3ae-5ddb-9f3b-30f55b7506c3",
+    "document_id": "2109c414-d0d4-452a-8562-f6762ea8fc8a",
+    "page_no": 7,
+    "slide_title": "Unit Economics",
+    "type": "deck"
+   },
+   "c:4ztixs7": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.9231,
+     0.53841
+    ],
+    "chunk_id": "3f2c6c08-2558-53f9-808d-36344bf159b0",
+    "document_id": "2109c414-d0d4-452a-8562-f6762ea8fc8a",
+    "page_no": 2,
+    "slide_title": "Problem",
+    "type": "deck"
+   },
+   "c:77yo463": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.84386,
+     0.63853
+    ],
+    "chunk_id": "e7788f96-24ff-5903-81b2-e72b6db83ac6",
+    "document_id": "2109c414-d0d4-452a-8562-f6762ea8fc8a",
+    "page_no": 9,
+    "slide_title": "Go-to-Market & Key Risks",
+    "type": "deck"
+   },
+   "c:b4ekyce": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.89162,
+     0.4682
+    ],
+    "chunk_id": "7ea4e3da-c580-5446-8b29-e3c1f86da830",
+    "document_id": "2109c414-d0d4-452a-8562-f6762ea8fc8a",
+    "page_no": 4,
+    "slide_title": "Market Opportunity (TAM / SAM / SOM)",
+    "type": "deck"
+   },
+   "c:frqeeid": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.92664,
+     0.57474
+    ],
+    "chunk_id": "450740bf-8344-520f-b87b-f0977d30221d",
+    "document_id": "2109c414-d0d4-452a-8562-f6762ea8fc8a",
+    "page_no": 10,
+    "slide_title": "Team",
+    "type": "deck"
+   },
+   "c:kvaezbh": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.92729,
+     0.69722
+    ],
+    "chunk_id": "ef2f1dba-54ae-5a20-adbe-0bee0200f73d",
+    "document_id": "2109c414-d0d4-452a-8562-f6762ea8fc8a",
+    "page_no": 11,
+    "slide_title": "The Ask",
+    "type": "deck"
+   },
+   "c:m2fuq6l": {
+    "bbox": [
+     0.05282,
+     0.0554,
+     0.95007,
+     0.70074
+    ],
+    "chunk_id": "e00fb9f0-f127-5c29-83e7-a477e21bc200",
+    "document_id": "2109c414-d0d4-452a-8562-f6762ea8fc8a",
+    "page_no": 8,
+    "slide_title": "Competitive Landscape",
+    "type": "deck"
+   },
+   "c:sjwhjgo": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.89534,
+     0.50907
+    ],
+    "chunk_id": "f8f639e1-c484-52d1-978a-df0dd428ef69",
+    "document_id": "2109c414-d0d4-452a-8562-f6762ea8fc8a",
+    "page_no": 3,
+    "slide_title": "Solution",
+    "type": "deck"
+   },
+   "c:ssyo43o": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.9317,
+     0.39357
+    ],
+    "chunk_id": "2dee09e5-cd84-507c-a93f-51f1fd4c3828",
+    "document_id": "2109c414-d0d4-452a-8562-f6762ea8fc8a",
+    "page_no": 5,
+    "slide_title": "Business Model",
+    "type": "deck"
+   },
+   "w:1": {
+    "title": "India Rooftop Solar Market Share, Companies & Trends Report 2026-2031",
+    "type": "web",
+    "url": "https://www.kenresearch.com/industry-reports/india-rooftop-solar-market"
+   },
+   "w:3": {
+    "title": "India Rooftop Solar Market Analysis: 2025 Leaders & Trends",
+    "type": "web",
+    "url": "https://www.mvapulse.com/india-rooftop-solar-market-analysis-2025-leaders-trends/"
+   },
+   "w:4": {
+    "title": "Top 5 Solar Energy Developers in India - 2026 (C&I)",
+    "type": "web",
+    "url": "https://fourthpartner.co/top-5-solar-energy-developers-in-india-2026/"
+   },
+   "w:7": {
+    "title": "India Solar Rooftop Market Size & Growth Analysis | 2035",
+    "type": "web",
+    "url": "https://www.expertmarketresearch.com/reports/india-solar-rooftop-market"
+   },
+   "w:9": {
+    "title": "Rooftop solar momentum builds in India but growth remains uneven",
+    "type": "web",
+    "url": "https://www.pv-tech.org/rooftop-solar-momentum-builds-in-india-but-growth-remains-uneven/"
+   }
+  },
+  "citations_removed": 0,
+  "compliance_flags": [],
+  "data_gaps": [
+   "TAM: no usable source excerpt with value, unit and period.",
+   "SAM: no usable source excerpt with value, unit and period.",
+   "SOM: no independent source found; the deck claims 160 INR crore (p.4).",
+   "Market trend unavailable: no sourced annual observations or publisher forecasts. No years were interpolated."
+  ],
+  "evidence_version": 2,
+  "generated_at": "2026-10-27T06:48:52.853756Z",
+  "input_hash": "27a7d69237a79e0842c5dc87cf988280015f7d253ecb98e2eb92aca0fb91a660",
+  "invalid_citations": [],
+  "market_sizing": {
+   "basis": "Only figures traceable to retrieved search excerpts are plotted as market data.",
+   "cagr_pct": 14.6,
+   "claims": {
+    "som_usd_b": {
+     "check": {
+      "status": "unverified"
+     },
+     "citation": {
+      "bbox": [
+       0.0677,
+       0.0554,
+       0.89162,
+       0.4682
+      ],
+      "chunk_id": "7ea4e3da-c580-5446-8b29-e3c1f86da830",
+      "cid": "c:b4ekyce",
+      "document_id": "2109c414-d0d4-452a-8562-f6762ea8fc8a",
+      "page_no": 4
+     },
+     "currency": "INR",
+     "geography": "Gujarat and Maharashtra, India",
+     "kind": "company_forecast",
+     "low_confidence": false,
+     "market": "5-year obtainable share of SAM",
+     "normalised": 1.6,
+     "period": "",
+     "quote": "SOM \u2014 5-year obtainable share of SAM: Rs 160 crore in 2030 (company projection)",
+     "retrieved_at": null,
+     "source_title": "SuryaFlux_Energy_Pitch_Deck.pdf, p.4",
+     "source_url": null,
+     "unit": "INR crore",
+     "value": 160.0,
+     "year": 2030
+    }
+   },
+   "evidence": {
+    "cagr_pct": {
+     "citation": null,
+     "geography": "India",
+     "kind": "source_forecast",
+     "low_confidence": false,
+     "market": "India Rooftop Solar Market",
+     "period": "2026-2031",
+     "quote": "The India Rooftop Solar Market worth USD 4,200 million in 2026 is growing at a CAGR of 14.60% to reach USD 9,514 million by 2031.",
+     "retrieved_at": "2026-10-27T06:46:30.815254Z",
+     "source_title": "India Rooftop Solar Market Share, Companies & Trends Report 2026-2031",
+     "source_url": "https://www.kenresearch.com/industry-reports/india-rooftop-solar-market",
+     "unit": "%",
+     "value": 14.6,
+     "year": null
+    }
+   },
+   "sam_usd_b": null,
+   "som_usd_b": null,
+   "tam_usd_b": null,
+   "trend": []
+  },
+  "model": "azure/deepSeek-V4-Flash",
+  "overall_score": 5.8,
+  "projected_revenue": [
+   {
+    "citation": {
+     "bbox": [
+      0.0677,
+      0.0554,
+      0.90792,
+      0.82977
+     ],
+     "chunk_id": "b211ca69-b0b4-54ad-9114-cb770b01fdd7",
+     "cid": "c:27t7vyj",
+     "document_id": "2109c414-d0d4-452a-8562-f6762ea8fc8a",
+     "page_no": 6
+    },
+    "geography": "",
+    "kind": "company_reported",
+    "low_confidence": false,
+    "market": "",
+    "metric": "ARR",
+    "period": "",
+    "quote": "Annualised revenue: Rs 15.9 crore in FY2026",
+    "retrieved_at": null,
+    "revenue": 159.0,
+    "source_title": "SuryaFlux_Energy_Pitch_Deck.pdf, p.6",
+    "source_url": null,
+    "unit": "INR crore",
+    "value": 15.9,
+    "year": 2026
+   }
+  ],
+  "recommendation_label": "Hold",
+  "report_markdown": "## 1. Executive Summary\n\nSuryaFlux Energy is a Series A climate startup raising Rs 35 crore at Rs 160 crore pre-money to scale its zero-capex rooftop solar and battery storage model for MSME factories. The company has 21 MWp operating across 164 sites in Gujarat and Maharashtra, 48 with battery storage, and annualised revenue of Rs 15.9 crore in FY2026, up 46% YoY [c:27t7vyj]. It sells power under 15-year PPAs at Rs 5.4/kWh, below typical industrial grid tariffs of Rs 7.5-9.5/kWh [c:4ztixs7][c:sjwhjgo]. The team of four co-founders has relevant domain experience in C&I solar, project finance, power electronics, and EPC/O&M [c:frqeeid]. The market is sizable (India rooftop solar CAGR 14-28% per web sources [w:1][w:7]), but the company's TAM/SAM/SOM figures are company-reported and unverified [c:b4ekyce]. Overall score 5.8/10, Hold.\n\n## 2. Problem & Solution\n\nMSME factories in India face high industrial power tariffs of Rs 7.5-9.5/kWh and frequent outages, but cannot fund rooftop solar upfront and are too small for most developers [c:4ztixs7]. SuryaFlux's solution is a solar-and-storage-as-a-service model: it finances, installs, owns, and maintains the system at no capex to the factory, selling power under a 15-year PPA at Rs 5.4/kWh, below grid tariffs, with optional battery storage at Rs 18,000/month per site to ride through outages and cut peak-demand charges [c:sjwhjgo]. The company provides remote monitoring with a 48-hour fault-response SLA [c:sjwhjgo]. This directly addresses the financing and sizing gap for MSMEs, a segment underserved by large developers who focus on larger C&I customers.\n\n## 3. Market Opportunity\n\nSuryaFlux targets the Indian MSME rooftop solar and storage market. The company estimates a TAM of Rs 18,000 crore and a SAM of Rs 2,600 crore in 2025, with a SOM of Rs 160 crore by 2030, all company-reported and unverified [c:b4ekyce]. Independent web sources indicate the broader India rooftop solar market is growing at a CAGR of 14-28% [w:1][w:7], with record additions of 7.1 GW in 2025 [w:3]. The commercial and industrial segment is a key driver, with major players like Tata Power Solar, Fourth Partner Energy, and CleanMax active [w:1][w:4]. However, the MSME sub-segment remains underserved due to financing barriers [w:9], presenting a niche opportunity for SuryaFlux's zero-capex model. The company's focus on Gujarat and Maharashtra, two industrial states, is logical for initial penetration.\n\n## 4. Competitive Landscape\n\nSuryaFlux competes with large rooftop solar EPC and OPEX players like Tata Power Solar and Fourth Partner Energy, which target larger C&I customers, and local EPC installers that offer only capex installations with little financing or O&M [c:m2fuq6l]. The company claims three edges: a credit-scoring model for MSME offtakers built on five years of billing and payment data, debt facilities priced for small-ticket projects, and in-house battery sizing and dispatch software [c:m2fuq6l]. These are execution advantages rather than defensible IP or switching costs; no patents or proprietary technology are mentioned. The moat is limited, as larger players could potentially replicate the model for MSMEs if they choose to enter the segment.\n\n## 5. Business Model\n\nSuryaFlux generates 93% of revenue from solar PPAs at Rs 5.4/kWh under 15-year contracts, and 7% from battery storage service at Rs 18,000/month per site [c:ssyo43o]. Projects are funded ~70% with debt and ~30% with equity [c:ssyo43o]. The company reports an asset gross margin of 71% after O&M, insurance, and roof lease costs, with 0% monthly churn and 0.4% payment defaults [c:ssyo43o][c:47e6tdq]. Unlevered project IRR is estimated at ~15.5% (company-reported) [c:47e6tdq]. However, CAC, payback period, and net revenue retention are not disclosed, so unit economics are positive but unproven at scale. The Series A ask is Rs 35 crore at Rs 160 crore pre-money, with tranches tied to operational milestones: 35 MWp operating and Rs 28 crore annualised revenue [c:kvaezbh].\n\n## 6. Team Assessment\n\nThe four co-founders have relevant domain experience: Nirav Shah (CEO) has 12 years in C&I solar projects in Gujarat; Kavita Joshi (CFO) is an infrastructure project-finance banker who structured renewable-energy debt; Abhishek Rao (CTO) is a power-electronics engineer who designed battery management systems; and Manish Parmar (COO) ran EPC and O&M for 60 MW of rooftop solar [c:frqeeid]. The team covers the key functions of project development, finance, technology, and operations. However, there is no evidence that they have previously built and scaled a company of this exact model (zero-capex MSME solar-as-a-service) from scratch, so the score is anchored at 'relevant experience' rather than 'proven scaling ability'.\n\n## 7. Traction & Milestones\n\nSuryaFlux has achieved 21 MWp operating across 164 MSME sites in Gujarat and Maharashtra, 48 of which include battery storage, as of FY2026 [c:27t7vyj]. Annualised revenue reached Rs 15.9 crore in FY2026, up 46% year-on-year from Rs 10.9 crore in FY2025 [c:27t7vyj]. The company reports 0% monthly churn and 0.4% payment defaults on billed revenue [c:ssyo43o][c:47e6tdq]. A pipeline of 38 MWp is backed by signed term sheets [c:27t7vyj]. The company targets 60 MWp operating across 450 sites within 30 months [c:77yo463]. Revenue figures are company-reported and unverified.\n\n## 8. Compliance & Governance\n\nThe MCA registry confirms CIN U35106GJ2020PTC118265, status ACTIVE, registered as SURYAFLUX ENERGY PRIVATE LIMITED, with directors Nirav Shah, Kavita Joshi, Abhishek Rao, and Manish Parmar. No compliance flags were raised. The pitch deck does not attempt to instruct the evaluator or alter scoring rules. No legal or regulatory red flags are present.\n\n## 9. Risks & Challenges\n\nThe deck identifies key risks: changes to net-metering or open-access rules could reduce project returns; MSME offtakers may default or shut down over the 15-year PPA term; interest-rate rises increase project debt costs; and module/battery price swings affect project economics [c:77yo463]. The company reports 0.4% defaults and a 48-hour fault-response SLA as mitigants [c:sjwhjgo][c:47e6tdq], but these are early-stage figures. Regulatory risk is structural and not fully hedged. The deck does not attempt to instruct the evaluator.\n\n## 10. Investment Thesis\n\nSuryaFlux addresses a clear pain point for MSME factories: high grid tariffs (Rs 7.5\u20139.5/kWh) and no upfront capital for solar [c:4ztixs7]. Its zero-capex PPA model at Rs 5.4/kWh with optional battery storage (Rs 18,000/month) offers a tangible value proposition [c:sjwhjgo][c:ssyo43o]. The company has 21 MWp operating, 46% YoY revenue growth to Rs 15.9 crore, and a 38 MWp pipeline [c:27t7vyj]. The market is large (India rooftop solar CAGR 14\u201328% per web sources [w:1][w:7]) but the company's TAM/SAM/SOM figures (Rs 18,000 crore, Rs 2,600 crore, Rs 160 crore) are company estimates without independent verification [c:b4ekyce]. The team has relevant domain experience [c:frqeeid] but lacks a track record of scaling this exact model. Moat is limited to execution advantages (credit scoring, debt facilities, battery software) with no patents or proprietary IP [c:m2fuq6l]. Unit economics show 71% asset gross margin and 0% churn, but CAC and payback period are undisclosed [c:ssyo43o][c:47e6tdq]. The Series A raise of Rs 35 crore at Rs 160 crore pre-money is structured in tranches tied to milestones [c:kvaezbh].\n\n## 11. Recommendation\n\n**Hold (5.8/10)**. SuryaFlux has a working product with early traction and a clear value proposition for a large, growing market. However, the moat is weak, market sizing is unverified, and key unit economics (CAC, payback) are missing. Execution risks around regulation and MSME defaults are acknowledged but not fully mitigated. The team is experienced but not proven at scale. The structured tranche raise provides some downside protection. Recommend monitoring pipeline conversion and margin expansion before committing.",
+  "revenue_currency": "INR",
+  "revenue_metric": "ARR",
+  "rewrites": 0,
+  "rubric_version": "r1",
+  "score_rationales": {
+   "business_model": "Pricing is defined (Rs 5.4/kWh PPA, Rs 18k/month storage), and early unit economics show 71% asset gross margin, 0% churn, and 0.4% defaults [c:ssyo43o][c:47e6tdq]. However, CAC, payback period, and net revenue retention are not provided, so unit economics are positive but unproven at scale.",
+   "execution_risk": "Typical early-stage risks are identified: regulatory changes (net-metering), MSME defaults, interest rate, and module price swings [c:77yo463]. The company has a complete team and some mitigation (0.4% defaults, 48-hour SLA), but risks are not fully mitigated. No legal or registry red flags.",
+   "market": "The company provides a TAM of Rs 18,000 crore and SAM of Rs 2,600 crore, but these are company estimates without independent source backing. The market is sizable and growing (India rooftop solar CAGR 14-28% per web sources), but the sizing is not independently verified. [c:b4ekyce], [w:1], [w:7]",
+   "moat": "The deck claims advantages in credit scoring, debt facilities for small projects, and in-house battery software [c:m2fuq6l], but these are execution advantages rather than defensible IP or switching costs. No patents or proprietary technology are mentioned, so moat is limited.",
+   "product": "SuryaFlux has a working product with 21 MWp operating across 164 MSME sites, 48 with battery storage, and paying customers under 15-year PPAs at a clear value proposition (Rs 5.4/kWh, below grid tariffs). However, there is no strong evidence of product-market fit metrics like retention or expansion beyond early-stage growth. [c:27t7vyj]",
+   "team": "The four co-founders have relevant domain experience: 12 years in C&I solar, project finance, power electronics, and EPC/O&M for 60 MW rooftop solar [c:frqeeid]. They form a complete team but lack evidence of having built/scaled a company of this exact model before, so score is at the 'relevant experience' anchor.",
+   "traction": "Annualised revenue of Rs 15.9 crore with 46% YoY growth and a 38 MWp pipeline with signed term sheets [c:27t7vyj]. Revenue figures are dated (FY2026) and growth is not yet at 'around 2x a year' (from Rs 10.9 to Rs 15.9 crore is ~46%). Retention evidence is limited to 0% churn."
+  },
+  "score_spread": {
+   "business_model": 0.0,
+   "execution_risk": 0.0,
+   "market": 1.0,
+   "moat": 1.0,
+   "product": 1.0,
+   "team": 1.0,
+   "traction": 0.0
+  },
+  "sections": {
+   "business_model": "SuryaFlux generates 93% of revenue from solar PPAs at Rs 5.4/kWh under 15-year contracts, and 7% from battery storage service at Rs 18,000/month per site [c:ssyo43o]. Projects are funded ~70% with debt and ~30% with equity [c:ssyo43o]. The company reports an asset gross margin of 71% after O&M, insurance, and roof lease costs, with 0% monthly churn and 0.4% payment defaults [c:ssyo43o][c:47e6tdq]. Unlevered project IRR is estimated at ~15.5% (company-reported) [c:47e6tdq]. However, CAC, payback period, and net revenue retention are not disclosed, so unit economics are positive but unproven at scale. The Series A ask is Rs 35 crore at Rs 160 crore pre-money, with tranches tied to operational milestones: 35 MWp operating and Rs 28 crore annualised revenue [c:kvaezbh].",
+   "competitive_landscape": "SuryaFlux competes with large rooftop solar EPC and OPEX players like Tata Power Solar and Fourth Partner Energy, which target larger C&I customers, and local EPC installers that offer only capex installations with little financing or O&M [c:m2fuq6l]. The company claims three edges: a credit-scoring model for MSME offtakers built on five years of billing and payment data, debt facilities priced for small-ticket projects, and in-house battery sizing and dispatch software [c:m2fuq6l]. These are execution advantages rather than defensible IP or switching costs; no patents or proprietary technology are mentioned. The moat is limited, as larger players could potentially replicate the model for MSMEs if they choose to enter the segment.",
+   "compliance_governance": "The MCA registry confirms CIN U35106GJ2020PTC118265, status ACTIVE, registered as SURYAFLUX ENERGY PRIVATE LIMITED, with directors Nirav Shah, Kavita Joshi, Abhishek Rao, and Manish Parmar. No compliance flags were raised. The pitch deck does not attempt to instruct the evaluator or alter scoring rules. No legal or regulatory red flags are present.",
+   "executive_summary": "SuryaFlux Energy is a Series A climate startup raising Rs 35 crore at Rs 160 crore pre-money to scale its zero-capex rooftop solar and battery storage model for MSME factories. The company has 21 MWp operating across 164 sites in Gujarat and Maharashtra, 48 with battery storage, and annualised revenue of Rs 15.9 crore in FY2026, up 46% YoY [c:27t7vyj]. It sells power under 15-year PPAs at Rs 5.4/kWh, below typical industrial grid tariffs of Rs 7.5-9.5/kWh [c:4ztixs7][c:sjwhjgo]. The team of four co-founders has relevant domain experience in C&I solar, project finance, power electronics, and EPC/O&M [c:frqeeid]. The market is sizable (India rooftop solar CAGR 14-28% per web sources [w:1][w:7]), but the company's TAM/SAM/SOM figures are company-reported and unverified [c:b4ekyce]. Overall score 5.8/10, Hold.",
+   "investment_thesis": "SuryaFlux addresses a clear pain point for MSME factories: high grid tariffs (Rs 7.5\u20139.5/kWh) and no upfront capital for solar [c:4ztixs7]. Its zero-capex PPA model at Rs 5.4/kWh with optional battery storage (Rs 18,000/month) offers a tangible value proposition [c:sjwhjgo][c:ssyo43o]. The company has 21 MWp operating, 46% YoY revenue growth to Rs 15.9 crore, and a 38 MWp pipeline [c:27t7vyj]. The market is large (India rooftop solar CAGR 14\u201328% per web sources [w:1][w:7]) but the company's TAM/SAM/SOM figures (Rs 18,000 crore, Rs 2,600 crore, Rs 160 crore) are company estimates without independent verification [c:b4ekyce]. The team has relevant domain experience [c:frqeeid] but lacks a track record of scaling this exact model. Moat is limited to execution advantages (credit scoring, debt facilities, battery software) with no patents or proprietary IP [c:m2fuq6l]. Unit economics show 71% asset gross margin and 0% churn, but CAC and payback period are undisclosed [c:ssyo43o][c:47e6tdq]. The Series A raise of Rs 35 crore at Rs 160 crore pre-money is structured in tranches tied to milestones [c:kvaezbh].",
+   "market_opportunity": "SuryaFlux targets the Indian MSME rooftop solar and storage market. The company estimates a TAM of Rs 18,000 crore and a SAM of Rs 2,600 crore in 2025, with a SOM of Rs 160 crore by 2030, all company-reported and unverified [c:b4ekyce]. Independent web sources indicate the broader India rooftop solar market is growing at a CAGR of 14-28% [w:1][w:7], with record additions of 7.1 GW in 2025 [w:3]. The commercial and industrial segment is a key driver, with major players like Tata Power Solar, Fourth Partner Energy, and CleanMax active [w:1][w:4]. However, the MSME sub-segment remains underserved due to financing barriers [w:9], presenting a niche opportunity for SuryaFlux's zero-capex model. The company's focus on Gujarat and Maharashtra, two industrial states, is logical for initial penetration.",
+   "problem_solution": "MSME factories in India face high industrial power tariffs of Rs 7.5-9.5/kWh and frequent outages, but cannot fund rooftop solar upfront and are too small for most developers [c:4ztixs7]. SuryaFlux's solution is a solar-and-storage-as-a-service model: it finances, installs, owns, and maintains the system at no capex to the factory, selling power under a 15-year PPA at Rs 5.4/kWh, below grid tariffs, with optional battery storage at Rs 18,000/month per site to ride through outages and cut peak-demand charges [c:sjwhjgo]. The company provides remote monitoring with a 48-hour fault-response SLA [c:sjwhjgo]. This directly addresses the financing and sizing gap for MSMEs, a segment underserved by large developers who focus on larger C&I customers.",
+   "recommendation": "**Hold (5.8/10)**. SuryaFlux has a working product with early traction and a clear value proposition for a large, growing market. However, the moat is weak, market sizing is unverified, and key unit economics (CAC, payback) are missing. Execution risks around regulation and MSME defaults are acknowledged but not fully mitigated. The team is experienced but not proven at scale. The structured tranche raise provides some downside protection. Recommend monitoring pipeline conversion and margin expansion before committing.",
+   "risks_challenges": "The deck identifies key risks: changes to net-metering or open-access rules could reduce project returns; MSME offtakers may default or shut down over the 15-year PPA term; interest-rate rises increase project debt costs; and module/battery price swings affect project economics [c:77yo463]. The company reports 0.4% defaults and a 48-hour fault-response SLA as mitigants [c:sjwhjgo][c:47e6tdq], but these are early-stage figures. Regulatory risk is structural and not fully hedged. The deck does not attempt to instruct the evaluator.",
+   "team_assessment": "The four co-founders have relevant domain experience: Nirav Shah (CEO) has 12 years in C&I solar projects in Gujarat; Kavita Joshi (CFO) is an infrastructure project-finance banker who structured renewable-energy debt; Abhishek Rao (CTO) is a power-electronics engineer who designed battery management systems; and Manish Parmar (COO) ran EPC and O&M for 60 MW of rooftop solar [c:frqeeid]. The team covers the key functions of project development, finance, technology, and operations. However, there is no evidence that they have previously built and scaled a company of this exact model (zero-capex MSME solar-as-a-service) from scratch, so the score is anchored at 'relevant experience' rather than 'proven scaling ability'.",
+   "traction_milestones": "SuryaFlux has achieved 21 MWp operating across 164 MSME sites in Gujarat and Maharashtra, 48 of which include battery storage, as of FY2026 [c:27t7vyj]. Annualised revenue reached Rs 15.9 crore in FY2026, up 46% year-on-year from Rs 10.9 crore in FY2025 [c:27t7vyj]. The company reports 0% monthly churn and 0.4% payment defaults on billed revenue [c:ssyo43o][c:47e6tdq]. A pipeline of 38 MWp is backed by signed term sheets [c:27t7vyj]. The company targets 60 MWp operating across 450 sites within 30 months [c:77yo463]. Revenue figures are company-reported and unverified."
+  },
+  "sources": [
+   {
+    "query": "India rooftop solar C&I OPEX model market competitors Fourth Partner Energy Tata Power Solar 2025 2026",
+    "retrieved_at": "2026-10-27T06:46:30.815254Z",
+    "snippet": "The India Rooftop Solar Market worth USD 4,200 million in 2026 is growing at a CAGR of 14.60% to reach USD 9,514 million by 2031. Tata Power Solar Systems, Amplus Solar, CleanMax, Fourth Partner Energy and SolarSquare Energy are the major companies operating in this market.",
+    "title": "India Rooftop Solar Market Share, Companies & Trends Report 2026-2031",
+    "url": "https://www.kenresearch.com/industry-reports/india-rooftop-solar-market"
+   },
+   {
+    "query": "India rooftop solar C&I OPEX model market competitors Fourth Partner Energy Tata Power Solar 2025 2026",
+    "retrieved_at": "2026-10-27T06:46:30.815254Z",
+    "snippet": "Executive Summary India's rooftop solar market is bubbling with new energy, even though there are major roadblocks. The country is likely to add a record-high 4 gigawatts (GW) of rooftop solar power capacity in fiscal year (FY) 2024, half of which has already been installed in the first four months, according to industry estimates. While the market for large creditworthy commercial ...",
+    "title": "PDF The Rooftop Solar Commercial & Industrial Market in India",
+    "url": "https://ieefa.org/sites/default/files/2023-08/IEEFA_JMK_Rooftop+Solar+Commercial+and+Industrial+Market_August+2023.pdf"
+   },
+   {
+    "query": "India rooftop solar C&I OPEX model market competitors Fourth Partner Energy Tata Power Solar 2025 2026",
+    "retrieved_at": "2026-10-27T06:46:30.815254Z",
+    "snippet": "The India rooftop solar market experienced a transformative year in 2025, recording a massive 123.3% growth to reach 7.1 GW of new capacity, up from 3.2 GW in 2024. This surge underscores the growing appetite for decentralized clean energy among commercial and industrial (C&I) consumers. As ...",
+    "title": "India Rooftop Solar Market Analysis: 2025 Leaders & Trends",
+    "url": "https://www.mvapulse.com/india-rooftop-solar-market-analysis-2025-leaders-trends/"
+   },
+   {
+    "query": "India rooftop solar C&I OPEX model market competitors Fourth Partner Energy Tata Power Solar 2025 2026",
+    "retrieved_at": "2026-10-27T06:46:30.815254Z",
+    "snippet": "As of 2026, the landscape for Commercial and Industrial (C&I) clean energy procurement is firmly led by a powerhouse tier of renewable energy developers: Fourth Partner Energy, Cleanmax, Gentari, Avaada, and Ampin. These top five developers have solidified their positions at the forefront of the market by offering highly tailored, corporate-centric solutions: ranging from on-site rooftop solar ...",
+    "title": "Top 5 Solar Energy Developers in India - 2026 (C&I)",
+    "url": "https://fourthpartner.co/top-5-solar-energy-developers-in-india-2026/"
+   },
+   {
+    "query": "India rooftop solar C&I OPEX model market competitors Fourth Partner Energy Tata Power Solar 2025 2026",
+    "retrieved_at": "2026-10-27T06:46:30.815254Z",
+    "snippet": "Updates on the emerging trends, opportunities and developments in the Indian solar market since July 2020.",
+    "title": "The rooftop solar commercial & industrial market in India - IEEFA",
+    "url": "https://ieefa.org/resources/rooftop-solar-commercial-industrial-market-india"
+   },
+   {
+    "query": "India rooftop solar market size CAGR 2025 2026 MSME industrial commercial",
+    "retrieved_at": "2026-10-27T06:46:31.123557Z",
+    "snippet": "Discover India Rooftop Solar market size, valued at 17.60 in 2025, with an 18.41% CAGR forecast. Understand growth drivers & trends.",
+    "title": "India Rooftop Solar Market Size: 17.60 (2025) & 18.41% CAGR | DMA ...",
+    "url": "https://www.datamarketanalysis.com/reports/india-rooftop-solar-market-size-growth-forecast"
+   },
+   {
+    "query": "India rooftop solar market size CAGR 2025 2026 MSME industrial commercial",
+    "retrieved_at": "2026-10-27T06:46:31.123557Z",
+    "snippet": "The India solar rooftop market attained a volume of 17.59 Gigawatt in 2025 and may hit 214.25 Gigawatt by 2035, with a CAGR of 28.40%.",
+    "title": "India Solar Rooftop Market Size & Growth Analysis | 2035",
+    "url": "https://www.expertmarketresearch.com/reports/india-solar-rooftop-market"
+   },
+   {
+    "query": "India rooftop solar market size CAGR 2025 2026 MSME industrial commercial",
+    "retrieved_at": "2026-10-27T06:46:31.123557Z",
+    "snippet": "India rooftop solar panel market size valued at USD 2.5 Billion in 2025, projected to reach USD 4.5 Billion by 2034 at a CAGR of 6.55% (2026-2034).",
+    "title": "India Rooftop Solar Panel Market Size & Report 2026-2034",
+    "url": "https://www.imarcgroup.com/india-rooftop-solar-panel-market"
+   },
+   {
+    "query": "India rooftop solar startup funding Series A 2025 2026 battery storage venture capital",
+    "retrieved_at": "2026-10-27T06:46:32.500956Z",
+    "snippet": "India\u2019s rooftop solar sector is finally showing signs of catching up with the country\u2019s utility-scale success story. Long constrained by high upfront costs, financing barriers and administrative ...",
+    "title": "Rooftop solar momentum builds in India but growth remains uneven",
+    "url": "https://www.pv-tech.org/rooftop-solar-momentum-builds-in-india-but-growth-remains-uneven/"
+   },
+   {
+    "query": "India rooftop solar startup funding Series A 2025 2026 battery storage venture capital",
+    "retrieved_at": "2026-10-27T06:46:32.500956Z",
+    "snippet": "The scheme targets the installation of rooftop PV systems across ten million low- and middle-income households, adding 30GW of residential solar capacity by FY2027. Image: ADB. The Asian Development ...",
+    "title": "ADB commits US$850 million to support India\u2019s 30GW rooftop solar rollout",
+    "url": "https://www.pv-tech.org/adb-commits-us850-million-to-support-indias-30gw-rooftop-solar-rollout/"
+   }
+  ]
+ },
+ "input_hash": "27a7d69237a79e0842c5dc87cf988280015f7d253ecb98e2eb92aca0fb91a660"
+}

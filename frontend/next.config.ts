@@ -12,6 +12,14 @@ const nextConfig: NextConfig = {
     return [
       { source: "/auth/investor", destination: "/register?role=investor", permanent: false },
       { source: "/auth/startup", destination: "/register?role=startup", permanent: false },
+      // Pages from the wallet-based version
+      { source: "/evaluations", destination: "/investor", permanent: false },
+      { source: "/evaluation/:id", destination: "/investor", permanent: false },
+      { source: "/proposal/:id", destination: "/investor", permanent: false },
+      { source: "/finscope", destination: "/investor", permanent: false },
+      { source: "/exit-window", destination: "/wallet", permanent: false },
+      { source: "/portfolio", destination: "/wallet", permanent: false },
+      { source: "/startup", destination: "/founder", permanent: false },
     ];
   },
   experimental: {

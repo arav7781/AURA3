@@ -1,0 +1,486 @@
+{
+ "analysis": {
+  "category_scores": {
+   "business_model": 7.0,
+   "execution_risk": 4.7,
+   "market": 5.0,
+   "moat": 5.0,
+   "product": 6.0,
+   "team": 6.3,
+   "traction": 6.0
+  },
+  "citations": {
+   "c:27mfbzj": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.91166,
+     0.65193
+    ],
+    "chunk_id": "383cb69d-7772-5480-b8f5-0543c4c6d6ab",
+    "document_id": "f40d3fb5-764e-47de-a03b-9b220e652666",
+    "page_no": 11,
+    "slide_title": "The Ask",
+    "type": "deck"
+   },
+   "c:6nknqjs": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.56791,
+     0.57729
+    ],
+    "chunk_id": "1e466488-50ea-584f-bfed-277eddb6a999",
+    "document_id": "f40d3fb5-764e-47de-a03b-9b220e652666",
+    "page_no": 7,
+    "slide_title": "Unit Economics",
+    "type": "deck"
+   },
+   "c:6ojc2t3": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.88776,
+     0.63853
+    ],
+    "chunk_id": "08ee74f8-34cb-5936-9bb2-5148d3661de0",
+    "document_id": "f40d3fb5-764e-47de-a03b-9b220e652666",
+    "page_no": 9,
+    "slide_title": "Go-to-Market & Key Risks",
+    "type": "deck"
+   },
+   "c:ahrnpc2": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.92414,
+     0.42291
+    ],
+    "chunk_id": "b135dcf6-8a8c-5b37-906d-43f03bdcedfa",
+    "document_id": "f40d3fb5-764e-47de-a03b-9b220e652666",
+    "page_no": 4,
+    "slide_title": "Market Opportunity (TAM / SAM / SOM)",
+    "type": "deck"
+   },
+   "c:dxdktxv": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.91414,
+     0.37762
+    ],
+    "chunk_id": "0cd8df49-231e-5f7f-854f-981a0e9e5e63",
+    "document_id": "f40d3fb5-764e-47de-a03b-9b220e652666",
+    "page_no": 5,
+    "slide_title": "Business Model",
+    "type": "deck"
+   },
+   "c:hnv5cq4": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.90913,
+     0.50907
+    ],
+    "chunk_id": "8902828e-bc29-5de5-a0ad-b0c6d7e430b8",
+    "document_id": "f40d3fb5-764e-47de-a03b-9b220e652666",
+    "page_no": 3,
+    "slide_title": "Solution",
+    "type": "deck"
+   },
+   "c:iemawqi": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.91614,
+     0.50907
+    ],
+    "chunk_id": "bf6720f7-eb2a-5d1e-9435-de9415ab383f",
+    "document_id": "f40d3fb5-764e-47de-a03b-9b220e652666",
+    "page_no": 1,
+    "slide_title": "MediScan Diagnostics",
+    "type": "deck"
+   },
+   "c:jugsnr3": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.92414,
+     0.4682
+    ],
+    "chunk_id": "075ef227-bcb6-5a1e-8c65-7cd3f2791df2",
+    "document_id": "f40d3fb5-764e-47de-a03b-9b220e652666",
+    "page_no": 10,
+    "slide_title": "Team",
+    "type": "deck"
+   },
+   "c:lt24hls": {
+    "bbox": [
+     0.0581,
+     0.0554,
+     0.89937,
+     0.86388
+    ],
+    "chunk_id": "b0283519-b55d-5477-a3e3-36233487fcb2",
+    "document_id": "f40d3fb5-764e-47de-a03b-9b220e652666",
+    "page_no": 6,
+    "slide_title": "Traction (as of FY2026)",
+    "type": "deck"
+   },
+   "c:pavvvhl": {
+    "bbox": [
+     0.04908,
+     0.0554,
+     0.93143,
+     0.68171
+    ],
+    "chunk_id": "ed4f18ff-2436-5919-b79e-8873c730927c",
+    "document_id": "f40d3fb5-764e-47de-a03b-9b220e652666",
+    "page_no": 8,
+    "slide_title": "Competitive Landscape",
+    "type": "deck"
+   },
+   "c:t4y4aib": {
+    "bbox": [
+     0.0677,
+     0.0554,
+     0.9154,
+     0.53841
+    ],
+    "chunk_id": "9a4e80ce-57b1-52b8-9e8c-4dc891e0db73",
+    "document_id": "f40d3fb5-764e-47de-a03b-9b220e652666",
+    "page_no": 2,
+    "slide_title": "Problem",
+    "type": "deck"
+   },
+   "w:13": {
+    "title": "Qure.ai Investor Report 2026 \u2014 AI Radiology, $350M Valuation &amp; 90 ...",
+    "type": "web",
+    "url": "https://valueforstartups.in/qure-ai"
+   },
+   "w:14": {
+    "title": "Qure.ai - 2026 Company Profile &amp; Team - Tracxn",
+    "type": "web",
+    "url": "https://tracxn.com/d/companies/qureai/__QfqJ14wDyhMbUvOibApm4cgaquEx22FBbT11aIuIIFc"
+   },
+   "w:2": {
+    "title": "5C Network vs Lunit: AI Radiology Comparison [2026]",
+    "type": "web",
+    "url": "https://www.5cnetwork.com/compare/5c-vs-lunit"
+   },
+   "w:3": {
+    "title": "5C Network - 2026 Company Profile, Team, Funding, Competitors ... - Tracxn",
+    "type": "web",
+    "url": "https://tracxn.com/d/companies/5cnetwork/__urUNKy836saXV4z0roBJobP9GclO5Qip-C6OwFFvRGo"
+   },
+   "w:6": {
+    "title": "Global Telehealth Market Size, Share, Growth, Trends, and Forecast 2026-2035 | AI and Cloud-Based Care Drive 23% CAGR Toward USD 1.20 Trillion by 2035",
+    "type": "web",
+    "url": "https://finance.yahoo.com/healthcare/articles/global-telehealth-market-size-share-155900468.html"
+   },
+   "w:7": {
+    "title": "Medical X-Ray Detectors Market - Global and Regional Analysis, 2026-2036 | Market to Reach $4.72 Billion as AI-Enabled Imaging and Flat-Panel Detectors Drive Growth",
+    "type": "web",
+    "url": "https://finance.yahoo.com/healthcare/articles/medical-x-ray-detectors-market-094400162.html"
+   }
+  },
+  "citations_removed": 0,
+  "compliance_flags": [],
+  "data_gaps": [
+   "TAM: no usable source excerpt with value, unit and period.",
+   "CAGR: no usable source excerpt with value, unit and period.",
+   "SAM: no independent source found; the deck claims 420 INR crore (p.4).",
+   "SOM: no independent source found; the deck claims 35 INR crore (p.4).",
+   "Market trend unavailable: no sourced annual observations or publisher forecasts. No years were interpolated."
+  ],
+  "evidence_version": 2,
+  "generated_at": "2026-10-26T19:35:12.286912Z",
+  "input_hash": "f04daa51735c81cf033aa2604a4442f570aaabdc0556c39fc12d7021b8ae851c",
+  "invalid_citations": [],
+  "market_sizing": {
+   "basis": "Only figures traceable to retrieved search excerpts are plotted as market data.",
+   "cagr_pct": null,
+   "claims": {
+    "sam_usd_b": {
+     "check": {
+      "status": "unverified"
+     },
+     "citation": {
+      "bbox": [
+       0.0677,
+       0.0554,
+       0.92414,
+       0.42291
+      ],
+      "chunk_id": "b135dcf6-8a8c-5b37-906d-43f03bdcedfa",
+      "cid": "c:ahrnpc2",
+      "document_id": "f40d3fb5-764e-47de-a03b-9b220e652666",
+      "page_no": 4
+     },
+     "currency": "INR",
+     "geography": "India",
+     "kind": "company_estimate",
+     "low_confidence": false,
+     "market": "Private multi-specialty hospitals with in-house CT",
+     "normalised": 4.2,
+     "period": "",
+     "quote": "SAM \u2014 Private multi-specialty hospitals with in-house CT: Rs 420 crore in 2025 (company estimate)",
+     "retrieved_at": null,
+     "source_title": "MediScan_Diagnostics_Pitch_Deck.pdf, p.4",
+     "source_url": null,
+     "unit": "INR crore",
+     "value": 420.0,
+     "year": 2025
+    },
+    "som_usd_b": {
+     "check": {
+      "status": "unverified"
+     },
+     "citation": {
+      "bbox": [
+       0.0677,
+       0.0554,
+       0.92414,
+       0.42291
+      ],
+      "chunk_id": "b135dcf6-8a8c-5b37-906d-43f03bdcedfa",
+      "cid": "c:ahrnpc2",
+      "document_id": "f40d3fb5-764e-47de-a03b-9b220e652666",
+      "page_no": 4
+     },
+     "currency": "INR",
+     "geography": "India",
+     "kind": "company_forecast",
+     "low_confidence": false,
+     "market": "3-year obtainable share of SAM",
+     "normalised": 0.35,
+     "period": "",
+     "quote": "SOM \u2014 3-year obtainable share of SAM: Rs 35 crore in 2029 (company projection)",
+     "retrieved_at": null,
+     "source_title": "MediScan_Diagnostics_Pitch_Deck.pdf, p.4",
+     "source_url": null,
+     "unit": "INR crore",
+     "value": 35.0,
+     "year": 2029
+    }
+   },
+   "evidence": {},
+   "sam_usd_b": null,
+   "som_usd_b": null,
+   "tam_usd_b": null,
+   "trend": []
+  },
+  "model": "azure/deepSeek-V4-Flash",
+  "overall_score": 5.8,
+  "projected_revenue": [
+   {
+    "citation": {
+     "bbox": [
+      0.0581,
+      0.0554,
+      0.89937,
+      0.86388
+     ],
+     "chunk_id": "b0283519-b55d-5477-a3e3-36233487fcb2",
+     "cid": "c:lt24hls",
+     "document_id": "f40d3fb5-764e-47de-a03b-9b220e652666",
+     "page_no": 6
+    },
+    "geography": "",
+    "kind": "company_reported",
+    "low_confidence": false,
+    "market": "",
+    "metric": "ARR",
+    "period": "",
+    "quote": "ARR: Rs 2.6 crore in FY2026",
+    "retrieved_at": null,
+    "revenue": 26.0,
+    "source_title": "MediScan_Diagnostics_Pitch_Deck.pdf, p.6",
+    "source_url": null,
+    "unit": "INR crore",
+    "value": 2.6,
+    "year": 2026
+   }
+  ],
+  "recommendation_label": "Hold",
+  "report_markdown": "## 1. Executive Summary\n\nMediScan Diagnostics is an AI triage software for chest X-rays and head CTs, live in 7 hospitals in Telangana and Andhra Pradesh, reading ~52,000 scans/month with an ARR of Rs 2.6 crore (FY2026, company-reported) [c:lt24hls]. The company is raising Rs 25 crore at Rs 140 crore pre-money (Series A) [c:iemawqi]. Unit economics are positive: 70% gross margin, 8.3-month CAC payback, 135% NRR, and zero churn [c:6nknqjs]. However, key risks include pending CDSCO approval (a regulatory blocker), reliance on company-reported market sizes (TAM Rs 1,800 crore, SAM Rs 420 crore, SOM Rs 35 crore) without independent validation, and competition from well-funded players like Qure.ai ($125M raised, $25M ARR) [c:ahrnpc2][w:13]. The team has relevant domain expertise but lacks prior startup scaling experience [c:jugsnr3]. Overall score: 5.8/10, Hold.\n\n## 2. Problem & Solution\n\n**Problem:** Radiology queues operate first-in, first-out, so life-threatening findings (e.g., pneumothorax, intracranial bleed) can wait hours behind routine studies, especially at night. Reporting backlogs of 6\u201324 hours are common at mid-size Indian hospitals, and night-time CT reads are often outsourced to teleradiology at Rs 150\u2013400 per study (company estimates) [c:t4y4aib].\n\n**Solution:** MediScan's AI reads every scan on arrival and reorders the worklist so critical cases are reported first. It detects pneumothorax, pleural effusion, and nodules on chest X-rays, and flags suspected intracranial bleeds on non-contrast head CTs. The software integrates with existing hospital PACS and RIS, requiring no new screens for radiologists, and alerts the on-call radiologist via app and SMS within minutes [c:hnv5cq4]. In a single-site study (company-reported), median time to report flagged head CTs was cut from 74 to 21 minutes [c:lt24hls].\n\n## 3. Market Opportunity\n\nMediScan targets the AI-assisted radiology software market for Indian hospitals and imaging centres. The company estimates a TAM of Rs 1,800 crore (2025), a SAM of Rs 420 crore (2025) for private multi-specialty hospitals with in-house CT, and a SOM of Rs 35 crore (2029, 3-year projection) [c:ahrnpc2]. All market sizing figures are company-reported and unverified; no independent third-party sources were provided. The broader telehealth and AI-enabled imaging markets are growing globally (23% CAGR forecast for telehealth to 2035, AI-enabled imaging driving growth in X-ray detectors) [w:6][w:7], but no specific India radiology AI market forecast was sourced. The SOM of Rs 35 crore implies a ~8% share of SAM, which appears plausible given MediScan's current 7-hospital base and target of 25 hospitals in 24 months [c:6ojc2t3].\n\n## 4. Competitive Landscape\n\nMediScan competes with established AI radiology vendors: Qure.ai (series D, $125M raised, $25M ARR, 40+ FDA clearances, 90+ countries) [w:13][w:14]; 5C Network (series A, $12.1M raised, AI-powered radiology platform with 400+ radiologists) [w:2][w:3]; and Lunit (South Korea, AI for chest X-ray and mammography) [c:pavvvhl]. MediScan claims two edges: deep PACS/RIS integration in each hospital's workflow, and a proprietary dataset of 1.1 million Indian scans annotated by in-house radiologists (company-reported) [c:pavvvhl]. However, Qure.ai and 5C Network have broader offerings and larger deployments, and MediScan's regulatory approval is still pending, limiting its ability to compete for hospital contracts that require CDSCO clearance [c:6ojc2t3][c:lt24hls].\n\n## 5. Business Model\n\nMediScan charges a per-scan fee of Rs 35 (84% of revenue) plus a hospital platform fee of Rs 50,000 per month (16% of revenue) covering PACS integration and support [c:dxdktxv]. Gross margin is 70% after GPU and cloud costs [c:dxdktxv]. Unit economics are positive: CAC is Rs 1,800,000 per hospital, CAC payback is 8.3 months, NRR is 135%, and monthly churn is 0% (no hospital has churned to date) [c:6nknqjs]. The payback period is slightly above the 6-month threshold for a higher score but remains under 12 months. The tranched funding structure (35% at close, 35% upon CDSCO licence, 30% at 20 hospitals live) mitigates some execution risk but ties capital to regulatory milestones [c:27mfbzj].\n\n## 6. Team Assessment\n\nThe founding team has relevant domain expertise: Sneha Reddy (CEO) is a radiologist (MD) with 9 years at tertiary-care hospitals in Hyderabad; Arjun Varma (CTO) is a computer-vision engineer with 6 years in medical-imaging AI; Priyanka Das (Regulatory & Quality) was a quality and regulatory manager at a medical-device maker [c:jugsnr3]. However, none of the founders have prior startup scaling or proven operational track record in building a company of this size, which limits the team score to 6.3. The team's deep clinical and technical knowledge is a strength, but the lack of commercial scaling experience is a gap for a Series A company targeting 25 hospitals in 24 months [c:6ojc2t3].\n\n## 7. Traction & Milestones\n\n**Traction & Milestones**\n\n- **ARR growth:** Rs 0.6 crore (FY2024) \u2192 Rs 1.4 crore (FY2025) \u2192 Rs 2.6 crore (FY2026), roughly 2x year-over-year (company-reported, unverified) [c:lt24hls].\n- **Live deployments:** 7 hospitals in Telangana and Andhra Pradesh, reading ~52,000 scans/month [c:lt24hls].\n- **Clinical impact (single-site study):** Median time to report flagged head CTs reduced from 74 to 21 minutes (company-reported, unverified) [c:lt24hls].\n- **Unit economics:** CAC payback 8.3 months, gross margin 70%, NRR 135%, zero monthly churn (company-reported, unverified) [c:6nknqjs].\n- **Regulatory milestone:** CDSCO medical-device licence applied for; approval pending [c:lt24hls].\n- **Funding structure:** Series A of Rs 25 crore at Rs 140 crore pre-money, with tranches tied to CDSCO approval and 20 live hospitals [c:27mfbzj].\n\n## 8. Compliance & Governance\n\n**Compliance & Governance**\n\n- **MCA registry:** CIN U86909TG2021PTC152794, status ACTIVE, registered as MEDISCAN DIAGNOSTICS PRIVATE LIMITED. Directors: Sneha Reddy, Arjun Varma, Priyanka Das. No compliance flags raised [c:iemawqi].\n- **Regulatory status:** CDSCO medical-device licence for the triage software has been applied for but is still pending. The tranched funding structure (35% at close, 35% upon CDSCO licence, 30% at 20 hospitals live) indicates the company itself views regulatory approval as a critical gate [c:27mfbzj].\n- **Data privacy:** No mention of DPDP Act 2023 compliance or data-localisation measures in the deck. Given that the software processes patient scans, this is a governance gap.\n- **Clinical liability:** The deck acknowledges risk if a critical finding is missed, but no specific indemnity or insurance coverage is disclosed [c:6ojc2t3].\n\n## 9. Risks & Challenges\n\n**Risks & Challenges**\n\n- **Regulatory blocker:** CDSCO approval is pending; delays could halt new hospital sales and trigger tranche 2 funding delays. The deck itself flags this as a key risk [c:6ojc2t3][c:27mfbzj].\n- **Clinical liability:** If the AI misses a critical finding (e.g., intracranial bleed), the company could face malpractice exposure. No disclosed insurance or indemnity framework [c:6ojc2t3].\n- **Long sales cycles:** Hospital PACS/RIS integration and procurement cycles are lengthy, as noted in the deck [c:6ojc2t3].\n- **Competition:** Qure.ai ($25M ARR, 40+ FDA clearances, global presence) and 5C Network (AI + 400+ radiologists) are well-funded, established players targeting the same hospitals [c:pavvvhl][w:13][w:2].\n- **Concentration risk:** All 7 live hospitals are in two states (Telangana, Andhra Pradesh); geographic expansion is unproven.\n- **Tranche dependency:** 65% of the raise is contingent on CDSCO approval and reaching 20 live hospitals, creating execution risk if milestones slip [c:27mfbzj].\n\n## 10. Investment Thesis\n\n**Investment Thesis**\n\nMediScan Diagnostics addresses a genuine clinical pain point: critical radiology findings delayed in FIFO queues. Its product is live, generating Rs 2.6 crore ARR with zero churn and 135% NRR, indicating strong initial product-market fit in its target hospitals [c:lt24hls][c:6nknqjs]. The per-scan pricing (Rs 35) and 70% gross margin suggest a scalable unit-economics model, and the 1.1 million annotated Indian scans provide a data moat that is hard to replicate quickly [c:dxdktxv][c:pavvvhl].\n\nHowever, the investment thesis is tempered by several factors. The market sizing (Rs 1,800 crore TAM) is company-estimated and lacks independent validation [c:ahrnpc2]. The pending CDSCO approval is a binary risk that could delay growth for 12+ months, and the tranched funding structure means only 35% of capital is available immediately [c:27mfbzj]. Competition from Qure.ai (Series D, $125M raised) and 5C Network (Series A, $12.1M) is formidable, and MediScan's differentiation\u2014deep PACS integration and local data\u2014is execution-based and not yet defensible [c:pavvvhl][w:13][w:3]. The team has strong domain expertise but no prior startup scaling experience [c:jugsnr3].\n\nAt a Rs 140 crore pre-money valuation (\u224854x FY2026 ARR), the price is rich for a pre-revenue-regulatory-clearance company. The upside case hinges on CDSCO approval within 12 months and rapid expansion to 25+ hospitals; the downside case includes regulatory delays, competitive pressure, and slow sales cycles.\n\n## 11. Recommendation\n\n**Recommendation: Hold (5.8/10)**\n\nMediScan Diagnostics shows promising early traction with a clear value proposition, strong unit economics, and a data moat. However, the pending CDSCO approval, high valuation multiple, and intense competition from well-funded incumbents create significant execution risk. The tranched funding structure mitigates some downside but also underscores the regulatory dependency. Investors should wait for CDSCO clearance and evidence of expansion beyond 7 hospitals before committing. Category scores: product 6.0, market 5.0, team 6.3, business_model 7.0, moat 5.0, execution_risk 4.7, traction 6.0.",
+  "revenue_currency": "INR",
+  "revenue_metric": "ARR",
+  "rewrites": 2,
+  "rubric_version": "r1",
+  "score_rationales": {
+   "business_model": "Pricing is clear (per-scan fee + platform fee), gross margin is 70%, CAC payback is 8.3 months (under 12 months), and NRR is 135% with zero churn. Positive unit economics are demonstrated, but payback is slightly above the 6-month threshold for a higher score. [c:6nknqjs][c:dxdktxv]",
+   "execution_risk": "Key risks include pending CDSCO approval (a regulatory blocker), clinical liability, long hospital sales cycles, and competition from established players. The tranched funding structure mitigates some risk but the regulatory gap is significant. [c:6ojc2t3][c:27mfbzj]",
+   "market": "The TAM (Rs 1,800 crore) and SAM (Rs 420 crore) are company estimates without independent third-party backing, and the SOM of Rs 35 crore is a projection. The market is sizable but the sizing lacks external validation. [c:ahrnpc2]",
+   "moat": "Deep PACS/RIS integration and 1.1 million annotated Indian scans provide some switching costs and data advantage, but competitors like Qure.ai and 5C Network have similar or broader offerings, and regulatory approval is pending. The moat is execution-based and not yet durable. [c:pavvvhl][c:6ojc2t3]",
+   "product": "MediScan has a working product used by paying customers at 7 hospitals, reading 52,000 scans/month, with a clear value proposition of triaging critical findings. However, it lacks strong evidence of product-market fit (e.g., retention or expansion metrics beyond a single-site study) and its differentiation is not yet defensible. [c:6ojc2t3]",
+   "team": "The founding team has relevant domain experience: a radiologist CEO, a computer-vision CTO, and a regulatory/quality co-founder. However, none have prior startup scaling or proven operational track record in building a company of this size, limiting the score to 6. [c:jugsnr3]",
+   "traction": "ARR grew from Rs 0.6 crore (FY2024) to Rs 2.6 crore (FY2026), roughly 2x year-over-year, with 52,000 scans/month and 7 hospitals live. However, the figures are dated (FY2026) and no retention or expansion data beyond a single-site study is provided, so growth is moderate but not exceptional. [c:lt24hls]"
+  },
+  "score_spread": {
+   "business_model": 1.0,
+   "execution_risk": 1.0,
+   "market": 1.0,
+   "moat": 1.0,
+   "product": 0.0,
+   "team": 1.0,
+   "traction": 0.0
+  },
+  "sections": {
+   "business_model": "MediScan charges a per-scan fee of Rs 35 (84% of revenue) plus a hospital platform fee of Rs 50,000 per month (16% of revenue) covering PACS integration and support [c:dxdktxv]. Gross margin is 70% after GPU and cloud costs [c:dxdktxv]. Unit economics are positive: CAC is Rs 1,800,000 per hospital, CAC payback is 8.3 months, NRR is 135%, and monthly churn is 0% (no hospital has churned to date) [c:6nknqjs]. The payback period is slightly above the 6-month threshold for a higher score but remains under 12 months. The tranched funding structure (35% at close, 35% upon CDSCO licence, 30% at 20 hospitals live) mitigates some execution risk but ties capital to regulatory milestones [c:27mfbzj].",
+   "competitive_landscape": "MediScan competes with established AI radiology vendors: Qure.ai (series D, $125M raised, $25M ARR, 40+ FDA clearances, 90+ countries) [w:13][w:14]; 5C Network (series A, $12.1M raised, AI-powered radiology platform with 400+ radiologists) [w:2][w:3]; and Lunit (South Korea, AI for chest X-ray and mammography) [c:pavvvhl]. MediScan claims two edges: deep PACS/RIS integration in each hospital's workflow, and a proprietary dataset of 1.1 million Indian scans annotated by in-house radiologists (company-reported) [c:pavvvhl]. However, Qure.ai and 5C Network have broader offerings and larger deployments, and MediScan's regulatory approval is still pending, limiting its ability to compete for hospital contracts that require CDSCO clearance [c:6ojc2t3][c:lt24hls].",
+   "compliance_governance": "**Compliance & Governance**\n\n- **MCA registry:** CIN U86909TG2021PTC152794, status ACTIVE, registered as MEDISCAN DIAGNOSTICS PRIVATE LIMITED. Directors: Sneha Reddy, Arjun Varma, Priyanka Das. No compliance flags raised [c:iemawqi].\n- **Regulatory status:** CDSCO medical-device licence for the triage software has been applied for but is still pending. The tranched funding structure (35% at close, 35% upon CDSCO licence, 30% at 20 hospitals live) indicates the company itself views regulatory approval as a critical gate [c:27mfbzj].\n- **Data privacy:** No mention of DPDP Act 2023 compliance or data-localisation measures in the deck. Given that the software processes patient scans, this is a governance gap.\n- **Clinical liability:** The deck acknowledges risk if a critical finding is missed, but no specific indemnity or insurance coverage is disclosed [c:6ojc2t3].",
+   "executive_summary": "MediScan Diagnostics is an AI triage software for chest X-rays and head CTs, live in 7 hospitals in Telangana and Andhra Pradesh, reading ~52,000 scans/month with an ARR of Rs 2.6 crore (FY2026, company-reported) [c:lt24hls]. The company is raising Rs 25 crore at Rs 140 crore pre-money (Series A) [c:iemawqi]. Unit economics are positive: 70% gross margin, 8.3-month CAC payback, 135% NRR, and zero churn [c:6nknqjs]. However, key risks include pending CDSCO approval (a regulatory blocker), reliance on company-reported market sizes (TAM Rs 1,800 crore, SAM Rs 420 crore, SOM Rs 35 crore) without independent validation, and competition from well-funded players like Qure.ai ($125M raised, $25M ARR) [c:ahrnpc2][w:13]. The team has relevant domain expertise but lacks prior startup scaling experience [c:jugsnr3]. Overall score: 5.8/10, Hold.",
+   "investment_thesis": "**Investment Thesis**\n\nMediScan Diagnostics addresses a genuine clinical pain point: critical radiology findings delayed in FIFO queues. Its product is live, generating Rs 2.6 crore ARR with zero churn and 135% NRR, indicating strong initial product-market fit in its target hospitals [c:lt24hls][c:6nknqjs]. The per-scan pricing (Rs 35) and 70% gross margin suggest a scalable unit-economics model, and the 1.1 million annotated Indian scans provide a data moat that is hard to replicate quickly [c:dxdktxv][c:pavvvhl].\n\nHowever, the investment thesis is tempered by several factors. The market sizing (Rs 1,800 crore TAM) is company-estimated and lacks independent validation [c:ahrnpc2]. The pending CDSCO approval is a binary risk that could delay growth for 12+ months, and the tranched funding structure means only 35% of capital is available immediately [c:27mfbzj]. Competition from Qure.ai (Series D, $125M raised) and 5C Network (Series A, $12.1M) is formidable, and MediScan's differentiation\u2014deep PACS integration and local data\u2014is execution-based and not yet defensible [c:pavvvhl][w:13][w:3]. The team has strong domain expertise but no prior startup scaling experience [c:jugsnr3].\n\nAt a Rs 140 crore pre-money valuation (\u224854x FY2026 ARR), the price is rich for a pre-revenue-regulatory-clearance company. The upside case hinges on CDSCO approval within 12 months and rapid expansion to 25+ hospitals; the downside case includes regulatory delays, competitive pressure, and slow sales cycles.",
+   "market_opportunity": "MediScan targets the AI-assisted radiology software market for Indian hospitals and imaging centres. The company estimates a TAM of Rs 1,800 crore (2025), a SAM of Rs 420 crore (2025) for private multi-specialty hospitals with in-house CT, and a SOM of Rs 35 crore (2029, 3-year projection) [c:ahrnpc2]. All market sizing figures are company-reported and unverified; no independent third-party sources were provided. The broader telehealth and AI-enabled imaging markets are growing globally (23% CAGR forecast for telehealth to 2035, AI-enabled imaging driving growth in X-ray detectors) [w:6][w:7], but no specific India radiology AI market forecast was sourced. The SOM of Rs 35 crore implies a ~8% share of SAM, which appears plausible given MediScan's current 7-hospital base and target of 25 hospitals in 24 months [c:6ojc2t3].",
+   "problem_solution": "**Problem:** Radiology queues operate first-in, first-out, so life-threatening findings (e.g., pneumothorax, intracranial bleed) can wait hours behind routine studies, especially at night. Reporting backlogs of 6\u201324 hours are common at mid-size Indian hospitals, and night-time CT reads are often outsourced to teleradiology at Rs 150\u2013400 per study (company estimates) [c:t4y4aib].\n\n**Solution:** MediScan's AI reads every scan on arrival and reorders the worklist so critical cases are reported first. It detects pneumothorax, pleural effusion, and nodules on chest X-rays, and flags suspected intracranial bleeds on non-contrast head CTs. The software integrates with existing hospital PACS and RIS, requiring no new screens for radiologists, and alerts the on-call radiologist via app and SMS within minutes [c:hnv5cq4]. In a single-site study (company-reported), median time to report flagged head CTs was cut from 74 to 21 minutes [c:lt24hls].",
+   "recommendation": "**Recommendation: Hold (5.8/10)**\n\nMediScan Diagnostics shows promising early traction with a clear value proposition, strong unit economics, and a data moat. However, the pending CDSCO approval, high valuation multiple, and intense competition from well-funded incumbents create significant execution risk. The tranched funding structure mitigates some downside but also underscores the regulatory dependency. Investors should wait for CDSCO clearance and evidence of expansion beyond 7 hospitals before committing. Category scores: product 6.0, market 5.0, team 6.3, business_model 7.0, moat 5.0, execution_risk 4.7, traction 6.0.",
+   "risks_challenges": "**Risks & Challenges**\n\n- **Regulatory blocker:** CDSCO approval is pending; delays could halt new hospital sales and trigger tranche 2 funding delays. The deck itself flags this as a key risk [c:6ojc2t3][c:27mfbzj].\n- **Clinical liability:** If the AI misses a critical finding (e.g., intracranial bleed), the company could face malpractice exposure. No disclosed insurance or indemnity framework [c:6ojc2t3].\n- **Long sales cycles:** Hospital PACS/RIS integration and procurement cycles are lengthy, as noted in the deck [c:6ojc2t3].\n- **Competition:** Qure.ai ($25M ARR, 40+ FDA clearances, global presence) and 5C Network (AI + 400+ radiologists) are well-funded, established players targeting the same hospitals [c:pavvvhl][w:13][w:2].\n- **Concentration risk:** All 7 live hospitals are in two states (Telangana, Andhra Pradesh); geographic expansion is unproven.\n- **Tranche dependency:** 65% of the raise is contingent on CDSCO approval and reaching 20 live hospitals, creating execution risk if milestones slip [c:27mfbzj].",
+   "team_assessment": "The founding team has relevant domain expertise: Sneha Reddy (CEO) is a radiologist (MD) with 9 years at tertiary-care hospitals in Hyderabad; Arjun Varma (CTO) is a computer-vision engineer with 6 years in medical-imaging AI; Priyanka Das (Regulatory & Quality) was a quality and regulatory manager at a medical-device maker [c:jugsnr3]. However, none of the founders have prior startup scaling or proven operational track record in building a company of this size, which limits the team score to 6.3. The team's deep clinical and technical knowledge is a strength, but the lack of commercial scaling experience is a gap for a Series A company targeting 25 hospitals in 24 months [c:6ojc2t3].",
+   "traction_milestones": "**Traction & Milestones**\n\n- **ARR growth:** Rs 0.6 crore (FY2024) \u2192 Rs 1.4 crore (FY2025) \u2192 Rs 2.6 crore (FY2026), roughly 2x year-over-year (company-reported, unverified) [c:lt24hls].\n- **Live deployments:** 7 hospitals in Telangana and Andhra Pradesh, reading ~52,000 scans/month [c:lt24hls].\n- **Clinical impact (single-site study):** Median time to report flagged head CTs reduced from 74 to 21 minutes (company-reported, unverified) [c:lt24hls].\n- **Unit economics:** CAC payback 8.3 months, gross margin 70%, NRR 135%, zero monthly churn (company-reported, unverified) [c:6nknqjs].\n- **Regulatory milestone:** CDSCO medical-device licence applied for; approval pending [c:lt24hls].\n- **Funding structure:** Series A of Rs 25 crore at Rs 140 crore pre-money, with tranches tied to CDSCO approval and 20 live hospitals [c:27mfbzj]."
+  },
+  "sources": [
+   {
+    "query": "5C Network Lunit India radiology AI market competitors 2025 2026",
+    "retrieved_at": "2026-10-26T19:31:32.694914Z",
+    "snippet": "Radiology AI in India in 2026: CDSCO regulation, vendor landscape, real use-cases, and what hospitals should actually buy versus what is marketing noise.",
+    "title": "Radiology AI in India: 2026 Hospital Guide | 5C",
+    "url": "https://www.5cnetwork.com/resources/radiology-ai-india-guide"
+   },
+   {
+    "query": "5C Network Lunit India radiology AI market competitors 2025 2026",
+    "retrieved_at": "2026-10-26T19:31:32.694914Z",
+    "snippet": "5C Network provides end-to-end radiology services with AI + 400+ radiologists delivering complete signed reports across all modalities. Lunit specializes in AI cancer detection (chest X-ray and mammography) providing detection alerts and scores, but requires your own radiologists for final interpretation and reporting.",
+    "title": "5C Network vs Lunit: AI Radiology Comparison [2026]",
+    "url": "https://www.5cnetwork.com/compare/5c-vs-lunit"
+   },
+   {
+    "query": "5C Network Lunit India radiology AI market competitors 2025 2026",
+    "retrieved_at": "2026-10-26T19:31:32.694914Z",
+    "snippet": "5C Network is a series A company based in Bengaluru (India), founded in 2017 by Kalyan Sivasailam, Venkat Mani, Syed Ahmed and Kalyan Sivasailam. It operates as a Provider of an AI-powered radiology platform. 5C Network has raised $12.1M in funding from investors like Axilor Ventures, Capria and Unitus Ventures, with a current valuation of \u20b9 *****. The company has 85 active competitors ...",
+    "title": "5C Network - 2026 Company Profile, Team, Funding, Competitors ... - Tracxn",
+    "url": "https://tracxn.com/d/companies/5cnetwork/__urUNKy836saXV4z0roBJobP9GclO5Qip-C6OwFFvRGo"
+   },
+   {
+    "query": "5C Network Lunit India radiology AI market competitors 2025 2026",
+    "retrieved_at": "2026-10-26T19:31:32.694914Z",
+    "snippet": "Radiology companies snapshot We're tracking Suraksha Diagnostic, 5C Network and more Radiology companies in India from the F6S community. Radiology forms part of the Healthcare industry, which is the 12th most popular industry and market group. If you're interested in the Healthcare market, also check out the top Health/Medical, Health, Wellness, Fitness or Medical Equipment companies.",
+    "title": "10 Top Radiology Companies in India \u00b7 October 2026 | F6S",
+    "url": "https://www.f6s.com/companies/radiology/india/co"
+   },
+   {
+    "query": "5C Network Lunit India radiology AI market competitors 2025 2026",
+    "retrieved_at": "2026-10-26T19:31:32.694914Z",
+    "snippet": "Top alternatives and competitors to 5C Network include Medica Group, CancerCenter.ai, I-MED Radiology Network, Visaris, Redcliffe Labs. These companies operate in related industries and serve comparable markets.",
+    "title": "5C Network (AI, Health Care) \u2014 Funding, Investors & Signals 2026",
+    "url": "https://bouncewatch.com/company/5c-network"
+   },
+   {
+    "query": "India AI radiology market size 2025 2026 CAGR growth forecast",
+    "retrieved_at": "2026-10-26T19:31:34.668618Z",
+    "snippet": "Cloud-based delivery, AI integration and remote patient monitoring drive adoption, while services lead by product and North America dominates.Dublin, Oct. 22, 2026 (GLOBE NEWSWIRE) -- \"Telehealth ...",
+    "title": "Global Telehealth Market Size, Share, Growth, Trends, and Forecast 2026-2035 | AI and Cloud-Based Care Drive 23% CAGR Toward USD 1.20 Trillion by 2035",
+    "url": "https://finance.yahoo.com/healthcare/articles/global-telehealth-market-size-share-155900468.html"
+   },
+   {
+    "query": "India AI radiology market size 2025 2026 CAGR growth forecast",
+    "retrieved_at": "2026-10-26T19:31:34.668618Z",
+    "snippet": "Drive ROI through AI-enabled imaging, detector miniaturization, dose reduction, targeted end-user marketing, regional expansion, and strategic healthcare partnerships.Dublin, Oct. (GLOBE NEWSWIRE) -- ...",
+    "title": "Medical X-Ray Detectors Market - Global and Regional Analysis, 2026-2036 | Market to Reach $4.72 Billion as AI-Enabled Imaging and Flat-Panel Detectors Drive Growth",
+    "url": "https://finance.yahoo.com/healthcare/articles/medical-x-ray-detectors-market-094400162.html"
+   },
+   {
+    "query": "CDSCO medical device software AI radiology regulation India 2025 2026",
+    "retrieved_at": "2026-10-26T19:31:35.020986Z",
+    "snippet": "Digital health developers, artificial intelligence (AI) medtech innovators, and multinational medical device manufacturers entering the Indian healthcare market face an evolving regulatory environment. On 21 July 2026, the Central Drugs Standard Control Organization (CDSCO), under the Ministry of Health and Family Welfare (MoHFW), Directorate General of Health Services, Government of India ...",
+    "title": "CDSCO Medical Device Software Guidance 2026: MDSW Classes, Portals ...",
+    "url": "https://meddeviceguide.com/blog/india-cdsco-medical-device-software-mdsw-guidance-2026-guide"
+   },
+   {
+    "query": "CDSCO medical device software AI radiology regulation India 2025 2026",
+    "retrieved_at": "2026-10-26T19:31:35.020986Z",
+    "snippet": "CDSCO registration for Software as a Medical Device (SaMD) &amp; AI diagnostic tools \u2014 classification, validation, process, and 2026 rules.",
+    "title": "CDSCO Registration for SaMD &amp; AI Diagnostics | MRDX",
+    "url": "https://mrdxregulatory.com/blog/cdsco-registration-samd-ai-diagnostic-tools-india-2026"
+   },
+   {
+    "query": "CDSCO medical device software AI radiology regulation India 2025 2026",
+    "retrieved_at": "2026-10-26T19:31:35.020986Z",
+    "snippet": "On October 21, 2025, the Central Drugs Standard Control Organisation (CDSCO) released draft guidance on Medical Device Software under the Medical Device Rules 2017, applying a risk-based classification to Software as a Medical Device, including AI radiology and diagnostic tools.",
+    "title": "Healthcare AI India 2026: CDSCO + DPDP compliance - ecorpit.com",
+    "url": "https://ecorpit.com/healthcare-ai-india-cdsco-dpdp-deployment-steps-2026/"
+   },
+   {
+    "query": "CDSCO medical device software AI radiology regulation India 2025 2026",
+    "retrieved_at": "2026-10-26T19:31:35.020986Z",
+    "snippet": "India Medical Device Software regulation update by CDSCO. Explore SaMD, AI/ML, risk classification, and compliance strategy for 2026 digital health.",
+    "title": "India Medical Device Software Regulation 2026 - mavenrs.com",
+    "url": "https://www.mavenrs.com/blog/india-medical-device-software-regulation-cdsco-samd-2026"
+   },
+   {
+    "query": "CDSCO medical device software AI radiology regulation India 2025 2026",
+    "retrieved_at": "2026-10-26T19:31:35.020986Z",
+    "snippet": "CDSCO now classifies AI medical software for diagnosis, treatment and monitoring as medical devices, requiring licensing under a new risk-based framework.",
+    "title": "CDSCO&#x27;s New Rules: AI Diagnostic Software Now Needs Medical Device ...",
+    "url": "https://the420.in/cdsco-ai-medical-software-device-classification-india/"
+   },
+   {
+    "query": "Qure.ai funding valuation India radiology AI 2025 2026",
+    "retrieved_at": "2026-10-26T19:31:35.098636Z",
+    "snippet": "Deep-dive on Qure.ai: $350M valuation, $125M raised, $25M ARR, 40+ FDA clearances, 90+ countries. AI-powered medical imaging for TB, lung cancer and stroke diagnosis. Free report.",
+    "title": "Qure.ai Investor Report 2026 \u2014 AI Radiology, $350M Valuation &amp; 90 ...",
+    "url": "https://valueforstartups.in/qure-ai"
+   },
+   {
+    "query": "Qure.ai funding valuation India radiology AI 2025 2026",
+    "retrieved_at": "2026-10-26T19:31:35.098636Z",
+    "snippet": "Qure.ai is a series D company based in Mumbai (India), founded in 2016 by Prashant Warier and Pooja Rao. It operates as a Developer of artificial intelligence software for medical imaging diagnostic analysis. Qure.ai has raised $123M in funding from investors like Merck, Merck Sharp &amp; Dohme and HealthQuad, with a current valuation of \u20b9 *****. The company has 801 active competitors, including ...",
+    "title": "Qure.ai - 2026 Company Profile &amp; Team - Tracxn",
+    "url": "https://tracxn.com/d/companies/qureai/__QfqJ14wDyhMbUvOibApm4cgaquEx22FBbT11aIuIIFc"
+   },
+   {
+    "query": "Qure.ai funding valuation India radiology AI 2025 2026",
+    "retrieved_at": "2026-10-26T19:31:35.098636Z",
+    "snippet": "Information on valuation, funding, cap tables, investors, and executives for Qure.ai. Use the PitchBook Platform to explore the full profile.",
+    "title": "Qure.ai 2026 Company Profile: Valuation, Funding &amp; Investors | PitchBook",
+    "url": "https://pitchbook.com/profiles/company/227468-62"
+   },
+   {
+    "query": "Qure.ai funding valuation India radiology AI 2025 2026",
+    "retrieved_at": "2026-10-26T19:31:35.098636Z",
+    "snippet": "Summary Qure AI is an Artificial Intelligence company based in Mumbai, India, founded in 2016. It has raised $121.0M in total across 4 rounds, most recently a $65.0M Grant round in Jan 2026. Investors include Sequoia Capital, Bill &amp;amp; Melinda Gates Foundation and Lightspeed VP.",
+    "title": "Qure AI Funding: $121.0M Raised, Investors &amp; History (2026) | Indexed.vc",
+    "url": "https://indexed.vc/companies/qure-ai"
+   },
+   {
+    "query": "Qure.ai funding valuation India radiology AI 2025 2026",
+    "retrieved_at": "2026-10-26T19:31:35.098636Z",
+    "snippet": "Qure. ai is an Indian artificial intelligence company founded in 2016 that develops machine learning solutions for diagnostic imaging in healthcare. The company operates in the AI Healthcare sector from India.",
+    "title": "Qure.ai: $270M Valuation | Funding &amp; Investors (2026) | Awaira",
+    "url": "https://awaira.com/company/qure-ai"
+   },
+   {
+    "query": "India hospital radiology AI adoption rate PACS integration 2025 2026",
+    "retrieved_at": "2026-10-26T19:31:41.900051Z",
+    "snippet": "NORP delivers statewide radiology coverage through a unified workflow while hospitals and imaging centers maintain their existing PACS and RIS environments SHERIDAN, Wyo., Aug. 31, 2026 /PRNewswire/ - ...",
+    "title": "RADIN\u2122 Health Announces Northern Oklahoma Radiology Physicians' Adoption of RADIN PACS + Dictation AI to Expand Remote Radiology Services Across Oklahoma",
+    "url": "https://www.morningstar.com/news/pr-newswire/20260831fl37187/radin-health-announces-northern-oklahoma-radiology-physicians-adoption-of-radin-pacs-dictation-ai-to-expand-remote-radiology-services-across-oklahoma"
+   },
+   {
+    "query": "AI medical imaging triage market size 2024 2025 2030 CAGR chest X-ray head CT critical findings",
+    "retrieved_at": "2026-10-26T19:31:42.910919Z",
+    "snippet": "Discover how top medical AI tools Aidoc, Arterys, and Gleamer enhance radiology imaging workflows with AI triage, flags, and decision\u2011support for faster reads and more accurate detection. Pixabay, ...",
+    "title": "How Top Medical AI Tools for Radiology Imaging with Aidoc Arterys and Gleamer Triage and Flags",
+    "url": "https://www.techtimes.com/articles/315400/20260325/how-top-medical-ai-tools-radiology-imaging-aidoc-arterys-gleamer-triage-flags.htm"
+   },
+   {
+    "query": "AI medical imaging triage market size 2024 2025 2030 CAGR chest X-ray head CT critical findings",
+    "retrieved_at": "2026-10-26T19:31:42.910919Z",
+    "snippet": "AI healthcare diagnosis is transforming modern medicine by leveraging machine learning to analyze patient data, medical images, and complex biomarkers. In some studies, AI achieves up to 90% ...",
+    "title": "AI Healthcare Diagnosis in 2025: Medical AI Tools Revolutionizing Accuracy",
+    "url": "https://www.techtimes.com/articles/313148/20251204/ai-healthcare-diagnosis-2025-medical-ai-tools-revolutionizing-accuracy.htm"
+   }
+  ]
+ },
+ "input_hash": "f04daa51735c81cf033aa2604a4442f570aaabdc0556c39fc12d7021b8ae851c"
+}
