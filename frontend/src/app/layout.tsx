@@ -1,10 +1,12 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Archivo, Hanken_Grotesk, Martian_Mono } from 'next/font/google'
 import './globals.css'
 import { Providers } from '@/components/Providers'
 import { Navbar } from '@/components/Navbar'
 
-const inter = Inter({ subsets: ['latin'] })
+const archivo = Archivo({ subsets: ['latin'], axes: ['wdth'], variable: '--font-archivo', display: 'swap' })
+const hanken = Hanken_Grotesk({ subsets: ['latin'], variable: '--font-hanken', display: 'swap' })
+const martian = Martian_Mono({ subsets: ['latin'], axes: ['wdth'], variable: '--font-martian', display: 'swap' })
 
 export const metadata: Metadata = {
   title: 'AURA3',
@@ -16,31 +18,15 @@ export const metadata: Metadata = {
   },
 }
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
-      <body className={`${inter.className} min-h-screen bg-white text-slate-900 text-[16px] selection:bg-sky-100`}>
+    <html lang="en" className={`${archivo.variable} ${hanken.variable} ${martian.variable}`}>
+      <body className="min-h-screen bg-white font-sans text-[16px] text-slate-900 selection:bg-sky-100">
         <Providers>
-            <div className="relative flex flex-col min-h-screen">
-              {/* Live Data Mesh - Moving Flow */}
-              <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden">
-                 {/* Grid texture that slow-scrolls upwards */}
-                 <div className="absolute inset-0 bg-[linear-gradient(rgba(3,225,255,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(3,225,255,0.03)_1px,transparent_1px)] bg-[size:50px_50px] [mask-image:radial-gradient(ellipse_60%_60%_at_50%_0%,#000_10%,transparent_100%)] opacity-60 animate-[pulse_8s_ease-in-out_infinite]" />
-                 
-                 {/* Ambient Blobs */}
-                 <div className="absolute -top-1/4 -right-1/4 w-[800px] h-[800px] bg-[#03e1ff]/[0.05] blur-[150px] rounded-full animate-[spin_12s_linear_infinite]" />
-                 <div className="absolute bottom-0 -left-1/4 w-[600px] h-[600px] bg-[#00ffbd]/[0.03] blur-[150px] rounded-full animate-[pulse_10s_ease-in-out_infinite]" />
-              </div>
-              
-              <Navbar />
-              <main className="flex-1 relative z-10 w-full">
-                {children}
-              </main>
-            </div>
+          <div className="relative flex min-h-screen flex-col">
+            <Navbar />
+            <main className="relative w-full flex-1">{children}</main>
+          </div>
         </Providers>
       </body>
     </html>

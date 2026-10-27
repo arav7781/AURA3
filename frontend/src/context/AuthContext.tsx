@@ -54,7 +54,7 @@ interface AuthContextType {
   has: (feature: string) => boolean;
   login: (email: string, password: string) => Promise<Me>;
   register: (input: RegisterInput) => Promise<Me>;
-  logout: () => Promise<void>;
+  logout: (redirectTo?: string) => Promise<void>;
   refresh: () => Promise<Me | null>;
 }
 
@@ -110,10 +110,17 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
     return signedIn();
   }, [signedIn]);
 
-  const logout = useCallback(async () => {
+  const logout = useCallback(async (redirectTo?: string) => {
     await api('/api/auth/logout', { method: 'POST' }).catch(() => undefined);
-    queryClient.clear();
+    if (redirectTo) {
+      // A full page load: no protected page gets to react to the signed-out state on the way out.
+      window.location.assign(redirectTo);
+      return;
+    }
+    // Update the query the provider is subscribed to first; clearing the whole cache would detach it
+    // and leave the signed-out user on screen.
     queryClient.setQueryData(ME_KEY, null);
+    queryClient.removeQueries({ predicate: query => query.queryKey[0] !== 'me' });
   }, [queryClient]);
 
   const has = useCallback((feature: string) => !!me?.entitlements.features.includes(feature), [me]);
