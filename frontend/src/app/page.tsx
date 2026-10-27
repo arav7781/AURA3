@@ -2,13 +2,16 @@
 
 import Link from 'next/link'
 import { motion } from 'framer-motion'
-import { ArrowRight, Bot, FileText, Network, ShieldCheck, Trophy } from 'lucide-react'
-import { EvidenceTrail } from '@/components/landing/EvidenceTrail'
+import { ArrowDown, ArrowRight, Bot, FileText, Network, ShieldCheck, Trophy } from 'lucide-react'
+import { HeroDesk } from '@/components/landing/HeroDesk'
 import { BrandMark, Wordmark } from '@/components/Navbar'
 import { useAuth, getDashboardPath } from '@/context/AuthContext'
 import { usePublicStats } from '@/lib/api/hooks'
 import { formatAC } from '@/lib/format'
 
+const EASE = [0.16, 1, 0.3, 1] as const
+const RISE = { hidden: { opacity: 0, y: 18 }, show: { opacity: 1, y: 0, transition: { duration: 0.8, ease: EASE } } }
+const LINE = { hidden: { y: '110%' }, show: { y: '0%', transition: { duration: 1, ease: EASE } } }
 const REVEAL = { initial: { opacity: 0, y: 22 }, whileInView: { opacity: 1, y: 0 }, viewport: { once: true, margin: '-60px' }, transition: { duration: 0.7, ease: [0.16, 1, 0.3, 1] as const } }
 
 const LEDGER = [
@@ -97,51 +100,54 @@ export default function LandingPage() {
 
   return (
     <div className="bg-paper text-ink">
-      <section className="relative isolate overflow-hidden bg-night text-mist">
-        <div className="absolute inset-0 -z-10 bg-[radial-gradient(55%_50%_at_80%_15%,rgb(31_150_112/.30),transparent_70%),radial-gradient(40%_40%_at_5%_100%,rgb(219_142_29/.13),transparent_70%)]" aria-hidden="true" />
-        <div className="absolute inset-0 -z-10 bg-[radial-gradient(rgb(232_240_236/.07)_1px,transparent_1px)] bg-[size:26px_26px] [mask-image:radial-gradient(70%_70%_at_70%_40%,black,transparent)]" aria-hidden="true" />
-        <Aura className="absolute -right-48 -top-40 -z-10 h-[64rem] w-[64rem]" />
-
-        <div className="mx-auto grid max-w-7xl grid-cols-[minmax(0,1fr)] items-center gap-14 px-5 pb-16 pt-32 sm:px-8 lg:grid-cols-[minmax(0,0.95fr)_minmax(0,1fr)] lg:pb-24 lg:pt-36">
-          <motion.div initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}>
-            <p className="inline-flex items-center gap-2 rounded-md border border-white/10 bg-white/[0.04] px-2.5 py-1 font-mono text-[0.7rem] text-mist-2">
-              <span className="h-1.5 w-1.5 rounded-full bg-jade-400" /> Evidence-first venture investing · India
+      <HeroDesk
+        footer={
+          <>
+            <p className="flex flex-wrap gap-x-6 gap-y-1 font-mono text-[0.7rem] text-mist-3">
+              <span><b className="font-medium text-mist">{stats.data?.startups_published ?? 25}</b> startups, every score cited</span>
+              <span><b className="font-medium text-mist">{stats.data ? Object.keys(stats.data.domains).length : 12}</b> domains</span>
+              <span><b className="font-medium text-mist">{stats.data?.investors ?? 6}</b> investors ranking</span>
+              {!home && <Link href="/login" className="text-mist-2 underline decoration-white/25 underline-offset-4 hover:text-white">Try a demo account</Link>}
             </p>
-            <h1 className="mt-7 font-display text-[clamp(3.1rem,6.3vw,6rem)] font-medium leading-[0.98] tracking-[-0.025em] text-white">
-              Every claim, traced to its <em className="font-display italic text-jade-300">source</em>.
-            </h1>
-            <p className="mt-7 max-w-[36rem] text-[clamp(1.05rem,1.25vw,1.2rem)] leading-relaxed text-mist-2">
-              AURA3 reads each pitch deck line by line, checks its numbers against the market and scores it on a fixed
-              rubric, so you can see exactly why a startup scored what it did, then back it with AuraCoin.
-            </p>
-            <div className="mt-9 flex flex-wrap items-center gap-3">
-              {home ? (
-                <Link href={home} className="inline-flex h-12 items-center gap-2 rounded-xl bg-jade-400 px-5 font-semibold text-night transition-colors hover:bg-jade-300">
-                  Go to your dashboard <ArrowRight className="h-4 w-4" />
+            <a href="#how" className="group inline-flex items-center gap-2 font-mono text-[0.7rem] text-mist-3 hover:text-white">
+              How it works <ArrowDown className="h-3.5 w-3.5 transition-transform group-hover:translate-y-0.5" />
+            </a>
+          </>
+        }
+      >
+        <motion.div initial="hidden" animate="show" variants={{ show: { transition: { staggerChildren: 0.08, delayChildren: 0.05 } } }}>
+          <motion.p variants={RISE} className="inline-flex items-center gap-2.5 font-mono text-[0.7rem] uppercase tracking-[0.12em] text-mist-2">
+            <span className="h-1.5 w-1.5 rounded-full bg-jade-400 shadow-[0_0_0_4px_rgb(63_174_132/.2)]" /> Evidence-first venture investing · India
+          </motion.p>
+          <h1 className="mt-7 font-display text-[clamp(3.3rem,6.8vw,7.1rem)] font-semibold leading-[0.9] tracking-[-0.035em] text-white">
+            {[<>Every claim,</>, <>traced to</>, <>its <em className="italic text-jade-300">source</em>.</>].map((line, i) => (
+              <span key={i} className="-mb-[0.12em] block overflow-hidden pb-[0.12em]">
+                <motion.span variants={LINE} className="block">{line}</motion.span>
+              </span>
+            ))}
+          </h1>
+          <motion.p variants={RISE} className="mt-8 max-w-[34ch] text-[clamp(1.06rem,1.3vw,1.24rem)] leading-[1.55] text-mist-2">
+            AURA3 reads every pitch deck line by line, checks its numbers against the market and scores it on a fixed
+            rubric. Every claim links back to the slide it came from.
+          </motion.p>
+          <motion.div variants={RISE} className="mt-9 flex flex-wrap items-center gap-3">
+            {home ? (
+              <Link href={home} className="group inline-flex h-[3.25rem] items-center gap-2 rounded-xl bg-jade-400 px-6 font-semibold text-night transition-colors hover:bg-jade-300">
+                Go to your dashboard <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
+              </Link>
+            ) : (
+              <>
+                <Link href="/register?role=investor" className="group inline-flex h-[3.25rem] items-center gap-2 rounded-xl bg-jade-400 px-6 font-semibold text-night transition-colors hover:bg-jade-300">
+                  Explore startups <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
                 </Link>
-              ) : (
-                <>
-                  <Link href="/register?role=investor" className="inline-flex h-12 items-center gap-2 rounded-xl bg-jade-400 px-5 font-semibold text-night transition-colors hover:bg-jade-300">
-                    Explore startups <ArrowRight className="h-4 w-4" />
-                  </Link>
-                  <Link href="/register?role=startup" className="inline-flex h-12 items-center rounded-xl border border-white/15 px-5 font-semibold text-white transition-colors hover:border-white/35 hover:bg-white/[0.04]">
-                    List your startup
-                  </Link>
-                </>
-              )}
-            </div>
-            <p className="mt-8 flex flex-wrap gap-x-5 gap-y-1 font-mono text-[0.7rem] text-mist-3">
-              <span>{stats.data?.startups_published ?? 25} startups</span>
-              <span>{stats.data ? Object.keys(stats.data.domains).length : 12} domains</span>
-              <span>every score cited</span>
-              {!home && <Link href="/login" className="text-mist-2 underline decoration-white/25 underline-offset-4 hover:text-white">try a demo account</Link>}
-            </p>
+                <Link href="/register?role=startup" className="inline-flex h-[3.25rem] items-center rounded-xl border border-white/15 bg-night/40 px-6 font-semibold text-white backdrop-blur-sm transition-colors hover:border-white/35">
+                  List your startup
+                </Link>
+              </>
+            )}
           </motion.div>
-          <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.9, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}>
-            <EvidenceTrail />
-          </motion.div>
-        </div>
-      </section>
+        </motion.div>
+      </HeroDesk>
 
       <section className="border-b border-line bg-paper-2">
         <div className="mx-auto max-w-7xl px-5 py-10 sm:px-8"><Figures /></div>

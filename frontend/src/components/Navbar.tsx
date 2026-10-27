@@ -48,7 +48,7 @@ export function Navbar() {
 
   return (
     <nav className={clsx('z-50 border-b', dark
-      ? 'absolute inset-x-0 top-0 border-white/10 text-mist'
+      ? 'absolute inset-x-0 top-0 border-transparent text-mist'
       : 'sticky top-0 border-line bg-paper-2/85 text-ink backdrop-blur-xl')}>
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-4 px-4 sm:px-6">
         <div className="flex min-w-0 items-center gap-8">
