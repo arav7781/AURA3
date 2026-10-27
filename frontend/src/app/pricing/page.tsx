@@ -10,8 +10,8 @@ export default function PricingPage() {
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12 space-y-8">
       <div className="text-center">
-        <p className="text-[11px] font-mono uppercase tracking-widest text-[#0284c7] mb-2">Pricing</p>
-        <h1 className="text-4xl font-black tracking-tight text-slate-900">Investors subscribe. Founders list free.</h1>
+        <p className="text-[11px] font-mono uppercase tracking-widest text-jade-600 mb-2">Pricing</p>
+        <h1 className="font-display text-[2.7rem] font-semibold leading-tight tracking-[-0.02em] text-ink">Investors subscribe. Founders list free.</h1>
         <p className="mt-2 text-slate-600 max-w-2xl mx-auto">
           Plans include monthly AuraCoin for voting and pledging in DAO rounds. Founders pay nothing to list or be
           evaluated; AURA3 keeps 2% of each milestone tranche released to them.
@@ -19,7 +19,7 @@ export default function PricingPage() {
       </div>
       <PlanCards current={me?.plan?.id} action={plan => (
         <Link href={me ? '/wallet#plans' : `/register?role=investor`}
-              className="block w-full rounded-lg bg-[#0284c7] px-4 py-2 text-center text-sm font-bold text-white hover:brightness-110">
+              className="block w-full rounded-lg bg-jade-600 px-4 py-2 text-center text-sm font-bold text-white hover:brightness-110">
           {me ? (me.plan?.id === plan.id ? 'Your plan' : `Choose ${plan.name}`) : `Start with ${plan.name}`}
         </Link>
       )} />
@@ -30,7 +30,7 @@ export default function PricingPage() {
             <li>Investor reviews and rankings on your startup</li>
             <li>2% success fee on each tranche released from escrow</li>
           </ul>
-          <Link href="/register?role=startup" className="mt-4 inline-block text-sm font-bold text-[#0284c7] hover:underline">List your startup →</Link>
+          <Link href="/register?role=startup" className="mt-4 inline-block text-sm font-bold text-jade-600 hover:underline">List your startup →</Link>
         </Card>
         <Card title="About AuraCoin">
           <p className="text-sm text-slate-700">

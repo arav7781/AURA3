@@ -68,7 +68,7 @@ function LoginForm() {
     <AuthShell
       title="Sign in"
       subtitle="Investors review and rank startups; founders publish decks and raise in AuraCoin."
-      footer={<>New to AURA3? <Link href="/register" className="font-semibold text-[#0284c7] hover:underline">Create an account</Link></>}
+      footer={<>New to AURA3? <Link href="/register" className="font-semibold text-jade-600 hover:underline">Create an account</Link></>}
     >
       <form onSubmit={submit} className="space-y-4">
         <Field label="Email" type="email" autoComplete="email" required value={email} onChange={e => setEmail(e.target.value)} />
@@ -77,7 +77,7 @@ function LoginForm() {
         <button
           type="submit"
           disabled={busy}
-          className="w-full inline-flex items-center justify-center gap-2 rounded-lg bg-[#0284c7] px-4 py-2.5 font-bold text-white hover:brightness-110 disabled:opacity-60"
+          className="w-full inline-flex items-center justify-center gap-2 rounded-lg bg-jade-600 px-4 py-2.5 font-bold text-white hover:brightness-110 disabled:opacity-60"
         >
           {busy ? <Loader2 className="w-4 h-4 animate-spin" /> : <LogIn className="w-4 h-4" />}
           Sign in

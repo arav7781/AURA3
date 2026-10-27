@@ -78,7 +78,7 @@ function RegisterForm() {
     <AuthShell
       title="Create your account"
       subtitle="One account per person. Your session is a signed token in a secure cookie; nothing is stored in the browser."
-      footer={<>Already have an account? <Link href="/login" className="font-semibold text-[#0284c7] hover:underline">Sign in</Link></>}
+      footer={<>Already have an account? <Link href="/login" className="font-semibold text-jade-600 hover:underline">Sign in</Link></>}
     >
       <form onSubmit={submit} className="space-y-4">
         <div className="grid grid-cols-2 gap-2" role="radiogroup" aria-label="Account type">
@@ -91,10 +91,10 @@ function RegisterForm() {
               onClick={() => setRole(option.id)}
               className={clsx(
                 'rounded-lg border p-3 text-left transition-colors',
-                role === option.id ? 'border-[#0284c7] bg-sky-50 ring-1 ring-[#0284c7]' : 'border-slate-200 hover:bg-slate-50',
+                role === option.id ? 'border-jade-600 bg-jade-50 ring-1 ring-jade-600' : 'border-slate-200 hover:bg-slate-50',
               )}
             >
-              <option.icon className={clsx('w-4 h-4', role === option.id ? 'text-[#0284c7]' : 'text-slate-400')} />
+              <option.icon className={clsx('w-4 h-4', role === option.id ? 'text-jade-600' : 'text-slate-400')} />
               <span className="mt-1.5 block text-sm font-bold text-slate-900">{option.label}</span>
               <span className="block text-xs text-slate-500 leading-snug">{option.text}</span>
             </button>
@@ -119,12 +119,12 @@ function RegisterForm() {
                   key={option.id}
                   className={clsx(
                     'flex cursor-pointer gap-3 rounded-lg border p-3 transition-colors',
-                    plan === option.id ? 'border-[#0284c7] bg-sky-50 ring-1 ring-[#0284c7]' : 'border-slate-200 hover:bg-slate-50',
+                    plan === option.id ? 'border-jade-600 bg-jade-50 ring-1 ring-jade-600' : 'border-slate-200 hover:bg-slate-50',
                   )}
                 >
                   <input type="radio" name="plan" value={option.id} checked={plan === option.id} onChange={() => setPlan(option.id)} className="sr-only" />
                   <span className={clsx('mt-0.5 flex h-4 w-4 shrink-0 items-center justify-center rounded-full border',
-                    plan === option.id ? 'border-[#0284c7] bg-[#0284c7]' : 'border-slate-300')}>
+                    plan === option.id ? 'border-jade-600 bg-jade-600' : 'border-slate-300')}>
                     {plan === option.id && <Check className="h-3 w-3 text-white" />}
                   </span>
                   <span className="min-w-0 flex-1">
@@ -152,7 +152,7 @@ function RegisterForm() {
         <button
           type="submit"
           disabled={busy}
-          className="w-full inline-flex items-center justify-center gap-2 rounded-lg bg-[#0284c7] px-4 py-2.5 font-bold text-white hover:brightness-110 disabled:opacity-60"
+          className="w-full inline-flex items-center justify-center gap-2 rounded-lg bg-jade-600 px-4 py-2.5 font-bold text-white hover:brightness-110 disabled:opacity-60"
         >
           {busy && <Loader2 className="w-4 h-4 animate-spin" />}
           Create account

@@ -16,10 +16,10 @@ export function PlanCards({ current, action }: { current?: string | null; action
     <div className="grid gap-4 md:grid-cols-3">
       {(plans.data?.plans ?? []).map(plan => (
         <div key={plan.id} className={clsx('flex flex-col rounded-2xl border bg-white p-6 shadow-sm',
-          plan.id === 'angel' ? 'border-[#0284c7] ring-1 ring-[#0284c7]' : 'border-slate-200')}>
+          plan.id === 'angel' ? 'border-jade-600 ring-1 ring-jade-600' : 'border-slate-200')}>
           <div className="flex items-baseline justify-between">
             <h3 className="text-lg font-black text-slate-900">{plan.name}</h3>
-            {current === plan.id && <span className="text-[11px] font-mono font-bold uppercase text-[#0284c7]">Current</span>}
+            {current === plan.id && <span className="text-[11px] font-mono font-bold uppercase text-jade-600">Current</span>}
           </div>
           <p className="mt-1 text-sm text-slate-600 min-h-[2.5rem]">{plan.blurb}</p>
           <p className="mt-4 text-3xl font-black text-slate-900">

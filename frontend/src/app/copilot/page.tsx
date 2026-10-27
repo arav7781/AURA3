@@ -135,7 +135,7 @@ function Copilot() {
           {messages.length === 0 ? (
             <div className="mx-auto mt-[8vh] max-w-2xl text-center">
               <span className="mx-auto grid h-12 w-12 place-items-center rounded-2xl bg-ink text-white"><BrandMark className="h-6 w-6" /></span>
-              <h1 className="mt-5 font-display text-[clamp(1.9rem,3.5vw,2.6rem)] font-[780] leading-tight tracking-[-0.03em] text-ink">
+              <h1 className="mt-5 font-display text-[clamp(1.9rem,3.5vw,2.6rem)] font-semibold leading-tight tracking-[-0.02em] text-ink">
                 {focus.data ? `Ask about ${focus.data.name}` : me?.user.role === 'startup' ? 'Improve your pitch' : 'Ask about any startup'}
               </h1>
               <p className="mx-auto mt-2 max-w-lg text-slate-600">
@@ -146,7 +146,7 @@ function Copilot() {
                 {(focus.data
                   ? [`What has ${focus.data.name} submitted?`, `What are the biggest risks in ${focus.data.name}?`, `Summarise ${focus.data.name}'s traction with citations`]
                   : ideas).map(idea => (
-                  <button key={idea} onClick={() => send(idea)} className="rounded-full border border-slate-200 bg-white px-4 py-2 text-sm text-slate-700 hover:border-cobalt/50 hover:text-ink">
+                  <button key={idea} onClick={() => send(idea)} className="rounded-full border border-slate-200 bg-white px-4 py-2 text-sm text-slate-700 hover:border-jade-600/50 hover:text-ink">
                     {idea}
                   </button>
                 ))}
@@ -168,14 +168,14 @@ function Copilot() {
               rows={1}
               maxLength={4000}
               placeholder={focus.data ? `Ask about ${focus.data.name}…` : 'Ask about startups, their documents, scores or markets…'}
-              className="max-h-40 min-h-[48px] flex-1 resize-none rounded-2xl border border-slate-300 px-4 py-3 text-[0.95rem] focus:border-cobalt focus:outline-none focus:ring-2 focus:ring-cobalt/20"
+              className="max-h-40 min-h-[48px] flex-1 resize-none rounded-2xl border border-slate-300 px-4 py-3 text-[0.95rem] focus:border-jade-600 focus:outline-none focus:ring-2 focus:ring-jade-600/20"
             />
             {run.running ? (
               <button type="button" onClick={run.stop} aria-label="Stop" className="grid h-12 w-12 place-items-center rounded-full bg-slate-900 text-white hover:bg-black">
                 <Square className="h-4 w-4 fill-current" />
               </button>
             ) : (
-              <button type="submit" disabled={!draft.trim()} aria-label="Send" className="grid h-12 w-12 place-items-center rounded-full bg-cobalt-bright text-white hover:bg-[#4560ff] disabled:opacity-40">
+              <button type="submit" disabled={!draft.trim()} aria-label="Send" className="grid h-12 w-12 place-items-center rounded-full bg-jade-600 text-white hover:bg-jade-700 disabled:opacity-40">
                 <ArrowUp className="h-5 w-5" />
               </button>
             )}

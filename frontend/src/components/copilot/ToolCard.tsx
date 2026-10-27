@@ -41,7 +41,7 @@ function Body({ card }: { card: Card }) {
       return card.items.length ? (
         <div className="grid gap-2 sm:grid-cols-2">
           {card.items.map((s: Card) => (
-            <Link key={s.id} href={`/startups/${s.slug}`} className="flex items-center gap-3 rounded-lg border border-slate-200 bg-white p-2.5 hover:border-cobalt/50">
+            <Link key={s.id} href={`/startups/${s.slug}`} className="flex items-center gap-3 rounded-lg border border-slate-200 bg-white p-2.5 hover:border-jade-600/50">
               <ScoreRing score={s.ai_score} size={38} />
               <span className="min-w-0">
                 <span className="block truncate text-sm font-bold text-slate-900">{s.name}</span>
@@ -54,7 +54,7 @@ function Body({ card }: { card: Card }) {
     case 'startup': {
       const s = card.item
       return (
-        <Link href={`/startups/${s.slug}`} className="flex items-center gap-3 rounded-lg border border-slate-200 bg-white p-3 hover:border-cobalt/50">
+        <Link href={`/startups/${s.slug}`} className="flex items-center gap-3 rounded-lg border border-slate-200 bg-white p-3 hover:border-jade-600/50">
           <ScoreRing score={s.ai_score} size={44} />
           <span className="min-w-0 flex-1">
             <span className="flex flex-wrap items-center gap-1.5"><b className="text-slate-900">{s.name}</b><RecommendationBadge label={s.recommendation} /><FlagBadges flags={s.compliance_flags} /></span>
@@ -68,7 +68,7 @@ function Body({ card }: { card: Card }) {
         <ul className="space-y-2">
           {card.items.map((d: Card) => (
             <li key={d.id} className="flex flex-wrap items-center gap-3 rounded-lg border border-slate-200 bg-white p-3">
-              <FileText className="h-5 w-5 shrink-0 text-cobalt" />
+              <FileText className="h-5 w-5 shrink-0 text-jade-600" />
               <span className="min-w-0 flex-1">
                 <span className="block truncate text-sm font-semibold text-slate-900">{d.filename}</span>
                 <span className="block font-mono text-[0.65rem] text-slate-500">
@@ -78,7 +78,7 @@ function Body({ card }: { card: Card }) {
               {d.flags?.length > 0 && <FlagBadges flags={d.flags} />}
               {card.can_open ? (
                 <span className="flex gap-1.5">
-                  <Link href={d.view_url} className="rounded-full bg-[#eef1fd] px-3 py-1 text-xs font-semibold text-cobalt hover:bg-[#e2e7fc]">Open</Link>
+                  <Link href={d.view_url} className="rounded-full bg-jade-50 px-3 py-1 text-xs font-semibold text-jade-600 hover:bg-jade-100">Open</Link>
                   {d.download_url && (
                     <a href={d.download_url} className="inline-flex items-center gap-1 rounded-full border border-slate-200 px-3 py-1 text-xs font-semibold text-slate-700 hover:bg-slate-50">
                       <Download className="h-3 w-3" /> Download
@@ -97,7 +97,7 @@ function Body({ card }: { card: Card }) {
         <ul className="space-y-2">
           {card.items.map((p: Card) => (
             <li key={p.cid} className="rounded-lg border border-slate-200 bg-white p-3">
-              <Link href={evidenceHref(p.slug, p.document_id, p.page_no, p.chunk_id)} className="inline-flex items-center gap-1 font-mono text-[0.65rem] text-cobalt hover:underline">
+              <Link href={evidenceHref(p.slug, p.document_id, p.page_no, p.chunk_id)} className="inline-flex items-center gap-1 font-mono text-[0.65rem] text-jade-600 hover:underline">
                 <FileText className="h-3 w-3" /> {p.startup} · p.{p.page_no}{p.slide_title ? ` · ${p.slide_title}` : ''} · {p.cid}
               </Link>
               {p.flagged && <span className="ml-2"><Badge tone="red">possible hidden instructions</Badge></span>}
@@ -151,8 +151,8 @@ function Body({ card }: { card: Card }) {
         <ol className="space-y-1.5">
           {card.items.map((w: Card) => (
             <li key={w.n} className="flex gap-2 text-sm">
-              <span className="mt-0.5 grid h-5 w-5 shrink-0 place-items-center rounded bg-violet-50 font-mono text-[0.6rem] font-semibold text-violet-700">{w.n}</span>
-              <a href={w.url} target="_blank" rel="noopener noreferrer" className="min-w-0 truncate text-slate-800 hover:text-cobalt hover:underline">
+              <span className="mt-0.5 grid h-5 w-5 shrink-0 place-items-center rounded bg-marigold-50 font-mono text-[0.6rem] font-semibold text-marigold-700">{w.n}</span>
+              <a href={w.url} target="_blank" rel="noopener noreferrer" className="min-w-0 truncate text-slate-800 hover:text-jade-700 hover:underline">
                 {w.title || w.url} <ExternalLink className="inline h-3 w-3" />
               </a>
             </li>
@@ -179,7 +179,7 @@ export function ToolCard({ part }: { part: ToolPart }) {
     <div className="rounded-xl border border-slate-200 bg-slate-50/70">
       <button type="button" onClick={() => setOpen(o => !o)} disabled={!part.card}
               className="flex w-full items-center gap-2 px-3 py-2 text-left">
-        <Icon className="h-4 w-4 shrink-0 text-cobalt" />
+        <Icon className="h-4 w-4 shrink-0 text-jade-600" />
         <span className="min-w-0 flex-1 truncate text-[0.82rem] font-semibold text-slate-700">{label(part)}</span>
         {part.status === 'running' && <Loader2 className="h-3.5 w-3.5 animate-spin text-slate-400" />}
         {part.status === 'done' && <Check className="h-3.5 w-3.5 text-emerald-600" />}

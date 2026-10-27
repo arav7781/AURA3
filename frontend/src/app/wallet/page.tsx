@@ -57,8 +57,8 @@ function Wallet() {
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10 space-y-6">
       <div>
-        <p className="text-[11px] font-mono uppercase tracking-widest text-[#0284c7] mb-2">Wallet</p>
-        <h1 className="text-3xl font-black tracking-tight text-slate-900">AuraCoin</h1>
+        <p className="text-[11px] font-mono uppercase tracking-widest text-jade-600 mb-2">Wallet</p>
+        <h1 className="font-display text-[2.15rem] font-semibold leading-tight tracking-[-0.02em] text-ink">AuraCoin</h1>
         <p className="mt-1 text-slate-600">A closed-loop credit for voting and pledging inside AURA3. It comes with your plan; it cannot be bought, sold, transferred or cashed out.</p>
       </div>
 
@@ -77,7 +77,7 @@ function Wallet() {
       {investor ? (
         <section id="plans" className="scroll-mt-20">
           <h2 className="mb-3 text-lg font-black text-slate-900">Plans</h2>
-          {message && <p className="mb-3 rounded-lg border border-sky-200 bg-sky-50 px-4 py-2 text-sm text-slate-700">{message}</p>}
+          {message && <p className="mb-3 rounded-lg border border-jade-200 bg-jade-50 px-4 py-2 text-sm text-slate-700">{message}</p>}
           <PlanCards current={me.plan?.id} action={plan => (
             <Button className="w-full" variant={plan.id === me.plan?.id ? 'secondary' : 'primary'}
                     disabled={plan.id === me.plan?.id} busy={pending === plan.id} onClick={() => choose(plan.id)}>

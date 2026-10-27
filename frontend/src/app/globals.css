@@ -1,58 +1,70 @@
 @import "tailwindcss";
 
-/* Type and colour follow TitanOCR's design: Archivo for display, Hanken Grotesk for text, Martian Mono
-   (condensed) for measurements and labels. The fonts are loaded by next/font in layout.tsx. */
+/* AURA3's theme. Evidence is the product, so the palette is a ledger's: an evergreen night for the
+   marketing bands, warm paper for surfaces, jade for anything verified or actionable, marigold for claims
+   that still need checking. Fraunces (display) gives headlines an editorial voice; Geist carries the UI and
+   Geist Mono every figure, id and measurement. Fonts are loaded by next/font in layout.tsx. */
 @theme {
-  --font-sans: var(--font-hanken), ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
-  --font-display: var(--font-archivo), "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
-  --font-mono: var(--font-martian), ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  --font-sans: var(--font-geist), ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-display: var(--font-fraunces), Georgia, "Times New Roman", serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
 
-  /* The hero desk: dark walnut, so the paper reads as the light source. */
-  --color-desk-hi: #5c4838;
-  --color-desk-mid: #3b2d23;
-  --color-desk-lo: #1f1813;
-  --color-hero-ink: #f7f1e8;
-  --color-hero-ink-2: #e4d6c5;
-  --color-hero-ink-3: #c8b39b;
-  --color-hero-accent: #a3b4ff;
-  /* Marks drawn on paper, and the inspection bench the rest of the page sits on. */
-  --color-cobalt: #2f48d8;
-  --color-cobalt-bright: #3552f0;
-  --color-bench: #eceef1;
-  --color-sheet: #f8f9fb;
-  --color-ink: #12161c;
-  --color-ink-2: #444c58;
-  --color-ink-3: #5a6270;
-  --color-rule: #d3d8df;
+  --color-jade-50: #ecf7f2;
+  --color-jade-100: #d4eee3;
+  --color-jade-200: #a8dcc6;
+  --color-jade-300: #73c4a3;
+  --color-jade-400: #3fae84;
+  --color-jade-500: #1f9670;
+  --color-jade-600: #157b5b;
+  --color-jade-700: #116248;
+  --color-jade-800: #0d4a37;
+  --color-jade-900: #0a3528;
+
+  --color-marigold-50: #fdf6e8;
+  --color-marigold-100: #fbe8c3;
+  --color-marigold-300: #f3c26b;
+  --color-marigold-400: #eeaa3e;
+  --color-marigold-500: #db8e1d;
+  --color-marigold-700: #8d5a0f;
+
+  --color-night: #0a1712;
+  --color-night-2: #0f221b;
+  --color-night-3: #173229;
+  --color-mist: #e8f0ec;
+  --color-mist-2: #b4c6bd;
+  --color-mist-3: #809a8f;
+
+  --color-paper: #f5f2ea;
+  --color-paper-2: #fbfaf6;
+  --color-line: #e2ddd0;
+  --color-ink: #0f1a16;
+  --color-ink-2: #3c4a44;
+  --color-ink-3: #66756e;
 
   --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-html {
-  scroll-behavior: smooth;
-  -webkit-text-size-adjust: 100%;
-}
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
 
-body {
-  background: #ffffff;
-  color: #0f172a;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
 
-h1,
-h2,
-h3 {
-  text-wrap: balance;
-}
-
-/* Martian Mono is wide; its condensed width keeps labels and figures compact. */
-.font-mono {
-  font-stretch: 87.5%;
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
 }
 
 .font-display {
-  font-stretch: 100%;
+  font-optical-sizing: auto;
+  font-variation-settings: "SOFT" 50;
 }
 
 @media (prefers-reduced-motion: reduce) {

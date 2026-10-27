@@ -16,7 +16,7 @@ function boxStyle(bbox: number[]) {
 function tone(chunk: ChunkOut) {
   if (chunk.injection_suspected) return 'border-rose-500 bg-rose-500/10'
   if (chunk.review || (chunk.conf_min ?? 1) < 0.9) return 'border-amber-500 bg-amber-400/10'
-  return 'border-sky-500 bg-sky-400/10'
+  return 'border-jade-500 bg-jade-400/10'
 }
 
 /** A deck page as TitanOCR read it: the page image with every chunk's box, and the chunk text alongside. */
@@ -60,7 +60,7 @@ export function EvidenceViewer({ startupId, focus }: { startupId: string; focus:
           </select>
         )}
         <span className="text-sm font-semibold text-slate-800 truncate">{document.data?.filename}</span>
-        {document.data?.versions?.titanocr && <Badge tone="sky">TitanOCR {document.data.versions.titanocr}</Badge>}
+        {document.data?.versions?.titanocr && <Badge tone="jade">TitanOCR {document.data.versions.titanocr}</Badge>}
         {document.data?.ocr_ms != null && <Badge>{(document.data.ocr_ms / 1000).toFixed(1)} s</Badge>}
         {document.data?.flags.map(flag => <Badge key={flag} tone={flag === 'DECK_HIDDEN_INSTRUCTIONS' ? 'red' : 'amber'}>{flag.replace(/_/g, ' ').toLowerCase()}</Badge>)}
       </div>
@@ -79,7 +79,7 @@ export function EvidenceViewer({ startupId, focus }: { startupId: string; focus:
                       title={`${chunk.cid} · confidence ${(chunk.conf_min ?? 1).toFixed(2)}`}
                       className={clsx('absolute border-2 rounded-sm transition-opacity', tone(chunk),
                                       selected && selected !== chunk.id ? 'opacity-25' : 'opacity-100',
-                                      selected === chunk.id && 'ring-2 ring-offset-1 ring-[#0284c7]')}
+                                      selected === chunk.id && 'ring-2 ring-offset-1 ring-jade-600')}
                       style={boxStyle(chunk.bbox)} />
             ))}
           </div>
@@ -102,13 +102,13 @@ export function EvidenceViewer({ startupId, focus }: { startupId: string; focus:
           <div className="mt-3 flex gap-1.5 overflow-x-auto pb-1">
             {pages.map(p => (
               <button key={p.page_no} onClick={() => { setPage(p.page_no); setSelected(null) }} title={p.slide_title ?? undefined}
-                      className={clsx('shrink-0 rounded border px-2 py-1 text-xs', p.page_no === page ? 'border-[#0284c7] bg-sky-50 text-sky-800' : 'border-slate-200 text-slate-600 hover:bg-slate-50')}>
+                      className={clsx('shrink-0 rounded border px-2 py-1 text-xs', p.page_no === page ? 'border-jade-600 bg-jade-50 text-jade-800' : 'border-slate-200 text-slate-600 hover:bg-slate-50')}>
                 {p.page_no}
               </button>
             ))}
           </div>
           <p className="mt-2 text-xs text-slate-500">
-            <span className="inline-block w-2.5 h-2.5 border-2 border-sky-500 rounded-sm align-middle" /> text ·{' '}
+            <span className="inline-block w-2.5 h-2.5 border-2 border-jade-500 rounded-sm align-middle" /> text ·{' '}
             <span className="inline-block w-2.5 h-2.5 border-2 border-amber-500 rounded-sm align-middle" /> low OCR confidence ·{' '}
             <span className="inline-block w-2.5 h-2.5 border-2 border-rose-500 rounded-sm align-middle" /> possible hidden instructions
           </p>
@@ -121,7 +121,7 @@ export function EvidenceViewer({ startupId, focus }: { startupId: string; focus:
                 <li key={chunk.id}>
                   <button type="button" onClick={() => setSelected(chunk.id)}
                           className={clsx('w-full rounded-lg border p-3 text-left transition-colors',
-                                          selected === chunk.id ? 'border-[#0284c7] bg-sky-50' : 'border-slate-200 hover:bg-slate-50')}>
+                                          selected === chunk.id ? 'border-jade-600 bg-jade-50' : 'border-slate-200 hover:bg-slate-50')}>
                     <span className="flex flex-wrap items-center gap-1.5 text-[11px] font-mono text-slate-500">
                       {chunk.cid} · conf {(chunk.conf_min ?? 1).toFixed(2)} · {chunk.origin}
                       {chunk.has_table && <Badge>table</Badge>}

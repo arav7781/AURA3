@@ -1,12 +1,12 @@
 import type { Metadata } from 'next'
-import { Archivo, Hanken_Grotesk, Martian_Mono } from 'next/font/google'
+import { Fraunces, Geist, Geist_Mono } from 'next/font/google'
 import './globals.css'
 import { Providers } from '@/components/Providers'
 import { Navbar } from '@/components/Navbar'
 
-const archivo = Archivo({ subsets: ['latin'], axes: ['wdth'], variable: '--font-archivo', display: 'swap' })
-const hanken = Hanken_Grotesk({ subsets: ['latin'], variable: '--font-hanken', display: 'swap' })
-const martian = Martian_Mono({ subsets: ['latin'], axes: ['wdth'], variable: '--font-martian', display: 'swap' })
+const fraunces = Fraunces({ subsets: ['latin'], axes: ['opsz', 'SOFT'], variable: '--font-fraunces', display: 'swap' })
+const geist = Geist({ subsets: ['latin'], variable: '--font-geist', display: 'swap' })
+const geistMono = Geist_Mono({ subsets: ['latin'], variable: '--font-geist-mono', display: 'swap' })
 
 export const metadata: Metadata = {
   title: 'AURA3',
@@ -20,8 +20,8 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${archivo.variable} ${hanken.variable} ${martian.variable}`}>
-      <body className="min-h-screen bg-white font-sans text-[16px] text-slate-900 selection:bg-sky-100">
+    <html lang="en" className={`${fraunces.variable} ${geist.variable} ${geistMono.variable}`}>
+      <body className="min-h-screen bg-paper-2 font-sans text-[16px] text-slate-900 selection:bg-jade-100">
         <Providers>
           <div className="relative flex min-h-screen flex-col">
             <Navbar />

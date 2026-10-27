@@ -27,7 +27,7 @@ function Markdown({ text, citations }: { text: string; citations: Record<string,
               return (
                 <Link href={evidenceHref(c.startup_slug, c.document_id, c.page_no, c.chunk_id)}
                       title={`${c.startup_name}, page ${c.page_no}${c.slide_title ? `: ${c.slide_title}` : ''}`}
-                      className="mx-0.5 inline-flex items-center gap-0.5 rounded bg-[#eef1fd] px-1.5 py-px align-baseline text-[0.72rem] font-semibold text-cobalt no-underline ring-1 ring-[#cdd5fb] hover:bg-[#e2e7fc]">
+                      className="mx-0.5 inline-flex items-center gap-0.5 rounded bg-jade-50 px-1.5 py-px align-baseline text-[0.72rem] font-semibold text-jade-600 no-underline ring-1 ring-jade-200 hover:bg-jade-100">
                   <FileText className="h-3 w-3" />p.{c.page_no}
                 </Link>
               )
@@ -35,12 +35,12 @@ function Markdown({ text, citations }: { text: string; citations: Record<string,
             if (c?.type === 'web') {
               return (
                 <a href={c.url} target="_blank" rel="noopener noreferrer" title={c.title}
-                   className="mx-0.5 inline-flex rounded bg-violet-50 px-1.5 py-px align-baseline text-[0.72rem] font-semibold text-violet-700 no-underline ring-1 ring-violet-200 hover:bg-violet-100">
+                   className="mx-0.5 inline-flex rounded bg-marigold-50 px-1.5 py-px align-baseline text-[0.72rem] font-semibold text-marigold-700 no-underline ring-1 ring-marigold-300 hover:bg-marigold-100">
                   {ref!.slice(2)}
                 </a>
               )
             }
-            return <a href={href} target="_blank" rel="noopener noreferrer" className="text-cobalt underline">{children}</a>
+            return <a href={href} target="_blank" rel="noopener noreferrer" className="text-jade-600 underline">{children}</a>
           },
         }}
       >
@@ -54,7 +54,7 @@ export function MessageView({ message }: { message: Message }) {
   if (message.role === 'user') {
     return (
       <div className="flex justify-end">
-        <div className="max-w-[85%] whitespace-pre-wrap rounded-2xl rounded-br-md bg-cobalt px-4 py-2.5 text-[0.95rem] text-white">{message.content}</div>
+        <div className="max-w-[85%] whitespace-pre-wrap rounded-2xl rounded-br-md bg-jade-600 px-4 py-2.5 text-[0.95rem] text-white">{message.content}</div>
       </div>
     )
   }

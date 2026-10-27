@@ -8,7 +8,7 @@ import { errorMessage } from '@/lib/api/client'
 import { Badge, Button, Card, EmptyState, Spinner } from '@/components/ui'
 import type { DeckCitation } from '@/components/evaluation/EvaluationReport'
 
-const COLOURS = ['#0284c7', '#059669', '#d97706', '#7c3aed', '#e11d48', '#0d9488', '#4f46e5', '#ca8a04', '#db2777', '#475569', '#16a34a', '#ea580c']
+const COLOURS = ['#157b5b', '#db8e1d', '#3b6fb6', '#a3476b', '#6b8e23', '#7a5ea8', '#c2410c', '#0e7490', '#9a7b4f', '#52606d', '#b45309', '#be185d']
 const W = 640
 const H = 420
 const PAD = 18

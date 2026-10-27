@@ -62,7 +62,7 @@ function Markdown({ text, report, onCite }: { text: string; report: Report; onCi
                   type="button"
                   onClick={() => onCite({ documentId: citation.document_id, page: citation.page_no, chunkId: citation.chunk_id })}
                   title={citation.slide_title ? `Deck page ${citation.page_no}: ${citation.slide_title}` : `Deck page ${citation.page_no}`}
-                  className="mx-0.5 inline-flex items-center gap-0.5 rounded bg-sky-50 px-1.5 py-px align-baseline text-[11px] font-semibold text-sky-700 ring-1 ring-sky-200 hover:bg-sky-100"
+                  className="mx-0.5 inline-flex items-center gap-0.5 rounded bg-jade-50 px-1.5 py-px align-baseline text-[11px] font-semibold text-jade-700 ring-1 ring-jade-200 hover:bg-jade-100"
                 >
                   <FileText className="w-3 h-3" />{children}
                 </button>
@@ -71,12 +71,12 @@ function Markdown({ text, report, onCite }: { text: string; report: Report; onCi
             if (citation?.type === 'web') {
               return (
                 <a href={citation.url} target="_blank" rel="noopener noreferrer" title={citation.title}
-                   className="mx-0.5 inline-flex rounded bg-violet-50 px-1.5 py-px align-baseline text-[11px] font-semibold text-violet-700 ring-1 ring-violet-200 hover:bg-violet-100">
+                   className="mx-0.5 inline-flex rounded bg-marigold-50 px-1.5 py-px align-baseline text-[11px] font-semibold text-marigold-700 ring-1 ring-marigold-300 hover:bg-marigold-100">
                   {children}
                 </a>
               )
             }
-            return <a href={href} target="_blank" rel="noopener noreferrer" className="text-[#0284c7] underline">{children}</a>
+            return <a href={href} target="_blank" rel="noopener noreferrer" className="text-jade-600 underline">{children}</a>
           },
         }}
       >
@@ -91,7 +91,7 @@ function SlideChip({ metric, onCite }: { metric: Metric; onCite: (c: DeckCitatio
   const c = metric.citation
   return (
     <button type="button" onClick={() => onCite({ documentId: c.document_id, page: c.page_no, chunkId: c.chunk_id })}
-            className="inline-flex items-center gap-0.5 rounded bg-sky-50 px-1.5 py-px text-[11px] font-semibold text-sky-700 ring-1 ring-sky-200 hover:bg-sky-100">
+            className="inline-flex items-center gap-0.5 rounded bg-jade-50 px-1.5 py-px text-[11px] font-semibold text-jade-700 ring-1 ring-jade-200 hover:bg-jade-100">
       <FileText className="w-3 h-3" />p.{c.page_no}
     </button>
   )
@@ -114,7 +114,7 @@ function Scorecard({ report }: { report: Report }) {
               </span>
             </div>
             <div className="mt-1 h-2 rounded-full bg-slate-100">
-              <div className={clsx('h-2 rounded-full', score >= 6.5 ? 'bg-emerald-500' : score >= 5 ? 'bg-amber-500' : 'bg-rose-500')}
+              <div className={clsx('h-2 rounded-full', score >= 6.5 ? 'bg-jade-500' : score >= 5 ? 'bg-marigold-400' : 'bg-rose-500')}
                    style={{ width: `${score * 10}%` }} />
             </div>
           </li>
@@ -158,7 +158,7 @@ function MarketPanel({ report, onCite }: { report: Report; onCite: (c: DeckCitat
                     <span>
                       {amount(sourced)} · {sourced.year ?? sourced.period}
                       <a href={sourced.source_url ?? undefined} target="_blank" rel="noopener noreferrer"
-                         className="block text-xs text-[#0284c7] hover:underline truncate max-w-[16rem]">{sourced.source_title}</a>
+                         className="block text-xs text-jade-600 hover:underline truncate max-w-[16rem]">{sourced.source_title}</a>
                     </span>
                   ) : <span className="text-slate-400">—</span>}
                 </td>
@@ -182,7 +182,7 @@ function RevenuePanel({ report, onCite }: { report: Report; onCite: (c: DeckCita
         {rows.map(r => (
           <div key={r.year} className="flex-1 flex flex-col items-center justify-end h-full">
             <span className="text-xs font-bold text-slate-800">{r.value} {r.unit.replace('INR ', 'Rs ')}</span>
-            <div className={clsx('w-full max-w-16 rounded-t', r.kind.includes('forecast') ? 'bg-amber-400' : 'bg-emerald-500')}
+            <div className={clsx('w-full max-w-16 rounded-t', r.kind.includes('forecast') ? 'bg-marigold-400' : 'bg-jade-500')}
                  style={{ height: `${Math.max(4, (r.revenue / top) * 100)}%` }} />
           </div>
         ))}
@@ -264,7 +264,7 @@ export function EvaluationReport({ report, onCite }: { report: Report; onCite: (
             <div key={section.key}>
               <button onClick={() => setOpen(open === section.key ? null : section.key)}
                       className="w-full flex items-center justify-between py-3 text-left group" aria-expanded={open === section.key}>
-                <span className="text-sm font-bold text-slate-900 group-hover:text-[#0284c7]">
+                <span className="text-sm font-bold text-slate-900 group-hover:text-jade-600">
                   <span className="font-mono text-slate-400 mr-2">{String(i + 1).padStart(2, '0')}</span>{section.title}
                 </span>
                 <ChevronDown className={clsx('w-4 h-4 text-slate-400 transition-transform', open === section.key && 'rotate-180')} />
@@ -279,7 +279,7 @@ export function EvaluationReport({ report, onCite }: { report: Report; onCite: (
           <ol className="space-y-1.5 list-decimal pl-5">
             {report.sources.map(source => (
               <li key={source.url} className="text-sm">
-                <a href={source.url} target="_blank" rel="noopener noreferrer" className="text-[#0284c7] hover:underline inline-flex items-center gap-1">
+                <a href={source.url} target="_blank" rel="noopener noreferrer" className="text-jade-600 hover:underline inline-flex items-center gap-1">
                   {source.title || source.url} <ExternalLink className="w-3 h-3" />
                 </a>
                 <span className="block text-[11px] text-slate-400">Retrieved {new Date(source.retrieved_at).toLocaleDateString()}</span>

@@ -49,8 +49,8 @@ function FounderPortal() {
     <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10">
       <div className="mb-8 flex flex-col gap-4 border-b border-slate-200 pb-6 md:flex-row md:items-end md:justify-between">
         <div>
-          <p className="text-[11px] font-mono uppercase tracking-widest text-[#0284c7] mb-2">Founder portal</p>
-          <h1 className="text-3xl font-black tracking-tight text-slate-900">{s.name}</h1>
+          <p className="text-[11px] font-mono uppercase tracking-widest text-jade-600 mb-2">Founder portal</p>
+          <h1 className="font-display text-[2.15rem] font-semibold leading-tight tracking-[-0.02em] text-ink">{s.name}</h1>
           <p className="mt-1 text-slate-600">Upload your deck, get an evidence-backed AI evaluation, and publish to investors. Listing is free; AURA3 takes 2% of each released tranche.</p>
         </div>
         <Link href={`/startups/${s.slug}`} className="inline-flex items-center gap-2 rounded-lg border border-slate-300 bg-white px-4 py-2.5 text-sm font-bold text-slate-800 hover:bg-slate-50">
@@ -153,14 +153,14 @@ function JobProgress({ job, title }: { job: JobState; title: string }) {
     <div className="rounded-lg border border-slate-200 bg-slate-50 p-4">
       <div className="flex items-center justify-between text-sm">
         <span className="font-semibold text-slate-800 inline-flex items-center gap-2">
-          {job.status === 'running' && <Loader2 className="w-4 h-4 animate-spin text-[#0284c7]" />}
+          {job.status === 'running' && <Loader2 className="w-4 h-4 animate-spin text-jade-600" />}
           {job.status === 'done' && <CheckCircle2 className="w-4 h-4 text-emerald-600" />}
           {job.status === 'failed' && <XCircle className="w-4 h-4 text-rose-600" />}
           {title}{job.stage ? ` · ${job.stage}` : ''}
         </span>
         <span className="font-mono text-slate-600">{job.pct}%</span>
       </div>
-      <div className="mt-2 h-2 rounded-full bg-white"><div className="h-2 rounded-full bg-[#0284c7] transition-all" style={{ width: `${job.pct}%` }} /></div>
+      <div className="mt-2 h-2 rounded-full bg-white"><div className="h-2 rounded-full bg-jade-600 transition-all" style={{ width: `${job.pct}%` }} /></div>
       {job.error && <p className="mt-2 text-sm text-rose-700">{job.error}</p>}
       {job.log.length > 0 && (
         <ul className="mt-3 max-h-40 overflow-y-auto space-y-0.5 font-mono text-[11px] text-slate-600">
@@ -210,7 +210,7 @@ function DeckSection({ startupId, documents }: { startupId: string; documents: D
         onDrop={e => { e.preventDefault(); upload(e.dataTransfer.files[0]) }}
         className="rounded-xl border-2 border-dashed border-slate-300 bg-slate-50/60 px-6 py-8 text-center"
       >
-        <FileUp className="mx-auto w-6 h-6 text-[#0284c7]" />
+        <FileUp className="mx-auto w-6 h-6 text-jade-600" />
         <p className="mt-2 text-sm text-slate-700">Drop a PDF, PPTX, DOCX or image here, or</p>
         <Button className="mt-3" busy={busy} onClick={() => input.current?.click()} type="button">Choose a file</Button>
         <input ref={input} type="file" className="hidden" accept=".pdf,.pptx,.docx,.png,.jpg,.jpeg,.webp,.tif,.tiff"
@@ -335,8 +335,8 @@ function EvaluationSection({ startup: s, latest, canRun }: { startup: StartupDet
               <Badge tone={latest.visibility === 'published' ? 'green' : 'slate'}>{latest.visibility === 'published' ? 'Visible to investors' : 'Private'}</Badge>
             </div>
             <div className="flex flex-wrap gap-2">
-              <Link href={`/startups/${s.slug}`} className="text-sm font-bold text-[#0284c7] hover:underline">Read the full report</Link>
-              {latest.visibility !== 'published' && s.status === 'published' && <button onClick={publish} className="text-sm font-bold text-[#0284c7] hover:underline">Publish this version</button>}
+              <Link href={`/startups/${s.slug}`} className="text-sm font-bold text-jade-600 hover:underline">Read the full report</Link>
+              {latest.visibility !== 'published' && s.status === 'published' && <button onClick={publish} className="text-sm font-bold text-jade-600 hover:underline">Publish this version</button>}
             </div>
           </div>
         </div>

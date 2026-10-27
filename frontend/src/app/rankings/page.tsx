@@ -28,8 +28,8 @@ function Rankings() {
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10 space-y-6">
       <div>
-        <p className="text-[11px] font-mono uppercase tracking-widest text-[#0284c7] mb-2">Community</p>
-        <h1 className="text-3xl font-black tracking-tight text-slate-900">What investors rank highest</h1>
+        <p className="text-[11px] font-mono uppercase tracking-widest text-jade-600 mb-2">Community</p>
+        <h1 className="font-display text-[2.15rem] font-semibold leading-tight tracking-[-0.02em] text-ink">What investors rank highest</h1>
         <p className="mt-1 text-slate-600">{data?.method} {data?.ballots ?? 0} investor list{data?.ballots === 1 ? '' : 's'} so far.</p>
       </div>
       <div className="grid gap-6 lg:grid-cols-5">
@@ -48,7 +48,7 @@ function Rankings() {
                     <tr key={row.id}>
                       <td className="px-5 py-2.5 font-mono text-slate-500">{row.community_rank}</td>
                       <td className="py-2.5">
-                        <Link href={`/startups/${row.slug}`} className="font-bold text-slate-900 hover:text-[#0284c7]">{row.name}</Link>
+                        <Link href={`/startups/${row.slug}`} className="font-bold text-slate-900 hover:text-jade-600">{row.name}</Link>
                         <span className="block text-xs text-slate-500">{row.domain} · on {row.rankers} list{row.rankers === 1 ? '' : 's'}</span>
                       </td>
                       <td className="py-2.5 text-right font-mono font-bold text-slate-900">{row.community_score.toFixed(1)}</td>

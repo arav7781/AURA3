@@ -25,11 +25,11 @@ export function Card({ title, action, children, className }: {
 
 const BADGE = {
   slate: 'bg-slate-100 text-slate-700 border-slate-200',
-  sky: 'bg-sky-50 text-sky-700 border-sky-200',
+  jade: 'bg-jade-50 text-jade-700 border-jade-200',
   green: 'bg-emerald-50 text-emerald-700 border-emerald-200',
   amber: 'bg-amber-50 text-amber-800 border-amber-200',
   red: 'bg-rose-50 text-rose-700 border-rose-200',
-  violet: 'bg-violet-50 text-violet-700 border-violet-200',
+  marigold: 'bg-marigold-50 text-marigold-700 border-marigold-300',
 }
 
 export function Badge({ tone = 'slate', children, title }: { tone?: keyof typeof BADGE; children: React.ReactNode; title?: string }) {
@@ -50,7 +50,7 @@ export function RecommendationBadge({ label }: { label: string | null | undefine
 
 export function ScoreRing({ score, size = 64 }: { score: number | null | undefined; size?: number }) {
   const value = score ?? 0
-  const colour = value >= 6.5 ? '#059669' : value >= 5 ? '#d97706' : '#e11d48'
+  const colour = value >= 6.5 ? 'var(--color-jade-500)' : value >= 5 ? 'var(--color-marigold-400)' : '#d6455d'
   return (
     <div className="relative shrink-0" style={{ width: size, height: size }} aria-label={score == null ? 'No AI score' : `AI score ${score} out of 10`}>
       <svg viewBox="0 0 36 36" className="-rotate-90" style={{ width: size, height: size }}>
@@ -92,7 +92,7 @@ export function Tabs<T extends string>({ tabs, active, onChange }: {
           onClick={() => onChange(tab.id)}
           className={clsx(
             'shrink-0 inline-flex items-center gap-1.5 px-4 py-2.5 text-sm font-semibold border-b-2 -mb-px transition-colors',
-            active === tab.id ? 'border-[#0284c7] text-[#0284c7]' : 'border-transparent text-slate-600 hover:text-slate-900',
+            active === tab.id ? 'border-jade-600 text-jade-600' : 'border-transparent text-slate-600 hover:text-slate-900',
           )}
         >
           {tab.label}
@@ -129,11 +129,11 @@ export function ErrorNote({ error }: { error: unknown }) {
 /** Shown in place of a feature the viewer's plan does not include. */
 export function LockedFeature({ title, plan = 'Angel', children }: { title: string; plan?: string; children?: React.ReactNode }) {
   return (
-    <div className="rounded-xl border border-sky-200 bg-gradient-to-b from-sky-50 to-white px-6 py-10 text-center">
-      <Lock className="mx-auto w-5 h-5 text-[#0284c7]" />
+    <div className="rounded-xl border border-jade-200 bg-gradient-to-b from-jade-50 to-white px-6 py-10 text-center">
+      <Lock className="mx-auto w-5 h-5 text-jade-600" />
       <p className="mt-3 font-bold text-slate-900">{title}</p>
       <p className="mt-1 text-sm text-slate-600">{children ?? `Available on the ${plan} plan and above.`}</p>
-      <Link href="/wallet#plans" className="mt-4 inline-block rounded-lg bg-[#0284c7] px-4 py-2 text-sm font-bold text-white hover:brightness-110">
+      <Link href="/wallet#plans" className="mt-4 inline-block rounded-lg bg-jade-600 px-4 py-2 text-sm font-bold text-white hover:brightness-110">
         Upgrade to {plan}
       </Link>
     </div>
@@ -150,7 +150,7 @@ export function Button({ variant = 'primary', busy, children, className, ...prop
       disabled={busy || props.disabled}
       className={clsx(
         'inline-flex items-center justify-center gap-2 rounded-lg px-4 py-2 text-sm font-bold transition disabled:opacity-60 disabled:cursor-not-allowed',
-        variant === 'primary' && 'bg-[#0284c7] text-white hover:brightness-110',
+        variant === 'primary' && 'bg-jade-600 text-white hover:brightness-110',
         variant === 'secondary' && 'border border-slate-300 bg-white text-slate-800 hover:bg-slate-50',
         variant === 'danger' && 'border border-rose-300 bg-white text-rose-700 hover:bg-rose-50',
         className,

@@ -81,7 +81,7 @@ export function Reviews({ startupId, isOwner }: { startupId: string; isOwner: bo
             ))}
             <div>
               <p className="text-xs font-semibold text-slate-600">Overall</p>
-              <p className="text-lg font-black text-[#0284c7]">{data.summary.average?.toFixed(2)}</p>
+              <p className="text-lg font-black text-jade-600">{data.summary.average?.toFixed(2)}</p>
             </div>
           </div>
           {isOwner && <p className="mt-3 text-xs text-slate-500">Reviewers are anonymous to founders.</p>}

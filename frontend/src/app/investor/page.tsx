@@ -38,8 +38,8 @@ function DealFlow() {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 py-10">
       <div className="mb-8 flex flex-col gap-4 border-b border-slate-200 pb-6 md:flex-row md:items-end md:justify-between">
         <div>
-          <p className="text-[11px] font-mono uppercase tracking-widest text-[#0284c7] mb-2">Deal flow</p>
-          <h1 className="text-3xl font-black tracking-tight text-slate-900">Startups with evidence you can check</h1>
+          <p className="text-[11px] font-mono uppercase tracking-widest text-jade-600 mb-2">Deal flow</p>
+          <h1 className="font-display text-[2.15rem] font-semibold leading-tight tracking-[-0.02em] text-ink">Startups with evidence you can check</h1>
           <p className="mt-1 text-slate-600">Every score cites the slide it came from. Review, rank, and back the ones you believe in with AuraCoin.</p>
         </div>
         <div className="flex gap-2">
@@ -53,9 +53,9 @@ function DealFlow() {
       </div>
 
       {!has('full_report') && (
-        <div className="mb-6 rounded-xl border border-sky-200 bg-sky-50 px-5 py-4 text-sm text-slate-700">
+        <div className="mb-6 rounded-xl border border-jade-200 bg-jade-50 px-5 py-4 text-sm text-slate-700">
           You are on <b>Scout</b>: AI scores and summaries for every startup. Full reports, the deck evidence viewer,
-          the embedding map and voting come with <Link href="/wallet#plans" className="font-bold text-[#0284c7] hover:underline">Angel</Link>.
+          the embedding map and voting come with <Link href="/wallet#plans" className="font-bold text-jade-600 hover:underline">Angel</Link>.
         </div>
       )}
 

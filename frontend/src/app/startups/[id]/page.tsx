@@ -62,21 +62,21 @@ function StartupView() {
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8">
-      <Link href={owner ? '/founder' : '/investor'} className="inline-flex items-center gap-1 text-sm font-semibold text-slate-600 hover:text-[#0284c7]">
+      <Link href={owner ? '/founder' : '/investor'} className="inline-flex items-center gap-1 text-sm font-semibold text-slate-600 hover:text-jade-600">
         <ArrowLeft className="w-4 h-4" /> {owner ? 'Founder portal' : 'Deal flow'}
       </Link>
       <header className="mt-4 mb-6 flex flex-col gap-5 md:flex-row md:items-center md:justify-between">
         <div className="flex items-center gap-5">
           <ScoreRing score={s.ai_score} size={76} />
           <div>
-            <h1 className="text-3xl font-black tracking-tight text-slate-900">{s.name}</h1>
+            <h1 className="font-display text-[2.15rem] font-semibold leading-tight tracking-[-0.02em] text-ink">{s.name}</h1>
             <p className="mt-1 text-slate-600">{s.one_liner}</p>
             <div className="mt-2 flex flex-wrap items-center gap-1.5">
-              <Badge tone="sky">{s.domain}</Badge>
+              <Badge tone="jade">{s.domain}</Badge>
               <Badge>{STAGE_LABELS[s.stage]}</Badge>
               <RecommendationBadge label={s.recommendation} />
               <FlagBadges flags={s.compliance_flags} />
-              {s.status !== 'published' && <Badge tone="violet">Draft · only you can see it</Badge>}
+              {s.status !== 'published' && <Badge tone="marigold">Draft · only you can see it</Badge>}
             </div>
           </div>
         </div>
@@ -98,7 +98,7 @@ function StartupView() {
         {tab === 'evaluation' && (
           evaluation.isPending ? <Spinner /> : report ? <EvaluationReport report={report} onCite={openCitation} /> : (
             <EmptyState title="No published evaluation yet">
-              {owner ? <>Run one from the <Link href="/founder" className="font-semibold text-[#0284c7]">founder portal</Link>.</> : null}
+              {owner ? <>Run one from the <Link href="/founder" className="font-semibold text-jade-600">founder portal</Link>.</> : null}
             </EmptyState>
           )
         )}
@@ -125,7 +125,7 @@ function Overview({ startup: s }: { startup: StartupDetail }) {
               {s.profile.team.map(member => (
                 <li key={member.name}>
                   <p className="font-bold text-slate-900">{member.name}</p>
-                  <p className="text-sm text-[#0284c7]">{member.role}</p>
+                  <p className="text-sm text-jade-600">{member.role}</p>
                   {member.background && <p className="mt-1 text-sm text-slate-600">{member.background}</p>}
                 </li>
               ))}
@@ -200,7 +200,7 @@ function Round({ startup: s }: { startup: StartupDetail }) {
           {round.use_of_funds.map(u => (
             <li key={u.category}>
               <div className="flex justify-between text-sm"><span className="text-slate-700">{u.category}</span><b>{u.pct}%</b></div>
-              <div className="mt-1 h-2 rounded-full bg-slate-100"><div className="h-2 rounded-full bg-[#0284c7]" style={{ width: `${u.pct}%` }} /></div>
+              <div className="mt-1 h-2 rounded-full bg-slate-100"><div className="h-2 rounded-full bg-jade-600" style={{ width: `${u.pct}%` }} /></div>
             </li>
           ))}
         </ul>
@@ -209,7 +209,7 @@ function Round({ startup: s }: { startup: StartupDetail }) {
         <ol className="relative border-l-2 border-slate-200 ml-2 space-y-4">
           {round.tranches.map((t, i) => (
             <li key={i} className="ml-4">
-              <span className="absolute -left-[7px] mt-1 h-3 w-3 rounded-full border-2 border-white bg-[#0284c7]" />
+              <span className="absolute -left-[7px] mt-1 h-3 w-3 rounded-full border-2 border-white bg-jade-600" />
               <p className="text-sm font-bold text-slate-900">Tranche {i + 1} · {t.pct}% · {formatINR(Math.round(round.ask_inr * t.pct / 100))}</p>
               <p className="text-sm text-slate-600">{t.title}{t.criteria ? ` — ${t.criteria}` : ''}</p>
               {t.due_days && <p className="text-xs text-slate-400">within {t.due_days} days</p>}

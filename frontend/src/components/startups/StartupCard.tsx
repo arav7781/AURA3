@@ -7,13 +7,13 @@ import { Badge, FlagBadges, RecommendationBadge, ScoreRing, STAGE_LABELS } from 
 export function StartupCard({ startup }: { startup: Startup }) {
   return (
     <Link href={`/startups/${startup.slug}`}
-          className="group flex flex-col rounded-xl border border-slate-200 bg-white p-5 shadow-sm transition hover:border-[#0284c7]/50 hover:shadow-md">
+          className="group flex flex-col rounded-xl border border-slate-200 bg-white p-5 shadow-sm transition hover:border-jade-600/50 hover:shadow-md">
       <div className="flex items-start gap-4">
         <ScoreRing score={startup.ai_score} size={56} />
         <div className="min-w-0 flex-1">
-          <h3 className="truncate text-lg font-black text-slate-900 group-hover:text-[#0284c7]">{startup.name}</h3>
+          <h3 className="truncate text-lg font-black text-slate-900 group-hover:text-jade-600">{startup.name}</h3>
           <div className="mt-1 flex flex-wrap items-center gap-1.5">
-            <Badge tone="sky">{startup.domain}</Badge>
+            <Badge tone="jade">{startup.domain}</Badge>
             <Badge>{STAGE_LABELS[startup.stage] ?? startup.stage}</Badge>
             <RecommendationBadge label={startup.recommendation} />
           </div>
