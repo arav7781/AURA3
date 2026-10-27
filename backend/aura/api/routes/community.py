@@ -17,7 +17,7 @@ from aura.core import clock
 from aura.core.db import read_session, write_tx
 from aura.core.errors import AppError, NotFound
 from aura.models import InvestorProfile, Ranking, Review, Startup, User
-from aura.rankings import Ballot, community_scores, ranks
+from aura.rankings import community_scores, load_ballots, ranks
 
 router = APIRouter(prefix="/api", tags=["community"])
 DIMENSIONS = ("team", "market", "product", "traction")
@@ -90,24 +90,11 @@ def delete_review(startup_id: str, viewer: Viewer = Depends(investor)) -> None:
         s.execute(delete(Review).where(Review.startup_id == startup.id, Review.investor_id == viewer.user_id))
 
 
-def _ballots(s: Any) -> list[Ballot]:
-    rows = s.execute(
-        select(Ranking.investor_id, Ranking.startup_id, Ranking.position, InvestorProfile.plan,
-               InvestorProfile.reputation_milli)
-        .join(InvestorProfile, InvestorProfile.user_id == Ranking.investor_id)
-        .order_by(Ranking.investor_id, Ranking.position)
-    ).all()
-    lists: dict[str, tuple[str, float, list[str]]] = {}
-    for investor_id, startup_id, _, plan, reputation in rows:
-        lists.setdefault(investor_id, (plan, reputation / 1000, []))[2].append(startup_id)
-    return [Ballot(i, plan, rep, ids) for i, (plan, rep, ids) in lists.items()]
-
-
 @router.get("/rankings")
 def rankings(viewer: Viewer = Depends(current_viewer)) -> dict[str, Any]:
     with read_session() as s:
         startups = {st.id: st for st in s.scalars(select(Startup).where(Startup.status == "published"))}
-        ballots = [b for b in _ballots(s) if b.startup_ids]
+        ballots = [b for b in load_ballots(s) if b.startup_ids]
         mine = s.scalars(select(Ranking.startup_id).where(Ranking.investor_id == viewer.user_id)
                          .order_by(Ranking.position)).all()
     scores = {k: v for k, v in community_scores(ballots).items() if k in startups}

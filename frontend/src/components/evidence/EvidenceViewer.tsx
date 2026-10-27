@@ -23,9 +23,9 @@ function tone(chunk: ChunkOut) {
 export function EvidenceViewer({ startupId, focus }: { startupId: string; focus: DeckCitation | null }) {
   const documents = useDocuments(startupId)
   const ready = (documents.data?.items ?? []).filter(d => d.status === 'ready')
-  const [documentId, setDocumentId] = useState<string | undefined>(undefined)
-  const [page, setPage] = useState(1)
-  const [selected, setSelected] = useState<string | null>(null)
+  const [documentId, setDocumentId] = useState<string | undefined>(focus?.documentId)
+  const [page, setPage] = useState(focus?.page ?? 1)
+  const [selected, setSelected] = useState<string | null>(focus?.chunkId || null)
   const activeId = documentId ?? focus?.documentId ?? ready[0]?.id
   const document = useDocument(documents.data?.can_open ? activeId : undefined)
   const chunks = usePageChunks(documents.data?.can_open ? activeId : undefined, page)

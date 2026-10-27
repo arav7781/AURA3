@@ -41,5 +41,6 @@ export const config = {
     '/startups/:path*',
     '/rankings/:path*',
     '/wallet/:path*',
+    '/copilot/:path*',
   ],
 }

@@ -24,7 +24,7 @@ logger = logging.getLogger("aura.jobs")
 JobFn = Callable[["JobContext"], Awaitable[dict[str, Any] | None]]
 _tasks: dict[str, asyncio.Task[None]] = {}
 _limits: dict[str, asyncio.Semaphore] = {}
-LIMITS = {"ingest": 2, "evaluation": 2, "seed": 1}
+LIMITS = {"ingest": 2, "evaluation": 2, "seed": 1, "copilot": 6}
 
 
 def stream_key(job_id: str) -> str:

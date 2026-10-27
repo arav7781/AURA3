@@ -187,6 +187,17 @@ def page_image(document_id: str, page_no: int, viewer: Viewer = Depends(current_
     return FileResponse(path, media_type="image/webp", headers={"Cache-Control": "private, max-age=3600"})
 
 
+@router.get("/documents/{document_id}/file")
+def document_file(document_id: str, viewer: Viewer = Depends(current_viewer)) -> FileResponse:
+    """The original file as uploaded (owner, or an investor whose plan includes deck access)."""
+    doc, _ = visible_document(viewer, document_id)
+    sources = sorted(document_dir(doc.id).glob("source.*"))
+    if not sources:
+        raise NotFound("File not found")
+    return FileResponse(sources[0], media_type=doc.mime, filename=doc.filename,
+                        headers={"Cache-Control": "private, max-age=600", "X-Content-Type-Options": "nosniff"})
+
+
 @router.get("/documents/{document_id}/pages/{page_no}/chunks")
 def page_chunks(document_id: str, page_no: int, viewer: Viewer = Depends(current_viewer)) -> dict[str, Any]:
     doc, _ = visible_document(viewer, document_id)

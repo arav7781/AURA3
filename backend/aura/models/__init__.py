@@ -2,6 +2,7 @@
 
 from aura.models.base import Base
 from aura.models.community import Ranking, Review
+from aura.models.copilot import CopilotMessage, CopilotThread
 from aura.models.identity import ApiKey, InvestorProfile, PlanPeriod, UsageCounter, User, UserSession
 from aura.models.infra import AppState, IdempotencyRecord, Job
 from aura.models.ledger import LedgerAccount, LedgerEntry, LedgerTx
@@ -12,6 +13,8 @@ __all__ = [
     "AppState",
     "Base",
     "Chunk",
+    "CopilotMessage",
+    "CopilotThread",
     "Document",
     "DocumentPage",
     "Evaluation",

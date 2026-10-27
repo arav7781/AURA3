@@ -1,9 +1,9 @@
 'use client'
 
-import { useState } from 'react'
+import { Suspense, useState } from 'react'
 import Link from 'next/link'
-import { useParams } from 'next/navigation'
-import { ArrowLeft, Download, ShieldAlert, ShieldCheck } from 'lucide-react'
+import { useParams, useSearchParams } from 'next/navigation'
+import { ArrowLeft, Bot, Download, ShieldAlert, ShieldCheck } from 'lucide-react'
 import { RequireRole } from '@/components/auth/RequireRole'
 import { Reviews } from '@/components/community/Reviews'
 import { EvaluationReport, type DeckCitation } from '@/components/evaluation/EvaluationReport'
@@ -20,18 +20,25 @@ type Tab = 'overview' | 'evaluation' | 'evidence' | 'map' | 'reviews' | 'round'
 export default function StartupPage() {
   return (
     <RequireRole>
-      <StartupView />
+      <Suspense>
+        <StartupView />
+      </Suspense>
     </RequireRole>
   )
 }
 
 function StartupView() {
   const { id } = useParams<{ id: string }>()
+  const params = useSearchParams()
   const startup = useStartup(id)
   const evaluation = useEvaluation(startup.data?.id)
   const { has } = useAuth()
-  const [tab, setTab] = useState<Tab>('overview')
-  const [focus, setFocus] = useState<DeckCitation | null>(null)
+  // Deep links from copilot citations: ?tab=evidence&doc=…&page=…&chunk=…
+  const linked = params.get('doc')
+    ? { documentId: params.get('doc')!, page: Number(params.get('page') ?? 1), chunkId: params.get('chunk') ?? '' }
+    : null
+  const [tab, setTab] = useState<Tab>((params.get('tab') as Tab) ?? 'overview')
+  const [focus, setFocus] = useState<DeckCitation | null>(linked)
 
   if (startup.isPending) return <Spinner label="Loading startup" />
   if (startup.isError) return <div className="max-w-3xl mx-auto px-4 py-16"><ErrorNote error={startup.error} /></div>
@@ -73,11 +80,16 @@ function StartupView() {
             </div>
           </div>
         </div>
-        {report && !report.redacted && (owner || has('pdf_reports')) && (
-          <a href={`/api/startups/${s.id}/report.pdf`} className="inline-flex items-center gap-2 rounded-lg border border-slate-300 bg-white px-4 py-2 text-sm font-bold text-slate-800 hover:bg-slate-50">
-            <Download className="w-4 h-4" /> PDF report
-          </a>
-        )}
+        <div className="flex flex-wrap gap-2">
+          <Link href={`/copilot?startup=${s.slug}`} className="inline-flex items-center gap-2 rounded-lg bg-ink px-4 py-2 text-sm font-bold text-white hover:bg-black">
+            <Bot className="w-4 h-4" /> Ask the copilot
+          </Link>
+          {report && !report.redacted && (owner || has('pdf_reports')) && (
+            <a href={`/api/startups/${s.id}/report.pdf`} className="inline-flex items-center gap-2 rounded-lg border border-slate-300 bg-white px-4 py-2 text-sm font-bold text-slate-800 hover:bg-slate-50">
+              <Download className="w-4 h-4" /> PDF report
+            </a>
+          )}
+        </div>
       </header>
 
       <Tabs tabs={tabs} active={tab} onChange={setTab} />

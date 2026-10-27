@@ -7,6 +7,11 @@ startup first), scaled to 0–10 so it sits beside the AI score.
 """
 
 from dataclasses import dataclass
+from typing import Any
+
+from sqlalchemy import select
+
+from aura.models import InvestorProfile, Ranking
 
 PLAN_WEIGHT = {"scout": 0.5, "angel": 1.0, "syndicate": 1.0}
 MAX_POSITION = 10
@@ -45,3 +50,16 @@ def ranks(values: dict[str, float]) -> dict[str, int]:
     """Competition ranking (1, 2, 2, 4): ties share the better rank."""
     ordered = sorted(values.values(), reverse=True)
     return {key: ordered.index(value) + 1 for key, value in values.items()}
+
+
+def load_ballots(s: Any) -> list[Ballot]:
+    """Every investor's saved top-10 list, best first."""
+    rows = s.execute(
+        select(Ranking.investor_id, Ranking.startup_id, InvestorProfile.plan, InvestorProfile.reputation_milli)
+        .join(InvestorProfile, InvestorProfile.user_id == Ranking.investor_id)
+        .order_by(Ranking.investor_id, Ranking.position)
+    ).all()
+    lists: dict[str, tuple[str, float, list[str]]] = {}
+    for investor_id, startup_id, plan, reputation in rows:
+        lists.setdefault(investor_id, (plan, reputation / 1000, []))[2].append(startup_id)
+    return [Ballot(i, plan, rep, ids) for i, (plan, rep, ids) in lists.items()]

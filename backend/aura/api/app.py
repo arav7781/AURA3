@@ -18,6 +18,7 @@ from aura.api.routes import (
     admin,
     auth,
     community,
+    copilot,
     documents,
     evaluations,
     explorer,
@@ -121,7 +122,8 @@ def create_app() -> FastAPI:
     )
     install_error_handlers(app)
     app.add_middleware(CSRFMiddleware)
-    for module in (auth, me, public, jobs, admin, startups, documents, evaluations, community, search, explorer):
+    for module in (auth, me, public, jobs, admin, startups, documents, evaluations, community, copilot, search,
+                   explorer):
         app.include_router(module.router)
     return app
 
