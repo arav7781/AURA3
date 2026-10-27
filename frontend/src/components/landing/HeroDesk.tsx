@@ -195,7 +195,8 @@ export function HeroDesk({ children, footer }: { children: React.ReactNode; foot
       x = Math.min(Math.max(x, left), f.width - w - 20)
       y = Math.min(Math.max(y, below), f.height - h - 24)
       if (Number.isNaN(pos.x) || reduce) { pos.x = x; pos.y = y } else { pos.x += (x - pos.x) * 0.16; pos.y += (y - pos.y) * 0.16 }
-      el.style.transform = `translate3d(${pos.x.toFixed(1)}px, ${pos.y.toFixed(1)}px, 0)`
+      // Whole pixels: text in a box parked at a fractional offset renders blurred
+      el.style.transform = `translate(${Math.round(pos.x)}px, ${Math.round(pos.y)}px)`
       const ex = Math.min(Math.max(ax, pos.x), pos.x + w)
       const ey = Math.min(Math.max(ay, pos.y), pos.y + h)
       leader.current?.setAttribute('d', `M ${ax.toFixed(1)} ${ay.toFixed(1)} L ${ex.toFixed(1)} ${ey.toFixed(1)}`)
@@ -211,6 +212,8 @@ export function HeroDesk({ children, footer }: { children: React.ReactNode; foot
       } else lastRead = -1
     }
 
+    // Large screens get the page and its overlay at twice the resolution: the close-up shots magnify them.
+    const sharp = window.innerWidth >= 768
     import('./desk/scene')
       .then(({ createDesk }) => {
         if (cancelled || !canvas.current || !host.current || !slot.current) return
@@ -218,12 +221,13 @@ export function HeroDesk({ children, footer }: { children: React.ReactNode; foot
           canvas: canvas.current,
           host: host.current,
           slot: slot.current,
-          pages: { top: HERO_PAGE.src, under: ['/hero/krishimitra-p6.webp', '/hero/krishimitra-p1.webp'] },
+          pages: { top: sharp ? HERO_PAGE.src2x : HERO_PAGE.src, under: ['/hero/krishimitra-p6.webp', '/hero/krishimitra-p1.webp'] },
           aspect: HERO_PAGE.width / HERO_PAGE.height,
           lines: HERO_LINES.map(l => l.box),
           cited: CITED_LINES,
           figure,
           reduced: !!reduce,
+          detail: sharp ? 2 : 1,
           scanDelay: SCAN_DELAY / 1000,
           onFrame,
         })
@@ -304,9 +308,9 @@ export function HeroDesk({ children, footer }: { children: React.ReactNode; foot
               </g>
             </motion.g>
           </svg>
-          <div ref={card} className="absolute left-0 top-0 rounded-2xl border border-white/10 bg-[#081a14]/85 shadow-[0_30px_60px_-30px_rgb(0_0_0/.9)] backdrop-blur-md will-change-transform">
+          <div ref={card} className="absolute left-0 top-0 rounded-2xl border border-white/10 bg-[#0b1f18] shadow-[0_30px_60px_-30px_rgb(0_0_0/.9)]">
             <AnimatePresence mode="wait" initial={false}>
-              <motion.div key={step} initial={{ opacity: 0, y: 6, scale: 0.97 }} animate={{ opacity: 1, y: 0, scale: 1 }} exit={{ opacity: 0, y: -4, scale: 0.98 }} transition={{ duration: 0.3, ease: EASE }}>
+              <motion.div key={step} initial={{ opacity: 0, y: 6 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }} transition={{ duration: 0.25, ease: EASE }}>
                 {step === 0 ? <ReadNote line={readLine} done={readDone} /> : step === 1 ? <CiteNote /> : step === 2 ? <VerifyNote /> : <ScoreNote on={step === 3} />}
               </motion.div>
             </AnimatePresence>

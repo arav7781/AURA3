@@ -28,6 +28,8 @@ export interface DeskOptions {
   /** The figure checked on step 3, as a box on the page. */
   figure: Box
   reduced: boolean
+  /** Resolution of the overlay masks, as a multiple of 1754 px wide (2 on large screens, for crisp boxes). */
+  detail: number
   /** Seconds after the pages are loaded before the scan starts: the entrance plays first. */
   scanDelay: number
   onFrame?: (frame: DeskFrame) => void
@@ -213,20 +215,21 @@ function overlayMasks(lines: Box[], cited: number[], figure: Box, w: number, h: 
     g.strokeStyle = '#fff'
     g.stroke()
   }
-  const all = layer(g => lines.forEach(box => rect(g, box, 6, 0.16, 3)))
+  const k = w / 1754  // stroke widths and padding are designed at 1754 px wide
+  const all = layer(g => lines.forEach(box => rect(g, box, 6 * k, 0.16, 3 * k)))
   const claim = layer(g => {
     const boxes = cited.map(i => lines[i])
     const union: Box = [
       Math.min(...boxes.map(b => b[0])), Math.min(...boxes.map(b => b[1])),
       Math.max(...boxes.map(b => b[2])), Math.max(...boxes.map(b => b[3])),
     ]
-    rect(g, union, 14, 0.2, 4)
+    rect(g, union, 14 * k, 0.2, 4 * k)
   })
   const fig = layer(g => {
-    rect(g, figure, 5, 0.42, 4)
+    rect(g, figure, 5 * k, 0.42, 4 * k)
     const [x0, , x1, y1] = figure
     g.fillStyle = '#fff'
-    g.fillRect(x0 * w - 5, y1 * h + 9, (x1 - x0) * w + 10, 5)
+    g.fillRect(x0 * w - 5 * k, y1 * h + 9 * k, (x1 - x0) * w + 10 * k, 5 * k)
   })
   const [c, g] = canvas(w, h)
   const out = g.createImageData(w, h)
@@ -299,7 +302,7 @@ export function createDesk(opts: DeskOptions): Desk {
   const renderer = new THREE.WebGLRenderer({ canvas: el, antialias: true, powerPreference: 'high-performance' })
   renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2))
   renderer.toneMapping = THREE.ACESFilmicToneMapping
-  renderer.toneMappingExposure = 1.02
+  renderer.toneMappingExposure = 0.9
   renderer.shadowMap.enabled = true
   renderer.shadowMap.type = THREE.PCFSoftShadowMap
   const aniso = renderer.capabilities.getMaxAnisotropy()
@@ -312,10 +315,11 @@ export function createDesk(opts: DeskOptions): Desk {
   const disposables: { dispose: () => void }[] = [pmrem, env]
   const keep = <T extends { dispose: () => void }>(x: T) => (disposables.push(x), x)
 
-  // Light: a lamp up and to the left, a cool jade rim from behind, very little fill.
-  const lamp = new THREE.SpotLight('#fff6ec', 320, 0, rad(36), 0.62, 1.7)
-  lamp.position.set(-1.2, 7.6, -2.4)
-  lamp.target.position.set(0.5, 0, 0.45)
+  // Light: a lamp straight above the blotter (so the desk beyond it stays dark), a cool jade rim from
+  // behind, very little fill. Kept soft enough that the paper is not blown out.
+  const lamp = new THREE.SpotLight('#fff6ec', 190, 0, rad(30), 0.8, 1.7)
+  lamp.position.set(-0.5, 7.8, 0.5)
+  lamp.target.position.set(0.3, 0, 0.2)
   lamp.castShadow = true
   lamp.shadow.mapSize.set(2048, 2048)
   lamp.shadow.bias = -0.0002
@@ -323,15 +327,15 @@ export function createDesk(opts: DeskOptions): Desk {
   lamp.shadow.camera.near = 2
   lamp.shadow.camera.far = 20
   scene.add(lamp, lamp.target)
-  const rim = new THREE.DirectionalLight('#86e6c2', 0.5)
+  const rim = new THREE.DirectionalLight('#86e6c2', 0.35)
   rim.position.set(5, 3, -7)
   scene.add(rim)
-  scene.add(new THREE.HemisphereLight('#d5ece1', '#04100b', 0.22))
+  scene.add(new THREE.HemisphereLight('#d5ece1', '#04100b', 0.16))
 
   // The desk: dark lacquer, and on it a leather blotter whose border is tooled in gold.
   const desk = new THREE.Mesh(
     keep(new THREE.PlaneGeometry(80, 80)),
-    keep(new THREE.MeshStandardMaterial({ color: '#020604', roughness: 0.55, metalness: 0, envMap: env, envMapIntensity: 0.05 })),
+    keep(new THREE.MeshStandardMaterial({ color: '#010302', roughness: 0.92, metalness: 0 })),
   )
   desk.rotation.x = -Math.PI / 2
   desk.receiveShadow = true
@@ -408,7 +412,8 @@ export function createDesk(opts: DeskOptions): Desk {
     { geometry: flatPage, at: [0.5, BLOTTER.h + 0.006, -0.36], yaw: 8, spin: 12 },
     { geometry: pageGeometry, at: [0, BLOTTER.h + 0.012, 0], yaw: -4, spin: -9 },
   ].map(({ geometry, at, yaw, spin }) => {
-    const material = keep(new THREE.MeshStandardMaterial({ roughness: 0.88, transparent: true, opacity: 0 }))
+    // Paper a touch below white, so the lamp never blows out the text printed on it
+    const material = keep(new THREE.MeshStandardMaterial({ color: '#efede6', roughness: 0.9, transparent: true, opacity: 0 }))
     const mesh = new THREE.Mesh(geometry, material)
     mesh.rotation.set(-Math.PI / 2, 0, rad(yaw))
     mesh.position.set(at[0], at[1], at[2])
@@ -418,7 +423,8 @@ export function createDesk(opts: DeskOptions): Desk {
   })
   const top = sheets[2].mesh
 
-  const masks = keep(new THREE.CanvasTexture(overlayMasks(opts.lines, opts.cited, opts.figure, 1754, Math.round(1754 / opts.aspect))))
+  const maskW = Math.round(1754 * opts.detail)
+  const masks = keep(new THREE.CanvasTexture(overlayMasks(opts.lines, opts.cited, opts.figure, maskW, Math.round(maskW / opts.aspect))))
   masks.anisotropy = aniso
   const overlay = keep(new THREE.ShaderMaterial({
     vertexShader: OVERLAY_VERT,

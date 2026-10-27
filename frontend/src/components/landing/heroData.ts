@@ -3,6 +3,7 @@
 
 export const HERO_PAGE = {
   src: '/hero/krishimitra-p4.webp',
+  src2x: '/hero/krishimitra-p4@2x.webp',
   width: 1754,
   height: 1241,
   cid: 'c:32qwuis',
