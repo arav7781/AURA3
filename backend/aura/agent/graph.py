@@ -97,7 +97,10 @@ def system_prompt(ctx: Ctx, focus: Startup | None) -> str:
     return (
         f"{who} Today is {today}. AURA3 is a platform where Indian startups publish pitch decks (read by TitanOCR) and AI "
         "due-diligence evaluations, and investors review, rank and back them with AuraCoin.\n\n"
-        f"Use tools for every fact about a startup; never answer from memory. {guide}{context}\n\n"
+        f"Use tools for every fact about a startup; never answer from memory. {guide} For calculations beyond one "
+        "step, projections, comparisons across startups or charts, write Python and run it with run_python (a "
+        "sandbox with pandas and matplotlib and no internet; startups.csv lists the startups the user can see), "
+        f"and report the results it printed.{context}\n\n"
         "Rules:\n"
         "- Cite every fact taken from a document passage with its ref, e.g. [c:higtc4h], and web facts with [w:n]. "
         "Only cite refs a tool returned.\n"

@@ -4,9 +4,12 @@
         run_start · token · tool_start · tool_end · message · job_done | job_error
 """
 
+import re
+from pathlib import Path
 from typing import Any
 
 from fastapi import APIRouter, Depends, File, UploadFile
+from fastapi.responses import FileResponse
 from pydantic import BaseModel, Field
 from sqlalchemy import select
 
@@ -18,6 +21,7 @@ from aura.core.db import read_session
 from aura.core.errors import AppError, NotFound
 from aura.core.jobs import cancel
 from aura.models import CopilotMessage, CopilotThread, Job
+from aura.sandbox.workspace import RUN_FILES, sandbox_dir
 
 router = APIRouter(prefix="/api/copilot", tags=["copilot"])
 
@@ -69,6 +73,20 @@ async def attach_file(thread_id: str, file: UploadFile = File(...), viewer: View
         raise AppError("Only founders can attach files to the copilot", code="FORBIDDEN_ROLE", status=403)
     startup = visible_startup(viewer, viewer.startup_id)
     return await receive_document(viewer, startup, file, kind="deck", thread_id=thread.id, reuse_duplicate=True)
+
+
+@router.get("/threads/{thread_id}/runs/{run_id}/files/{name}")
+def run_file(thread_id: str, run_id: str, name: str, viewer: Viewer = Depends(current_viewer)) -> FileResponse:
+    """A file a sandbox run saved to out/. Images display inline; everything else downloads."""
+    service.own_thread(viewer, thread_id)
+    if not re.fullmatch(r"[0-9a-f]{12}", run_id) or "/" in name or name.startswith(".") or Path(name).suffix.lower() not in RUN_FILES:
+        raise NotFound("File not found")
+    path = sandbox_dir(thread_id) / run_id / "out" / name
+    if not path.is_file() or path.is_symlink():
+        raise NotFound("File not found")
+    inline = path.suffix.lower() == ".png"
+    return FileResponse(path, media_type="image/png" if inline else None, filename=None if inline else name,
+                        headers={"Cache-Control": "private, max-age=3600", "X-Content-Type-Options": "nosniff"})
 
 
 class MessageIn(BaseModel):

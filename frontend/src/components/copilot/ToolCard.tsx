@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
-import { AlertTriangle, BarChart3, Check, ChevronDown, Download, ExternalLink, FileSearch, FileText, Globe, Loader2, Lock, MessageSquare, Paperclip, Presentation, Search, Table2, Building2 } from 'lucide-react'
+import { AlertTriangle, BarChart3, Check, ChevronDown, Download, ExternalLink, FileSearch, FileText, Globe, Loader2, Lock, MessageSquare, Paperclip, Presentation, Search, SquareTerminal, Table2, Building2 } from 'lucide-react'
 import { clsx } from 'clsx'
 import type { Card, Part } from '@/lib/copilot'
 import { Badge, FlagBadges, RecommendationBadge, ScoreRing, STAGE_LABELS } from '@/components/ui'
@@ -11,7 +11,7 @@ type ToolPart = Extract<Part, { type: 'tool' }>
 
 const ICONS: Record<string, typeof Search> = {
   search_startups: Search, get_startup: Building2, list_documents: FileText, search_documents: FileSearch,
-  read_page: FileText, read_attachment: Paperclip, build_pitch_deck: Presentation, get_evaluation: BarChart3, compare_startups: Table2, get_reviews: MessageSquare, web_search: Globe,
+  read_page: FileText, read_attachment: Paperclip, build_pitch_deck: Presentation, run_python: SquareTerminal, get_evaluation: BarChart3, compare_startups: Table2, get_reviews: MessageSquare, web_search: Globe,
 }
 
 function label(part: ToolPart): string {
@@ -23,6 +23,7 @@ function label(part: ToolPart): string {
     case 'list_documents': return `Submitted documents${who}`
     case 'search_documents': return `Searched documents · “${a.query}”${who}`
     case 'read_page': return `Read page ${a.page}${who}`
+    case 'run_python': return part.status === 'running' ? `Running Python in the sandbox${a.purpose ? ` · ${a.purpose}` : ''}…` : `Ran Python${a.purpose ? ` · ${a.purpose}` : ''}`
     case 'build_pitch_deck': return part.status === 'running' ? 'Designing your deck and checking it with TitanOCR…' : 'Built your pitch deck'
     case 'read_attachment': return `Read your attached file${a.page ? ` · page ${a.page}` : ''}${a.document ? ` · ${a.document}` : ''}`
     case 'get_evaluation': return `AI evaluation${who}`
@@ -163,6 +164,37 @@ function Body({ card }: { card: Card }) {
           ))}
         </ol>
       )
+    case 'code': {
+      const failed = card.status !== 'ok'
+      return (
+        <div className="space-y-2.5">
+          <details className="group rounded-lg border border-slate-200 bg-white">
+            <summary className="cursor-pointer select-none px-3 py-2 font-mono text-[0.68rem] text-slate-500">
+              main.py · {card.code.split('\n').length} lines · {(card.ms / 1000).toFixed(1)} s in a sandbox with no network
+            </summary>
+            <pre className="max-h-72 overflow-auto border-t border-slate-200 bg-slate-50 p-3 font-mono text-[0.72rem] leading-relaxed text-slate-800">{card.code}</pre>
+          </details>
+          {(card.stdout.length > 0 || failed) && (
+            <pre className={`max-h-60 overflow-auto rounded-lg p-3 font-mono text-[0.72rem] leading-relaxed ${failed ? 'bg-rose-50 text-rose-900' : 'bg-night text-mist'}`}>
+              {[...card.stdout, ...(failed ? card.stderr : [])].join('\n') || `The script ${card.status}.`}
+            </pre>
+          )}
+          {card.files.filter((f: Card) => f.kind === 'image').map((f: Card) => (
+            // eslint-disable-next-line @next/next/no-img-element -- a chart the run saved
+            <img key={f.name} src={f.url} alt={f.name} className="max-h-96 w-full rounded-lg border border-slate-200 bg-white object-contain" />
+          ))}
+          {card.files.some((f: Card) => f.kind === 'file') && (
+            <div className="flex flex-wrap gap-2">
+              {card.files.filter((f: Card) => f.kind === 'file').map((f: Card) => (
+                <a key={f.name} href={f.url} className="inline-flex items-center gap-1.5 rounded-lg border border-slate-300 bg-white px-3 py-1.5 text-sm font-semibold text-slate-700 hover:border-jade-600">
+                  <Download className="h-3.5 w-3.5" /> {f.name}
+                </a>
+              ))}
+            </div>
+          )}
+        </div>
+      )
+    }
     case 'deck':
       return (
         <div className="space-y-3">

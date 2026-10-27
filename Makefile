@@ -29,7 +29,7 @@ audit:
 	cd $(BACKEND) && uv run python -m aura.ledger.audit
 
 api:
-	cd $(BACKEND) && uv run uvicorn aura.api.app:app --port 8010 --reload --reload-exclude 'data/*'
+	cd $(BACKEND) && uv run uvicorn aura.api.app:app --port 8010 --reload --reload-dir aura
 
 services:
 	docker-compose --env-file $(BACKEND)/.env up -d qdrant

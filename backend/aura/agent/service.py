@@ -27,6 +27,7 @@ from aura.core.jobs import JobContext, start_job, stream_key
 from aura.ingest.storage import document_dir
 from aura.models import CopilotMessage, CopilotThread, Document, Job, Startup
 from aura.rag import store
+from aura.sandbox.workspace import sandbox_dir
 
 logger = logging.getLogger("aura.copilot")
 
@@ -220,7 +221,8 @@ async def _run(job: JobContext, viewer: Viewer, thread_id: str, user_seq: int, q
 
 
 async def delete_thread(viewer: Viewer, thread_id: str) -> None:
-    """The conversation, its messages and the files attached to it (rows, vectors and stored files)."""
+    """The conversation, its messages, the files attached to it (rows, vectors and stored files) and the files
+    its code runs saved."""
     own_thread(viewer, thread_id)
     with read_session() as s:
         attached = s.scalars(select(Document.id).where(Document.thread_id == thread_id)).all()
@@ -231,3 +233,4 @@ async def delete_thread(viewer: Viewer, thread_id: str) -> None:
         s.execute(delete(CopilotThread).where(CopilotThread.id == thread_id))
     for doc_id in attached:
         shutil.rmtree(document_dir(doc_id), ignore_errors=True)
+    shutil.rmtree(sandbox_dir(thread_id), ignore_errors=True)

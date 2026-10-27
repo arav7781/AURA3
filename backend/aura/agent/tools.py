@@ -7,13 +7,17 @@ founders), never from the arguments. Every passage or web result a tool returns 
 ``Ctx.evidence``, so the final answer's citations can be checked against what was actually retrieved.
 
 All tools are read-only, except ``build_pitch_deck``, which writes a new private draft deck into the
-founder's own conversation.
+founder's own conversation, and ``run_python``, which runs the model's code in the locked-down sandbox
+(no network, a fresh container per run) with a catalogue of the startups the viewer can see.
 """
 
 import asyncio
+import csv
 import hashlib
+import io
 import json
 import re
+import uuid
 from collections.abc import Awaitable, Callable
 from dataclasses import dataclass, field
 from typing import Any
@@ -43,6 +47,8 @@ from aura.models import Chunk, Document, Evaluation, InvestorProfile, Review, St
 from aura.rag import store
 from aura.rag.retriever import AccessScope, SearchRequest, search
 from aura.rankings import community_scores, load_ballots, ranks
+from aura.sandbox.runner import RunSpec, SandboxUnavailable, runner
+from aura.sandbox.workspace import RUN_FILES, sandbox_dir
 
 STAGES = {"pre_seed": "Pre-seed", "seed": "Seed", "series_a": "Series A", "series_b": "Series B"}
 MAX_TEXT = 6000
@@ -422,6 +428,107 @@ async def build_pitch_deck(ctx: Ctx, args: DeckDraft) -> ToolOutput:
         "better and what they should check or add before using it.", card)
 
 
+class RunPythonArgs(BaseModel):
+    code: str = Field(max_length=20000, description=(
+        "A complete Python 3.13 script. pandas, numpy, scipy, matplotlib, openpyxl and python-pptx are installed; "
+        "there is no internet. startups.csv in the working directory has one row per startup the user can see "
+        "(name, domain, stage, AI score and rubric scores, round terms, registry status). Print the results; save "
+        "charts and files to out/, e.g. plt.savefig('out/chart.png', dpi=160, bbox_inches='tight')."))
+    purpose: str = Field(default="", max_length=120, description="One line: what the code works out")
+
+
+CATALOGUE_COLUMNS = ["name", "slug", "domain", "stage", "city", "founded", "ai_score", "recommendation",
+                     "team", "market", "product", "traction", "business_model", "moat", "execution_risk",
+                     "ask_inr_crore", "pre_money_inr_crore", "min_raise_pct", "registry_status", "flags"]
+
+
+def catalogue_csv(viewer: Viewer) -> bytes:
+    """The startups the viewer can see, with the published AI scores, as CSV for the sandbox."""
+    with read_session() as s:
+        startups = s.scalars(select(Startup).where(_visible(viewer)).order_by(Startup.name)).all()
+        evaluations = {e.id: e for e in s.scalars(select(Evaluation).where(
+            Evaluation.id.in_([st.latest_evaluation_id for st in startups if st.latest_evaluation_id])))}
+    out = io.StringIO()
+    writer = csv.writer(out)
+    writer.writerow(CATALOGUE_COLUMNS)
+    for st in startups:
+        evaluation = evaluations.get(st.latest_evaluation_id or "")
+        scores = ((evaluation.result if evaluation else None) or {}).get("category_scores") or {}
+        writer.writerow([st.name, st.slug, st.domain, st.stage, st.hq_city or "", st.founded_year or "",
+                         st.ai_score_x10 / 10 if st.ai_score_x10 is not None else "", st.recommendation or "",
+                         *(scores.get(k, "") for k in ("team", "market", "product", "traction", "business_model", "moat",
+                                                       "execution_risk")),
+                         st.ask_inr / 1e7 if st.ask_inr else "", st.pre_money_inr / 1e7 if st.pre_money_inr else "",
+                         ((st.profile or {}).get("round") or {}).get("min_raise_pct", ""),
+                         (st.mca or {}).get("company_status", ""), ";".join(st.compliance_flags)])
+    return out.getvalue().encode()
+
+
+def _collect(out_dir) -> list[dict[str, Any]]:
+    """Files the run saved to out/: only known types, size-capped; images re-encoded (no hidden payloads)."""
+    from PIL import Image
+
+    files = []
+    for path in sorted(out_dir.iterdir()) if out_dir.is_dir() else []:
+        suffix = path.suffix.lower()
+        if not path.is_file() or path.is_symlink() or suffix not in RUN_FILES or path.stat().st_size > 10 << 20:
+            path.unlink(missing_ok=True)
+            continue
+        if suffix == ".png":
+            try:
+                with Image.open(path) as image:
+                    image.load()
+                    if image.width * image.height > 25_000_000:
+                        raise ValueError("image too large")
+                    clean = image.convert("RGBA" if image.mode in ("RGBA", "LA", "P") else "RGB")
+                clean.save(path, format="PNG")
+            except Exception:  # noqa: BLE001 — anything Pillow cannot read is dropped
+                path.unlink(missing_ok=True)
+                continue
+        files.append({"name": path.name, "kind": "image" if suffix == ".png" else "file", "bytes": path.stat().st_size})
+        if len(files) >= 10:
+            break
+    return files
+
+
+async def run_python(ctx: Ctx, args: RunPythonArgs) -> ToolOutput:
+    viewer = ctx.viewer
+    if not ctx.thread_id:
+        raise ToolError("NOT_FOUND", "Code runs inside a conversation.")
+    if await asyncio.to_thread(runner.status) != "ready":
+        raise ToolError("SANDBOX_UNAVAILABLE", "The code sandbox is not running right now.", retryable=True)
+    with write_tx() as s:
+        quotas.consume(s, viewer.user_id, "sandbox", viewer.quota_limits.get("sandbox"))
+    run_id = uuid.uuid4().hex[:12]
+    workspace = sandbox_dir(ctx.thread_id) / run_id
+    try:
+        result = await runner.run(RunSpec(
+            argv=["python", "/opt/aura/runner.py", "/work/main.py"], workspace=workspace, timeout_s=60, mem="768m",
+            files={"main.py": args.code.encode(), "startups.csv": catalogue_csv(viewer)}))
+    except SandboxUnavailable as exc:
+        raise ToolError("SANDBOX_UNAVAILABLE", str(exc), retryable=True) from exc
+    files = _collect(workspace / "out")
+    base = f"/api/copilot/threads/{ctx.thread_id}/runs/{run_id}/files"
+    for f in files:
+        f["url"] = f"{base}/{f['name']}"
+    stdout, stderr = "\n".join(result.stdout), "\n".join(result.stderr)
+    outcome = {"ok": "finished", "error": f"failed (exit code {result.exit_code})", "timeout": "was stopped after 60 s",
+               "oom": "ran out of memory (768 MB)", "failed_to_start": "could not start"}[result.status]
+    text = [f"The script {outcome} in {result.ms / 1000:.1f} s."]
+    if stdout:
+        text.append("stdout:\n" + stdout[-4000:])
+    if stderr and result.status != "ok":
+        text.append("stderr:\n" + stderr[-2000:])
+    if files:
+        text.append("Files it saved (shown to the user on the card): " + ", ".join(f["name"] for f in files))
+    if result.truncated:
+        text.append("(output was cut off at 2,000 lines)")
+    card = {"type": "code", "purpose": args.purpose, "code": args.code, "status": result.status,
+            "exit_code": result.exit_code, "ms": result.ms, "stdout": result.stdout[-80:], "stderr": result.stderr[-30:],
+            "files": files, "truncated": result.truncated}
+    return ToolOutput("\n\n".join(text), card)
+
+
 async def get_evaluation(ctx: Ctx, args: StartupArgs) -> ToolOutput:
     st = resolve_startup(ctx.viewer, args.startup)
     owner = is_owner(ctx.viewer, st)
@@ -566,6 +673,10 @@ TOOLS = [
          "go-to-market, roadmap, team, ask). Use it whenever the founder asks you to make, create, rebuild, redesign or "
          "export their deck or slides. Write every slide in full, using only figures from their documents and "
          "evaluation (mark estimates as estimates).", DeckDraft, build_pitch_deck, timeout=150.0),
+    Tool("run_python", "Write and run a Python script in a sandbox (no internet) for calculations, projections, "
+         "comparisons across startups (startups.csv) or charts. Use it whenever an answer needs arithmetic beyond a "
+         "single step or a chart; put the numbers you need from documents or the web in the script.",
+         RunPythonArgs, run_python, timeout=100.0),
     Tool("get_evaluation", "A startup's AI due-diligence evaluation: score, label, rubric scores and reasons, deck claims "
          "checked against sources, data gaps.", StartupArgs, get_evaluation),
     Tool("compare_startups", "Side-by-side comparison of 2 to 4 startups: AI and rubric scores, round terms, reviews, "

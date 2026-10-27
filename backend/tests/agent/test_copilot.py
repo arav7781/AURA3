@@ -6,6 +6,7 @@ import time
 import uuid
 from unittest.mock import patch
 
+import pytest
 from langchain_core.messages import AIMessageChunk
 from sqlalchemy import select, update
 
@@ -316,3 +317,39 @@ def test_founders_get_a_designed_deck_they_can_download(client):
         wait(client, ask(client, mine["id"], "make a deck")["run_id"])
     tool = next(p for p in client.get(f"/api/copilot/threads/{mine['id']}").json()["messages"][-1]["parts"] if p["type"] == "tool")
     assert tool["status"] == "error" and tool["card"]["code"] == "FORBIDDEN"
+
+
+CHART = r"""
+import pandas as pd
+import matplotlib.pyplot as plt
+df = pd.read_csv("startups.csv")
+print("startups", len(df), "agritech", int((df.domain == "Agritech").sum()))
+df.plot.bar(x="name", y="ai_score")
+plt.savefig("out/scores.png", dpi=80)
+open("out/evil.svg", "w").write("<svg/>")
+"""
+
+
+@pytest.mark.docker
+def test_run_python_runs_in_the_sandbox_and_returns_its_files(client):
+    from aura.sandbox.runner import runner
+
+    if runner.status() != "ready":
+        pytest.skip("sandbox not available")
+    published_startup(client)
+    register(client, plan="angel")
+    thread = client.post("/api/copilot/threads", json={}).json()
+    fake = FakeChat([[call("run_python", {"code": CHART, "purpose": "AI scores"})], text("One agritech startup.")])
+    with patch("aura.agent.graph.chat_model", return_value=fake):
+        wait(client, ask(client, thread["id"], "Chart the AI scores")["run_id"])
+    tool = next(p for p in client.get(f"/api/copilot/threads/{thread['id']}").json()["messages"][-1]["parts"] if p["type"] == "tool")
+    card = tool["card"]
+    assert tool["status"] == "done" and card["status"] == "ok", card
+    assert "startups 1 agritech 1" in card["stdout"]
+    assert [f["name"] for f in card["files"]] == ["scores.png"]  # the .svg is dropped
+    image = client.get(card["files"][0]["url"])
+    assert image.status_code == 200 and image.content[:8] == b"\x89PNG\r\n\x1a\n"
+    assert "startups 1 agritech 1" in fake.calls[1][-1].content
+
+    register(client, plan="angel")  # someone else cannot fetch the file
+    assert client.get(card["files"][0]["url"]).status_code == 404
