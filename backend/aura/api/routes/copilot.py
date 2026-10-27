@@ -6,13 +6,14 @@
 
 from typing import Any
 
-from fastapi import APIRouter, Depends
+from fastapi import APIRouter, Depends, File, UploadFile
 from pydantic import BaseModel, Field
 from sqlalchemy import select
 
 from aura.access import visible_startup
 from aura.agent import service
 from aura.api.deps import Viewer, current_viewer
+from aura.api.routes.documents import receive_document
 from aura.core.db import read_session
 from aura.core.errors import AppError, NotFound
 from aura.core.jobs import cancel
@@ -51,12 +52,29 @@ def get_thread(thread_id: str, viewer: Viewer = Depends(current_viewer)) -> dict
 
 
 @router.delete("/threads/{thread_id}", status_code=204)
-def delete_thread(thread_id: str, viewer: Viewer = Depends(current_viewer)) -> None:
-    service.delete_thread(viewer, thread_id)
+async def delete_thread(thread_id: str, viewer: Viewer = Depends(current_viewer)) -> None:
+    await service.delete_thread(viewer, thread_id)
+
+
+@router.post("/threads/{thread_id}/attachments", status_code=202)
+async def attach_file(thread_id: str, file: UploadFile = File(...), viewer: Viewer = Depends(current_viewer)) -> dict[str, Any]:
+    """A founder attaches a file (e.g. a new draft of their deck) for the copilot to read.
+
+    It is stored as a private document of their startup tied to this conversation and read by TitanOCR like
+    any upload (office files are converted to PDF in the sandbox first); follow ``events_url`` until it is
+    ready, then send it with a message. If the startup already has this exact file, that document is reused.
+    """
+    thread = service.own_thread(viewer, thread_id)
+    if viewer.role != "startup" or not viewer.startup_id:
+        raise AppError("Only founders can attach files to the copilot", code="FORBIDDEN_ROLE", status=403)
+    startup = visible_startup(viewer, viewer.startup_id)
+    return await receive_document(viewer, startup, file, kind="deck", thread_id=thread.id, reuse_duplicate=True)
 
 
 class MessageIn(BaseModel):
     content: str = Field(min_length=1, max_length=4000)
+    attachments: list[str] = Field(default_factory=list, max_length=service.MAX_ATTACHMENTS,
+                                   description="ids of documents attached with this message (from POST …/attachments)")
 
 
 @router.post("/threads/{thread_id}/messages", status_code=202)
@@ -64,7 +82,7 @@ async def post_message(thread_id: str, body: MessageIn, viewer: Viewer = Depends
     thread = service.own_thread(viewer, thread_id)
     if not body.content.strip():
         raise AppError("Ask a question", code="EMPTY_MESSAGE", status=422)
-    return service.post_message(viewer, thread, body.content.strip())
+    return service.post_message(viewer, thread, body.content.strip(), body.attachments)
 
 
 @router.post("/runs/{run_id}/cancel")

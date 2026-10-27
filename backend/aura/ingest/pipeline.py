@@ -20,6 +20,7 @@ from aura.ingest.geometry import page_exact
 from aura.ingest.ocr import ocr_service
 from aura.ingest.storage import document_dir
 from aura.models import Chunk, Document, DocumentPage, Startup
+from aura.models.startups import ATTACHMENT_KIND
 from aura.rag import indexer, projection, store
 from aura.sandbox.office import OFFICE_SUFFIXES, convert_to_pdf
 
@@ -48,7 +49,7 @@ async def ingest_document(ctx: JobContext, document_id: str, *, update_map: bool
         s.get(Document, document_id).status = "processing"
 
     try:
-        return await _ingest(ctx, doc, startup, update_map=update_map)
+        return await _ingest(ctx, doc, startup, update_map=update_map and doc.thread_id is None)
     except Exception as exc:
         with write_tx() as s:
             row = s.get(Document, document_id)
@@ -93,7 +94,9 @@ async def _ingest(ctx: JobContext, doc: Document, startup: Startup, *, update_ma
 
     ctx.progress("chunking", 72, "Building chunks with page and box provenance")
     visibility = "dao" if startup.status == "published" and doc.visibility == "published" else "private"
-    meta = DocMeta(doc.id, startup.id, startup.name, startup.domain, startup.stage, doc.kind, visibility,
+    attachment = doc.thread_id is not None
+    doc_kind = ATTACHMENT_KIND if attachment else doc.kind
+    meta = DocMeta(doc.id, startup.id, startup.name, startup.domain, startup.stage, doc_kind, visibility,
                    str(ir.get("content_hash", doc.sha256)))
     records = chunk_ir(ir, doc=meta, verdicts=outcome.pages)
     hidden_pages = {f.page for f in findings if f.source == "hidden_text"}
@@ -103,7 +106,7 @@ async def _ingest(ctx: JobContext, doc: Document, startup: Startup, *, update_ma
     await store.delete_document(doc.id)
     versions = outcome.versions | {"chunker": CHUNKER_VERSION}
     indexed = await indexer.index_chunks(
-        records, startup_name=startup.name, domain=startup.domain, stage=startup.stage, doc_kind=doc.kind,
+        records, startup_name=startup.name, domain=startup.domain, stage=startup.stage, doc_kind=doc_kind,
         versions=versions, injected_ids=injected,
     )
     ctx.progress("indexing", 95, f"Indexed {indexed} chunks in Qdrant")
@@ -149,7 +152,8 @@ async def _ingest(ctx: JobContext, doc: Document, startup: Startup, *, update_ma
         row.ocr_ms = outcome.ms
         row.error = None
         startup_row = s.get(Startup, startup.id)
-        if FLAG_INJECTION in flags and FLAG_INJECTION not in startup_row.compliance_flags:
+        # A draft attached to a conversation is flagged on itself, not on the startup's public record.
+        if not attachment and FLAG_INJECTION in flags and FLAG_INJECTION not in startup_row.compliance_flags:
             startup_row.compliance_flags = [*startup_row.compliance_flags, FLAG_INJECTION]
         startup_row.updated_at = clock.now()
 

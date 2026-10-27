@@ -7,7 +7,7 @@ import uuid
 from unittest.mock import patch
 
 from langchain_core.messages import AIMessageChunk
-from sqlalchemy import update
+from sqlalchemy import select, update
 
 from aura.core.db import write_tx
 from aura.models import Chunk, Document, Startup, UsageCounter
@@ -153,3 +153,100 @@ def test_quota_privacy_and_one_run_at_a_time(client):
     register(client, plan="angel")
     assert client.get(f"/api/copilot/threads/{thread['id']}").status_code == 404
     assert client.get("/api/copilot/threads").json()["items"] == []
+
+
+async def fake_ingest(ctx, document_id: str, **_):
+    """Stands in for TitanOCR: the attached draft has two pages, page 2 states a new TAM."""
+    with write_tx() as s:
+        doc = s.get(Document, document_id)
+        doc.status, doc.page_count = "ready", 2
+        s.add(Chunk(id=str(uuid.uuid4()), cid="c:draftzz", document_id=doc.id, startup_id=doc.startup_id, seq=0, page_no=2,
+                    slide_title="Market", text="New TAM: USD 90M in 2026", bbox=[0.1, 0.1, 0.9, 0.3], origin="digital",
+                    conf_min=1.0, conf_mean=1.0, n_tokens=8, visibility="private"))
+    return {"document_id": document_id}
+
+
+def attach(client, thread_id: str, data: bytes = b"%PDF-1.7\n% draft deck\n", name: str = "Deck v2.pdf"):
+    with patch("aura.api.routes.documents.ingest_document", fake_ingest):
+        response = client.post(f"/api/copilot/threads/{thread_id}/attachments",
+                               files={"file": (name, data, "application/pdf")})
+        assert response.status_code == 202, response.text
+        out = response.json()
+        if out["job_id"]:
+            wait(client, out["job_id"])
+    return out
+
+
+def test_founders_attach_a_draft_deck_that_only_the_copilot_reads(client):
+    startup_id = published_startup(client)
+    thread = client.post("/api/copilot/threads", json={}).json()
+    out = attach(client, thread["id"])
+    doc_id = out["document_id"]
+    assert out["document"]["thread_id"] == thread["id"] and out["document"]["visibility"] == "private"
+
+    # a draft, not part of the startup's documents
+    listed = client.get(f"/api/startups/{startup_id}/documents").json()["items"]
+    assert [d["filename"] for d in listed] == ["Deck.pdf"]
+
+    fake = FakeChat([[call("read_attachment", {})], text("Slide 2 now says USD 90M [c:draftzz]; cite the source.")])
+    with patch("aura.agent.graph.chat_model", return_value=fake):
+        response = client.post(f"/api/copilot/threads/{thread['id']}/messages",
+                               json={"content": "Review my new deck", "attachments": [doc_id]})
+        assert response.status_code == 202, response.text
+        assert response.json()["message"]["parts"][0] == {
+            "type": "attachment", "document_id": doc_id, "filename": "Deck v2.pdf", "pages": 2,
+            "size_bytes": len(b"%PDF-1.7\n% draft deck\n"), "mime": "application/pdf"}
+        wait(client, response.json()["run_id"])
+    assert "read_attachment" in fake.tools
+    system, question = fake.calls[0][0].content, fake.calls[0][-1].content
+    assert "Deck v2.pdf (2 pages)" in system and "[Attached: Deck v2.pdf (2 pages)" in question
+    assert "New TAM: USD 90M" in fake.calls[1][-1].content
+    answer = client.get(f"/api/copilot/threads/{thread['id']}").json()["messages"][-1]
+    assert answer["citations"]["c:draftzz"]["attachment"] is True
+
+    # the same file again is the same document, not a duplicate error
+    assert attach(client, thread["id"])["reused"] is True
+
+    # investors never see it
+    register(client, plan="syndicate")
+    assert client.get(f"/api/documents/{doc_id}").status_code == 404
+    assert all(d["id"] != doc_id for d in client.get(f"/api/startups/{startup_id}/documents").json()["items"])
+
+
+def test_attachment_rules(client):
+    published_startup(client)
+    thread = client.post("/api/copilot/threads", json={}).json()
+    with write_tx() as s:
+        startup_id = s.scalar(select(Startup.id).where(Startup.name == "Test Agritech"))
+        busy = Document(startup_id=startup_id, filename="Busy.pdf", mime="application/pdf", size_bytes=10, sha256="1" * 64,
+                        storage_dir="x", status="processing", visibility="private", thread_id=thread["id"])
+        s.add(busy)
+        s.flush()
+        busy_id = busy.id
+    response = client.post(f"/api/copilot/threads/{thread['id']}/messages", json={"content": "Read it", "attachments": [busy_id]})
+    assert response.status_code == 409 and response.json()["error"]["code"] == "ATTACHMENT_NOT_READY"
+    response = client.post(f"/api/copilot/threads/{thread['id']}/attachments", files={"file": ("x.exe", b"MZ\x90\x00", "application/octet-stream")})
+    assert response.status_code == 415
+
+    # another conversation's draft cannot be borrowed
+    other = client.post("/api/copilot/threads", json={}).json()
+    draft = attach(client, thread["id"], data=b"%PDF-1.7\n% another\n")["document_id"]
+    response = client.post(f"/api/copilot/threads/{other['id']}/messages", json={"content": "x", "attachments": [draft]})
+    assert response.status_code == 404
+
+    # deleting the conversation removes its drafts
+    assert client.delete(f"/api/copilot/threads/{thread['id']}").status_code == 204
+    with write_tx() as s:
+        assert s.get(Document, draft) is None and s.get(Document, busy_id) is None
+
+    register(client, plan="angel")
+    mine = client.post("/api/copilot/threads", json={}).json()
+    response = client.post(f"/api/copilot/threads/{mine['id']}/attachments", files={"file": ("d.pdf", b"%PDF-1.7\n", "application/pdf")})
+    assert response.status_code == 403
+
+
+def test_search_and_publishing_leave_attachments_out():
+    from aura.rag.retriever import AccessScope, SearchRequest, build_filter
+
+    flt = build_filter(SearchRequest(query="TAM"), AccessScope(("public",), own_startup_id="s1"))
+    assert [c.key for c in flt.must_not] == ["doc_kind"] and flt.must_not[0].match.any == ["attachment"]

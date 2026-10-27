@@ -97,7 +97,7 @@ def load_context(startup_id: str) -> StartupContext:
         rows = s.execute(
             select(Chunk, Document.filename)
             .join(Document, Document.id == Chunk.document_id)
-            .where(Chunk.startup_id == startup_id, Document.status == "ready")
+            .where(Chunk.startup_id == startup_id, Document.status == "ready", Document.thread_id.is_(None))
             .order_by(Document.created_at, Chunk.seq)
         ).all()
         profile = dict(startup.profile or {})

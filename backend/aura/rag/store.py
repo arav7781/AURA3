@@ -129,10 +129,14 @@ async def delete_document(doc_id: str) -> None:
 
 
 async def set_startup_visibility(startup_id: str, visibility: str) -> None:
+    """Every chunk of the startup's documents, except files attached to copilot conversations (always private)."""
     await client().set_payload(
         names.chunks,
         payload={"visibility": visibility},
-        points=models.Filter(must=[models.FieldCondition(key="startup_id", match=models.MatchValue(value=startup_id))]),
+        points=models.Filter(
+            must=[models.FieldCondition(key="startup_id", match=models.MatchValue(value=startup_id))],
+            must_not=[models.FieldCondition(key="doc_kind", match=models.MatchValue(value="attachment"))],
+        ),
         wait=True,
     )
 

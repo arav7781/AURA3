@@ -14,7 +14,7 @@ from aura.access import is_owner, visible_startup
 from aura.api.deps import Viewer, current_viewer, require_feature
 from aura.core.db import read_session
 from aura.core.embeddings import DenseEmbedder
-from aura.models import Chunk, Startup
+from aura.models import Chunk, Document, Startup
 from aura.rag import projection, store
 from aura.rag.retriever import AccessScope, SearchRequest, build_filter, search
 
@@ -38,7 +38,8 @@ def chunk_map(startup_id: str | None = Query(default=None), viewer: Viewer = Dep
         query = (
             select(Chunk, Startup.name, Startup.domain)
             .join(Startup, Startup.id == Chunk.startup_id)
-            .where(Chunk.proj_x.is_not(None))
+            .join(Document, Document.id == Chunk.document_id)
+            .where(Chunk.proj_x.is_not(None), Document.thread_id.is_(None))
         )
         if startup_ids:
             query = query.where(Chunk.startup_id.in_(startup_ids))

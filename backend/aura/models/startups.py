@@ -7,6 +7,8 @@ from sqlalchemy.orm import Mapped, mapped_column
 from aura.models.base import Base, CreatedMixin, IdMixin, UTCDateTime
 
 STAGES = ("pre_seed", "seed", "series_a", "series_b")
+# doc_kind of an attachment's chunks in the vector store, so searches and publishing can leave them out
+ATTACHMENT_KIND = "attachment"
 
 
 class Startup(IdMixin, CreatedMixin, Base):
@@ -75,6 +77,9 @@ class Document(IdMixin, CreatedMixin, Base):
     ingest_job_id: Mapped[str | None] = mapped_column(String(36))
     ocr_ms: Mapped[int | None] = mapped_column(Integer)
     error: Mapped[str | None] = mapped_column(Text)
+    # Set for a file attached to a copilot conversation: a private draft the copilot reads. It is never
+    # published, evaluated, mapped or shown to investors, and goes when the conversation is deleted.
+    thread_id: Mapped[str | None] = mapped_column(ForeignKey("copilot_threads.id", ondelete="CASCADE"), index=True)
 
 
 class DocumentPage(Base):

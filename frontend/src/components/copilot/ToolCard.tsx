@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
-import { AlertTriangle, BarChart3, Check, ChevronDown, Download, ExternalLink, FileSearch, FileText, Globe, Loader2, Lock, MessageSquare, Search, Table2, Building2 } from 'lucide-react'
+import { AlertTriangle, BarChart3, Check, ChevronDown, Download, ExternalLink, FileSearch, FileText, Globe, Loader2, Lock, MessageSquare, Paperclip, Search, Table2, Building2 } from 'lucide-react'
 import { clsx } from 'clsx'
 import type { Card, Part } from '@/lib/copilot'
 import { Badge, FlagBadges, RecommendationBadge, ScoreRing, STAGE_LABELS } from '@/components/ui'
@@ -11,7 +11,7 @@ type ToolPart = Extract<Part, { type: 'tool' }>
 
 const ICONS: Record<string, typeof Search> = {
   search_startups: Search, get_startup: Building2, list_documents: FileText, search_documents: FileSearch,
-  read_page: FileText, get_evaluation: BarChart3, compare_startups: Table2, get_reviews: MessageSquare, web_search: Globe,
+  read_page: FileText, read_attachment: Paperclip, get_evaluation: BarChart3, compare_startups: Table2, get_reviews: MessageSquare, web_search: Globe,
 }
 
 function label(part: ToolPart): string {
@@ -23,6 +23,7 @@ function label(part: ToolPart): string {
     case 'list_documents': return `Submitted documents${who}`
     case 'search_documents': return `Searched documents · “${a.query}”${who}`
     case 'read_page': return `Read page ${a.page}${who}`
+    case 'read_attachment': return `Read your attached file${a.page ? ` · page ${a.page}` : ''}${a.document ? ` · ${a.document}` : ''}`
     case 'get_evaluation': return `AI evaluation${who}`
     case 'compare_startups': return `Compared ${(a.startups as string[] | undefined)?.join(', ') ?? 'startups'}`
     case 'get_reviews': return `Investor reviews${who}`
@@ -97,8 +98,10 @@ function Body({ card }: { card: Card }) {
         <ul className="space-y-2">
           {card.items.map((p: Card) => (
             <li key={p.cid} className="rounded-lg border border-slate-200 bg-white p-3">
-              <Link href={evidenceHref(p.slug, p.document_id, p.page_no, p.chunk_id)} className="inline-flex items-center gap-1 font-mono text-[0.65rem] text-jade-600 hover:underline">
-                <FileText className="h-3 w-3" /> {p.startup} · p.{p.page_no}{p.slide_title ? ` · ${p.slide_title}` : ''} · {p.cid}
+              <Link href={p.attachment ? `/api/documents/${p.document_id}/pages/${p.page_no}/image` : evidenceHref(p.slug, p.document_id, p.page_no, p.chunk_id)}
+                    target={p.attachment ? '_blank' : undefined}
+                    className="inline-flex items-center gap-1 font-mono text-[0.65rem] text-jade-600 hover:underline">
+                <FileText className="h-3 w-3" /> {p.attachment ? card.attachment?.filename ?? 'Attachment' : p.startup} · p.{p.page_no}{p.slide_title ? ` · ${p.slide_title}` : ''} · {p.cid}
               </Link>
               {p.flagged && <span className="ml-2"><Badge tone="red">possible hidden instructions</Badge></span>}
               <p className="mt-1 line-clamp-4 whitespace-pre-line text-sm text-slate-700">{p.text}</p>

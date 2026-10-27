@@ -74,6 +74,13 @@ def system_prompt(ctx: Ctx, focus: Startup | None) -> str:
         )
     context = (f"\nThis conversation was opened from {focus.name} (slug {focus.slug}); questions are about it unless "
                "the user says otherwise.") if focus else ""
+    if ctx.attachments:
+        files = "; ".join(f"{a.filename} ({a.pages} pages)" for a in ctx.attachments)
+        context += (f"\nThe user attached: {files}. It is a private draft, not what investors see. Read it with "
+                    "read_attachment before answering about it. When asked to review or improve a deck, go slide by slide: "
+                    "what works, what is missing or unconvincing to an investor, and the exact change to make (new wording, "
+                    "a number to add, a source to cite), and compare it with their published deck and evaluation when "
+                    "that helps.")
     return (
         f"{who} Today is {today}. AURA3 is a platform where Indian startups publish pitch decks (read by TitanOCR) and AI "
         "due-diligence evaluations, and investors review, rank and back them with AuraCoin.\n\n"

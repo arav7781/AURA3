@@ -16,7 +16,7 @@ from aura.core.errors import AppError, Conflict, NotFound
 from aura.core.jobs import start_job
 from aura.ingest.pipeline import ingest_document
 from aura.ingest.storage import document_dir, sniff
-from aura.models import Chunk, Document, DocumentPage
+from aura.models import Chunk, Document, DocumentPage, Startup
 from aura.rag import store
 
 router = APIRouter(prefix="/api", tags=["documents"])
@@ -56,6 +56,7 @@ def document_out(doc: Document, pages: list[DocumentPage] | None = None, chunk_c
         "ocr_ms": doc.ocr_ms,
         "error": doc.error,
         "job_id": doc.ingest_job_id,
+        "thread_id": doc.thread_id,
         "created_at": clock.iso(doc.created_at),
     }
     if pages is not None:
@@ -103,18 +104,13 @@ def chunk_out(chunk: Chunk, *, with_lines: bool = True) -> dict:
     return out
 
 
-@router.post("/startups/{startup_id}/documents", status_code=202)
-async def upload_document(
-    startup_id: str,
-    file: UploadFile = File(...),
-    kind: str = Form("deck"),
-    viewer: Viewer = Depends(current_viewer),
-) -> dict[str, Any]:
-    startup = visible_startup(viewer, startup_id)
-    if not is_owner(viewer, startup):
-        raise NotFound("Startup not found")
-    if kind not in KINDS:
-        raise AppError("Unknown document kind", code="INVALID_KIND", kinds=sorted(KINDS))
+async def receive_document(viewer: Viewer, startup: Startup, file: UploadFile, *, kind: str,
+                           thread_id: str | None = None, reuse_duplicate: bool = False) -> dict[str, Any]:
+    """Check an uploaded file, store it as a document of ``startup`` and start ingesting it.
+
+    With ``thread_id`` the document is a private attachment of that copilot conversation. With
+    ``reuse_duplicate`` a file the startup already has is returned as it is instead of rejected.
+    """
     data = await file.read(MAX_UPLOAD_BYTES + 1)
     if len(data) > MAX_UPLOAD_BYTES:
         raise AppError("Files are limited to 25 MB", code="FILE_TOO_LARGE", status=413)
@@ -129,12 +125,16 @@ async def upload_document(
 
     with write_tx() as s:
         existing = s.scalar(select(Document).where(Document.startup_id == startup.id, Document.sha256 == sha))
+        if existing is not None and reuse_duplicate and existing.status != "failed":
+            return {"document": document_out(existing), "document_id": existing.id, "job_id": existing.ingest_job_id,
+                    "events_url": f"/api/jobs/{existing.ingest_job_id}/events" if existing.ingest_job_id else None,
+                    "reused": True}
         if existing is not None:
             raise Conflict("This file was already uploaded", code="DUPLICATE_DOCUMENT", document_id=existing.id)
         doc = Document(
             startup_id=startup.id, uploaded_by=viewer.user_id, kind=kind, filename=filename, mime=mime,
-            size_bytes=len(data), sha256=sha, storage_dir="", status="uploaded",
-            visibility="published" if startup.status == "published" else "private",
+            size_bytes=len(data), sha256=sha, storage_dir="", status="uploaded", thread_id=thread_id,
+            visibility="published" if startup.status == "published" and thread_id is None else "private",
         )
         s.add(doc)
         s.flush()
@@ -152,8 +152,27 @@ async def upload_document(
         payload={"filename": filename},
     )
     with write_tx() as s:
-        s.get(Document, document_id).ingest_job_id = job_id
-    return {"document_id": document_id, "job_id": job_id, "events_url": f"/api/jobs/{job_id}/events"}
+        row = s.get(Document, document_id)
+        row.ingest_job_id = job_id
+        s.flush()
+        out = document_out(row)
+    return {"document": out, "document_id": document_id, "job_id": job_id, "events_url": f"/api/jobs/{job_id}/events",
+            "reused": False}
+
+
+@router.post("/startups/{startup_id}/documents", status_code=202)
+async def upload_document(
+    startup_id: str,
+    file: UploadFile = File(...),
+    kind: str = Form("deck"),
+    viewer: Viewer = Depends(current_viewer),
+) -> dict[str, Any]:
+    startup = visible_startup(viewer, startup_id)
+    if not is_owner(viewer, startup):
+        raise NotFound("Startup not found")
+    if kind not in KINDS:
+        raise AppError("Unknown document kind", code="INVALID_KIND", kinds=sorted(KINDS))
+    return await receive_document(viewer, startup, file, kind=kind)
 
 
 @router.get("/startups/{startup_id}/documents")
@@ -161,7 +180,8 @@ def list_documents(startup_id: str, viewer: Viewer = Depends(current_viewer)) ->
     startup = visible_startup(viewer, startup_id)
     owner = is_owner(viewer, startup)
     with read_session() as s:
-        query = select(Document).where(Document.startup_id == startup.id).order_by(Document.created_at.desc())
+        query = (select(Document).where(Document.startup_id == startup.id, Document.thread_id.is_(None))
+                 .order_by(Document.created_at.desc()))
         if not owner:
             query = query.where(Document.visibility == "published", Document.status == "ready")
         docs = s.scalars(query).all()

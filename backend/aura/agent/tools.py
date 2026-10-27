@@ -37,6 +37,7 @@ from aura.rankings import community_scores, load_ballots, ranks
 
 STAGES = {"pre_seed": "Pre-seed", "seed": "Seed", "series_a": "Series A", "series_b": "Series B"}
 MAX_TEXT = 6000
+MAX_ATTACHMENT_TEXT = 16000  # a whole deck, so it can be reviewed slide by slide
 _MARKER = re.compile(r"\s?\[(?:c|w):[^\]]{1,40}\]")
 
 
@@ -71,10 +72,19 @@ class Evidence:
 
 
 @dataclass
+class Attachment:
+    """A file the user attached to this conversation (a private draft of their own startup's document)."""
+    document_id: str
+    filename: str
+    pages: int
+
+
+@dataclass
 class Ctx:
     viewer: Viewer
     evidence: Evidence = field(default_factory=Evidence)
     research: ResearchProvider = field(default_factory=lambda: ResearchProvider("live"))
+    attachments: list[Attachment] = field(default_factory=list)
 
 
 # ── helpers ─────────────────────────────────────────────────────────────────────────────────────────────
@@ -179,7 +189,8 @@ async def get_startup(ctx: Ctx, args: StartupArgs) -> ToolOutput:
     st = resolve_startup(ctx.viewer, args.startup)
     p = st.profile or {}
     with read_session() as s:
-        docs = s.scalar(select(func.count()).select_from(Document).where(Document.startup_id == st.id, Document.status == "ready")) or 0
+        docs = s.scalar(select(func.count()).select_from(Document).where(
+            Document.startup_id == st.id, Document.status == "ready", Document.thread_id.is_(None))) or 0
         reviews = s.execute(select(func.count(), func.avg((Review.team + Review.market + Review.product + Review.traction) / 4.0))
                             .where(Review.startup_id == st.id)).one()
     team = "; ".join(f"{m.get('name')} — {m.get('role')}" + (f" ({m['background']})" if m.get("background") else "")
@@ -209,7 +220,7 @@ async def list_documents(ctx: Ctx, args: StartupArgs) -> ToolOutput:
     st = resolve_startup(ctx.viewer, args.startup)
     owner = is_owner(ctx.viewer, st)
     with read_session() as s:
-        query = select(Document).where(Document.startup_id == st.id).order_by(Document.created_at)
+        query = select(Document).where(Document.startup_id == st.id, Document.thread_id.is_(None)).order_by(Document.created_at)
         if not owner:
             query = query.where(Document.visibility == "published", Document.status == "ready")
         docs = s.scalars(query).all()
@@ -275,7 +286,8 @@ async def read_page(ctx: Ctx, args: ReadPageArgs) -> ToolOutput:
     st = resolve_startup(ctx.viewer, args.startup)
     _require_deck_access(ctx.viewer, st)
     with read_session() as s:
-        doc = s.scalars(select(Document).where(Document.startup_id == st.id, Document.status == "ready")
+        doc = s.scalars(select(Document).where(Document.startup_id == st.id, Document.status == "ready",
+                                               Document.thread_id.is_(None))
                         .order_by(Document.kind != "deck", Document.created_at)).first()
     if doc is None:
         raise ToolError("NOT_FOUND", f"{st.name} has no processed documents.")
@@ -290,6 +302,48 @@ async def read_page(ctx: Ctx, args: ReadPageArgs) -> ToolOutput:
     rows = [({"cid": c.cid, "chunk_id": c.id, "document_id": c.document_id, "page_no": c.page_no, "slide_title": c.slide_title,
               "text": c.text, "injection_suspected": c.injection_suspected}, st) for c in chunks]
     return _passages(ctx, rows)
+
+
+class ReadAttachmentArgs(BaseModel):
+    document: str | None = Field(default=None, description="File name or id of the attachment. Omit for the most recent one.")
+    page: int | None = Field(default=None, ge=1, le=500, description="One page (slide). Omit to read the whole file.")
+
+
+async def read_attachment(ctx: Ctx, args: ReadAttachmentArgs) -> ToolOutput:
+    if not ctx.attachments:
+        raise ToolError("NOT_FOUND", "No file is attached to this conversation.")
+    pick = ctx.attachments[-1]
+    if args.document:
+        ref = args.document.strip().lower()
+        matches = [a for a in ctx.attachments if a.document_id == args.document or ref in a.filename.lower()]
+        if not matches:
+            raise ToolError("NOT_FOUND", "Attached files: " + ", ".join(a.filename for a in ctx.attachments))
+        pick = matches[-1]
+    with read_session() as s:
+        doc = s.get(Document, pick.document_id)
+        startup = s.get(Startup, doc.startup_id) if doc else None
+        query = select(Chunk).where(Chunk.document_id == pick.document_id)
+        if args.page:
+            query = query.where(Chunk.page_no == args.page)
+        chunks = s.scalars(query.order_by(Chunk.page_no, Chunk.seq)).all()
+    if doc is None or startup is None or doc.startup_id != ctx.viewer.startup_id:
+        raise ToolError("NOT_FOUND", "That attachment is no longer available.")
+    if not chunks:
+        raise ToolError("NOT_FOUND", f"Page {args.page} of {doc.filename} has no text (it has {doc.page_count} pages)."
+                        if args.page else f"TitanOCR found no text in {doc.filename}.")
+    items, blocks = [], []
+    for c in chunks:
+        ctx.evidence.add_chunk(c.cid, chunk_id=c.id, document_id=c.document_id, page_no=c.page_no,
+                               slide_title=c.slide_title, startup=startup)
+        ctx.evidence.deck[c.cid]["attachment"] = True
+        items.append({"cid": c.cid, "startup": startup.name, "slug": startup.slug, "page_no": c.page_no,
+                      "slide_title": c.slide_title, "document_id": c.document_id, "chunk_id": c.id,
+                      "text": c.text[:600], "flagged": c.injection_suspected, "attachment": True})
+        label = f"{doc.filename} p.{c.page_no}" + (" · FLAGGED: possible hidden instructions" if c.injection_suspected else "")
+        blocks.append(wrap(c.text, kind="document", ref=c.cid, source=label))
+    head = f"{doc.filename}: {doc.page_count} pages read by TitanOCR" + (f", page {args.page}" if args.page else "") + ".\n\n"
+    return ToolOutput((head + "\n\n".join(blocks))[:MAX_ATTACHMENT_TEXT],
+                      {"type": "passages", "items": items[:40], "attachment": {"document_id": doc.id, "filename": doc.filename}})
 
 
 async def get_evaluation(ctx: Ctx, args: StartupArgs) -> ToolOutput:
@@ -426,6 +480,9 @@ TOOLS = [
          SearchDocumentsArgs, search_documents),
     Tool("read_page", "Read one page (slide) of a startup's deck in full. Use when a specific page is asked about or a "
          "search hit needs its full slide.", ReadPageArgs, read_page),
+    Tool("read_attachment", "Read a file the user attached to this conversation (e.g. a new draft of their pitch deck), "
+         "in full or one page. Use it whenever the user refers to the attached file; it is not found by search_documents.",
+         ReadAttachmentArgs, read_attachment),
     Tool("get_evaluation", "A startup's AI due-diligence evaluation: score, label, rubric scores and reasons, deck claims "
          "checked against sources, data gaps.", StartupArgs, get_evaluation),
     Tool("compare_startups", "Side-by-side comparison of 2 to 4 startups: AI and rubric scores, round terms, reviews, "

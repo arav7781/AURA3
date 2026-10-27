@@ -43,6 +43,8 @@ class SearchRequest:
     startup_ids: list[str] | None = None
     doc_kinds: list[str] | None = None
     pages: list[int] | None = None
+    # Files attached to copilot conversations are read by their own tool, never found by search.
+    exclude_doc_kinds: tuple[str, ...] = ("attachment",)
     k: int = 8
     mode: Mode = "hybrid_rerank"
     per_page_cap: int = 2
@@ -109,7 +111,10 @@ def build_filter(req: SearchRequest, scope: AccessScope) -> models.Filter:
         must.append(models.FieldCondition(key="doc_kind", match=models.MatchAny(any=req.doc_kinds)))
     if req.pages:
         must.append(models.FieldCondition(key="page_no", match=models.MatchAny(any=req.pages)))
-    return models.Filter(must=must)
+    must_not: list[models.Condition] = []
+    if req.exclude_doc_kinds:
+        must_not.append(models.FieldCondition(key="doc_kind", match=models.MatchAny(any=list(req.exclude_doc_kinds))))
+    return models.Filter(must=must, must_not=must_not or None)
 
 
 def _ranked(points: list[models.ScoredPoint]) -> dict[str, tuple[int, float, dict]]:
