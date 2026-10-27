@@ -100,8 +100,6 @@ risks:
   - "Depends on 6 platform partners; the largest brings 41% of insured workers"
   - High worker churn (9.5% a month)
   - Claims fraud is a risk in short, per-shift covers
-deck:
-  palette: insurtech
 evaluation_expectations:
   score_band: [4.0, 7.0]
   recommendation_in: [Hold, Buy, Pass]

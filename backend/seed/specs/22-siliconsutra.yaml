@@ -91,8 +91,6 @@ risks:
   - First silicon may fail and need a costly re-spin
   - Needs a much larger follow-on round (or grants) to fund tape-out and production
   - Competes with well-funded global edge-AI chip vendors
-deck:
-  palette: deeptech
 evaluation_expectations:
   score_band: [4.0, 6.5]
   recommendation_in: [Hold, Pass]

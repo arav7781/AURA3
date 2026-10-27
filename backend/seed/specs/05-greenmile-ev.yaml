@@ -96,8 +96,6 @@ risks:
   - Battery degradation and resale values are still unproven
   - "Customer concentration: the largest customer takes 22% of the fleet"
   - Operations limited to Delhi NCR
-deck:
-  palette: logistics
 evaluation_expectations:
   score_band: [5.0, 7.5]
   recommendation_in: [Hold, Buy]

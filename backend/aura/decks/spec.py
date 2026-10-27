@@ -177,7 +177,6 @@ class Adversarial(Strict):
 
 
 class DeckRender(Strict):
-    palette: str = Field(description="one of the domain palettes, e.g. 'agritech'")
     render: Literal["text", "scanned"] = "text"
     scan: Scan | None = None
     adversarial: Adversarial = Field(default_factory=Adversarial)
@@ -234,7 +233,7 @@ class StartupSpec(Strict):
     gtm: GoToMarket
     round: Round
     risks: list[str] = Field(min_length=2, max_length=5)
-    deck: DeckRender
+    deck: DeckRender = Field(default_factory=DeckRender)
     evaluation_expectations: EvalExpectations
 
     @property

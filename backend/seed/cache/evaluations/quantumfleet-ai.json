@@ -1,5 +1,6 @@
 {
  "analysis": {
+  "carried_from_input_hash": "1150c2a1029c6e529dab96fea668d6aa59a5db4f1ed92169e7c80326fba635fc",
   "category_scores": {
    "business_model": 6.3,
    "execution_risk": 6.0,
@@ -10,147 +11,147 @@
    "traction": 6.7
   },
   "citations": {
-   "c:3ntqqtu": {
+   "c:47sios5": {
     "bbox": [
-     0.0677,
-     0.0554,
-     0.9184,
-     0.4682
+     0.05939,
+     0.12926,
+     0.8856,
+     0.71747
     ],
-    "chunk_id": "59112adf-8399-5eae-a37f-7b69578a01df",
-    "document_id": "79381a0e-b017-4798-b4e9-ae9b7f906588",
-    "page_no": 10,
-    "slide_title": "Team",
+    "chunk_id": "08fac0a4-9110-5f22-ab51-0380b1ed94d3",
+    "document_id": "aab75da3-3a71-4269-bbd7-39a2ef4560f2",
+    "page_no": 2,
+    "slide_title": "Problem",
     "type": "deck"
    },
-   "c:a566t7h": {
+   "c:d2i2tr4": {
     "bbox": [
-     0.0677,
-     0.0554,
-     0.81256,
-     0.69977
+     0.05939,
+     0.12926,
+     0.89316,
+     0.71981
     ],
-    "chunk_id": "6f5ad85c-830b-5c44-b794-30548fc85f9d",
-    "document_id": "79381a0e-b017-4798-b4e9-ae9b7f906588",
-    "page_no": 9,
-    "slide_title": "Go-to-Market & Key Risks",
-    "type": "deck"
-   },
-   "c:d4gdvaq": {
-    "bbox": [
-     0.0677,
-     0.0554,
-     0.89937,
-     0.84247
-    ],
-    "chunk_id": "1e2c76fa-3c89-5128-929b-33716a3a889c",
-    "document_id": "79381a0e-b017-4798-b4e9-ae9b7f906588",
-    "page_no": 6,
-    "slide_title": "Traction (as of FY2026)",
-    "type": "deck"
-   },
-   "c:gp7hwei": {
-    "bbox": [
-     0.0677,
-     0.0554,
-     0.92463,
-     0.42291
-    ],
-    "chunk_id": "66c338a6-4a3b-520e-8dbb-10d5214766ff",
-    "document_id": "79381a0e-b017-4798-b4e9-ae9b7f906588",
-    "page_no": 4,
-    "slide_title": "Market Opportunity (TAM / SAM / SOM)",
-    "type": "deck"
-   },
-   "c:gpkbfqk": {
-    "bbox": [
-     0.0677,
-     0.0554,
-     0.91032,
-     0.39357
-    ],
-    "chunk_id": "e1093870-23d9-53b5-8004-1c536772f61b",
-    "document_id": "79381a0e-b017-4798-b4e9-ae9b7f906588",
-    "page_no": 5,
-    "slide_title": "Business Model",
-    "type": "deck"
-   },
-   "c:ltl4cdu": {
-    "bbox": [
-     0.0677,
-     0.0554,
-     0.92544,
-     0.60663
-    ],
-    "chunk_id": "b45c3892-3023-5f69-b663-6e3215a0b978",
-    "document_id": "79381a0e-b017-4798-b4e9-ae9b7f906588",
-    "page_no": 11,
-    "slide_title": "The Ask",
-    "type": "deck"
-   },
-   "c:oixbqgx": {
-    "bbox": [
-     0.0677,
-     0.0554,
-     0.67079,
-     0.51605
-    ],
-    "chunk_id": "4efdd8cc-113b-5935-a3ec-9d70e8c3df77",
-    "document_id": "79381a0e-b017-4798-b4e9-ae9b7f906588",
+    "chunk_id": "ea1f6c6d-a8a6-500b-962f-0c2c3e9fbaff",
+    "document_id": "aab75da3-3a71-4269-bbd7-39a2ef4560f2",
     "page_no": 7,
     "slide_title": "Unit Economics",
     "type": "deck"
    },
-   "c:pk74r26": {
+   "c:dgvsrso": {
     "bbox": [
-     0.0677,
-     0.0554,
-     0.86623,
-     0.50907
+     0.05939,
+     0.12926,
+     0.9179,
+     0.70105
     ],
-    "chunk_id": "96f37fcd-2a33-5565-8f55-745da8498c13",
-    "document_id": "79381a0e-b017-4798-b4e9-ae9b7f906588",
-    "page_no": 1,
-    "slide_title": "QuantumFleet AI",
-    "type": "deck"
-   },
-   "c:qs7smj6": {
-    "bbox": [
-     0.0677,
-     0.0554,
-     0.92871,
-     0.50907
-    ],
-    "chunk_id": "20d22fdd-ebe6-50b3-bb09-3d4248374a48",
-    "document_id": "79381a0e-b017-4798-b4e9-ae9b7f906588",
-    "page_no": 3,
-    "slide_title": "Solution",
-    "type": "deck"
-   },
-   "c:rhdlifj": {
-    "bbox": [
-     0.05761,
-     0.0554,
-     0.93753,
-     0.64125
-    ],
-    "chunk_id": "ae75404f-10ad-54bb-857b-0b88ca9979df",
-    "document_id": "79381a0e-b017-4798-b4e9-ae9b7f906588",
+    "chunk_id": "916d4ef2-65fd-507a-b020-0c2bb935e235",
+    "document_id": "aab75da3-3a71-4269-bbd7-39a2ef4560f2",
     "page_no": 8,
     "slide_title": "Competitive Landscape",
     "type": "deck"
    },
-   "c:xryndfa": {
+   "c:faxsvy3": {
     "bbox": [
-     0.0677,
-     0.0554,
-     0.89254,
-     0.53841
+     0.05939,
+     0.12926,
+     0.80272,
+     0.71951
     ],
-    "chunk_id": "391f23f6-80b6-58dc-86b9-ba1456003af4",
-    "document_id": "79381a0e-b017-4798-b4e9-ae9b7f906588",
-    "page_no": 2,
-    "slide_title": "Problem",
+    "chunk_id": "2520720a-5ca7-59cb-9ffc-225f9ac6fa5b",
+    "document_id": "aab75da3-3a71-4269-bbd7-39a2ef4560f2",
+    "page_no": 4,
+    "slide_title": "Market Opportunity (TAM / SAM / SOM)",
+    "type": "deck"
+   },
+   "c:gweqrum": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.92303,
+     0.8563
+    ],
+    "chunk_id": "0981e938-e5dd-5fcd-b200-8a0dc74fcf00",
+    "document_id": "aab75da3-3a71-4269-bbd7-39a2ef4560f2",
+    "page_no": 6,
+    "slide_title": "Traction (as of FY2026)",
+    "type": "deck"
+   },
+   "c:o5r4cxt": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.64891,
+     0.83466
+    ],
+    "chunk_id": "dce6c1d6-5122-55c3-8d1e-8903fa80028b",
+    "document_id": "aab75da3-3a71-4269-bbd7-39a2ef4560f2",
+    "page_no": 9,
+    "slide_title": "Go-to-Market & Key Risks",
+    "type": "deck"
+   },
+   "c:qvms6bm": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.85976,
+     0.67119
+    ],
+    "chunk_id": "a9c274c7-0717-5f48-b0f0-74e35782c928",
+    "document_id": "aab75da3-3a71-4269-bbd7-39a2ef4560f2",
+    "page_no": 10,
+    "slide_title": "Team",
+    "type": "deck"
+   },
+   "c:soz3jfz": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.78771,
+     0.76418
+    ],
+    "chunk_id": "ed3ea762-aa9a-5819-8ab7-ecdce0a8f4d2",
+    "document_id": "aab75da3-3a71-4269-bbd7-39a2ef4560f2",
+    "page_no": 3,
+    "slide_title": "Solution",
+    "type": "deck"
+   },
+   "c:xoral45": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.90975,
+     0.79796
+    ],
+    "chunk_id": "6eac835e-b2ca-5b89-8a80-da1569762a04",
+    "document_id": "aab75da3-3a71-4269-bbd7-39a2ef4560f2",
+    "page_no": 11,
+    "slide_title": "The Ask",
+    "type": "deck"
+   },
+   "c:yrfe7bj": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.7477,
+     0.7402
+    ],
+    "chunk_id": "a9dbff8f-41bd-5520-9128-027e2a2fc01c",
+    "document_id": "aab75da3-3a71-4269-bbd7-39a2ef4560f2",
+    "page_no": 5,
+    "slide_title": "Business Model",
+    "type": "deck"
+   },
+   "c:zoezv4q": {
+    "bbox": [
+     0.05939,
+     0.22691,
+     0.56929,
+     0.71918
+    ],
+    "chunk_id": "c094d371-a313-5f04-8fe1-af2742a67001",
+    "document_id": "aab75da3-3a71-4269-bbd7-39a2ef4560f2",
+    "page_no": 1,
+    "slide_title": "QuantumFleet AI",
     "type": "deck"
    },
    "w:1": {
@@ -235,7 +236,7 @@
   ],
   "evidence_version": 2,
   "generated_at": "2026-10-26T19:13:23.355970Z",
-  "input_hash": "1150c2a1029c6e529dab96fea668d6aa59a5db4f1ed92169e7c80326fba635fc",
+  "input_hash": "ee87714743b479121b226af62e49900d2fa23cc8b82c914e7e71eb4d22b29c7d",
   "invalid_citations": [],
   "market_sizing": {
    "basis": "Only figures traceable to retrieved search excerpts are plotted as market data.",
@@ -247,14 +248,14 @@
      },
      "citation": {
       "bbox": [
-       0.0677,
-       0.0554,
-       0.92463,
-       0.42291
+       0.05939,
+       0.12926,
+       0.80272,
+       0.71951
       ],
-      "chunk_id": "66c338a6-4a3b-520e-8dbb-10d5214766ff",
-      "cid": "c:gp7hwei",
-      "document_id": "79381a0e-b017-4798-b4e9-ae9b7f906588",
+      "chunk_id": "2520720a-5ca7-59cb-9ffc-225f9ac6fa5b",
+      "cid": "c:faxsvy3",
+      "document_id": "aab75da3-3a71-4269-bbd7-39a2ef4560f2",
       "page_no": 4
      },
      "currency": "INR",
@@ -278,14 +279,14 @@
      },
      "citation": {
       "bbox": [
-       0.0677,
-       0.0554,
-       0.92463,
-       0.42291
+       0.05939,
+       0.12926,
+       0.80272,
+       0.71951
       ],
-      "chunk_id": "66c338a6-4a3b-520e-8dbb-10d5214766ff",
-      "cid": "c:gp7hwei",
-      "document_id": "79381a0e-b017-4798-b4e9-ae9b7f906588",
+      "chunk_id": "2520720a-5ca7-59cb-9ffc-225f9ac6fa5b",
+      "cid": "c:faxsvy3",
+      "document_id": "aab75da3-3a71-4269-bbd7-39a2ef4560f2",
       "page_no": 4
      },
      "currency": "INR",
@@ -316,14 +317,14 @@
    {
     "citation": {
      "bbox": [
-      0.0677,
-      0.0554,
-      0.89937,
-      0.84247
+      0.05939,
+      0.12926,
+      0.92303,
+      0.8563
      ],
-     "chunk_id": "1e2c76fa-3c89-5128-929b-33716a3a889c",
-     "cid": "c:d4gdvaq",
-     "document_id": "79381a0e-b017-4798-b4e9-ae9b7f906588",
+     "chunk_id": "0981e938-e5dd-5fcd-b200-8a0dc74fcf00",
+     "cid": "c:gweqrum",
+     "document_id": "aab75da3-3a71-4269-bbd7-39a2ef4560f2",
      "page_no": 6
     },
     "geography": "",
@@ -343,19 +344,19 @@
    }
   ],
   "recommendation_label": "Hold",
-  "report_markdown": "## 1. Executive Summary\n\nQuantumFleet AI is a Seed-stage logistics-tech startup that provides an AI-powered route and load planning platform for mid-size Indian freight fleets (20\u2013300 trucks). The company has achieved early traction with 64 paying fleets, 3,050 trucks under management, and an ARR of Rs 1.1 crore as of FY2026, doubling year-over-year from Rs 0.55 crore in FY2025 [c:d4gdvaq]. Net revenue retention is 118% with monthly logo churn of 1.6%, and fleets live for 6+ months have reduced empty kilometres from 34% to 26% (company-reported) [c:d4gdvaq]. The company is raising Rs 4.2 crore at a Rs 24 crore pre-money valuation, with a tranche-based funding plan tied to milestones of 150 fleets and Rs 3 crore ARR [c:ltl4cdu]. Overall score: 6.1/10, Hold.\n\n## 2. Problem & Solution\n\nMid-size fleet owners in India plan trips manually via phone calls and WhatsApp, resulting in an estimated 30\u201340% of truck-kilometres running empty or part-loaded (company estimate) [c:xryndfa]. Fuel accounts for 50\u201360% of operating costs, and enterprise routing software is priced for fleets of 1,000+ vehicles, leaving a gap for the 20\u2013300 truck segment [c:xryndfa]. QuantumFleet AI solves this by integrating live GPS, FASTag toll events, and order data to generate daily route, load, and return-trip plans, delivered via a driver app in Hindi, Tamil, and Kannada [c:qs7smj6]. The platform also provides a fuel and toll reconciliation dashboard, and return-load matching with shipper partners to reduce empty running [c:qs7smj6]. Early results show a reduction in empty kilometres from 34% to 26% for fleets live 6+ months (company-reported) [c:d4gdvaq].\n\n## 3. Market Opportunity\n\nThe company estimates a TAM of Rs 3,800 crore in 2025 for fleet management and optimisation software across India's commercial trucks (company estimate) [c:gp7hwei]. The SAM is sized at Rs 640 crore for fleets of 20\u2013300 trucks in South and Central India (company estimate) [c:gp7hwei]. The SOM is a 3-year projection of Rs 25 crore by 2028 (company projection) [c:gp7hwei]. All market figures are company-generated and unverified; no independent publisher forecasts were found to corroborate these estimates. The broader India truck market was worth USD 20.4 billion in 2025, growing at a CAGR of 6.09% to USD 29.05 billion by 2031 [w:13], but this covers vehicle sales, not software. The logistics tech sector in India is active, with 4,165 startups listed on Tracxn and fresh capital flowing into middle-mile and AI-led supply chain platforms [w:1][w:3].\n\n## 4. Competitive Landscape\n\nQuantumFleet AI competes with LocoNav (fleet telematics and video telematics), Fleetx (fleet management SaaS), and Locus (enterprise route optimisation for last-mile delivery) [c:rhdlifj]. The company claims an edge from trip and return-load data across 3,050 trucks, which improves matching on every lane, and integrations with major GPS vendors and FASTag data that cut onboarding to under a week [c:rhdlifj]. However, the moat is not yet proven durable; competitors may bundle routing for free, and the company depends on third-party GPS data quality [c:a566t7h]. The market also includes newer entrants like QuikApp, which recently raised seed funding for an integrated logistics platform [w:4][w:5].\n\n## 5. Business Model\n\nRevenue is generated via a per-truck subscription of Rs 300 per month (92% of revenue) and a one-time onboarding fee of Rs 25,000 (8% of revenue) [c:gpkbfqk]. Subscription gross margin is 80% [c:gpkbfqk]. Customer acquisition cost is Rs 135,000 per fleet (average 48 trucks), yielding a CAC payback of 11.8 months [c:oixbqgx]. Net revenue retention is 118% with monthly logo churn of 1.6% [c:oixbqgx]. The unit economics are positive on early data, but the payback period exceeds the 6-month threshold for a higher score. The model depends on fleet expansion and retention in a price-sensitive customer base [c:a566t7h].\n\n## 6. Team Assessment\n\nThe co-founding team combines relevant domain expertise: Karthik Raghunathan (CEO) has 8 years in line-haul operations at a national 3PL; Neha Bansal (CTO) holds an M.Tech in operations research and built vehicle-routing solvers for e-commerce delivery; Imran Sheikh (Sales) ran his family's 120-truck fleet in Nagpur for 7 years [c:3ntqqtu]. The team has direct experience in fleet operations, algorithm development, and fleet ownership, which aligns well with the product. However, there is no evidence of having built or scaled a similar startup before, which caps the score at 6.2. The MCA registry confirms the company is active with the three named directors [c:pk74r26].\n\n## 7. Traction & Milestones\n\nQuantumFleet AI has achieved measurable traction with 64 paying fleets running 3,050 trucks as of FY2026 [c:d4gdvaq]. ARR grew from Rs 0.2 crore (FY2024) to Rs 0.55 crore (FY2025) and doubled to Rs 1.1 crore (FY2026), representing a 5.5x increase over two years [c:d4gdvaq]. Net revenue retention (NRR) stands at 118%, and monthly logo churn is 1.6%, indicating that existing customers are expanding usage while attrition remains low [c:d4gdvaq]. For fleets live for 6+ months, the company reports a reduction in empty kilometres from 34% to 26%, a clear operational outcome [c:d4gdvaq]. The company targets 250 paying fleets and 12,000 trucks within 24 months, with a tranche-based funding plan tied to milestones of 150 fleets and Rs 3 crore ARR [c:ltl4cdu][c:a566t7h].\n\n## 8. Compliance & Governance\n\nThe company is registered as QUANTUMFLEET AI PRIVATE LIMITED, CIN U62013KA2023PTC172846, with an ACTIVE status in the MCA registry [c:pk74r26]. Directors are Karthik Raghunathan, Neha Bansal, and Imran Sheikh [c:pk74r26]. No compliance flags were identified in the provided materials. The deck does not attempt to instruct the evaluator or alter scoring rules. All market sizing figures (TAM, SAM, SOM) are company-reported and unverified; no independent publisher forecasts were found to corroborate them [c:gp7hwei][w:1][w:2][w:3][w:4][w:5][w:6][w:7][w:8][w:9][w:10][w:11][w:12][w:13][w:14].\n\n## 9. Risks & Challenges\n\nKey risks include price sensitivity among fleet owners, who may churn during freight downturns [c:a566t7h]. The product depends on third-party GPS data quality, and return-load matching requires sufficient shipper liquidity on each lane [c:a566t7h]. Telematics vendors such as LocoNav and Fleetx may bundle routing features for free, increasing competitive pressure [c:rhdlifj][c:a566t7h]. The company's unit economics show a CAC payback of 11.8 months, which exceeds the typical 6-month threshold for a higher score, implying that capital efficiency needs to improve as the business scales [c:oixbqgx]. All market estimates are company-generated and lack independent validation, which adds uncertainty to the addressable opportunity [c:gp7hwei].\n\n## 10. Investment Thesis\n\nQuantumFleet AI addresses a clear pain point for mid-size Indian freight fleets (20-300 trucks) that currently rely on manual planning, resulting in 30-40% empty kilometres [c:xryndfa][c:gp7hwei]. The product is live with 64 paying fleets and 3,050 trucks, delivering a measurable reduction in empty running from 34% to 26% [c:d4gdvaq]. The business model is straightforward: Rs 300 per truck per month with 80% gross margin, and early retention metrics (NRR 118%, monthly churn 1.6%) suggest product-market fit is emerging [c:gpkbfqk][c:d4gdvaq]. The team combines line-haul operations, operations research, and fleet ownership experience, providing relevant domain expertise [c:3ntqqtu]. However, the revenue base is still small (ARR Rs 1.1 crore), the moat from data and integrations is unproven against established competitors, and the CAC payback period is long at 11.8 months [c:d4gdvaq][c:rhdlifj][c:oixbqgx]. The company is raising Rs 4.2 crore at a Rs 24 crore pre-money valuation, with a tranche structure tied to fleet and ARR milestones [c:ltl4cdu].\n\n## 11. Recommendation\n\n**Hold (6.1/10)**. QuantumFleet AI shows strong early traction with doubling ARR, positive unit economics, and a clear value proposition for a large, underserved market. The team is credible and the product delivers measurable outcomes. However, the small revenue base, long CAC payback, unvalidated market estimates, and competitive threats from established telematics players warrant caution. The tranche-based funding structure provides some downside protection, but the company needs to demonstrate sustained growth and improved capital efficiency before a higher rating is justified.",
+  "report_markdown": "## 1. Executive Summary\n\nQuantumFleet AI is a Seed-stage logistics-tech startup that provides an AI-powered route and load planning platform for mid-size Indian freight fleets (20\u2013300 trucks). The company has achieved early traction with 64 paying fleets, 3,050 trucks under management, and an ARR of Rs 1.1 crore as of FY2026, doubling year-over-year from Rs 0.55 crore in FY2025 [c:gweqrum]. Net revenue retention is 118% with monthly logo churn of 1.6%, and fleets live for 6+ months have reduced empty kilometres from 34% to 26% (company-reported) [c:gweqrum]. The company is raising Rs 4.2 crore at a Rs 24 crore pre-money valuation, with a tranche-based funding plan tied to milestones of 150 fleets and Rs 3 crore ARR [c:xoral45]. Overall score: 6.1/10, Hold.\n\n## 2. Problem & Solution\n\nMid-size fleet owners in India plan trips manually via phone calls and WhatsApp, resulting in an estimated 30\u201340% of truck-kilometres running empty or part-loaded (company estimate) [c:47sios5]. Fuel accounts for 50\u201360% of operating costs, and enterprise routing software is priced for fleets of 1,000+ vehicles, leaving a gap for the 20\u2013300 truck segment [c:47sios5]. QuantumFleet AI solves this by integrating live GPS, FASTag toll events, and order data to generate daily route, load, and return-trip plans, delivered via a driver app in Hindi, Tamil, and Kannada [c:soz3jfz]. The platform also provides a fuel and toll reconciliation dashboard, and return-load matching with shipper partners to reduce empty running [c:soz3jfz]. Early results show a reduction in empty kilometres from 34% to 26% for fleets live 6+ months (company-reported) [c:gweqrum].\n\n## 3. Market Opportunity\n\nThe company estimates a TAM of Rs 3,800 crore in 2025 for fleet management and optimisation software across India's commercial trucks (company estimate) [c:faxsvy3]. The SAM is sized at Rs 640 crore for fleets of 20\u2013300 trucks in South and Central India (company estimate) [c:faxsvy3]. The SOM is a 3-year projection of Rs 25 crore by 2028 (company projection) [c:faxsvy3]. All market figures are company-generated and unverified; no independent publisher forecasts were found to corroborate these estimates. The broader India truck market was worth USD 20.4 billion in 2025, growing at a CAGR of 6.09% to USD 29.05 billion by 2031 [w:13], but this covers vehicle sales, not software. The logistics tech sector in India is active, with 4,165 startups listed on Tracxn and fresh capital flowing into middle-mile and AI-led supply chain platforms [w:1][w:3].\n\n## 4. Competitive Landscape\n\nQuantumFleet AI competes with LocoNav (fleet telematics and video telematics), Fleetx (fleet management SaaS), and Locus (enterprise route optimisation for last-mile delivery) [c:dgvsrso]. The company claims an edge from trip and return-load data across 3,050 trucks, which improves matching on every lane, and integrations with major GPS vendors and FASTag data that cut onboarding to under a week [c:dgvsrso]. However, the moat is not yet proven durable; competitors may bundle routing for free, and the company depends on third-party GPS data quality [c:o5r4cxt]. The market also includes newer entrants like QuikApp, which recently raised seed funding for an integrated logistics platform [w:4][w:5].\n\n## 5. Business Model\n\nRevenue is generated via a per-truck subscription of Rs 300 per month (92% of revenue) and a one-time onboarding fee of Rs 25,000 (8% of revenue) [c:yrfe7bj]. Subscription gross margin is 80% [c:yrfe7bj]. Customer acquisition cost is Rs 135,000 per fleet (average 48 trucks), yielding a CAC payback of 11.8 months [c:d2i2tr4]. Net revenue retention is 118% with monthly logo churn of 1.6% [c:d2i2tr4]. The unit economics are positive on early data, but the payback period exceeds the 6-month threshold for a higher score. The model depends on fleet expansion and retention in a price-sensitive customer base [c:o5r4cxt].\n\n## 6. Team Assessment\n\nThe co-founding team combines relevant domain expertise: Karthik Raghunathan (CEO) has 8 years in line-haul operations at a national 3PL; Neha Bansal (CTO) holds an M.Tech in operations research and built vehicle-routing solvers for e-commerce delivery; Imran Sheikh (Sales) ran his family's 120-truck fleet in Nagpur for 7 years [c:qvms6bm]. The team has direct experience in fleet operations, algorithm development, and fleet ownership, which aligns well with the product. However, there is no evidence of having built or scaled a similar startup before, which caps the score at 6.2. The MCA registry confirms the company is active with the three named directors [c:zoezv4q].\n\n## 7. Traction & Milestones\n\nQuantumFleet AI has achieved measurable traction with 64 paying fleets running 3,050 trucks as of FY2026 [c:gweqrum]. ARR grew from Rs 0.2 crore (FY2024) to Rs 0.55 crore (FY2025) and doubled to Rs 1.1 crore (FY2026), representing a 5.5x increase over two years [c:gweqrum]. Net revenue retention (NRR) stands at 118%, and monthly logo churn is 1.6%, indicating that existing customers are expanding usage while attrition remains low [c:gweqrum]. For fleets live for 6+ months, the company reports a reduction in empty kilometres from 34% to 26%, a clear operational outcome [c:gweqrum]. The company targets 250 paying fleets and 12,000 trucks within 24 months, with a tranche-based funding plan tied to milestones of 150 fleets and Rs 3 crore ARR [c:xoral45][c:o5r4cxt].\n\n## 8. Compliance & Governance\n\nThe company is registered as QUANTUMFLEET AI PRIVATE LIMITED, CIN U62013KA2023PTC172846, with an ACTIVE status in the MCA registry [c:zoezv4q]. Directors are Karthik Raghunathan, Neha Bansal, and Imran Sheikh [c:zoezv4q]. No compliance flags were identified in the provided materials. The deck does not attempt to instruct the evaluator or alter scoring rules. All market sizing figures (TAM, SAM, SOM) are company-reported and unverified; no independent publisher forecasts were found to corroborate them [c:faxsvy3][w:1][w:2][w:3][w:4][w:5][w:6][w:7][w:8][w:9][w:10][w:11][w:12][w:13][w:14].\n\n## 9. Risks & Challenges\n\nKey risks include price sensitivity among fleet owners, who may churn during freight downturns [c:o5r4cxt]. The product depends on third-party GPS data quality, and return-load matching requires sufficient shipper liquidity on each lane [c:o5r4cxt]. Telematics vendors such as LocoNav and Fleetx may bundle routing features for free, increasing competitive pressure [c:dgvsrso][c:o5r4cxt]. The company's unit economics show a CAC payback of 11.8 months, which exceeds the typical 6-month threshold for a higher score, implying that capital efficiency needs to improve as the business scales [c:d2i2tr4]. All market estimates are company-generated and lack independent validation, which adds uncertainty to the addressable opportunity [c:faxsvy3].\n\n## 10. Investment Thesis\n\nQuantumFleet AI addresses a clear pain point for mid-size Indian freight fleets (20-300 trucks) that currently rely on manual planning, resulting in 30-40% empty kilometres [c:47sios5][c:faxsvy3]. The product is live with 64 paying fleets and 3,050 trucks, delivering a measurable reduction in empty running from 34% to 26% [c:gweqrum]. The business model is straightforward: Rs 300 per truck per month with 80% gross margin, and early retention metrics (NRR 118%, monthly churn 1.6%) suggest product-market fit is emerging [c:yrfe7bj][c:gweqrum]. The team combines line-haul operations, operations research, and fleet ownership experience, providing relevant domain expertise [c:qvms6bm]. However, the revenue base is still small (ARR Rs 1.1 crore), the moat from data and integrations is unproven against established competitors, and the CAC payback period is long at 11.8 months [c:gweqrum][c:dgvsrso][c:d2i2tr4]. The company is raising Rs 4.2 crore at a Rs 24 crore pre-money valuation, with a tranche structure tied to fleet and ARR milestones [c:xoral45].\n\n## 11. Recommendation\n\n**Hold (6.1/10)**. QuantumFleet AI shows strong early traction with doubling ARR, positive unit economics, and a clear value proposition for a large, underserved market. The team is credible and the product delivers measurable outcomes. However, the small revenue base, long CAC payback, unvalidated market estimates, and competitive threats from established telematics players warrant caution. The tranche-based funding structure provides some downside protection, but the company needs to demonstrate sustained growth and improved capital efficiency before a higher rating is justified.",
   "revenue_currency": "INR",
   "revenue_metric": "ARR",
   "rewrites": 2,
   "rubric_version": "r1",
   "score_rationales": {
-   "business_model": "Pricing is clear at Rs 300 per truck per month with 80% gross margin and a reported CAC payback of 11.8 months [c:oixbqgx]. The unit economics are positive on early data, but the payback period exceeds the 6-month threshold for a higher score, and the model depends on fleet expansion.",
-   "execution_risk": "Risks are identified and partially mitigated: price-sensitive customers, dependence on third-party GPS data, and need for shipper liquidity [c:a566t7h]. The company has a clear tranche-based funding plan with milestones [c:ltl4cdu], but risks remain significant for early-stage, warranting a score of 6.",
-   "market": "The company provides a credible, clearly scoped SAM of Rs 640 crore for fleets of 20-300 trucks in South/Central India, and a TAM of Rs 3,800 crore [c:gp7hwei]. However, all market estimates are company-generated (no independent source backing), and the SOM projection is a 3-year projection rather than a current sizing.",
-   "moat": "The company claims an edge from trip and return-load data across 3,050 trucks and integrations with GPS vendors and FASTag [c:rhdlifj]. This provides some switching costs and data network effects, but the moat is not yet proven durable, and competitors like LocoNav and Fleetx exist [c:rhdlifj][c:a566t7h].",
-   "product": "QuantumFleet AI has a working product with 64 paying fleets and 3,050 trucks, delivering a clear value of cutting empty kilometres from 34% to 26% for fleets live 6+ months [c:pk74r26][c:qs7smj6][c:d4gdvaq]. This shows a product used by paying customers with a specific, measurable value, but evidence of full product-market fit (retention, expansion) is limited to early NRR and churn figures.",
-   "team": "The team combines line-haul operations (Karthik), operations research and vehicle-routing solvers (Neha), and fleet ownership experience (Imran) [c:3ntqqtu]. They have relevant domain and execution experience across key roles, but no evidence of having built or scaled a similar startup before, which caps the score at 6.",
-   "traction": "ARR grew from Rs 0.2 crore (FY2024) to Rs 1.1 crore (FY2026), doubling year-over-year, with 64 paying fleets, NRR of 118%, and monthly logo churn of 1.6% [c:d4gdvaq]. This shows strong growth with retention evidence, but the revenue base is still small and growth is not yet at sustained scale."
+   "business_model": "Pricing is clear at Rs 300 per truck per month with 80% gross margin and a reported CAC payback of 11.8 months [c:d2i2tr4]. The unit economics are positive on early data, but the payback period exceeds the 6-month threshold for a higher score, and the model depends on fleet expansion.",
+   "execution_risk": "Risks are identified and partially mitigated: price-sensitive customers, dependence on third-party GPS data, and need for shipper liquidity [c:o5r4cxt]. The company has a clear tranche-based funding plan with milestones [c:xoral45], but risks remain significant for early-stage, warranting a score of 6.",
+   "market": "The company provides a credible, clearly scoped SAM of Rs 640 crore for fleets of 20-300 trucks in South/Central India, and a TAM of Rs 3,800 crore [c:faxsvy3]. However, all market estimates are company-generated (no independent source backing), and the SOM projection is a 3-year projection rather than a current sizing.",
+   "moat": "The company claims an edge from trip and return-load data across 3,050 trucks and integrations with GPS vendors and FASTag [c:dgvsrso]. This provides some switching costs and data network effects, but the moat is not yet proven durable, and competitors like LocoNav and Fleetx exist [c:dgvsrso][c:o5r4cxt].",
+   "product": "QuantumFleet AI has a working product with 64 paying fleets and 3,050 trucks, delivering a clear value of cutting empty kilometres from 34% to 26% for fleets live 6+ months [c:zoezv4q][c:soz3jfz][c:gweqrum]. This shows a product used by paying customers with a specific, measurable value, but evidence of full product-market fit (retention, expansion) is limited to early NRR and churn figures.",
+   "team": "The team combines line-haul operations (Karthik), operations research and vehicle-routing solvers (Neha), and fleet ownership experience (Imran) [c:qvms6bm]. They have relevant domain and execution experience across key roles, but no evidence of having built or scaled a similar startup before, which caps the score at 6.",
+   "traction": "ARR grew from Rs 0.2 crore (FY2024) to Rs 1.1 crore (FY2026), doubling year-over-year, with 64 paying fleets, NRR of 118%, and monthly logo churn of 1.6% [c:gweqrum]. This shows strong growth with retention evidence, but the revenue base is still small and growth is not yet at sustained scale."
   },
   "score_spread": {
    "business_model": 1.0,
@@ -367,17 +368,17 @@
    "traction": 1.0
   },
   "sections": {
-   "business_model": "Revenue is generated via a per-truck subscription of Rs 300 per month (92% of revenue) and a one-time onboarding fee of Rs 25,000 (8% of revenue) [c:gpkbfqk]. Subscription gross margin is 80% [c:gpkbfqk]. Customer acquisition cost is Rs 135,000 per fleet (average 48 trucks), yielding a CAC payback of 11.8 months [c:oixbqgx]. Net revenue retention is 118% with monthly logo churn of 1.6% [c:oixbqgx]. The unit economics are positive on early data, but the payback period exceeds the 6-month threshold for a higher score. The model depends on fleet expansion and retention in a price-sensitive customer base [c:a566t7h].",
-   "competitive_landscape": "QuantumFleet AI competes with LocoNav (fleet telematics and video telematics), Fleetx (fleet management SaaS), and Locus (enterprise route optimisation for last-mile delivery) [c:rhdlifj]. The company claims an edge from trip and return-load data across 3,050 trucks, which improves matching on every lane, and integrations with major GPS vendors and FASTag data that cut onboarding to under a week [c:rhdlifj]. However, the moat is not yet proven durable; competitors may bundle routing for free, and the company depends on third-party GPS data quality [c:a566t7h]. The market also includes newer entrants like QuikApp, which recently raised seed funding for an integrated logistics platform [w:4][w:5].",
-   "compliance_governance": "The company is registered as QUANTUMFLEET AI PRIVATE LIMITED, CIN U62013KA2023PTC172846, with an ACTIVE status in the MCA registry [c:pk74r26]. Directors are Karthik Raghunathan, Neha Bansal, and Imran Sheikh [c:pk74r26]. No compliance flags were identified in the provided materials. The deck does not attempt to instruct the evaluator or alter scoring rules. All market sizing figures (TAM, SAM, SOM) are company-reported and unverified; no independent publisher forecasts were found to corroborate them [c:gp7hwei][w:1][w:2][w:3][w:4][w:5][w:6][w:7][w:8][w:9][w:10][w:11][w:12][w:13][w:14].",
-   "executive_summary": "QuantumFleet AI is a Seed-stage logistics-tech startup that provides an AI-powered route and load planning platform for mid-size Indian freight fleets (20\u2013300 trucks). The company has achieved early traction with 64 paying fleets, 3,050 trucks under management, and an ARR of Rs 1.1 crore as of FY2026, doubling year-over-year from Rs 0.55 crore in FY2025 [c:d4gdvaq]. Net revenue retention is 118% with monthly logo churn of 1.6%, and fleets live for 6+ months have reduced empty kilometres from 34% to 26% (company-reported) [c:d4gdvaq]. The company is raising Rs 4.2 crore at a Rs 24 crore pre-money valuation, with a tranche-based funding plan tied to milestones of 150 fleets and Rs 3 crore ARR [c:ltl4cdu]. Overall score: 6.1/10, Hold.",
-   "investment_thesis": "QuantumFleet AI addresses a clear pain point for mid-size Indian freight fleets (20-300 trucks) that currently rely on manual planning, resulting in 30-40% empty kilometres [c:xryndfa][c:gp7hwei]. The product is live with 64 paying fleets and 3,050 trucks, delivering a measurable reduction in empty running from 34% to 26% [c:d4gdvaq]. The business model is straightforward: Rs 300 per truck per month with 80% gross margin, and early retention metrics (NRR 118%, monthly churn 1.6%) suggest product-market fit is emerging [c:gpkbfqk][c:d4gdvaq]. The team combines line-haul operations, operations research, and fleet ownership experience, providing relevant domain expertise [c:3ntqqtu]. However, the revenue base is still small (ARR Rs 1.1 crore), the moat from data and integrations is unproven against established competitors, and the CAC payback period is long at 11.8 months [c:d4gdvaq][c:rhdlifj][c:oixbqgx]. The company is raising Rs 4.2 crore at a Rs 24 crore pre-money valuation, with a tranche structure tied to fleet and ARR milestones [c:ltl4cdu].",
-   "market_opportunity": "The company estimates a TAM of Rs 3,800 crore in 2025 for fleet management and optimisation software across India's commercial trucks (company estimate) [c:gp7hwei]. The SAM is sized at Rs 640 crore for fleets of 20\u2013300 trucks in South and Central India (company estimate) [c:gp7hwei]. The SOM is a 3-year projection of Rs 25 crore by 2028 (company projection) [c:gp7hwei]. All market figures are company-generated and unverified; no independent publisher forecasts were found to corroborate these estimates. The broader India truck market was worth USD 20.4 billion in 2025, growing at a CAGR of 6.09% to USD 29.05 billion by 2031 [w:13], but this covers vehicle sales, not software. The logistics tech sector in India is active, with 4,165 startups listed on Tracxn and fresh capital flowing into middle-mile and AI-led supply chain platforms [w:1][w:3].",
-   "problem_solution": "Mid-size fleet owners in India plan trips manually via phone calls and WhatsApp, resulting in an estimated 30\u201340% of truck-kilometres running empty or part-loaded (company estimate) [c:xryndfa]. Fuel accounts for 50\u201360% of operating costs, and enterprise routing software is priced for fleets of 1,000+ vehicles, leaving a gap for the 20\u2013300 truck segment [c:xryndfa]. QuantumFleet AI solves this by integrating live GPS, FASTag toll events, and order data to generate daily route, load, and return-trip plans, delivered via a driver app in Hindi, Tamil, and Kannada [c:qs7smj6]. The platform also provides a fuel and toll reconciliation dashboard, and return-load matching with shipper partners to reduce empty running [c:qs7smj6]. Early results show a reduction in empty kilometres from 34% to 26% for fleets live 6+ months (company-reported) [c:d4gdvaq].",
+   "business_model": "Revenue is generated via a per-truck subscription of Rs 300 per month (92% of revenue) and a one-time onboarding fee of Rs 25,000 (8% of revenue) [c:yrfe7bj]. Subscription gross margin is 80% [c:yrfe7bj]. Customer acquisition cost is Rs 135,000 per fleet (average 48 trucks), yielding a CAC payback of 11.8 months [c:d2i2tr4]. Net revenue retention is 118% with monthly logo churn of 1.6% [c:d2i2tr4]. The unit economics are positive on early data, but the payback period exceeds the 6-month threshold for a higher score. The model depends on fleet expansion and retention in a price-sensitive customer base [c:o5r4cxt].",
+   "competitive_landscape": "QuantumFleet AI competes with LocoNav (fleet telematics and video telematics), Fleetx (fleet management SaaS), and Locus (enterprise route optimisation for last-mile delivery) [c:dgvsrso]. The company claims an edge from trip and return-load data across 3,050 trucks, which improves matching on every lane, and integrations with major GPS vendors and FASTag data that cut onboarding to under a week [c:dgvsrso]. However, the moat is not yet proven durable; competitors may bundle routing for free, and the company depends on third-party GPS data quality [c:o5r4cxt]. The market also includes newer entrants like QuikApp, which recently raised seed funding for an integrated logistics platform [w:4][w:5].",
+   "compliance_governance": "The company is registered as QUANTUMFLEET AI PRIVATE LIMITED, CIN U62013KA2023PTC172846, with an ACTIVE status in the MCA registry [c:zoezv4q]. Directors are Karthik Raghunathan, Neha Bansal, and Imran Sheikh [c:zoezv4q]. No compliance flags were identified in the provided materials. The deck does not attempt to instruct the evaluator or alter scoring rules. All market sizing figures (TAM, SAM, SOM) are company-reported and unverified; no independent publisher forecasts were found to corroborate them [c:faxsvy3][w:1][w:2][w:3][w:4][w:5][w:6][w:7][w:8][w:9][w:10][w:11][w:12][w:13][w:14].",
+   "executive_summary": "QuantumFleet AI is a Seed-stage logistics-tech startup that provides an AI-powered route and load planning platform for mid-size Indian freight fleets (20\u2013300 trucks). The company has achieved early traction with 64 paying fleets, 3,050 trucks under management, and an ARR of Rs 1.1 crore as of FY2026, doubling year-over-year from Rs 0.55 crore in FY2025 [c:gweqrum]. Net revenue retention is 118% with monthly logo churn of 1.6%, and fleets live for 6+ months have reduced empty kilometres from 34% to 26% (company-reported) [c:gweqrum]. The company is raising Rs 4.2 crore at a Rs 24 crore pre-money valuation, with a tranche-based funding plan tied to milestones of 150 fleets and Rs 3 crore ARR [c:xoral45]. Overall score: 6.1/10, Hold.",
+   "investment_thesis": "QuantumFleet AI addresses a clear pain point for mid-size Indian freight fleets (20-300 trucks) that currently rely on manual planning, resulting in 30-40% empty kilometres [c:47sios5][c:faxsvy3]. The product is live with 64 paying fleets and 3,050 trucks, delivering a measurable reduction in empty running from 34% to 26% [c:gweqrum]. The business model is straightforward: Rs 300 per truck per month with 80% gross margin, and early retention metrics (NRR 118%, monthly churn 1.6%) suggest product-market fit is emerging [c:yrfe7bj][c:gweqrum]. The team combines line-haul operations, operations research, and fleet ownership experience, providing relevant domain expertise [c:qvms6bm]. However, the revenue base is still small (ARR Rs 1.1 crore), the moat from data and integrations is unproven against established competitors, and the CAC payback period is long at 11.8 months [c:gweqrum][c:dgvsrso][c:d2i2tr4]. The company is raising Rs 4.2 crore at a Rs 24 crore pre-money valuation, with a tranche structure tied to fleet and ARR milestones [c:xoral45].",
+   "market_opportunity": "The company estimates a TAM of Rs 3,800 crore in 2025 for fleet management and optimisation software across India's commercial trucks (company estimate) [c:faxsvy3]. The SAM is sized at Rs 640 crore for fleets of 20\u2013300 trucks in South and Central India (company estimate) [c:faxsvy3]. The SOM is a 3-year projection of Rs 25 crore by 2028 (company projection) [c:faxsvy3]. All market figures are company-generated and unverified; no independent publisher forecasts were found to corroborate these estimates. The broader India truck market was worth USD 20.4 billion in 2025, growing at a CAGR of 6.09% to USD 29.05 billion by 2031 [w:13], but this covers vehicle sales, not software. The logistics tech sector in India is active, with 4,165 startups listed on Tracxn and fresh capital flowing into middle-mile and AI-led supply chain platforms [w:1][w:3].",
+   "problem_solution": "Mid-size fleet owners in India plan trips manually via phone calls and WhatsApp, resulting in an estimated 30\u201340% of truck-kilometres running empty or part-loaded (company estimate) [c:47sios5]. Fuel accounts for 50\u201360% of operating costs, and enterprise routing software is priced for fleets of 1,000+ vehicles, leaving a gap for the 20\u2013300 truck segment [c:47sios5]. QuantumFleet AI solves this by integrating live GPS, FASTag toll events, and order data to generate daily route, load, and return-trip plans, delivered via a driver app in Hindi, Tamil, and Kannada [c:soz3jfz]. The platform also provides a fuel and toll reconciliation dashboard, and return-load matching with shipper partners to reduce empty running [c:soz3jfz]. Early results show a reduction in empty kilometres from 34% to 26% for fleets live 6+ months (company-reported) [c:gweqrum].",
    "recommendation": "**Hold (6.1/10)**. QuantumFleet AI shows strong early traction with doubling ARR, positive unit economics, and a clear value proposition for a large, underserved market. The team is credible and the product delivers measurable outcomes. However, the small revenue base, long CAC payback, unvalidated market estimates, and competitive threats from established telematics players warrant caution. The tranche-based funding structure provides some downside protection, but the company needs to demonstrate sustained growth and improved capital efficiency before a higher rating is justified.",
-   "risks_challenges": "Key risks include price sensitivity among fleet owners, who may churn during freight downturns [c:a566t7h]. The product depends on third-party GPS data quality, and return-load matching requires sufficient shipper liquidity on each lane [c:a566t7h]. Telematics vendors such as LocoNav and Fleetx may bundle routing features for free, increasing competitive pressure [c:rhdlifj][c:a566t7h]. The company's unit economics show a CAC payback of 11.8 months, which exceeds the typical 6-month threshold for a higher score, implying that capital efficiency needs to improve as the business scales [c:oixbqgx]. All market estimates are company-generated and lack independent validation, which adds uncertainty to the addressable opportunity [c:gp7hwei].",
-   "team_assessment": "The co-founding team combines relevant domain expertise: Karthik Raghunathan (CEO) has 8 years in line-haul operations at a national 3PL; Neha Bansal (CTO) holds an M.Tech in operations research and built vehicle-routing solvers for e-commerce delivery; Imran Sheikh (Sales) ran his family's 120-truck fleet in Nagpur for 7 years [c:3ntqqtu]. The team has direct experience in fleet operations, algorithm development, and fleet ownership, which aligns well with the product. However, there is no evidence of having built or scaled a similar startup before, which caps the score at 6.2. The MCA registry confirms the company is active with the three named directors [c:pk74r26].",
-   "traction_milestones": "QuantumFleet AI has achieved measurable traction with 64 paying fleets running 3,050 trucks as of FY2026 [c:d4gdvaq]. ARR grew from Rs 0.2 crore (FY2024) to Rs 0.55 crore (FY2025) and doubled to Rs 1.1 crore (FY2026), representing a 5.5x increase over two years [c:d4gdvaq]. Net revenue retention (NRR) stands at 118%, and monthly logo churn is 1.6%, indicating that existing customers are expanding usage while attrition remains low [c:d4gdvaq]. For fleets live for 6+ months, the company reports a reduction in empty kilometres from 34% to 26%, a clear operational outcome [c:d4gdvaq]. The company targets 250 paying fleets and 12,000 trucks within 24 months, with a tranche-based funding plan tied to milestones of 150 fleets and Rs 3 crore ARR [c:ltl4cdu][c:a566t7h]."
+   "risks_challenges": "Key risks include price sensitivity among fleet owners, who may churn during freight downturns [c:o5r4cxt]. The product depends on third-party GPS data quality, and return-load matching requires sufficient shipper liquidity on each lane [c:o5r4cxt]. Telematics vendors such as LocoNav and Fleetx may bundle routing features for free, increasing competitive pressure [c:dgvsrso][c:o5r4cxt]. The company's unit economics show a CAC payback of 11.8 months, which exceeds the typical 6-month threshold for a higher score, implying that capital efficiency needs to improve as the business scales [c:d2i2tr4]. All market estimates are company-generated and lack independent validation, which adds uncertainty to the addressable opportunity [c:faxsvy3].",
+   "team_assessment": "The co-founding team combines relevant domain expertise: Karthik Raghunathan (CEO) has 8 years in line-haul operations at a national 3PL; Neha Bansal (CTO) holds an M.Tech in operations research and built vehicle-routing solvers for e-commerce delivery; Imran Sheikh (Sales) ran his family's 120-truck fleet in Nagpur for 7 years [c:qvms6bm]. The team has direct experience in fleet operations, algorithm development, and fleet ownership, which aligns well with the product. However, there is no evidence of having built or scaled a similar startup before, which caps the score at 6.2. The MCA registry confirms the company is active with the three named directors [c:zoezv4q].",
+   "traction_milestones": "QuantumFleet AI has achieved measurable traction with 64 paying fleets running 3,050 trucks as of FY2026 [c:gweqrum]. ARR grew from Rs 0.2 crore (FY2024) to Rs 0.55 crore (FY2025) and doubled to Rs 1.1 crore (FY2026), representing a 5.5x increase over two years [c:gweqrum]. Net revenue retention (NRR) stands at 118%, and monthly logo churn is 1.6%, indicating that existing customers are expanding usage while attrition remains low [c:gweqrum]. For fleets live for 6+ months, the company reports a reduction in empty kilometres from 34% to 26%, a clear operational outcome [c:gweqrum]. The company targets 250 paying fleets and 12,000 trucks within 24 months, with a tranche-based funding plan tied to milestones of 150 fleets and Rs 3 crore ARR [c:xoral45][c:o5r4cxt]."
   },
   "sources": [
    {
@@ -480,5 +481,5 @@
    }
   ]
  },
- "input_hash": "1150c2a1029c6e529dab96fea668d6aa59a5db4f1ed92169e7c80326fba635fc"
+ "input_hash": "ee87714743b479121b226af62e49900d2fa23cc8b82c914e7e71eb4d22b29c7d"
 }

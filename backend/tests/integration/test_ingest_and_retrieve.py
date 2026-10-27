@@ -5,6 +5,7 @@ import asyncio
 from sqlalchemy import func, select, update
 
 from aura.core.db import read_session, write_tx
+from aura.ingest.chunker import CHUNKER_VERSION
 from aura.models import Chunk, Document, InvestorProfile, Startup, User
 from aura.rag import store
 from aura.rag.retriever import AccessScope, SearchRequest, search
@@ -23,7 +24,7 @@ def test_ingestion_streams_every_stage(live):
 def test_document_pages_and_images(live):
     doc = live.client.get(f"/api/documents/{live.document_id}").json()
     assert doc["status"] == "ready" and doc["page_count"] == 11 and doc["chunk_count"] == 11
-    assert doc["versions"]["titanocr"] == "0.2.0" and doc["versions"]["chunker"] == "deck-1"
+    assert doc["versions"]["titanocr"] == "0.2.0" and doc["versions"]["chunker"] == CHUNKER_VERSION
     page4 = doc["pages"][3]
     assert page4["slide_title"] == "Market Opportunity (TAM / SAM / SOM)" and page4["geom_exact"]
     image = live.client.get(page4["image_url"])

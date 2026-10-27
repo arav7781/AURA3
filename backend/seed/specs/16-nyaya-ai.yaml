@@ -98,8 +98,6 @@ risks:
   - Law firms are slow to adopt new tools and price-sensitive
   - Foundation-model vendors may add Indian-law capabilities
   - Client confidentiality requirements limit data use
-deck:
-  palette: saas
 evaluation_expectations:
   score_band: [5.0, 7.5]
   recommendation_in: [Hold, Buy]

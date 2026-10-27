@@ -98,8 +98,6 @@ risks:
   - MSME offtakers may default or shut down over a 15-year PPA
   - Interest-rate rises raise the cost of project debt
   - Module and battery price swings affect project economics
-deck:
-  palette: climate
 evaluation_expectations:
   score_band: [6.5, 8.5]
   recommendation_in: [Buy, Strong Buy]

@@ -15,6 +15,7 @@ import hashlib
 import json
 import logging
 import random
+import re
 import shutil
 import sys
 import time
@@ -38,7 +39,7 @@ from aura.evaluation.research import ResearchProvider
 from aura.ingest.ocr import ocr_service
 from aura.ingest.pipeline import ingest_document
 from aura.ingest.storage import document_dir
-from aura.models import AppState, Chunk, Document, Evaluation, Ranking, Review, Startup, User
+from aura.models import AppState, Chunk, CopilotMessage, Document, Evaluation, Ranking, Review, Startup, User
 from aura.publishing import publish_startup
 from aura.rag import profiles, projection, store
 
@@ -136,9 +137,86 @@ def apply_profile(spec: StartupSpec, owner_id: str) -> str:
         return startup.id
 
 
+CID = re.compile(r"c:[a-z2-7]{7}")
+
+
+def deck_passages(startup_id: str) -> list[dict]:
+    """The startup's deck chunks (not files attached to copilot conversations)."""
+    with read_session() as s:
+        rows = s.scalars(select(Chunk).join(Document, Document.id == Chunk.document_id).where(
+            Chunk.startup_id == startup_id, Document.kind == "deck", Document.thread_id.is_(None))).all()
+        return [{"cid": c.cid, "id": c.id, "document_id": c.document_id, "page_no": c.page_no, "text": c.text,
+                 "bbox": c.bbox, "slide_title": c.slide_title} for c in rows]
+
+
+def _words(text: str) -> set[str]:
+    return set(re.findall(r"[a-z0-9][a-z0-9.,%]*", text.lower()))
+
+
+def carry_citations(spec: StartupSpec, startup_id: str, old: list[dict], new: list[dict]) -> int:
+    """A re-rendered deck (same content, new layout) gets new passage ids. Point everything that cited the
+    old passages (evaluations in the database and the cache, copilot answers) at the new passage on the same
+    page that shares the most words, with its id, box and title. Returns how many passages were mapped."""
+    mapping: dict[str, dict] = {}
+    for passage in old:
+        same_page = [n for n in new if n["page_no"] == passage["page_no"]]
+        if same_page:
+            words = _words(passage["text"])
+            mapping[passage["cid"]] = max(
+                same_page, key=lambda n: len(words & _words(n["text"])) / max(1, len(words | _words(n["text"]))))
+    if not mapping:
+        return 0
+    by_chunk = {p["id"]: mapping[p["cid"]] for p in old if p["cid"] in mapping}
+    documents = {p["document_id"]: new[0]["document_id"] for p in old}
+
+    def fix(value):
+        if isinstance(value, dict):
+            out = {mapping[k]["cid"] if k in mapping else k: fix(v) for k, v in value.items()}
+            target = by_chunk.get(value.get("chunk_id"))
+            if target:
+                out.update(chunk_id=target["id"], document_id=target["document_id"], page_no=target["page_no"],
+                           bbox=target["bbox"])
+                for key in ("cid", "slide_title"):
+                    if key in out:
+                        out[key] = target[key]
+            return out
+        if isinstance(value, list):
+            return [fix(v) for v in value]
+        if isinstance(value, str):
+            if value in documents:
+                return documents[value]
+            return CID.sub(lambda m: mapping[m.group(0)]["cid"] if m.group(0) in mapping else m.group(0), value)
+        return value
+
+    new_hash = service.input_hash(load_context(startup_id))
+    with write_tx() as s:
+        evaluations = s.scalars(select(Evaluation).where(Evaluation.startup_id == startup_id,
+                                                        Evaluation.result.is_not(None))).all()
+        for evaluation in evaluations:
+            result = fix(evaluation.result)
+            result.setdefault("carried_from_input_hash", evaluation.input_hash)
+            result["input_hash"] = new_hash
+            evaluation.result, evaluation.input_hash = result, new_hash
+        for message in s.scalars(select(CopilotMessage)).all():
+            if any(k in mapping for k in (message.citations or {})):
+                message.content, message.parts = fix(message.content), fix(message.parts)
+                message.citations = fix(message.citations)
+    path = evaluation_cache_path(spec)
+    if path.exists():
+        cached = json.loads(path.read_text())
+        if any(cid in mapping for cid in CID.findall(json.dumps(cached))):
+            analysis = fix(cached["analysis"])
+            analysis.setdefault("carried_from_input_hash", cached["input_hash"])
+            analysis["input_hash"] = new_hash
+            path.write_text(json.dumps({"input_hash": new_hash, "analysis": analysis}, indent=1, sort_keys=True))
+    return len(mapping)
+
+
 async def seed_deck(spec: StartupSpec, startup_id: str, owner_id: str) -> tuple[str, bool]:
-    """Upload and ingest the spec's deck unless the same file is already ingested. Returns (doc id, ingested)."""
+    """Upload and ingest the spec's deck unless the same file is already ingested. Returns (doc id, ingested).
+    When the deck changed, citations to the old one are carried over to the new passages."""
     files = build_deck(spec)
+    previous = deck_passages(startup_id)
     with write_tx() as s:
         doc = s.scalar(select(Document).where(Document.startup_id == startup_id, Document.sha256 == files.sha256))
         stale = s.scalars(select(Document).where(Document.startup_id == startup_id, Document.kind == "deck",
@@ -165,6 +243,9 @@ async def seed_deck(spec: StartupSpec, startup_id: str, owner_id: str) -> tuple[
     if ready:
         return doc_id, False
     await ingest_document(Progress(spec.slug), doc_id, update_map=False)
+    if stale_ids and previous:
+        moved = carry_citations(spec, startup_id, previous, deck_passages(startup_id))
+        logger.info("%s: deck re-rendered; citations carried over from %d passages", spec.slug, moved)
     return doc_id, True
 
 

@@ -1,9 +1,15 @@
 """Layout-aware chunking of a TitanOCR Document IR (read as plain JSON, so IR 1.8 and 1.9 both work).
 
-Rules (``deck-1``):
-- Text repeated on at least half of the pages (running headers and footers such as
-  "Company · CIN · 4 / 11") and bare page numbers are dropped, so they don't pollute every chunk.
-- The slide title is the first non-running ``header`` block (else a short first line).
+Rules (``deck-2``):
+- Text repeated near the page edges on at least half of the pages (running headers and footers such as
+  "Company · CIN · 4 / 11") and bare page numbers are dropped, so they don't pollute every chunk. The same
+  words elsewhere on a page (a cover title that matches the running header) are kept.
+- Blocks, and lines inside a block, are read column by column, then row by row (an XY cut on the whitespace
+  between them), so side-by-side cards and columns stay in order whether or not layout analysis grouped
+  them into one block. Running bands at the top and bottom edges are read first and last.
+- Single-character fragments (a bullet, an icon OCR read as "o") are dropped.
+- The slide title is the tallest line on the page (titles are the largest type on a slide; section labels
+  and body text are smaller), else a short first line.
 - Chunks never cross a page. A page longer than ``MAX_TOKENS`` is split at block boundaries.
 - Tables are rendered as Markdown tables.
 - Every chunk keeps provenance: page, normalised union bbox, per-line boxes, confidence, origin
@@ -15,13 +21,14 @@ import hashlib
 import math
 import re
 from collections import Counter
+from collections.abc import Callable
 from dataclasses import asdict, dataclass, field
 from typing import Any
 
 from aura.core.ids import stable_id
 from aura.ingest.geometry import Box, page_exact, to_norm, union
 
-CHUNKER_VERSION = "deck-1"
+CHUNKER_VERSION = "deck-2"
 MAX_TOKENS = 350
 NO_TEXT_BLOCKS = {"connector", "rule"}
 EDGE = 0.08  # top/bottom band (fraction of page height) where running text lives
@@ -100,6 +107,74 @@ def _near_edge(block: dict[str, Any], page: dict[str, Any]) -> bool:
     return top < EDGE or bottom > 1 - EDGE
 
 
+def _widest_gap(items: list[dict[str, Any]], axis: int) -> tuple[float, float]:
+    """The widest whitespace gap between boxes along ``axis`` (0 = x, 1 = y), as (width, cut position)."""
+    order = sorted(items, key=lambda it: it["bbox"][axis])
+    best, cut = 0.0, 0.0
+    end = order[0]["bbox"][axis + 2]
+    for it in order[1:]:
+        start = it["bbox"][axis]
+        if start - end > best:
+            best, cut = start - end, (start + end) / 2
+        end = max(end, it["bbox"][axis + 2])
+    return best, cut
+
+
+def xy_cut(items: list[dict[str, Any]], unit: float, *, column_gap: float, row_gap: float,
+           rest: Callable[[list[dict[str, Any]]], list[dict[str, Any]]]) -> list[dict[str, Any]]:
+    """Recursive XY cut: split at the single widest whitespace gap, a column gutter (at least ``column_gap``
+    units) or a row gap (at least ``row_gap`` units), and read the parts left to right or top to bottom.
+    Splitting at the widest gap first keeps a narrow band of whitespace that happens to cross two columns
+    from cutting them into interleaved rows. What cannot be cut is ordered by ``rest``."""
+    if len(items) < 2:
+        return list(items)
+    columns, x = _widest_gap(items, 0)
+    rows, y = _widest_gap(items, 1)
+    candidates = [(columns, 0, x)] if columns > column_gap * unit else []
+    candidates += [(rows, 1, y)] if rows > row_gap * unit else []
+    if not candidates:
+        return rest(items)
+    _, axis, cut = max(candidates)
+    before = [it for it in items if it["bbox"][axis] < cut]
+    after = [it for it in items if it["bbox"][axis] >= cut]
+    return [*xy_cut(before, unit, column_gap=column_gap, row_gap=row_gap, rest=rest),
+            *xy_cut(after, unit, column_gap=column_gap, row_gap=row_gap, rest=rest)]
+
+
+def reading_order(lines: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Lines of one block in reading order (columns and rows by XY cut; within a single run of text, top to
+    bottom and left to right)."""
+    if len(lines) < 2:
+        return list(lines)
+    heights = sorted(max(1.0, ln["bbox"][3] - ln["bbox"][1]) for ln in lines)
+    return xy_cut(lines, heights[len(heights) // 2], column_gap=2.0, row_gap=1.2, rest=_sorted_lines)
+
+
+def block_order(blocks: list[dict[str, Any]], unit: float) -> list[dict[str, Any]]:
+    """Blocks in reading order by XY cut; where nothing separates them, the layout engine's own order."""
+    return xy_cut(blocks, unit, column_gap=2.0, row_gap=0.0,
+                  rest=lambda bs: sorted(bs, key=lambda b: b.get("reading_order", 0)))
+
+
+def _page_order(page: dict[str, Any]) -> list[dict[str, Any]]:
+    blocks = list(page.get("blocks", ()))
+    heights = sorted(ln["bbox"][3] - ln["bbox"][1] for b in blocks for ln in b.get("lines") or () if ln.get("text"))
+    unit = max(1.0, heights[len(heights) // 2]) if heights else 20.0
+    height = float(page.get("height") or 1)
+    # Only blocks that lie wholly in a band (a figure that merely reaches the bottom band is body)
+    top = [b for b in blocks if b["bbox"][3] / height <= EDGE + 0.02]
+    bottom = [b for b in blocks if b["bbox"][1] / height >= 1 - EDGE - 0.02]
+    body = [b for b in blocks if b not in top and b not in bottom]
+    by_order = lambda bs: sorted(bs, key=lambda b: b.get("reading_order", 0))  # noqa: E731
+    return by_order(top) + block_order(body, unit) + by_order(bottom)
+
+
+def _noise(text: str) -> bool:
+    """A lone glyph: a bullet, a dash, or an icon that OCR read as a letter."""
+    stripped = text.strip()
+    return len(stripped) <= 1 or (len(stripped) <= 2 and not any(ch.isalnum() for ch in stripped))
+
+
 def running_keys(pages: list[dict[str, Any]]) -> set[str]:
     """Line texts that repeat near the page edges on at least half the pages (3+ page documents only)."""
     if len(pages) < 3:
@@ -161,10 +236,12 @@ def _piece(block: dict[str, Any], page: dict[str, Any], running: set[str]) -> _P
         origins = {str(c.get("origin", "digital")) for c in cells} or {str(block.get("origin", "digital"))}
         return _Piece(text, lines, to_norm(block["bbox"], page), confidences, origins, True) if text else None
 
+    footer = block["type"] == "footer"
     kept = [
         ln
-        for ln in _sorted_lines(list(block.get("lines") or ()))
-        if ln.get("text", "").strip() and _norm_key(ln["text"]) not in running and not _PAGE_NUMBER.match(ln["text"])
+        for ln in reading_order([ln for ln in block.get("lines") or () if not _noise(ln.get("text", ""))])
+        if not ((footer or _near_edge(ln, page)) and _norm_key(ln["text"]) in running)
+        and not _PAGE_NUMBER.match(ln["text"])
     ]
     if not kept:
         return None
@@ -197,15 +274,19 @@ def chunk_ir(ir: dict[str, Any], *, doc: DocMeta, verdicts: list[dict[str, Any]]
         page_no = int(page["page_no"])
         exact = page_exact(page)
         title: str | None = None
+        tallest = 0.0
         pieces: list[_Piece] = []
-        for block in sorted(page.get("blocks", ()), key=lambda b: b.get("reading_order", 0)):
+        for block in _page_order(page):
             if block["type"] in NO_TEXT_BLOCKS:
                 continue
             piece = _piece(block, page, running)
             if piece is None:
                 continue
-            if title is None and block["type"] == "header":
-                title = piece.text.split("\n", 1)[0][:200]
+            if not piece.is_table:  # running headers are already gone, so the band at the top is fair game
+                for ln in piece.lines:
+                    height = ln["b"][3] - ln["b"][1]
+                    if height > tallest * 1.05 and len(ln["t"].strip()) <= 120:
+                        title, tallest = ln["t"].strip()[:200], height
             pieces.append(piece)
         if not pieces:
             continue

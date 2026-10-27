@@ -99,7 +99,6 @@ risks:
   - Thin traction (Rs 0.4 crore ARR) relative to the valuation
   - No track record of manufacturing hardware at scale
 deck:
-  palette: agritech
   adversarial:
     inconsistent: {traction: "ARR of Rs 1.4 crore across 3,200 deployed sensors"}
 evaluation_expectations:

@@ -95,7 +95,6 @@ risks:
   - Supply depends on persuading owners to part with heirloom pieces
   - Niche market may cap growth
 deck:
-  palette: consumer
   render: scanned
   scan: {dpi: 100, skew_deg: 1.5, noise: 0.06, jpeg_quality: 55, seed: 20}
 evaluation_expectations:

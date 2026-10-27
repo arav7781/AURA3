@@ -1,5 +1,6 @@
 {
  "analysis": {
+  "carried_from_input_hash": "ede50e158079edc617b357375c60db03d63a9859e80cddb6daf8fd608abafb94",
   "category_scores": {
    "business_model": 5.7,
    "execution_risk": 5.7,
@@ -10,134 +11,134 @@
    "traction": 6.0
   },
   "citations": {
-   "c:23jutbo": {
+   "c:3ryjoqu": {
     "bbox": [
-     0.0677,
-     0.0554,
-     0.854,
-     0.50907
+     0.05939,
+     0.12926,
+     0.72989,
+     0.80727
     ],
-    "chunk_id": "8b8ad91c-3a9b-5a60-b48e-2ad9091e28e0",
-    "document_id": "7352f934-4e42-4299-b561-8e2ae46514da",
-    "page_no": 3,
-    "slide_title": "Solution",
-    "type": "deck"
-   },
-   "c:cz5po7h": {
-    "bbox": [
-     0.06259,
-     0.0554,
-     0.9293,
-     0.6804
-    ],
-    "chunk_id": "9fb6767c-b7b6-5c52-a3db-0d8a25ac5dc3",
-    "document_id": "7352f934-4e42-4299-b561-8e2ae46514da",
-    "page_no": 8,
-    "slide_title": "Competitive Landscape",
-    "type": "deck"
-   },
-   "c:ejp2tz2": {
-    "bbox": [
-     0.0677,
-     0.0554,
-     0.93034,
-     0.4682
-    ],
-    "chunk_id": "6d38e759-9274-54fb-8c61-dd2a26568b43",
-    "document_id": "7352f934-4e42-4299-b561-8e2ae46514da",
-    "page_no": 10,
-    "slide_title": "Team",
-    "type": "deck"
-   },
-   "c:esi23rx": {
-    "bbox": [
-     0.0677,
-     0.0554,
-     0.79549,
-     0.50907
-    ],
-    "chunk_id": "4923e811-08fe-5782-a58e-183bf34a7570",
-    "document_id": "7352f934-4e42-4299-b561-8e2ae46514da",
-    "page_no": 1,
-    "slide_title": "GreenMile EV",
-    "type": "deck"
-   },
-   "c:hs6d2iq": {
-    "bbox": [
-     0.0677,
-     0.0554,
-     0.92544,
-     0.43886
-    ],
-    "chunk_id": "b41e7262-0817-504d-9bdd-0b65ba49716f",
-    "document_id": "7352f934-4e42-4299-b561-8e2ae46514da",
-    "page_no": 5,
-    "slide_title": "Business Model",
-    "type": "deck"
-   },
-   "c:lumrq2e": {
-    "bbox": [
-     0.05956,
-     0.0554,
-     0.89795,
-     0.7667
-    ],
-    "chunk_id": "fb73667b-1dd1-591e-9904-fe3ce0bb1811",
-    "document_id": "7352f934-4e42-4299-b561-8e2ae46514da",
-    "page_no": 6,
-    "slide_title": "Traction (as of FY2026)",
-    "type": "deck"
-   },
-   "c:nauk4gn": {
-    "bbox": [
-     0.0677,
-     0.0554,
-     0.83642,
-     0.45481
-    ],
-    "chunk_id": "29d1a1d5-347d-501d-a1d6-bb1362c4a15f",
-    "document_id": "7352f934-4e42-4299-b561-8e2ae46514da",
-    "page_no": 7,
-    "slide_title": "Unit Economics",
-    "type": "deck"
-   },
-   "c:twoumyw": {
-    "bbox": [
-     0.0677,
-     0.0554,
-     0.91533,
-     0.63306
-    ],
-    "chunk_id": "a0757ea1-c4d7-5185-9765-f122ee92a994",
-    "document_id": "7352f934-4e42-4299-b561-8e2ae46514da",
-    "page_no": 2,
-    "slide_title": "Problem",
-    "type": "deck"
-   },
-   "c:ufydi64": {
-    "bbox": [
-     0.0677,
-     0.0554,
-     0.92165,
-     0.63853
-    ],
-    "chunk_id": "025c5b62-1842-5383-9093-5fb01e34cfff",
-    "document_id": "7352f934-4e42-4299-b561-8e2ae46514da",
+    "chunk_id": "13c54676-1d60-5a8f-8710-7a17bb3a546e",
+    "document_id": "361b3c88-b1cb-4504-a2bf-f41d197834d0",
     "page_no": 9,
     "slide_title": "Go-to-Market & Key Risks",
     "type": "deck"
    },
-   "c:xtkdso3": {
+   "c:72lgu4y": {
     "bbox": [
-     0.0677,
-     0.0554,
-     0.92414,
-     0.42291
+     0.05939,
+     0.12926,
+     0.80272,
+     0.71951
     ],
-    "chunk_id": "896487e3-5edc-54ec-83b6-cb0775cff2de",
-    "document_id": "7352f934-4e42-4299-b561-8e2ae46514da",
+    "chunk_id": "13166bfe-121d-56a1-9379-cb29ba6cbb35",
+    "document_id": "361b3c88-b1cb-4504-a2bf-f41d197834d0",
     "page_no": 4,
     "slide_title": "Market Opportunity (TAM / SAM / SOM)",
+    "type": "deck"
+   },
+   "c:7mtd3mn": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.91262,
+     0.69809
+    ],
+    "chunk_id": "2777e22a-a979-50a2-9ccf-69b227e9c999",
+    "document_id": "361b3c88-b1cb-4504-a2bf-f41d197834d0",
+    "page_no": 7,
+    "slide_title": "Unit Economics",
+    "type": "deck"
+   },
+   "c:a5k4i7y": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.88648,
+     0.67119
+    ],
+    "chunk_id": "17f7f46e-1e6f-5b27-8fc4-7980a981e01d",
+    "document_id": "361b3c88-b1cb-4504-a2bf-f41d197834d0",
+    "page_no": 10,
+    "slide_title": "Team",
+    "type": "deck"
+   },
+   "c:fpoj4xs": {
+    "bbox": [
+     0.05939,
+     0.23738,
+     0.5371,
+     0.70871
+    ],
+    "chunk_id": "3711f9c6-203b-5c5f-99e1-51dfe762f725",
+    "document_id": "361b3c88-b1cb-4504-a2bf-f41d197834d0",
+    "page_no": 1,
+    "slide_title": "GreenMile EV",
+    "type": "deck"
+   },
+   "c:k7fsgzf": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.88493,
+     0.74349
+    ],
+    "chunk_id": "1a581932-baed-5cec-8e58-680ae6abc30b",
+    "document_id": "361b3c88-b1cb-4504-a2bf-f41d197834d0",
+    "page_no": 2,
+    "slide_title": "Problem",
+    "type": "deck"
+   },
+   "c:qv3u4k5": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.78591,
+     0.76418
+    ],
+    "chunk_id": "f788809a-3c3f-5e0e-8b7f-033fa266ee19",
+    "document_id": "361b3c88-b1cb-4504-a2bf-f41d197834d0",
+    "page_no": 3,
+    "slide_title": "Solution",
+    "type": "deck"
+   },
+   "c:toosbcl": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.88811,
+     0.7402
+    ],
+    "chunk_id": "3641e537-f467-5dc3-bf2b-046c888f788e",
+    "document_id": "361b3c88-b1cb-4504-a2bf-f41d197834d0",
+    "page_no": 5,
+    "slide_title": "Business Model",
+    "type": "deck"
+   },
+   "c:ucazgff": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.92303,
+     0.84045
+    ],
+    "chunk_id": "f0a56269-a0d3-5068-bd69-2156c80b1340",
+    "document_id": "361b3c88-b1cb-4504-a2bf-f41d197834d0",
+    "page_no": 6,
+    "slide_title": "Traction (as of FY2026)",
+    "type": "deck"
+   },
+   "c:wdgateh": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.9179,
+     0.70105
+    ],
+    "chunk_id": "918c9016-f247-563b-8eb1-527b516f8b73",
+    "document_id": "361b3c88-b1cb-4504-a2bf-f41d197834d0",
+    "page_no": 8,
+    "slide_title": "Competitive Landscape",
     "type": "deck"
    },
    "w:2": {
@@ -179,7 +180,7 @@
   ],
   "evidence_version": 2,
   "generated_at": "2026-10-26T19:21:10.563878Z",
-  "input_hash": "ede50e158079edc617b357375c60db03d63a9859e80cddb6daf8fd608abafb94",
+  "input_hash": "bc7bcf7e7fcddd478519bcc687e99fcfaaf000a67ba6c192070f74863a9842eb",
   "invalid_citations": [],
   "market_sizing": {
    "basis": "Only figures traceable to retrieved search excerpts are plotted as market data.",
@@ -191,14 +192,14 @@
      },
      "citation": {
       "bbox": [
-       0.0677,
-       0.0554,
-       0.92414,
-       0.42291
+       0.05939,
+       0.12926,
+       0.80272,
+       0.71951
       ],
-      "chunk_id": "896487e3-5edc-54ec-83b6-cb0775cff2de",
-      "cid": "c:xtkdso3",
-      "document_id": "7352f934-4e42-4299-b561-8e2ae46514da",
+      "chunk_id": "13166bfe-121d-56a1-9379-cb29ba6cbb35",
+      "cid": "c:72lgu4y",
+      "document_id": "361b3c88-b1cb-4504-a2bf-f41d197834d0",
       "page_no": 4
      },
      "currency": "INR",
@@ -227,19 +228,19 @@
   "overall_score": 5.7,
   "projected_revenue": [],
   "recommendation_label": "Hold",
-  "report_markdown": "## 1. Executive Summary\n\nGreenMile EV operates 420 electric cargo three-wheelers on an all-inclusive monthly lease (Rs 15,500 including charging, maintenance, and insurance) for 18 fleet customers in Delhi NCR, generating annualised lease revenue of Rs 7.8 crore (company-reported, unverified) [c:23jutbo][c:lumrq2e]. The company is raising Rs 10 crore at a Rs 55 crore pre-money valuation [c:esi23rx]. The product is functional and has early revenue, but is not yet category-defining. The team has relevant domain experience across fleet operations, CNG cargo fleet management, and commercial-vehicle lending [c:ejp2tz2]. Key risks include an asset-heavy model dependent on debt access, unproven battery degradation and resale values, customer concentration (largest at 22%), and operations limited to Delhi NCR [c:ufydi64]. The overall score is 5.7/10, leading to a Hold recommendation.\n\n## 2. Problem & Solution\n\nLast-mile fleet operators want electric three-wheelers for their lower running costs (40-50% below CNG/diesel, company estimate) but cannot fund the upfront price, and lenders hesitate because battery life and resale values are unproven [c:twoumyw]. GreenMile EV offers an all-inclusive monthly lease at Rs 15,500 per vehicle, covering charging, maintenance, and insurance, turning the EV into a predictable operating cost [c:23jutbo]. The solution includes own charging hubs at fleet depots, battery swapping at partner stations, telematics for uptime and battery health, and a replacement vehicle within 4 hours if a leased vehicle breaks down [c:23jutbo]. This directly addresses the financing and operational reliability barriers for fleet operators.\n\n## 3. Market Opportunity\n\nThe company estimates a TAM of Rs 6,500 crore for electric cargo three-wheeler leases in India and a SAM of Rs 1,100 crore for the 8 largest metros (both company estimates, unverified) [c:xtkdso3]. The broader Indian electric three-wheeler market is independently sized at over USD 1.3 billion in 2025, growing at a CAGR of 12-13% [w:2][w:3][w:4]. The SOM target is Rs 60 crore by 2028 (company projection) [c:xtkdso3]. The market is sizable and growing, supported by regulatory push and operational economics [w:5][w:9], but the company's TAM/SAM/SOM figures are not independently verified.\n\n## 4. Competitive Landscape\n\nGreenMile EV competes with Zypp Electric (EV-as-a-service, mostly two-wheelers), Three Wheels United (financing for drivers buying electric three-wheelers), and OEM captive leasing programmes [c:cz5po7h]. The company claims its edge comes from battery-health and uptime data across 420 vehicles, which lowers lending and residual-value risk, and depot charging hubs that make it cheap to add vehicles for existing customers [c:cz5po7h]. These are execution advantages that may create some switching costs, but they are easily replicated by competitors with similar capital, and no IP or network effects are demonstrated.\n\n## 5. Business Model\n\nRevenue is 100% from vehicle leases at Rs 15,500 per month, with a battery-swap pass pilot at Rs 1,800 per month (not yet material) [c:hs6d2iq]. Gross margin is 33% after charging, maintenance, insurance, and depreciation [c:hs6d2iq]. Vehicles are financed about 70% with NBFC debt [c:hs6d2iq]. Monthly churn is 0.8%, vehicle cost is Rs 3.6 lakh including battery, and asset payback is about 35 months [c:nauk4gn]. The unit economics are shown on early data but not yet proven at scale with strong retention metrics. The asset-heavy model depends on continued access to vehicle debt [c:ufydi64].\n\n## 6. Team Assessment\n\nThe three co-founders have relevant domain experience: Aditi Sharma (CEO) ran fleet operations for a quick-commerce company across Delhi NCR; Harpreet Singh (COO) built and ran a 200-vehicle CNG cargo fleet in Delhi; Sameer Khan (CFO) spent 7 years underwriting commercial-vehicle loans at an NBFC [c:ejp2tz2]. This is relevant execution experience across key roles\u2014fleet operations, asset management, and financing\u2014but there is no evidence of prior scaling or repeated successes. The team is credible for a seed-stage company in this sector.\n\n## 7. Traction & Milestones\n\n**Traction & Milestones**\n\n- **420 electric cargo three-wheelers** on lease across Delhi NCR as of FY2026 (company-reported, unverified) [c:lumrq2e].\n- **18 fleet customers**; the largest customer accounts for 22% of vehicles (company-reported, unverified) [c:lumrq2e].\n- **Annualised lease revenue** grew from Rs 1.9 crore (FY2024) to Rs 4.6 crore (FY2025) to Rs 7.8 crore (FY2026) (company-reported, unverified; FY2026 figure read from low-confidence OCR) [c:lumrq2e].\n- **Fleet utilisation** of 92% (vehicles on lease / vehicles owned) (company-reported, unverified) [c:nauk4gn].\n- **Monthly churn** of 0.8% (share of leased vehicles returned each month) (company-reported, unverified) [c:nauk4gn].\n- **Target**: 1,200 vehicles on lease across Delhi NCR and Bengaluru within 24 months (company projection) [c:ufydi64].\n\n## 8. Compliance & Governance\n\n**Compliance & Governance**\n\n- **MCA registry**: CIN U77100DL2022PTC401528, status ACTIVE, registered as GREENMILE EV PRIVATE LIMITED. Directors: Aditi Sharma, Harpreet Singh, Sameer Khan. No compliance flags were raised.\n- **No governance red flags** identified from the provided documents. The deck does not attempt to instruct the evaluator or alter scoring rules.\n- **Data gaps**: The company\u2019s TAM (Rs 6,500 crore), SAM (Rs 1,100 crore), and SOM (Rs 60 crore) are company-only estimates with no independent source excerpts providing value, unit, or period [c:xtkdso3]. Market CAGR and trend data are from publisher forecasts (12\u201313% CAGR for the broader electric three-wheeler market) [w:2][w:3][w:4], but no independent cargo-specific CAGR was sourced. Revenue for FY2026 was read from a low-confidence OCR region and is not charted with supporting evidence.\n\n## 9. Risks & Challenges\n\n**Risks & Challenges**\n\n- **Asset-heavy model**: The business depends on continued access to vehicle debt (70% financed via NBFC debt) [c:hs6d2iq][c:ufydi64]. Any tightening of credit could stall fleet expansion.\n- **Unproven battery degradation and resale values**: The company\u2019s unit economics assume a 35-month asset payback, but battery life and secondary-market values for electric cargo three-wheelers are not yet validated at scale [c:ufydi64].\n- **Customer concentration**: The largest customer accounts for 22% of vehicles, creating revenue dependency risk [c:ufydi64].\n- **Geographic concentration**: Operations are limited to Delhi NCR, with a planned expansion to Bengaluru but no proven multi-city playbook yet [c:ufydi64].\n- **Early-stage traction**: Revenue is growing but from a small base (Rs 7.8 crore annualised), and the FY2026 figure is based on low-confidence OCR data [c:lumrq2e]. Growth rate is not clearly 2x per year.\n- **Competitive replication**: The company\u2019s claimed edges (battery-health data, depot charging hubs) are execution advantages that competitors with similar capital can replicate; no IP or network effects are demonstrated [c:cz5po7h].\n\n## 10. Investment Thesis\n\n**Investment Thesis**\n\nGreenMile EV addresses a clear pain point: last-mile fleet operators want electric three-wheelers but cannot afford the upfront cost, and lenders are hesitant due to unproven residual values. The all-inclusive monthly lease (Rs 15,500 including charging, maintenance, and insurance) turns a capital expense into a predictable operating cost [c:23jutbo]. The product is live with 420 vehicles and 18 paying customers, showing early product-market fit [c:lumrq2e].\n\nThe market is sizable and growing: the broader Indian electric three-wheeler market is independently valued at over USD 1.3 billion in 2025, growing at 12\u201313% CAGR [w:2][w:3][w:4]. The company\u2019s own TAM estimate of Rs 6,500 crore for electric cargo three-wheeler leases is company-reported and unverified, but the tailwinds from e-commerce, quick-commerce, and government EV policies support a large addressable opportunity [c:xtkdso3][w:5][w:9].\n\nThe founding team brings relevant domain experience: CEO Aditi Sharma ran fleet operations for a quick-commerce company, COO Harpreet Singh built and ran a 200-vehicle CNG cargo fleet, and CFO Sameer Khan underwrote commercial-vehicle loans at an NBFC [c:ejp2tz2]. This is execution-relevant but lacks evidence of prior scaling or repeated successes.\n\nKey concerns include the asset-heavy model\u2019s dependence on debt financing, unproven battery degradation and resale values, customer concentration (22% from one client), and geographic concentration in Delhi NCR [c:ufydi64]. The 35-month asset payback is relatively long, and unit economics are based on early data not yet proven at scale [c:nauk4gn]. The moat is thin: battery-health data and depot charging hubs are execution advantages, not defensible IP or network effects [c:cz5po7h].\n\n## 11. Recommendation\n\n**Recommendation: Hold (5.7/10)**\n\nGreenMile EV has a working product with early revenue, a relevant team, and a large addressable market. However, the asset-heavy model, unproven battery economics, customer concentration, and thin moat limit the upside at this stage. The company is raising Rs 10 crore at a Rs 55 crore pre-money valuation, which is reasonable for a seed-stage asset-light leasing platform, but the risks around debt dependency and geographic concentration warrant caution. We recommend holding for further evidence of scalable unit economics, reduced customer concentration, and successful expansion beyond Delhi NCR before committing capital.",
+  "report_markdown": "## 1. Executive Summary\n\nGreenMile EV operates 420 electric cargo three-wheelers on an all-inclusive monthly lease (Rs 15,500 including charging, maintenance, and insurance) for 18 fleet customers in Delhi NCR, generating annualised lease revenue of Rs 7.8 crore (company-reported, unverified) [c:qv3u4k5][c:ucazgff]. The company is raising Rs 10 crore at a Rs 55 crore pre-money valuation [c:fpoj4xs]. The product is functional and has early revenue, but is not yet category-defining. The team has relevant domain experience across fleet operations, CNG cargo fleet management, and commercial-vehicle lending [c:a5k4i7y]. Key risks include an asset-heavy model dependent on debt access, unproven battery degradation and resale values, customer concentration (largest at 22%), and operations limited to Delhi NCR [c:3ryjoqu]. The overall score is 5.7/10, leading to a Hold recommendation.\n\n## 2. Problem & Solution\n\nLast-mile fleet operators want electric three-wheelers for their lower running costs (40-50% below CNG/diesel, company estimate) but cannot fund the upfront price, and lenders hesitate because battery life and resale values are unproven [c:k7fsgzf]. GreenMile EV offers an all-inclusive monthly lease at Rs 15,500 per vehicle, covering charging, maintenance, and insurance, turning the EV into a predictable operating cost [c:qv3u4k5]. The solution includes own charging hubs at fleet depots, battery swapping at partner stations, telematics for uptime and battery health, and a replacement vehicle within 4 hours if a leased vehicle breaks down [c:qv3u4k5]. This directly addresses the financing and operational reliability barriers for fleet operators.\n\n## 3. Market Opportunity\n\nThe company estimates a TAM of Rs 6,500 crore for electric cargo three-wheeler leases in India and a SAM of Rs 1,100 crore for the 8 largest metros (both company estimates, unverified) [c:72lgu4y]. The broader Indian electric three-wheeler market is independently sized at over USD 1.3 billion in 2025, growing at a CAGR of 12-13% [w:2][w:3][w:4]. The SOM target is Rs 60 crore by 2028 (company projection) [c:72lgu4y]. The market is sizable and growing, supported by regulatory push and operational economics [w:5][w:9], but the company's TAM/SAM/SOM figures are not independently verified.\n\n## 4. Competitive Landscape\n\nGreenMile EV competes with Zypp Electric (EV-as-a-service, mostly two-wheelers), Three Wheels United (financing for drivers buying electric three-wheelers), and OEM captive leasing programmes [c:wdgateh]. The company claims its edge comes from battery-health and uptime data across 420 vehicles, which lowers lending and residual-value risk, and depot charging hubs that make it cheap to add vehicles for existing customers [c:wdgateh]. These are execution advantages that may create some switching costs, but they are easily replicated by competitors with similar capital, and no IP or network effects are demonstrated.\n\n## 5. Business Model\n\nRevenue is 100% from vehicle leases at Rs 15,500 per month, with a battery-swap pass pilot at Rs 1,800 per month (not yet material) [c:toosbcl]. Gross margin is 33% after charging, maintenance, insurance, and depreciation [c:toosbcl]. Vehicles are financed about 70% with NBFC debt [c:toosbcl]. Monthly churn is 0.8%, vehicle cost is Rs 3.6 lakh including battery, and asset payback is about 35 months [c:7mtd3mn]. The unit economics are shown on early data but not yet proven at scale with strong retention metrics. The asset-heavy model depends on continued access to vehicle debt [c:3ryjoqu].\n\n## 6. Team Assessment\n\nThe three co-founders have relevant domain experience: Aditi Sharma (CEO) ran fleet operations for a quick-commerce company across Delhi NCR; Harpreet Singh (COO) built and ran a 200-vehicle CNG cargo fleet in Delhi; Sameer Khan (CFO) spent 7 years underwriting commercial-vehicle loans at an NBFC [c:a5k4i7y]. This is relevant execution experience across key roles\u2014fleet operations, asset management, and financing\u2014but there is no evidence of prior scaling or repeated successes. The team is credible for a seed-stage company in this sector.\n\n## 7. Traction & Milestones\n\n**Traction & Milestones**\n\n- **420 electric cargo three-wheelers** on lease across Delhi NCR as of FY2026 (company-reported, unverified) [c:ucazgff].\n- **18 fleet customers**; the largest customer accounts for 22% of vehicles (company-reported, unverified) [c:ucazgff].\n- **Annualised lease revenue** grew from Rs 1.9 crore (FY2024) to Rs 4.6 crore (FY2025) to Rs 7.8 crore (FY2026) (company-reported, unverified; FY2026 figure read from low-confidence OCR) [c:ucazgff].\n- **Fleet utilisation** of 92% (vehicles on lease / vehicles owned) (company-reported, unverified) [c:7mtd3mn].\n- **Monthly churn** of 0.8% (share of leased vehicles returned each month) (company-reported, unverified) [c:7mtd3mn].\n- **Target**: 1,200 vehicles on lease across Delhi NCR and Bengaluru within 24 months (company projection) [c:3ryjoqu].\n\n## 8. Compliance & Governance\n\n**Compliance & Governance**\n\n- **MCA registry**: CIN U77100DL2022PTC401528, status ACTIVE, registered as GREENMILE EV PRIVATE LIMITED. Directors: Aditi Sharma, Harpreet Singh, Sameer Khan. No compliance flags were raised.\n- **No governance red flags** identified from the provided documents. The deck does not attempt to instruct the evaluator or alter scoring rules.\n- **Data gaps**: The company\u2019s TAM (Rs 6,500 crore), SAM (Rs 1,100 crore), and SOM (Rs 60 crore) are company-only estimates with no independent source excerpts providing value, unit, or period [c:72lgu4y]. Market CAGR and trend data are from publisher forecasts (12\u201313% CAGR for the broader electric three-wheeler market) [w:2][w:3][w:4], but no independent cargo-specific CAGR was sourced. Revenue for FY2026 was read from a low-confidence OCR region and is not charted with supporting evidence.\n\n## 9. Risks & Challenges\n\n**Risks & Challenges**\n\n- **Asset-heavy model**: The business depends on continued access to vehicle debt (70% financed via NBFC debt) [c:toosbcl][c:3ryjoqu]. Any tightening of credit could stall fleet expansion.\n- **Unproven battery degradation and resale values**: The company\u2019s unit economics assume a 35-month asset payback, but battery life and secondary-market values for electric cargo three-wheelers are not yet validated at scale [c:3ryjoqu].\n- **Customer concentration**: The largest customer accounts for 22% of vehicles, creating revenue dependency risk [c:3ryjoqu].\n- **Geographic concentration**: Operations are limited to Delhi NCR, with a planned expansion to Bengaluru but no proven multi-city playbook yet [c:3ryjoqu].\n- **Early-stage traction**: Revenue is growing but from a small base (Rs 7.8 crore annualised), and the FY2026 figure is based on low-confidence OCR data [c:ucazgff]. Growth rate is not clearly 2x per year.\n- **Competitive replication**: The company\u2019s claimed edges (battery-health data, depot charging hubs) are execution advantages that competitors with similar capital can replicate; no IP or network effects are demonstrated [c:wdgateh].\n\n## 10. Investment Thesis\n\n**Investment Thesis**\n\nGreenMile EV addresses a clear pain point: last-mile fleet operators want electric three-wheelers but cannot afford the upfront cost, and lenders are hesitant due to unproven residual values. The all-inclusive monthly lease (Rs 15,500 including charging, maintenance, and insurance) turns a capital expense into a predictable operating cost [c:qv3u4k5]. The product is live with 420 vehicles and 18 paying customers, showing early product-market fit [c:ucazgff].\n\nThe market is sizable and growing: the broader Indian electric three-wheeler market is independently valued at over USD 1.3 billion in 2025, growing at 12\u201313% CAGR [w:2][w:3][w:4]. The company\u2019s own TAM estimate of Rs 6,500 crore for electric cargo three-wheeler leases is company-reported and unverified, but the tailwinds from e-commerce, quick-commerce, and government EV policies support a large addressable opportunity [c:72lgu4y][w:5][w:9].\n\nThe founding team brings relevant domain experience: CEO Aditi Sharma ran fleet operations for a quick-commerce company, COO Harpreet Singh built and ran a 200-vehicle CNG cargo fleet, and CFO Sameer Khan underwrote commercial-vehicle loans at an NBFC [c:a5k4i7y]. This is execution-relevant but lacks evidence of prior scaling or repeated successes.\n\nKey concerns include the asset-heavy model\u2019s dependence on debt financing, unproven battery degradation and resale values, customer concentration (22% from one client), and geographic concentration in Delhi NCR [c:3ryjoqu]. The 35-month asset payback is relatively long, and unit economics are based on early data not yet proven at scale [c:7mtd3mn]. The moat is thin: battery-health data and depot charging hubs are execution advantages, not defensible IP or network effects [c:wdgateh].\n\n## 11. Recommendation\n\n**Recommendation: Hold (5.7/10)**\n\nGreenMile EV has a working product with early revenue, a relevant team, and a large addressable market. However, the asset-heavy model, unproven battery economics, customer concentration, and thin moat limit the upside at this stage. The company is raising Rs 10 crore at a Rs 55 crore pre-money valuation, which is reasonable for a seed-stage asset-light leasing platform, but the risks around debt dependency and geographic concentration warrant caution. We recommend holding for further evidence of scalable unit economics, reduced customer concentration, and successful expansion beyond Delhi NCR before committing capital.",
   "revenue_currency": null,
   "revenue_metric": null,
   "rewrites": 0,
   "rubric_version": "r1",
   "score_rationales": {
-   "business_model": "Pricing is defined at Rs 15,500/month per vehicle, gross margin is 33%, and monthly churn is 0.8% [c:hs6d2iq][c:nauk4gn]. Asset payback is about 35 months, which is relatively long, and unit economics are shown on early data but not yet proven at scale with strong retention metrics.",
-   "execution_risk": "Risks are acknowledged: asset-heavy model depends on debt access, battery degradation and resale values are unproven, customer concentration (largest at 22%), and operations limited to Delhi NCR [c:ufydi64]. These are typical early-stage risks with some mitigation (e.g., NBFC debt partnerships), but no critical blockers or red flags.",
-   "market": "The company estimates a TAM of Rs 6,500 crore for electric cargo three-wheeler leases in India and a SAM of Rs 1,100 crore for the 8 largest metros [c:xtkdso3]. These are company-only estimates, but the broader electric three-wheeler market is independently sized at over USD 1.3 billion and growing at 12-13% CAGR [w:2][w:3][w:4], supporting a sizable and growing market.",
-   "moat": "The company cites battery-health and uptime data across 420 vehicles and depot charging hubs as edges [c:cz5po7h]. These are execution advantages and may create some switching costs, but they are easily replicated by competitors with similar capital, and no IP or network effects are demonstrated.",
-   "product": "GreenMile EV operates 420 vehicles on lease with paying customers, offering an all-inclusive monthly lease with charging, maintenance, and insurance [c:23jutbo]. This is a working product with clear value, but it is not yet category-defining and lacks strong evidence of product-market fit beyond early revenue.",
-   "team": "The three co-founders have relevant domain experience: CEO ran fleet operations for a quick-commerce company, COO built and ran a 200-vehicle CNG cargo fleet, and CFO underwrote commercial-vehicle loans at an NBFC [c:ejp2tz2]. This is relevant execution experience across key roles, but no evidence of prior scaling or repeated successes.",
-   "traction": "Annualised lease revenue grew from Rs 1.9 crore (FY2024) to Rs 4.6 crore (FY2025) to Rs 7.8 crore (FY2026) [c:lumrq2e]. This shows growing revenue, but the figures are dated and growth rate is not clearly around 2x per year; the company has 420 vehicles and 18 customers, indicating early but not exceptional traction."
+   "business_model": "Pricing is defined at Rs 15,500/month per vehicle, gross margin is 33%, and monthly churn is 0.8% [c:toosbcl][c:7mtd3mn]. Asset payback is about 35 months, which is relatively long, and unit economics are shown on early data but not yet proven at scale with strong retention metrics.",
+   "execution_risk": "Risks are acknowledged: asset-heavy model depends on debt access, battery degradation and resale values are unproven, customer concentration (largest at 22%), and operations limited to Delhi NCR [c:3ryjoqu]. These are typical early-stage risks with some mitigation (e.g., NBFC debt partnerships), but no critical blockers or red flags.",
+   "market": "The company estimates a TAM of Rs 6,500 crore for electric cargo three-wheeler leases in India and a SAM of Rs 1,100 crore for the 8 largest metros [c:72lgu4y]. These are company-only estimates, but the broader electric three-wheeler market is independently sized at over USD 1.3 billion and growing at 12-13% CAGR [w:2][w:3][w:4], supporting a sizable and growing market.",
+   "moat": "The company cites battery-health and uptime data across 420 vehicles and depot charging hubs as edges [c:wdgateh]. These are execution advantages and may create some switching costs, but they are easily replicated by competitors with similar capital, and no IP or network effects are demonstrated.",
+   "product": "GreenMile EV operates 420 vehicles on lease with paying customers, offering an all-inclusive monthly lease with charging, maintenance, and insurance [c:qv3u4k5]. This is a working product with clear value, but it is not yet category-defining and lacks strong evidence of product-market fit beyond early revenue.",
+   "team": "The three co-founders have relevant domain experience: CEO ran fleet operations for a quick-commerce company, COO built and ran a 200-vehicle CNG cargo fleet, and CFO underwrote commercial-vehicle loans at an NBFC [c:a5k4i7y]. This is relevant execution experience across key roles, but no evidence of prior scaling or repeated successes.",
+   "traction": "Annualised lease revenue grew from Rs 1.9 crore (FY2024) to Rs 4.6 crore (FY2025) to Rs 7.8 crore (FY2026) [c:ucazgff]. This shows growing revenue, but the figures are dated and growth rate is not clearly around 2x per year; the company has 420 vehicles and 18 customers, indicating early but not exceptional traction."
   },
   "score_spread": {
    "business_model": 1.0,
@@ -251,17 +252,17 @@
    "traction": 0.0
   },
   "sections": {
-   "business_model": "Revenue is 100% from vehicle leases at Rs 15,500 per month, with a battery-swap pass pilot at Rs 1,800 per month (not yet material) [c:hs6d2iq]. Gross margin is 33% after charging, maintenance, insurance, and depreciation [c:hs6d2iq]. Vehicles are financed about 70% with NBFC debt [c:hs6d2iq]. Monthly churn is 0.8%, vehicle cost is Rs 3.6 lakh including battery, and asset payback is about 35 months [c:nauk4gn]. The unit economics are shown on early data but not yet proven at scale with strong retention metrics. The asset-heavy model depends on continued access to vehicle debt [c:ufydi64].",
-   "competitive_landscape": "GreenMile EV competes with Zypp Electric (EV-as-a-service, mostly two-wheelers), Three Wheels United (financing for drivers buying electric three-wheelers), and OEM captive leasing programmes [c:cz5po7h]. The company claims its edge comes from battery-health and uptime data across 420 vehicles, which lowers lending and residual-value risk, and depot charging hubs that make it cheap to add vehicles for existing customers [c:cz5po7h]. These are execution advantages that may create some switching costs, but they are easily replicated by competitors with similar capital, and no IP or network effects are demonstrated.",
-   "compliance_governance": "**Compliance & Governance**\n\n- **MCA registry**: CIN U77100DL2022PTC401528, status ACTIVE, registered as GREENMILE EV PRIVATE LIMITED. Directors: Aditi Sharma, Harpreet Singh, Sameer Khan. No compliance flags were raised.\n- **No governance red flags** identified from the provided documents. The deck does not attempt to instruct the evaluator or alter scoring rules.\n- **Data gaps**: The company\u2019s TAM (Rs 6,500 crore), SAM (Rs 1,100 crore), and SOM (Rs 60 crore) are company-only estimates with no independent source excerpts providing value, unit, or period [c:xtkdso3]. Market CAGR and trend data are from publisher forecasts (12\u201313% CAGR for the broader electric three-wheeler market) [w:2][w:3][w:4], but no independent cargo-specific CAGR was sourced. Revenue for FY2026 was read from a low-confidence OCR region and is not charted with supporting evidence.",
-   "executive_summary": "GreenMile EV operates 420 electric cargo three-wheelers on an all-inclusive monthly lease (Rs 15,500 including charging, maintenance, and insurance) for 18 fleet customers in Delhi NCR, generating annualised lease revenue of Rs 7.8 crore (company-reported, unverified) [c:23jutbo][c:lumrq2e]. The company is raising Rs 10 crore at a Rs 55 crore pre-money valuation [c:esi23rx]. The product is functional and has early revenue, but is not yet category-defining. The team has relevant domain experience across fleet operations, CNG cargo fleet management, and commercial-vehicle lending [c:ejp2tz2]. Key risks include an asset-heavy model dependent on debt access, unproven battery degradation and resale values, customer concentration (largest at 22%), and operations limited to Delhi NCR [c:ufydi64]. The overall score is 5.7/10, leading to a Hold recommendation.",
-   "investment_thesis": "**Investment Thesis**\n\nGreenMile EV addresses a clear pain point: last-mile fleet operators want electric three-wheelers but cannot afford the upfront cost, and lenders are hesitant due to unproven residual values. The all-inclusive monthly lease (Rs 15,500 including charging, maintenance, and insurance) turns a capital expense into a predictable operating cost [c:23jutbo]. The product is live with 420 vehicles and 18 paying customers, showing early product-market fit [c:lumrq2e].\n\nThe market is sizable and growing: the broader Indian electric three-wheeler market is independently valued at over USD 1.3 billion in 2025, growing at 12\u201313% CAGR [w:2][w:3][w:4]. The company\u2019s own TAM estimate of Rs 6,500 crore for electric cargo three-wheeler leases is company-reported and unverified, but the tailwinds from e-commerce, quick-commerce, and government EV policies support a large addressable opportunity [c:xtkdso3][w:5][w:9].\n\nThe founding team brings relevant domain experience: CEO Aditi Sharma ran fleet operations for a quick-commerce company, COO Harpreet Singh built and ran a 200-vehicle CNG cargo fleet, and CFO Sameer Khan underwrote commercial-vehicle loans at an NBFC [c:ejp2tz2]. This is execution-relevant but lacks evidence of prior scaling or repeated successes.\n\nKey concerns include the asset-heavy model\u2019s dependence on debt financing, unproven battery degradation and resale values, customer concentration (22% from one client), and geographic concentration in Delhi NCR [c:ufydi64]. The 35-month asset payback is relatively long, and unit economics are based on early data not yet proven at scale [c:nauk4gn]. The moat is thin: battery-health data and depot charging hubs are execution advantages, not defensible IP or network effects [c:cz5po7h].",
-   "market_opportunity": "The company estimates a TAM of Rs 6,500 crore for electric cargo three-wheeler leases in India and a SAM of Rs 1,100 crore for the 8 largest metros (both company estimates, unverified) [c:xtkdso3]. The broader Indian electric three-wheeler market is independently sized at over USD 1.3 billion in 2025, growing at a CAGR of 12-13% [w:2][w:3][w:4]. The SOM target is Rs 60 crore by 2028 (company projection) [c:xtkdso3]. The market is sizable and growing, supported by regulatory push and operational economics [w:5][w:9], but the company's TAM/SAM/SOM figures are not independently verified.",
-   "problem_solution": "Last-mile fleet operators want electric three-wheelers for their lower running costs (40-50% below CNG/diesel, company estimate) but cannot fund the upfront price, and lenders hesitate because battery life and resale values are unproven [c:twoumyw]. GreenMile EV offers an all-inclusive monthly lease at Rs 15,500 per vehicle, covering charging, maintenance, and insurance, turning the EV into a predictable operating cost [c:23jutbo]. The solution includes own charging hubs at fleet depots, battery swapping at partner stations, telematics for uptime and battery health, and a replacement vehicle within 4 hours if a leased vehicle breaks down [c:23jutbo]. This directly addresses the financing and operational reliability barriers for fleet operators.",
+   "business_model": "Revenue is 100% from vehicle leases at Rs 15,500 per month, with a battery-swap pass pilot at Rs 1,800 per month (not yet material) [c:toosbcl]. Gross margin is 33% after charging, maintenance, insurance, and depreciation [c:toosbcl]. Vehicles are financed about 70% with NBFC debt [c:toosbcl]. Monthly churn is 0.8%, vehicle cost is Rs 3.6 lakh including battery, and asset payback is about 35 months [c:7mtd3mn]. The unit economics are shown on early data but not yet proven at scale with strong retention metrics. The asset-heavy model depends on continued access to vehicle debt [c:3ryjoqu].",
+   "competitive_landscape": "GreenMile EV competes with Zypp Electric (EV-as-a-service, mostly two-wheelers), Three Wheels United (financing for drivers buying electric three-wheelers), and OEM captive leasing programmes [c:wdgateh]. The company claims its edge comes from battery-health and uptime data across 420 vehicles, which lowers lending and residual-value risk, and depot charging hubs that make it cheap to add vehicles for existing customers [c:wdgateh]. These are execution advantages that may create some switching costs, but they are easily replicated by competitors with similar capital, and no IP or network effects are demonstrated.",
+   "compliance_governance": "**Compliance & Governance**\n\n- **MCA registry**: CIN U77100DL2022PTC401528, status ACTIVE, registered as GREENMILE EV PRIVATE LIMITED. Directors: Aditi Sharma, Harpreet Singh, Sameer Khan. No compliance flags were raised.\n- **No governance red flags** identified from the provided documents. The deck does not attempt to instruct the evaluator or alter scoring rules.\n- **Data gaps**: The company\u2019s TAM (Rs 6,500 crore), SAM (Rs 1,100 crore), and SOM (Rs 60 crore) are company-only estimates with no independent source excerpts providing value, unit, or period [c:72lgu4y]. Market CAGR and trend data are from publisher forecasts (12\u201313% CAGR for the broader electric three-wheeler market) [w:2][w:3][w:4], but no independent cargo-specific CAGR was sourced. Revenue for FY2026 was read from a low-confidence OCR region and is not charted with supporting evidence.",
+   "executive_summary": "GreenMile EV operates 420 electric cargo three-wheelers on an all-inclusive monthly lease (Rs 15,500 including charging, maintenance, and insurance) for 18 fleet customers in Delhi NCR, generating annualised lease revenue of Rs 7.8 crore (company-reported, unverified) [c:qv3u4k5][c:ucazgff]. The company is raising Rs 10 crore at a Rs 55 crore pre-money valuation [c:fpoj4xs]. The product is functional and has early revenue, but is not yet category-defining. The team has relevant domain experience across fleet operations, CNG cargo fleet management, and commercial-vehicle lending [c:a5k4i7y]. Key risks include an asset-heavy model dependent on debt access, unproven battery degradation and resale values, customer concentration (largest at 22%), and operations limited to Delhi NCR [c:3ryjoqu]. The overall score is 5.7/10, leading to a Hold recommendation.",
+   "investment_thesis": "**Investment Thesis**\n\nGreenMile EV addresses a clear pain point: last-mile fleet operators want electric three-wheelers but cannot afford the upfront cost, and lenders are hesitant due to unproven residual values. The all-inclusive monthly lease (Rs 15,500 including charging, maintenance, and insurance) turns a capital expense into a predictable operating cost [c:qv3u4k5]. The product is live with 420 vehicles and 18 paying customers, showing early product-market fit [c:ucazgff].\n\nThe market is sizable and growing: the broader Indian electric three-wheeler market is independently valued at over USD 1.3 billion in 2025, growing at 12\u201313% CAGR [w:2][w:3][w:4]. The company\u2019s own TAM estimate of Rs 6,500 crore for electric cargo three-wheeler leases is company-reported and unverified, but the tailwinds from e-commerce, quick-commerce, and government EV policies support a large addressable opportunity [c:72lgu4y][w:5][w:9].\n\nThe founding team brings relevant domain experience: CEO Aditi Sharma ran fleet operations for a quick-commerce company, COO Harpreet Singh built and ran a 200-vehicle CNG cargo fleet, and CFO Sameer Khan underwrote commercial-vehicle loans at an NBFC [c:a5k4i7y]. This is execution-relevant but lacks evidence of prior scaling or repeated successes.\n\nKey concerns include the asset-heavy model\u2019s dependence on debt financing, unproven battery degradation and resale values, customer concentration (22% from one client), and geographic concentration in Delhi NCR [c:3ryjoqu]. The 35-month asset payback is relatively long, and unit economics are based on early data not yet proven at scale [c:7mtd3mn]. The moat is thin: battery-health data and depot charging hubs are execution advantages, not defensible IP or network effects [c:wdgateh].",
+   "market_opportunity": "The company estimates a TAM of Rs 6,500 crore for electric cargo three-wheeler leases in India and a SAM of Rs 1,100 crore for the 8 largest metros (both company estimates, unverified) [c:72lgu4y]. The broader Indian electric three-wheeler market is independently sized at over USD 1.3 billion in 2025, growing at a CAGR of 12-13% [w:2][w:3][w:4]. The SOM target is Rs 60 crore by 2028 (company projection) [c:72lgu4y]. The market is sizable and growing, supported by regulatory push and operational economics [w:5][w:9], but the company's TAM/SAM/SOM figures are not independently verified.",
+   "problem_solution": "Last-mile fleet operators want electric three-wheelers for their lower running costs (40-50% below CNG/diesel, company estimate) but cannot fund the upfront price, and lenders hesitate because battery life and resale values are unproven [c:k7fsgzf]. GreenMile EV offers an all-inclusive monthly lease at Rs 15,500 per vehicle, covering charging, maintenance, and insurance, turning the EV into a predictable operating cost [c:qv3u4k5]. The solution includes own charging hubs at fleet depots, battery swapping at partner stations, telematics for uptime and battery health, and a replacement vehicle within 4 hours if a leased vehicle breaks down [c:qv3u4k5]. This directly addresses the financing and operational reliability barriers for fleet operators.",
    "recommendation": "**Recommendation: Hold (5.7/10)**\n\nGreenMile EV has a working product with early revenue, a relevant team, and a large addressable market. However, the asset-heavy model, unproven battery economics, customer concentration, and thin moat limit the upside at this stage. The company is raising Rs 10 crore at a Rs 55 crore pre-money valuation, which is reasonable for a seed-stage asset-light leasing platform, but the risks around debt dependency and geographic concentration warrant caution. We recommend holding for further evidence of scalable unit economics, reduced customer concentration, and successful expansion beyond Delhi NCR before committing capital.",
-   "risks_challenges": "**Risks & Challenges**\n\n- **Asset-heavy model**: The business depends on continued access to vehicle debt (70% financed via NBFC debt) [c:hs6d2iq][c:ufydi64]. Any tightening of credit could stall fleet expansion.\n- **Unproven battery degradation and resale values**: The company\u2019s unit economics assume a 35-month asset payback, but battery life and secondary-market values for electric cargo three-wheelers are not yet validated at scale [c:ufydi64].\n- **Customer concentration**: The largest customer accounts for 22% of vehicles, creating revenue dependency risk [c:ufydi64].\n- **Geographic concentration**: Operations are limited to Delhi NCR, with a planned expansion to Bengaluru but no proven multi-city playbook yet [c:ufydi64].\n- **Early-stage traction**: Revenue is growing but from a small base (Rs 7.8 crore annualised), and the FY2026 figure is based on low-confidence OCR data [c:lumrq2e]. Growth rate is not clearly 2x per year.\n- **Competitive replication**: The company\u2019s claimed edges (battery-health data, depot charging hubs) are execution advantages that competitors with similar capital can replicate; no IP or network effects are demonstrated [c:cz5po7h].",
-   "team_assessment": "The three co-founders have relevant domain experience: Aditi Sharma (CEO) ran fleet operations for a quick-commerce company across Delhi NCR; Harpreet Singh (COO) built and ran a 200-vehicle CNG cargo fleet in Delhi; Sameer Khan (CFO) spent 7 years underwriting commercial-vehicle loans at an NBFC [c:ejp2tz2]. This is relevant execution experience across key roles\u2014fleet operations, asset management, and financing\u2014but there is no evidence of prior scaling or repeated successes. The team is credible for a seed-stage company in this sector.",
-   "traction_milestones": "**Traction & Milestones**\n\n- **420 electric cargo three-wheelers** on lease across Delhi NCR as of FY2026 (company-reported, unverified) [c:lumrq2e].\n- **18 fleet customers**; the largest customer accounts for 22% of vehicles (company-reported, unverified) [c:lumrq2e].\n- **Annualised lease revenue** grew from Rs 1.9 crore (FY2024) to Rs 4.6 crore (FY2025) to Rs 7.8 crore (FY2026) (company-reported, unverified; FY2026 figure read from low-confidence OCR) [c:lumrq2e].\n- **Fleet utilisation** of 92% (vehicles on lease / vehicles owned) (company-reported, unverified) [c:nauk4gn].\n- **Monthly churn** of 0.8% (share of leased vehicles returned each month) (company-reported, unverified) [c:nauk4gn].\n- **Target**: 1,200 vehicles on lease across Delhi NCR and Bengaluru within 24 months (company projection) [c:ufydi64]."
+   "risks_challenges": "**Risks & Challenges**\n\n- **Asset-heavy model**: The business depends on continued access to vehicle debt (70% financed via NBFC debt) [c:toosbcl][c:3ryjoqu]. Any tightening of credit could stall fleet expansion.\n- **Unproven battery degradation and resale values**: The company\u2019s unit economics assume a 35-month asset payback, but battery life and secondary-market values for electric cargo three-wheelers are not yet validated at scale [c:3ryjoqu].\n- **Customer concentration**: The largest customer accounts for 22% of vehicles, creating revenue dependency risk [c:3ryjoqu].\n- **Geographic concentration**: Operations are limited to Delhi NCR, with a planned expansion to Bengaluru but no proven multi-city playbook yet [c:3ryjoqu].\n- **Early-stage traction**: Revenue is growing but from a small base (Rs 7.8 crore annualised), and the FY2026 figure is based on low-confidence OCR data [c:ucazgff]. Growth rate is not clearly 2x per year.\n- **Competitive replication**: The company\u2019s claimed edges (battery-health data, depot charging hubs) are execution advantages that competitors with similar capital can replicate; no IP or network effects are demonstrated [c:wdgateh].",
+   "team_assessment": "The three co-founders have relevant domain experience: Aditi Sharma (CEO) ran fleet operations for a quick-commerce company across Delhi NCR; Harpreet Singh (COO) built and ran a 200-vehicle CNG cargo fleet in Delhi; Sameer Khan (CFO) spent 7 years underwriting commercial-vehicle loans at an NBFC [c:a5k4i7y]. This is relevant execution experience across key roles\u2014fleet operations, asset management, and financing\u2014but there is no evidence of prior scaling or repeated successes. The team is credible for a seed-stage company in this sector.",
+   "traction_milestones": "**Traction & Milestones**\n\n- **420 electric cargo three-wheelers** on lease across Delhi NCR as of FY2026 (company-reported, unverified) [c:ucazgff].\n- **18 fleet customers**; the largest customer accounts for 22% of vehicles (company-reported, unverified) [c:ucazgff].\n- **Annualised lease revenue** grew from Rs 1.9 crore (FY2024) to Rs 4.6 crore (FY2025) to Rs 7.8 crore (FY2026) (company-reported, unverified; FY2026 figure read from low-confidence OCR) [c:ucazgff].\n- **Fleet utilisation** of 92% (vehicles on lease / vehicles owned) (company-reported, unverified) [c:7mtd3mn].\n- **Monthly churn** of 0.8% (share of leased vehicles returned each month) (company-reported, unverified) [c:7mtd3mn].\n- **Target**: 1,200 vehicles on lease across Delhi NCR and Bengaluru within 24 months (company projection) [c:3ryjoqu]."
   },
   "sources": [
    {
@@ -336,5 +337,5 @@
    }
   ]
  },
- "input_hash": "ede50e158079edc617b357375c60db03d63a9859e80cddb6daf8fd608abafb94"
+ "input_hash": "bc7bcf7e7fcddd478519bcc687e99fcfaaf000a67ba6c192070f74863a9842eb"
 }

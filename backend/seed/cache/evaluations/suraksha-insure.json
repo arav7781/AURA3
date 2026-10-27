@@ -1,5 +1,6 @@
 {
  "analysis": {
+  "carried_from_input_hash": "bd2aac33547105b2aa5aa850594fbf3aec89daa233ace853fe37b6fc6f8cb31a",
   "category_scores": {
    "business_model": 6.3,
    "execution_risk": 4.7,
@@ -10,147 +11,147 @@
    "traction": 6.0
   },
   "citations": {
-   "c:7tsm7ho": {
+   "c:634yfgz": {
     "bbox": [
-     0.0677,
-     0.0554,
-     0.93045,
-     0.60663
+     0.05939,
+     0.12926,
+     0.71465,
+     0.80727
     ],
-    "chunk_id": "c4745d9e-2315-5f1d-b6bf-01f23639551a",
-    "document_id": "e31ae108-b10e-426c-a3de-9c7c42d1c50c",
-    "page_no": 11,
-    "slide_title": "The Ask",
-    "type": "deck"
-   },
-   "c:l6ootyo": {
-    "bbox": [
-     0.0677,
-     0.0554,
-     0.87429,
-     0.73959
-    ],
-    "chunk_id": "0b7513f5-0021-5f61-ab66-8b14b50ecfb9",
-    "document_id": "e31ae108-b10e-426c-a3de-9c7c42d1c50c",
-    "page_no": 6,
-    "slide_title": "Traction (as of Sep 2026)",
-    "type": "deck"
-   },
-   "c:m7d4rmm": {
-    "bbox": [
-     0.0677,
-     0.0554,
-     0.82635,
-     0.50907
-    ],
-    "chunk_id": "b76f73f0-abbe-5270-a220-f3488e8f3570",
-    "document_id": "e31ae108-b10e-426c-a3de-9c7c42d1c50c",
-    "page_no": 1,
-    "slide_title": "Suraksha Insure",
-    "type": "deck"
-   },
-   "c:mplrale": {
-    "bbox": [
-     0.0677,
-     0.0554,
-     0.62938,
-     0.63853
-    ],
-    "chunk_id": "44d1baea-f997-55fa-8966-fa95467c6710",
-    "document_id": "e31ae108-b10e-426c-a3de-9c7c42d1c50c",
-    "page_no": 7,
-    "slide_title": "Unit Economics",
-    "type": "deck"
-   },
-   "c:my76nk3": {
-    "bbox": [
-     0.06091,
-     0.0554,
-     0.94532,
-     0.58969
-    ],
-    "chunk_id": "dffe978c-b234-527c-ad9c-2e0e78c35eb1",
-    "document_id": "e31ae108-b10e-426c-a3de-9c7c42d1c50c",
-    "page_no": 8,
-    "slide_title": "Competitive Landscape",
-    "type": "deck"
-   },
-   "c:puhraxs": {
-    "bbox": [
-     0.0677,
-     0.0554,
-     0.89529,
-     0.63853
-    ],
-    "chunk_id": "1f4a4fba-ce0e-5ef6-bb64-6e7a628b1e4e",
-    "document_id": "e31ae108-b10e-426c-a3de-9c7c42d1c50c",
+    "chunk_id": "83f88eb8-90e9-5b79-ab8a-c9ae1e28327c",
+    "document_id": "c0f069a2-b254-4c8d-b3c9-56580f846285",
     "page_no": 9,
     "slide_title": "Go-to-Market & Key Risks",
     "type": "deck"
    },
-   "c:rhmhi32": {
+   "c:etd2q55": {
     "bbox": [
-     0.0677,
-     0.0554,
-     0.92734,
-     0.63306
+     0.05939,
+     0.12926,
+     0.86471,
+     0.68168
     ],
-    "chunk_id": "344f0723-c6c8-567c-9af1-ab727f7edabb",
-    "document_id": "e31ae108-b10e-426c-a3de-9c7c42d1c50c",
-    "page_no": 2,
-    "slide_title": "Problem",
+    "chunk_id": "ec8c807b-3787-5d89-83db-43eb5cfdcf7f",
+    "document_id": "c0f069a2-b254-4c8d-b3c9-56580f846285",
+    "page_no": 10,
+    "slide_title": "Team",
     "type": "deck"
    },
-   "c:trv2gbo": {
+   "c:hedjwaa": {
     "bbox": [
-     0.0677,
-     0.0554,
-     0.91405,
-     0.4682
+     0.05939,
+     0.12926,
+     0.83077,
+     0.79123
     ],
-    "chunk_id": "c5227913-764c-51d5-87a1-0c3d3d6d3b10",
-    "document_id": "e31ae108-b10e-426c-a3de-9c7c42d1c50c",
+    "chunk_id": "e96bafe8-a363-51c3-98dc-e8edd331f12c",
+    "document_id": "c0f069a2-b254-4c8d-b3c9-56580f846285",
+    "page_no": 7,
+    "slide_title": "Unit Economics",
+    "type": "deck"
+   },
+   "c:igdrn7h": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.92303,
+     0.82387
+    ],
+    "chunk_id": "5c4aa1eb-27c6-5cd3-9c31-c7bb5b4da483",
+    "document_id": "c0f069a2-b254-4c8d-b3c9-56580f846285",
+    "page_no": 6,
+    "slide_title": "Traction (as of Sep 2026)",
+    "type": "deck"
+   },
+   "c:o5o6vg3": {
+    "bbox": [
+     0.05939,
+     0.22559,
+     0.56704,
+     0.7205
+    ],
+    "chunk_id": "347b365f-73f3-58a8-9414-0404595d04f9",
+    "document_id": "c0f069a2-b254-4c8d-b3c9-56580f846285",
+    "page_no": 1,
+    "slide_title": "Suraksha Insure",
+    "type": "deck"
+   },
+   "c:osqltz5": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.80272,
+     0.71951
+    ],
+    "chunk_id": "77287948-3e65-5a17-b08d-640acaeedb10",
+    "document_id": "c0f069a2-b254-4c8d-b3c9-56580f846285",
     "page_no": 4,
     "slide_title": "Market Opportunity (TAM / SAM / SOM)",
     "type": "deck"
    },
-   "c:tunz3lq": {
+   "c:qim5zz6": {
     "bbox": [
-     0.0677,
-     0.0554,
-     0.89401,
-     0.55436
+     0.05939,
+     0.12926,
+     0.76228,
+     0.76418
     ],
-    "chunk_id": "7f9f7ac6-8549-5ec2-b35a-045a440c9a27",
-    "document_id": "e31ae108-b10e-426c-a3de-9c7c42d1c50c",
+    "chunk_id": "2d8d6a86-3ce2-586a-8c59-46d1546c83ab",
+    "document_id": "c0f069a2-b254-4c8d-b3c9-56580f846285",
     "page_no": 3,
     "slide_title": "Solution",
     "type": "deck"
    },
-   "c:v3gsbn6": {
+   "c:tpa6sfp": {
     "bbox": [
-     0.0677,
-     0.0554,
-     0.86523,
-     0.48415
+     0.05939,
+     0.12926,
+     0.90052,
+     0.82993
     ],
-    "chunk_id": "aea093f5-cee8-53b8-98b1-83272539336e",
-    "document_id": "e31ae108-b10e-426c-a3de-9c7c42d1c50c",
+    "chunk_id": "54ff0376-49b7-5dce-add9-93378c86c056",
+    "document_id": "c0f069a2-b254-4c8d-b3c9-56580f846285",
+    "page_no": 11,
+    "slide_title": "The Ask",
+    "type": "deck"
+   },
+   "c:vhhg6lw": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.9179,
+     0.72985
+    ],
+    "chunk_id": "60798337-8590-5259-8fc7-ee4b71647208",
+    "document_id": "c0f069a2-b254-4c8d-b3c9-56580f846285",
+    "page_no": 8,
+    "slide_title": "Competitive Landscape",
+    "type": "deck"
+   },
+   "c:yvpoovi": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.91072,
+     0.7402
+    ],
+    "chunk_id": "c7355ded-d1f0-5e05-9b8e-9ce4deca2cff",
+    "document_id": "c0f069a2-b254-4c8d-b3c9-56580f846285",
     "page_no": 5,
     "slide_title": "Business Model",
     "type": "deck"
    },
-   "c:zf4kbmf": {
+   "c:zksdvds": {
     "bbox": [
-     0.0677,
-     0.0554,
-     0.93043,
-     0.42291
+     0.05939,
+     0.12926,
+     0.91017,
+     0.74349
     ],
-    "chunk_id": "b50a3c5d-9b87-5b17-9bb0-d7334f2716c0",
-    "document_id": "e31ae108-b10e-426c-a3de-9c7c42d1c50c",
-    "page_no": 10,
-    "slide_title": "Team",
+    "chunk_id": "555f6e85-d8b8-5a1e-aeb3-0e6b9a60129f",
+    "document_id": "c0f069a2-b254-4c8d-b3c9-56580f846285",
+    "page_no": 2,
+    "slide_title": "Problem",
     "type": "deck"
    },
    "w:1": {
@@ -196,7 +197,7 @@
   ],
   "evidence_version": 2,
   "generated_at": "2026-10-27T06:45:46.728209Z",
-  "input_hash": "bd2aac33547105b2aa5aa850594fbf3aec89daa233ace853fe37b6fc6f8cb31a",
+  "input_hash": "e05d91ccfffb9703c24aa6e9a3c75ba016396cd19b2db2afbfb34caf2bc128f3",
   "invalid_citations": [
    "w:11-w:19",
    "w:11\u2013w:19",
@@ -214,14 +215,14 @@
      },
      "citation": {
       "bbox": [
-       0.0677,
-       0.0554,
-       0.91405,
-       0.4682
+       0.05939,
+       0.12926,
+       0.80272,
+       0.71951
       ],
-      "chunk_id": "c5227913-764c-51d5-87a1-0c3d3d6d3b10",
-      "cid": "c:trv2gbo",
-      "document_id": "e31ae108-b10e-426c-a3de-9c7c42d1c50c",
+      "chunk_id": "77287948-3e65-5a17-b08d-640acaeedb10",
+      "cid": "c:osqltz5",
+      "document_id": "c0f069a2-b254-4c8d-b3c9-56580f846285",
       "page_no": 4
      },
      "currency": "INR",
@@ -245,14 +246,14 @@
      },
      "citation": {
       "bbox": [
-       0.0677,
-       0.0554,
-       0.91405,
-       0.4682
+       0.05939,
+       0.12926,
+       0.80272,
+       0.71951
       ],
-      "chunk_id": "c5227913-764c-51d5-87a1-0c3d3d6d3b10",
-      "cid": "c:trv2gbo",
-      "document_id": "e31ae108-b10e-426c-a3de-9c7c42d1c50c",
+      "chunk_id": "77287948-3e65-5a17-b08d-640acaeedb10",
+      "cid": "c:osqltz5",
+      "document_id": "c0f069a2-b254-4c8d-b3c9-56580f846285",
       "page_no": 4
      },
      "currency": "INR",
@@ -276,14 +277,14 @@
      },
      "citation": {
       "bbox": [
-       0.0677,
-       0.0554,
-       0.91405,
-       0.4682
+       0.05939,
+       0.12926,
+       0.80272,
+       0.71951
       ],
-      "chunk_id": "c5227913-764c-51d5-87a1-0c3d3d6d3b10",
-      "cid": "c:trv2gbo",
-      "document_id": "e31ae108-b10e-426c-a3de-9c7c42d1c50c",
+      "chunk_id": "77287948-3e65-5a17-b08d-640acaeedb10",
+      "cid": "c:osqltz5",
+      "document_id": "c0f069a2-b254-4c8d-b3c9-56580f846285",
       "page_no": 4
      },
      "currency": "INR",
@@ -330,14 +331,14 @@
    {
     "citation": {
      "bbox": [
-      0.0677,
-      0.0554,
-      0.87429,
-      0.73959
+      0.05939,
+      0.12926,
+      0.92303,
+      0.82387
      ],
-     "chunk_id": "0b7513f5-0021-5f61-ab66-8b14b50ecfb9",
-     "cid": "c:l6ootyo",
-     "document_id": "e31ae108-b10e-426c-a3de-9c7c42d1c50c",
+     "chunk_id": "5c4aa1eb-27c6-5cd3-9c31-c7bb5b4da483",
+     "cid": "c:igdrn7h",
+     "document_id": "c0f069a2-b254-4c8d-b3c9-56580f846285",
      "page_no": 6
     },
     "geography": "India",
@@ -357,19 +358,19 @@
    }
   ],
   "recommendation_label": "Hold",
-  "report_markdown": "## 1. Executive Summary\n\nSuraksha Insure embeds per-shift accident and income cover into gig platforms, covering 52,000 active workers through 6 partners as of Sep 2026 [c:l6ootyo]. Annualised gross written premium is Rs 4.6 crore, with ARR of Rs 1.0 crore (up from Rs 0.2 crore in 2025) [c:l6ootyo]. The company is raising Rs 5 crore seed at Rs 28 crore pre-money, with funds allocated to platform integrations (30%), claims technology (25%), and partnerships/sales (30%) [c:7tsm7ho]. Key risks include regulatory changes to IRDAI commission caps [c:puhraxs], high monthly churn of 9.5% [c:mplrale], and partner concentration (largest partner 41% of insured) [c:puhraxs]. The MCA registry shows a name mismatch: the legal name is RAKSHA DIGITAL SERVICES PRIVATE LIMITED, not Suraksha Insure Private Limited [compliance_fixture]. Overall score 5.7/10, Hold.\n\n## 2. Problem & Solution\n\nIndia had an estimated 7.7 million gig workers in 2020-21, projected to reach 23.5 million by 2029-30 (NITI Aayog) [c:rhmhi32]. Most delivery and ride-hailing workers lack accident or income-loss cover because annual policies are unaffordable upfront and not designed for shift-based work [c:rhmhi32]. Suraksha Insure's solution is pay-per-shift cover embedded in the platform's app: accident, hospital-cash and lost-income cover for Rs 2-4 per shift, switching on when a worker logs in and off when the shift ends [c:tunz3lq]. Premium is deducted from earnings or co-paid by the platform, and claims can be filed in Hindi, Marathi, Tamil or English with a median settlement time of 3.5 days [c:tunz3lq]. The product is live with 52,000 active insured workers and 1,380 claims paid [c:l6ootyo].\n\n## 3. Market Opportunity\n\nThe company estimates a TAM of Rs 1,900 crore, SAM of Rs 420 crore, and SOM of Rs 25 crore by 2029 (all company-reported, unverified) [c:trv2gbo]. The underlying gig-worker population is backed by NITI Aayog data: 7.7 million in 2020-21, projected 23.5 million by 2029-30 [c:rhmhi32]. The India microinsurance market reached USD 495.5 million in 2025 and is projected to reach USD 1,728.4 million by 2034, CAGR 14.44% (IMARC Group, publisher forecast) [w:1]. Another report projects the market reaching USD 9,387.5 million by 2035 at 6.2% CAGR (Market Research Future, publisher forecast) [w:2]. The insurance sector is set for steady expansion, with India positioned as one of the world's fastest-growing insurance markets (Swiss Re) [w:3]. No independent source was found for the deck's TAM/SAM/SOM figures.\n\n## 4. Competitive Landscape\n\nCompetitors include Acko (digital general insurer with embedded micro-covers, valued at $1.4B, Rs 2,106 crore FY24 revenue) [c:my76nk3][w:6], Go Digit (digital general insurer selling through partners) [c:my76nk3], and platform-provided group covers [c:my76nk3]. The company claims its edge is per-shift pricing and claims data across 52,000 workers, plus deep integrations into partner platforms' onboarding and payout flows [c:my76nk3]. However, these are execution advantages rather than durable moats; competitors like Acko and Go Digit can replicate the model [c:my76nk3]. There is no evidence of proprietary data, IP, or strong switching costs. The insurtech sector in India has 717 startups (Tracxn) [w:23], and sector funding crashed 83% in H1 2026 [w:8], indicating a challenging fundraising environment.\n\n## 5. Business Model\n\nRevenue comes from two sources: distribution commission (~19% of the Rs 2-4 per-shift premium, paid by the insurer) which accounts for 90% of revenue, and a platform integration fee of Rs 14,000 per month per partner (10% of revenue) [c:v3gsbn6]. Insurers carry the underwriting risk; Suraksha earns commissions and fees [c:v3gsbn6]. Unit economics are defined: CAC of Rs 45, payback of 4.5 months, gross margin 70%, LTV of Rs 106, LTV/CAC of 2.4x, and monthly churn of 9.5% (all company-reported) [c:mplrale]. The claims ratio is 54% of premium [c:mplrale]. Net revenue retention is not provided, and the high monthly churn (9.5%) means the model is not yet proven at scale. The seed round is structured in tranches with milestones: 40% at close, 30% at 150,000 insured workers within 300 days, and 30% at Rs 3 crore ARR within 600 days [c:7tsm7ho].\n\n## 6. Team Assessment\n\nThe three co-founders cover product, actuarial/insurance, and technology roles. Aniket Sawant (CEO) was a product manager for driver and rider safety at a ride-hailing platform [c:zf4kbmf]. Revathi Krishnan (Insurance & Actuarial) has 7 years as an actuarial analyst at a general insurer [c:zf4kbmf]. Nikhil Joshi (CTO) built claims-automation systems at an insurtech [c:zf4kbmf]. None have previously founded or scaled a venture, and domain experience is moderate rather than exceptional. The MCA registry shows the legal name as RAKSHA DIGITAL SERVICES PRIVATE LIMITED, not Suraksha Insure Private Limited, with directors matching the founders [compliance_fixture]. This name mismatch is a minor compliance flag that should be resolved before investment.\n\n## 7. Traction & Milestones\n\n**Traction & Milestones**\n\n- **Active insured workers:** 52,000 through 6 platform partners as of Sep 2026 [c:l6ootyo].\n- **Annualised gross written premium:** Rs 4.6 crore (company-reported) [c:l6ootyo].\n- **ARR:** Rs 1.0 crore in 2026, up from Rs 0.2 crore in 2025 \u2014 a 5x increase (company-reported) [c:l6ootyo].\n- **Claims paid:** 1,380 claims settled with a median settlement time of 3.5 days [c:l6ootyo].\n- **Unit economics (company-reported):** CAC Rs 45, payback 4.5 months, gross margin 70%, LTV/CAC 2.4x, monthly churn 9.5% [c:mplrale].\n- **Target:** 200,000 active insured workers within 24 months [c:puhraxs].\n\n## 8. Compliance & Governance\n\n**Compliance & Governance**\n\n- **MCA registry:** The company is registered as **RAKSHA DIGITAL SERVICES PRIVATE LIMITED** (CIN U66220MH2024PTC429871, status ACTIVE) [c:m7d4rmm]. The pitch deck uses the name **Suraksha Insure Private Limited** [c:m7d4rmm]. This **NAME_MISMATCH** is a compliance flag; the legal entity name does not match the brand name used in fundraising materials. The directors listed (Aniket Sawant, Revathi Krishnan, Nikhil Joshi) are consistent [c:m7d4rmm].\n- **Regulatory risk:** The deck explicitly acknowledges that IRDAI rules on commissions and embedded insurance may change [c:puhraxs]. Multiple independent sources confirm IRDAI is proposing commission caps that could take effect as early as January 2027. This directly threatens Suraksha\u2019s primary revenue stream (distribution commission, ~90% of revenue) [c:v3gsbn6].\n- **No other flags** were identified in the provided evidence.\n\n## 9. Risks & Challenges\n\n**Risks & Challenges**\n\n- **Regulatory risk (high):** IRDAI\u2019s proposed commission caps, potentially effective Jan 2027, could compress Suraksha\u2019s ~19% commission margin [c:v3gsbn6]. The deck flags this risk [c:puhraxs].\n- **Partner concentration:** The largest platform partner accounts for 41% of insured workers [c:puhraxs]. Loss of this partner would severely impact scale.\n- **High churn:** Monthly churn of 9.5% implies an average worker lifetime of ~10.5 months [c:mplrale]. This limits LTV and requires constant new acquisition to maintain headcount.\n- **Claims fraud:** Per-shift micro-covers are vulnerable to fraud, as noted in the deck [c:puhraxs].\n- **Execution pressure:** The seed round is structured in tranches with milestones (150,000 workers, Rs 3 crore ARR) [c:7tsm7ho]. Missing these could trigger down-round or funding gap.\n- **Competitive replication:** Incumbents like Acko and Go Digit can replicate per-shift pricing and integrations [c:my76nk3], limiting moat.\n- **Deck instruction attempt:** The startup\u2019s documents contain no instructions to the evaluator.\n\n## 10. Investment Thesis\n\n**Investment Thesis**\n\nSuraksha Insure addresses a genuine, large, and underserved market: India\u2019s 7.7M+ gig workers (projected 23.5M by 2029-30) who lack shift-appropriate insurance [c:rhmhi32]. The product is live with 52,000 paying workers, 6 platform partners, and a clear per-shift value proposition (Rs 2-4/shift, median 3.5-day claims settlement) [c:tunz3lq][c:l6ootyo]. The India microinsurance market is independently forecast to grow at 14.44% CAGR to USD 1.7B by 2034 [w:1].\n\nHowever, the investment case is tempered by several factors. The company\u2019s moat is weak \u2014 per-shift pricing and deep integrations are execution advantages, not durable barriers, and well-funded incumbents (Acko, Go Digit) can replicate them [c:my76nk3]. Unit economics are positive but fragile: LTV/CAC of 2.4x is modest, and monthly churn of 9.5% means high ongoing acquisition costs [c:mplrale]. The regulatory overhang from IRDAI commission caps (potentially Jan 2027) directly threatens the 90% of revenue from commissions [c:v3gsbn6]. The team has relevant domain experience but no prior venture-building track record [c:zf4kbmf]. The MCA name mismatch is a minor governance concern [c:m7d4rmm].\n\nAt a Rs 28 crore pre-money valuation, the company is raising Rs 5 crore seed with milestone-based tranches [c:7tsm7ho]. The valuation is reasonable for a seed-stage insurtech with early traction, but the risk profile (regulatory, churn, concentration, weak moat) suggests a cautious approach.\n\n## 11. Recommendation\n\n**Recommendation: Hold (5.7/10)**\n\nSuraksha Insure has a compelling product-market fit for a large, growing gig-worker segment, with early traction (52,000 workers, 5x ARR growth to Rs 1 crore) and positive unit economics. However, the investment is held back by high regulatory risk (IRDAI commission caps), high monthly churn (9.5%), partner concentration (41% from one partner), and a weak moat against well-capitalised incumbents. The team is competent but unproven at scale. The MCA name mismatch is a minor compliance flag. The milestone-based seed round adds discipline but also execution risk. A Hold rating is appropriate until the company demonstrates retention improvements, regulatory adaptability, and reduced partner concentration.",
+  "report_markdown": "## 1. Executive Summary\n\nSuraksha Insure embeds per-shift accident and income cover into gig platforms, covering 52,000 active workers through 6 partners as of Sep 2026 [c:igdrn7h]. Annualised gross written premium is Rs 4.6 crore, with ARR of Rs 1.0 crore (up from Rs 0.2 crore in 2025) [c:igdrn7h]. The company is raising Rs 5 crore seed at Rs 28 crore pre-money, with funds allocated to platform integrations (30%), claims technology (25%), and partnerships/sales (30%) [c:tpa6sfp]. Key risks include regulatory changes to IRDAI commission caps [c:634yfgz], high monthly churn of 9.5% [c:hedjwaa], and partner concentration (largest partner 41% of insured) [c:634yfgz]. The MCA registry shows a name mismatch: the legal name is RAKSHA DIGITAL SERVICES PRIVATE LIMITED, not Suraksha Insure Private Limited [compliance_fixture]. Overall score 5.7/10, Hold.\n\n## 2. Problem & Solution\n\nIndia had an estimated 7.7 million gig workers in 2020-21, projected to reach 23.5 million by 2029-30 (NITI Aayog) [c:zksdvds]. Most delivery and ride-hailing workers lack accident or income-loss cover because annual policies are unaffordable upfront and not designed for shift-based work [c:zksdvds]. Suraksha Insure's solution is pay-per-shift cover embedded in the platform's app: accident, hospital-cash and lost-income cover for Rs 2-4 per shift, switching on when a worker logs in and off when the shift ends [c:qim5zz6]. Premium is deducted from earnings or co-paid by the platform, and claims can be filed in Hindi, Marathi, Tamil or English with a median settlement time of 3.5 days [c:qim5zz6]. The product is live with 52,000 active insured workers and 1,380 claims paid [c:igdrn7h].\n\n## 3. Market Opportunity\n\nThe company estimates a TAM of Rs 1,900 crore, SAM of Rs 420 crore, and SOM of Rs 25 crore by 2029 (all company-reported, unverified) [c:osqltz5]. The underlying gig-worker population is backed by NITI Aayog data: 7.7 million in 2020-21, projected 23.5 million by 2029-30 [c:zksdvds]. The India microinsurance market reached USD 495.5 million in 2025 and is projected to reach USD 1,728.4 million by 2034, CAGR 14.44% (IMARC Group, publisher forecast) [w:1]. Another report projects the market reaching USD 9,387.5 million by 2035 at 6.2% CAGR (Market Research Future, publisher forecast) [w:2]. The insurance sector is set for steady expansion, with India positioned as one of the world's fastest-growing insurance markets (Swiss Re) [w:3]. No independent source was found for the deck's TAM/SAM/SOM figures.\n\n## 4. Competitive Landscape\n\nCompetitors include Acko (digital general insurer with embedded micro-covers, valued at $1.4B, Rs 2,106 crore FY24 revenue) [c:vhhg6lw][w:6], Go Digit (digital general insurer selling through partners) [c:vhhg6lw], and platform-provided group covers [c:vhhg6lw]. The company claims its edge is per-shift pricing and claims data across 52,000 workers, plus deep integrations into partner platforms' onboarding and payout flows [c:vhhg6lw]. However, these are execution advantages rather than durable moats; competitors like Acko and Go Digit can replicate the model [c:vhhg6lw]. There is no evidence of proprietary data, IP, or strong switching costs. The insurtech sector in India has 717 startups (Tracxn) [w:23], and sector funding crashed 83% in H1 2026 [w:8], indicating a challenging fundraising environment.\n\n## 5. Business Model\n\nRevenue comes from two sources: distribution commission (~19% of the Rs 2-4 per-shift premium, paid by the insurer) which accounts for 90% of revenue, and a platform integration fee of Rs 14,000 per month per partner (10% of revenue) [c:yvpoovi]. Insurers carry the underwriting risk; Suraksha earns commissions and fees [c:yvpoovi]. Unit economics are defined: CAC of Rs 45, payback of 4.5 months, gross margin 70%, LTV of Rs 106, LTV/CAC of 2.4x, and monthly churn of 9.5% (all company-reported) [c:hedjwaa]. The claims ratio is 54% of premium [c:hedjwaa]. Net revenue retention is not provided, and the high monthly churn (9.5%) means the model is not yet proven at scale. The seed round is structured in tranches with milestones: 40% at close, 30% at 150,000 insured workers within 300 days, and 30% at Rs 3 crore ARR within 600 days [c:tpa6sfp].\n\n## 6. Team Assessment\n\nThe three co-founders cover product, actuarial/insurance, and technology roles. Aniket Sawant (CEO) was a product manager for driver and rider safety at a ride-hailing platform [c:etd2q55]. Revathi Krishnan (Insurance & Actuarial) has 7 years as an actuarial analyst at a general insurer [c:etd2q55]. Nikhil Joshi (CTO) built claims-automation systems at an insurtech [c:etd2q55]. None have previously founded or scaled a venture, and domain experience is moderate rather than exceptional. The MCA registry shows the legal name as RAKSHA DIGITAL SERVICES PRIVATE LIMITED, not Suraksha Insure Private Limited, with directors matching the founders [compliance_fixture]. This name mismatch is a minor compliance flag that should be resolved before investment.\n\n## 7. Traction & Milestones\n\n**Traction & Milestones**\n\n- **Active insured workers:** 52,000 through 6 platform partners as of Sep 2026 [c:igdrn7h].\n- **Annualised gross written premium:** Rs 4.6 crore (company-reported) [c:igdrn7h].\n- **ARR:** Rs 1.0 crore in 2026, up from Rs 0.2 crore in 2025 \u2014 a 5x increase (company-reported) [c:igdrn7h].\n- **Claims paid:** 1,380 claims settled with a median settlement time of 3.5 days [c:igdrn7h].\n- **Unit economics (company-reported):** CAC Rs 45, payback 4.5 months, gross margin 70%, LTV/CAC 2.4x, monthly churn 9.5% [c:hedjwaa].\n- **Target:** 200,000 active insured workers within 24 months [c:634yfgz].\n\n## 8. Compliance & Governance\n\n**Compliance & Governance**\n\n- **MCA registry:** The company is registered as **RAKSHA DIGITAL SERVICES PRIVATE LIMITED** (CIN U66220MH2024PTC429871, status ACTIVE) [c:o5o6vg3]. The pitch deck uses the name **Suraksha Insure Private Limited** [c:o5o6vg3]. This **NAME_MISMATCH** is a compliance flag; the legal entity name does not match the brand name used in fundraising materials. The directors listed (Aniket Sawant, Revathi Krishnan, Nikhil Joshi) are consistent [c:o5o6vg3].\n- **Regulatory risk:** The deck explicitly acknowledges that IRDAI rules on commissions and embedded insurance may change [c:634yfgz]. Multiple independent sources confirm IRDAI is proposing commission caps that could take effect as early as January 2027. This directly threatens Suraksha\u2019s primary revenue stream (distribution commission, ~90% of revenue) [c:yvpoovi].\n- **No other flags** were identified in the provided evidence.\n\n## 9. Risks & Challenges\n\n**Risks & Challenges**\n\n- **Regulatory risk (high):** IRDAI\u2019s proposed commission caps, potentially effective Jan 2027, could compress Suraksha\u2019s ~19% commission margin [c:yvpoovi]. The deck flags this risk [c:634yfgz].\n- **Partner concentration:** The largest platform partner accounts for 41% of insured workers [c:634yfgz]. Loss of this partner would severely impact scale.\n- **High churn:** Monthly churn of 9.5% implies an average worker lifetime of ~10.5 months [c:hedjwaa]. This limits LTV and requires constant new acquisition to maintain headcount.\n- **Claims fraud:** Per-shift micro-covers are vulnerable to fraud, as noted in the deck [c:634yfgz].\n- **Execution pressure:** The seed round is structured in tranches with milestones (150,000 workers, Rs 3 crore ARR) [c:tpa6sfp]. Missing these could trigger down-round or funding gap.\n- **Competitive replication:** Incumbents like Acko and Go Digit can replicate per-shift pricing and integrations [c:vhhg6lw], limiting moat.\n- **Deck instruction attempt:** The startup\u2019s documents contain no instructions to the evaluator.\n\n## 10. Investment Thesis\n\n**Investment Thesis**\n\nSuraksha Insure addresses a genuine, large, and underserved market: India\u2019s 7.7M+ gig workers (projected 23.5M by 2029-30) who lack shift-appropriate insurance [c:zksdvds]. The product is live with 52,000 paying workers, 6 platform partners, and a clear per-shift value proposition (Rs 2-4/shift, median 3.5-day claims settlement) [c:qim5zz6][c:igdrn7h]. The India microinsurance market is independently forecast to grow at 14.44% CAGR to USD 1.7B by 2034 [w:1].\n\nHowever, the investment case is tempered by several factors. The company\u2019s moat is weak \u2014 per-shift pricing and deep integrations are execution advantages, not durable barriers, and well-funded incumbents (Acko, Go Digit) can replicate them [c:vhhg6lw]. Unit economics are positive but fragile: LTV/CAC of 2.4x is modest, and monthly churn of 9.5% means high ongoing acquisition costs [c:hedjwaa]. The regulatory overhang from IRDAI commission caps (potentially Jan 2027) directly threatens the 90% of revenue from commissions [c:yvpoovi]. The team has relevant domain experience but no prior venture-building track record [c:etd2q55]. The MCA name mismatch is a minor governance concern [c:o5o6vg3].\n\nAt a Rs 28 crore pre-money valuation, the company is raising Rs 5 crore seed with milestone-based tranches [c:tpa6sfp]. The valuation is reasonable for a seed-stage insurtech with early traction, but the risk profile (regulatory, churn, concentration, weak moat) suggests a cautious approach.\n\n## 11. Recommendation\n\n**Recommendation: Hold (5.7/10)**\n\nSuraksha Insure has a compelling product-market fit for a large, growing gig-worker segment, with early traction (52,000 workers, 5x ARR growth to Rs 1 crore) and positive unit economics. However, the investment is held back by high regulatory risk (IRDAI commission caps), high monthly churn (9.5%), partner concentration (41% from one partner), and a weak moat against well-capitalised incumbents. The team is competent but unproven at scale. The MCA name mismatch is a minor compliance flag. The milestone-based seed round adds discipline but also execution risk. A Hold rating is appropriate until the company demonstrates retention improvements, regulatory adaptability, and reduced partner concentration.",
   "revenue_currency": "INR",
   "revenue_metric": "ARR",
   "rewrites": 2,
   "rubric_version": "r1",
   "score_rationales": {
-   "business_model": "Unit economics are defined: CAC of Rs 45, payback of 4.5 months, gross margin 70%, LTV/CAC 2.4x [c:mplrale]. These are positive on early data, but net revenue retention is not provided and churn is high at 9.5% monthly [c:mplrale], so the model is not yet proven at scale.",
-   "execution_risk": "Key risks are identified and partially mitigated: regulatory risk from IRDAI commission caps (explicitly noted), partner concentration (largest partner 41% of insured), high monthly churn (9.5%), and claims fraud. The seed round is structured in tranches with milestones, which adds some discipline but also execution pressure. The MCA name mismatch is a minor compliance flag. [c:puhraxs][c:7tsm7ho]",
-   "market": "The TAM/SAM/SOM are sized by company estimates only, but the underlying gig-worker population is backed by NITI Aayog data (7.7M in 2020-21, projected 23.5M by 2029-30). The microinsurance market is supported by independent reports showing a large and growing market. [c:rhmhi32][c:trv2gbo][w:1]",
-   "moat": "The company cites deep integrations and per-shift pricing as edges [c:my76nk3], which are execution advantages rather than durable moats. Competitors like Acko and Go Digit can replicate the model [c:my76nk3], and there is no evidence of proprietary data, IP, or strong switching costs.",
-   "product": "The product is live and used by 52,000 paying workers through 6 platform partners, with a clear per-shift value proposition and fast claims settlement (median 3.5 days). However, evidence of retention or expansion beyond initial adoption is limited, and differentiation versus incumbents (Acko, Digit) is not deeply proven. [c:tunz3lq][c:l6ootyo][c:my76nk3]",
-   "team": "The three co-founders cover product, actuarial/insurance, and technology roles with relevant experience (product manager at ride-hailing, actuarial analyst at general insurer, insurtech CTO). However, none have previously founded or scaled a venture, and domain experience is moderate rather than exceptional. [c:m7d4rmm][c:zf4kbmf]",
-   "traction": "The startup has 52,000 active insured workers, 6 platform partners, Rs 1.0 crore ARR, and 1,380 claims paid. ARR grew from Rs 0.2 crore (2025) to Rs 1.0 crore (2026), a 5x increase, but this is early-stage growth from a small base and lacks retention evidence beyond churn figures. [c:l6ootyo]"
+   "business_model": "Unit economics are defined: CAC of Rs 45, payback of 4.5 months, gross margin 70%, LTV/CAC 2.4x [c:hedjwaa]. These are positive on early data, but net revenue retention is not provided and churn is high at 9.5% monthly [c:hedjwaa], so the model is not yet proven at scale.",
+   "execution_risk": "Key risks are identified and partially mitigated: regulatory risk from IRDAI commission caps (explicitly noted), partner concentration (largest partner 41% of insured), high monthly churn (9.5%), and claims fraud. The seed round is structured in tranches with milestones, which adds some discipline but also execution pressure. The MCA name mismatch is a minor compliance flag. [c:634yfgz][c:tpa6sfp]",
+   "market": "The TAM/SAM/SOM are sized by company estimates only, but the underlying gig-worker population is backed by NITI Aayog data (7.7M in 2020-21, projected 23.5M by 2029-30). The microinsurance market is supported by independent reports showing a large and growing market. [c:zksdvds][c:osqltz5][w:1]",
+   "moat": "The company cites deep integrations and per-shift pricing as edges [c:vhhg6lw], which are execution advantages rather than durable moats. Competitors like Acko and Go Digit can replicate the model [c:vhhg6lw], and there is no evidence of proprietary data, IP, or strong switching costs.",
+   "product": "The product is live and used by 52,000 paying workers through 6 platform partners, with a clear per-shift value proposition and fast claims settlement (median 3.5 days). However, evidence of retention or expansion beyond initial adoption is limited, and differentiation versus incumbents (Acko, Digit) is not deeply proven. [c:qim5zz6][c:igdrn7h][c:vhhg6lw]",
+   "team": "The three co-founders cover product, actuarial/insurance, and technology roles with relevant experience (product manager at ride-hailing, actuarial analyst at general insurer, insurtech CTO). However, none have previously founded or scaled a venture, and domain experience is moderate rather than exceptional. [c:o5o6vg3][c:etd2q55]",
+   "traction": "The startup has 52,000 active insured workers, 6 platform partners, Rs 1.0 crore ARR, and 1,380 claims paid. ARR grew from Rs 0.2 crore (2025) to Rs 1.0 crore (2026), a 5x increase, but this is early-stage growth from a small base and lacks retention evidence beyond churn figures. [c:igdrn7h]"
   },
   "score_spread": {
    "business_model": 1.0,
@@ -381,17 +382,17 @@
    "traction": 0.0
   },
   "sections": {
-   "business_model": "Revenue comes from two sources: distribution commission (~19% of the Rs 2-4 per-shift premium, paid by the insurer) which accounts for 90% of revenue, and a platform integration fee of Rs 14,000 per month per partner (10% of revenue) [c:v3gsbn6]. Insurers carry the underwriting risk; Suraksha earns commissions and fees [c:v3gsbn6]. Unit economics are defined: CAC of Rs 45, payback of 4.5 months, gross margin 70%, LTV of Rs 106, LTV/CAC of 2.4x, and monthly churn of 9.5% (all company-reported) [c:mplrale]. The claims ratio is 54% of premium [c:mplrale]. Net revenue retention is not provided, and the high monthly churn (9.5%) means the model is not yet proven at scale. The seed round is structured in tranches with milestones: 40% at close, 30% at 150,000 insured workers within 300 days, and 30% at Rs 3 crore ARR within 600 days [c:7tsm7ho].",
-   "competitive_landscape": "Competitors include Acko (digital general insurer with embedded micro-covers, valued at $1.4B, Rs 2,106 crore FY24 revenue) [c:my76nk3][w:6], Go Digit (digital general insurer selling through partners) [c:my76nk3], and platform-provided group covers [c:my76nk3]. The company claims its edge is per-shift pricing and claims data across 52,000 workers, plus deep integrations into partner platforms' onboarding and payout flows [c:my76nk3]. However, these are execution advantages rather than durable moats; competitors like Acko and Go Digit can replicate the model [c:my76nk3]. There is no evidence of proprietary data, IP, or strong switching costs. The insurtech sector in India has 717 startups (Tracxn) [w:23], and sector funding crashed 83% in H1 2026 [w:8], indicating a challenging fundraising environment.",
-   "compliance_governance": "**Compliance & Governance**\n\n- **MCA registry:** The company is registered as **RAKSHA DIGITAL SERVICES PRIVATE LIMITED** (CIN U66220MH2024PTC429871, status ACTIVE) [c:m7d4rmm]. The pitch deck uses the name **Suraksha Insure Private Limited** [c:m7d4rmm]. This **NAME_MISMATCH** is a compliance flag; the legal entity name does not match the brand name used in fundraising materials. The directors listed (Aniket Sawant, Revathi Krishnan, Nikhil Joshi) are consistent [c:m7d4rmm].\n- **Regulatory risk:** The deck explicitly acknowledges that IRDAI rules on commissions and embedded insurance may change [c:puhraxs]. Multiple independent sources confirm IRDAI is proposing commission caps that could take effect as early as January 2027. This directly threatens Suraksha\u2019s primary revenue stream (distribution commission, ~90% of revenue) [c:v3gsbn6].\n- **No other flags** were identified in the provided evidence.",
-   "executive_summary": "Suraksha Insure embeds per-shift accident and income cover into gig platforms, covering 52,000 active workers through 6 partners as of Sep 2026 [c:l6ootyo]. Annualised gross written premium is Rs 4.6 crore, with ARR of Rs 1.0 crore (up from Rs 0.2 crore in 2025) [c:l6ootyo]. The company is raising Rs 5 crore seed at Rs 28 crore pre-money, with funds allocated to platform integrations (30%), claims technology (25%), and partnerships/sales (30%) [c:7tsm7ho]. Key risks include regulatory changes to IRDAI commission caps [c:puhraxs], high monthly churn of 9.5% [c:mplrale], and partner concentration (largest partner 41% of insured) [c:puhraxs]. The MCA registry shows a name mismatch: the legal name is RAKSHA DIGITAL SERVICES PRIVATE LIMITED, not Suraksha Insure Private Limited [compliance_fixture]. Overall score 5.7/10, Hold.",
-   "investment_thesis": "**Investment Thesis**\n\nSuraksha Insure addresses a genuine, large, and underserved market: India\u2019s 7.7M+ gig workers (projected 23.5M by 2029-30) who lack shift-appropriate insurance [c:rhmhi32]. The product is live with 52,000 paying workers, 6 platform partners, and a clear per-shift value proposition (Rs 2-4/shift, median 3.5-day claims settlement) [c:tunz3lq][c:l6ootyo]. The India microinsurance market is independently forecast to grow at 14.44% CAGR to USD 1.7B by 2034 [w:1].\n\nHowever, the investment case is tempered by several factors. The company\u2019s moat is weak \u2014 per-shift pricing and deep integrations are execution advantages, not durable barriers, and well-funded incumbents (Acko, Go Digit) can replicate them [c:my76nk3]. Unit economics are positive but fragile: LTV/CAC of 2.4x is modest, and monthly churn of 9.5% means high ongoing acquisition costs [c:mplrale]. The regulatory overhang from IRDAI commission caps (potentially Jan 2027) directly threatens the 90% of revenue from commissions [c:v3gsbn6]. The team has relevant domain experience but no prior venture-building track record [c:zf4kbmf]. The MCA name mismatch is a minor governance concern [c:m7d4rmm].\n\nAt a Rs 28 crore pre-money valuation, the company is raising Rs 5 crore seed with milestone-based tranches [c:7tsm7ho]. The valuation is reasonable for a seed-stage insurtech with early traction, but the risk profile (regulatory, churn, concentration, weak moat) suggests a cautious approach.",
-   "market_opportunity": "The company estimates a TAM of Rs 1,900 crore, SAM of Rs 420 crore, and SOM of Rs 25 crore by 2029 (all company-reported, unverified) [c:trv2gbo]. The underlying gig-worker population is backed by NITI Aayog data: 7.7 million in 2020-21, projected 23.5 million by 2029-30 [c:rhmhi32]. The India microinsurance market reached USD 495.5 million in 2025 and is projected to reach USD 1,728.4 million by 2034, CAGR 14.44% (IMARC Group, publisher forecast) [w:1]. Another report projects the market reaching USD 9,387.5 million by 2035 at 6.2% CAGR (Market Research Future, publisher forecast) [w:2]. The insurance sector is set for steady expansion, with India positioned as one of the world's fastest-growing insurance markets (Swiss Re) [w:3]. No independent source was found for the deck's TAM/SAM/SOM figures.",
-   "problem_solution": "India had an estimated 7.7 million gig workers in 2020-21, projected to reach 23.5 million by 2029-30 (NITI Aayog) [c:rhmhi32]. Most delivery and ride-hailing workers lack accident or income-loss cover because annual policies are unaffordable upfront and not designed for shift-based work [c:rhmhi32]. Suraksha Insure's solution is pay-per-shift cover embedded in the platform's app: accident, hospital-cash and lost-income cover for Rs 2-4 per shift, switching on when a worker logs in and off when the shift ends [c:tunz3lq]. Premium is deducted from earnings or co-paid by the platform, and claims can be filed in Hindi, Marathi, Tamil or English with a median settlement time of 3.5 days [c:tunz3lq]. The product is live with 52,000 active insured workers and 1,380 claims paid [c:l6ootyo].",
+   "business_model": "Revenue comes from two sources: distribution commission (~19% of the Rs 2-4 per-shift premium, paid by the insurer) which accounts for 90% of revenue, and a platform integration fee of Rs 14,000 per month per partner (10% of revenue) [c:yvpoovi]. Insurers carry the underwriting risk; Suraksha earns commissions and fees [c:yvpoovi]. Unit economics are defined: CAC of Rs 45, payback of 4.5 months, gross margin 70%, LTV of Rs 106, LTV/CAC of 2.4x, and monthly churn of 9.5% (all company-reported) [c:hedjwaa]. The claims ratio is 54% of premium [c:hedjwaa]. Net revenue retention is not provided, and the high monthly churn (9.5%) means the model is not yet proven at scale. The seed round is structured in tranches with milestones: 40% at close, 30% at 150,000 insured workers within 300 days, and 30% at Rs 3 crore ARR within 600 days [c:tpa6sfp].",
+   "competitive_landscape": "Competitors include Acko (digital general insurer with embedded micro-covers, valued at $1.4B, Rs 2,106 crore FY24 revenue) [c:vhhg6lw][w:6], Go Digit (digital general insurer selling through partners) [c:vhhg6lw], and platform-provided group covers [c:vhhg6lw]. The company claims its edge is per-shift pricing and claims data across 52,000 workers, plus deep integrations into partner platforms' onboarding and payout flows [c:vhhg6lw]. However, these are execution advantages rather than durable moats; competitors like Acko and Go Digit can replicate the model [c:vhhg6lw]. There is no evidence of proprietary data, IP, or strong switching costs. The insurtech sector in India has 717 startups (Tracxn) [w:23], and sector funding crashed 83% in H1 2026 [w:8], indicating a challenging fundraising environment.",
+   "compliance_governance": "**Compliance & Governance**\n\n- **MCA registry:** The company is registered as **RAKSHA DIGITAL SERVICES PRIVATE LIMITED** (CIN U66220MH2024PTC429871, status ACTIVE) [c:o5o6vg3]. The pitch deck uses the name **Suraksha Insure Private Limited** [c:o5o6vg3]. This **NAME_MISMATCH** is a compliance flag; the legal entity name does not match the brand name used in fundraising materials. The directors listed (Aniket Sawant, Revathi Krishnan, Nikhil Joshi) are consistent [c:o5o6vg3].\n- **Regulatory risk:** The deck explicitly acknowledges that IRDAI rules on commissions and embedded insurance may change [c:634yfgz]. Multiple independent sources confirm IRDAI is proposing commission caps that could take effect as early as January 2027. This directly threatens Suraksha\u2019s primary revenue stream (distribution commission, ~90% of revenue) [c:yvpoovi].\n- **No other flags** were identified in the provided evidence.",
+   "executive_summary": "Suraksha Insure embeds per-shift accident and income cover into gig platforms, covering 52,000 active workers through 6 partners as of Sep 2026 [c:igdrn7h]. Annualised gross written premium is Rs 4.6 crore, with ARR of Rs 1.0 crore (up from Rs 0.2 crore in 2025) [c:igdrn7h]. The company is raising Rs 5 crore seed at Rs 28 crore pre-money, with funds allocated to platform integrations (30%), claims technology (25%), and partnerships/sales (30%) [c:tpa6sfp]. Key risks include regulatory changes to IRDAI commission caps [c:634yfgz], high monthly churn of 9.5% [c:hedjwaa], and partner concentration (largest partner 41% of insured) [c:634yfgz]. The MCA registry shows a name mismatch: the legal name is RAKSHA DIGITAL SERVICES PRIVATE LIMITED, not Suraksha Insure Private Limited [compliance_fixture]. Overall score 5.7/10, Hold.",
+   "investment_thesis": "**Investment Thesis**\n\nSuraksha Insure addresses a genuine, large, and underserved market: India\u2019s 7.7M+ gig workers (projected 23.5M by 2029-30) who lack shift-appropriate insurance [c:zksdvds]. The product is live with 52,000 paying workers, 6 platform partners, and a clear per-shift value proposition (Rs 2-4/shift, median 3.5-day claims settlement) [c:qim5zz6][c:igdrn7h]. The India microinsurance market is independently forecast to grow at 14.44% CAGR to USD 1.7B by 2034 [w:1].\n\nHowever, the investment case is tempered by several factors. The company\u2019s moat is weak \u2014 per-shift pricing and deep integrations are execution advantages, not durable barriers, and well-funded incumbents (Acko, Go Digit) can replicate them [c:vhhg6lw]. Unit economics are positive but fragile: LTV/CAC of 2.4x is modest, and monthly churn of 9.5% means high ongoing acquisition costs [c:hedjwaa]. The regulatory overhang from IRDAI commission caps (potentially Jan 2027) directly threatens the 90% of revenue from commissions [c:yvpoovi]. The team has relevant domain experience but no prior venture-building track record [c:etd2q55]. The MCA name mismatch is a minor governance concern [c:o5o6vg3].\n\nAt a Rs 28 crore pre-money valuation, the company is raising Rs 5 crore seed with milestone-based tranches [c:tpa6sfp]. The valuation is reasonable for a seed-stage insurtech with early traction, but the risk profile (regulatory, churn, concentration, weak moat) suggests a cautious approach.",
+   "market_opportunity": "The company estimates a TAM of Rs 1,900 crore, SAM of Rs 420 crore, and SOM of Rs 25 crore by 2029 (all company-reported, unverified) [c:osqltz5]. The underlying gig-worker population is backed by NITI Aayog data: 7.7 million in 2020-21, projected 23.5 million by 2029-30 [c:zksdvds]. The India microinsurance market reached USD 495.5 million in 2025 and is projected to reach USD 1,728.4 million by 2034, CAGR 14.44% (IMARC Group, publisher forecast) [w:1]. Another report projects the market reaching USD 9,387.5 million by 2035 at 6.2% CAGR (Market Research Future, publisher forecast) [w:2]. The insurance sector is set for steady expansion, with India positioned as one of the world's fastest-growing insurance markets (Swiss Re) [w:3]. No independent source was found for the deck's TAM/SAM/SOM figures.",
+   "problem_solution": "India had an estimated 7.7 million gig workers in 2020-21, projected to reach 23.5 million by 2029-30 (NITI Aayog) [c:zksdvds]. Most delivery and ride-hailing workers lack accident or income-loss cover because annual policies are unaffordable upfront and not designed for shift-based work [c:zksdvds]. Suraksha Insure's solution is pay-per-shift cover embedded in the platform's app: accident, hospital-cash and lost-income cover for Rs 2-4 per shift, switching on when a worker logs in and off when the shift ends [c:qim5zz6]. Premium is deducted from earnings or co-paid by the platform, and claims can be filed in Hindi, Marathi, Tamil or English with a median settlement time of 3.5 days [c:qim5zz6]. The product is live with 52,000 active insured workers and 1,380 claims paid [c:igdrn7h].",
    "recommendation": "**Recommendation: Hold (5.7/10)**\n\nSuraksha Insure has a compelling product-market fit for a large, growing gig-worker segment, with early traction (52,000 workers, 5x ARR growth to Rs 1 crore) and positive unit economics. However, the investment is held back by high regulatory risk (IRDAI commission caps), high monthly churn (9.5%), partner concentration (41% from one partner), and a weak moat against well-capitalised incumbents. The team is competent but unproven at scale. The MCA name mismatch is a minor compliance flag. The milestone-based seed round adds discipline but also execution risk. A Hold rating is appropriate until the company demonstrates retention improvements, regulatory adaptability, and reduced partner concentration.",
-   "risks_challenges": "**Risks & Challenges**\n\n- **Regulatory risk (high):** IRDAI\u2019s proposed commission caps, potentially effective Jan 2027, could compress Suraksha\u2019s ~19% commission margin [c:v3gsbn6]. The deck flags this risk [c:puhraxs].\n- **Partner concentration:** The largest platform partner accounts for 41% of insured workers [c:puhraxs]. Loss of this partner would severely impact scale.\n- **High churn:** Monthly churn of 9.5% implies an average worker lifetime of ~10.5 months [c:mplrale]. This limits LTV and requires constant new acquisition to maintain headcount.\n- **Claims fraud:** Per-shift micro-covers are vulnerable to fraud, as noted in the deck [c:puhraxs].\n- **Execution pressure:** The seed round is structured in tranches with milestones (150,000 workers, Rs 3 crore ARR) [c:7tsm7ho]. Missing these could trigger down-round or funding gap.\n- **Competitive replication:** Incumbents like Acko and Go Digit can replicate per-shift pricing and integrations [c:my76nk3], limiting moat.\n- **Deck instruction attempt:** The startup\u2019s documents contain no instructions to the evaluator.",
-   "team_assessment": "The three co-founders cover product, actuarial/insurance, and technology roles. Aniket Sawant (CEO) was a product manager for driver and rider safety at a ride-hailing platform [c:zf4kbmf]. Revathi Krishnan (Insurance & Actuarial) has 7 years as an actuarial analyst at a general insurer [c:zf4kbmf]. Nikhil Joshi (CTO) built claims-automation systems at an insurtech [c:zf4kbmf]. None have previously founded or scaled a venture, and domain experience is moderate rather than exceptional. The MCA registry shows the legal name as RAKSHA DIGITAL SERVICES PRIVATE LIMITED, not Suraksha Insure Private Limited, with directors matching the founders [compliance_fixture]. This name mismatch is a minor compliance flag that should be resolved before investment.",
-   "traction_milestones": "**Traction & Milestones**\n\n- **Active insured workers:** 52,000 through 6 platform partners as of Sep 2026 [c:l6ootyo].\n- **Annualised gross written premium:** Rs 4.6 crore (company-reported) [c:l6ootyo].\n- **ARR:** Rs 1.0 crore in 2026, up from Rs 0.2 crore in 2025 \u2014 a 5x increase (company-reported) [c:l6ootyo].\n- **Claims paid:** 1,380 claims settled with a median settlement time of 3.5 days [c:l6ootyo].\n- **Unit economics (company-reported):** CAC Rs 45, payback 4.5 months, gross margin 70%, LTV/CAC 2.4x, monthly churn 9.5% [c:mplrale].\n- **Target:** 200,000 active insured workers within 24 months [c:puhraxs]."
+   "risks_challenges": "**Risks & Challenges**\n\n- **Regulatory risk (high):** IRDAI\u2019s proposed commission caps, potentially effective Jan 2027, could compress Suraksha\u2019s ~19% commission margin [c:yvpoovi]. The deck flags this risk [c:634yfgz].\n- **Partner concentration:** The largest platform partner accounts for 41% of insured workers [c:634yfgz]. Loss of this partner would severely impact scale.\n- **High churn:** Monthly churn of 9.5% implies an average worker lifetime of ~10.5 months [c:hedjwaa]. This limits LTV and requires constant new acquisition to maintain headcount.\n- **Claims fraud:** Per-shift micro-covers are vulnerable to fraud, as noted in the deck [c:634yfgz].\n- **Execution pressure:** The seed round is structured in tranches with milestones (150,000 workers, Rs 3 crore ARR) [c:tpa6sfp]. Missing these could trigger down-round or funding gap.\n- **Competitive replication:** Incumbents like Acko and Go Digit can replicate per-shift pricing and integrations [c:vhhg6lw], limiting moat.\n- **Deck instruction attempt:** The startup\u2019s documents contain no instructions to the evaluator.",
+   "team_assessment": "The three co-founders cover product, actuarial/insurance, and technology roles. Aniket Sawant (CEO) was a product manager for driver and rider safety at a ride-hailing platform [c:etd2q55]. Revathi Krishnan (Insurance & Actuarial) has 7 years as an actuarial analyst at a general insurer [c:etd2q55]. Nikhil Joshi (CTO) built claims-automation systems at an insurtech [c:etd2q55]. None have previously founded or scaled a venture, and domain experience is moderate rather than exceptional. The MCA registry shows the legal name as RAKSHA DIGITAL SERVICES PRIVATE LIMITED, not Suraksha Insure Private Limited, with directors matching the founders [compliance_fixture]. This name mismatch is a minor compliance flag that should be resolved before investment.",
+   "traction_milestones": "**Traction & Milestones**\n\n- **Active insured workers:** 52,000 through 6 platform partners as of Sep 2026 [c:igdrn7h].\n- **Annualised gross written premium:** Rs 4.6 crore (company-reported) [c:igdrn7h].\n- **ARR:** Rs 1.0 crore in 2026, up from Rs 0.2 crore in 2025 \u2014 a 5x increase (company-reported) [c:igdrn7h].\n- **Claims paid:** 1,380 claims settled with a median settlement time of 3.5 days [c:igdrn7h].\n- **Unit economics (company-reported):** CAC Rs 45, payback 4.5 months, gross margin 70%, LTV/CAC 2.4x, monthly churn 9.5% [c:hedjwaa].\n- **Target:** 200,000 active insured workers within 24 months [c:634yfgz]."
   },
   "sources": [
    {
@@ -571,5 +572,5 @@
    }
   ]
  },
- "input_hash": "bd2aac33547105b2aa5aa850594fbf3aec89daa233ace853fe37b6fc6f8cb31a"
+ "input_hash": "e05d91ccfffb9703c24aa6e9a3c75ba016396cd19b2db2afbfb34caf2bc128f3"
 }

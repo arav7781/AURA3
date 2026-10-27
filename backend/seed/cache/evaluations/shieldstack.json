@@ -1,5 +1,6 @@
 {
  "analysis": {
+  "carried_from_input_hash": "6586a97f5e246da5570996fc7770590d2f6b7d0b2bf90cc85c8a6aec15c49f6e",
   "category_scores": {
    "business_model": 6.0,
    "execution_risk": 5.7,
@@ -10,134 +11,134 @@
    "traction": 6.0
   },
   "citations": {
-   "c:6ehklw5": {
+   "c:3qgu4dv": {
     "bbox": [
-     0.0677,
-     0.0554,
-     0.92664,
-     0.52945
+     0.05939,
+     0.12926,
+     0.89393,
+     0.7402
     ],
-    "chunk_id": "6296b189-4e7c-5051-8c60-fafd729ac92a",
-    "document_id": "9e8f5041-f6ab-45d7-b575-980afe4137ea",
-    "page_no": 4,
-    "slide_title": "Market Opportunity (TAM / SAM / SOM)",
-    "type": "deck"
-   },
-   "c:7c5n36s": {
-    "bbox": [
-     0.0677,
-     0.0554,
-     0.87399,
-     0.63853
-    ],
-    "chunk_id": "863829df-1653-52b4-91eb-3c1fdbc66cf4",
-    "document_id": "9e8f5041-f6ab-45d7-b575-980afe4137ea",
-    "page_no": 9,
-    "slide_title": "Go-to-Market & Key Risks",
-    "type": "deck"
-   },
-   "c:d6y4ydv": {
-    "bbox": [
-     0.0677,
-     0.0554,
-     0.92296,
-     0.4682
-    ],
-    "chunk_id": "2b278ee7-10f4-5ff0-a2f3-5a6194f6f77e",
-    "document_id": "9e8f5041-f6ab-45d7-b575-980afe4137ea",
-    "page_no": 10,
-    "slide_title": "Team",
-    "type": "deck"
-   },
-   "c:gprg3tw": {
-    "bbox": [
-     0.05649,
-     0.0554,
-     0.89937,
-     0.8844
-    ],
-    "chunk_id": "258e642e-bcb6-5344-8f90-24ee72e177aa",
-    "document_id": "9e8f5041-f6ab-45d7-b575-980afe4137ea",
-    "page_no": 6,
-    "slide_title": "Traction (as of FY2026)",
-    "type": "deck"
-   },
-   "c:hhyxr2d": {
-    "bbox": [
-     0.0677,
-     0.0554,
-     0.92041,
-     0.48415
-    ],
-    "chunk_id": "de92028f-85a4-56ed-b61c-86abbb506a23",
-    "document_id": "9e8f5041-f6ab-45d7-b575-980afe4137ea",
+    "chunk_id": "96053594-365f-5488-b231-747d3994adac",
+    "document_id": "d712f07f-b816-44f3-a7e2-679690096e7a",
     "page_no": 5,
     "slide_title": "Business Model",
     "type": "deck"
    },
-   "c:o5fijpc": {
+   "c:3y3cvwf": {
     "bbox": [
-     0.06088,
-     0.0554,
-     0.95433,
-     0.63099
+     0.05939,
+     0.12926,
+     0.69674,
+     0.80727
     ],
-    "chunk_id": "7d91899d-0746-5e4c-bb4c-4752c6186ca7",
-    "document_id": "9e8f5041-f6ab-45d7-b575-980afe4137ea",
-    "page_no": 8,
-    "slide_title": "Competitive Landscape",
+    "chunk_id": "516f71f9-218c-5f96-a3a6-4531a53b88dc",
+    "document_id": "d712f07f-b816-44f3-a7e2-679690096e7a",
+    "page_no": 9,
+    "slide_title": "Go-to-Market & Key Risks",
     "type": "deck"
    },
-   "c:o6rlftj": {
+   "c:46sms34": {
     "bbox": [
-     0.0677,
-     0.0554,
-     0.93138,
-     0.55436
+     0.05939,
+     0.12926,
+     0.83007,
+     0.71981
     ],
-    "chunk_id": "921a10cb-22e4-5247-976e-fce617e333c6",
-    "document_id": "9e8f5041-f6ab-45d7-b575-980afe4137ea",
-    "page_no": 3,
-    "slide_title": "Solution",
-    "type": "deck"
-   },
-   "c:qozzta4": {
-    "bbox": [
-     0.0677,
-     0.0554,
-     0.92793,
-     0.629
-    ],
-    "chunk_id": "941dd162-dca5-59fa-90ba-ceccd9523694",
-    "document_id": "9e8f5041-f6ab-45d7-b575-980afe4137ea",
-    "page_no": 2,
-    "slide_title": "Problem",
-    "type": "deck"
-   },
-   "c:tkvmjzf": {
-    "bbox": [
-     0.0677,
-     0.0554,
-     0.54909,
-     0.45481
-    ],
-    "chunk_id": "8ee7c2d9-a526-5db0-8a8e-d3c33e611ff6",
-    "document_id": "9e8f5041-f6ab-45d7-b575-980afe4137ea",
+    "chunk_id": "0e9b1985-6f38-57b5-886a-95cbb0deb266",
+    "document_id": "d712f07f-b816-44f3-a7e2-679690096e7a",
     "page_no": 7,
     "slide_title": "Unit Economics",
     "type": "deck"
    },
-   "c:utsht65": {
+   "c:bbxpcdt": {
     "bbox": [
-     0.0677,
-     0.0554,
-     0.91609,
-     0.50907
+     0.05939,
+     0.20566,
+     0.53873,
+     0.74044
     ],
-    "chunk_id": "2d4bc2f3-0d69-567a-b415-61c6de17beab",
-    "document_id": "9e8f5041-f6ab-45d7-b575-980afe4137ea",
+    "chunk_id": "ca32abb4-2f7e-5aee-b2c9-8b831c346c05",
+    "document_id": "d712f07f-b816-44f3-a7e2-679690096e7a",
     "page_no": 1,
     "slide_title": "ShieldStack",
+    "type": "deck"
+   },
+   "c:fwz7qcm": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.80272,
+     0.82268
+    ],
+    "chunk_id": "aa9e3758-dd61-5a7f-afee-f53fe2309fd6",
+    "document_id": "d712f07f-b816-44f3-a7e2-679690096e7a",
+    "page_no": 4,
+    "slide_title": "Market Opportunity (TAM / SAM / SOM)",
+    "type": "deck"
+   },
+   "c:j72kms3": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.85487,
+     0.67119
+    ],
+    "chunk_id": "aa5e8d4e-128c-5b95-9419-b6aabcec0ffe",
+    "document_id": "d712f07f-b816-44f3-a7e2-679690096e7a",
+    "page_no": 10,
+    "slide_title": "Team",
+    "type": "deck"
+   },
+   "c:jpueqil": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.92303,
+     0.84045
+    ],
+    "chunk_id": "f7301a4d-c78e-5e13-a8d8-9063ef976f72",
+    "document_id": "d712f07f-b816-44f3-a7e2-679690096e7a",
+    "page_no": 6,
+    "slide_title": "Traction (as of FY2026)",
+    "type": "deck"
+   },
+   "c:ptkykeb": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.87066,
+     0.784
+    ],
+    "chunk_id": "9c92d5df-3dee-58bd-8a4d-4071433a3ba3",
+    "document_id": "d712f07f-b816-44f3-a7e2-679690096e7a",
+    "page_no": 3,
+    "slide_title": "Solution",
+    "type": "deck"
+   },
+   "c:qm5mjj3": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.90374,
+     0.71747
+    ],
+    "chunk_id": "8b263f9c-ce48-55ed-94f7-da1d38a9f7f1",
+    "document_id": "d712f07f-b816-44f3-a7e2-679690096e7a",
+    "page_no": 2,
+    "slide_title": "Problem",
+    "type": "deck"
+   },
+   "c:rq2sqsz": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.9179,
+     0.72985
+    ],
+    "chunk_id": "0a32b0d8-8113-53f4-b1f1-f73d115c18a0",
+    "document_id": "d712f07f-b816-44f3-a7e2-679690096e7a",
+    "page_no": 8,
+    "slide_title": "Competitive Landscape",
     "type": "deck"
    },
    "w:1": {
@@ -158,7 +159,7 @@
   ],
   "evidence_version": 2,
   "generated_at": "2026-10-27T06:42:57.834986Z",
-  "input_hash": "6586a97f5e246da5570996fc7770590d2f6b7d0b2bf90cc85c8a6aec15c49f6e",
+  "input_hash": "9c9e7f831a6e8a5628c334ee4955de8a35902c416bb619e3d0c850e801b62ec6",
   "invalid_citations": [],
   "market_sizing": {
    "basis": "Only figures traceable to retrieved search excerpts are plotted as market data.",
@@ -170,14 +171,14 @@
      },
      "citation": {
       "bbox": [
-       0.0677,
-       0.0554,
-       0.92664,
-       0.52945
+       0.05939,
+       0.12926,
+       0.80272,
+       0.82268
       ],
-      "chunk_id": "6296b189-4e7c-5051-8c60-fafd729ac92a",
-      "cid": "c:6ehklw5",
-      "document_id": "9e8f5041-f6ab-45d7-b575-980afe4137ea",
+      "chunk_id": "aa9e3758-dd61-5a7f-afee-f53fe2309fd6",
+      "cid": "c:fwz7qcm",
+      "document_id": "d712f07f-b816-44f3-a7e2-679690096e7a",
       "page_no": 4
      },
      "currency": "%",
@@ -206,19 +207,19 @@
   "overall_score": 5.7,
   "projected_revenue": [],
   "recommendation_label": "Hold",
-  "report_markdown": "## 1. Executive Summary\n\nShieldStack is a Seed-stage Indian cybersecurity startup automating compliance with the Digital Personal Data Protection (DPDP) Act, 2023. Its platform discovers personal data across databases, SaaS and cloud storage, and runs consent records, data-principal rights requests and breach-notification workflows. The company reports 34 paying customers, an ARR of Rs 2.1 crore (FY2026, company-reported and unverified), gross margin 76% and NRR 131% [c:gprg3tw][c:tkvmjzf]. It is raising Rs 7 crore at Rs 38 crore pre-money [c:utsht65]. The overall score is 5.7/10 (Hold), reflecting a solid product-market fit in a growing regulatory-driven market, offset by a long CAC payback (16.6 months), lack of independent market-size validation, and execution risks tied to enforcement pace and competition from global platforms [c:tkvmjzf][c:6ehklw5][c:7c5n36s].\n\n## 2. Problem & Solution\n\nIndian companies face penalties up to Rs 250 crore under the DPDP Act for failing to secure personal data, yet most mid-size firms lack an inventory of where that data resides [c:qozzta4]. Consultant-led compliance projects cost Rs 25-60 lakh and become stale within months (company estimates) [c:qozzta4]. ShieldStack solves this with an automated platform that discovers and classifies personal data, manages consent with an auditable ledger, provides a data-principal request portal with deadlines and evidence trails, and offers breach-response playbooks and notification templates [c:o6rlftj]. The product is live with 34 paying customers, indicating it addresses a real, urgent need [c:gprg3tw].\n\n## 3. Market Opportunity\n\nShieldStack targets the privacy and data-protection compliance software market in India. The deck claims a TAM of Rs 2,400 crore in 2025, growing to Rs 6,800 crore by 2030 at a 23.2% CAGR (company estimates, unverified) [c:6ehklw5]. The SAM is sized at Rs 520 crore for mid-market and enterprise organisations in BFSI, healthcare and e-commerce (company estimate) [c:6ehklw5]. The SOM is projected at Rs 30 crore by 2029 (company projection) [c:6ehklw5]. Independent web sources note the DPDP Act is creating a large compliance market, with one consultancy estimating a \u20b910,000 crore opportunity in privacy automation and consent management [w:1]. However, no independent publisher forecast or third-party market-sizing data was found to validate the deck's specific figures. The market is clearly real and growing, but the deck's numbers lack external corroboration.\n\n## 4. Competitive Landscape\n\nShieldStack competes with global privacy-management platforms (OneTrust, Securiti) and consulting/law-firm compliance programmes [c:o5fijpc]. The company claims an edge from India-specific DPDP workflows and templates maintained by in-house lawyers, plus connectors for Indian core-banking, hospital and commerce systems [c:o5fijpc]. These are execution advantages that can be replicated, and no patents or data network effects are evidenced. The deck acknowledges the risk that global platforms are localising for India [c:7c5n36s]. The competitive moat is rated 4.0/10, reflecting a defensibility that is currently thin.\n\n## 5. Business Model\n\nRevenue comes from an annual platform licence (Rs 500,000/year, 80% of revenue) that scales with data sources, and implementation services (20% of revenue) billed per project [c:hhyxr2d]. ARR counts only platform licences, averaging Rs 6.2 lakh per customer [c:hhyxr2d]. Reported unit economics: gross margin 76%, NRR 131%, monthly logo churn 0.6%, CAC Rs 650,000, and CAC payback 16.6 months [c:tkvmjzf]. The long payback period is a concern for a Seed-stage company, though NRR above 130% suggests strong expansion within existing accounts. All figures are company-reported and unverified.\n\n## 6. Team Assessment\n\nThe founding team covers the key domains: CEO Ravi Teja Kommineni has 10 years in security consulting for banks and insurers; CTO Shruti Pandey is a data engineer who built a data-catalogue product; CPO Meera Pillai is a technology and privacy lawyer with 9 years of experience [c:d6y4ydv]. The combination of security consulting, data engineering and privacy law is well-suited to the product. However, there is no evidence of prior startup scaling or repeated entrepreneurial successes, which is typical for a Seed-stage team. The team score is 6.0/10.\n\n## 7. Traction & Milestones\n\nShieldStack reports an ARR of Rs 2.1 crore in FY2026, up from Rs 0.3 crore in FY2024 and Rs 0.9 crore in FY2025, representing a roughly 2.6x year-over-year growth rate [c:gprg3tw]. The company has 34 paying organisations across BFSI, healthcare and e-commerce, with a net revenue retention (NRR) of 131% and monthly logo churn of 0.6% [c:gprg3tw][c:tkvmjzf]. The deck claims a pipeline of 120 enterprises as DPDP obligations phase in, and targets 100 paying organisations and Rs 6 crore ARR within 24 months [c:gprg3tw][c:7c5n36s]. All traction figures are company-reported and unverified.\n\n## 8. Compliance & Governance\n\nThe company is registered as SHIELDSTACK PRIVATE LIMITED (CIN U62099TG2023PTC171904) with the Ministry of Corporate Affairs, status ACTIVE, and directors Ravi Teja Kommineni, Shruti Pandey, and Meera Pillai [c:utsht65]. No compliance flags were identified in the registry or deck. The deck does not attempt to instruct the evaluator or alter scoring rules.\n\n## 9. Risks & Challenges\n\nDemand is contingent on the pace and strictness of DPDP Act enforcement, which remains uncertain [c:7c5n36s]. Regulatory changes could force product rework, and global privacy platforms like OneTrust and Securiti are localising for India, increasing competitive pressure [c:7c5n36s][c:o5fijpc]. Enterprise sales cycles are long, and the company's CAC payback of 16.6 months is extended for a seed-stage startup [c:tkvmjzf][c:7c5n36s]. The deck acknowledges these risks but provides only partial mitigation strategies.\n\n## 10. Investment Thesis\n\nShieldStack addresses a clear, regulation-driven need for DPDP Act compliance automation, with a working product used by 34 paying customers and ARR growing from Rs 0.3 crore to Rs 2.1 crore over two years [c:gprg3tw]. The team combines security consulting, data engineering, and privacy law expertise, covering key functional areas [c:d6y4ydv]. However, the market size figures (TAM Rs 2,400 crore, SAM Rs 520 crore) are company estimates without independent validation, and the moat is limited to India-specific workflows and connectors that can be replicated [c:6ehklw5][c:o5fijpc]. The long CAC payback and dependency on regulatory enforcement introduce execution risk. At a Rs 38 crore pre-money valuation, the round prices in significant future growth but leaves limited room for error.\n\n## 11. Recommendation\n\n**Hold (5.7/10)**. ShieldStack has a relevant product and early traction in a growing regulatory market, but the lack of independent market validation, thin moat, and long CAC payback temper the opportunity. The team is credible but unproven at scale. We recommend monitoring ARR progression toward the Rs 6 crore target and DPDP Act enforcement milestones before committing.",
+  "report_markdown": "## 1. Executive Summary\n\nShieldStack is a Seed-stage Indian cybersecurity startup automating compliance with the Digital Personal Data Protection (DPDP) Act, 2023. Its platform discovers personal data across databases, SaaS and cloud storage, and runs consent records, data-principal rights requests and breach-notification workflows. The company reports 34 paying customers, an ARR of Rs 2.1 crore (FY2026, company-reported and unverified), gross margin 76% and NRR 131% [c:jpueqil][c:46sms34]. It is raising Rs 7 crore at Rs 38 crore pre-money [c:bbxpcdt]. The overall score is 5.7/10 (Hold), reflecting a solid product-market fit in a growing regulatory-driven market, offset by a long CAC payback (16.6 months), lack of independent market-size validation, and execution risks tied to enforcement pace and competition from global platforms [c:46sms34][c:fwz7qcm][c:3y3cvwf].\n\n## 2. Problem & Solution\n\nIndian companies face penalties up to Rs 250 crore under the DPDP Act for failing to secure personal data, yet most mid-size firms lack an inventory of where that data resides [c:qm5mjj3]. Consultant-led compliance projects cost Rs 25-60 lakh and become stale within months (company estimates) [c:qm5mjj3]. ShieldStack solves this with an automated platform that discovers and classifies personal data, manages consent with an auditable ledger, provides a data-principal request portal with deadlines and evidence trails, and offers breach-response playbooks and notification templates [c:ptkykeb]. The product is live with 34 paying customers, indicating it addresses a real, urgent need [c:jpueqil].\n\n## 3. Market Opportunity\n\nShieldStack targets the privacy and data-protection compliance software market in India. The deck claims a TAM of Rs 2,400 crore in 2025, growing to Rs 6,800 crore by 2030 at a 23.2% CAGR (company estimates, unverified) [c:fwz7qcm]. The SAM is sized at Rs 520 crore for mid-market and enterprise organisations in BFSI, healthcare and e-commerce (company estimate) [c:fwz7qcm]. The SOM is projected at Rs 30 crore by 2029 (company projection) [c:fwz7qcm]. Independent web sources note the DPDP Act is creating a large compliance market, with one consultancy estimating a \u20b910,000 crore opportunity in privacy automation and consent management [w:1]. However, no independent publisher forecast or third-party market-sizing data was found to validate the deck's specific figures. The market is clearly real and growing, but the deck's numbers lack external corroboration.\n\n## 4. Competitive Landscape\n\nShieldStack competes with global privacy-management platforms (OneTrust, Securiti) and consulting/law-firm compliance programmes [c:rq2sqsz]. The company claims an edge from India-specific DPDP workflows and templates maintained by in-house lawyers, plus connectors for Indian core-banking, hospital and commerce systems [c:rq2sqsz]. These are execution advantages that can be replicated, and no patents or data network effects are evidenced. The deck acknowledges the risk that global platforms are localising for India [c:3y3cvwf]. The competitive moat is rated 4.0/10, reflecting a defensibility that is currently thin.\n\n## 5. Business Model\n\nRevenue comes from an annual platform licence (Rs 500,000/year, 80% of revenue) that scales with data sources, and implementation services (20% of revenue) billed per project [c:3qgu4dv]. ARR counts only platform licences, averaging Rs 6.2 lakh per customer [c:3qgu4dv]. Reported unit economics: gross margin 76%, NRR 131%, monthly logo churn 0.6%, CAC Rs 650,000, and CAC payback 16.6 months [c:46sms34]. The long payback period is a concern for a Seed-stage company, though NRR above 130% suggests strong expansion within existing accounts. All figures are company-reported and unverified.\n\n## 6. Team Assessment\n\nThe founding team covers the key domains: CEO Ravi Teja Kommineni has 10 years in security consulting for banks and insurers; CTO Shruti Pandey is a data engineer who built a data-catalogue product; CPO Meera Pillai is a technology and privacy lawyer with 9 years of experience [c:j72kms3]. The combination of security consulting, data engineering and privacy law is well-suited to the product. However, there is no evidence of prior startup scaling or repeated entrepreneurial successes, which is typical for a Seed-stage team. The team score is 6.0/10.\n\n## 7. Traction & Milestones\n\nShieldStack reports an ARR of Rs 2.1 crore in FY2026, up from Rs 0.3 crore in FY2024 and Rs 0.9 crore in FY2025, representing a roughly 2.6x year-over-year growth rate [c:jpueqil]. The company has 34 paying organisations across BFSI, healthcare and e-commerce, with a net revenue retention (NRR) of 131% and monthly logo churn of 0.6% [c:jpueqil][c:46sms34]. The deck claims a pipeline of 120 enterprises as DPDP obligations phase in, and targets 100 paying organisations and Rs 6 crore ARR within 24 months [c:jpueqil][c:3y3cvwf]. All traction figures are company-reported and unverified.\n\n## 8. Compliance & Governance\n\nThe company is registered as SHIELDSTACK PRIVATE LIMITED (CIN U62099TG2023PTC171904) with the Ministry of Corporate Affairs, status ACTIVE, and directors Ravi Teja Kommineni, Shruti Pandey, and Meera Pillai [c:bbxpcdt]. No compliance flags were identified in the registry or deck. The deck does not attempt to instruct the evaluator or alter scoring rules.\n\n## 9. Risks & Challenges\n\nDemand is contingent on the pace and strictness of DPDP Act enforcement, which remains uncertain [c:3y3cvwf]. Regulatory changes could force product rework, and global privacy platforms like OneTrust and Securiti are localising for India, increasing competitive pressure [c:3y3cvwf][c:rq2sqsz]. Enterprise sales cycles are long, and the company's CAC payback of 16.6 months is extended for a seed-stage startup [c:46sms34][c:3y3cvwf]. The deck acknowledges these risks but provides only partial mitigation strategies.\n\n## 10. Investment Thesis\n\nShieldStack addresses a clear, regulation-driven need for DPDP Act compliance automation, with a working product used by 34 paying customers and ARR growing from Rs 0.3 crore to Rs 2.1 crore over two years [c:jpueqil]. The team combines security consulting, data engineering, and privacy law expertise, covering key functional areas [c:j72kms3]. However, the market size figures (TAM Rs 2,400 crore, SAM Rs 520 crore) are company estimates without independent validation, and the moat is limited to India-specific workflows and connectors that can be replicated [c:fwz7qcm][c:rq2sqsz]. The long CAC payback and dependency on regulatory enforcement introduce execution risk. At a Rs 38 crore pre-money valuation, the round prices in significant future growth but leaves limited room for error.\n\n## 11. Recommendation\n\n**Hold (5.7/10)**. ShieldStack has a relevant product and early traction in a growing regulatory market, but the lack of independent market validation, thin moat, and long CAC payback temper the opportunity. The team is credible but unproven at scale. We recommend monitoring ARR progression toward the Rs 6 crore target and DPDP Act enforcement milestones before committing.",
   "revenue_currency": null,
   "revenue_metric": null,
   "rewrites": 0,
   "rubric_version": "r1",
   "score_rationales": {
-   "business_model": "Pricing is defined (Rs 500k annual licence, implementation services), and early unit economics are positive: gross margin 76%, NRR 131%, but CAC payback is 16.6 months, which is long for a strong score. [c:hhyxr2d][c:tkvmjzf]",
-   "execution_risk": "The startup faces typical early-stage risks: dependency on DPDP Act enforcement pace, potential regulatory changes, competition from global platforms, and long enterprise sales cycles. These are acknowledged but only partially mitigated. [c:7c5n36s]",
-   "market": "The TAM of Rs 2,400 crore is a company estimate without independent backing, and the SAM of Rs 520 crore is also self-sized. While the market is clearly real and growing (CAGR 23.2%), the evidence lacks external validation. [c:6ehklw5]",
-   "moat": "The deck claims an edge from India-specific DPDP workflows and connectors for local systems, but these are execution advantages that can be copied. No patents, data network effects, or switching costs beyond initial integration are evidenced. [c:o5fijpc]",
-   "product": "ShieldStack has a working product used by 34 paying customers with a clear, specific value proposition for DPDP Act compliance. However, the deck does not provide evidence of strong retention or expansion beyond early usage, and differentiation is limited to India-specific workflows and connectors. [c:o6rlftj][c:gprg3tw][c:o5fijpc]",
-   "team": "The team has relevant domain experience: CEO with 10 years in security consulting, CTO as a data engineer, and CPO as a privacy lawyer. This covers key roles, but there is no evidence of prior startup scaling or repeated successes. [c:d6y4ydv]",
-   "traction": "ARR grew from Rs 0.3 crore (FY2024) to Rs 2.1 crore (FY2026), roughly 2.6x year-over-year, with 34 paying customers and NRR 131%. Growth is solid but not yet at the 2x/year sustained level, and figures are dated (FY2026). [c:gprg3tw]"
+   "business_model": "Pricing is defined (Rs 500k annual licence, implementation services), and early unit economics are positive: gross margin 76%, NRR 131%, but CAC payback is 16.6 months, which is long for a strong score. [c:3qgu4dv][c:46sms34]",
+   "execution_risk": "The startup faces typical early-stage risks: dependency on DPDP Act enforcement pace, potential regulatory changes, competition from global platforms, and long enterprise sales cycles. These are acknowledged but only partially mitigated. [c:3y3cvwf]",
+   "market": "The TAM of Rs 2,400 crore is a company estimate without independent backing, and the SAM of Rs 520 crore is also self-sized. While the market is clearly real and growing (CAGR 23.2%), the evidence lacks external validation. [c:fwz7qcm]",
+   "moat": "The deck claims an edge from India-specific DPDP workflows and connectors for local systems, but these are execution advantages that can be copied. No patents, data network effects, or switching costs beyond initial integration are evidenced. [c:rq2sqsz]",
+   "product": "ShieldStack has a working product used by 34 paying customers with a clear, specific value proposition for DPDP Act compliance. However, the deck does not provide evidence of strong retention or expansion beyond early usage, and differentiation is limited to India-specific workflows and connectors. [c:ptkykeb][c:jpueqil][c:rq2sqsz]",
+   "team": "The team has relevant domain experience: CEO with 10 years in security consulting, CTO as a data engineer, and CPO as a privacy lawyer. This covers key roles, but there is no evidence of prior startup scaling or repeated successes. [c:j72kms3]",
+   "traction": "ARR grew from Rs 0.3 crore (FY2024) to Rs 2.1 crore (FY2026), roughly 2.6x year-over-year, with 34 paying customers and NRR 131%. Growth is solid but not yet at the 2x/year sustained level, and figures are dated (FY2026). [c:jpueqil]"
   },
   "score_spread": {
    "business_model": 0.0,
@@ -230,17 +231,17 @@
    "traction": 0.5
   },
   "sections": {
-   "business_model": "Revenue comes from an annual platform licence (Rs 500,000/year, 80% of revenue) that scales with data sources, and implementation services (20% of revenue) billed per project [c:hhyxr2d]. ARR counts only platform licences, averaging Rs 6.2 lakh per customer [c:hhyxr2d]. Reported unit economics: gross margin 76%, NRR 131%, monthly logo churn 0.6%, CAC Rs 650,000, and CAC payback 16.6 months [c:tkvmjzf]. The long payback period is a concern for a Seed-stage company, though NRR above 130% suggests strong expansion within existing accounts. All figures are company-reported and unverified.",
-   "competitive_landscape": "ShieldStack competes with global privacy-management platforms (OneTrust, Securiti) and consulting/law-firm compliance programmes [c:o5fijpc]. The company claims an edge from India-specific DPDP workflows and templates maintained by in-house lawyers, plus connectors for Indian core-banking, hospital and commerce systems [c:o5fijpc]. These are execution advantages that can be replicated, and no patents or data network effects are evidenced. The deck acknowledges the risk that global platforms are localising for India [c:7c5n36s]. The competitive moat is rated 4.0/10, reflecting a defensibility that is currently thin.",
-   "compliance_governance": "The company is registered as SHIELDSTACK PRIVATE LIMITED (CIN U62099TG2023PTC171904) with the Ministry of Corporate Affairs, status ACTIVE, and directors Ravi Teja Kommineni, Shruti Pandey, and Meera Pillai [c:utsht65]. No compliance flags were identified in the registry or deck. The deck does not attempt to instruct the evaluator or alter scoring rules.",
-   "executive_summary": "ShieldStack is a Seed-stage Indian cybersecurity startup automating compliance with the Digital Personal Data Protection (DPDP) Act, 2023. Its platform discovers personal data across databases, SaaS and cloud storage, and runs consent records, data-principal rights requests and breach-notification workflows. The company reports 34 paying customers, an ARR of Rs 2.1 crore (FY2026, company-reported and unverified), gross margin 76% and NRR 131% [c:gprg3tw][c:tkvmjzf]. It is raising Rs 7 crore at Rs 38 crore pre-money [c:utsht65]. The overall score is 5.7/10 (Hold), reflecting a solid product-market fit in a growing regulatory-driven market, offset by a long CAC payback (16.6 months), lack of independent market-size validation, and execution risks tied to enforcement pace and competition from global platforms [c:tkvmjzf][c:6ehklw5][c:7c5n36s].",
-   "investment_thesis": "ShieldStack addresses a clear, regulation-driven need for DPDP Act compliance automation, with a working product used by 34 paying customers and ARR growing from Rs 0.3 crore to Rs 2.1 crore over two years [c:gprg3tw]. The team combines security consulting, data engineering, and privacy law expertise, covering key functional areas [c:d6y4ydv]. However, the market size figures (TAM Rs 2,400 crore, SAM Rs 520 crore) are company estimates without independent validation, and the moat is limited to India-specific workflows and connectors that can be replicated [c:6ehklw5][c:o5fijpc]. The long CAC payback and dependency on regulatory enforcement introduce execution risk. At a Rs 38 crore pre-money valuation, the round prices in significant future growth but leaves limited room for error.",
-   "market_opportunity": "ShieldStack targets the privacy and data-protection compliance software market in India. The deck claims a TAM of Rs 2,400 crore in 2025, growing to Rs 6,800 crore by 2030 at a 23.2% CAGR (company estimates, unverified) [c:6ehklw5]. The SAM is sized at Rs 520 crore for mid-market and enterprise organisations in BFSI, healthcare and e-commerce (company estimate) [c:6ehklw5]. The SOM is projected at Rs 30 crore by 2029 (company projection) [c:6ehklw5]. Independent web sources note the DPDP Act is creating a large compliance market, with one consultancy estimating a \u20b910,000 crore opportunity in privacy automation and consent management [w:1]. However, no independent publisher forecast or third-party market-sizing data was found to validate the deck's specific figures. The market is clearly real and growing, but the deck's numbers lack external corroboration.",
-   "problem_solution": "Indian companies face penalties up to Rs 250 crore under the DPDP Act for failing to secure personal data, yet most mid-size firms lack an inventory of where that data resides [c:qozzta4]. Consultant-led compliance projects cost Rs 25-60 lakh and become stale within months (company estimates) [c:qozzta4]. ShieldStack solves this with an automated platform that discovers and classifies personal data, manages consent with an auditable ledger, provides a data-principal request portal with deadlines and evidence trails, and offers breach-response playbooks and notification templates [c:o6rlftj]. The product is live with 34 paying customers, indicating it addresses a real, urgent need [c:gprg3tw].",
+   "business_model": "Revenue comes from an annual platform licence (Rs 500,000/year, 80% of revenue) that scales with data sources, and implementation services (20% of revenue) billed per project [c:3qgu4dv]. ARR counts only platform licences, averaging Rs 6.2 lakh per customer [c:3qgu4dv]. Reported unit economics: gross margin 76%, NRR 131%, monthly logo churn 0.6%, CAC Rs 650,000, and CAC payback 16.6 months [c:46sms34]. The long payback period is a concern for a Seed-stage company, though NRR above 130% suggests strong expansion within existing accounts. All figures are company-reported and unverified.",
+   "competitive_landscape": "ShieldStack competes with global privacy-management platforms (OneTrust, Securiti) and consulting/law-firm compliance programmes [c:rq2sqsz]. The company claims an edge from India-specific DPDP workflows and templates maintained by in-house lawyers, plus connectors for Indian core-banking, hospital and commerce systems [c:rq2sqsz]. These are execution advantages that can be replicated, and no patents or data network effects are evidenced. The deck acknowledges the risk that global platforms are localising for India [c:3y3cvwf]. The competitive moat is rated 4.0/10, reflecting a defensibility that is currently thin.",
+   "compliance_governance": "The company is registered as SHIELDSTACK PRIVATE LIMITED (CIN U62099TG2023PTC171904) with the Ministry of Corporate Affairs, status ACTIVE, and directors Ravi Teja Kommineni, Shruti Pandey, and Meera Pillai [c:bbxpcdt]. No compliance flags were identified in the registry or deck. The deck does not attempt to instruct the evaluator or alter scoring rules.",
+   "executive_summary": "ShieldStack is a Seed-stage Indian cybersecurity startup automating compliance with the Digital Personal Data Protection (DPDP) Act, 2023. Its platform discovers personal data across databases, SaaS and cloud storage, and runs consent records, data-principal rights requests and breach-notification workflows. The company reports 34 paying customers, an ARR of Rs 2.1 crore (FY2026, company-reported and unverified), gross margin 76% and NRR 131% [c:jpueqil][c:46sms34]. It is raising Rs 7 crore at Rs 38 crore pre-money [c:bbxpcdt]. The overall score is 5.7/10 (Hold), reflecting a solid product-market fit in a growing regulatory-driven market, offset by a long CAC payback (16.6 months), lack of independent market-size validation, and execution risks tied to enforcement pace and competition from global platforms [c:46sms34][c:fwz7qcm][c:3y3cvwf].",
+   "investment_thesis": "ShieldStack addresses a clear, regulation-driven need for DPDP Act compliance automation, with a working product used by 34 paying customers and ARR growing from Rs 0.3 crore to Rs 2.1 crore over two years [c:jpueqil]. The team combines security consulting, data engineering, and privacy law expertise, covering key functional areas [c:j72kms3]. However, the market size figures (TAM Rs 2,400 crore, SAM Rs 520 crore) are company estimates without independent validation, and the moat is limited to India-specific workflows and connectors that can be replicated [c:fwz7qcm][c:rq2sqsz]. The long CAC payback and dependency on regulatory enforcement introduce execution risk. At a Rs 38 crore pre-money valuation, the round prices in significant future growth but leaves limited room for error.",
+   "market_opportunity": "ShieldStack targets the privacy and data-protection compliance software market in India. The deck claims a TAM of Rs 2,400 crore in 2025, growing to Rs 6,800 crore by 2030 at a 23.2% CAGR (company estimates, unverified) [c:fwz7qcm]. The SAM is sized at Rs 520 crore for mid-market and enterprise organisations in BFSI, healthcare and e-commerce (company estimate) [c:fwz7qcm]. The SOM is projected at Rs 30 crore by 2029 (company projection) [c:fwz7qcm]. Independent web sources note the DPDP Act is creating a large compliance market, with one consultancy estimating a \u20b910,000 crore opportunity in privacy automation and consent management [w:1]. However, no independent publisher forecast or third-party market-sizing data was found to validate the deck's specific figures. The market is clearly real and growing, but the deck's numbers lack external corroboration.",
+   "problem_solution": "Indian companies face penalties up to Rs 250 crore under the DPDP Act for failing to secure personal data, yet most mid-size firms lack an inventory of where that data resides [c:qm5mjj3]. Consultant-led compliance projects cost Rs 25-60 lakh and become stale within months (company estimates) [c:qm5mjj3]. ShieldStack solves this with an automated platform that discovers and classifies personal data, manages consent with an auditable ledger, provides a data-principal request portal with deadlines and evidence trails, and offers breach-response playbooks and notification templates [c:ptkykeb]. The product is live with 34 paying customers, indicating it addresses a real, urgent need [c:jpueqil].",
    "recommendation": "**Hold (5.7/10)**. ShieldStack has a relevant product and early traction in a growing regulatory market, but the lack of independent market validation, thin moat, and long CAC payback temper the opportunity. The team is credible but unproven at scale. We recommend monitoring ARR progression toward the Rs 6 crore target and DPDP Act enforcement milestones before committing.",
-   "risks_challenges": "Demand is contingent on the pace and strictness of DPDP Act enforcement, which remains uncertain [c:7c5n36s]. Regulatory changes could force product rework, and global privacy platforms like OneTrust and Securiti are localising for India, increasing competitive pressure [c:7c5n36s][c:o5fijpc]. Enterprise sales cycles are long, and the company's CAC payback of 16.6 months is extended for a seed-stage startup [c:tkvmjzf][c:7c5n36s]. The deck acknowledges these risks but provides only partial mitigation strategies.",
-   "team_assessment": "The founding team covers the key domains: CEO Ravi Teja Kommineni has 10 years in security consulting for banks and insurers; CTO Shruti Pandey is a data engineer who built a data-catalogue product; CPO Meera Pillai is a technology and privacy lawyer with 9 years of experience [c:d6y4ydv]. The combination of security consulting, data engineering and privacy law is well-suited to the product. However, there is no evidence of prior startup scaling or repeated entrepreneurial successes, which is typical for a Seed-stage team. The team score is 6.0/10.",
-   "traction_milestones": "ShieldStack reports an ARR of Rs 2.1 crore in FY2026, up from Rs 0.3 crore in FY2024 and Rs 0.9 crore in FY2025, representing a roughly 2.6x year-over-year growth rate [c:gprg3tw]. The company has 34 paying organisations across BFSI, healthcare and e-commerce, with a net revenue retention (NRR) of 131% and monthly logo churn of 0.6% [c:gprg3tw][c:tkvmjzf]. The deck claims a pipeline of 120 enterprises as DPDP obligations phase in, and targets 100 paying organisations and Rs 6 crore ARR within 24 months [c:gprg3tw][c:7c5n36s]. All traction figures are company-reported and unverified."
+   "risks_challenges": "Demand is contingent on the pace and strictness of DPDP Act enforcement, which remains uncertain [c:3y3cvwf]. Regulatory changes could force product rework, and global privacy platforms like OneTrust and Securiti are localising for India, increasing competitive pressure [c:3y3cvwf][c:rq2sqsz]. Enterprise sales cycles are long, and the company's CAC payback of 16.6 months is extended for a seed-stage startup [c:46sms34][c:3y3cvwf]. The deck acknowledges these risks but provides only partial mitigation strategies.",
+   "team_assessment": "The founding team covers the key domains: CEO Ravi Teja Kommineni has 10 years in security consulting for banks and insurers; CTO Shruti Pandey is a data engineer who built a data-catalogue product; CPO Meera Pillai is a technology and privacy lawyer with 9 years of experience [c:j72kms3]. The combination of security consulting, data engineering and privacy law is well-suited to the product. However, there is no evidence of prior startup scaling or repeated entrepreneurial successes, which is typical for a Seed-stage team. The team score is 6.0/10.",
+   "traction_milestones": "ShieldStack reports an ARR of Rs 2.1 crore in FY2026, up from Rs 0.3 crore in FY2024 and Rs 0.9 crore in FY2025, representing a roughly 2.6x year-over-year growth rate [c:jpueqil]. The company has 34 paying organisations across BFSI, healthcare and e-commerce, with a net revenue retention (NRR) of 131% and monthly logo churn of 0.6% [c:jpueqil][c:46sms34]. The deck claims a pipeline of 120 enterprises as DPDP obligations phase in, and targets 100 paying organisations and Rs 6 crore ARR within 24 months [c:jpueqil][c:3y3cvwf]. All traction figures are company-reported and unverified."
   },
   "sources": [
    {
@@ -315,5 +316,5 @@
    }
   ]
  },
- "input_hash": "6586a97f5e246da5570996fc7770590d2f6b7d0b2bf90cc85c8a6aec15c49f6e"
+ "input_hash": "9c9e7f831a6e8a5628c334ee4955de8a35902c416bb619e3d0c850e801b62ec6"
 }

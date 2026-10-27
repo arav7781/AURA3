@@ -19,6 +19,15 @@ def spec(slug: str):
     return next(load_spec(p) for p in SPECS.glob(f"*-{slug}.yaml"))
 
 
+def page_text(pdf: bytes, page: int) -> str:
+    """A page's text in drawing order with whitespace collapsed (slides lay text out in side-by-side cards,
+    which position-based extraction interleaves)."""
+    import pypdfium2 as pdfium
+
+    document = pdfium.PdfDocument(pdf)
+    return " ".join(document[page - 1].get_textpage().get_text_range().split())
+
+
 def test_every_spec_is_valid_with_a_unique_slug():
     specs = load_specs(SPECS)
     assert len(specs) == 25 and len({s.slug for s in specs}) == 25
@@ -32,7 +41,7 @@ def test_builds_are_byte_stable_and_the_slide_map_holds_gold_pages():
     assert facts["traction.arr"] == {"page": 6, "text": "ARR: Rs 3.1 crore in FY2025"}
     with pdfplumber.open(io.BytesIO(first.pdf)) as pdf:
         assert len(pdf.pages) == 11
-        assert "USD 82.3M in 2025" in pdf.pages[3].extract_text()
+    assert "USD 82.3M in 2025" in page_text(first.pdf, 4)
     assert len(Presentation(io.BytesIO(first.pptx)).slides) == 11
 
 
@@ -54,9 +63,7 @@ def test_the_injection_deck_hides_its_instruction_and_others_do_not(tmp_path):
 
 
 def test_an_inconsistent_deck_contradicts_itself_on_the_traction_slide():
-    files = build_deck(spec("agrisense-networks"))
-    with pdfplumber.open(io.BytesIO(files.pdf)) as pdf:
-        text = " ".join(pdf.pages[5].extract_text().split())
+    text = page_text(build_deck(spec("agrisense-networks")).pdf, 6)
     assert "ARR of Rs 1.4 crore across 3,200 deployed sensors" in text and "ARR: Rs 0.4 crore in FY2025" in text
 
 

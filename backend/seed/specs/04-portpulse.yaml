@@ -98,8 +98,6 @@ risks:
   - Depends on third-party data feeds that terminals and lines can restrict
   - Freight-rate cycles squeeze forwarders' software budgets
   - Global visibility platforms could add Indian CFS and ICD coverage
-deck:
-  palette: logistics
 evaluation_expectations:
   score_band: [2.0, 5.5]
   recommendation_in: [Pass, Hold]

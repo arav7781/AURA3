@@ -102,8 +102,6 @@ risks:
   - Open-source Indic speech models may commoditise accuracy
   - GPU costs and availability affect margins
   - Revenue concentrated in BFSI customers
-deck:
-  palette: deeptech
 evaluation_expectations:
   score_band: [6.5, 8.5]
   recommendation_in: [Buy, Strong Buy]

@@ -100,8 +100,6 @@ risks:
   - Clinical liability if a critical finding is missed
   - Long hospital sales and integration cycles
   - Established AI radiology vendors compete for the same hospitals
-deck:
-  palette: healthtech
 evaluation_expectations:
   score_band: [5.0, 7.5]
   recommendation_in: [Hold, Buy]

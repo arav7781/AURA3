@@ -1,5 +1,6 @@
 {
  "analysis": {
+  "carried_from_input_hash": "4f7d63e588b9224b5deda949b8084082206c36bf49d0ea6d7bda648226194d0c",
   "category_scores": {
    "business_model": 6.0,
    "execution_risk": 4.0,
@@ -10,147 +11,147 @@
    "traction": 4.0
   },
   "citations": {
-   "c:2j4g7hb": {
+   "c:37dxi4n": {
     "bbox": [
-     0.0677,
-     0.0554,
-     0.92917,
-     0.68382
+     0.05939,
+     0.12926,
+     0.90621,
+     0.79796
     ],
-    "chunk_id": "9c49a0b2-33eb-5e8a-a4fa-0542e85a76b5",
-    "document_id": "6018dd84-c039-42ed-ac52-3f182bb0484e",
-    "page_no": 9,
-    "slide_title": "Go-to-Market & Key Risks",
-    "type": "deck"
-   },
-   "c:dp3am34": {
-    "bbox": [
-     0.0677,
-     0.0554,
-     0.87654,
-     0.25514
-    ],
-    "chunk_id": "8a827fea-a7a0-5b33-81e0-b399a8ebafe5",
-    "document_id": "6018dd84-c039-42ed-ac52-3f182bb0484e",
-    "page_no": 10,
-    "slide_title": "Team",
-    "type": "deck"
-   },
-   "c:j26ud4g": {
-    "bbox": [
-     0.0677,
-     0.0554,
-     0.91159,
-     0.42291
-    ],
-    "chunk_id": "89ed1162-e25c-5518-b939-1ed396e41f58",
-    "document_id": "6018dd84-c039-42ed-ac52-3f182bb0484e",
-    "page_no": 4,
-    "slide_title": "Market Opportunity (TAM / SAM / SOM)",
-    "type": "deck"
-   },
-   "c:jd3ws64": {
-    "bbox": [
-     0.0677,
-     0.0554,
-     0.84687,
-     0.50907
-    ],
-    "chunk_id": "6e0820cb-bd39-590c-a7bc-8a83dbfe86ba",
-    "document_id": "6018dd84-c039-42ed-ac52-3f182bb0484e",
-    "page_no": 1,
-    "slide_title": "VaultKey Security",
-    "type": "deck"
-   },
-   "c:nuqx7ye": {
-    "bbox": [
-     0.06153,
-     0.0554,
-     0.96972,
-     0.552
-    ],
-    "chunk_id": "379e5f55-3658-5488-9d07-23d2d9094eec",
-    "document_id": "6018dd84-c039-42ed-ac52-3f182bb0484e",
-    "page_no": 8,
-    "slide_title": "Competitive Landscape",
-    "type": "deck"
-   },
-   "c:otv54ih": {
-    "bbox": [
-     0.0677,
-     0.0554,
-     0.87735,
-     0.50907
-    ],
-    "chunk_id": "2dbbfe07-f810-50c2-ac26-7b51d77e5aa8",
-    "document_id": "6018dd84-c039-42ed-ac52-3f182bb0484e",
-    "page_no": 3,
-    "slide_title": "Solution",
-    "type": "deck"
-   },
-   "c:pn6jk3e": {
-    "bbox": [
-     0.0677,
-     0.0554,
-     0.90775,
-     0.60663
-    ],
-    "chunk_id": "15a0ace3-76ed-5703-be24-e33604ebc4c2",
-    "document_id": "6018dd84-c039-42ed-ac52-3f182bb0484e",
+    "chunk_id": "bbddf3a2-005d-5acf-bc6d-f81f451f7de3",
+    "document_id": "e3e716b0-bbc2-456d-b2f3-ae555f1c0b31",
     "page_no": 11,
     "slide_title": "The Ask",
     "type": "deck"
    },
-   "c:qnqqknx": {
+   "c:5sfv6ze": {
     "bbox": [
-     0.05615,
-     0.0554,
-     0.87657,
-     0.81392
+     0.05939,
+     0.24444,
+     0.56942,
+     0.70166
     ],
-    "chunk_id": "af25f1e8-b455-57af-a536-72c952ed8da9",
-    "document_id": "6018dd84-c039-42ed-ac52-3f182bb0484e",
+    "chunk_id": "2d8558fe-8eaa-5210-98f4-cdb2acd00349",
+    "document_id": "e3e716b0-bbc2-456d-b2f3-ae555f1c0b31",
+    "page_no": 1,
+    "slide_title": "VaultKey Security",
+    "type": "deck"
+   },
+   "c:dwstyqe": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.92303,
+     0.82434
+    ],
+    "chunk_id": "accd20e5-f57f-532d-ae90-76c2cd08ed79",
+    "document_id": "e3e716b0-bbc2-456d-b2f3-ae555f1c0b31",
     "page_no": 6,
     "slide_title": "Traction (as of Sep 2026)",
     "type": "deck"
    },
-   "c:rkru4g6": {
+   "c:fcmn5qo": {
     "bbox": [
-     0.0677,
-     0.0554,
-     0.85025,
-     0.45481
+     0.05939,
+     0.12926,
+     0.9179,
+     0.70105
     ],
-    "chunk_id": "fe9b0112-11b3-5891-9a97-7f65ae82f295",
-    "document_id": "6018dd84-c039-42ed-ac52-3f182bb0484e",
-    "page_no": 7,
-    "slide_title": "Unit Economics",
+    "chunk_id": "27adddd4-c9ba-5d18-a750-5e21279d4ac2",
+    "document_id": "e3e716b0-bbc2-456d-b2f3-ae555f1c0b31",
+    "page_no": 8,
+    "slide_title": "Competitive Landscape",
     "type": "deck"
    },
-   "c:rxd5aye": {
+   "c:ffkhh63": {
     "bbox": [
-     0.0677,
-     0.0554,
-     0.90789,
-     0.43886
+     0.05939,
+     0.12926,
+     0.91172,
+     0.70906
     ],
-    "chunk_id": "ea4ecf0c-03bd-546c-8459-2aad844e5a1e",
-    "document_id": "6018dd84-c039-42ed-ac52-3f182bb0484e",
+    "chunk_id": "30854ba6-9f23-57e9-86fb-dbcce687e3e0",
+    "document_id": "e3e716b0-bbc2-456d-b2f3-ae555f1c0b31",
+    "page_no": 2,
+    "slide_title": "Problem",
+    "type": "deck"
+   },
+   "c:jozrodx": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.80272,
+     0.69969
+    ],
+    "chunk_id": "492733ac-3fd7-55a5-8da2-50eaf4e65620",
+    "document_id": "e3e716b0-bbc2-456d-b2f3-ae555f1c0b31",
+    "page_no": 4,
+    "slide_title": "Market Opportunity (TAM / SAM / SOM)",
+    "type": "deck"
+   },
+   "c:oitplxi": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.88586,
+     0.53299
+    ],
+    "chunk_id": "fe910925-176b-5143-96c3-47e3f39d0804",
+    "document_id": "e3e716b0-bbc2-456d-b2f3-ae555f1c0b31",
+    "page_no": 10,
+    "slide_title": "Team",
+    "type": "deck"
+   },
+   "c:ph2q3ej": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.8909,
+     0.7402
+    ],
+    "chunk_id": "86ff7e1e-1c31-5cad-9d24-b38ae5e25176",
+    "document_id": "e3e716b0-bbc2-456d-b2f3-ae555f1c0b31",
     "page_no": 5,
     "slide_title": "Business Model",
     "type": "deck"
    },
-   "c:vzjbraz": {
+   "c:seowznw": {
     "bbox": [
-     0.0677,
-     0.0554,
-     0.92853,
-     0.63306
+     0.05939,
+     0.12926,
+     0.83107,
+     0.74793
     ],
-    "chunk_id": "7ae305b8-ecd8-556c-94b4-940b692aa322",
-    "document_id": "6018dd84-c039-42ed-ac52-3f182bb0484e",
-    "page_no": 2,
-    "slide_title": "Problem",
+    "chunk_id": "394d7c14-55e1-5101-82a8-0e12f560d62e",
+    "document_id": "e3e716b0-bbc2-456d-b2f3-ae555f1c0b31",
+    "page_no": 7,
+    "slide_title": "Unit Economics",
+    "type": "deck"
+   },
+   "c:uw3cbvs": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.86765,
+     0.80727
+    ],
+    "chunk_id": "9e40a236-4b12-56cb-8462-9015553cf3a4",
+    "document_id": "e3e716b0-bbc2-456d-b2f3-ae555f1c0b31",
+    "page_no": 9,
+    "slide_title": "Go-to-Market & Key Risks",
+    "type": "deck"
+   },
+   "c:uz3cnon": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.72814,
+     0.76418
+    ],
+    "chunk_id": "bd12a011-64a6-5459-9fbf-9fff9763a5b7",
+    "document_id": "e3e716b0-bbc2-456d-b2f3-ae555f1c0b31",
+    "page_no": 3,
+    "slide_title": "Solution",
     "type": "deck"
    },
    "w:1": {
@@ -225,7 +226,7 @@
   ],
   "evidence_version": 2,
   "generated_at": "2026-10-27T06:51:33.912715Z",
-  "input_hash": "4f7d63e588b9224b5deda949b8084082206c36bf49d0ea6d7bda648226194d0c",
+  "input_hash": "7e26c2a9f67901cb637628297d78b0926cc8c4df5d0e0a3927007ba0613af7f3",
   "invalid_citations": [],
   "market_sizing": {
    "basis": "Only figures traceable to retrieved search excerpts are plotted as market data.",
@@ -237,14 +238,14 @@
      },
      "citation": {
       "bbox": [
-       0.0677,
-       0.0554,
-       0.91159,
-       0.42291
+       0.05939,
+       0.12926,
+       0.80272,
+       0.69969
       ],
-      "chunk_id": "89ed1162-e25c-5518-b939-1ed396e41f58",
-      "cid": "c:j26ud4g",
-      "document_id": "6018dd84-c039-42ed-ac52-3f182bb0484e",
+      "chunk_id": "492733ac-3fd7-55a5-8da2-50eaf4e65620",
+      "cid": "c:jozrodx",
+      "document_id": "e3e716b0-bbc2-456d-b2f3-ae555f1c0b31",
       "page_no": 4
      },
      "currency": "INR",
@@ -268,14 +269,14 @@
      },
      "citation": {
       "bbox": [
-       0.0677,
-       0.0554,
-       0.91159,
-       0.42291
+       0.05939,
+       0.12926,
+       0.80272,
+       0.69969
       ],
-      "chunk_id": "89ed1162-e25c-5518-b939-1ed396e41f58",
-      "cid": "c:j26ud4g",
-      "document_id": "6018dd84-c039-42ed-ac52-3f182bb0484e",
+      "chunk_id": "492733ac-3fd7-55a5-8da2-50eaf4e65620",
+      "cid": "c:jozrodx",
+      "document_id": "e3e716b0-bbc2-456d-b2f3-ae555f1c0b31",
       "page_no": 4
      },
      "currency": "INR",
@@ -299,14 +300,14 @@
      },
      "citation": {
       "bbox": [
-       0.0677,
-       0.0554,
-       0.91159,
-       0.42291
+       0.05939,
+       0.12926,
+       0.80272,
+       0.69969
       ],
-      "chunk_id": "89ed1162-e25c-5518-b939-1ed396e41f58",
-      "cid": "c:j26ud4g",
-      "document_id": "6018dd84-c039-42ed-ac52-3f182bb0484e",
+      "chunk_id": "492733ac-3fd7-55a5-8da2-50eaf4e65620",
+      "cid": "c:jozrodx",
+      "document_id": "e3e716b0-bbc2-456d-b2f3-ae555f1c0b31",
       "page_no": 4
      },
      "currency": "INR",
@@ -386,14 +387,14 @@
    {
     "citation": {
      "bbox": [
-      0.05615,
-      0.0554,
-      0.87657,
-      0.81392
+      0.05939,
+      0.12926,
+      0.92303,
+      0.82434
      ],
-     "chunk_id": "af25f1e8-b455-57af-a536-72c952ed8da9",
-     "cid": "c:qnqqknx",
-     "document_id": "6018dd84-c039-42ed-ac52-3f182bb0484e",
+     "chunk_id": "accd20e5-f57f-532d-ae90-76c2cd08ed79",
+     "cid": "c:dwstyqe",
+     "document_id": "e3e716b0-bbc2-456d-b2f3-ae555f1c0b31",
      "page_no": 6
     },
     "geography": "India",
@@ -413,19 +414,19 @@
    }
   ],
   "recommendation_label": "Pass",
-  "report_markdown": "## 1. Executive Summary\n\nVaultKey Security is an open-source secrets-management startup targeting Indian software teams that currently rely on insecure practices like .env files and chat messages for API keys, database passwords, and certificates [c:vzjbraz]. The company offers SDKs for Go, Python, and Node.js, a self-hostable server, and a managed cloud service with automatic rotation and audit logging [c:otv54ih]. As of September 2026, VaultKey has 4,100 GitHub stars, 380 self-hosted installs, and 9 paying teams, generating an ARR of Rs 0.08 crore (approximately $10k) [c:qnqqknx]. The company is raising a Rs 2 crore pre-seed round at a Rs 12 crore pre-money valuation, led by sole founder Aditya Kulkarni [c:jd3ws64][c:pn6jk3e]. While the product shows early traction and positive unit economics (CAC of Rs 15,000, 2.5-month payback) [c:rkru4g6], significant risks include single-founder dependency, open-source conversion uncertainty, and competition from established players like HashiCorp Vault and AWS Secrets Manager [c:2j4g7hb][c:nuqx7ye]. The overall score is 4.5/10, resulting in a Pass recommendation.\n\n## 2. Problem & Solution\n\nVaultKey addresses a common security gap: small and mid-size software teams store secrets in .env files, CI variables, and chat messages without rotation or audit trails, because enterprise vaults like HashiCorp Vault are too complex to run [c:vzjbraz]. The company estimates that most Indian startups under 50 engineers never rotate production secrets, and running a self-managed enterprise vault requires a part-time platform engineer [c:vzjbraz]. VaultKey\u2019s solution is a developer-first secrets manager with SDKs for Go, Python, and Node.js that fetch secrets at runtime, automatic rotation for Postgres, MySQL, and major cloud API keys, and an audit log of every secret read that can be exported to SIEM tools [c:otv54ih]. The product can be self-hosted for free or used via a managed cloud, making it quick to adopt and cheap to run [c:otv54ih]. The core SDK and server are open source under Apache 2.0, which drives community adoption [c:rxd5aye].\n\n## 3. Market Opportunity\n\nVaultKey targets the secrets-management segment of the India cybersecurity market. The company estimates a TAM of Rs 900 crore (company estimate), SAM of Rs 160 crore (company estimate), and SOM of Rs 6 crore by 2029 (company projection) [c:j26ud4g]. These figures are company-reported and unverified; no independent source for the secrets-management segment was found. The broader India cybersecurity market is large and growing, with MarketsandMarkets projecting it to reach USD 16.86 billion by 2030 from USD 8.58 billion in 2025, a CAGR of 14.5% [w:6][w:10]. Other sources estimate the market at USD 11.34 billion in 2025 growing at 15.46% CAGR through 2034 [w:8], or USD 5.56 billion in 2025 growing at 18.07% CAGR through 2031 [w:9]. The variation in base estimates reflects different scopes, but all confirm strong tailwinds from cloud adoption and data protection regulations like India\u2019s DPDP Act [w:12][w:13]. Global cybersecurity venture funding also remains robust, with $6.8 billion invested in Q3 2026 alone [w:11]. However, VaultKey\u2019s specific segment sizing is weak and the SOM projection of Rs 6 crore by 2029 is modest.\n\n## 4. Competitive Landscape\n\nThe secrets-management market is dominated by three established players: HashiCorp Vault (now owned by IBM), AWS Secrets Manager, and Doppler [w:1][w:2][w:3][w:4][w:5]. HashiCorp Vault is the widely used enterprise platform, AWS Secrets Manager is the default for AWS-locked teams, and Doppler is a developer-first SaaS [c:nuqx7ye][w:1]. Additional competitors include Infisical, Azure Key Vault, CyberArk Conjur, and Akeyless [w:3][w:4][w:5]. VaultKey\u2019s competitive edge is its open-source community (4,100 GitHub stars, 62 contributors) and developer-first SDKs that enable adoption in minutes [c:nuqx7ye][c:qnqqknx]. However, the company has no evidence of switching costs, data network effects, or proprietary IP beyond the open-source code. The deck\u2019s competitive slide lists only three competitors and does not address Infisical, which is also open-source and developer-focused [w:3][w:5]. The risk of free cloud-native services (e.g., AWS Secrets Manager for teams already on AWS) competing on convenience is explicitly acknowledged [c:2j4g7hb].\n\n## 5. Business Model\n\nVaultKey operates a dual revenue model: a managed cloud team plan at Rs 6,000 per month (63% of revenue) and an enterprise self-hosted licence at Rs 150,000 per year (37% of revenue) that includes SSO, audit export, and support [c:rxd5aye]. The core SDK and server are free and open source under Apache 2.0 [c:rxd5aye]. Gross margin is 80% after hosting costs of about Rs 900 per team per month [c:rkru4g6]. Early unit economics show a customer acquisition cost (CAC) of Rs 15,000 and a CAC payback of 2.5 months, indicating positive unit economics on early data [c:rkru4g6]. However, scale is minimal: only 9 paying teams (7 managed cloud, 2 enterprise) and a 2.3% conversion rate from 380 self-hosted installs [c:qnqqknx][c:rkru4g6]. ARR grew from Rs 0.01 crore in 2025 to Rs 0.08 crore in 2026 [c:qnqqknx]. The business model score of 6.0 reflects defined pricing and positive early unit economics, but the tiny revenue base and uncertain conversion from open-source users are significant concerns.\n\n## 6. Team Assessment\n\nThe team consists of a single founder, Aditya Kulkarni, who has 8 years of relevant platform and security engineering experience at SaaS companies and is the creator and lead maintainer of VaultKey [c:dp3am34]. The only other director is Sunita Kulkarni, a non-executive family member [c:2j4g7hb]. This creates extreme key-person risk, as the entire product and company depend on one individual [c:2j4g7hb]. The deck acknowledges this risk and includes a hiring milestone (senior go-to-market lead) as a tranche condition in the fundraise [c:pn6jk3e]. There are no co-founders, no CTO, no head of sales, and no advisory board mentioned. The team score of 3.2 reflects the lack of a complete team and the high dependency on the founder. The deck attempts to instruct the evaluator by framing the single-founder risk as a known and mitigated factor, but the mitigation (a hiring milestone) is contingent on raising the full round and does not reduce current risk.\n\n## 7. Traction & Milestones\n\nVaultKey has achieved early traction with 9 paying teams (7 managed cloud, 2 enterprise licences) and an ARR of Rs 0.08 crore (company-reported, unverified) as of September 2026, up from Rs 0.01 crore in 2025 [c:qnqqknx]. The open-source community shows 4,100 GitHub stars and 62 external contributors, with 380 self-hosted installs reporting opt-in telemetry [c:qnqqknx]. Unit economics are positive on early data: CAC of Rs 15,000, a 2.5-month payback, and 80% gross margin, with a 2.3% conversion rate from self-hosted installs to paid [c:rkru4g6]. The company targets 60 paying teams within 18 months [c:2j4g7hb].\n\n## 8. Compliance & Governance\n\nThe company is registered as VAULTKEY SECURITY PRIVATE LIMITED (CIN U62099MH2025PTC451382) with the MCA, status ACTIVE, and has no compliance flags [c:jd3ws64]. Directors are Aditya Kulkarni (Founder & CEO) and Sunita Kulkarni (non-executive family member) [c:jd3ws64][c:2j4g7hb]. The deck does not attempt to instruct the evaluator. No governance concerns beyond the single-founder structure.\n\n## 9. Risks & Challenges\n\nKey-person risk is high: the company has a single founder, Aditya Kulkarni, and the only other director is a non-executive family member, with no co-founders or key hires in place [c:2j4g7hb][c:dp3am34]. Open-source conversion risk is material: only 2.3% of 380 self-hosted installs have converted to paid, and the deck itself flags that open-source users may never convert [c:rkru4g6][c:2j4g7hb]. Vulnerability trust risk is acute for a security product; a single serious vulnerability could destroy trust [c:2j4g7hb]. Competition from free cloud-native services (e.g., AWS Secrets Manager) and established players (HashiCorp Vault, Doppler) is intense [c:nuqx7ye][w:1][w:2][w:3][w:4][w:5]. The deck acknowledges these risks but provides only high-level mitigations (hiring plans, a security audit milestone) [c:pn6jk3e][c:2j4g7hb].\n\n## 10. Investment Thesis\n\nVaultKey addresses a real pain point for small and mid-size software teams that lack a lightweight, developer-first secrets manager [c:vzjbraz][c:otv54ih]. The open-source community traction (4,100 GitHub stars, 62 contributors) and early paying customers (9 teams) demonstrate initial product-market fit [c:qnqqknx]. The business model shows positive unit economics (CAC payback 2.5 months, 80% gross margin) on a small base [c:rkru4g6]. However, the market sizing is weak (TAM of Rs 900 crore is a company estimate, not independently verified) [c:j26ud4g], and the team is a single founder with no co-founders or key hires, creating extreme key-person risk [c:dp3am34][c:2j4g7hb]. The competitive landscape is dominated by well-funded incumbents (HashiCorp Vault, AWS Secrets Manager, Doppler) with stronger moats [c:nuqx7ye][w:1][w:2][w:3][w:4][w:5]. The pre-seed round of Rs 2 crore at Rs 12 crore pre-money is modest, but the tranche structure tied to milestones (senior hire, security audit, 40 paying teams) provides some investor protection [c:pn6jk3e]. Overall, the opportunity is real but execution risk is high.\n\n## 11. Recommendation\n\n**Pass (4.5/10)**. VaultKey shows early product-market fit with a working product, 9 paying teams, and positive unit economics, but the single-founder team, weak market sizing, and intense competition from established players create significant risk. The pre-seed round is small and milestone-tranched, which mitigates some downside. Invest only if comfortable with high key-person risk and a long path to scale.",
+  "report_markdown": "## 1. Executive Summary\n\nVaultKey Security is an open-source secrets-management startup targeting Indian software teams that currently rely on insecure practices like .env files and chat messages for API keys, database passwords, and certificates [c:ffkhh63]. The company offers SDKs for Go, Python, and Node.js, a self-hostable server, and a managed cloud service with automatic rotation and audit logging [c:uz3cnon]. As of September 2026, VaultKey has 4,100 GitHub stars, 380 self-hosted installs, and 9 paying teams, generating an ARR of Rs 0.08 crore (approximately $10k) [c:dwstyqe]. The company is raising a Rs 2 crore pre-seed round at a Rs 12 crore pre-money valuation, led by sole founder Aditya Kulkarni [c:5sfv6ze][c:37dxi4n]. While the product shows early traction and positive unit economics (CAC of Rs 15,000, 2.5-month payback) [c:seowznw], significant risks include single-founder dependency, open-source conversion uncertainty, and competition from established players like HashiCorp Vault and AWS Secrets Manager [c:uw3cbvs][c:fcmn5qo]. The overall score is 4.5/10, resulting in a Pass recommendation.\n\n## 2. Problem & Solution\n\nVaultKey addresses a common security gap: small and mid-size software teams store secrets in .env files, CI variables, and chat messages without rotation or audit trails, because enterprise vaults like HashiCorp Vault are too complex to run [c:ffkhh63]. The company estimates that most Indian startups under 50 engineers never rotate production secrets, and running a self-managed enterprise vault requires a part-time platform engineer [c:ffkhh63]. VaultKey\u2019s solution is a developer-first secrets manager with SDKs for Go, Python, and Node.js that fetch secrets at runtime, automatic rotation for Postgres, MySQL, and major cloud API keys, and an audit log of every secret read that can be exported to SIEM tools [c:uz3cnon]. The product can be self-hosted for free or used via a managed cloud, making it quick to adopt and cheap to run [c:uz3cnon]. The core SDK and server are open source under Apache 2.0, which drives community adoption [c:ph2q3ej].\n\n## 3. Market Opportunity\n\nVaultKey targets the secrets-management segment of the India cybersecurity market. The company estimates a TAM of Rs 900 crore (company estimate), SAM of Rs 160 crore (company estimate), and SOM of Rs 6 crore by 2029 (company projection) [c:jozrodx]. These figures are company-reported and unverified; no independent source for the secrets-management segment was found. The broader India cybersecurity market is large and growing, with MarketsandMarkets projecting it to reach USD 16.86 billion by 2030 from USD 8.58 billion in 2025, a CAGR of 14.5% [w:6][w:10]. Other sources estimate the market at USD 11.34 billion in 2025 growing at 15.46% CAGR through 2034 [w:8], or USD 5.56 billion in 2025 growing at 18.07% CAGR through 2031 [w:9]. The variation in base estimates reflects different scopes, but all confirm strong tailwinds from cloud adoption and data protection regulations like India\u2019s DPDP Act [w:12][w:13]. Global cybersecurity venture funding also remains robust, with $6.8 billion invested in Q3 2026 alone [w:11]. However, VaultKey\u2019s specific segment sizing is weak and the SOM projection of Rs 6 crore by 2029 is modest.\n\n## 4. Competitive Landscape\n\nThe secrets-management market is dominated by three established players: HashiCorp Vault (now owned by IBM), AWS Secrets Manager, and Doppler [w:1][w:2][w:3][w:4][w:5]. HashiCorp Vault is the widely used enterprise platform, AWS Secrets Manager is the default for AWS-locked teams, and Doppler is a developer-first SaaS [c:fcmn5qo][w:1]. Additional competitors include Infisical, Azure Key Vault, CyberArk Conjur, and Akeyless [w:3][w:4][w:5]. VaultKey\u2019s competitive edge is its open-source community (4,100 GitHub stars, 62 contributors) and developer-first SDKs that enable adoption in minutes [c:fcmn5qo][c:dwstyqe]. However, the company has no evidence of switching costs, data network effects, or proprietary IP beyond the open-source code. The deck\u2019s competitive slide lists only three competitors and does not address Infisical, which is also open-source and developer-focused [w:3][w:5]. The risk of free cloud-native services (e.g., AWS Secrets Manager for teams already on AWS) competing on convenience is explicitly acknowledged [c:uw3cbvs].\n\n## 5. Business Model\n\nVaultKey operates a dual revenue model: a managed cloud team plan at Rs 6,000 per month (63% of revenue) and an enterprise self-hosted licence at Rs 150,000 per year (37% of revenue) that includes SSO, audit export, and support [c:ph2q3ej]. The core SDK and server are free and open source under Apache 2.0 [c:ph2q3ej]. Gross margin is 80% after hosting costs of about Rs 900 per team per month [c:seowznw]. Early unit economics show a customer acquisition cost (CAC) of Rs 15,000 and a CAC payback of 2.5 months, indicating positive unit economics on early data [c:seowznw]. However, scale is minimal: only 9 paying teams (7 managed cloud, 2 enterprise) and a 2.3% conversion rate from 380 self-hosted installs [c:dwstyqe][c:seowznw]. ARR grew from Rs 0.01 crore in 2025 to Rs 0.08 crore in 2026 [c:dwstyqe]. The business model score of 6.0 reflects defined pricing and positive early unit economics, but the tiny revenue base and uncertain conversion from open-source users are significant concerns.\n\n## 6. Team Assessment\n\nThe team consists of a single founder, Aditya Kulkarni, who has 8 years of relevant platform and security engineering experience at SaaS companies and is the creator and lead maintainer of VaultKey [c:oitplxi]. The only other director is Sunita Kulkarni, a non-executive family member [c:uw3cbvs]. This creates extreme key-person risk, as the entire product and company depend on one individual [c:uw3cbvs]. The deck acknowledges this risk and includes a hiring milestone (senior go-to-market lead) as a tranche condition in the fundraise [c:37dxi4n]. There are no co-founders, no CTO, no head of sales, and no advisory board mentioned. The team score of 3.2 reflects the lack of a complete team and the high dependency on the founder. The deck attempts to instruct the evaluator by framing the single-founder risk as a known and mitigated factor, but the mitigation (a hiring milestone) is contingent on raising the full round and does not reduce current risk.\n\n## 7. Traction & Milestones\n\nVaultKey has achieved early traction with 9 paying teams (7 managed cloud, 2 enterprise licences) and an ARR of Rs 0.08 crore (company-reported, unverified) as of September 2026, up from Rs 0.01 crore in 2025 [c:dwstyqe]. The open-source community shows 4,100 GitHub stars and 62 external contributors, with 380 self-hosted installs reporting opt-in telemetry [c:dwstyqe]. Unit economics are positive on early data: CAC of Rs 15,000, a 2.5-month payback, and 80% gross margin, with a 2.3% conversion rate from self-hosted installs to paid [c:seowznw]. The company targets 60 paying teams within 18 months [c:uw3cbvs].\n\n## 8. Compliance & Governance\n\nThe company is registered as VAULTKEY SECURITY PRIVATE LIMITED (CIN U62099MH2025PTC451382) with the MCA, status ACTIVE, and has no compliance flags [c:5sfv6ze]. Directors are Aditya Kulkarni (Founder & CEO) and Sunita Kulkarni (non-executive family member) [c:5sfv6ze][c:uw3cbvs]. The deck does not attempt to instruct the evaluator. No governance concerns beyond the single-founder structure.\n\n## 9. Risks & Challenges\n\nKey-person risk is high: the company has a single founder, Aditya Kulkarni, and the only other director is a non-executive family member, with no co-founders or key hires in place [c:uw3cbvs][c:oitplxi]. Open-source conversion risk is material: only 2.3% of 380 self-hosted installs have converted to paid, and the deck itself flags that open-source users may never convert [c:seowznw][c:uw3cbvs]. Vulnerability trust risk is acute for a security product; a single serious vulnerability could destroy trust [c:uw3cbvs]. Competition from free cloud-native services (e.g., AWS Secrets Manager) and established players (HashiCorp Vault, Doppler) is intense [c:fcmn5qo][w:1][w:2][w:3][w:4][w:5]. The deck acknowledges these risks but provides only high-level mitigations (hiring plans, a security audit milestone) [c:37dxi4n][c:uw3cbvs].\n\n## 10. Investment Thesis\n\nVaultKey addresses a real pain point for small and mid-size software teams that lack a lightweight, developer-first secrets manager [c:ffkhh63][c:uz3cnon]. The open-source community traction (4,100 GitHub stars, 62 contributors) and early paying customers (9 teams) demonstrate initial product-market fit [c:dwstyqe]. The business model shows positive unit economics (CAC payback 2.5 months, 80% gross margin) on a small base [c:seowznw]. However, the market sizing is weak (TAM of Rs 900 crore is a company estimate, not independently verified) [c:jozrodx], and the team is a single founder with no co-founders or key hires, creating extreme key-person risk [c:oitplxi][c:uw3cbvs]. The competitive landscape is dominated by well-funded incumbents (HashiCorp Vault, AWS Secrets Manager, Doppler) with stronger moats [c:fcmn5qo][w:1][w:2][w:3][w:4][w:5]. The pre-seed round of Rs 2 crore at Rs 12 crore pre-money is modest, but the tranche structure tied to milestones (senior hire, security audit, 40 paying teams) provides some investor protection [c:37dxi4n]. Overall, the opportunity is real but execution risk is high.\n\n## 11. Recommendation\n\n**Pass (4.5/10)**. VaultKey shows early product-market fit with a working product, 9 paying teams, and positive unit economics, but the single-founder team, weak market sizing, and intense competition from established players create significant risk. The pre-seed round is small and milestone-tranched, which mitigates some downside. Invest only if comfortable with high key-person risk and a long path to scale.",
   "revenue_currency": "INR",
   "revenue_metric": "ARR",
   "rewrites": 0,
   "rubric_version": "r1",
   "score_rationales": {
-   "business_model": "Pricing is defined (Rs 6,000/month managed cloud, Rs 150,000/year enterprise), gross margin is 80%, and early unit economics show CAC of Rs 15,000 and a 2.5-month payback, indicating positive unit economics on early data. However, scale is minimal (9 paying teams). [c:rxd5aye][c:rkru4g6]",
-   "execution_risk": "Significant risks are identified: single founder (key-person risk), open-source conversion uncertainty, vulnerability trust risk, and competition from free cloud-native services. Mitigations are not detailed beyond hiring plans and a security audit milestone. [c:2j4g7hb][c:pn6jk3e]",
-   "market": "The TAM of Rs 900 crore (India secrets-management) is a company estimate without independent backing; the broader India cybersecurity market is large and growing (e.g., 14.5% CAGR from MarketsandMarkets [w:6][w:10]), but the specific secrets-management segment sizing is weak. SOM of Rs 6 crore by 2029 is a company projection. [c:j26ud4g][w:6][w:10]",
-   "moat": "Execution advantages include open-source community (4,100 GitHub stars, 62 contributors) and developer-first SDKs, but the competitive landscape includes HashiCorp Vault, AWS Secrets Manager, and Doppler, which have stronger moats. No evidence of switching costs, data network effects, or IP beyond open-source code. [c:nuqx7ye][c:qnqqknx]",
-   "product": "VaultKey has a working product with SDKs for Go/Python/Node.js, a self-hostable server, and a managed cloud, used by 9 paying teams. It shows a clear value proposition (secret rotation, audit, developer-first) but has not demonstrated strong product-market fit via retention or expansion metrics. [c:otv54ih][c:qnqqknx]",
-   "team": "Single founder Aditya Kulkarni has 8 years of relevant platform/security engineering experience and created the product, but the team is incomplete (no co-founders or key hires), and the only other director is a non-executive family member, creating key-person risk. [c:dp3am34][c:2j4g7hb]",
-   "traction": "9 paying teams and ARR of Rs 0.08 crore (about $10k) indicate early paying customers but very small revenue. Growth from Rs 0.01 crore to Rs 0.08 crore over one year is promising but not yet strong or sustained. GitHub stars and self-hosted installs are leading indicators, not revenue traction. [c:qnqqknx][c:rkru4g6]"
+   "business_model": "Pricing is defined (Rs 6,000/month managed cloud, Rs 150,000/year enterprise), gross margin is 80%, and early unit economics show CAC of Rs 15,000 and a 2.5-month payback, indicating positive unit economics on early data. However, scale is minimal (9 paying teams). [c:ph2q3ej][c:seowznw]",
+   "execution_risk": "Significant risks are identified: single founder (key-person risk), open-source conversion uncertainty, vulnerability trust risk, and competition from free cloud-native services. Mitigations are not detailed beyond hiring plans and a security audit milestone. [c:uw3cbvs][c:37dxi4n]",
+   "market": "The TAM of Rs 900 crore (India secrets-management) is a company estimate without independent backing; the broader India cybersecurity market is large and growing (e.g., 14.5% CAGR from MarketsandMarkets [w:6][w:10]), but the specific secrets-management segment sizing is weak. SOM of Rs 6 crore by 2029 is a company projection. [c:jozrodx][w:6][w:10]",
+   "moat": "Execution advantages include open-source community (4,100 GitHub stars, 62 contributors) and developer-first SDKs, but the competitive landscape includes HashiCorp Vault, AWS Secrets Manager, and Doppler, which have stronger moats. No evidence of switching costs, data network effects, or IP beyond open-source code. [c:fcmn5qo][c:dwstyqe]",
+   "product": "VaultKey has a working product with SDKs for Go/Python/Node.js, a self-hostable server, and a managed cloud, used by 9 paying teams. It shows a clear value proposition (secret rotation, audit, developer-first) but has not demonstrated strong product-market fit via retention or expansion metrics. [c:uz3cnon][c:dwstyqe]",
+   "team": "Single founder Aditya Kulkarni has 8 years of relevant platform/security engineering experience and created the product, but the team is incomplete (no co-founders or key hires), and the only other director is a non-executive family member, creating key-person risk. [c:oitplxi][c:uw3cbvs]",
+   "traction": "9 paying teams and ARR of Rs 0.08 crore (about $10k) indicate early paying customers but very small revenue. Growth from Rs 0.01 crore to Rs 0.08 crore over one year is promising but not yet strong or sustained. GitHub stars and self-hosted installs are leading indicators, not revenue traction. [c:dwstyqe][c:seowznw]"
   },
   "score_spread": {
    "business_model": 0.0,
@@ -437,17 +438,17 @@
    "traction": 0.5
   },
   "sections": {
-   "business_model": "VaultKey operates a dual revenue model: a managed cloud team plan at Rs 6,000 per month (63% of revenue) and an enterprise self-hosted licence at Rs 150,000 per year (37% of revenue) that includes SSO, audit export, and support [c:rxd5aye]. The core SDK and server are free and open source under Apache 2.0 [c:rxd5aye]. Gross margin is 80% after hosting costs of about Rs 900 per team per month [c:rkru4g6]. Early unit economics show a customer acquisition cost (CAC) of Rs 15,000 and a CAC payback of 2.5 months, indicating positive unit economics on early data [c:rkru4g6]. However, scale is minimal: only 9 paying teams (7 managed cloud, 2 enterprise) and a 2.3% conversion rate from 380 self-hosted installs [c:qnqqknx][c:rkru4g6]. ARR grew from Rs 0.01 crore in 2025 to Rs 0.08 crore in 2026 [c:qnqqknx]. The business model score of 6.0 reflects defined pricing and positive early unit economics, but the tiny revenue base and uncertain conversion from open-source users are significant concerns.",
-   "competitive_landscape": "The secrets-management market is dominated by three established players: HashiCorp Vault (now owned by IBM), AWS Secrets Manager, and Doppler [w:1][w:2][w:3][w:4][w:5]. HashiCorp Vault is the widely used enterprise platform, AWS Secrets Manager is the default for AWS-locked teams, and Doppler is a developer-first SaaS [c:nuqx7ye][w:1]. Additional competitors include Infisical, Azure Key Vault, CyberArk Conjur, and Akeyless [w:3][w:4][w:5]. VaultKey\u2019s competitive edge is its open-source community (4,100 GitHub stars, 62 contributors) and developer-first SDKs that enable adoption in minutes [c:nuqx7ye][c:qnqqknx]. However, the company has no evidence of switching costs, data network effects, or proprietary IP beyond the open-source code. The deck\u2019s competitive slide lists only three competitors and does not address Infisical, which is also open-source and developer-focused [w:3][w:5]. The risk of free cloud-native services (e.g., AWS Secrets Manager for teams already on AWS) competing on convenience is explicitly acknowledged [c:2j4g7hb].",
-   "compliance_governance": "The company is registered as VAULTKEY SECURITY PRIVATE LIMITED (CIN U62099MH2025PTC451382) with the MCA, status ACTIVE, and has no compliance flags [c:jd3ws64]. Directors are Aditya Kulkarni (Founder & CEO) and Sunita Kulkarni (non-executive family member) [c:jd3ws64][c:2j4g7hb]. The deck does not attempt to instruct the evaluator. No governance concerns beyond the single-founder structure.",
-   "executive_summary": "VaultKey Security is an open-source secrets-management startup targeting Indian software teams that currently rely on insecure practices like .env files and chat messages for API keys, database passwords, and certificates [c:vzjbraz]. The company offers SDKs for Go, Python, and Node.js, a self-hostable server, and a managed cloud service with automatic rotation and audit logging [c:otv54ih]. As of September 2026, VaultKey has 4,100 GitHub stars, 380 self-hosted installs, and 9 paying teams, generating an ARR of Rs 0.08 crore (approximately $10k) [c:qnqqknx]. The company is raising a Rs 2 crore pre-seed round at a Rs 12 crore pre-money valuation, led by sole founder Aditya Kulkarni [c:jd3ws64][c:pn6jk3e]. While the product shows early traction and positive unit economics (CAC of Rs 15,000, 2.5-month payback) [c:rkru4g6], significant risks include single-founder dependency, open-source conversion uncertainty, and competition from established players like HashiCorp Vault and AWS Secrets Manager [c:2j4g7hb][c:nuqx7ye]. The overall score is 4.5/10, resulting in a Pass recommendation.",
-   "investment_thesis": "VaultKey addresses a real pain point for small and mid-size software teams that lack a lightweight, developer-first secrets manager [c:vzjbraz][c:otv54ih]. The open-source community traction (4,100 GitHub stars, 62 contributors) and early paying customers (9 teams) demonstrate initial product-market fit [c:qnqqknx]. The business model shows positive unit economics (CAC payback 2.5 months, 80% gross margin) on a small base [c:rkru4g6]. However, the market sizing is weak (TAM of Rs 900 crore is a company estimate, not independently verified) [c:j26ud4g], and the team is a single founder with no co-founders or key hires, creating extreme key-person risk [c:dp3am34][c:2j4g7hb]. The competitive landscape is dominated by well-funded incumbents (HashiCorp Vault, AWS Secrets Manager, Doppler) with stronger moats [c:nuqx7ye][w:1][w:2][w:3][w:4][w:5]. The pre-seed round of Rs 2 crore at Rs 12 crore pre-money is modest, but the tranche structure tied to milestones (senior hire, security audit, 40 paying teams) provides some investor protection [c:pn6jk3e]. Overall, the opportunity is real but execution risk is high.",
-   "market_opportunity": "VaultKey targets the secrets-management segment of the India cybersecurity market. The company estimates a TAM of Rs 900 crore (company estimate), SAM of Rs 160 crore (company estimate), and SOM of Rs 6 crore by 2029 (company projection) [c:j26ud4g]. These figures are company-reported and unverified; no independent source for the secrets-management segment was found. The broader India cybersecurity market is large and growing, with MarketsandMarkets projecting it to reach USD 16.86 billion by 2030 from USD 8.58 billion in 2025, a CAGR of 14.5% [w:6][w:10]. Other sources estimate the market at USD 11.34 billion in 2025 growing at 15.46% CAGR through 2034 [w:8], or USD 5.56 billion in 2025 growing at 18.07% CAGR through 2031 [w:9]. The variation in base estimates reflects different scopes, but all confirm strong tailwinds from cloud adoption and data protection regulations like India\u2019s DPDP Act [w:12][w:13]. Global cybersecurity venture funding also remains robust, with $6.8 billion invested in Q3 2026 alone [w:11]. However, VaultKey\u2019s specific segment sizing is weak and the SOM projection of Rs 6 crore by 2029 is modest.",
-   "problem_solution": "VaultKey addresses a common security gap: small and mid-size software teams store secrets in .env files, CI variables, and chat messages without rotation or audit trails, because enterprise vaults like HashiCorp Vault are too complex to run [c:vzjbraz]. The company estimates that most Indian startups under 50 engineers never rotate production secrets, and running a self-managed enterprise vault requires a part-time platform engineer [c:vzjbraz]. VaultKey\u2019s solution is a developer-first secrets manager with SDKs for Go, Python, and Node.js that fetch secrets at runtime, automatic rotation for Postgres, MySQL, and major cloud API keys, and an audit log of every secret read that can be exported to SIEM tools [c:otv54ih]. The product can be self-hosted for free or used via a managed cloud, making it quick to adopt and cheap to run [c:otv54ih]. The core SDK and server are open source under Apache 2.0, which drives community adoption [c:rxd5aye].",
+   "business_model": "VaultKey operates a dual revenue model: a managed cloud team plan at Rs 6,000 per month (63% of revenue) and an enterprise self-hosted licence at Rs 150,000 per year (37% of revenue) that includes SSO, audit export, and support [c:ph2q3ej]. The core SDK and server are free and open source under Apache 2.0 [c:ph2q3ej]. Gross margin is 80% after hosting costs of about Rs 900 per team per month [c:seowznw]. Early unit economics show a customer acquisition cost (CAC) of Rs 15,000 and a CAC payback of 2.5 months, indicating positive unit economics on early data [c:seowznw]. However, scale is minimal: only 9 paying teams (7 managed cloud, 2 enterprise) and a 2.3% conversion rate from 380 self-hosted installs [c:dwstyqe][c:seowznw]. ARR grew from Rs 0.01 crore in 2025 to Rs 0.08 crore in 2026 [c:dwstyqe]. The business model score of 6.0 reflects defined pricing and positive early unit economics, but the tiny revenue base and uncertain conversion from open-source users are significant concerns.",
+   "competitive_landscape": "The secrets-management market is dominated by three established players: HashiCorp Vault (now owned by IBM), AWS Secrets Manager, and Doppler [w:1][w:2][w:3][w:4][w:5]. HashiCorp Vault is the widely used enterprise platform, AWS Secrets Manager is the default for AWS-locked teams, and Doppler is a developer-first SaaS [c:fcmn5qo][w:1]. Additional competitors include Infisical, Azure Key Vault, CyberArk Conjur, and Akeyless [w:3][w:4][w:5]. VaultKey\u2019s competitive edge is its open-source community (4,100 GitHub stars, 62 contributors) and developer-first SDKs that enable adoption in minutes [c:fcmn5qo][c:dwstyqe]. However, the company has no evidence of switching costs, data network effects, or proprietary IP beyond the open-source code. The deck\u2019s competitive slide lists only three competitors and does not address Infisical, which is also open-source and developer-focused [w:3][w:5]. The risk of free cloud-native services (e.g., AWS Secrets Manager for teams already on AWS) competing on convenience is explicitly acknowledged [c:uw3cbvs].",
+   "compliance_governance": "The company is registered as VAULTKEY SECURITY PRIVATE LIMITED (CIN U62099MH2025PTC451382) with the MCA, status ACTIVE, and has no compliance flags [c:5sfv6ze]. Directors are Aditya Kulkarni (Founder & CEO) and Sunita Kulkarni (non-executive family member) [c:5sfv6ze][c:uw3cbvs]. The deck does not attempt to instruct the evaluator. No governance concerns beyond the single-founder structure.",
+   "executive_summary": "VaultKey Security is an open-source secrets-management startup targeting Indian software teams that currently rely on insecure practices like .env files and chat messages for API keys, database passwords, and certificates [c:ffkhh63]. The company offers SDKs for Go, Python, and Node.js, a self-hostable server, and a managed cloud service with automatic rotation and audit logging [c:uz3cnon]. As of September 2026, VaultKey has 4,100 GitHub stars, 380 self-hosted installs, and 9 paying teams, generating an ARR of Rs 0.08 crore (approximately $10k) [c:dwstyqe]. The company is raising a Rs 2 crore pre-seed round at a Rs 12 crore pre-money valuation, led by sole founder Aditya Kulkarni [c:5sfv6ze][c:37dxi4n]. While the product shows early traction and positive unit economics (CAC of Rs 15,000, 2.5-month payback) [c:seowznw], significant risks include single-founder dependency, open-source conversion uncertainty, and competition from established players like HashiCorp Vault and AWS Secrets Manager [c:uw3cbvs][c:fcmn5qo]. The overall score is 4.5/10, resulting in a Pass recommendation.",
+   "investment_thesis": "VaultKey addresses a real pain point for small and mid-size software teams that lack a lightweight, developer-first secrets manager [c:ffkhh63][c:uz3cnon]. The open-source community traction (4,100 GitHub stars, 62 contributors) and early paying customers (9 teams) demonstrate initial product-market fit [c:dwstyqe]. The business model shows positive unit economics (CAC payback 2.5 months, 80% gross margin) on a small base [c:seowznw]. However, the market sizing is weak (TAM of Rs 900 crore is a company estimate, not independently verified) [c:jozrodx], and the team is a single founder with no co-founders or key hires, creating extreme key-person risk [c:oitplxi][c:uw3cbvs]. The competitive landscape is dominated by well-funded incumbents (HashiCorp Vault, AWS Secrets Manager, Doppler) with stronger moats [c:fcmn5qo][w:1][w:2][w:3][w:4][w:5]. The pre-seed round of Rs 2 crore at Rs 12 crore pre-money is modest, but the tranche structure tied to milestones (senior hire, security audit, 40 paying teams) provides some investor protection [c:37dxi4n]. Overall, the opportunity is real but execution risk is high.",
+   "market_opportunity": "VaultKey targets the secrets-management segment of the India cybersecurity market. The company estimates a TAM of Rs 900 crore (company estimate), SAM of Rs 160 crore (company estimate), and SOM of Rs 6 crore by 2029 (company projection) [c:jozrodx]. These figures are company-reported and unverified; no independent source for the secrets-management segment was found. The broader India cybersecurity market is large and growing, with MarketsandMarkets projecting it to reach USD 16.86 billion by 2030 from USD 8.58 billion in 2025, a CAGR of 14.5% [w:6][w:10]. Other sources estimate the market at USD 11.34 billion in 2025 growing at 15.46% CAGR through 2034 [w:8], or USD 5.56 billion in 2025 growing at 18.07% CAGR through 2031 [w:9]. The variation in base estimates reflects different scopes, but all confirm strong tailwinds from cloud adoption and data protection regulations like India\u2019s DPDP Act [w:12][w:13]. Global cybersecurity venture funding also remains robust, with $6.8 billion invested in Q3 2026 alone [w:11]. However, VaultKey\u2019s specific segment sizing is weak and the SOM projection of Rs 6 crore by 2029 is modest.",
+   "problem_solution": "VaultKey addresses a common security gap: small and mid-size software teams store secrets in .env files, CI variables, and chat messages without rotation or audit trails, because enterprise vaults like HashiCorp Vault are too complex to run [c:ffkhh63]. The company estimates that most Indian startups under 50 engineers never rotate production secrets, and running a self-managed enterprise vault requires a part-time platform engineer [c:ffkhh63]. VaultKey\u2019s solution is a developer-first secrets manager with SDKs for Go, Python, and Node.js that fetch secrets at runtime, automatic rotation for Postgres, MySQL, and major cloud API keys, and an audit log of every secret read that can be exported to SIEM tools [c:uz3cnon]. The product can be self-hosted for free or used via a managed cloud, making it quick to adopt and cheap to run [c:uz3cnon]. The core SDK and server are open source under Apache 2.0, which drives community adoption [c:ph2q3ej].",
    "recommendation": "**Pass (4.5/10)**. VaultKey shows early product-market fit with a working product, 9 paying teams, and positive unit economics, but the single-founder team, weak market sizing, and intense competition from established players create significant risk. The pre-seed round is small and milestone-tranched, which mitigates some downside. Invest only if comfortable with high key-person risk and a long path to scale.",
-   "risks_challenges": "Key-person risk is high: the company has a single founder, Aditya Kulkarni, and the only other director is a non-executive family member, with no co-founders or key hires in place [c:2j4g7hb][c:dp3am34]. Open-source conversion risk is material: only 2.3% of 380 self-hosted installs have converted to paid, and the deck itself flags that open-source users may never convert [c:rkru4g6][c:2j4g7hb]. Vulnerability trust risk is acute for a security product; a single serious vulnerability could destroy trust [c:2j4g7hb]. Competition from free cloud-native services (e.g., AWS Secrets Manager) and established players (HashiCorp Vault, Doppler) is intense [c:nuqx7ye][w:1][w:2][w:3][w:4][w:5]. The deck acknowledges these risks but provides only high-level mitigations (hiring plans, a security audit milestone) [c:pn6jk3e][c:2j4g7hb].",
-   "team_assessment": "The team consists of a single founder, Aditya Kulkarni, who has 8 years of relevant platform and security engineering experience at SaaS companies and is the creator and lead maintainer of VaultKey [c:dp3am34]. The only other director is Sunita Kulkarni, a non-executive family member [c:2j4g7hb]. This creates extreme key-person risk, as the entire product and company depend on one individual [c:2j4g7hb]. The deck acknowledges this risk and includes a hiring milestone (senior go-to-market lead) as a tranche condition in the fundraise [c:pn6jk3e]. There are no co-founders, no CTO, no head of sales, and no advisory board mentioned. The team score of 3.2 reflects the lack of a complete team and the high dependency on the founder. The deck attempts to instruct the evaluator by framing the single-founder risk as a known and mitigated factor, but the mitigation (a hiring milestone) is contingent on raising the full round and does not reduce current risk.",
-   "traction_milestones": "VaultKey has achieved early traction with 9 paying teams (7 managed cloud, 2 enterprise licences) and an ARR of Rs 0.08 crore (company-reported, unverified) as of September 2026, up from Rs 0.01 crore in 2025 [c:qnqqknx]. The open-source community shows 4,100 GitHub stars and 62 external contributors, with 380 self-hosted installs reporting opt-in telemetry [c:qnqqknx]. Unit economics are positive on early data: CAC of Rs 15,000, a 2.5-month payback, and 80% gross margin, with a 2.3% conversion rate from self-hosted installs to paid [c:rkru4g6]. The company targets 60 paying teams within 18 months [c:2j4g7hb]."
+   "risks_challenges": "Key-person risk is high: the company has a single founder, Aditya Kulkarni, and the only other director is a non-executive family member, with no co-founders or key hires in place [c:uw3cbvs][c:oitplxi]. Open-source conversion risk is material: only 2.3% of 380 self-hosted installs have converted to paid, and the deck itself flags that open-source users may never convert [c:seowznw][c:uw3cbvs]. Vulnerability trust risk is acute for a security product; a single serious vulnerability could destroy trust [c:uw3cbvs]. Competition from free cloud-native services (e.g., AWS Secrets Manager) and established players (HashiCorp Vault, Doppler) is intense [c:fcmn5qo][w:1][w:2][w:3][w:4][w:5]. The deck acknowledges these risks but provides only high-level mitigations (hiring plans, a security audit milestone) [c:37dxi4n][c:uw3cbvs].",
+   "team_assessment": "The team consists of a single founder, Aditya Kulkarni, who has 8 years of relevant platform and security engineering experience at SaaS companies and is the creator and lead maintainer of VaultKey [c:oitplxi]. The only other director is Sunita Kulkarni, a non-executive family member [c:uw3cbvs]. This creates extreme key-person risk, as the entire product and company depend on one individual [c:uw3cbvs]. The deck acknowledges this risk and includes a hiring milestone (senior go-to-market lead) as a tranche condition in the fundraise [c:37dxi4n]. There are no co-founders, no CTO, no head of sales, and no advisory board mentioned. The team score of 3.2 reflects the lack of a complete team and the high dependency on the founder. The deck attempts to instruct the evaluator by framing the single-founder risk as a known and mitigated factor, but the mitigation (a hiring milestone) is contingent on raising the full round and does not reduce current risk.",
+   "traction_milestones": "VaultKey has achieved early traction with 9 paying teams (7 managed cloud, 2 enterprise licences) and an ARR of Rs 0.08 crore (company-reported, unverified) as of September 2026, up from Rs 0.01 crore in 2025 [c:dwstyqe]. The open-source community shows 4,100 GitHub stars and 62 external contributors, with 380 self-hosted installs reporting opt-in telemetry [c:dwstyqe]. Unit economics are positive on early data: CAC of Rs 15,000, a 2.5-month payback, and 80% gross margin, with a 2.3% conversion rate from self-hosted installs to paid [c:seowznw]. The company targets 60 paying teams within 18 months [c:uw3cbvs]."
   },
   "sources": [
    {
@@ -543,5 +544,5 @@
    }
   ]
  },
- "input_hash": "4f7d63e588b9224b5deda949b8084082206c36bf49d0ea6d7bda648226194d0c"
+ "input_hash": "7e26c2a9f67901cb637628297d78b0926cc8c4df5d0e0a3927007ba0613af7f3"
 }

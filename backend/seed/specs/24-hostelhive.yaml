@@ -96,8 +96,6 @@ risks:
   - Long lease commitments while revenue is collected term by term
   - Occupancy drops between academic years
   - A safety incident could badly damage the brand
-deck:
-  palette: proptech
 evaluation_expectations:
   score_band: [5.0, 7.5]
   recommendation_in: [Hold, Buy]

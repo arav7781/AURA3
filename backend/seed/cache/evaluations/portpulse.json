@@ -1,5 +1,6 @@
 {
  "analysis": {
+  "carried_from_input_hash": "c106d99f264bb813504cd2dfa92bdbd62a5349a67b23c333710e8578832629fb",
   "category_scores": {
    "business_model": 6.7,
    "execution_risk": 2.0,
@@ -10,147 +11,147 @@
    "traction": 6.7
   },
   "citations": {
-   "c:apdojiq": {
+   "c:3e5f7kf": {
     "bbox": [
-     0.0677,
-     0.0554,
-     0.90499,
-     0.50907
+     0.05939,
+     0.12926,
+     0.9179,
+     0.80352
     ],
-    "chunk_id": "69eb212e-22fd-5348-8ff8-78cb0be6e0a7",
-    "document_id": "a40e309b-99eb-4c44-99e0-ab9a6755512c",
-    "page_no": 1,
-    "slide_title": "PortPulse",
-    "type": "deck"
-   },
-   "c:aqn245p": {
-    "bbox": [
-     0.0677,
-     0.0554,
-     0.90504,
-     0.55436
-    ],
-    "chunk_id": "22c4d078-2b99-5a3e-9bab-4e43e9d59669",
-    "document_id": "a40e309b-99eb-4c44-99e0-ab9a6755512c",
-    "page_no": 3,
-    "slide_title": "Solution",
-    "type": "deck"
-   },
-   "c:btt7sjv": {
-    "bbox": [
-     0.0677,
-     0.0554,
-     0.92163,
-     0.4682
-    ],
-    "chunk_id": "ae1d4d86-d170-58a1-a36f-75518fb3a15a",
-    "document_id": "a40e309b-99eb-4c44-99e0-ab9a6755512c",
-    "page_no": 10,
-    "slide_title": "Team",
-    "type": "deck"
-   },
-   "c:deh66rf": {
-    "bbox": [
-     0.0677,
-     0.0554,
-     0.84639,
-     0.57729
-    ],
-    "chunk_id": "376d865a-561b-5f08-aa7d-c0ceb6b81c9c",
-    "document_id": "a40e309b-99eb-4c44-99e0-ab9a6755512c",
-    "page_no": 9,
-    "slide_title": "Go-to-Market & Key Risks",
-    "type": "deck"
-   },
-   "c:f6oetlc": {
-    "bbox": [
-     0.05998,
-     0.0554,
-     0.93474,
-     0.74265
-    ],
-    "chunk_id": "5329e64f-069b-52d1-b165-15ac967f3496",
-    "document_id": "a40e309b-99eb-4c44-99e0-ab9a6755512c",
+    "chunk_id": "c96ca663-8b53-5dde-b0e4-35f8921655ef",
+    "document_id": "51c8e4f8-4ad3-4e31-8595-3f1c65661475",
     "page_no": 8,
     "slide_title": "Competitive Landscape",
     "type": "deck"
    },
-   "c:f7v6idc": {
+   "c:c5aufec": {
     "bbox": [
-     0.0677,
-     0.0554,
-     0.85641,
-     0.43886
+     0.05939,
+     0.12926,
+     0.91175,
+     0.82993
     ],
-    "chunk_id": "4504840c-0fe9-5d54-a3da-f54f614789c8",
-    "document_id": "a40e309b-99eb-4c44-99e0-ab9a6755512c",
-    "page_no": 5,
-    "slide_title": "Business Model",
-    "type": "deck"
-   },
-   "c:lub3tmy": {
-    "bbox": [
-     0.0677,
-     0.0554,
-     0.54909,
-     0.45481
-    ],
-    "chunk_id": "e964a47a-54a7-52a5-ab4f-98f200a9917c",
-    "document_id": "a40e309b-99eb-4c44-99e0-ab9a6755512c",
-    "page_no": 7,
-    "slide_title": "Unit Economics",
-    "type": "deck"
-   },
-   "c:qso7juo": {
-    "bbox": [
-     0.0677,
-     0.0554,
-     0.918,
-     0.63306
-    ],
-    "chunk_id": "97f64408-bbaa-510c-8ca9-27ceea95dcb1",
-    "document_id": "a40e309b-99eb-4c44-99e0-ab9a6755512c",
-    "page_no": 2,
-    "slide_title": "Problem",
-    "type": "deck"
-   },
-   "c:sxf6puu": {
-    "bbox": [
-     0.0677,
-     0.0554,
-     0.84007,
-     0.65193
-    ],
-    "chunk_id": "b85bb0a5-6adf-5b36-9c80-dcc7775f66c2",
-    "document_id": "a40e309b-99eb-4c44-99e0-ab9a6755512c",
+    "chunk_id": "ce0ea43b-5528-5b2d-9bec-b4f1f6f1289b",
+    "document_id": "51c8e4f8-4ad3-4e31-8595-3f1c65661475",
     "page_no": 11,
     "slide_title": "The Ask",
     "type": "deck"
    },
-   "c:ybvsoji": {
+   "c:cgmqvli": {
     "bbox": [
-     0.05556,
-     0.0554,
-     0.90707,
-     0.82082
+     0.05939,
+     0.12926,
+     0.83024,
+     0.71981
     ],
-    "chunk_id": "230f919a-4751-5b77-a392-d9f9aed399dc",
-    "document_id": "a40e309b-99eb-4c44-99e0-ab9a6755512c",
+    "chunk_id": "70eea25e-23f9-580b-95ce-4f0dfd6d1d66",
+    "document_id": "51c8e4f8-4ad3-4e31-8595-3f1c65661475",
+    "page_no": 7,
+    "slide_title": "Unit Economics",
+    "type": "deck"
+   },
+   "c:cspqn5w": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.87138,
+     0.74861
+    ],
+    "chunk_id": "8557393d-cdad-511f-9fa1-0f5b235bb8c7",
+    "document_id": "51c8e4f8-4ad3-4e31-8595-3f1c65661475",
+    "page_no": 5,
+    "slide_title": "Business Model",
+    "type": "deck"
+   },
+   "c:cuwjt3o": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.80272,
+     0.73933
+    ],
+    "chunk_id": "cd0b8754-5ec5-5298-bdcf-ba88642de260",
+    "document_id": "51c8e4f8-4ad3-4e31-8595-3f1c65661475",
+    "page_no": 4,
+    "slide_title": "Market Opportunity (TAM / SAM / SOM)",
+    "type": "deck"
+   },
+   "c:daudrce": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.88,
+     0.76418
+    ],
+    "chunk_id": "c443f18c-0156-54ba-96d7-f0a5ab12674b",
+    "document_id": "51c8e4f8-4ad3-4e31-8595-3f1c65661475",
+    "page_no": 3,
+    "slide_title": "Solution",
+    "type": "deck"
+   },
+   "c:eafbech": {
+    "bbox": [
+     0.05939,
+     0.22339,
+     0.52769,
+     0.72271
+    ],
+    "chunk_id": "678b201c-cd52-54ae-a22f-057190f59dd4",
+    "document_id": "51c8e4f8-4ad3-4e31-8595-3f1c65661475",
+    "page_no": 1,
+    "slide_title": "PortPulse",
+    "type": "deck"
+   },
+   "c:kbatbqb": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.92303,
+     0.88155
+    ],
+    "chunk_id": "bf9866b8-db61-5566-9a32-52aa41fd8794",
+    "document_id": "51c8e4f8-4ad3-4e31-8595-3f1c65661475",
     "page_no": 6,
     "slide_title": "Traction (as of FY2026)",
     "type": "deck"
    },
-   "c:zl2r3ng": {
+   "c:pwuz2cb": {
     "bbox": [
-     0.0677,
-     0.0554,
-     0.92917,
-     0.42291
+     0.05939,
+     0.12926,
+     0.87153,
+     0.67119
     ],
-    "chunk_id": "7ff22d93-ee29-5830-87c0-4d6014ca1cf0",
-    "document_id": "a40e309b-99eb-4c44-99e0-ab9a6755512c",
-    "page_no": 4,
-    "slide_title": "Market Opportunity (TAM / SAM / SOM)",
+    "chunk_id": "7e7a1752-6acf-5761-9a16-868066c16617",
+    "document_id": "51c8e4f8-4ad3-4e31-8595-3f1c65661475",
+    "page_no": 10,
+    "slide_title": "Team",
+    "type": "deck"
+   },
+   "c:q6rvr4s": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.90253,
+     0.74349
+    ],
+    "chunk_id": "25cccc64-2b3e-57d3-b518-b729a89fca41",
+    "document_id": "51c8e4f8-4ad3-4e31-8595-3f1c65661475",
+    "page_no": 2,
+    "slide_title": "Problem",
+    "type": "deck"
+   },
+   "c:vwuozt4": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.68516,
+     0.77987
+    ],
+    "chunk_id": "ca991e9e-f567-5afb-a8f6-9ce31143e7fb",
+    "document_id": "51c8e4f8-4ad3-4e31-8595-3f1c65661475",
+    "page_no": 9,
+    "slide_title": "Go-to-Market & Key Risks",
     "type": "deck"
    },
    "w:20": {
@@ -182,7 +183,7 @@
   ],
   "evidence_version": 2,
   "generated_at": "2026-10-26T19:31:30.626903Z",
-  "input_hash": "c106d99f264bb813504cd2dfa92bdbd62a5349a67b23c333710e8578832629fb",
+  "input_hash": "957aaa1ec259ffd46a3d42ade566d50e115c73b96e73afed35ad3c3c505394d0",
   "invalid_citations": [
    "compliance flags",
    "compliance flags",
@@ -198,14 +199,14 @@
      },
      "citation": {
       "bbox": [
-       0.0677,
-       0.0554,
-       0.92917,
-       0.42291
+       0.05939,
+       0.12926,
+       0.80272,
+       0.73933
       ],
-      "chunk_id": "7ff22d93-ee29-5830-87c0-4d6014ca1cf0",
-      "cid": "c:zl2r3ng",
-      "document_id": "a40e309b-99eb-4c44-99e0-ab9a6755512c",
+      "chunk_id": "cd0b8754-5ec5-5298-bdcf-ba88642de260",
+      "cid": "c:cuwjt3o",
+      "document_id": "51c8e4f8-4ad3-4e31-8595-3f1c65661475",
       "page_no": 4
      },
      "currency": "INR",
@@ -236,14 +237,14 @@
    {
     "citation": {
      "bbox": [
-      0.05556,
-      0.0554,
-      0.90707,
-      0.82082
+      0.05939,
+      0.12926,
+      0.92303,
+      0.88155
      ],
-     "chunk_id": "230f919a-4751-5b77-a392-d9f9aed399dc",
-     "cid": "c:ybvsoji",
-     "document_id": "a40e309b-99eb-4c44-99e0-ab9a6755512c",
+     "chunk_id": "bf9866b8-db61-5566-9a32-52aa41fd8794",
+     "cid": "c:kbatbqb",
+     "document_id": "51c8e4f8-4ad3-4e31-8595-3f1c65661475",
      "page_no": 6
     },
     "geography": "India",
@@ -263,19 +264,19 @@
    }
   ],
   "recommendation_label": "Pass",
-  "report_markdown": "## 1. Executive Summary\n\nPortPulse is a Series A logistics SaaS startup providing a live container-visibility dashboard and API for freight forwarders and customs brokers, covering Indian ports, CFSs and ICDs. It tracks ~38,000 containers/month for 140 paid forwarders, with an ARR of Rs 9.8 crore in FY2026 (42% YoY growth), NRR of 112%, and monthly churn of 1.2% [c:ybvsoji][c:lub3tmy]. The company is raising Rs 30 crore at Rs 150 crore pre-money [c:apdojiq]. **Critical red flag:** The company's CIN U62099MH2020PTC341567 shows MCA status 'STRUCK_OFF', indicating the entity is not in good standing [c:apdojiq]. The raise is structured in tranches tied to milestones, adding execution pressure [c:sxf6puu]. Overall score: 5.6/10, Pass.\n\n## 2. Problem & Solution\n\nFreight forwarders spend 2-3 hours/day per mid-size forwarder chasing container status across multiple shipping-line sites and terminal portals, and demurrage/detention can add Rs 8,000-25,000 to the cost of a delayed import container (company estimates) [c:qso7juo]. Global visibility platforms cover ocean legs but miss Indian CFS and ICD milestones, so delays surface late and costs pile up [c:qso7juo]. PortPulse provides a single dashboard and API that unifies milestones from shipping lines, port terminals, CFSs, ICDs and rail operators, with predicted ETAs, delay reasons, free-time countdowns, and demurrage/detention alerts [c:aqn245p]. Forwarders can also embed branded tracking pages for their own customers [c:aqn245p].\n\n## 3. Market Opportunity\n\nThe company estimates TAM at Rs 2,400 crore (2025) and SAM at Rs 620 crore, but these are company-reported and unverified figures without independent source backing [c:zl2r3ng]. The SOM is projected at Rs 45 crore in 2029 (company projection) [c:zl2r3ng]. The Indian logistics SaaS market is large and growing, with the broader logistics startup sector estimated at USD 10 billion and projected to reach USD 30 billion by 2025 [w:8]. However, the specific segment for Indian-port visibility is not independently validated, and no publisher CAGR or market trend data was sourced for this niche.\n\n## 4. Competitive Landscape\n\nPortPulse competes with global platforms like project44 and FourKites, and Indian players like GoComet [c:f6oetlc]. The company claims three edges: data connections to Indian CFS and ICD operators that global platforms lack, ETA models trained on five years of Indian port dwell-time data, and the ability for forwarders to embed PortPulse tracking pages in their own customer portals [c:f6oetlc]. The deck itself lists as a key risk that 'global visibility platforms could add Indian CFS and ICD coverage' [c:deh66rf], indicating the moat is execution-based and potentially replicable. GoComet, a Series A competitor, has raised $9.51M and operates in supply chain visibility [w:20][w:21].\n\n## 5. Business Model\n\nRevenue is 84% from a per-container tracking fee of Rs 180/container and 16% from a platform subscription of Rs 115,000/year per forwarder [c:f7v6idc]. Gross margin is 74%, CAC is Rs 320,000, CAC payback is 7.4 months, NRR is 112%, and monthly churn is 1.2% [c:lub3tmy]. Unit economics are positive and trending well, but the payback period is slightly above the 6-month threshold for a higher score. The raise is structured in three tranches tied to milestones: 40% at close, 30% at Rs 15 crore ARR (within 365 days), and 30% at air cargo launch with 40 paying forwarders (within 540 days) [c:sxf6puu]. This adds execution pressure and risk.\n\n## 6. Team Assessment\n\nCo-founders have relevant domain experience: CEO Siddharth Menon has 10 years in ocean freight operations at a global freight forwarder; COO Vikram Rathod is a former licensed customs broker at Nhava Sheva; CTO Farah Qureshi is a data-integration engineer who built EDI pipelines for shipping lines [c:btt7sjv]. The team is complete but not proven at scale\u2014there is no evidence they have previously built or scaled a startup in this space. The deck does not provide details on advisory board or key hires.\n\n## 7. Traction & Milestones\n\n**ARR Growth:** ARR reached Rs 9.8 crore in FY2026, up 42% year-on-year from Rs 6.9 crore in FY2025 [c:ybvsoji]. Historical ARR: Rs 2.1 crore (FY2023), Rs 4.4 crore (FY2024), Rs 6.9 crore (FY2025) [c:ybvsoji].\n\n**Customer & Usage:** 140 freight forwarders and customs brokers on paid plans, tracking approximately 38,000 containers per month [c:ybvsoji]. Net revenue retention (NRR) of 112% and monthly logo churn of 1.2% [c:lub3tmy].\n\n**Unit Economics (company-reported, unverified):** Customer acquisition cost (CAC) of Rs 320,000, CAC payback of 7.4 months, gross margin of 74% [c:lub3tmy].\n\n**Target:** Company aims to reach 400 forwarders and Rs 25 crore ARR within 24 months [c:deh66rf].\n\n## 8. Compliance & Governance\n\n**MCA Status \u2013 CRITICAL FLAG:** The company's Corporate Identification Number (CIN) U62099MH2020PTC341567 shows a status of 'STRUCK_OFF' on the Ministry of Corporate Affairs (MCA) registry [c:apdojiq]. This indicates the entity is not in good standing and may be dissolved or under regulatory action. This is a severe legal and compliance risk that must be resolved before any investment can proceed.\n\n**Raise Structure:** The Series A round of Rs 30 crore at Rs 150 crore pre-money is structured in three tranches tied to milestones: 40% at close, 30% upon reaching Rs 15 crore ARR (within 365 days), and 30% upon air-cargo launch with 40 paying forwarders (within 540 days) [c:sxf6puu]. This adds execution pressure and may delay full funding.\n\n**Deck Instructions:** The pitch deck attempts to instruct the evaluator by stating a minimum raise of 60% of the target [c:sxf6puu]. This is a red flag as it tries to dictate terms to investors.\n\n## 9. Risks & Challenges\n\n**Legal/Compliance Risk:** The company's MCA status is 'STRUCK_OFF', which is a critical red flag. This could mean the company is not legally compliant, potentially affecting its ability to raise funds, sign contracts, or operate. Immediate legal due diligence and rectification are required.\n\n**Execution Risk:** The raise is structured in tranches tied to specific milestones (ARR target, air-cargo launch) [c:sxf6puu]. Failure to meet these milestones could result in incomplete funding, putting growth plans at risk.\n\n**Market & Competitive Risks:** The company depends on third-party data feeds from terminals and shipping lines, which could be restricted or cut off [c:deh66rf]. Global visibility platforms like project44 and FourKites could add Indian CFS/ICD coverage, eroding PortPulse's differentiation [c:deh66rf]. Freight-rate cycles may squeeze forwarders' software budgets [c:deh66rf].\n\n**Data Gaps:** The TAM (Rs 2,400 crore) and SAM (Rs 620 crore) are company estimates without independent validation [c:zl2r3ng]. No independent market CAGR or SOM data was found. The company's own SOM projection of Rs 45 crore by 2029 is unverified [c:zl2r3ng].\n\n## 10. Investment Thesis\n\nPortPulse addresses a clear pain point for Indian freight forwarders: fragmented container tracking across Indian ports, CFSs, and ICDs, which global platforms under-serve. The product offers a unified dashboard with predicted ETAs and cost alerts, and has achieved product-market fit with 140 paying forwarders tracking ~38,000 containers/month [c:aqn245p][c:ybvsoji].\n\n**Strengths:** Positive unit economics (74% gross margin, 112% NRR, 7.4-month CAC payback) and 42% YoY ARR growth to Rs 9.8 crore [c:lub3tmy][c:ybvsoji]. The team has relevant domain expertise in ocean freight, customs brokerage, and data integration [c:btt7sjv]. The company's data connections to Indian CFS/ICD operators and five years of dwell-time data provide a temporary moat [c:f6oetlc].\n\n**Weaknesses:** The critical compliance issue (MCA status 'STRUCK_OFF') overshadows the thesis. Revenue is still small for Series A, and growth (42% YoY) is solid but not exceptional. The market size estimates are unverified, and competitive threats from global platforms are real [c:deh66rf].\n\n**Opportunity:** The Indian logistics SaaS market is large and growing [w:8], and PortPulse is well-positioned to capture a niche in Indian-port visibility. If the compliance issue is resolved, the company could scale to Rs 25 crore ARR within 24 months as targeted [c:deh66rf].\n\n## 11. Recommendation\n\n**Overall Score: 5.6/10 \u2013 Pass (Conditional)**\n\n**Rationale:** The product has clear differentiation and solid unit economics, but the investment thesis is severely undermined by the company's MCA status being 'STRUCK_OFF'. This is a non-negotiable compliance risk that must be resolved before any funds are deployed. The tranche-based raise structure adds execution risk. If the legal issue is rectified, the company's traction (42% YoY growth, 112% NRR) and experienced team make it a viable investment in the Indian logistics SaaS space. However, the current risk profile is too high for an unconditional pass.\n\n**Conditions for Investment:**\n1. Immediate resolution of the MCA 'STRUCK_OFF' status and proof of good standing.\n2. Independent legal audit confirming no other compliance issues.\n3. Achievement of the first milestone (Rs 15 crore ARR) before releasing subsequent tranches.\n4. Validation of TAM/SAM figures by an independent source.",
+  "report_markdown": "## 1. Executive Summary\n\nPortPulse is a Series A logistics SaaS startup providing a live container-visibility dashboard and API for freight forwarders and customs brokers, covering Indian ports, CFSs and ICDs. It tracks ~38,000 containers/month for 140 paid forwarders, with an ARR of Rs 9.8 crore in FY2026 (42% YoY growth), NRR of 112%, and monthly churn of 1.2% [c:kbatbqb][c:cgmqvli]. The company is raising Rs 30 crore at Rs 150 crore pre-money [c:eafbech]. **Critical red flag:** The company's CIN U62099MH2020PTC341567 shows MCA status 'STRUCK_OFF', indicating the entity is not in good standing [c:eafbech]. The raise is structured in tranches tied to milestones, adding execution pressure [c:c5aufec]. Overall score: 5.6/10, Pass.\n\n## 2. Problem & Solution\n\nFreight forwarders spend 2-3 hours/day per mid-size forwarder chasing container status across multiple shipping-line sites and terminal portals, and demurrage/detention can add Rs 8,000-25,000 to the cost of a delayed import container (company estimates) [c:q6rvr4s]. Global visibility platforms cover ocean legs but miss Indian CFS and ICD milestones, so delays surface late and costs pile up [c:q6rvr4s]. PortPulse provides a single dashboard and API that unifies milestones from shipping lines, port terminals, CFSs, ICDs and rail operators, with predicted ETAs, delay reasons, free-time countdowns, and demurrage/detention alerts [c:daudrce]. Forwarders can also embed branded tracking pages for their own customers [c:daudrce].\n\n## 3. Market Opportunity\n\nThe company estimates TAM at Rs 2,400 crore (2025) and SAM at Rs 620 crore, but these are company-reported and unverified figures without independent source backing [c:cuwjt3o]. The SOM is projected at Rs 45 crore in 2029 (company projection) [c:cuwjt3o]. The Indian logistics SaaS market is large and growing, with the broader logistics startup sector estimated at USD 10 billion and projected to reach USD 30 billion by 2025 [w:8]. However, the specific segment for Indian-port visibility is not independently validated, and no publisher CAGR or market trend data was sourced for this niche.\n\n## 4. Competitive Landscape\n\nPortPulse competes with global platforms like project44 and FourKites, and Indian players like GoComet [c:3e5f7kf]. The company claims three edges: data connections to Indian CFS and ICD operators that global platforms lack, ETA models trained on five years of Indian port dwell-time data, and the ability for forwarders to embed PortPulse tracking pages in their own customer portals [c:3e5f7kf]. The deck itself lists as a key risk that 'global visibility platforms could add Indian CFS and ICD coverage' [c:vwuozt4], indicating the moat is execution-based and potentially replicable. GoComet, a Series A competitor, has raised $9.51M and operates in supply chain visibility [w:20][w:21].\n\n## 5. Business Model\n\nRevenue is 84% from a per-container tracking fee of Rs 180/container and 16% from a platform subscription of Rs 115,000/year per forwarder [c:cspqn5w]. Gross margin is 74%, CAC is Rs 320,000, CAC payback is 7.4 months, NRR is 112%, and monthly churn is 1.2% [c:cgmqvli]. Unit economics are positive and trending well, but the payback period is slightly above the 6-month threshold for a higher score. The raise is structured in three tranches tied to milestones: 40% at close, 30% at Rs 15 crore ARR (within 365 days), and 30% at air cargo launch with 40 paying forwarders (within 540 days) [c:c5aufec]. This adds execution pressure and risk.\n\n## 6. Team Assessment\n\nCo-founders have relevant domain experience: CEO Siddharth Menon has 10 years in ocean freight operations at a global freight forwarder; COO Vikram Rathod is a former licensed customs broker at Nhava Sheva; CTO Farah Qureshi is a data-integration engineer who built EDI pipelines for shipping lines [c:pwuz2cb]. The team is complete but not proven at scale\u2014there is no evidence they have previously built or scaled a startup in this space. The deck does not provide details on advisory board or key hires.\n\n## 7. Traction & Milestones\n\n**ARR Growth:** ARR reached Rs 9.8 crore in FY2026, up 42% year-on-year from Rs 6.9 crore in FY2025 [c:kbatbqb]. Historical ARR: Rs 2.1 crore (FY2023), Rs 4.4 crore (FY2024), Rs 6.9 crore (FY2025) [c:kbatbqb].\n\n**Customer & Usage:** 140 freight forwarders and customs brokers on paid plans, tracking approximately 38,000 containers per month [c:kbatbqb]. Net revenue retention (NRR) of 112% and monthly logo churn of 1.2% [c:cgmqvli].\n\n**Unit Economics (company-reported, unverified):** Customer acquisition cost (CAC) of Rs 320,000, CAC payback of 7.4 months, gross margin of 74% [c:cgmqvli].\n\n**Target:** Company aims to reach 400 forwarders and Rs 25 crore ARR within 24 months [c:vwuozt4].\n\n## 8. Compliance & Governance\n\n**MCA Status \u2013 CRITICAL FLAG:** The company's Corporate Identification Number (CIN) U62099MH2020PTC341567 shows a status of 'STRUCK_OFF' on the Ministry of Corporate Affairs (MCA) registry [c:eafbech]. This indicates the entity is not in good standing and may be dissolved or under regulatory action. This is a severe legal and compliance risk that must be resolved before any investment can proceed.\n\n**Raise Structure:** The Series A round of Rs 30 crore at Rs 150 crore pre-money is structured in three tranches tied to milestones: 40% at close, 30% upon reaching Rs 15 crore ARR (within 365 days), and 30% upon air-cargo launch with 40 paying forwarders (within 540 days) [c:c5aufec]. This adds execution pressure and may delay full funding.\n\n**Deck Instructions:** The pitch deck attempts to instruct the evaluator by stating a minimum raise of 60% of the target [c:c5aufec]. This is a red flag as it tries to dictate terms to investors.\n\n## 9. Risks & Challenges\n\n**Legal/Compliance Risk:** The company's MCA status is 'STRUCK_OFF', which is a critical red flag. This could mean the company is not legally compliant, potentially affecting its ability to raise funds, sign contracts, or operate. Immediate legal due diligence and rectification are required.\n\n**Execution Risk:** The raise is structured in tranches tied to specific milestones (ARR target, air-cargo launch) [c:c5aufec]. Failure to meet these milestones could result in incomplete funding, putting growth plans at risk.\n\n**Market & Competitive Risks:** The company depends on third-party data feeds from terminals and shipping lines, which could be restricted or cut off [c:vwuozt4]. Global visibility platforms like project44 and FourKites could add Indian CFS/ICD coverage, eroding PortPulse's differentiation [c:vwuozt4]. Freight-rate cycles may squeeze forwarders' software budgets [c:vwuozt4].\n\n**Data Gaps:** The TAM (Rs 2,400 crore) and SAM (Rs 620 crore) are company estimates without independent validation [c:cuwjt3o]. No independent market CAGR or SOM data was found. The company's own SOM projection of Rs 45 crore by 2029 is unverified [c:cuwjt3o].\n\n## 10. Investment Thesis\n\nPortPulse addresses a clear pain point for Indian freight forwarders: fragmented container tracking across Indian ports, CFSs, and ICDs, which global platforms under-serve. The product offers a unified dashboard with predicted ETAs and cost alerts, and has achieved product-market fit with 140 paying forwarders tracking ~38,000 containers/month [c:daudrce][c:kbatbqb].\n\n**Strengths:** Positive unit economics (74% gross margin, 112% NRR, 7.4-month CAC payback) and 42% YoY ARR growth to Rs 9.8 crore [c:cgmqvli][c:kbatbqb]. The team has relevant domain expertise in ocean freight, customs brokerage, and data integration [c:pwuz2cb]. The company's data connections to Indian CFS/ICD operators and five years of dwell-time data provide a temporary moat [c:3e5f7kf].\n\n**Weaknesses:** The critical compliance issue (MCA status 'STRUCK_OFF') overshadows the thesis. Revenue is still small for Series A, and growth (42% YoY) is solid but not exceptional. The market size estimates are unverified, and competitive threats from global platforms are real [c:vwuozt4].\n\n**Opportunity:** The Indian logistics SaaS market is large and growing [w:8], and PortPulse is well-positioned to capture a niche in Indian-port visibility. If the compliance issue is resolved, the company could scale to Rs 25 crore ARR within 24 months as targeted [c:vwuozt4].\n\n## 11. Recommendation\n\n**Overall Score: 5.6/10 \u2013 Pass (Conditional)**\n\n**Rationale:** The product has clear differentiation and solid unit economics, but the investment thesis is severely undermined by the company's MCA status being 'STRUCK_OFF'. This is a non-negotiable compliance risk that must be resolved before any funds are deployed. The tranche-based raise structure adds execution risk. If the legal issue is rectified, the company's traction (42% YoY growth, 112% NRR) and experienced team make it a viable investment in the Indian logistics SaaS space. However, the current risk profile is too high for an unconditional pass.\n\n**Conditions for Investment:**\n1. Immediate resolution of the MCA 'STRUCK_OFF' status and proof of good standing.\n2. Independent legal audit confirming no other compliance issues.\n3. Achievement of the first milestone (Rs 15 crore ARR) before releasing subsequent tranches.\n4. Validation of TAM/SAM figures by an independent source.",
   "revenue_currency": "INR",
   "revenue_metric": "ARR",
   "rewrites": 2,
   "rubric_version": "r1",
   "score_rationales": {
-   "business_model": "Pricing is clear (per-container fee + subscription), gross margin 74%, CAC payback 7.4 months, NRR 112% [c:f7v6idc][c:lub3tmy]. Unit economics are positive and trending well but payback is slightly above the 6-month threshold for a higher score.",
-   "execution_risk": "CRITICAL RED FLAG: The company's CIN U62099MH2020PTC341567 shows MCA status 'STRUCK_OFF', indicating the entity is not in good standing. This is a severe legal/compliance risk. Additionally, the raise is structured in tranches tied to milestones, adding execution pressure. [c:apdojiq]",
-   "market": "The company sizes TAM at Rs 2,400 crore and SAM at Rs 620 crore, but these are company estimates without independent source backing [c:zl2r3ng]. The Indian logistics SaaS market is large and growing [w:8], but the specific segment for Indian-port visibility is not independently validated.",
-   "moat": "The company claims data connections to Indian CFS/ICD operators and ETA models trained on five years of Indian port data [c:f6oetlc]. These are execution advantages that create some switching costs, but global platforms could replicate them, and the company itself lists this as a risk [c:deh66rf].",
-   "product": "The product is a live container-visibility dashboard and API with predicted ETAs and cost alerts, used by 140 paying forwarders tracking ~38,000 containers/month [c:aqn245p][c:ybvsoji]. It has clear differentiation in Indian CFS/ICD coverage, but no evidence of category-defining outcomes or deep retention metrics beyond NRR [c:lub3tmy].",
-   "team": "Co-founders have relevant domain experience: CEO in ocean freight operations, COO as a customs broker, CTO in data integration [c:btt7sjv]. However, there is no evidence they have previously built or scaled a startup in this space, and the team is complete but not proven at scale.",
-   "traction": "ARR of Rs 9.8 crore in FY2026, 42% YoY growth, 140 paid forwarders, 38,000 containers/month tracked, NRR 112%, monthly churn 1.2% [c:ybvsoji][c:lub3tmy]. Growth is solid but not exceptional (42% < 2x/year), and revenue is still relatively small for Series A."
+   "business_model": "Pricing is clear (per-container fee + subscription), gross margin 74%, CAC payback 7.4 months, NRR 112% [c:cspqn5w][c:cgmqvli]. Unit economics are positive and trending well but payback is slightly above the 6-month threshold for a higher score.",
+   "execution_risk": "CRITICAL RED FLAG: The company's CIN U62099MH2020PTC341567 shows MCA status 'STRUCK_OFF', indicating the entity is not in good standing. This is a severe legal/compliance risk. Additionally, the raise is structured in tranches tied to milestones, adding execution pressure. [c:eafbech]",
+   "market": "The company sizes TAM at Rs 2,400 crore and SAM at Rs 620 crore, but these are company estimates without independent source backing [c:cuwjt3o]. The Indian logistics SaaS market is large and growing [w:8], but the specific segment for Indian-port visibility is not independently validated.",
+   "moat": "The company claims data connections to Indian CFS/ICD operators and ETA models trained on five years of Indian port data [c:3e5f7kf]. These are execution advantages that create some switching costs, but global platforms could replicate them, and the company itself lists this as a risk [c:vwuozt4].",
+   "product": "The product is a live container-visibility dashboard and API with predicted ETAs and cost alerts, used by 140 paying forwarders tracking ~38,000 containers/month [c:daudrce][c:kbatbqb]. It has clear differentiation in Indian CFS/ICD coverage, but no evidence of category-defining outcomes or deep retention metrics beyond NRR [c:cgmqvli].",
+   "team": "Co-founders have relevant domain experience: CEO in ocean freight operations, COO as a customs broker, CTO in data integration [c:pwuz2cb]. However, there is no evidence they have previously built or scaled a startup in this space, and the team is complete but not proven at scale.",
+   "traction": "ARR of Rs 9.8 crore in FY2026, 42% YoY growth, 140 paid forwarders, 38,000 containers/month tracked, NRR 112%, monthly churn 1.2% [c:kbatbqb][c:cgmqvli]. Growth is solid but not exceptional (42% < 2x/year), and revenue is still relatively small for Series A."
   },
   "score_spread": {
    "business_model": 1.0,
@@ -287,17 +288,17 @@
    "traction": 1.0
   },
   "sections": {
-   "business_model": "Revenue is 84% from a per-container tracking fee of Rs 180/container and 16% from a platform subscription of Rs 115,000/year per forwarder [c:f7v6idc]. Gross margin is 74%, CAC is Rs 320,000, CAC payback is 7.4 months, NRR is 112%, and monthly churn is 1.2% [c:lub3tmy]. Unit economics are positive and trending well, but the payback period is slightly above the 6-month threshold for a higher score. The raise is structured in three tranches tied to milestones: 40% at close, 30% at Rs 15 crore ARR (within 365 days), and 30% at air cargo launch with 40 paying forwarders (within 540 days) [c:sxf6puu]. This adds execution pressure and risk.",
-   "competitive_landscape": "PortPulse competes with global platforms like project44 and FourKites, and Indian players like GoComet [c:f6oetlc]. The company claims three edges: data connections to Indian CFS and ICD operators that global platforms lack, ETA models trained on five years of Indian port dwell-time data, and the ability for forwarders to embed PortPulse tracking pages in their own customer portals [c:f6oetlc]. The deck itself lists as a key risk that 'global visibility platforms could add Indian CFS and ICD coverage' [c:deh66rf], indicating the moat is execution-based and potentially replicable. GoComet, a Series A competitor, has raised $9.51M and operates in supply chain visibility [w:20][w:21].",
-   "compliance_governance": "**MCA Status \u2013 CRITICAL FLAG:** The company's Corporate Identification Number (CIN) U62099MH2020PTC341567 shows a status of 'STRUCK_OFF' on the Ministry of Corporate Affairs (MCA) registry [c:apdojiq]. This indicates the entity is not in good standing and may be dissolved or under regulatory action. This is a severe legal and compliance risk that must be resolved before any investment can proceed.\n\n**Raise Structure:** The Series A round of Rs 30 crore at Rs 150 crore pre-money is structured in three tranches tied to milestones: 40% at close, 30% upon reaching Rs 15 crore ARR (within 365 days), and 30% upon air-cargo launch with 40 paying forwarders (within 540 days) [c:sxf6puu]. This adds execution pressure and may delay full funding.\n\n**Deck Instructions:** The pitch deck attempts to instruct the evaluator by stating a minimum raise of 60% of the target [c:sxf6puu]. This is a red flag as it tries to dictate terms to investors.",
-   "executive_summary": "PortPulse is a Series A logistics SaaS startup providing a live container-visibility dashboard and API for freight forwarders and customs brokers, covering Indian ports, CFSs and ICDs. It tracks ~38,000 containers/month for 140 paid forwarders, with an ARR of Rs 9.8 crore in FY2026 (42% YoY growth), NRR of 112%, and monthly churn of 1.2% [c:ybvsoji][c:lub3tmy]. The company is raising Rs 30 crore at Rs 150 crore pre-money [c:apdojiq]. **Critical red flag:** The company's CIN U62099MH2020PTC341567 shows MCA status 'STRUCK_OFF', indicating the entity is not in good standing [c:apdojiq]. The raise is structured in tranches tied to milestones, adding execution pressure [c:sxf6puu]. Overall score: 5.6/10, Pass.",
-   "investment_thesis": "PortPulse addresses a clear pain point for Indian freight forwarders: fragmented container tracking across Indian ports, CFSs, and ICDs, which global platforms under-serve. The product offers a unified dashboard with predicted ETAs and cost alerts, and has achieved product-market fit with 140 paying forwarders tracking ~38,000 containers/month [c:aqn245p][c:ybvsoji].\n\n**Strengths:** Positive unit economics (74% gross margin, 112% NRR, 7.4-month CAC payback) and 42% YoY ARR growth to Rs 9.8 crore [c:lub3tmy][c:ybvsoji]. The team has relevant domain expertise in ocean freight, customs brokerage, and data integration [c:btt7sjv]. The company's data connections to Indian CFS/ICD operators and five years of dwell-time data provide a temporary moat [c:f6oetlc].\n\n**Weaknesses:** The critical compliance issue (MCA status 'STRUCK_OFF') overshadows the thesis. Revenue is still small for Series A, and growth (42% YoY) is solid but not exceptional. The market size estimates are unverified, and competitive threats from global platforms are real [c:deh66rf].\n\n**Opportunity:** The Indian logistics SaaS market is large and growing [w:8], and PortPulse is well-positioned to capture a niche in Indian-port visibility. If the compliance issue is resolved, the company could scale to Rs 25 crore ARR within 24 months as targeted [c:deh66rf].",
-   "market_opportunity": "The company estimates TAM at Rs 2,400 crore (2025) and SAM at Rs 620 crore, but these are company-reported and unverified figures without independent source backing [c:zl2r3ng]. The SOM is projected at Rs 45 crore in 2029 (company projection) [c:zl2r3ng]. The Indian logistics SaaS market is large and growing, with the broader logistics startup sector estimated at USD 10 billion and projected to reach USD 30 billion by 2025 [w:8]. However, the specific segment for Indian-port visibility is not independently validated, and no publisher CAGR or market trend data was sourced for this niche.",
-   "problem_solution": "Freight forwarders spend 2-3 hours/day per mid-size forwarder chasing container status across multiple shipping-line sites and terminal portals, and demurrage/detention can add Rs 8,000-25,000 to the cost of a delayed import container (company estimates) [c:qso7juo]. Global visibility platforms cover ocean legs but miss Indian CFS and ICD milestones, so delays surface late and costs pile up [c:qso7juo]. PortPulse provides a single dashboard and API that unifies milestones from shipping lines, port terminals, CFSs, ICDs and rail operators, with predicted ETAs, delay reasons, free-time countdowns, and demurrage/detention alerts [c:aqn245p]. Forwarders can also embed branded tracking pages for their own customers [c:aqn245p].",
+   "business_model": "Revenue is 84% from a per-container tracking fee of Rs 180/container and 16% from a platform subscription of Rs 115,000/year per forwarder [c:cspqn5w]. Gross margin is 74%, CAC is Rs 320,000, CAC payback is 7.4 months, NRR is 112%, and monthly churn is 1.2% [c:cgmqvli]. Unit economics are positive and trending well, but the payback period is slightly above the 6-month threshold for a higher score. The raise is structured in three tranches tied to milestones: 40% at close, 30% at Rs 15 crore ARR (within 365 days), and 30% at air cargo launch with 40 paying forwarders (within 540 days) [c:c5aufec]. This adds execution pressure and risk.",
+   "competitive_landscape": "PortPulse competes with global platforms like project44 and FourKites, and Indian players like GoComet [c:3e5f7kf]. The company claims three edges: data connections to Indian CFS and ICD operators that global platforms lack, ETA models trained on five years of Indian port dwell-time data, and the ability for forwarders to embed PortPulse tracking pages in their own customer portals [c:3e5f7kf]. The deck itself lists as a key risk that 'global visibility platforms could add Indian CFS and ICD coverage' [c:vwuozt4], indicating the moat is execution-based and potentially replicable. GoComet, a Series A competitor, has raised $9.51M and operates in supply chain visibility [w:20][w:21].",
+   "compliance_governance": "**MCA Status \u2013 CRITICAL FLAG:** The company's Corporate Identification Number (CIN) U62099MH2020PTC341567 shows a status of 'STRUCK_OFF' on the Ministry of Corporate Affairs (MCA) registry [c:eafbech]. This indicates the entity is not in good standing and may be dissolved or under regulatory action. This is a severe legal and compliance risk that must be resolved before any investment can proceed.\n\n**Raise Structure:** The Series A round of Rs 30 crore at Rs 150 crore pre-money is structured in three tranches tied to milestones: 40% at close, 30% upon reaching Rs 15 crore ARR (within 365 days), and 30% upon air-cargo launch with 40 paying forwarders (within 540 days) [c:c5aufec]. This adds execution pressure and may delay full funding.\n\n**Deck Instructions:** The pitch deck attempts to instruct the evaluator by stating a minimum raise of 60% of the target [c:c5aufec]. This is a red flag as it tries to dictate terms to investors.",
+   "executive_summary": "PortPulse is a Series A logistics SaaS startup providing a live container-visibility dashboard and API for freight forwarders and customs brokers, covering Indian ports, CFSs and ICDs. It tracks ~38,000 containers/month for 140 paid forwarders, with an ARR of Rs 9.8 crore in FY2026 (42% YoY growth), NRR of 112%, and monthly churn of 1.2% [c:kbatbqb][c:cgmqvli]. The company is raising Rs 30 crore at Rs 150 crore pre-money [c:eafbech]. **Critical red flag:** The company's CIN U62099MH2020PTC341567 shows MCA status 'STRUCK_OFF', indicating the entity is not in good standing [c:eafbech]. The raise is structured in tranches tied to milestones, adding execution pressure [c:c5aufec]. Overall score: 5.6/10, Pass.",
+   "investment_thesis": "PortPulse addresses a clear pain point for Indian freight forwarders: fragmented container tracking across Indian ports, CFSs, and ICDs, which global platforms under-serve. The product offers a unified dashboard with predicted ETAs and cost alerts, and has achieved product-market fit with 140 paying forwarders tracking ~38,000 containers/month [c:daudrce][c:kbatbqb].\n\n**Strengths:** Positive unit economics (74% gross margin, 112% NRR, 7.4-month CAC payback) and 42% YoY ARR growth to Rs 9.8 crore [c:cgmqvli][c:kbatbqb]. The team has relevant domain expertise in ocean freight, customs brokerage, and data integration [c:pwuz2cb]. The company's data connections to Indian CFS/ICD operators and five years of dwell-time data provide a temporary moat [c:3e5f7kf].\n\n**Weaknesses:** The critical compliance issue (MCA status 'STRUCK_OFF') overshadows the thesis. Revenue is still small for Series A, and growth (42% YoY) is solid but not exceptional. The market size estimates are unverified, and competitive threats from global platforms are real [c:vwuozt4].\n\n**Opportunity:** The Indian logistics SaaS market is large and growing [w:8], and PortPulse is well-positioned to capture a niche in Indian-port visibility. If the compliance issue is resolved, the company could scale to Rs 25 crore ARR within 24 months as targeted [c:vwuozt4].",
+   "market_opportunity": "The company estimates TAM at Rs 2,400 crore (2025) and SAM at Rs 620 crore, but these are company-reported and unverified figures without independent source backing [c:cuwjt3o]. The SOM is projected at Rs 45 crore in 2029 (company projection) [c:cuwjt3o]. The Indian logistics SaaS market is large and growing, with the broader logistics startup sector estimated at USD 10 billion and projected to reach USD 30 billion by 2025 [w:8]. However, the specific segment for Indian-port visibility is not independently validated, and no publisher CAGR or market trend data was sourced for this niche.",
+   "problem_solution": "Freight forwarders spend 2-3 hours/day per mid-size forwarder chasing container status across multiple shipping-line sites and terminal portals, and demurrage/detention can add Rs 8,000-25,000 to the cost of a delayed import container (company estimates) [c:q6rvr4s]. Global visibility platforms cover ocean legs but miss Indian CFS and ICD milestones, so delays surface late and costs pile up [c:q6rvr4s]. PortPulse provides a single dashboard and API that unifies milestones from shipping lines, port terminals, CFSs, ICDs and rail operators, with predicted ETAs, delay reasons, free-time countdowns, and demurrage/detention alerts [c:daudrce]. Forwarders can also embed branded tracking pages for their own customers [c:daudrce].",
    "recommendation": "**Overall Score: 5.6/10 \u2013 Pass (Conditional)**\n\n**Rationale:** The product has clear differentiation and solid unit economics, but the investment thesis is severely undermined by the company's MCA status being 'STRUCK_OFF'. This is a non-negotiable compliance risk that must be resolved before any funds are deployed. The tranche-based raise structure adds execution risk. If the legal issue is rectified, the company's traction (42% YoY growth, 112% NRR) and experienced team make it a viable investment in the Indian logistics SaaS space. However, the current risk profile is too high for an unconditional pass.\n\n**Conditions for Investment:**\n1. Immediate resolution of the MCA 'STRUCK_OFF' status and proof of good standing.\n2. Independent legal audit confirming no other compliance issues.\n3. Achievement of the first milestone (Rs 15 crore ARR) before releasing subsequent tranches.\n4. Validation of TAM/SAM figures by an independent source.",
-   "risks_challenges": "**Legal/Compliance Risk:** The company's MCA status is 'STRUCK_OFF', which is a critical red flag. This could mean the company is not legally compliant, potentially affecting its ability to raise funds, sign contracts, or operate. Immediate legal due diligence and rectification are required.\n\n**Execution Risk:** The raise is structured in tranches tied to specific milestones (ARR target, air-cargo launch) [c:sxf6puu]. Failure to meet these milestones could result in incomplete funding, putting growth plans at risk.\n\n**Market & Competitive Risks:** The company depends on third-party data feeds from terminals and shipping lines, which could be restricted or cut off [c:deh66rf]. Global visibility platforms like project44 and FourKites could add Indian CFS/ICD coverage, eroding PortPulse's differentiation [c:deh66rf]. Freight-rate cycles may squeeze forwarders' software budgets [c:deh66rf].\n\n**Data Gaps:** The TAM (Rs 2,400 crore) and SAM (Rs 620 crore) are company estimates without independent validation [c:zl2r3ng]. No independent market CAGR or SOM data was found. The company's own SOM projection of Rs 45 crore by 2029 is unverified [c:zl2r3ng].",
-   "team_assessment": "Co-founders have relevant domain experience: CEO Siddharth Menon has 10 years in ocean freight operations at a global freight forwarder; COO Vikram Rathod is a former licensed customs broker at Nhava Sheva; CTO Farah Qureshi is a data-integration engineer who built EDI pipelines for shipping lines [c:btt7sjv]. The team is complete but not proven at scale\u2014there is no evidence they have previously built or scaled a startup in this space. The deck does not provide details on advisory board or key hires.",
-   "traction_milestones": "**ARR Growth:** ARR reached Rs 9.8 crore in FY2026, up 42% year-on-year from Rs 6.9 crore in FY2025 [c:ybvsoji]. Historical ARR: Rs 2.1 crore (FY2023), Rs 4.4 crore (FY2024), Rs 6.9 crore (FY2025) [c:ybvsoji].\n\n**Customer & Usage:** 140 freight forwarders and customs brokers on paid plans, tracking approximately 38,000 containers per month [c:ybvsoji]. Net revenue retention (NRR) of 112% and monthly logo churn of 1.2% [c:lub3tmy].\n\n**Unit Economics (company-reported, unverified):** Customer acquisition cost (CAC) of Rs 320,000, CAC payback of 7.4 months, gross margin of 74% [c:lub3tmy].\n\n**Target:** Company aims to reach 400 forwarders and Rs 25 crore ARR within 24 months [c:deh66rf]."
+   "risks_challenges": "**Legal/Compliance Risk:** The company's MCA status is 'STRUCK_OFF', which is a critical red flag. This could mean the company is not legally compliant, potentially affecting its ability to raise funds, sign contracts, or operate. Immediate legal due diligence and rectification are required.\n\n**Execution Risk:** The raise is structured in tranches tied to specific milestones (ARR target, air-cargo launch) [c:c5aufec]. Failure to meet these milestones could result in incomplete funding, putting growth plans at risk.\n\n**Market & Competitive Risks:** The company depends on third-party data feeds from terminals and shipping lines, which could be restricted or cut off [c:vwuozt4]. Global visibility platforms like project44 and FourKites could add Indian CFS/ICD coverage, eroding PortPulse's differentiation [c:vwuozt4]. Freight-rate cycles may squeeze forwarders' software budgets [c:vwuozt4].\n\n**Data Gaps:** The TAM (Rs 2,400 crore) and SAM (Rs 620 crore) are company estimates without independent validation [c:cuwjt3o]. No independent market CAGR or SOM data was found. The company's own SOM projection of Rs 45 crore by 2029 is unverified [c:cuwjt3o].",
+   "team_assessment": "Co-founders have relevant domain experience: CEO Siddharth Menon has 10 years in ocean freight operations at a global freight forwarder; COO Vikram Rathod is a former licensed customs broker at Nhava Sheva; CTO Farah Qureshi is a data-integration engineer who built EDI pipelines for shipping lines [c:pwuz2cb]. The team is complete but not proven at scale\u2014there is no evidence they have previously built or scaled a startup in this space. The deck does not provide details on advisory board or key hires.",
+   "traction_milestones": "**ARR Growth:** ARR reached Rs 9.8 crore in FY2026, up 42% year-on-year from Rs 6.9 crore in FY2025 [c:kbatbqb]. Historical ARR: Rs 2.1 crore (FY2023), Rs 4.4 crore (FY2024), Rs 6.9 crore (FY2025) [c:kbatbqb].\n\n**Customer & Usage:** 140 freight forwarders and customs brokers on paid plans, tracking approximately 38,000 containers per month [c:kbatbqb]. Net revenue retention (NRR) of 112% and monthly logo churn of 1.2% [c:cgmqvli].\n\n**Unit Economics (company-reported, unverified):** Customer acquisition cost (CAC) of Rs 320,000, CAC payback of 7.4 months, gross margin of 74% [c:cgmqvli].\n\n**Target:** Company aims to reach 400 forwarders and Rs 25 crore ARR within 24 months [c:vwuozt4]."
   },
   "sources": [
    {
@@ -540,5 +541,5 @@
    }
   ]
  },
- "input_hash": "c106d99f264bb813504cd2dfa92bdbd62a5349a67b23c333710e8578832629fb"
+ "input_hash": "957aaa1ec259ffd46a3d42ade566d50e115c73b96e73afed35ad3c3c505394d0"
 }

@@ -98,8 +98,6 @@ risks:
   - Nurse costs cap gross margin below 50%
   - Outcome claims rest on small, non-randomised samples
   - Medical-device and health-data regulation may tighten
-deck:
-  palette: healthtech
 evaluation_expectations:
   score_band: [5.0, 7.5]
   recommendation_in: [Hold, Buy]

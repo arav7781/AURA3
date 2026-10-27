@@ -1,5 +1,6 @@
 {
  "analysis": {
+  "carried_from_input_hash": "68d1da876488d3a06bd15907f77a46ec0dda070edb8609680b1f108864654bd8",
   "category_scores": {
    "business_model": 6.0,
    "execution_risk": 5.7,
@@ -10,147 +11,147 @@
    "traction": 6.0
   },
   "citations": {
-   "c:53itecf": {
+   "c:audhpgx": {
     "bbox": [
-     0.05329,
-     0.0554,
-     0.944,
-     0.59225
+     0.05939,
+     0.12926,
+     0.80272,
+     0.73933
     ],
-    "chunk_id": "47245498-7569-5e1a-9ea2-35badf1eca90",
-    "document_id": "379fcfb9-25a8-4bc7-8c19-761517e04945",
-    "page_no": 8,
-    "slide_title": "Competitive Landscape",
-    "type": "deck"
-   },
-   "c:5ual3ji": {
-    "bbox": [
-     0.05861,
-     0.0554,
-     0.87543,
-     0.81362
-    ],
-    "chunk_id": "a8e1c032-7dfc-558e-a333-1a1527952657",
-    "document_id": "379fcfb9-25a8-4bc7-8c19-761517e04945",
-    "page_no": 6,
-    "slide_title": "Traction (as of Sep 2026)",
-    "type": "deck"
-   },
-   "c:646aq72": {
-    "bbox": [
-     0.0677,
-     0.0554,
-     0.80496,
-     0.63853
-    ],
-    "chunk_id": "ee6d8e1f-59e2-59b2-a56d-ed8ad3377e8e",
-    "document_id": "379fcfb9-25a8-4bc7-8c19-761517e04945",
-    "page_no": 9,
-    "slide_title": "Go-to-Market & Key Risks",
-    "type": "deck"
-   },
-   "c:fi2i5cy": {
-    "bbox": [
-     0.0677,
-     0.0554,
-     0.92673,
-     0.59069
-    ],
-    "chunk_id": "4071499e-cd23-5944-9e99-e4a166fd4936",
-    "document_id": "379fcfb9-25a8-4bc7-8c19-761517e04945",
-    "page_no": 11,
-    "slide_title": "The Ask",
-    "type": "deck"
-   },
-   "c:gfjpgka": {
-    "bbox": [
-     0.0677,
-     0.0554,
-     0.92163,
-     0.55436
-    ],
-    "chunk_id": "109a35ff-e465-5613-a945-f273c9d35af4",
-    "document_id": "379fcfb9-25a8-4bc7-8c19-761517e04945",
-    "page_no": 3,
-    "slide_title": "Solution",
-    "type": "deck"
-   },
-   "c:lw5pmjq": {
-    "bbox": [
-     0.0677,
-     0.0554,
-     0.52399,
-     0.39357
-    ],
-    "chunk_id": "cc8deca5-e268-5d6e-adf5-cee3ddb0d0fb",
-    "document_id": "379fcfb9-25a8-4bc7-8c19-761517e04945",
-    "page_no": 7,
-    "slide_title": "Unit Economics",
-    "type": "deck"
-   },
-   "c:s3y4eq5": {
-    "bbox": [
-     0.0677,
-     0.0554,
-     0.93043,
-     0.63306
-    ],
-    "chunk_id": "2d259014-57f5-5aae-b790-b7e63b0da9a6",
-    "document_id": "379fcfb9-25a8-4bc7-8c19-761517e04945",
-    "page_no": 2,
-    "slide_title": "Problem",
-    "type": "deck"
-   },
-   "c:xfxwztr": {
-    "bbox": [
-     0.0677,
-     0.0554,
-     0.92414,
-     0.42291
-    ],
-    "chunk_id": "cf539fe8-4c45-5631-b299-91e62983bc2b",
-    "document_id": "379fcfb9-25a8-4bc7-8c19-761517e04945",
+    "chunk_id": "fab9ba2d-d5bc-5b0d-839c-1a85b877f05f",
+    "document_id": "63638fe7-f640-4589-a38e-4afa29f5c0b6",
     "page_no": 4,
     "slide_title": "Market Opportunity (TAM / SAM / SOM)",
     "type": "deck"
    },
-   "c:xjqw72i": {
+   "c:dmrk2yz": {
     "bbox": [
-     0.0677,
-     0.0554,
-     0.90665,
-     0.43886
+     0.05939,
+     0.12926,
+     0.87273,
+     0.784
     ],
-    "chunk_id": "811feea9-e13d-53e3-8aa1-9e27789096ae",
-    "document_id": "379fcfb9-25a8-4bc7-8c19-761517e04945",
+    "chunk_id": "f22ec2f5-5092-54f2-8f1b-20cf83f6133b",
+    "document_id": "63638fe7-f640-4589-a38e-4afa29f5c0b6",
+    "page_no": 3,
+    "slide_title": "Solution",
+    "type": "deck"
+   },
+   "c:dozhbve": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.89175,
+     0.74349
+    ],
+    "chunk_id": "891b7893-70ca-51c6-8b19-006b344b2f25",
+    "document_id": "63638fe7-f640-4589-a38e-4afa29f5c0b6",
+    "page_no": 2,
+    "slide_title": "Problem",
+    "type": "deck"
+   },
+   "c:f2ioj44": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.90928,
+     0.74861
+    ],
+    "chunk_id": "f126875f-7059-5554-aadd-0af45030a21f",
+    "document_id": "63638fe7-f640-4589-a38e-4afa29f5c0b6",
     "page_no": 5,
     "slide_title": "Business Model",
     "type": "deck"
    },
-   "c:yl2bkgc": {
+   "c:ggxbsrj": {
     "bbox": [
-     0.0677,
-     0.0554,
-     0.8853,
-     0.36167
+     0.05939,
+     0.12926,
+     0.88235,
+     0.47514
     ],
-    "chunk_id": "3ad7c24d-ee3c-5247-bb04-6287a432fead",
-    "document_id": "379fcfb9-25a8-4bc7-8c19-761517e04945",
+    "chunk_id": "a907f8a0-865c-575a-8cbc-7cfa1883f8a1",
+    "document_id": "63638fe7-f640-4589-a38e-4afa29f5c0b6",
+    "page_no": 7,
+    "slide_title": "Unit Economics",
+    "type": "deck"
+   },
+   "c:ocwtkzi": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.912,
+     0.79796
+    ],
+    "chunk_id": "f23d632f-3d68-5fa5-8072-31ebe3a9188d",
+    "document_id": "63638fe7-f640-4589-a38e-4afa29f5c0b6",
+    "page_no": 11,
+    "slide_title": "The Ask",
+    "type": "deck"
+   },
+   "c:pfzf5lg": {
+    "bbox": [
+     0.05939,
+     0.23738,
+     0.54061,
+     0.70871
+    ],
+    "chunk_id": "82846d0f-9119-56d9-be0d-6c7413c9a1c3",
+    "document_id": "63638fe7-f640-4589-a38e-4afa29f5c0b6",
+    "page_no": 1,
+    "slide_title": "LedgerLoom",
+    "type": "deck"
+   },
+   "c:qbxjk4o": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.64444,
+     0.80727
+    ],
+    "chunk_id": "debeb000-cb06-5a5a-b624-b7329cf1d8ed",
+    "document_id": "63638fe7-f640-4589-a38e-4afa29f5c0b6",
+    "page_no": 9,
+    "slide_title": "Go-to-Market & Key Risks",
+    "type": "deck"
+   },
+   "c:t2b6yzy": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.8763,
+     0.61634
+    ],
+    "chunk_id": "08d01c28-af23-5053-aadb-56f3494d50c8",
+    "document_id": "63638fe7-f640-4589-a38e-4afa29f5c0b6",
     "page_no": 10,
     "slide_title": "Team",
     "type": "deck"
    },
-   "c:zyfauxr": {
+   "c:ubzfkqq": {
     "bbox": [
-     0.0677,
-     0.0554,
-     0.92033,
-     0.50907
+     0.05939,
+     0.12926,
+     0.92303,
+     0.85583
     ],
-    "chunk_id": "bfd0d8ce-44c8-57d1-88cc-bfd24985a00a",
-    "document_id": "379fcfb9-25a8-4bc7-8c19-761517e04945",
-    "page_no": 1,
-    "slide_title": "LedgerLoom",
+    "chunk_id": "c198987c-a3ee-5995-baac-056911b1cbcc",
+    "document_id": "63638fe7-f640-4589-a38e-4afa29f5c0b6",
+    "page_no": 6,
+    "slide_title": "Traction (as of Sep 2026)",
+    "type": "deck"
+   },
+   "c:ymz72ed": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.9179,
+     0.70105
+    ],
+    "chunk_id": "bc7cc487-b5ad-589a-82e3-6a6bab2b33aa",
+    "document_id": "63638fe7-f640-4589-a38e-4afa29f5c0b6",
+    "page_no": 8,
+    "slide_title": "Competitive Landscape",
     "type": "deck"
    }
   },
@@ -165,7 +166,7 @@
   ],
   "evidence_version": 2,
   "generated_at": "2026-10-26T19:31:29.570415Z",
-  "input_hash": "68d1da876488d3a06bd15907f77a46ec0dda070edb8609680b1f108864654bd8",
+  "input_hash": "26847faa0c9314d82c40b43de62304dfc622e9a8a08a1ef8fba33e143b1aa77c",
   "invalid_citations": [],
   "market_sizing": {
    "basis": "Only figures traceable to retrieved search excerpts are plotted as market data.",
@@ -177,14 +178,14 @@
      },
      "citation": {
       "bbox": [
-       0.0677,
-       0.0554,
-       0.92414,
-       0.42291
+       0.05939,
+       0.12926,
+       0.80272,
+       0.73933
       ],
-      "chunk_id": "cf539fe8-4c45-5631-b299-91e62983bc2b",
-      "cid": "c:xfxwztr",
-      "document_id": "379fcfb9-25a8-4bc7-8c19-761517e04945",
+      "chunk_id": "fab9ba2d-d5bc-5b0d-839c-1a85b877f05f",
+      "cid": "c:audhpgx",
+      "document_id": "63638fe7-f640-4589-a38e-4afa29f5c0b6",
       "page_no": 4
      },
      "currency": "INR",
@@ -215,14 +216,14 @@
    {
     "citation": {
      "bbox": [
-      0.05861,
-      0.0554,
-      0.87543,
-      0.81362
+      0.05939,
+      0.12926,
+      0.92303,
+      0.85583
      ],
-     "chunk_id": "a8e1c032-7dfc-558e-a333-1a1527952657",
-     "cid": "c:5ual3ji",
-     "document_id": "379fcfb9-25a8-4bc7-8c19-761517e04945",
+     "chunk_id": "c198987c-a3ee-5995-baac-056911b1cbcc",
+     "cid": "c:ubzfkqq",
+     "document_id": "63638fe7-f640-4589-a38e-4afa29f5c0b6",
      "page_no": 6
     },
     "geography": "",
@@ -242,19 +243,19 @@
    }
   ],
   "recommendation_label": "Hold",
-  "report_markdown": "## 1. Executive Summary\n\nLedgerLoom is a pre-seed fintech startup offering an AI accounting copilot that converts invoices and bank statements into GST-ready books for small businesses. The company has 340 paying customers, an ARR of Rs 0.2 crore (up from Rs 0.03 crore in 2025), and a gross margin of 78% [c:5ual3ji][c:lw5pmjq]. It is raising Rs 1.25 crore at an Rs 8 crore pre-money valuation. The product is functional and addresses a clear pain point, but the revenue base is very small, the market sizing is self-reported and unverified, and the moat from OCR on Gujarati/Hindi bills and the accountant referral network is not durable against established competitors like TallyPrime and Zoho Books [c:53itecf][c:646aq72]. Overall score: 5.6/10, Hold.\n\n## 2. Problem & Solution\n\nSmall businesses in India spend 6-10 hours per month manually reconciling invoices for GST, and accountants serving 80-150 clients each re-key most data by hand, leading to 1-3% of purchases losing input tax credit (all company estimates) [c:s3y4eq5]. LedgerLoom\u2019s solution is an AI bookkeeper that captures invoices via WhatsApp, uses OCR to read Gujarati, Hindi, and English bills (including handwritten ones), auto-categorises entries, reconciles with bank statements, and drafts GSTR-1 and GSTR-3B returns for accountant review [c:gfjpgka]. The product is priced at Rs 499/month for businesses and Rs 2,999/month for accountants, with a 15% revenue share for accountant referrals [c:xjqw72i].\n\n## 3. Market Opportunity\n\nThe company estimates a TAM of Rs 7,500 crore for accounting and compliance software for India's GST-registered small businesses in 2025, a SAM of Rs 1,200 crore for traders and small manufacturers in Gujarat, Maharashtra, and Rajasthan who use an accountant, and a SOM of Rs 18 crore by 2029 [c:xfxwztr]. All these figures are company-reported and unverified; no independent source backs the TAM, SAM, or SOM. The market is credible but niche, scoped to only three states, and the SOM projection lacks external validation. No publisher forecasts or CAGR data were available from the provided evidence.\n\n## 4. Competitive Landscape\n\nLedgerLoom competes with TallyPrime (desktop accounting), Zoho Books (cloud accounting with GST compliance), and Vyapar (mobile billing app) [c:53itecf]. The company claims two edges: an accountant referral network that lowers CAC to Rs 2,100, and invoice OCR tuned for handwritten Gujarati and Hindi bills [c:53itecf][c:lw5pmjq]. However, these are not durable moats; established competitors are adding AI features, and there is no evidence of significant switching costs or IP protection [c:646aq72]. The competitive landscape is crowded, and LedgerLoom\u2019s differentiation is narrow.\n\n## 5. Business Model\n\nRevenue comes from a business subscription of Rs 499/month (100% of current revenue) and a planned accountant partner plan of Rs 2,999/month [c:xjqw72i]. Early unit economics show CAC of Rs 2,100, CAC payback of 5.4 months, gross margin of 78%, and monthly churn of 3.8% [c:lw5pmjq]. The revenue base is very small (ARR Rs 0.2 crore), and net revenue retention is not provided. The model relies on accountant referrals for low-cost customer acquisition, but the churn rate, if annualised, implies significant customer loss over time.\n\n## 6. Team Assessment\n\nThe two-person founding team has relevant domain expertise. Hetal Patel is a chartered accountant who ran a 12-person GST practice serving Surat traders [c:yl2bkgc]. Yash Mehta has software engineering experience and built document OCR pipelines [c:yl2bkgc]. This is a complete team for the current stage, but neither founder has previously built and scaled a startup. The team\u2019s deep understanding of the target user (textile traders in Surat) is a strength, but execution risk is elevated due to the small team size and early revenue base [c:646aq72].\n\n## 7. Traction & Milestones\n\nLedgerLoom has achieved early traction with 340 paying small businesses, 260 of them in Surat's textile markets, and an ARR of Rs 0.2 crore as of September 2026, up from Rs 0.03 crore in 2025 [c:5ual3ji]. The company has prepared 1,900 draft GST returns that were approved by accountants and onboarded 22 accountant firms as referral partners [c:5ual3ji]. Unit economics are positive: CAC of Rs 2,100, CAC payback of 5.4 months, gross margin of 78%, and monthly churn of 3.8% [c:lw5pmjq]. All traction figures are company-reported and unverified.\n\n## 8. Compliance & Governance\n\nLedgerLoom Private Limited is registered under CIN U58202GJ2025PTC158734 with MCA status ACTIVE, and directors are Hetal Patel and Yash Mehta [c:zyfauxr]. No compliance flags were identified in the registry or the deck. The deck does not attempt to instruct the evaluator. The company acknowledges reliance on GST portal changes as a risk, which is a regulatory dependency but not a compliance issue [c:646aq72].\n\n## 9. Risks & Challenges\n\nKey risks include a very early revenue base (Rs 0.2 crore ARR), a two-person founding team, and dependency on GST portal and e-invoicing rule changes that could break workflows [c:646aq72]. Established competitors like TallyPrime, Zoho Books, and Vyapar are adding AI features, which could erode LedgerLoom's differentiation [c:53itecf][c:646aq72]. The company's market sizing (TAM Rs 7,500 crore, SAM Rs 1,200 crore) is self-estimated and scoped to only three states, with no independent validation [c:xfxwztr]. The SOM projection of Rs 18 crore by 2029 is a company projection with no external source [c:xfxwztr]. Net revenue retention is not disclosed, and the 3.8% monthly churn implies significant annual attrition if not improved.\n\n## 10. Investment Thesis\n\nLedgerLoom addresses a genuine pain point for small businesses and their accountants by automating GST bookkeeping from WhatsApp photos and bank statements, with OCR tuned for handwritten Gujarati and Hindi bills [c:gfjpgka][c:53itecf]. The accountant referral network provides a low-CAC channel (Rs 2,100) and early unit economics are positive [c:lw5pmjq][c:53itecf]. The two-person founding team combines chartered accountant expertise with OCR pipeline experience, which is relevant for the target market [c:yl2bkgc]. However, the product is not yet category-defining, the market sizing is self-reported and narrow, and the moat from OCR and referrals is not durable against larger suites adding AI features [c:53itecf][c:646aq72]. The ARR of Rs 0.2 crore is very small, and the company is raising at a pre-money valuation of Rs 8 crore, which implies a 40x multiple on ARR\u2014aggressive for pre-seed.\n\n## 11. Recommendation\n\n**Hold (5.6/10)**. LedgerLoom shows early product-market fit in a niche segment (Surat textile traders) with positive unit economics and a clear use of funds. However, the revenue base is tiny, the market sizing is unverified, and competitive moats are weak. The valuation is high relative to current ARR. We recommend holding for further traction milestones (e.g., reaching 1,500 paying businesses with churn below 3%) before committing capital. The tranche structure partially mitigates risk, but the minimum raise of 60% of target could still leave the company undercapitalised if the first tranche is not fully subscribed [c:fi2i5cy].",
+  "report_markdown": "## 1. Executive Summary\n\nLedgerLoom is a pre-seed fintech startup offering an AI accounting copilot that converts invoices and bank statements into GST-ready books for small businesses. The company has 340 paying customers, an ARR of Rs 0.2 crore (up from Rs 0.03 crore in 2025), and a gross margin of 78% [c:ubzfkqq][c:ggxbsrj]. It is raising Rs 1.25 crore at an Rs 8 crore pre-money valuation. The product is functional and addresses a clear pain point, but the revenue base is very small, the market sizing is self-reported and unverified, and the moat from OCR on Gujarati/Hindi bills and the accountant referral network is not durable against established competitors like TallyPrime and Zoho Books [c:ymz72ed][c:qbxjk4o]. Overall score: 5.6/10, Hold.\n\n## 2. Problem & Solution\n\nSmall businesses in India spend 6-10 hours per month manually reconciling invoices for GST, and accountants serving 80-150 clients each re-key most data by hand, leading to 1-3% of purchases losing input tax credit (all company estimates) [c:dozhbve]. LedgerLoom\u2019s solution is an AI bookkeeper that captures invoices via WhatsApp, uses OCR to read Gujarati, Hindi, and English bills (including handwritten ones), auto-categorises entries, reconciles with bank statements, and drafts GSTR-1 and GSTR-3B returns for accountant review [c:dmrk2yz]. The product is priced at Rs 499/month for businesses and Rs 2,999/month for accountants, with a 15% revenue share for accountant referrals [c:f2ioj44].\n\n## 3. Market Opportunity\n\nThe company estimates a TAM of Rs 7,500 crore for accounting and compliance software for India's GST-registered small businesses in 2025, a SAM of Rs 1,200 crore for traders and small manufacturers in Gujarat, Maharashtra, and Rajasthan who use an accountant, and a SOM of Rs 18 crore by 2029 [c:audhpgx]. All these figures are company-reported and unverified; no independent source backs the TAM, SAM, or SOM. The market is credible but niche, scoped to only three states, and the SOM projection lacks external validation. No publisher forecasts or CAGR data were available from the provided evidence.\n\n## 4. Competitive Landscape\n\nLedgerLoom competes with TallyPrime (desktop accounting), Zoho Books (cloud accounting with GST compliance), and Vyapar (mobile billing app) [c:ymz72ed]. The company claims two edges: an accountant referral network that lowers CAC to Rs 2,100, and invoice OCR tuned for handwritten Gujarati and Hindi bills [c:ymz72ed][c:ggxbsrj]. However, these are not durable moats; established competitors are adding AI features, and there is no evidence of significant switching costs or IP protection [c:qbxjk4o]. The competitive landscape is crowded, and LedgerLoom\u2019s differentiation is narrow.\n\n## 5. Business Model\n\nRevenue comes from a business subscription of Rs 499/month (100% of current revenue) and a planned accountant partner plan of Rs 2,999/month [c:f2ioj44]. Early unit economics show CAC of Rs 2,100, CAC payback of 5.4 months, gross margin of 78%, and monthly churn of 3.8% [c:ggxbsrj]. The revenue base is very small (ARR Rs 0.2 crore), and net revenue retention is not provided. The model relies on accountant referrals for low-cost customer acquisition, but the churn rate, if annualised, implies significant customer loss over time.\n\n## 6. Team Assessment\n\nThe two-person founding team has relevant domain expertise. Hetal Patel is a chartered accountant who ran a 12-person GST practice serving Surat traders [c:t2b6yzy]. Yash Mehta has software engineering experience and built document OCR pipelines [c:t2b6yzy]. This is a complete team for the current stage, but neither founder has previously built and scaled a startup. The team\u2019s deep understanding of the target user (textile traders in Surat) is a strength, but execution risk is elevated due to the small team size and early revenue base [c:qbxjk4o].\n\n## 7. Traction & Milestones\n\nLedgerLoom has achieved early traction with 340 paying small businesses, 260 of them in Surat's textile markets, and an ARR of Rs 0.2 crore as of September 2026, up from Rs 0.03 crore in 2025 [c:ubzfkqq]. The company has prepared 1,900 draft GST returns that were approved by accountants and onboarded 22 accountant firms as referral partners [c:ubzfkqq]. Unit economics are positive: CAC of Rs 2,100, CAC payback of 5.4 months, gross margin of 78%, and monthly churn of 3.8% [c:ggxbsrj]. All traction figures are company-reported and unverified.\n\n## 8. Compliance & Governance\n\nLedgerLoom Private Limited is registered under CIN U58202GJ2025PTC158734 with MCA status ACTIVE, and directors are Hetal Patel and Yash Mehta [c:pfzf5lg]. No compliance flags were identified in the registry or the deck. The deck does not attempt to instruct the evaluator. The company acknowledges reliance on GST portal changes as a risk, which is a regulatory dependency but not a compliance issue [c:qbxjk4o].\n\n## 9. Risks & Challenges\n\nKey risks include a very early revenue base (Rs 0.2 crore ARR), a two-person founding team, and dependency on GST portal and e-invoicing rule changes that could break workflows [c:qbxjk4o]. Established competitors like TallyPrime, Zoho Books, and Vyapar are adding AI features, which could erode LedgerLoom's differentiation [c:ymz72ed][c:qbxjk4o]. The company's market sizing (TAM Rs 7,500 crore, SAM Rs 1,200 crore) is self-estimated and scoped to only three states, with no independent validation [c:audhpgx]. The SOM projection of Rs 18 crore by 2029 is a company projection with no external source [c:audhpgx]. Net revenue retention is not disclosed, and the 3.8% monthly churn implies significant annual attrition if not improved.\n\n## 10. Investment Thesis\n\nLedgerLoom addresses a genuine pain point for small businesses and their accountants by automating GST bookkeeping from WhatsApp photos and bank statements, with OCR tuned for handwritten Gujarati and Hindi bills [c:dmrk2yz][c:ymz72ed]. The accountant referral network provides a low-CAC channel (Rs 2,100) and early unit economics are positive [c:ggxbsrj][c:ymz72ed]. The two-person founding team combines chartered accountant expertise with OCR pipeline experience, which is relevant for the target market [c:t2b6yzy]. However, the product is not yet category-defining, the market sizing is self-reported and narrow, and the moat from OCR and referrals is not durable against larger suites adding AI features [c:ymz72ed][c:qbxjk4o]. The ARR of Rs 0.2 crore is very small, and the company is raising at a pre-money valuation of Rs 8 crore, which implies a 40x multiple on ARR\u2014aggressive for pre-seed.\n\n## 11. Recommendation\n\n**Hold (5.6/10)**. LedgerLoom shows early product-market fit in a niche segment (Surat textile traders) with positive unit economics and a clear use of funds. However, the revenue base is tiny, the market sizing is unverified, and competitive moats are weak. The valuation is high relative to current ARR. We recommend holding for further traction milestones (e.g., reaching 1,500 paying businesses with churn below 3%) before committing capital. The tranche structure partially mitigates risk, but the minimum raise of 60% of target could still leave the company undercapitalised if the first tranche is not fully subscribed [c:ocwtkzi].",
   "revenue_currency": "INR",
   "revenue_metric": "ARR",
   "rewrites": 2,
   "rubric_version": "r1",
   "score_rationales": {
-   "business_model": "Pricing is defined (Rs 499/month business subscription, Rs 2,999/month accountant plan), and early unit economics show positive signs: CAC Rs 2,100, CAC payback 5.4 months, gross margin 78%, and monthly churn 3.8%. However, the revenue base is very small (Rs 0.2 crore ARR) and net revenue retention is not provided [c:xjqw72i][c:lw5pmjq][c:5ual3ji].",
-   "execution_risk": "Typical early-stage risks are present and acknowledged: very early revenue, two-person team, reliance on GST portal changes, and competition from larger suites. However, these risks are partially mitigated by the team's domain expertise, early traction, and clear use of funds. No critical regulatory or registry red flags exist [c:646aq72][c:fi2i5cy].",
-   "market": "The market is sized by the company's own estimates at Rs 7,500 crore TAM and Rs 1,200 crore SAM, but these figures lack independent source backing and are scoped to only three states [c:xfxwztr]. The SOM projection of Rs 18 crore by 2029 is a company projection with no external validation, making the market credible but niche and self-sized.",
-   "moat": "The company has some execution advantages: accountant referral network (low CAC) and OCR tuned for Gujarati/Hindi handwritten bills. However, these are not durable moats; established competitors like TallyPrime, Zoho Books, and Vyapar are adding AI features, and there is no evidence of significant switching costs or IP protection [c:53itecf][c:646aq72].",
-   "product": "LedgerLoom has a working product used by 340 paying small businesses, with a clear value proposition: turning invoices and bank statements into GST-ready books. However, the product is not yet category-defining and differentiation is limited to OCR on handwritten Gujarati/Hindi bills and the accountant referral network [c:zyfauxr][c:gfjpgka][c:53itecf].",
-   "team": "The two-person founding team has relevant domain experience: Hetal Patel is a chartered accountant with a GST practice serving Surat traders, and Yash Mehta has software engineering and OCR pipeline experience. This is a complete team with relevant expertise, though not proven operators who have built and scaled a startup before [c:yl2bkgc].",
-   "traction": "The company has 340 paying businesses, ARR of Rs 0.2 crore (growing from Rs 0.03 crore the prior year), and 1,900 draft GST returns prepared. This shows early growth, but the revenue base is very small and the growth rate is not yet at strong 2x/year scale; retention evidence is limited to a 3.8% monthly churn figure [c:5ual3ji][c:lw5pmjq]."
+   "business_model": "Pricing is defined (Rs 499/month business subscription, Rs 2,999/month accountant plan), and early unit economics show positive signs: CAC Rs 2,100, CAC payback 5.4 months, gross margin 78%, and monthly churn 3.8%. However, the revenue base is very small (Rs 0.2 crore ARR) and net revenue retention is not provided [c:f2ioj44][c:ggxbsrj][c:ubzfkqq].",
+   "execution_risk": "Typical early-stage risks are present and acknowledged: very early revenue, two-person team, reliance on GST portal changes, and competition from larger suites. However, these risks are partially mitigated by the team's domain expertise, early traction, and clear use of funds. No critical regulatory or registry red flags exist [c:qbxjk4o][c:ocwtkzi].",
+   "market": "The market is sized by the company's own estimates at Rs 7,500 crore TAM and Rs 1,200 crore SAM, but these figures lack independent source backing and are scoped to only three states [c:audhpgx]. The SOM projection of Rs 18 crore by 2029 is a company projection with no external validation, making the market credible but niche and self-sized.",
+   "moat": "The company has some execution advantages: accountant referral network (low CAC) and OCR tuned for Gujarati/Hindi handwritten bills. However, these are not durable moats; established competitors like TallyPrime, Zoho Books, and Vyapar are adding AI features, and there is no evidence of significant switching costs or IP protection [c:ymz72ed][c:qbxjk4o].",
+   "product": "LedgerLoom has a working product used by 340 paying small businesses, with a clear value proposition: turning invoices and bank statements into GST-ready books. However, the product is not yet category-defining and differentiation is limited to OCR on handwritten Gujarati/Hindi bills and the accountant referral network [c:pfzf5lg][c:dmrk2yz][c:ymz72ed].",
+   "team": "The two-person founding team has relevant domain experience: Hetal Patel is a chartered accountant with a GST practice serving Surat traders, and Yash Mehta has software engineering and OCR pipeline experience. This is a complete team with relevant expertise, though not proven operators who have built and scaled a startup before [c:t2b6yzy].",
+   "traction": "The company has 340 paying businesses, ARR of Rs 0.2 crore (growing from Rs 0.03 crore the prior year), and 1,900 draft GST returns prepared. This shows early growth, but the revenue base is very small and the growth rate is not yet at strong 2x/year scale; retention evidence is limited to a 3.8% monthly churn figure [c:ubzfkqq][c:ggxbsrj]."
   },
   "score_spread": {
    "business_model": 0.0,
@@ -266,17 +267,17 @@
    "traction": 1.0
   },
   "sections": {
-   "business_model": "Revenue comes from a business subscription of Rs 499/month (100% of current revenue) and a planned accountant partner plan of Rs 2,999/month [c:xjqw72i]. Early unit economics show CAC of Rs 2,100, CAC payback of 5.4 months, gross margin of 78%, and monthly churn of 3.8% [c:lw5pmjq]. The revenue base is very small (ARR Rs 0.2 crore), and net revenue retention is not provided. The model relies on accountant referrals for low-cost customer acquisition, but the churn rate, if annualised, implies significant customer loss over time.",
-   "competitive_landscape": "LedgerLoom competes with TallyPrime (desktop accounting), Zoho Books (cloud accounting with GST compliance), and Vyapar (mobile billing app) [c:53itecf]. The company claims two edges: an accountant referral network that lowers CAC to Rs 2,100, and invoice OCR tuned for handwritten Gujarati and Hindi bills [c:53itecf][c:lw5pmjq]. However, these are not durable moats; established competitors are adding AI features, and there is no evidence of significant switching costs or IP protection [c:646aq72]. The competitive landscape is crowded, and LedgerLoom\u2019s differentiation is narrow.",
-   "compliance_governance": "LedgerLoom Private Limited is registered under CIN U58202GJ2025PTC158734 with MCA status ACTIVE, and directors are Hetal Patel and Yash Mehta [c:zyfauxr]. No compliance flags were identified in the registry or the deck. The deck does not attempt to instruct the evaluator. The company acknowledges reliance on GST portal changes as a risk, which is a regulatory dependency but not a compliance issue [c:646aq72].",
-   "executive_summary": "LedgerLoom is a pre-seed fintech startup offering an AI accounting copilot that converts invoices and bank statements into GST-ready books for small businesses. The company has 340 paying customers, an ARR of Rs 0.2 crore (up from Rs 0.03 crore in 2025), and a gross margin of 78% [c:5ual3ji][c:lw5pmjq]. It is raising Rs 1.25 crore at an Rs 8 crore pre-money valuation. The product is functional and addresses a clear pain point, but the revenue base is very small, the market sizing is self-reported and unverified, and the moat from OCR on Gujarati/Hindi bills and the accountant referral network is not durable against established competitors like TallyPrime and Zoho Books [c:53itecf][c:646aq72]. Overall score: 5.6/10, Hold.",
-   "investment_thesis": "LedgerLoom addresses a genuine pain point for small businesses and their accountants by automating GST bookkeeping from WhatsApp photos and bank statements, with OCR tuned for handwritten Gujarati and Hindi bills [c:gfjpgka][c:53itecf]. The accountant referral network provides a low-CAC channel (Rs 2,100) and early unit economics are positive [c:lw5pmjq][c:53itecf]. The two-person founding team combines chartered accountant expertise with OCR pipeline experience, which is relevant for the target market [c:yl2bkgc]. However, the product is not yet category-defining, the market sizing is self-reported and narrow, and the moat from OCR and referrals is not durable against larger suites adding AI features [c:53itecf][c:646aq72]. The ARR of Rs 0.2 crore is very small, and the company is raising at a pre-money valuation of Rs 8 crore, which implies a 40x multiple on ARR\u2014aggressive for pre-seed.",
-   "market_opportunity": "The company estimates a TAM of Rs 7,500 crore for accounting and compliance software for India's GST-registered small businesses in 2025, a SAM of Rs 1,200 crore for traders and small manufacturers in Gujarat, Maharashtra, and Rajasthan who use an accountant, and a SOM of Rs 18 crore by 2029 [c:xfxwztr]. All these figures are company-reported and unverified; no independent source backs the TAM, SAM, or SOM. The market is credible but niche, scoped to only three states, and the SOM projection lacks external validation. No publisher forecasts or CAGR data were available from the provided evidence.",
-   "problem_solution": "Small businesses in India spend 6-10 hours per month manually reconciling invoices for GST, and accountants serving 80-150 clients each re-key most data by hand, leading to 1-3% of purchases losing input tax credit (all company estimates) [c:s3y4eq5]. LedgerLoom\u2019s solution is an AI bookkeeper that captures invoices via WhatsApp, uses OCR to read Gujarati, Hindi, and English bills (including handwritten ones), auto-categorises entries, reconciles with bank statements, and drafts GSTR-1 and GSTR-3B returns for accountant review [c:gfjpgka]. The product is priced at Rs 499/month for businesses and Rs 2,999/month for accountants, with a 15% revenue share for accountant referrals [c:xjqw72i].",
-   "recommendation": "**Hold (5.6/10)**. LedgerLoom shows early product-market fit in a niche segment (Surat textile traders) with positive unit economics and a clear use of funds. However, the revenue base is tiny, the market sizing is unverified, and competitive moats are weak. The valuation is high relative to current ARR. We recommend holding for further traction milestones (e.g., reaching 1,500 paying businesses with churn below 3%) before committing capital. The tranche structure partially mitigates risk, but the minimum raise of 60% of target could still leave the company undercapitalised if the first tranche is not fully subscribed [c:fi2i5cy].",
-   "risks_challenges": "Key risks include a very early revenue base (Rs 0.2 crore ARR), a two-person founding team, and dependency on GST portal and e-invoicing rule changes that could break workflows [c:646aq72]. Established competitors like TallyPrime, Zoho Books, and Vyapar are adding AI features, which could erode LedgerLoom's differentiation [c:53itecf][c:646aq72]. The company's market sizing (TAM Rs 7,500 crore, SAM Rs 1,200 crore) is self-estimated and scoped to only three states, with no independent validation [c:xfxwztr]. The SOM projection of Rs 18 crore by 2029 is a company projection with no external source [c:xfxwztr]. Net revenue retention is not disclosed, and the 3.8% monthly churn implies significant annual attrition if not improved.",
-   "team_assessment": "The two-person founding team has relevant domain expertise. Hetal Patel is a chartered accountant who ran a 12-person GST practice serving Surat traders [c:yl2bkgc]. Yash Mehta has software engineering experience and built document OCR pipelines [c:yl2bkgc]. This is a complete team for the current stage, but neither founder has previously built and scaled a startup. The team\u2019s deep understanding of the target user (textile traders in Surat) is a strength, but execution risk is elevated due to the small team size and early revenue base [c:646aq72].",
-   "traction_milestones": "LedgerLoom has achieved early traction with 340 paying small businesses, 260 of them in Surat's textile markets, and an ARR of Rs 0.2 crore as of September 2026, up from Rs 0.03 crore in 2025 [c:5ual3ji]. The company has prepared 1,900 draft GST returns that were approved by accountants and onboarded 22 accountant firms as referral partners [c:5ual3ji]. Unit economics are positive: CAC of Rs 2,100, CAC payback of 5.4 months, gross margin of 78%, and monthly churn of 3.8% [c:lw5pmjq]. All traction figures are company-reported and unverified."
+   "business_model": "Revenue comes from a business subscription of Rs 499/month (100% of current revenue) and a planned accountant partner plan of Rs 2,999/month [c:f2ioj44]. Early unit economics show CAC of Rs 2,100, CAC payback of 5.4 months, gross margin of 78%, and monthly churn of 3.8% [c:ggxbsrj]. The revenue base is very small (ARR Rs 0.2 crore), and net revenue retention is not provided. The model relies on accountant referrals for low-cost customer acquisition, but the churn rate, if annualised, implies significant customer loss over time.",
+   "competitive_landscape": "LedgerLoom competes with TallyPrime (desktop accounting), Zoho Books (cloud accounting with GST compliance), and Vyapar (mobile billing app) [c:ymz72ed]. The company claims two edges: an accountant referral network that lowers CAC to Rs 2,100, and invoice OCR tuned for handwritten Gujarati and Hindi bills [c:ymz72ed][c:ggxbsrj]. However, these are not durable moats; established competitors are adding AI features, and there is no evidence of significant switching costs or IP protection [c:qbxjk4o]. The competitive landscape is crowded, and LedgerLoom\u2019s differentiation is narrow.",
+   "compliance_governance": "LedgerLoom Private Limited is registered under CIN U58202GJ2025PTC158734 with MCA status ACTIVE, and directors are Hetal Patel and Yash Mehta [c:pfzf5lg]. No compliance flags were identified in the registry or the deck. The deck does not attempt to instruct the evaluator. The company acknowledges reliance on GST portal changes as a risk, which is a regulatory dependency but not a compliance issue [c:qbxjk4o].",
+   "executive_summary": "LedgerLoom is a pre-seed fintech startup offering an AI accounting copilot that converts invoices and bank statements into GST-ready books for small businesses. The company has 340 paying customers, an ARR of Rs 0.2 crore (up from Rs 0.03 crore in 2025), and a gross margin of 78% [c:ubzfkqq][c:ggxbsrj]. It is raising Rs 1.25 crore at an Rs 8 crore pre-money valuation. The product is functional and addresses a clear pain point, but the revenue base is very small, the market sizing is self-reported and unverified, and the moat from OCR on Gujarati/Hindi bills and the accountant referral network is not durable against established competitors like TallyPrime and Zoho Books [c:ymz72ed][c:qbxjk4o]. Overall score: 5.6/10, Hold.",
+   "investment_thesis": "LedgerLoom addresses a genuine pain point for small businesses and their accountants by automating GST bookkeeping from WhatsApp photos and bank statements, with OCR tuned for handwritten Gujarati and Hindi bills [c:dmrk2yz][c:ymz72ed]. The accountant referral network provides a low-CAC channel (Rs 2,100) and early unit economics are positive [c:ggxbsrj][c:ymz72ed]. The two-person founding team combines chartered accountant expertise with OCR pipeline experience, which is relevant for the target market [c:t2b6yzy]. However, the product is not yet category-defining, the market sizing is self-reported and narrow, and the moat from OCR and referrals is not durable against larger suites adding AI features [c:ymz72ed][c:qbxjk4o]. The ARR of Rs 0.2 crore is very small, and the company is raising at a pre-money valuation of Rs 8 crore, which implies a 40x multiple on ARR\u2014aggressive for pre-seed.",
+   "market_opportunity": "The company estimates a TAM of Rs 7,500 crore for accounting and compliance software for India's GST-registered small businesses in 2025, a SAM of Rs 1,200 crore for traders and small manufacturers in Gujarat, Maharashtra, and Rajasthan who use an accountant, and a SOM of Rs 18 crore by 2029 [c:audhpgx]. All these figures are company-reported and unverified; no independent source backs the TAM, SAM, or SOM. The market is credible but niche, scoped to only three states, and the SOM projection lacks external validation. No publisher forecasts or CAGR data were available from the provided evidence.",
+   "problem_solution": "Small businesses in India spend 6-10 hours per month manually reconciling invoices for GST, and accountants serving 80-150 clients each re-key most data by hand, leading to 1-3% of purchases losing input tax credit (all company estimates) [c:dozhbve]. LedgerLoom\u2019s solution is an AI bookkeeper that captures invoices via WhatsApp, uses OCR to read Gujarati, Hindi, and English bills (including handwritten ones), auto-categorises entries, reconciles with bank statements, and drafts GSTR-1 and GSTR-3B returns for accountant review [c:dmrk2yz]. The product is priced at Rs 499/month for businesses and Rs 2,999/month for accountants, with a 15% revenue share for accountant referrals [c:f2ioj44].",
+   "recommendation": "**Hold (5.6/10)**. LedgerLoom shows early product-market fit in a niche segment (Surat textile traders) with positive unit economics and a clear use of funds. However, the revenue base is tiny, the market sizing is unverified, and competitive moats are weak. The valuation is high relative to current ARR. We recommend holding for further traction milestones (e.g., reaching 1,500 paying businesses with churn below 3%) before committing capital. The tranche structure partially mitigates risk, but the minimum raise of 60% of target could still leave the company undercapitalised if the first tranche is not fully subscribed [c:ocwtkzi].",
+   "risks_challenges": "Key risks include a very early revenue base (Rs 0.2 crore ARR), a two-person founding team, and dependency on GST portal and e-invoicing rule changes that could break workflows [c:qbxjk4o]. Established competitors like TallyPrime, Zoho Books, and Vyapar are adding AI features, which could erode LedgerLoom's differentiation [c:ymz72ed][c:qbxjk4o]. The company's market sizing (TAM Rs 7,500 crore, SAM Rs 1,200 crore) is self-estimated and scoped to only three states, with no independent validation [c:audhpgx]. The SOM projection of Rs 18 crore by 2029 is a company projection with no external source [c:audhpgx]. Net revenue retention is not disclosed, and the 3.8% monthly churn implies significant annual attrition if not improved.",
+   "team_assessment": "The two-person founding team has relevant domain expertise. Hetal Patel is a chartered accountant who ran a 12-person GST practice serving Surat traders [c:t2b6yzy]. Yash Mehta has software engineering experience and built document OCR pipelines [c:t2b6yzy]. This is a complete team for the current stage, but neither founder has previously built and scaled a startup. The team\u2019s deep understanding of the target user (textile traders in Surat) is a strength, but execution risk is elevated due to the small team size and early revenue base [c:qbxjk4o].",
+   "traction_milestones": "LedgerLoom has achieved early traction with 340 paying small businesses, 260 of them in Surat's textile markets, and an ARR of Rs 0.2 crore as of September 2026, up from Rs 0.03 crore in 2025 [c:ubzfkqq]. The company has prepared 1,900 draft GST returns that were approved by accountants and onboarded 22 accountant firms as referral partners [c:ubzfkqq]. Unit economics are positive: CAC of Rs 2,100, CAC payback of 5.4 months, gross margin of 78%, and monthly churn of 3.8% [c:ggxbsrj]. All traction figures are company-reported and unverified."
   },
   "sources": [
    {
@@ -351,5 +352,5 @@
    }
   ]
  },
- "input_hash": "68d1da876488d3a06bd15907f77a46ec0dda070edb8609680b1f108864654bd8"
+ "input_hash": "26847faa0c9314d82c40b43de62304dfc622e9a8a08a1ef8fba33e143b1aa77c"
 }

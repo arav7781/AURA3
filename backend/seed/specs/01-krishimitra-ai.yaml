@@ -96,8 +96,6 @@ risks:
   - Hardware margins depend on component prices
   - Monsoon seasonality drives churn
   - No track record outside Maharashtra
-deck:
-  palette: agritech
 evaluation_expectations:
   score_band: [6.0, 8.5]
   recommendation_in: [Buy, Strong Buy, Hold]

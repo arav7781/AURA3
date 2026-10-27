@@ -1,5 +1,6 @@
 {
  "analysis": {
+  "carried_from_input_hash": "1dfa3a11188ffe73c9033e7a7ec145e9c77c4272339f9a96771b53fe01db2f09",
   "category_scores": {
    "business_model": 6.0,
    "execution_risk": 5.3,
@@ -10,134 +11,134 @@
    "traction": 6.0
   },
   "citations": {
-   "c:chcsd3z": {
+   "c:57wtwdh": {
     "bbox": [
-     0.0677,
-     0.0554,
-     0.91398,
-     0.63306
+     0.05939,
+     0.12926,
+     0.82517,
+     0.78717
     ],
-    "chunk_id": "3fa537d1-dd9c-54b6-bbb0-9f722044c264",
-    "document_id": "0734db22-b190-4b9b-8953-e80904d6d551",
+    "chunk_id": "e2e657d6-a6f3-5f69-a4fb-563f3ba07fe1",
+    "document_id": "61e17895-c807-4fb4-83c3-4535a89062d8",
+    "page_no": 7,
+    "slide_title": "Unit Economics",
+    "type": "deck"
+   },
+   "c:5bsxzbz": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.90381,
+     0.74349
+    ],
+    "chunk_id": "a52ab43f-bcd1-5e10-a402-ba3282dbe2e9",
+    "document_id": "61e17895-c807-4fb4-83c3-4535a89062d8",
     "page_no": 2,
     "slide_title": "Problem",
     "type": "deck"
    },
-   "c:cnjxink": {
+   "c:axe4bkd": {
     "bbox": [
-     0.0677,
-     0.0554,
-     0.92793,
-     0.65193
+     0.05939,
+     0.12926,
+     0.8775,
+     0.784
     ],
-    "chunk_id": "1bde0fb4-e419-583f-bb49-9b1b0cc20d5a",
-    "document_id": "0734db22-b190-4b9b-8953-e80904d6d551",
-    "page_no": 11,
-    "slide_title": "The Ask",
-    "type": "deck"
-   },
-   "c:dlgkp2z": {
-    "bbox": [
-     0.05712,
-     0.0554,
-     0.93788,
-     0.67896
-    ],
-    "chunk_id": "5815ecba-dcec-5079-ae44-120cd06b6288",
-    "document_id": "0734db22-b190-4b9b-8953-e80904d6d551",
-    "page_no": 8,
-    "slide_title": "Competitive Landscape",
-    "type": "deck"
-   },
-   "c:h47yzf6": {
-    "bbox": [
-     0.0677,
-     0.0554,
-     0.90161,
-     0.59965
-    ],
-    "chunk_id": "bf05130f-9fc1-5e40-a41f-219ab5c985c0",
-    "document_id": "0734db22-b190-4b9b-8953-e80904d6d551",
+    "chunk_id": "0480ef40-e8ab-5264-a09c-a18b9fd18926",
+    "document_id": "61e17895-c807-4fb4-83c3-4535a89062d8",
     "page_no": 3,
     "slide_title": "Solution",
     "type": "deck"
    },
-   "c:jk5lk6t": {
+   "c:d3elymk": {
     "bbox": [
-     0.05986,
-     0.0554,
-     0.88027,
-     0.82843
+     0.05939,
+     0.12926,
+     0.9179,
+     0.70105
     ],
-    "chunk_id": "0ff7206a-8dfc-5af3-8d7b-4f1590562956",
-    "document_id": "0734db22-b190-4b9b-8953-e80904d6d551",
-    "page_no": 6,
-    "slide_title": "Traction (as of FY2025)",
+    "chunk_id": "bc5f0c58-5c3f-5400-a02f-d6013a675b5e",
+    "document_id": "61e17895-c807-4fb4-83c3-4535a89062d8",
+    "page_no": 8,
+    "slide_title": "Competitive Landscape",
     "type": "deck"
    },
-   "c:lk22re3": {
+   "c:gokq6ld": {
     "bbox": [
-     0.0677,
-     0.0554,
-     0.93161,
-     0.4682
+     0.05939,
+     0.12926,
+     0.80272,
+     0.71951
     ],
-    "chunk_id": "df7b0ca9-45ea-5525-a77b-39713b11ea35",
-    "document_id": "0734db22-b190-4b9b-8953-e80904d6d551",
-    "page_no": 10,
-    "slide_title": "Team",
-    "type": "deck"
-   },
-   "c:ncahtvk": {
-    "bbox": [
-     0.0677,
-     0.0554,
-     0.89536,
-     0.48415
-    ],
-    "chunk_id": "314ca85e-0575-5ba4-97dd-3bf9618fdbb6",
-    "document_id": "0734db22-b190-4b9b-8953-e80904d6d551",
-    "page_no": 5,
-    "slide_title": "Business Model",
-    "type": "deck"
-   },
-   "c:ocbn7bj": {
-    "bbox": [
-     0.0677,
-     0.0554,
-     0.92414,
-     0.42291
-    ],
-    "chunk_id": "e0633be4-5ead-5cbe-b59d-90b9660e627e",
-    "document_id": "0734db22-b190-4b9b-8953-e80904d6d551",
+    "chunk_id": "324ae8a3-2b51-5f15-ac6e-5e23e94e17a2",
+    "document_id": "61e17895-c807-4fb4-83c3-4535a89062d8",
     "page_no": 4,
     "slide_title": "Market Opportunity (TAM / SAM / SOM)",
     "type": "deck"
    },
-   "c:ooej3wu": {
+   "c:jlzr33p": {
     "bbox": [
-     0.0677,
-     0.0554,
-     0.86142,
-     0.69977
+     0.05939,
+     0.12926,
+     0.68734,
+     0.83466
     ],
-    "chunk_id": "791c046b-27a7-5251-944f-68a9cd632155",
-    "document_id": "0734db22-b190-4b9b-8953-e80904d6d551",
+    "chunk_id": "28920991-30c4-57f6-b616-a642eff54317",
+    "document_id": "61e17895-c807-4fb4-83c3-4535a89062d8",
     "page_no": 9,
     "slide_title": "Go-to-Market & Key Risks",
     "type": "deck"
    },
-   "c:p77oc37": {
+   "c:l623q3x": {
     "bbox": [
-     0.0677,
-     0.0554,
-     0.88907,
-     0.51605
+     0.05939,
+     0.12926,
+     0.91086,
+     0.69969
     ],
-    "chunk_id": "e3a63dab-f81a-5f95-ba70-4b8a9def802e",
-    "document_id": "0734db22-b190-4b9b-8953-e80904d6d551",
-    "page_no": 7,
-    "slide_title": "Unit Economics",
+    "chunk_id": "ce251e41-abd7-56d3-8684-e5804d2770e4",
+    "document_id": "61e17895-c807-4fb4-83c3-4535a89062d8",
+    "page_no": 10,
+    "slide_title": "Team",
+    "type": "deck"
+   },
+   "c:oroozty": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.90981,
+     0.79796
+    ],
+    "chunk_id": "26e38cda-cdff-51b0-9c79-b140675310de",
+    "document_id": "61e17895-c807-4fb4-83c3-4535a89062d8",
+    "page_no": 11,
+    "slide_title": "The Ask",
+    "type": "deck"
+   },
+   "c:spthy3k": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.899,
+     0.7402
+    ],
+    "chunk_id": "5884cfaa-89ba-551b-8f67-95a66cb65512",
+    "document_id": "61e17895-c807-4fb4-83c3-4535a89062d8",
+    "page_no": 5,
+    "slide_title": "Business Model",
+    "type": "deck"
+   },
+   "c:ycohj4t": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.92303,
+     0.85371
+    ],
+    "chunk_id": "8f718cc1-6560-5795-8fae-5dfe1885eaf7",
+    "document_id": "61e17895-c807-4fb4-83c3-4535a89062d8",
+    "page_no": 6,
+    "slide_title": "Traction (as of FY2025)",
     "type": "deck"
    },
    "w:1": {
@@ -182,7 +183,7 @@
   ],
   "evidence_version": 2,
   "generated_at": "2026-10-26T19:13:08.133195Z",
-  "input_hash": "1dfa3a11188ffe73c9033e7a7ec145e9c77c4272339f9a96771b53fe01db2f09",
+  "input_hash": "e71a3c75ecbfd13ef3b900b0895741fd33ef6f09b8e9221fd821aa0b6e06ae8a",
   "invalid_citations": [],
   "market_sizing": {
    "basis": "Only figures traceable to retrieved search excerpts are plotted as market data.",
@@ -194,14 +195,14 @@
      },
      "citation": {
       "bbox": [
-       0.0677,
-       0.0554,
-       0.92414,
-       0.42291
+       0.05939,
+       0.12926,
+       0.80272,
+       0.71951
       ],
-      "chunk_id": "e0633be4-5ead-5cbe-b59d-90b9660e627e",
-      "cid": "c:ocbn7bj",
-      "document_id": "0734db22-b190-4b9b-8953-e80904d6d551",
+      "chunk_id": "324ae8a3-2b51-5f15-ac6e-5e23e94e17a2",
+      "cid": "c:gokq6ld",
+      "document_id": "61e17895-c807-4fb4-83c3-4535a89062d8",
       "page_no": 4
      },
      "currency": "INR",
@@ -225,14 +226,14 @@
      },
      "citation": {
       "bbox": [
-       0.0677,
-       0.0554,
-       0.92414,
-       0.42291
+       0.05939,
+       0.12926,
+       0.80272,
+       0.71951
       ],
-      "chunk_id": "e0633be4-5ead-5cbe-b59d-90b9660e627e",
-      "cid": "c:ocbn7bj",
-      "document_id": "0734db22-b190-4b9b-8953-e80904d6d551",
+      "chunk_id": "324ae8a3-2b51-5f15-ac6e-5e23e94e17a2",
+      "cid": "c:gokq6ld",
+      "document_id": "61e17895-c807-4fb4-83c3-4535a89062d8",
       "page_no": 4
      },
      "currency": "INR",
@@ -263,14 +264,14 @@
    {
     "citation": {
      "bbox": [
-      0.05986,
-      0.0554,
-      0.88027,
-      0.82843
+      0.05939,
+      0.12926,
+      0.92303,
+      0.85371
      ],
-     "chunk_id": "0ff7206a-8dfc-5af3-8d7b-4f1590562956",
-     "cid": "c:jk5lk6t",
-     "document_id": "0734db22-b190-4b9b-8953-e80904d6d551",
+     "chunk_id": "8f718cc1-6560-5795-8fae-5dfe1885eaf7",
+     "cid": "c:ycohj4t",
+     "document_id": "61e17895-c807-4fb4-83c3-4535a89062d8",
      "page_no": 6
     },
     "geography": "India",
@@ -291,14 +292,14 @@
    {
     "citation": {
      "bbox": [
-      0.05986,
-      0.0554,
-      0.88027,
-      0.82843
+      0.05939,
+      0.12926,
+      0.92303,
+      0.85371
      ],
-     "chunk_id": "0ff7206a-8dfc-5af3-8d7b-4f1590562956",
-     "cid": "c:jk5lk6t",
-     "document_id": "0734db22-b190-4b9b-8953-e80904d6d551",
+     "chunk_id": "8f718cc1-6560-5795-8fae-5dfe1885eaf7",
+     "cid": "c:ycohj4t",
+     "document_id": "61e17895-c807-4fb4-83c3-4535a89062d8",
      "page_no": 6
     },
     "geography": "India",
@@ -318,19 +319,19 @@
    }
   ],
   "recommendation_label": "Hold",
-  "report_markdown": "## 1. Executive Summary\n\nAgriSense Networks has deployed 2,300 solar LoRaWAN sensor nodes across 210 paying orchards in Nashik (grapes) and Himachal Pradesh (apples), delivering frost, disease-risk and irrigation alerts in local languages [c:jk5lk6t]. ARR grew from Rs 0.1 crore in FY2024 to Rs 0.4 crore in FY2025 (4x growth), with unit economics showing a CAC of Rs 9,800, payback of 9.3 months, gross margin of 52% and monthly churn of 3.1% [c:p77oc37]. The company is raising Rs 4 crore at Rs 18 crore pre-money (Rs 22 crore post-money) in a Seed round with a tranche structure tied to deployment and ARR milestones [c:cnjxink]. The product is functional and addresses a real pain point for smallholder orchardists, but the market is niche (two crops, two regions), the differentiation is modest (shared LoRaWAN, two-season disease models), and the absolute ARR is small relative to the valuation. The team has relevant domain experience but lacks a track record of scaling a startup. Overall score: 5.5/10, Hold.\n\n## 2. Problem & Solution\n\nApple and grape growers in India lose 20-40% of a block's yield to a single spring frost or downy-mildew outbreak because they rely on district-level forecasts that miss valley and hill-slope microclimates (company estimate) [c:chcsd3z]. Imported orchard weather stations cost Rs 1.5-3 lakh each, which is out of reach for a 2-5 acre grower (company estimate) [c:chcsd3z]. AgriSense addresses this with a low-cost solar sensor node (Rs 6,500 one-time) that measures leaf wetness, canopy temperature, humidity and soil moisture, connected via a shared LoRaWAN gateway that covers up to 40 orchards within a 3 km radius [c:h47yzf6]. The system sends frost and disease-risk alerts (downy mildew, apple scab) 24-48 hours ahead by SMS and WhatsApp, plus block-wise irrigation schedules in Marathi, Hindi and English [c:h47yzf6]. This reduces the cost per orchard dramatically compared to imported stations, making precision sensing accessible to smallholders.\n\n## 3. Market Opportunity\n\nThe company estimates a TAM of Rs 1,450 crore in 2025 for precision sensing and advisory in India's fruit orchards, a SAM of Rs 210 crore for grape (Maharashtra) and apple (Himachal Pradesh, J&K) orchards above 2 acres, and a SOM of Rs 12 crore by 2028 (all company estimates, unverified) [c:ocbn7bj]. These figures lack independent third-party validation. The global LoRaWAN market was estimated at US$3.6 billion in 2026 [w:1], and the AI in agriculture market is projected to grow at 21.5% CAGR to USD 11.59 billion by 2032 [w:2], indicating a favourable tailwind for IoT-based agritech. However, AgriSense's addressable market is niche\u2014concentrated in two crops and two regions\u2014and the company's own SOM projection of Rs 12 crore by 2028 is modest. The market opportunity is real but narrow, and the sizing is entirely company-reported.\n\n## 4. Competitive Landscape\n\nAgriSense competes with Fasal (IoT sensors + AI advisory for premium horticulture), Cropin (enterprise agritech SaaS for agribusinesses), and imported weather stations sold through dealers without local-language advisory [c:dlgkp2z]. The company claims an edge from disease-risk models calibrated on two seasons of block-level orchard data and shared LoRaWAN gateways that reduce per-orchard cost [c:dlgkp2z]. Globally, Semios has raised $100M and deployed over 1 million sensors in orchards for pest management and irrigation [w:9][w:13], while Taranis has raised over $100M for aerial surveillance and computer vision [w:10][w:12]. These are well-funded competitors, but they target larger farms and different geographies. AgriSense's differentiation is execution-based (local data, shared gateways) and replicable; there is no evidence of IP protection or switching costs. The competitive moat is weak.\n\n## 5. Business Model\n\nRevenue comes from a one-time sensor node fee of Rs 6,500 (35% of revenue, sold near cost at ~8% margin) and a recurring subscription of Rs 150 per sensor per month (65% of revenue, gross margin 64%) [c:ncahtvk]. The average orchard runs 11 sensors, yielding Rs 1,650/month per orchard [c:p77oc37]. Unit economics: CAC Rs 9,800, payback 9.3 months, gross margin 52%, monthly churn 3.1% (peaks after harvest) [c:p77oc37]. These are positive but early-stage metrics; payback over 6 months and churn above 2% are cautionary. The business model is clear and the subscription component provides recurring revenue, but the hardware-heavy upfront cost and seasonal churn introduce risk. The tranche structure of the Seed round (40% at close, 30% at 5,000 sensors, 30% at Rs 1.5 crore ARR with churn below 3%) [c:cnjxink] aligns investor and founder interests but also reflects execution risk.\n\n## 6. Team Assessment\n\nThe three co-founders cover key roles: Rohan Deshmukh (CEO) grew up on a grape farm and sold drip-irrigation systems for 6 years, giving him domain and channel knowledge [c:lk22re3]. Pallavi Kulkarni (CTO) is an embedded-systems engineer who built LoRaWAN gateways for smart water meters, providing technical credibility [c:lk22re3]. Tsering Negi (Field Operations, Himachal) is a horticulture graduate who ran orchard advisory for an apple growers' cooperative, bringing on-the-ground experience in the target region [c:lk22re3]. The team has relevant domain expertise and covers the critical functions of CEO, CTO and field operations. However, none of the founders has a track record of scaling a startup or repeated entrepreneurial successes, which limits the team score to 6/10. The deck does not attempt to instruct the evaluator.\n\n## 7. Traction & Milestones\n\n**Traction & Milestones**\n\n- **ARR growth:** ARR grew from Rs 0.1 crore in FY2024 to Rs 0.4 crore in FY2025 (4\u00d7 year-over-year, company-reported and unverified) [c:jk5lk6t].\n- **Deployed base:** 2,300 sensors across 210 paying orchards as of FY2025, comprising 150 grape orchards in Nashik and 60 apple orchards in Shimla and Kullu districts [c:jk5lk6t].\n- **Channel pilot:** One grape exporters' cooperative pilot covering 40 member orchards [c:jk5lk6t].\n- **Target:** 8,000 sensors across 700 orchards within 24 months (company projection) [c:ooej3wu].\n- **Milestone-linked tranches:** Tranche 2 (30% of funds) released at 5,000 sensors deployed and billing; Tranche 3 (30%) at Rs 1.5 crore ARR with monthly churn below 3% [c:cnjxink].\n\n## 8. Compliance & Governance\n\n**Compliance & Governance**\n\n- **Registry status:** MCA CIN U01611MH2023PTC398642, AGRISENSE NETWORKS PRIVATE LIMITED, status ACTIVE, directors: Rohan Deshmukh, Pallavi Kulkarni, Tsering Negi. No compliance flags raised.\n- **No red flags** in the registry or deck content. The deck does not attempt to instruct the evaluator or override scoring rules.\n- **Data gaps:** TAM, SAM, SOM are company estimates without independent third-party validation [c:ocbn7bj]. No usable external source for market size, CAGR, or trend was found in the provided evidence.\n\n## 9. Risks & Challenges\n\n**Risks & Challenges**\n\n- **Concentration risk:** Revenue is seasonal and concentrated in two crops (grapes, apples) and two regions (Nashik, Himachal) [c:ooej3wu]. A poor harvest or disease outbreak in either region could materially impact revenue.\n- **Hardware reliability:** Snow and monsoon conditions raise hardware failure and service costs; reliability at scale is unproven [c:ooej3wu].\n- **Thin traction vs. valuation:** ARR of Rs 0.4 crore against a Rs 18 crore pre-money valuation implies a revenue multiple of 45\u00d7, which is high for a seed-stage hardware-enabled subscription business [c:ooej3wu].\n- **Manufacturing risk:** No track record of manufacturing hardware at scale [c:ooej3wu].\n- **Churn and payback:** Monthly churn of 3.1% (annualised ~31%) and CAC payback of 9.3 months are above the 2% churn and 6-month payback thresholds typically considered healthy for subscription models [c:p77oc37].\n- **Competitive pressure:** Competitors like Fasal, Cropin, and imported weather stations have larger resources and established distribution [c:dlgkp2z]. The company's disease-risk models are calibrated on only two seasons of data, a narrow moat.\n\n## 10. Investment Thesis\n\n**Investment Thesis**\n\nAgriSense Networks addresses a genuine pain point for smallholder apple and grape growers in India: the lack of block-level weather and disease-risk data. The product is live with 2,300 sensors across 210 paying orchards, and ARR grew 4\u00d7 from Rs 0.1 crore to Rs 0.4 crore in one year [c:jk5lk6t]. Unit economics are defined (CAC Rs 9,800, payback 9.3 months, gross margin 52%) and the per-sensor pricing (Rs 6,500 one-time + Rs 150/month) is accessible for small orchards [c:p77oc37] [c:ncahtvk]. The team combines domain expertise in farming, embedded systems, and horticulture advisory [c:lk22re3].\n\nHowever, the market opportunity is niche (two crops, two regions) and the TAM/SAM/SOM are company estimates without external validation [c:ocbn7bj]. The moat is thin: disease models on two seasons of data and shared LoRaWAN gateways are execution advantages that competitors can replicate. Monthly churn of 3.1% and a 9.3-month payback indicate unit economics that need improvement. The valuation (Rs 18 crore pre-money on Rs 0.4 crore ARR) is aggressive for a seed-stage company with hardware risk and no manufacturing scale. The tranche structure provides some downside protection, but the risks of concentration, hardware reliability, and churn keep the overall score at 5.5/10.\n\n## 11. Recommendation\n\n**Recommendation: Hold (5.5/10)**\n\nAgriSense Networks shows early product-market fit in a narrow niche with growing revenue and a capable team. However, the high valuation relative to traction, thin moat, concentration risk, and churn above 2% prevent a stronger rating. The tranche-based funding structure mitigates some execution risk, but the company needs to demonstrate lower churn, expand to additional crops/regions, and build a defensible data moat before a higher score is warranted. Investors should monitor the next two milestones (5,000 sensors and Rs 1.5 crore ARR with churn below 3%) as key proof points.",
+  "report_markdown": "## 1. Executive Summary\n\nAgriSense Networks has deployed 2,300 solar LoRaWAN sensor nodes across 210 paying orchards in Nashik (grapes) and Himachal Pradesh (apples), delivering frost, disease-risk and irrigation alerts in local languages [c:ycohj4t]. ARR grew from Rs 0.1 crore in FY2024 to Rs 0.4 crore in FY2025 (4x growth), with unit economics showing a CAC of Rs 9,800, payback of 9.3 months, gross margin of 52% and monthly churn of 3.1% [c:57wtwdh]. The company is raising Rs 4 crore at Rs 18 crore pre-money (Rs 22 crore post-money) in a Seed round with a tranche structure tied to deployment and ARR milestones [c:oroozty]. The product is functional and addresses a real pain point for smallholder orchardists, but the market is niche (two crops, two regions), the differentiation is modest (shared LoRaWAN, two-season disease models), and the absolute ARR is small relative to the valuation. The team has relevant domain experience but lacks a track record of scaling a startup. Overall score: 5.5/10, Hold.\n\n## 2. Problem & Solution\n\nApple and grape growers in India lose 20-40% of a block's yield to a single spring frost or downy-mildew outbreak because they rely on district-level forecasts that miss valley and hill-slope microclimates (company estimate) [c:5bsxzbz]. Imported orchard weather stations cost Rs 1.5-3 lakh each, which is out of reach for a 2-5 acre grower (company estimate) [c:5bsxzbz]. AgriSense addresses this with a low-cost solar sensor node (Rs 6,500 one-time) that measures leaf wetness, canopy temperature, humidity and soil moisture, connected via a shared LoRaWAN gateway that covers up to 40 orchards within a 3 km radius [c:axe4bkd]. The system sends frost and disease-risk alerts (downy mildew, apple scab) 24-48 hours ahead by SMS and WhatsApp, plus block-wise irrigation schedules in Marathi, Hindi and English [c:axe4bkd]. This reduces the cost per orchard dramatically compared to imported stations, making precision sensing accessible to smallholders.\n\n## 3. Market Opportunity\n\nThe company estimates a TAM of Rs 1,450 crore in 2025 for precision sensing and advisory in India's fruit orchards, a SAM of Rs 210 crore for grape (Maharashtra) and apple (Himachal Pradesh, J&K) orchards above 2 acres, and a SOM of Rs 12 crore by 2028 (all company estimates, unverified) [c:gokq6ld]. These figures lack independent third-party validation. The global LoRaWAN market was estimated at US$3.6 billion in 2026 [w:1], and the AI in agriculture market is projected to grow at 21.5% CAGR to USD 11.59 billion by 2032 [w:2], indicating a favourable tailwind for IoT-based agritech. However, AgriSense's addressable market is niche\u2014concentrated in two crops and two regions\u2014and the company's own SOM projection of Rs 12 crore by 2028 is modest. The market opportunity is real but narrow, and the sizing is entirely company-reported.\n\n## 4. Competitive Landscape\n\nAgriSense competes with Fasal (IoT sensors + AI advisory for premium horticulture), Cropin (enterprise agritech SaaS for agribusinesses), and imported weather stations sold through dealers without local-language advisory [c:d3elymk]. The company claims an edge from disease-risk models calibrated on two seasons of block-level orchard data and shared LoRaWAN gateways that reduce per-orchard cost [c:d3elymk]. Globally, Semios has raised $100M and deployed over 1 million sensors in orchards for pest management and irrigation [w:9][w:13], while Taranis has raised over $100M for aerial surveillance and computer vision [w:10][w:12]. These are well-funded competitors, but they target larger farms and different geographies. AgriSense's differentiation is execution-based (local data, shared gateways) and replicable; there is no evidence of IP protection or switching costs. The competitive moat is weak.\n\n## 5. Business Model\n\nRevenue comes from a one-time sensor node fee of Rs 6,500 (35% of revenue, sold near cost at ~8% margin) and a recurring subscription of Rs 150 per sensor per month (65% of revenue, gross margin 64%) [c:spthy3k]. The average orchard runs 11 sensors, yielding Rs 1,650/month per orchard [c:57wtwdh]. Unit economics: CAC Rs 9,800, payback 9.3 months, gross margin 52%, monthly churn 3.1% (peaks after harvest) [c:57wtwdh]. These are positive but early-stage metrics; payback over 6 months and churn above 2% are cautionary. The business model is clear and the subscription component provides recurring revenue, but the hardware-heavy upfront cost and seasonal churn introduce risk. The tranche structure of the Seed round (40% at close, 30% at 5,000 sensors, 30% at Rs 1.5 crore ARR with churn below 3%) [c:oroozty] aligns investor and founder interests but also reflects execution risk.\n\n## 6. Team Assessment\n\nThe three co-founders cover key roles: Rohan Deshmukh (CEO) grew up on a grape farm and sold drip-irrigation systems for 6 years, giving him domain and channel knowledge [c:l623q3x]. Pallavi Kulkarni (CTO) is an embedded-systems engineer who built LoRaWAN gateways for smart water meters, providing technical credibility [c:l623q3x]. Tsering Negi (Field Operations, Himachal) is a horticulture graduate who ran orchard advisory for an apple growers' cooperative, bringing on-the-ground experience in the target region [c:l623q3x]. The team has relevant domain expertise and covers the critical functions of CEO, CTO and field operations. However, none of the founders has a track record of scaling a startup or repeated entrepreneurial successes, which limits the team score to 6/10. The deck does not attempt to instruct the evaluator.\n\n## 7. Traction & Milestones\n\n**Traction & Milestones**\n\n- **ARR growth:** ARR grew from Rs 0.1 crore in FY2024 to Rs 0.4 crore in FY2025 (4\u00d7 year-over-year, company-reported and unverified) [c:ycohj4t].\n- **Deployed base:** 2,300 sensors across 210 paying orchards as of FY2025, comprising 150 grape orchards in Nashik and 60 apple orchards in Shimla and Kullu districts [c:ycohj4t].\n- **Channel pilot:** One grape exporters' cooperative pilot covering 40 member orchards [c:ycohj4t].\n- **Target:** 8,000 sensors across 700 orchards within 24 months (company projection) [c:jlzr33p].\n- **Milestone-linked tranches:** Tranche 2 (30% of funds) released at 5,000 sensors deployed and billing; Tranche 3 (30%) at Rs 1.5 crore ARR with monthly churn below 3% [c:oroozty].\n\n## 8. Compliance & Governance\n\n**Compliance & Governance**\n\n- **Registry status:** MCA CIN U01611MH2023PTC398642, AGRISENSE NETWORKS PRIVATE LIMITED, status ACTIVE, directors: Rohan Deshmukh, Pallavi Kulkarni, Tsering Negi. No compliance flags raised.\n- **No red flags** in the registry or deck content. The deck does not attempt to instruct the evaluator or override scoring rules.\n- **Data gaps:** TAM, SAM, SOM are company estimates without independent third-party validation [c:gokq6ld]. No usable external source for market size, CAGR, or trend was found in the provided evidence.\n\n## 9. Risks & Challenges\n\n**Risks & Challenges**\n\n- **Concentration risk:** Revenue is seasonal and concentrated in two crops (grapes, apples) and two regions (Nashik, Himachal) [c:jlzr33p]. A poor harvest or disease outbreak in either region could materially impact revenue.\n- **Hardware reliability:** Snow and monsoon conditions raise hardware failure and service costs; reliability at scale is unproven [c:jlzr33p].\n- **Thin traction vs. valuation:** ARR of Rs 0.4 crore against a Rs 18 crore pre-money valuation implies a revenue multiple of 45\u00d7, which is high for a seed-stage hardware-enabled subscription business [c:jlzr33p].\n- **Manufacturing risk:** No track record of manufacturing hardware at scale [c:jlzr33p].\n- **Churn and payback:** Monthly churn of 3.1% (annualised ~31%) and CAC payback of 9.3 months are above the 2% churn and 6-month payback thresholds typically considered healthy for subscription models [c:57wtwdh].\n- **Competitive pressure:** Competitors like Fasal, Cropin, and imported weather stations have larger resources and established distribution [c:d3elymk]. The company's disease-risk models are calibrated on only two seasons of data, a narrow moat.\n\n## 10. Investment Thesis\n\n**Investment Thesis**\n\nAgriSense Networks addresses a genuine pain point for smallholder apple and grape growers in India: the lack of block-level weather and disease-risk data. The product is live with 2,300 sensors across 210 paying orchards, and ARR grew 4\u00d7 from Rs 0.1 crore to Rs 0.4 crore in one year [c:ycohj4t]. Unit economics are defined (CAC Rs 9,800, payback 9.3 months, gross margin 52%) and the per-sensor pricing (Rs 6,500 one-time + Rs 150/month) is accessible for small orchards [c:57wtwdh] [c:spthy3k]. The team combines domain expertise in farming, embedded systems, and horticulture advisory [c:l623q3x].\n\nHowever, the market opportunity is niche (two crops, two regions) and the TAM/SAM/SOM are company estimates without external validation [c:gokq6ld]. The moat is thin: disease models on two seasons of data and shared LoRaWAN gateways are execution advantages that competitors can replicate. Monthly churn of 3.1% and a 9.3-month payback indicate unit economics that need improvement. The valuation (Rs 18 crore pre-money on Rs 0.4 crore ARR) is aggressive for a seed-stage company with hardware risk and no manufacturing scale. The tranche structure provides some downside protection, but the risks of concentration, hardware reliability, and churn keep the overall score at 5.5/10.\n\n## 11. Recommendation\n\n**Recommendation: Hold (5.5/10)**\n\nAgriSense Networks shows early product-market fit in a narrow niche with growing revenue and a capable team. However, the high valuation relative to traction, thin moat, concentration risk, and churn above 2% prevent a stronger rating. The tranche-based funding structure mitigates some execution risk, but the company needs to demonstrate lower churn, expand to additional crops/regions, and build a defensible data moat before a higher score is warranted. Investors should monitor the next two milestones (5,000 sensors and Rs 1.5 crore ARR with churn below 3%) as key proof points.",
   "revenue_currency": "INR",
   "revenue_metric": "ARR",
   "rewrites": 2,
   "rubric_version": "r1",
   "score_rationales": {
-   "business_model": "Pricing is clear (Rs 6,500 per sensor one-time + Rs 150/month subscription) and unit economics are defined: CAC Rs 9,800, payback 9.3 months, gross margin 52%, monthly churn 3.1% [c:p77oc37] [c:ncahtvk]. These metrics show positive unit economics on early data, but payback over 6 months and churn above 2% prevent a higher score.",
-   "execution_risk": "Key risks are identified: revenue is seasonal and concentrated in two crops/regions, hardware reliability in snow/monsoon is unproven, thin traction relative to valuation, and no track record of manufacturing at scale [c:ooej3wu]. The tranche structure (milestones for funding) provides some mitigation, but these are significant risks without strong mitigation, placing the score at 5.",
-   "market": "The TAM/SAM/SOM are provided as company estimates (Rs 1,450 crore TAM, Rs 210 crore SAM) but lack independent third-party validation [c:ocbn7bj]. The SOM of Rs 12 crore by 2028 is a company projection. The market is niche (apple and grape orchards in two regions) and sizing is not backed by external sources, so it scores as a niche market with only the company's own estimate.",
-   "moat": "The company claims an edge from disease-risk models calibrated on two seasons of block-level data and shared LoRaWAN gateways that reduce per-orchard cost [c:dlgkp2z]. However, these are execution advantages that can be replicated by competitors with similar data collection, and there is no evidence of switching costs, IP protection, or network effects. Score reflects execution advantages only.",
-   "product": "AgriSense has a working product with 2,300 sensors deployed across 210 paying orchards, delivering clear value through frost, disease, and irrigation alerts in local languages [c:jk5lk6t]. However, the differentiation is modest (shared LoRaWAN, disease models calibrated on two seasons) and there is no strong evidence of product-market fit such as retention or expansion metrics beyond early unit economics [c:p77oc37].",
-   "team": "The three co-founders have relevant domain experience: Rohan Deshmukh grew up on a grape farm and sold drip-irrigation systems for 6 years, Pallavi Kulkarni has embedded-systems expertise, and Tsering Negi has horticulture and orchard advisory experience [c:lk22re3]. They cover key roles (CEO, CTO, Field Ops) but lack a track record of scaling a startup or repeated successes, which keeps the score at 6.",
-   "traction": "ARR grew from Rs 0.1 crore in FY2024 to Rs 0.4 crore in FY2025 (4x growth), with 2,300 sensors across 210 paying orchards [c:jk5lk6t]. This is early paying customers with growing revenue, but the absolute ARR is small (Rs 0.4 crore) and the growth is only two data points, so it does not yet demonstrate strong sustained growth (2x/year) with retention evidence."
+   "business_model": "Pricing is clear (Rs 6,500 per sensor one-time + Rs 150/month subscription) and unit economics are defined: CAC Rs 9,800, payback 9.3 months, gross margin 52%, monthly churn 3.1% [c:57wtwdh] [c:spthy3k]. These metrics show positive unit economics on early data, but payback over 6 months and churn above 2% prevent a higher score.",
+   "execution_risk": "Key risks are identified: revenue is seasonal and concentrated in two crops/regions, hardware reliability in snow/monsoon is unproven, thin traction relative to valuation, and no track record of manufacturing at scale [c:jlzr33p]. The tranche structure (milestones for funding) provides some mitigation, but these are significant risks without strong mitigation, placing the score at 5.",
+   "market": "The TAM/SAM/SOM are provided as company estimates (Rs 1,450 crore TAM, Rs 210 crore SAM) but lack independent third-party validation [c:gokq6ld]. The SOM of Rs 12 crore by 2028 is a company projection. The market is niche (apple and grape orchards in two regions) and sizing is not backed by external sources, so it scores as a niche market with only the company's own estimate.",
+   "moat": "The company claims an edge from disease-risk models calibrated on two seasons of block-level data and shared LoRaWAN gateways that reduce per-orchard cost [c:d3elymk]. However, these are execution advantages that can be replicated by competitors with similar data collection, and there is no evidence of switching costs, IP protection, or network effects. Score reflects execution advantages only.",
+   "product": "AgriSense has a working product with 2,300 sensors deployed across 210 paying orchards, delivering clear value through frost, disease, and irrigation alerts in local languages [c:ycohj4t]. However, the differentiation is modest (shared LoRaWAN, disease models calibrated on two seasons) and there is no strong evidence of product-market fit such as retention or expansion metrics beyond early unit economics [c:57wtwdh].",
+   "team": "The three co-founders have relevant domain experience: Rohan Deshmukh grew up on a grape farm and sold drip-irrigation systems for 6 years, Pallavi Kulkarni has embedded-systems expertise, and Tsering Negi has horticulture and orchard advisory experience [c:l623q3x]. They cover key roles (CEO, CTO, Field Ops) but lack a track record of scaling a startup or repeated successes, which keeps the score at 6.",
+   "traction": "ARR grew from Rs 0.1 crore in FY2024 to Rs 0.4 crore in FY2025 (4x growth), with 2,300 sensors across 210 paying orchards [c:ycohj4t]. This is early paying customers with growing revenue, but the absolute ARR is small (Rs 0.4 crore) and the growth is only two data points, so it does not yet demonstrate strong sustained growth (2x/year) with retention evidence."
   },
   "score_spread": {
    "business_model": 1.0,
@@ -342,17 +343,17 @@
    "traction": 2.0
   },
   "sections": {
-   "business_model": "Revenue comes from a one-time sensor node fee of Rs 6,500 (35% of revenue, sold near cost at ~8% margin) and a recurring subscription of Rs 150 per sensor per month (65% of revenue, gross margin 64%) [c:ncahtvk]. The average orchard runs 11 sensors, yielding Rs 1,650/month per orchard [c:p77oc37]. Unit economics: CAC Rs 9,800, payback 9.3 months, gross margin 52%, monthly churn 3.1% (peaks after harvest) [c:p77oc37]. These are positive but early-stage metrics; payback over 6 months and churn above 2% are cautionary. The business model is clear and the subscription component provides recurring revenue, but the hardware-heavy upfront cost and seasonal churn introduce risk. The tranche structure of the Seed round (40% at close, 30% at 5,000 sensors, 30% at Rs 1.5 crore ARR with churn below 3%) [c:cnjxink] aligns investor and founder interests but also reflects execution risk.",
-   "competitive_landscape": "AgriSense competes with Fasal (IoT sensors + AI advisory for premium horticulture), Cropin (enterprise agritech SaaS for agribusinesses), and imported weather stations sold through dealers without local-language advisory [c:dlgkp2z]. The company claims an edge from disease-risk models calibrated on two seasons of block-level orchard data and shared LoRaWAN gateways that reduce per-orchard cost [c:dlgkp2z]. Globally, Semios has raised $100M and deployed over 1 million sensors in orchards for pest management and irrigation [w:9][w:13], while Taranis has raised over $100M for aerial surveillance and computer vision [w:10][w:12]. These are well-funded competitors, but they target larger farms and different geographies. AgriSense's differentiation is execution-based (local data, shared gateways) and replicable; there is no evidence of IP protection or switching costs. The competitive moat is weak.",
-   "compliance_governance": "**Compliance & Governance**\n\n- **Registry status:** MCA CIN U01611MH2023PTC398642, AGRISENSE NETWORKS PRIVATE LIMITED, status ACTIVE, directors: Rohan Deshmukh, Pallavi Kulkarni, Tsering Negi. No compliance flags raised.\n- **No red flags** in the registry or deck content. The deck does not attempt to instruct the evaluator or override scoring rules.\n- **Data gaps:** TAM, SAM, SOM are company estimates without independent third-party validation [c:ocbn7bj]. No usable external source for market size, CAGR, or trend was found in the provided evidence.",
-   "executive_summary": "AgriSense Networks has deployed 2,300 solar LoRaWAN sensor nodes across 210 paying orchards in Nashik (grapes) and Himachal Pradesh (apples), delivering frost, disease-risk and irrigation alerts in local languages [c:jk5lk6t]. ARR grew from Rs 0.1 crore in FY2024 to Rs 0.4 crore in FY2025 (4x growth), with unit economics showing a CAC of Rs 9,800, payback of 9.3 months, gross margin of 52% and monthly churn of 3.1% [c:p77oc37]. The company is raising Rs 4 crore at Rs 18 crore pre-money (Rs 22 crore post-money) in a Seed round with a tranche structure tied to deployment and ARR milestones [c:cnjxink]. The product is functional and addresses a real pain point for smallholder orchardists, but the market is niche (two crops, two regions), the differentiation is modest (shared LoRaWAN, two-season disease models), and the absolute ARR is small relative to the valuation. The team has relevant domain experience but lacks a track record of scaling a startup. Overall score: 5.5/10, Hold.",
-   "investment_thesis": "**Investment Thesis**\n\nAgriSense Networks addresses a genuine pain point for smallholder apple and grape growers in India: the lack of block-level weather and disease-risk data. The product is live with 2,300 sensors across 210 paying orchards, and ARR grew 4\u00d7 from Rs 0.1 crore to Rs 0.4 crore in one year [c:jk5lk6t]. Unit economics are defined (CAC Rs 9,800, payback 9.3 months, gross margin 52%) and the per-sensor pricing (Rs 6,500 one-time + Rs 150/month) is accessible for small orchards [c:p77oc37] [c:ncahtvk]. The team combines domain expertise in farming, embedded systems, and horticulture advisory [c:lk22re3].\n\nHowever, the market opportunity is niche (two crops, two regions) and the TAM/SAM/SOM are company estimates without external validation [c:ocbn7bj]. The moat is thin: disease models on two seasons of data and shared LoRaWAN gateways are execution advantages that competitors can replicate. Monthly churn of 3.1% and a 9.3-month payback indicate unit economics that need improvement. The valuation (Rs 18 crore pre-money on Rs 0.4 crore ARR) is aggressive for a seed-stage company with hardware risk and no manufacturing scale. The tranche structure provides some downside protection, but the risks of concentration, hardware reliability, and churn keep the overall score at 5.5/10.",
-   "market_opportunity": "The company estimates a TAM of Rs 1,450 crore in 2025 for precision sensing and advisory in India's fruit orchards, a SAM of Rs 210 crore for grape (Maharashtra) and apple (Himachal Pradesh, J&K) orchards above 2 acres, and a SOM of Rs 12 crore by 2028 (all company estimates, unverified) [c:ocbn7bj]. These figures lack independent third-party validation. The global LoRaWAN market was estimated at US$3.6 billion in 2026 [w:1], and the AI in agriculture market is projected to grow at 21.5% CAGR to USD 11.59 billion by 2032 [w:2], indicating a favourable tailwind for IoT-based agritech. However, AgriSense's addressable market is niche\u2014concentrated in two crops and two regions\u2014and the company's own SOM projection of Rs 12 crore by 2028 is modest. The market opportunity is real but narrow, and the sizing is entirely company-reported.",
-   "problem_solution": "Apple and grape growers in India lose 20-40% of a block's yield to a single spring frost or downy-mildew outbreak because they rely on district-level forecasts that miss valley and hill-slope microclimates (company estimate) [c:chcsd3z]. Imported orchard weather stations cost Rs 1.5-3 lakh each, which is out of reach for a 2-5 acre grower (company estimate) [c:chcsd3z]. AgriSense addresses this with a low-cost solar sensor node (Rs 6,500 one-time) that measures leaf wetness, canopy temperature, humidity and soil moisture, connected via a shared LoRaWAN gateway that covers up to 40 orchards within a 3 km radius [c:h47yzf6]. The system sends frost and disease-risk alerts (downy mildew, apple scab) 24-48 hours ahead by SMS and WhatsApp, plus block-wise irrigation schedules in Marathi, Hindi and English [c:h47yzf6]. This reduces the cost per orchard dramatically compared to imported stations, making precision sensing accessible to smallholders.",
+   "business_model": "Revenue comes from a one-time sensor node fee of Rs 6,500 (35% of revenue, sold near cost at ~8% margin) and a recurring subscription of Rs 150 per sensor per month (65% of revenue, gross margin 64%) [c:spthy3k]. The average orchard runs 11 sensors, yielding Rs 1,650/month per orchard [c:57wtwdh]. Unit economics: CAC Rs 9,800, payback 9.3 months, gross margin 52%, monthly churn 3.1% (peaks after harvest) [c:57wtwdh]. These are positive but early-stage metrics; payback over 6 months and churn above 2% are cautionary. The business model is clear and the subscription component provides recurring revenue, but the hardware-heavy upfront cost and seasonal churn introduce risk. The tranche structure of the Seed round (40% at close, 30% at 5,000 sensors, 30% at Rs 1.5 crore ARR with churn below 3%) [c:oroozty] aligns investor and founder interests but also reflects execution risk.",
+   "competitive_landscape": "AgriSense competes with Fasal (IoT sensors + AI advisory for premium horticulture), Cropin (enterprise agritech SaaS for agribusinesses), and imported weather stations sold through dealers without local-language advisory [c:d3elymk]. The company claims an edge from disease-risk models calibrated on two seasons of block-level orchard data and shared LoRaWAN gateways that reduce per-orchard cost [c:d3elymk]. Globally, Semios has raised $100M and deployed over 1 million sensors in orchards for pest management and irrigation [w:9][w:13], while Taranis has raised over $100M for aerial surveillance and computer vision [w:10][w:12]. These are well-funded competitors, but they target larger farms and different geographies. AgriSense's differentiation is execution-based (local data, shared gateways) and replicable; there is no evidence of IP protection or switching costs. The competitive moat is weak.",
+   "compliance_governance": "**Compliance & Governance**\n\n- **Registry status:** MCA CIN U01611MH2023PTC398642, AGRISENSE NETWORKS PRIVATE LIMITED, status ACTIVE, directors: Rohan Deshmukh, Pallavi Kulkarni, Tsering Negi. No compliance flags raised.\n- **No red flags** in the registry or deck content. The deck does not attempt to instruct the evaluator or override scoring rules.\n- **Data gaps:** TAM, SAM, SOM are company estimates without independent third-party validation [c:gokq6ld]. No usable external source for market size, CAGR, or trend was found in the provided evidence.",
+   "executive_summary": "AgriSense Networks has deployed 2,300 solar LoRaWAN sensor nodes across 210 paying orchards in Nashik (grapes) and Himachal Pradesh (apples), delivering frost, disease-risk and irrigation alerts in local languages [c:ycohj4t]. ARR grew from Rs 0.1 crore in FY2024 to Rs 0.4 crore in FY2025 (4x growth), with unit economics showing a CAC of Rs 9,800, payback of 9.3 months, gross margin of 52% and monthly churn of 3.1% [c:57wtwdh]. The company is raising Rs 4 crore at Rs 18 crore pre-money (Rs 22 crore post-money) in a Seed round with a tranche structure tied to deployment and ARR milestones [c:oroozty]. The product is functional and addresses a real pain point for smallholder orchardists, but the market is niche (two crops, two regions), the differentiation is modest (shared LoRaWAN, two-season disease models), and the absolute ARR is small relative to the valuation. The team has relevant domain experience but lacks a track record of scaling a startup. Overall score: 5.5/10, Hold.",
+   "investment_thesis": "**Investment Thesis**\n\nAgriSense Networks addresses a genuine pain point for smallholder apple and grape growers in India: the lack of block-level weather and disease-risk data. The product is live with 2,300 sensors across 210 paying orchards, and ARR grew 4\u00d7 from Rs 0.1 crore to Rs 0.4 crore in one year [c:ycohj4t]. Unit economics are defined (CAC Rs 9,800, payback 9.3 months, gross margin 52%) and the per-sensor pricing (Rs 6,500 one-time + Rs 150/month) is accessible for small orchards [c:57wtwdh] [c:spthy3k]. The team combines domain expertise in farming, embedded systems, and horticulture advisory [c:l623q3x].\n\nHowever, the market opportunity is niche (two crops, two regions) and the TAM/SAM/SOM are company estimates without external validation [c:gokq6ld]. The moat is thin: disease models on two seasons of data and shared LoRaWAN gateways are execution advantages that competitors can replicate. Monthly churn of 3.1% and a 9.3-month payback indicate unit economics that need improvement. The valuation (Rs 18 crore pre-money on Rs 0.4 crore ARR) is aggressive for a seed-stage company with hardware risk and no manufacturing scale. The tranche structure provides some downside protection, but the risks of concentration, hardware reliability, and churn keep the overall score at 5.5/10.",
+   "market_opportunity": "The company estimates a TAM of Rs 1,450 crore in 2025 for precision sensing and advisory in India's fruit orchards, a SAM of Rs 210 crore for grape (Maharashtra) and apple (Himachal Pradesh, J&K) orchards above 2 acres, and a SOM of Rs 12 crore by 2028 (all company estimates, unverified) [c:gokq6ld]. These figures lack independent third-party validation. The global LoRaWAN market was estimated at US$3.6 billion in 2026 [w:1], and the AI in agriculture market is projected to grow at 21.5% CAGR to USD 11.59 billion by 2032 [w:2], indicating a favourable tailwind for IoT-based agritech. However, AgriSense's addressable market is niche\u2014concentrated in two crops and two regions\u2014and the company's own SOM projection of Rs 12 crore by 2028 is modest. The market opportunity is real but narrow, and the sizing is entirely company-reported.",
+   "problem_solution": "Apple and grape growers in India lose 20-40% of a block's yield to a single spring frost or downy-mildew outbreak because they rely on district-level forecasts that miss valley and hill-slope microclimates (company estimate) [c:5bsxzbz]. Imported orchard weather stations cost Rs 1.5-3 lakh each, which is out of reach for a 2-5 acre grower (company estimate) [c:5bsxzbz]. AgriSense addresses this with a low-cost solar sensor node (Rs 6,500 one-time) that measures leaf wetness, canopy temperature, humidity and soil moisture, connected via a shared LoRaWAN gateway that covers up to 40 orchards within a 3 km radius [c:axe4bkd]. The system sends frost and disease-risk alerts (downy mildew, apple scab) 24-48 hours ahead by SMS and WhatsApp, plus block-wise irrigation schedules in Marathi, Hindi and English [c:axe4bkd]. This reduces the cost per orchard dramatically compared to imported stations, making precision sensing accessible to smallholders.",
    "recommendation": "**Recommendation: Hold (5.5/10)**\n\nAgriSense Networks shows early product-market fit in a narrow niche with growing revenue and a capable team. However, the high valuation relative to traction, thin moat, concentration risk, and churn above 2% prevent a stronger rating. The tranche-based funding structure mitigates some execution risk, but the company needs to demonstrate lower churn, expand to additional crops/regions, and build a defensible data moat before a higher score is warranted. Investors should monitor the next two milestones (5,000 sensors and Rs 1.5 crore ARR with churn below 3%) as key proof points.",
-   "risks_challenges": "**Risks & Challenges**\n\n- **Concentration risk:** Revenue is seasonal and concentrated in two crops (grapes, apples) and two regions (Nashik, Himachal) [c:ooej3wu]. A poor harvest or disease outbreak in either region could materially impact revenue.\n- **Hardware reliability:** Snow and monsoon conditions raise hardware failure and service costs; reliability at scale is unproven [c:ooej3wu].\n- **Thin traction vs. valuation:** ARR of Rs 0.4 crore against a Rs 18 crore pre-money valuation implies a revenue multiple of 45\u00d7, which is high for a seed-stage hardware-enabled subscription business [c:ooej3wu].\n- **Manufacturing risk:** No track record of manufacturing hardware at scale [c:ooej3wu].\n- **Churn and payback:** Monthly churn of 3.1% (annualised ~31%) and CAC payback of 9.3 months are above the 2% churn and 6-month payback thresholds typically considered healthy for subscription models [c:p77oc37].\n- **Competitive pressure:** Competitors like Fasal, Cropin, and imported weather stations have larger resources and established distribution [c:dlgkp2z]. The company's disease-risk models are calibrated on only two seasons of data, a narrow moat.",
-   "team_assessment": "The three co-founders cover key roles: Rohan Deshmukh (CEO) grew up on a grape farm and sold drip-irrigation systems for 6 years, giving him domain and channel knowledge [c:lk22re3]. Pallavi Kulkarni (CTO) is an embedded-systems engineer who built LoRaWAN gateways for smart water meters, providing technical credibility [c:lk22re3]. Tsering Negi (Field Operations, Himachal) is a horticulture graduate who ran orchard advisory for an apple growers' cooperative, bringing on-the-ground experience in the target region [c:lk22re3]. The team has relevant domain expertise and covers the critical functions of CEO, CTO and field operations. However, none of the founders has a track record of scaling a startup or repeated entrepreneurial successes, which limits the team score to 6/10. The deck does not attempt to instruct the evaluator.",
-   "traction_milestones": "**Traction & Milestones**\n\n- **ARR growth:** ARR grew from Rs 0.1 crore in FY2024 to Rs 0.4 crore in FY2025 (4\u00d7 year-over-year, company-reported and unverified) [c:jk5lk6t].\n- **Deployed base:** 2,300 sensors across 210 paying orchards as of FY2025, comprising 150 grape orchards in Nashik and 60 apple orchards in Shimla and Kullu districts [c:jk5lk6t].\n- **Channel pilot:** One grape exporters' cooperative pilot covering 40 member orchards [c:jk5lk6t].\n- **Target:** 8,000 sensors across 700 orchards within 24 months (company projection) [c:ooej3wu].\n- **Milestone-linked tranches:** Tranche 2 (30% of funds) released at 5,000 sensors deployed and billing; Tranche 3 (30%) at Rs 1.5 crore ARR with monthly churn below 3% [c:cnjxink]."
+   "risks_challenges": "**Risks & Challenges**\n\n- **Concentration risk:** Revenue is seasonal and concentrated in two crops (grapes, apples) and two regions (Nashik, Himachal) [c:jlzr33p]. A poor harvest or disease outbreak in either region could materially impact revenue.\n- **Hardware reliability:** Snow and monsoon conditions raise hardware failure and service costs; reliability at scale is unproven [c:jlzr33p].\n- **Thin traction vs. valuation:** ARR of Rs 0.4 crore against a Rs 18 crore pre-money valuation implies a revenue multiple of 45\u00d7, which is high for a seed-stage hardware-enabled subscription business [c:jlzr33p].\n- **Manufacturing risk:** No track record of manufacturing hardware at scale [c:jlzr33p].\n- **Churn and payback:** Monthly churn of 3.1% (annualised ~31%) and CAC payback of 9.3 months are above the 2% churn and 6-month payback thresholds typically considered healthy for subscription models [c:57wtwdh].\n- **Competitive pressure:** Competitors like Fasal, Cropin, and imported weather stations have larger resources and established distribution [c:d3elymk]. The company's disease-risk models are calibrated on only two seasons of data, a narrow moat.",
+   "team_assessment": "The three co-founders cover key roles: Rohan Deshmukh (CEO) grew up on a grape farm and sold drip-irrigation systems for 6 years, giving him domain and channel knowledge [c:l623q3x]. Pallavi Kulkarni (CTO) is an embedded-systems engineer who built LoRaWAN gateways for smart water meters, providing technical credibility [c:l623q3x]. Tsering Negi (Field Operations, Himachal) is a horticulture graduate who ran orchard advisory for an apple growers' cooperative, bringing on-the-ground experience in the target region [c:l623q3x]. The team has relevant domain expertise and covers the critical functions of CEO, CTO and field operations. However, none of the founders has a track record of scaling a startup or repeated entrepreneurial successes, which limits the team score to 6/10. The deck does not attempt to instruct the evaluator.",
+   "traction_milestones": "**Traction & Milestones**\n\n- **ARR growth:** ARR grew from Rs 0.1 crore in FY2024 to Rs 0.4 crore in FY2025 (4\u00d7 year-over-year, company-reported and unverified) [c:ycohj4t].\n- **Deployed base:** 2,300 sensors across 210 paying orchards as of FY2025, comprising 150 grape orchards in Nashik and 60 apple orchards in Shimla and Kullu districts [c:ycohj4t].\n- **Channel pilot:** One grape exporters' cooperative pilot covering 40 member orchards [c:ycohj4t].\n- **Target:** 8,000 sensors across 700 orchards within 24 months (company projection) [c:jlzr33p].\n- **Milestone-linked tranches:** Tranche 2 (30% of funds) released at 5,000 sensors deployed and billing; Tranche 3 (30%) at Rs 1.5 crore ARR with monthly churn below 3% [c:oroozty]."
   },
   "sources": [
    {
@@ -455,5 +456,5 @@
    }
   ]
  },
- "input_hash": "1dfa3a11188ffe73c9033e7a7ec145e9c77c4272339f9a96771b53fe01db2f09"
+ "input_hash": "e71a3c75ecbfd13ef3b900b0895741fd33ef6f09b8e9221fd821aa0b6e06ae8a"
 }

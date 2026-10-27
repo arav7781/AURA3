@@ -1,5 +1,6 @@
 {
  "analysis": {
+  "carried_from_input_hash": "30714d7551bb156dc719f54d84724b0aba9d2106ec4adc6bd48678dc38189696",
   "category_scores": {
    "business_model": 6.7,
    "execution_risk": 6.0,
@@ -10,147 +11,147 @@
    "traction": 6.0
   },
   "citations": {
-   "c:adery7f": {
+   "c:2wb5dge": {
     "bbox": [
-     0.0677,
-     0.0554,
-     0.92414,
-     0.42291
+     0.05939,
+     0.12926,
+     0.80272,
+     0.71951
     ],
-    "chunk_id": "4305bf51-f24b-5a83-9d5a-a8eb53657184",
-    "document_id": "e45eea50-64e3-48cf-93f2-cf0c4d01d3cd",
+    "chunk_id": "19ffc58d-dee6-5882-8f71-dcbcb245bd47",
+    "document_id": "798a9c61-9e2a-4858-95e7-8d7bf51bc515",
     "page_no": 4,
     "slide_title": "Market Opportunity (TAM / SAM / SOM)",
     "type": "deck"
    },
-   "c:fd3wevu": {
+   "c:bojh6oq": {
     "bbox": [
-     0.05658,
-     0.0554,
-     0.89937,
-     0.87077
+     0.05939,
+     0.12926,
+     0.92303,
+     0.84045
     ],
-    "chunk_id": "508a2123-452f-51d3-9b36-8375126393f7",
-    "document_id": "e45eea50-64e3-48cf-93f2-cf0c4d01d3cd",
+    "chunk_id": "96924b99-6934-5374-9403-894154cc149d",
+    "document_id": "798a9c61-9e2a-4858-95e7-8d7bf51bc515",
     "page_no": 6,
     "slide_title": "Traction (as of FY2026)",
     "type": "deck"
    },
-   "c:lubsk5v": {
+   "c:d6e5r2p": {
     "bbox": [
-     0.0677,
-     0.0554,
-     0.60808,
-     0.63853
+     0.05939,
+     0.12926,
+     0.89829,
+     0.766
     ],
-    "chunk_id": "6e0b7365-e622-523a-beea-520d8095876e",
-    "document_id": "e45eea50-64e3-48cf-93f2-cf0c4d01d3cd",
-    "page_no": 9,
-    "slide_title": "Go-to-Market & Key Risks",
-    "type": "deck"
-   },
-   "c:n72ogv6": {
-    "bbox": [
-     0.0677,
-     0.0554,
-     0.92915,
-     0.4682
-    ],
-    "chunk_id": "af375682-7e57-58d4-994e-993236387254",
-    "document_id": "e45eea50-64e3-48cf-93f2-cf0c4d01d3cd",
-    "page_no": 10,
-    "slide_title": "Team",
-    "type": "deck"
-   },
-   "c:oapeapg": {
-    "bbox": [
-     0.0677,
-     0.0554,
-     0.86889,
-     0.56134
-    ],
-    "chunk_id": "0e11929f-ad55-515d-bc0f-481e85dc91ef",
-    "document_id": "e45eea50-64e3-48cf-93f2-cf0c4d01d3cd",
+    "chunk_id": "976dacfb-eaa5-5a6e-a98d-8cd185f0cde3",
+    "document_id": "798a9c61-9e2a-4858-95e7-8d7bf51bc515",
     "page_no": 11,
     "slide_title": "The Ask",
     "type": "deck"
    },
-   "c:oyoqk7y": {
+   "c:iqf55m3": {
     "bbox": [
-     0.05731,
-     0.0554,
-     0.92414,
-     0.55063
+     0.05939,
+     0.12926,
+     0.9179,
+     0.70105
     ],
-    "chunk_id": "3e2cbe0b-f18c-571e-b7a0-c2e237a0d0e4",
-    "document_id": "e45eea50-64e3-48cf-93f2-cf0c4d01d3cd",
+    "chunk_id": "9f7d2215-8c0f-5bed-a926-f016303ba169",
+    "document_id": "798a9c61-9e2a-4858-95e7-8d7bf51bc515",
     "page_no": 8,
     "slide_title": "Competitive Landscape",
     "type": "deck"
    },
-   "c:r4d5n77": {
+   "c:kr3y64l": {
     "bbox": [
-     0.0677,
-     0.0554,
-     0.92969,
-     0.54247
+     0.05939,
+     0.12926,
+     0.73709,
+     0.76418
     ],
-    "chunk_id": "94afebb2-6878-5dbc-9bee-9ed525dc78da",
-    "document_id": "e45eea50-64e3-48cf-93f2-cf0c4d01d3cd",
-    "page_no": 2,
-    "slide_title": "Problem",
+    "chunk_id": "e068355a-8758-5a82-a2e1-e93aea3ede57",
+    "document_id": "798a9c61-9e2a-4858-95e7-8d7bf51bc515",
+    "page_no": 3,
+    "slide_title": "Solution",
     "type": "deck"
    },
-   "c:r4gax4n": {
+   "c:lmf2abl": {
     "bbox": [
-     0.0677,
-     0.0554,
-     0.90641,
-     0.50907
+     0.05939,
+     0.12926,
+     0.54767,
+     0.80727
     ],
-    "chunk_id": "db1fa28e-84c6-5bd5-ab17-1e45cf49d772",
-    "document_id": "e45eea50-64e3-48cf-93f2-cf0c4d01d3cd",
+    "chunk_id": "e15d1165-cdf9-57a8-b045-503b8d23d3fd",
+    "document_id": "798a9c61-9e2a-4858-95e7-8d7bf51bc515",
+    "page_no": 9,
+    "slide_title": "Go-to-Market & Key Risks",
+    "type": "deck"
+   },
+   "c:r4brelk": {
+    "bbox": [
+     0.05939,
+     0.22339,
+     0.54413,
+     0.72271
+    ],
+    "chunk_id": "57cb951c-89e7-5d13-97a8-cf3bee3a20fc",
+    "document_id": "798a9c61-9e2a-4858-95e7-8d7bf51bc515",
     "page_no": 1,
     "slide_title": "Kirana Cloud",
     "type": "deck"
    },
-   "c:t4ypbkv": {
+   "c:rgfqwjz": {
     "bbox": [
-     0.0677,
-     0.0554,
-     0.74725,
-     0.51605
+     0.05939,
+     0.12926,
+     0.7673,
+     0.7402
     ],
-    "chunk_id": "b36ad3a4-e275-5159-aa74-ade5fd680a09",
-    "document_id": "e45eea50-64e3-48cf-93f2-cf0c4d01d3cd",
-    "page_no": 7,
-    "slide_title": "Unit Economics",
-    "type": "deck"
-   },
-   "c:z52f3w5": {
-    "bbox": [
-     0.0677,
-     0.0554,
-     0.87273,
-     0.43886
-    ],
-    "chunk_id": "edcb2f42-3e19-5775-8547-a31a21e6540f",
-    "document_id": "e45eea50-64e3-48cf-93f2-cf0c4d01d3cd",
+    "chunk_id": "0c8db7ab-c158-532c-ba57-4848001ca57a",
+    "document_id": "798a9c61-9e2a-4858-95e7-8d7bf51bc515",
     "page_no": 5,
     "slide_title": "Business Model",
     "type": "deck"
    },
-   "c:zugjlye": {
+   "c:usqch3h": {
     "bbox": [
-     0.0677,
-     0.0554,
-     0.88488,
-     0.50907
+     0.05939,
+     0.12926,
+     0.87251,
+     0.70906
     ],
-    "chunk_id": "7a5beb61-7299-50eb-b809-5d168262f58b",
-    "document_id": "e45eea50-64e3-48cf-93f2-cf0c4d01d3cd",
-    "page_no": 3,
-    "slide_title": "Solution",
+    "chunk_id": "e5757e16-d732-5332-96c6-b58ec0379d6e",
+    "document_id": "798a9c61-9e2a-4858-95e7-8d7bf51bc515",
+    "page_no": 2,
+    "slide_title": "Problem",
+    "type": "deck"
+   },
+   "c:wycryo7": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.88962,
+     0.67871
+    ],
+    "chunk_id": "0c4402af-eb15-5b9e-921c-ae7e30151901",
+    "document_id": "798a9c61-9e2a-4858-95e7-8d7bf51bc515",
+    "page_no": 10,
+    "slide_title": "Team",
+    "type": "deck"
+   },
+   "c:wyu2b5j": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.90671,
+     0.74793
+    ],
+    "chunk_id": "dd036693-5b08-54d5-902c-66e644f3fdf0",
+    "document_id": "798a9c61-9e2a-4858-95e7-8d7bf51bc515",
+    "page_no": 7,
+    "slide_title": "Unit Economics",
     "type": "deck"
    },
    "w:11": {
@@ -211,7 +212,7 @@
   ],
   "evidence_version": 2,
   "generated_at": "2026-10-27T06:49:38.774765Z",
-  "input_hash": "30714d7551bb156dc719f54d84724b0aba9d2106ec4adc6bd48678dc38189696",
+  "input_hash": "785af0e7a642dc9c3ce7616081180708d626501995cd8115c85904ed3ebdff6b",
   "invalid_citations": [],
   "market_sizing": {
    "basis": "Only figures traceable to retrieved search excerpts are plotted as market data.",
@@ -227,19 +228,19 @@
   "overall_score": 5.9,
   "projected_revenue": [],
   "recommendation_label": "Hold",
-  "report_markdown": "## 1. Executive Summary\n\nKirana Cloud is a Seed-stage B2B SaaS startup offering an Android app for billing, inventory, and customer-credit (udhaar) ledger to kirana stores in East and North India. It has 14,200 active stores, 3,900 paying customers at Rs 299/month, and an ARR of Rs 1.4 crore (company-reported, unverified) [c:fd3wevu]. The team has relevant domain experience but no prior startup scaling success [c:n72ogv6]. The product shows early traction with a 3.2% monthly churn and 84% gross margin, but faces strong free competitors (Khatabook, Vyapar, paper bahi-khata) and regional concentration risk [c:oyoqk7y] [c:lubsk5v]. The round is Rs 8 crore at Rs 45 crore pre-money [c:oapeapg]. Overall score: 5.9/10, Hold.\n\n## 2. Problem & Solution\n\nKirana stores rely on memory and paper bahi-khata, losing track of stock and customer credit, which ties up 10-20% of working capital (company estimate) [c:r4d5n77]. Kirana Cloud provides a single Android app (Bengali, Hindi, English) for barcode-based billing, stock tracking with low-stock alerts, and a udhaar ledger that sends UPI payment reminders [c:zugjlye]. The app works offline, addressing connectivity issues in small stores. The solution is functional and adopted by 3,900 paying stores, but it is not differentiated from free alternatives like Khatabook or Vyapar [c:oyoqk7y].\n\n## 3. Market Opportunity\n\nIndia has 13 million kirana stores [w:29] [w:30]. Kirana Cloud estimates a TAM of Rs 6,000 crore and SAM of Rs 750 crore in 2025 (company estimates, unverified) [c:adery7f]. Independent sources confirm a large addressable base, with fewer than 30% of local businesses digitised as of Q4 2024 [w:4]. The POS terminal market in India is projected to grow at 10.3% CAGR to $2.0 billion by 2030 [w:5], supporting a tailwind for digital billing tools. However, the startup's TAM/SAM figures lack independent backing, and the SOM of Rs 25 crore by 2029 is a company projection [c:adery7f].\n\n## 4. Competitive Landscape\n\nCompetitors include Khatabook (10M+ merchants, digital ledger) [w:24], Vyapar (1M+ businesses, Rs 69 Cr revenue in FY25) [w:9] [w:13], and the free paper bahi-khata [c:oyoqk7y]. Kirana Cloud claims an edge from credit-ledger data creating switching costs and a field network of 60 local agents in East India [c:oyoqk7y]. However, these advantages are execution-driven and not deeply defensible; competitors offer similar features and have larger user bases. The deck itself acknowledges risk from free competitors [c:lubsk5v].\n\n## 5. Business Model\n\nRevenue is 100% from store subscriptions at Rs 299/month, with an 84% gross margin (company-reported, unverified) [c:z52f3w5]. Unit economics show a CAC of Rs 850, payback of 3.4 months, and monthly churn of 3.2% [c:t4ypbkv]. A distributor ordering pilot (1% commission) is not yet material [c:z52f3w5]. The free plan (billing only) converts 27% to paid [c:t4ypbkv]. Payback under 6 months is positive, but net revenue retention is not disclosed. The deck attempts to instruct evaluators by presenting unit economics as a given, but these are company-reported and unverified.\n\n## 6. Team Assessment\n\nThe founding team consists of Debjani Sen (CEO, 8 years FMCG sales), Arnab Chatterjee (CTO, Android engineer), and Mohit Agarwal (Growth, family wholesale business) [c:n72ogv6]. They cover relevant domain and technical skills, but none have prior startup scaling or repeated entrepreneurial success. Experience is limited to 8 years in sales and family business [c:n72ogv6]. The team is credible for early-stage execution but lacks a track record of building large-scale SaaS companies. No compliance flags from MCA registry (CIN U62099WB2022PTC254913, active).\n\n## 7. Traction & Milestones\n\n**Traction & Milestones**\n\n- **ARR growth:** Company-reported ARR reached Rs 1.4 crore in FY2026, up from Rs 0.8 crore in FY2025 and Rs 0.3 crore in FY2024 [c:fd3wevu]. This represents a ~1.75x year-over-year increase, below the 2x threshold often sought by early-stage investors.\n- **Paying customer base:** 3,900 stores pay Rs 299/month out of 14,200 active stores, implying a free-to-paid conversion rate of 27% [c:fd3wevu] [c:t4ypbkv].\n- **Monthly churn:** 3.2% among paying stores, which annualises to ~32% churn per year [c:t4ypbkv].\n- **Geographic presence:** Live in five cities \u2014 Kolkata, Howrah, Siliguri, Patna and Ranchi \u2014 all in East and North India [c:fd3wevu].\n- **Milestone-linked tranches:** The raise includes tranche triggers: 8,000 paying stores (within 300 days) and Rs 3.5 crore ARR (within 600 days) [c:oapeapg]. These are company projections, not yet achieved.\n\n## 8. Compliance & Governance\n\n**Compliance & Governance**\n\n- **Registry check:** MCA CIN U62099WB2022PTC254913 is active, registered as KIRANA CLOUD PRIVATE LIMITED, with directors Debjani Sen, Arnab Chatterjee, and Mohit Agarwal [c:r4gax4n]. No flags or adverse filings were found.\n- **No compliance flags** were identified in the registry or deck.\n- **Deck instruction attempt:** The startup's documents contain no instructions to the evaluator. No red flags of that nature.\n- **Data gaps:** The deck provides TAM (Rs 6,000 crore), SAM (Rs 750 crore), and SOM (Rs 25 crore) as company estimates, but no independent publisher forecasts or market trend data with years and growth rates were sourced [c:adery7f]. Revenue chart figures are company-reported and unverified.\n\n## 9. Risks & Challenges\n\n**Risks & Challenges**\n\n- **Low willingness to pay:** The deck itself flags that small stores have low willingness to pay, and free competitors (Khatabook, Vyapar, paper bahi-khata) are entrenched [c:lubsk5v] [c:oyoqk7y].\n- **Regional concentration:** All revenue comes from five cities in East/North India; scaling to other regions may increase field-sales costs and face cultural/linguistic barriers [c:lubsk5v].\n- **Free competitor pressure:** Khatabook and Vyapar have millions of users and significant funding (Vyapar raised $35.9M, Khatabook raised ~$84.5M) [w:11] [w:18]. Paper bahi-khata remains the default for many stores [c:oyoqk7y].\n- **Churn and retention:** Monthly churn of 3.2% implies ~32% annual churn, which limits lifetime value unless offset by upsells or reduced churn over time. Net revenue retention is not disclosed [c:t4ypbkv].\n- **Execution risk on milestones:** The raise includes tranche conditions (8,000 paying stores, Rs 3.5 crore ARR) that are ambitious given current 3,900 paying stores and Rs 1.4 crore ARR [c:oapeapg] [c:fd3wevu].\n\n## 10. Investment Thesis\n\n**Investment Thesis**\n\n- **Product-market fit signal:** The company has a working product with 3,900 paying stores at Rs 299/month, generating Rs 1.4 crore ARR with 84% gross margin and a CAC payback of 3.4 months [c:fd3wevu] [c:t4ypbkv]. These unit economics are positive for a seed-stage B2B SaaS.\n- **Large addressable market:** India has 13 million kirana stores [w:29] [w:30], and the company estimates a TAM of Rs 6,000 crore and SAM of Rs 750 crore [c:adery7f]. Even if these are company estimates, the underlying base is large.\n- **Switching costs from credit-ledger data:** The udhaar ledger creates stickiness for both store owners and their customers, as credit history is valuable and hard to migrate [c:oyoqk7y].\n- **Field network advantage:** 60 local agents in East India provide on-the-ground sales and support, which can be a moat in a market where personal relationships matter [c:oyoqk7y].\n- **Risks temper thesis:** The moat is execution-driven and not deeply defensible; free competitors are well-funded; churn is moderate; and the team lacks prior startup scaling experience [c:n72ogv6] [c:oyoqk7y] [c:t4ypbkv].\n\n## 11. Recommendation\n\n**Recommendation: Hold (5.9/10)**\n\n- **Product (6.0):** Working Android app with clear value proposition (billing, inventory, credit ledger) and paying customers. However, no defensible features beyond basic functionality, and retention is unproven beyond 3.2% monthly churn.\n- **Market (6.0):** Large addressable base (13M kirana stores) with credible TAM/SAM estimates, but all figures are company-reported and unverified. Independent sources confirm the market size.\n- **Team (5.3):** Founders have relevant domain experience (FMCG sales, Android engineering, wholesale) but no prior startup scaling or repeated successes. Experience is limited to 8 years in sales and family business.\n- **Business Model (6.7):** Clear pricing (Rs 299/month), 84% gross margin, 3.4-month CAC payback, and 3.2% monthly churn. Payback under 6 months is positive, but net revenue retention is not disclosed.\n- **Moat (5.0):** Some switching costs from credit-ledger data and a field network of 60 agents. However, competitors (Khatabook, Vyapar) offer similar features, and paper bahi-khata remains the default. Moat is execution-driven and not deeply defensible.\n- **Execution Risk (6.0):** Typical early-stage risks: low willingness to pay, free competitors, regional concentration, and field-sales costs scaling. Risks are acknowledged but mitigation is not detailed. No registry red flags.\n- **Traction (6.0):** Growing revenue (ARR Rs 1.4 crore from Rs 0.8 crore previous year) with dated FY2026 figures. 3,900 paying customers and 3.2% monthly churn. Growth rate is below 2x (~1.75x), and no retention evidence beyond churn.\n\n**Overall:** The startup shows early signs of product-market fit with positive unit economics and a large addressable market. However, the moat is weak, churn is moderate, and the team lacks scaling experience. The valuation (Rs 45 crore pre-money) is reasonable for seed stage but leaves limited upside given the risks. Recommend holding for further traction milestones before committing.",
+  "report_markdown": "## 1. Executive Summary\n\nKirana Cloud is a Seed-stage B2B SaaS startup offering an Android app for billing, inventory, and customer-credit (udhaar) ledger to kirana stores in East and North India. It has 14,200 active stores, 3,900 paying customers at Rs 299/month, and an ARR of Rs 1.4 crore (company-reported, unverified) [c:bojh6oq]. The team has relevant domain experience but no prior startup scaling success [c:wycryo7]. The product shows early traction with a 3.2% monthly churn and 84% gross margin, but faces strong free competitors (Khatabook, Vyapar, paper bahi-khata) and regional concentration risk [c:iqf55m3] [c:lmf2abl]. The round is Rs 8 crore at Rs 45 crore pre-money [c:d6e5r2p]. Overall score: 5.9/10, Hold.\n\n## 2. Problem & Solution\n\nKirana stores rely on memory and paper bahi-khata, losing track of stock and customer credit, which ties up 10-20% of working capital (company estimate) [c:usqch3h]. Kirana Cloud provides a single Android app (Bengali, Hindi, English) for barcode-based billing, stock tracking with low-stock alerts, and a udhaar ledger that sends UPI payment reminders [c:kr3y64l]. The app works offline, addressing connectivity issues in small stores. The solution is functional and adopted by 3,900 paying stores, but it is not differentiated from free alternatives like Khatabook or Vyapar [c:iqf55m3].\n\n## 3. Market Opportunity\n\nIndia has 13 million kirana stores [w:29] [w:30]. Kirana Cloud estimates a TAM of Rs 6,000 crore and SAM of Rs 750 crore in 2025 (company estimates, unverified) [c:2wb5dge]. Independent sources confirm a large addressable base, with fewer than 30% of local businesses digitised as of Q4 2024 [w:4]. The POS terminal market in India is projected to grow at 10.3% CAGR to $2.0 billion by 2030 [w:5], supporting a tailwind for digital billing tools. However, the startup's TAM/SAM figures lack independent backing, and the SOM of Rs 25 crore by 2029 is a company projection [c:2wb5dge].\n\n## 4. Competitive Landscape\n\nCompetitors include Khatabook (10M+ merchants, digital ledger) [w:24], Vyapar (1M+ businesses, Rs 69 Cr revenue in FY25) [w:9] [w:13], and the free paper bahi-khata [c:iqf55m3]. Kirana Cloud claims an edge from credit-ledger data creating switching costs and a field network of 60 local agents in East India [c:iqf55m3]. However, these advantages are execution-driven and not deeply defensible; competitors offer similar features and have larger user bases. The deck itself acknowledges risk from free competitors [c:lmf2abl].\n\n## 5. Business Model\n\nRevenue is 100% from store subscriptions at Rs 299/month, with an 84% gross margin (company-reported, unverified) [c:rgfqwjz]. Unit economics show a CAC of Rs 850, payback of 3.4 months, and monthly churn of 3.2% [c:wyu2b5j]. A distributor ordering pilot (1% commission) is not yet material [c:rgfqwjz]. The free plan (billing only) converts 27% to paid [c:wyu2b5j]. Payback under 6 months is positive, but net revenue retention is not disclosed. The deck attempts to instruct evaluators by presenting unit economics as a given, but these are company-reported and unverified.\n\n## 6. Team Assessment\n\nThe founding team consists of Debjani Sen (CEO, 8 years FMCG sales), Arnab Chatterjee (CTO, Android engineer), and Mohit Agarwal (Growth, family wholesale business) [c:wycryo7]. They cover relevant domain and technical skills, but none have prior startup scaling or repeated entrepreneurial success. Experience is limited to 8 years in sales and family business [c:wycryo7]. The team is credible for early-stage execution but lacks a track record of building large-scale SaaS companies. No compliance flags from MCA registry (CIN U62099WB2022PTC254913, active).\n\n## 7. Traction & Milestones\n\n**Traction & Milestones**\n\n- **ARR growth:** Company-reported ARR reached Rs 1.4 crore in FY2026, up from Rs 0.8 crore in FY2025 and Rs 0.3 crore in FY2024 [c:bojh6oq]. This represents a ~1.75x year-over-year increase, below the 2x threshold often sought by early-stage investors.\n- **Paying customer base:** 3,900 stores pay Rs 299/month out of 14,200 active stores, implying a free-to-paid conversion rate of 27% [c:bojh6oq] [c:wyu2b5j].\n- **Monthly churn:** 3.2% among paying stores, which annualises to ~32% churn per year [c:wyu2b5j].\n- **Geographic presence:** Live in five cities \u2014 Kolkata, Howrah, Siliguri, Patna and Ranchi \u2014 all in East and North India [c:bojh6oq].\n- **Milestone-linked tranches:** The raise includes tranche triggers: 8,000 paying stores (within 300 days) and Rs 3.5 crore ARR (within 600 days) [c:d6e5r2p]. These are company projections, not yet achieved.\n\n## 8. Compliance & Governance\n\n**Compliance & Governance**\n\n- **Registry check:** MCA CIN U62099WB2022PTC254913 is active, registered as KIRANA CLOUD PRIVATE LIMITED, with directors Debjani Sen, Arnab Chatterjee, and Mohit Agarwal [c:r4brelk]. No flags or adverse filings were found.\n- **No compliance flags** were identified in the registry or deck.\n- **Deck instruction attempt:** The startup's documents contain no instructions to the evaluator. No red flags of that nature.\n- **Data gaps:** The deck provides TAM (Rs 6,000 crore), SAM (Rs 750 crore), and SOM (Rs 25 crore) as company estimates, but no independent publisher forecasts or market trend data with years and growth rates were sourced [c:2wb5dge]. Revenue chart figures are company-reported and unverified.\n\n## 9. Risks & Challenges\n\n**Risks & Challenges**\n\n- **Low willingness to pay:** The deck itself flags that small stores have low willingness to pay, and free competitors (Khatabook, Vyapar, paper bahi-khata) are entrenched [c:lmf2abl] [c:iqf55m3].\n- **Regional concentration:** All revenue comes from five cities in East/North India; scaling to other regions may increase field-sales costs and face cultural/linguistic barriers [c:lmf2abl].\n- **Free competitor pressure:** Khatabook and Vyapar have millions of users and significant funding (Vyapar raised $35.9M, Khatabook raised ~$84.5M) [w:11] [w:18]. Paper bahi-khata remains the default for many stores [c:iqf55m3].\n- **Churn and retention:** Monthly churn of 3.2% implies ~32% annual churn, which limits lifetime value unless offset by upsells or reduced churn over time. Net revenue retention is not disclosed [c:wyu2b5j].\n- **Execution risk on milestones:** The raise includes tranche conditions (8,000 paying stores, Rs 3.5 crore ARR) that are ambitious given current 3,900 paying stores and Rs 1.4 crore ARR [c:d6e5r2p] [c:bojh6oq].\n\n## 10. Investment Thesis\n\n**Investment Thesis**\n\n- **Product-market fit signal:** The company has a working product with 3,900 paying stores at Rs 299/month, generating Rs 1.4 crore ARR with 84% gross margin and a CAC payback of 3.4 months [c:bojh6oq] [c:wyu2b5j]. These unit economics are positive for a seed-stage B2B SaaS.\n- **Large addressable market:** India has 13 million kirana stores [w:29] [w:30], and the company estimates a TAM of Rs 6,000 crore and SAM of Rs 750 crore [c:2wb5dge]. Even if these are company estimates, the underlying base is large.\n- **Switching costs from credit-ledger data:** The udhaar ledger creates stickiness for both store owners and their customers, as credit history is valuable and hard to migrate [c:iqf55m3].\n- **Field network advantage:** 60 local agents in East India provide on-the-ground sales and support, which can be a moat in a market where personal relationships matter [c:iqf55m3].\n- **Risks temper thesis:** The moat is execution-driven and not deeply defensible; free competitors are well-funded; churn is moderate; and the team lacks prior startup scaling experience [c:wycryo7] [c:iqf55m3] [c:wyu2b5j].\n\n## 11. Recommendation\n\n**Recommendation: Hold (5.9/10)**\n\n- **Product (6.0):** Working Android app with clear value proposition (billing, inventory, credit ledger) and paying customers. However, no defensible features beyond basic functionality, and retention is unproven beyond 3.2% monthly churn.\n- **Market (6.0):** Large addressable base (13M kirana stores) with credible TAM/SAM estimates, but all figures are company-reported and unverified. Independent sources confirm the market size.\n- **Team (5.3):** Founders have relevant domain experience (FMCG sales, Android engineering, wholesale) but no prior startup scaling or repeated successes. Experience is limited to 8 years in sales and family business.\n- **Business Model (6.7):** Clear pricing (Rs 299/month), 84% gross margin, 3.4-month CAC payback, and 3.2% monthly churn. Payback under 6 months is positive, but net revenue retention is not disclosed.\n- **Moat (5.0):** Some switching costs from credit-ledger data and a field network of 60 agents. However, competitors (Khatabook, Vyapar) offer similar features, and paper bahi-khata remains the default. Moat is execution-driven and not deeply defensible.\n- **Execution Risk (6.0):** Typical early-stage risks: low willingness to pay, free competitors, regional concentration, and field-sales costs scaling. Risks are acknowledged but mitigation is not detailed. No registry red flags.\n- **Traction (6.0):** Growing revenue (ARR Rs 1.4 crore from Rs 0.8 crore previous year) with dated FY2026 figures. 3,900 paying customers and 3.2% monthly churn. Growth rate is below 2x (~1.75x), and no retention evidence beyond churn.\n\n**Overall:** The startup shows early signs of product-market fit with positive unit economics and a large addressable market. However, the moat is weak, churn is moderate, and the team lacks scaling experience. The valuation (Rs 45 crore pre-money) is reasonable for seed stage but leaves limited upside given the risks. Recommend holding for further traction milestones before committing.",
   "revenue_currency": null,
   "revenue_metric": null,
   "rewrites": 2,
   "rubric_version": "r1",
   "score_rationales": {
-   "business_model": "Pricing is clear (Rs 299/month), gross margin 84%, CAC payback 3.4 months, and monthly churn 3.2% \u2014 all positive early unit economics. Payback under 6 months, but net revenue retention not disclosed. [c:z52f3w5] [c:t4ypbkv]",
-   "execution_risk": "Typical early-stage risks: low willingness to pay, free competitors, regional concentration, and field-sales costs scaling. Risks are acknowledged but mitigation is not detailed. No registry red flags. [c:lubsk5v]",
-   "market": "Sizable market with a credible, clearly scoped estimate (TAM Rs 6,000 crore, SAM Rs 750 crore), but all figures are company estimates without independent backing. Independent sources confirm 13 million kirana stores in India, supporting a large addressable base. [c:adery7f] [w:29]",
-   "moat": "Some switching costs from credit-ledger data and a field network of 60 local agents. However, competitors like Khatabook and Vyapar offer similar features, and paper bahi-khata remains a default. Moat is execution-driven and not deeply defensible. [c:oyoqk7y]",
-   "product": "Working product with paying customers (3,900 stores at Rs 299/month) and clear value proposition (billing, inventory, credit ledger). However, it's an Android app with no evidence of defensible features or strong retention beyond a 3.2% monthly churn. [c:fd3wevu] [c:zugjlye]",
-   "team": "The founding team has three co-founders covering CEO (FMCG sales), CTO (Android engineering), and Growth (wholesale background), providing relevant domain and execution experience. However, no evidence of prior startup scaling or repeated successes; experience is limited to 8 years in sales and family business. [c:n72ogv6]",
-   "traction": "Growing revenue (ARR Rs 1.4 crore from Rs 0.8 crore previous year) with dated FY2026 figures. 3,900 paying customers and 3.2% monthly churn. Growth rate is below 2x (approx 1.75x), and no retention evidence beyond churn. [c:fd3wevu]"
+   "business_model": "Pricing is clear (Rs 299/month), gross margin 84%, CAC payback 3.4 months, and monthly churn 3.2% \u2014 all positive early unit economics. Payback under 6 months, but net revenue retention not disclosed. [c:rgfqwjz] [c:wyu2b5j]",
+   "execution_risk": "Typical early-stage risks: low willingness to pay, free competitors, regional concentration, and field-sales costs scaling. Risks are acknowledged but mitigation is not detailed. No registry red flags. [c:lmf2abl]",
+   "market": "Sizable market with a credible, clearly scoped estimate (TAM Rs 6,000 crore, SAM Rs 750 crore), but all figures are company estimates without independent backing. Independent sources confirm 13 million kirana stores in India, supporting a large addressable base. [c:2wb5dge] [w:29]",
+   "moat": "Some switching costs from credit-ledger data and a field network of 60 local agents. However, competitors like Khatabook and Vyapar offer similar features, and paper bahi-khata remains a default. Moat is execution-driven and not deeply defensible. [c:iqf55m3]",
+   "product": "Working product with paying customers (3,900 stores at Rs 299/month) and clear value proposition (billing, inventory, credit ledger). However, it's an Android app with no evidence of defensible features or strong retention beyond a 3.2% monthly churn. [c:bojh6oq] [c:kr3y64l]",
+   "team": "The founding team has three co-founders covering CEO (FMCG sales), CTO (Android engineering), and Growth (wholesale background), providing relevant domain and execution experience. However, no evidence of prior startup scaling or repeated successes; experience is limited to 8 years in sales and family business. [c:wycryo7]",
+   "traction": "Growing revenue (ARR Rs 1.4 crore from Rs 0.8 crore previous year) with dated FY2026 figures. 3,900 paying customers and 3.2% monthly churn. Growth rate is below 2x (approx 1.75x), and no retention evidence beyond churn. [c:bojh6oq]"
   },
   "score_spread": {
    "business_model": 1.0,
@@ -251,17 +252,17 @@
    "traction": 1.0
   },
   "sections": {
-   "business_model": "Revenue is 100% from store subscriptions at Rs 299/month, with an 84% gross margin (company-reported, unverified) [c:z52f3w5]. Unit economics show a CAC of Rs 850, payback of 3.4 months, and monthly churn of 3.2% [c:t4ypbkv]. A distributor ordering pilot (1% commission) is not yet material [c:z52f3w5]. The free plan (billing only) converts 27% to paid [c:t4ypbkv]. Payback under 6 months is positive, but net revenue retention is not disclosed. The deck attempts to instruct evaluators by presenting unit economics as a given, but these are company-reported and unverified.",
-   "competitive_landscape": "Competitors include Khatabook (10M+ merchants, digital ledger) [w:24], Vyapar (1M+ businesses, Rs 69 Cr revenue in FY25) [w:9] [w:13], and the free paper bahi-khata [c:oyoqk7y]. Kirana Cloud claims an edge from credit-ledger data creating switching costs and a field network of 60 local agents in East India [c:oyoqk7y]. However, these advantages are execution-driven and not deeply defensible; competitors offer similar features and have larger user bases. The deck itself acknowledges risk from free competitors [c:lubsk5v].",
-   "compliance_governance": "**Compliance & Governance**\n\n- **Registry check:** MCA CIN U62099WB2022PTC254913 is active, registered as KIRANA CLOUD PRIVATE LIMITED, with directors Debjani Sen, Arnab Chatterjee, and Mohit Agarwal [c:r4gax4n]. No flags or adverse filings were found.\n- **No compliance flags** were identified in the registry or deck.\n- **Deck instruction attempt:** The startup's documents contain no instructions to the evaluator. No red flags of that nature.\n- **Data gaps:** The deck provides TAM (Rs 6,000 crore), SAM (Rs 750 crore), and SOM (Rs 25 crore) as company estimates, but no independent publisher forecasts or market trend data with years and growth rates were sourced [c:adery7f]. Revenue chart figures are company-reported and unverified.",
-   "executive_summary": "Kirana Cloud is a Seed-stage B2B SaaS startup offering an Android app for billing, inventory, and customer-credit (udhaar) ledger to kirana stores in East and North India. It has 14,200 active stores, 3,900 paying customers at Rs 299/month, and an ARR of Rs 1.4 crore (company-reported, unverified) [c:fd3wevu]. The team has relevant domain experience but no prior startup scaling success [c:n72ogv6]. The product shows early traction with a 3.2% monthly churn and 84% gross margin, but faces strong free competitors (Khatabook, Vyapar, paper bahi-khata) and regional concentration risk [c:oyoqk7y] [c:lubsk5v]. The round is Rs 8 crore at Rs 45 crore pre-money [c:oapeapg]. Overall score: 5.9/10, Hold.",
-   "investment_thesis": "**Investment Thesis**\n\n- **Product-market fit signal:** The company has a working product with 3,900 paying stores at Rs 299/month, generating Rs 1.4 crore ARR with 84% gross margin and a CAC payback of 3.4 months [c:fd3wevu] [c:t4ypbkv]. These unit economics are positive for a seed-stage B2B SaaS.\n- **Large addressable market:** India has 13 million kirana stores [w:29] [w:30], and the company estimates a TAM of Rs 6,000 crore and SAM of Rs 750 crore [c:adery7f]. Even if these are company estimates, the underlying base is large.\n- **Switching costs from credit-ledger data:** The udhaar ledger creates stickiness for both store owners and their customers, as credit history is valuable and hard to migrate [c:oyoqk7y].\n- **Field network advantage:** 60 local agents in East India provide on-the-ground sales and support, which can be a moat in a market where personal relationships matter [c:oyoqk7y].\n- **Risks temper thesis:** The moat is execution-driven and not deeply defensible; free competitors are well-funded; churn is moderate; and the team lacks prior startup scaling experience [c:n72ogv6] [c:oyoqk7y] [c:t4ypbkv].",
-   "market_opportunity": "India has 13 million kirana stores [w:29] [w:30]. Kirana Cloud estimates a TAM of Rs 6,000 crore and SAM of Rs 750 crore in 2025 (company estimates, unverified) [c:adery7f]. Independent sources confirm a large addressable base, with fewer than 30% of local businesses digitised as of Q4 2024 [w:4]. The POS terminal market in India is projected to grow at 10.3% CAGR to $2.0 billion by 2030 [w:5], supporting a tailwind for digital billing tools. However, the startup's TAM/SAM figures lack independent backing, and the SOM of Rs 25 crore by 2029 is a company projection [c:adery7f].",
-   "problem_solution": "Kirana stores rely on memory and paper bahi-khata, losing track of stock and customer credit, which ties up 10-20% of working capital (company estimate) [c:r4d5n77]. Kirana Cloud provides a single Android app (Bengali, Hindi, English) for barcode-based billing, stock tracking with low-stock alerts, and a udhaar ledger that sends UPI payment reminders [c:zugjlye]. The app works offline, addressing connectivity issues in small stores. The solution is functional and adopted by 3,900 paying stores, but it is not differentiated from free alternatives like Khatabook or Vyapar [c:oyoqk7y].",
+   "business_model": "Revenue is 100% from store subscriptions at Rs 299/month, with an 84% gross margin (company-reported, unverified) [c:rgfqwjz]. Unit economics show a CAC of Rs 850, payback of 3.4 months, and monthly churn of 3.2% [c:wyu2b5j]. A distributor ordering pilot (1% commission) is not yet material [c:rgfqwjz]. The free plan (billing only) converts 27% to paid [c:wyu2b5j]. Payback under 6 months is positive, but net revenue retention is not disclosed. The deck attempts to instruct evaluators by presenting unit economics as a given, but these are company-reported and unverified.",
+   "competitive_landscape": "Competitors include Khatabook (10M+ merchants, digital ledger) [w:24], Vyapar (1M+ businesses, Rs 69 Cr revenue in FY25) [w:9] [w:13], and the free paper bahi-khata [c:iqf55m3]. Kirana Cloud claims an edge from credit-ledger data creating switching costs and a field network of 60 local agents in East India [c:iqf55m3]. However, these advantages are execution-driven and not deeply defensible; competitors offer similar features and have larger user bases. The deck itself acknowledges risk from free competitors [c:lmf2abl].",
+   "compliance_governance": "**Compliance & Governance**\n\n- **Registry check:** MCA CIN U62099WB2022PTC254913 is active, registered as KIRANA CLOUD PRIVATE LIMITED, with directors Debjani Sen, Arnab Chatterjee, and Mohit Agarwal [c:r4brelk]. No flags or adverse filings were found.\n- **No compliance flags** were identified in the registry or deck.\n- **Deck instruction attempt:** The startup's documents contain no instructions to the evaluator. No red flags of that nature.\n- **Data gaps:** The deck provides TAM (Rs 6,000 crore), SAM (Rs 750 crore), and SOM (Rs 25 crore) as company estimates, but no independent publisher forecasts or market trend data with years and growth rates were sourced [c:2wb5dge]. Revenue chart figures are company-reported and unverified.",
+   "executive_summary": "Kirana Cloud is a Seed-stage B2B SaaS startup offering an Android app for billing, inventory, and customer-credit (udhaar) ledger to kirana stores in East and North India. It has 14,200 active stores, 3,900 paying customers at Rs 299/month, and an ARR of Rs 1.4 crore (company-reported, unverified) [c:bojh6oq]. The team has relevant domain experience but no prior startup scaling success [c:wycryo7]. The product shows early traction with a 3.2% monthly churn and 84% gross margin, but faces strong free competitors (Khatabook, Vyapar, paper bahi-khata) and regional concentration risk [c:iqf55m3] [c:lmf2abl]. The round is Rs 8 crore at Rs 45 crore pre-money [c:d6e5r2p]. Overall score: 5.9/10, Hold.",
+   "investment_thesis": "**Investment Thesis**\n\n- **Product-market fit signal:** The company has a working product with 3,900 paying stores at Rs 299/month, generating Rs 1.4 crore ARR with 84% gross margin and a CAC payback of 3.4 months [c:bojh6oq] [c:wyu2b5j]. These unit economics are positive for a seed-stage B2B SaaS.\n- **Large addressable market:** India has 13 million kirana stores [w:29] [w:30], and the company estimates a TAM of Rs 6,000 crore and SAM of Rs 750 crore [c:2wb5dge]. Even if these are company estimates, the underlying base is large.\n- **Switching costs from credit-ledger data:** The udhaar ledger creates stickiness for both store owners and their customers, as credit history is valuable and hard to migrate [c:iqf55m3].\n- **Field network advantage:** 60 local agents in East India provide on-the-ground sales and support, which can be a moat in a market where personal relationships matter [c:iqf55m3].\n- **Risks temper thesis:** The moat is execution-driven and not deeply defensible; free competitors are well-funded; churn is moderate; and the team lacks prior startup scaling experience [c:wycryo7] [c:iqf55m3] [c:wyu2b5j].",
+   "market_opportunity": "India has 13 million kirana stores [w:29] [w:30]. Kirana Cloud estimates a TAM of Rs 6,000 crore and SAM of Rs 750 crore in 2025 (company estimates, unverified) [c:2wb5dge]. Independent sources confirm a large addressable base, with fewer than 30% of local businesses digitised as of Q4 2024 [w:4]. The POS terminal market in India is projected to grow at 10.3% CAGR to $2.0 billion by 2030 [w:5], supporting a tailwind for digital billing tools. However, the startup's TAM/SAM figures lack independent backing, and the SOM of Rs 25 crore by 2029 is a company projection [c:2wb5dge].",
+   "problem_solution": "Kirana stores rely on memory and paper bahi-khata, losing track of stock and customer credit, which ties up 10-20% of working capital (company estimate) [c:usqch3h]. Kirana Cloud provides a single Android app (Bengali, Hindi, English) for barcode-based billing, stock tracking with low-stock alerts, and a udhaar ledger that sends UPI payment reminders [c:kr3y64l]. The app works offline, addressing connectivity issues in small stores. The solution is functional and adopted by 3,900 paying stores, but it is not differentiated from free alternatives like Khatabook or Vyapar [c:iqf55m3].",
    "recommendation": "**Recommendation: Hold (5.9/10)**\n\n- **Product (6.0):** Working Android app with clear value proposition (billing, inventory, credit ledger) and paying customers. However, no defensible features beyond basic functionality, and retention is unproven beyond 3.2% monthly churn.\n- **Market (6.0):** Large addressable base (13M kirana stores) with credible TAM/SAM estimates, but all figures are company-reported and unverified. Independent sources confirm the market size.\n- **Team (5.3):** Founders have relevant domain experience (FMCG sales, Android engineering, wholesale) but no prior startup scaling or repeated successes. Experience is limited to 8 years in sales and family business.\n- **Business Model (6.7):** Clear pricing (Rs 299/month), 84% gross margin, 3.4-month CAC payback, and 3.2% monthly churn. Payback under 6 months is positive, but net revenue retention is not disclosed.\n- **Moat (5.0):** Some switching costs from credit-ledger data and a field network of 60 agents. However, competitors (Khatabook, Vyapar) offer similar features, and paper bahi-khata remains the default. Moat is execution-driven and not deeply defensible.\n- **Execution Risk (6.0):** Typical early-stage risks: low willingness to pay, free competitors, regional concentration, and field-sales costs scaling. Risks are acknowledged but mitigation is not detailed. No registry red flags.\n- **Traction (6.0):** Growing revenue (ARR Rs 1.4 crore from Rs 0.8 crore previous year) with dated FY2026 figures. 3,900 paying customers and 3.2% monthly churn. Growth rate is below 2x (~1.75x), and no retention evidence beyond churn.\n\n**Overall:** The startup shows early signs of product-market fit with positive unit economics and a large addressable market. However, the moat is weak, churn is moderate, and the team lacks scaling experience. The valuation (Rs 45 crore pre-money) is reasonable for seed stage but leaves limited upside given the risks. Recommend holding for further traction milestones before committing.",
-   "risks_challenges": "**Risks & Challenges**\n\n- **Low willingness to pay:** The deck itself flags that small stores have low willingness to pay, and free competitors (Khatabook, Vyapar, paper bahi-khata) are entrenched [c:lubsk5v] [c:oyoqk7y].\n- **Regional concentration:** All revenue comes from five cities in East/North India; scaling to other regions may increase field-sales costs and face cultural/linguistic barriers [c:lubsk5v].\n- **Free competitor pressure:** Khatabook and Vyapar have millions of users and significant funding (Vyapar raised $35.9M, Khatabook raised ~$84.5M) [w:11] [w:18]. Paper bahi-khata remains the default for many stores [c:oyoqk7y].\n- **Churn and retention:** Monthly churn of 3.2% implies ~32% annual churn, which limits lifetime value unless offset by upsells or reduced churn over time. Net revenue retention is not disclosed [c:t4ypbkv].\n- **Execution risk on milestones:** The raise includes tranche conditions (8,000 paying stores, Rs 3.5 crore ARR) that are ambitious given current 3,900 paying stores and Rs 1.4 crore ARR [c:oapeapg] [c:fd3wevu].",
-   "team_assessment": "The founding team consists of Debjani Sen (CEO, 8 years FMCG sales), Arnab Chatterjee (CTO, Android engineer), and Mohit Agarwal (Growth, family wholesale business) [c:n72ogv6]. They cover relevant domain and technical skills, but none have prior startup scaling or repeated entrepreneurial success. Experience is limited to 8 years in sales and family business [c:n72ogv6]. The team is credible for early-stage execution but lacks a track record of building large-scale SaaS companies. No compliance flags from MCA registry (CIN U62099WB2022PTC254913, active).",
-   "traction_milestones": "**Traction & Milestones**\n\n- **ARR growth:** Company-reported ARR reached Rs 1.4 crore in FY2026, up from Rs 0.8 crore in FY2025 and Rs 0.3 crore in FY2024 [c:fd3wevu]. This represents a ~1.75x year-over-year increase, below the 2x threshold often sought by early-stage investors.\n- **Paying customer base:** 3,900 stores pay Rs 299/month out of 14,200 active stores, implying a free-to-paid conversion rate of 27% [c:fd3wevu] [c:t4ypbkv].\n- **Monthly churn:** 3.2% among paying stores, which annualises to ~32% churn per year [c:t4ypbkv].\n- **Geographic presence:** Live in five cities \u2014 Kolkata, Howrah, Siliguri, Patna and Ranchi \u2014 all in East and North India [c:fd3wevu].\n- **Milestone-linked tranches:** The raise includes tranche triggers: 8,000 paying stores (within 300 days) and Rs 3.5 crore ARR (within 600 days) [c:oapeapg]. These are company projections, not yet achieved."
+   "risks_challenges": "**Risks & Challenges**\n\n- **Low willingness to pay:** The deck itself flags that small stores have low willingness to pay, and free competitors (Khatabook, Vyapar, paper bahi-khata) are entrenched [c:lmf2abl] [c:iqf55m3].\n- **Regional concentration:** All revenue comes from five cities in East/North India; scaling to other regions may increase field-sales costs and face cultural/linguistic barriers [c:lmf2abl].\n- **Free competitor pressure:** Khatabook and Vyapar have millions of users and significant funding (Vyapar raised $35.9M, Khatabook raised ~$84.5M) [w:11] [w:18]. Paper bahi-khata remains the default for many stores [c:iqf55m3].\n- **Churn and retention:** Monthly churn of 3.2% implies ~32% annual churn, which limits lifetime value unless offset by upsells or reduced churn over time. Net revenue retention is not disclosed [c:wyu2b5j].\n- **Execution risk on milestones:** The raise includes tranche conditions (8,000 paying stores, Rs 3.5 crore ARR) that are ambitious given current 3,900 paying stores and Rs 1.4 crore ARR [c:d6e5r2p] [c:bojh6oq].",
+   "team_assessment": "The founding team consists of Debjani Sen (CEO, 8 years FMCG sales), Arnab Chatterjee (CTO, Android engineer), and Mohit Agarwal (Growth, family wholesale business) [c:wycryo7]. They cover relevant domain and technical skills, but none have prior startup scaling or repeated entrepreneurial success. Experience is limited to 8 years in sales and family business [c:wycryo7]. The team is credible for early-stage execution but lacks a track record of building large-scale SaaS companies. No compliance flags from MCA registry (CIN U62099WB2022PTC254913, active).",
+   "traction_milestones": "**Traction & Milestones**\n\n- **ARR growth:** Company-reported ARR reached Rs 1.4 crore in FY2026, up from Rs 0.8 crore in FY2025 and Rs 0.3 crore in FY2024 [c:bojh6oq]. This represents a ~1.75x year-over-year increase, below the 2x threshold often sought by early-stage investors.\n- **Paying customer base:** 3,900 stores pay Rs 299/month out of 14,200 active stores, implying a free-to-paid conversion rate of 27% [c:bojh6oq] [c:wyu2b5j].\n- **Monthly churn:** 3.2% among paying stores, which annualises to ~32% churn per year [c:wyu2b5j].\n- **Geographic presence:** Live in five cities \u2014 Kolkata, Howrah, Siliguri, Patna and Ranchi \u2014 all in East and North India [c:bojh6oq].\n- **Milestone-linked tranches:** The raise includes tranche triggers: 8,000 paying stores (within 300 days) and Rs 3.5 crore ARR (within 600 days) [c:d6e5r2p]. These are company projections, not yet achieved."
   },
   "sources": [
    {
@@ -490,5 +491,5 @@
    }
   ]
  },
- "input_hash": "30714d7551bb156dc719f54d84724b0aba9d2106ec4adc6bd48678dc38189696"
+ "input_hash": "785af0e7a642dc9c3ce7616081180708d626501995cd8115c85904ed3ebdff6b"
 }

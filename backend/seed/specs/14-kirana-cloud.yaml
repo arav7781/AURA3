@@ -97,8 +97,6 @@ risks:
   - Free ledger and billing apps compete on price
   - Field-sales costs may rise outside East India
   - Revenue concentrated in one region
-deck:
-  palette: saas
 evaluation_expectations:
   score_band: [5.0, 7.5]
   recommendation_in: [Hold, Buy]

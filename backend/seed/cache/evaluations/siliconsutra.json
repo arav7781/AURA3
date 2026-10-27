@@ -1,5 +1,6 @@
 {
  "analysis": {
+  "carried_from_input_hash": "88cf249ca6798f47fc88d07611d8b071e9816f0247b9b9b0b69a6d0594db7a42",
   "category_scores": {
    "business_model": 2.0,
    "execution_risk": 4.0,
@@ -10,147 +11,147 @@
    "traction": 2.0
   },
   "citations": {
-   "c:4w4x7sb": {
+   "c:57ehlfg": {
     "bbox": [
-     0.0677,
-     0.0554,
-     0.88022,
-     0.4682
+     0.05939,
+     0.12926,
+     0.67514,
+     0.76731
     ],
-    "chunk_id": "3a3d62bb-e16c-5d8e-82f5-326442aed653",
-    "document_id": "e2dcc8bb-03ec-4095-adbb-78a5007388af",
-    "page_no": 10,
-    "slide_title": "Team",
-    "type": "deck"
-   },
-   "c:4zzqr3r": {
-    "bbox": [
-     0.0677,
-     0.0554,
-     0.92917,
-     0.65193
-    ],
-    "chunk_id": "753fdcf6-42a4-58ac-a5a0-edcce5914793",
-    "document_id": "e2dcc8bb-03ec-4095-adbb-78a5007388af",
-    "page_no": 11,
-    "slide_title": "The Ask",
-    "type": "deck"
-   },
-   "c:5gb3dqe": {
-    "bbox": [
-     0.0677,
-     0.0554,
-     0.90405,
-     0.63306
-    ],
-    "chunk_id": "b3dea5e5-d110-5114-a219-d0fcb471d0d9",
-    "document_id": "e2dcc8bb-03ec-4095-adbb-78a5007388af",
-    "page_no": 2,
-    "slide_title": "Problem",
-    "type": "deck"
-   },
-   "c:eh4pvkk": {
-    "bbox": [
-     0.0677,
-     0.0554,
-     0.92669,
-     0.57474
-    ],
-    "chunk_id": "81ab61b9-d086-5efe-b68a-be148ed2eeb3",
-    "document_id": "e2dcc8bb-03ec-4095-adbb-78a5007388af",
-    "page_no": 4,
-    "slide_title": "Market Opportunity (TAM / SAM / SOM)",
-    "type": "deck"
-   },
-   "c:owpchzr": {
-    "bbox": [
-     0.0677,
-     0.0554,
-     0.62685,
-     0.33233
-    ],
-    "chunk_id": "910cb620-c8c7-536c-82d9-631f5b900628",
-    "document_id": "e2dcc8bb-03ec-4095-adbb-78a5007388af",
-    "page_no": 7,
-    "slide_title": "Unit Economics",
-    "type": "deck"
-   },
-   "c:palmpri": {
-    "bbox": [
-     0.0677,
-     0.0554,
-     0.83879,
-     0.45481
-    ],
-    "chunk_id": "1120257e-18ac-58c2-867b-8905d7e88434",
-    "document_id": "e2dcc8bb-03ec-4095-adbb-78a5007388af",
+    "chunk_id": "d3d213b6-55d2-5549-a01e-dd432b3aba9e",
+    "document_id": "4de5915c-ed3d-4ca6-b452-a766b3a0def3",
     "page_no": 5,
     "slide_title": "Business Model",
     "type": "deck"
    },
-   "c:phjr4af": {
+   "c:cy257it": {
     "bbox": [
-     0.0677,
-     0.0554,
-     0.85643,
-     0.43886
+     0.05939,
+     0.22339,
+     0.51028,
+     0.72271
     ],
-    "chunk_id": "a04e83ef-8764-5d28-a4db-7dc24ca5d38f",
-    "document_id": "e2dcc8bb-03ec-4095-adbb-78a5007388af",
-    "page_no": 6,
-    "slide_title": "Traction (as of Sep 2026)",
+    "chunk_id": "4c1f207f-67dd-536c-a2aa-fe59bc0a5cd6",
+    "document_id": "4de5915c-ed3d-4ca6-b452-a766b3a0def3",
+    "page_no": 1,
+    "slide_title": "SiliconSutra",
     "type": "deck"
    },
-   "c:sc2hehf": {
+   "c:depqsqe": {
     "bbox": [
-     0.0677,
-     0.0554,
-     0.83888,
-     0.74506
+     0.05939,
+     0.12926,
+     0.9077,
+     0.67119
     ],
-    "chunk_id": "d36f87c8-9c5d-57d2-b806-afd17d2a459b",
-    "document_id": "e2dcc8bb-03ec-4095-adbb-78a5007388af",
-    "page_no": 9,
-    "slide_title": "Go-to-Market & Key Risks",
+    "chunk_id": "3ce5c306-078e-5c7f-b9ae-560ea8e4dcc7",
+    "document_id": "4de5915c-ed3d-4ca6-b452-a766b3a0def3",
+    "page_no": 10,
+    "slide_title": "Team",
     "type": "deck"
    },
-   "c:vcyibzn": {
+   "c:fqwlouq": {
     "bbox": [
-     0.0558,
-     0.0554,
-     0.95025,
-     0.62962
+     0.05939,
+     0.12926,
+     0.87753,
+     0.71747
     ],
-    "chunk_id": "caad71a7-a768-5d63-9021-875991e25be5",
-    "document_id": "e2dcc8bb-03ec-4095-adbb-78a5007388af",
-    "page_no": 8,
-    "slide_title": "Competitive Landscape",
+    "chunk_id": "2b4df3b0-4636-5feb-a125-7986ccbac9a0",
+    "document_id": "4de5915c-ed3d-4ca6-b452-a766b3a0def3",
+    "page_no": 2,
+    "slide_title": "Problem",
     "type": "deck"
    },
-   "c:vfgcf3b": {
+   "c:fvamzlc": {
     "bbox": [
-     0.0677,
-     0.0554,
-     0.88029,
-     0.55436
+     0.05939,
+     0.12926,
+     0.9095,
+     0.79796
     ],
-    "chunk_id": "fb623796-de2b-5794-92bd-14c33a17e942",
-    "document_id": "e2dcc8bb-03ec-4095-adbb-78a5007388af",
+    "chunk_id": "5cd2d1ec-ce84-578e-a68c-9e54fa76a236",
+    "document_id": "4de5915c-ed3d-4ca6-b452-a766b3a0def3",
+    "page_no": 11,
+    "slide_title": "The Ask",
+    "type": "deck"
+   },
+   "c:gf7jxbj": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.83619,
+     0.76418
+    ],
+    "chunk_id": "c88d90fc-827a-5509-8ee6-2c0d36aec906",
+    "document_id": "4de5915c-ed3d-4ca6-b452-a766b3a0def3",
     "page_no": 3,
     "slide_title": "Solution",
     "type": "deck"
    },
-   "c:wp6cixz": {
+   "c:ppmgsgz": {
     "bbox": [
-     0.0677,
-     0.0554,
-     0.85368,
-     0.50907
+     0.05939,
+     0.12926,
+     0.76272,
+     0.83466
     ],
-    "chunk_id": "cdbc7178-c932-53ce-a045-b64763a198d3",
-    "document_id": "e2dcc8bb-03ec-4095-adbb-78a5007388af",
-    "page_no": 1,
-    "slide_title": "SiliconSutra",
+    "chunk_id": "327eed5b-aa3e-545e-821a-f9f73c232f6b",
+    "document_id": "4de5915c-ed3d-4ca6-b452-a766b3a0def3",
+    "page_no": 9,
+    "slide_title": "Go-to-Market & Key Risks",
+    "type": "deck"
+   },
+   "c:rboe4m3": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.80272,
+     0.82268
+    ],
+    "chunk_id": "e0f7757f-c517-5ade-88f9-226fe8df02b3",
+    "document_id": "4de5915c-ed3d-4ca6-b452-a766b3a0def3",
+    "page_no": 4,
+    "slide_title": "Market Opportunity (TAM / SAM / SOM)",
+    "type": "deck"
+   },
+   "c:scqdatk": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.87966,
+     0.69809
+    ],
+    "chunk_id": "78857d25-c13f-5303-a2d5-e4a3f8e0f5f2",
+    "document_id": "4de5915c-ed3d-4ca6-b452-a766b3a0def3",
+    "page_no": 7,
+    "slide_title": "Unit Economics",
+    "type": "deck"
+   },
+   "c:wonhrkt": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.9179,
+     0.70105
+    ],
+    "chunk_id": "20b98720-497d-5be2-ae7f-60da91a2f046",
+    "document_id": "4de5915c-ed3d-4ca6-b452-a766b3a0def3",
+    "page_no": 8,
+    "slide_title": "Competitive Landscape",
+    "type": "deck"
+   },
+   "c:zi5be45": {
+    "bbox": [
+     0.05939,
+     0.12926,
+     0.87186,
+     0.67056
+    ],
+    "chunk_id": "c387bc40-f35c-54f5-99e0-783ce0087ec0",
+    "document_id": "4de5915c-ed3d-4ca6-b452-a766b3a0def3",
+    "page_no": 6,
+    "slide_title": "Traction (as of Sep 2026)",
     "type": "deck"
    },
    "w:1": {
@@ -195,7 +196,7 @@
   ],
   "evidence_version": 2,
   "generated_at": "2026-10-27T06:44:06.367961Z",
-  "input_hash": "88cf249ca6798f47fc88d07611d8b071e9816f0247b9b9b0b69a6d0594db7a42",
+  "input_hash": "2cd2d6b3e5d27098c59e412ef51c95071a0ce30c073eda5f006b3af65600f748",
   "invalid_citations": [],
   "market_sizing": {
    "basis": "Only figures traceable to retrieved search excerpts are plotted as market data.",
@@ -208,14 +209,14 @@
      },
      "citation": {
       "bbox": [
-       0.0677,
-       0.0554,
-       0.92669,
-       0.57474
+       0.05939,
+       0.12926,
+       0.80272,
+       0.82268
       ],
-      "chunk_id": "81ab61b9-d086-5efe-b68a-be148ed2eeb3",
-      "cid": "c:eh4pvkk",
-      "document_id": "e2dcc8bb-03ec-4095-adbb-78a5007388af",
+      "chunk_id": "e0f7757f-c517-5ade-88f9-226fe8df02b3",
+      "cid": "c:rboe4m3",
+      "document_id": "4de5915c-ed3d-4ca6-b452-a766b3a0def3",
       "page_no": 4
      },
      "currency": "%",
@@ -239,14 +240,14 @@
      },
      "citation": {
       "bbox": [
-       0.0677,
-       0.0554,
-       0.92669,
-       0.57474
+       0.05939,
+       0.12926,
+       0.80272,
+       0.82268
       ],
-      "chunk_id": "81ab61b9-d086-5efe-b68a-be148ed2eeb3",
-      "cid": "c:eh4pvkk",
-      "document_id": "e2dcc8bb-03ec-4095-adbb-78a5007388af",
+      "chunk_id": "e0f7757f-c517-5ade-88f9-226fe8df02b3",
+      "cid": "c:rboe4m3",
+      "document_id": "4de5915c-ed3d-4ca6-b452-a766b3a0def3",
       "page_no": 4
      },
      "currency": "USD",
@@ -270,14 +271,14 @@
      },
      "citation": {
       "bbox": [
-       0.0677,
-       0.0554,
-       0.92669,
-       0.57474
+       0.05939,
+       0.12926,
+       0.80272,
+       0.82268
       ],
-      "chunk_id": "81ab61b9-d086-5efe-b68a-be148ed2eeb3",
-      "cid": "c:eh4pvkk",
-      "document_id": "e2dcc8bb-03ec-4095-adbb-78a5007388af",
+      "chunk_id": "e0f7757f-c517-5ade-88f9-226fe8df02b3",
+      "cid": "c:rboe4m3",
+      "document_id": "4de5915c-ed3d-4ca6-b452-a766b3a0def3",
       "page_no": 4
      },
      "currency": "USD",
@@ -303,14 +304,14 @@
      },
      "citation": {
       "bbox": [
-       0.0677,
-       0.0554,
-       0.92669,
-       0.57474
+       0.05939,
+       0.12926,
+       0.80272,
+       0.82268
       ],
-      "chunk_id": "81ab61b9-d086-5efe-b68a-be148ed2eeb3",
-      "cid": "c:eh4pvkk",
-      "document_id": "e2dcc8bb-03ec-4095-adbb-78a5007388af",
+      "chunk_id": "e0f7757f-c517-5ade-88f9-226fe8df02b3",
+      "cid": "c:rboe4m3",
+      "document_id": "4de5915c-ed3d-4ca6-b452-a766b3a0def3",
       "page_no": 4
      },
      "currency": "USD",
@@ -403,19 +404,19 @@
   "overall_score": 4.0,
   "projected_revenue": [],
   "recommendation_label": "Pass",
-  "report_markdown": "## 1. Executive Summary\n\nSiliconSutra is a pre-revenue, pre-seed deep-tech startup designing a low-power RISC-V vision chip for on-device AI in cameras, drones, and industrial sensors. The company has a working FPGA prototype running YOLO at 30 fps under 1 watt and three non-binding letters of intent, but tape-out is not planned until late 2027 and volume production is unlikely before 2029 [c:phjr4af] [c:vfgcf3b]. The team of three co-founders has relevant chip-design experience, including prior SoC tape-outs [c:4w4x7sb]. The company is raising Rs 3 crore at an Rs 18 crore pre-money valuation [c:wp6cixz]. The overall score is 4.0/10 (Pass), reflecting a plausible but unvalidated product, a credible but company-estimated market, and significant execution risk due to the long R&D timeline and lack of revenue.\n\n## 2. Problem & Solution\n\nIndian camera, drone, and industrial-sensor makers currently rely on imported AI vision chips or cloud-based video analytics, which the company estimates costs Rs 300-800 per camera per month in bandwidth and compute, and edge-AI modules priced above USD 100 are too costly for mass-market devices [c:5gb3dqe]. SiliconSutra's solution is an open-ISA (RISC-V) vision chip with a custom INT8 neural-network accelerator that runs object detection at 30 frames per second under 1 watt (FPGA-measured, scaled estimate) and includes a compiler toolchain that imports standard PyTorch and ONNX models [c:vfgcf3b]. The target price is under USD 12 per chip at volume [c:vfgcf3b]. The problem-solution fit is plausible but unvalidated beyond non-binding LOIs [c:phjr4af].\n\n## 3. Market Opportunity\n\nThe company estimates a TAM of USD 180 million in 2025 for edge-AI vision chips sold in India, growing at a 29.3% CAGR to USD 650 million by 2030, with a SAM of USD 70 million and a SOM of USD 6 million in the first two production years [c:eh4pvkk]. However, all market sizing is company-projected without independent source backing [c:eh4pvkk]. An independent source values the global RISC-V accelerator chip market at USD 0.87 billion in 2025, growing at 28.5% CAGR through 2034 [w:10], and the global edge AI hardware market is estimated at USD 26.14 billion in 2025, growing at 17.6% CAGR to USD 58.90 billion by 2030 [w:36]. The company's TAM of USD 180 million for India alone appears credible in scope but lacks third-party validation.\n\n## 4. Competitive Landscape\n\nSiliconSutra competes with well-funded global edge-AI chip vendors such as NVIDIA Jetson (high-performance edge-AI modules), Hailo (edge-AI accelerator chips), and Indian RISC-V microcontroller SoC maker Mindgrove Technologies [c:vcyibzn] [c:sc2hehf]. The company claims its edge comes from accelerator architecture co-designed with its compiler for low-power INT8 inference and a team with prior SoC tape-out experience [c:vcyibzn]. However, the RISC-V open-ISA approach is easily replicated by competitors, and no switching costs or IP moats are evidenced [c:vcyibzn]. Mindgrove, a more advanced Indian competitor, has raised $10.6 million in Series A funding and expects to start generating revenue this fiscal year [w:21] [w:20].\n\n## 5. Business Model\n\nSiliconSutra operates a fabless model with three revenue streams: chip sales at a target price of Rs 950 per unit, design services for custom chip variants billed per project, and SDK/compiler licence fees [c:palmpri]. The target gross margin is 55% at 1 million units per year, but no CAC, margin, or churn data exists because the company is pre-revenue [c:owpchzr] [c:palmpri]. The multi-project-wafer tape-out is estimated at Rs 1.6 crore [c:owpchzr]. The business model is unproven, with all prices and margins being targets not yet validated by orders [c:palmpri].\n\n## 6. Team Assessment\n\nThe three co-founders have relevant domain experience: Lakshmi Venkatesan (CEO) has 14 years in chip design at semiconductor multinationals and led two SoC tape-outs; Rohit Malviya (CTO) has 10 years in RTL design and verification of processor cores; and Priya Ghosh (Software) is an ML compiler and model-quantisation engineer [c:4w4x7sb]. The team has prior SoC tape-out success, but there is no evidence they have previously built or scaled a startup together [c:4w4x7sb]. The company is registered as SILICONSUTRA PRIVATE LIMITED (CIN U72100KA2025PTC201846) with the three co-founders as directors, and no compliance flags were found [c:wp6cixz].\n\n## 7. Traction & Milestones\n\n**FPGA prototype** \u2013 A working FPGA prototype runs a YOLO-class object-detection model at 30 frames per second under 1 watt (company-reported, unverified). [c:phjr4af] [c:vfgcf3b]\n\n**Letters of intent** \u2013 Three non-binding LOIs from Indian camera and drone makers have been signed; no committed orders or revenue. [c:phjr4af]\n\n**RTL progress** \u2013 The accelerator RTL is approximately 70% complete. [c:phjr4af]\n\n**Tape-out and revenue timeline** \u2013 A multi-project-wafer tape-out is planned for late 2027; first revenue is expected from design services in 2028, with volume production unlikely before 2029. [c:phjr4af] [c:sc2hehf]\n\n**Pre-revenue** \u2013 The company is pre-revenue with no paying customers. [c:phjr4af]\n\n## 8. Compliance & Governance\n\n**MCA registry check** \u2013 The company is registered as SILICONSUTRA PRIVATE LIMITED, CIN U72100KA2025PTC201846, status ACTIVE. Directors: Lakshmi Venkatesan, Rohit Malviya, Priya Ghosh. No compliance flags were raised.\n\n**No flags** \u2013 No governance or compliance issues were identified in the registry or in the deck.\n\n**Deck instruction attempt** \u2013 The startup documents contain no instructions to the evaluator. No red flags.\n\n## 9. Risks & Challenges\n\n**Long R&D timeline** \u2013 No product revenue is expected before 2028, and volume production is unlikely before 2029. The tape-out is only planned for late 2027, and first silicon may fail, requiring a costly re-spin. [c:sc2hehf]\n\n**Pre-revenue with no committed orders** \u2013 The company has only three non-binding letters of intent; there is no revenue, no paying customers, and no committed purchase orders. [c:phjr4af] [c:sc2hehf]\n\n**Funding risk** \u2013 The company acknowledges it needs a much larger follow-on round (or grants) to fund tape-out and production. The tranched pre-seed structure partially mitigates funding risk but does not address technical or market risks. [c:sc2hehf] [c:4zzqr3r]\n\n**Competitive pressure** \u2013 The company competes with well-funded global edge-AI chip vendors such as NVIDIA Jetson and Hailo, as well as Indian peers like Mindgrove Technologies. The RISC-V open-ISA approach is easily replicated. [c:vcyibzn] [c:sc2hehf]\n\n**Market sizing gaps** \u2013 The deck claims a TAM of USD 180M (2025) growing at 29.3% CAGR, but an independent source reports the RISC-V accelerator chip market at USD 0.87 billion in 2025. The SAM and SOM figures (USD 70M and USD 6M) have no independent source backing. [c:eh4pvkk] [w:10]\n\n## 10. Investment Thesis\n\n**Plausible problem-solution fit** \u2013 The company targets a real need for low-power, on-device AI vision chips in Indian cameras, drones, and industrial sensors, addressing cost, power, and supply-chain risks. The FPGA prototype demonstrates technical feasibility at 30 fps under 1 watt. [c:vfgcf3b] [c:5gb3dqe]\n\n**Strong team with domain expertise** \u2013 All three co-founders have relevant experience in chip design, RTL, and ML compilers, with prior SoC tape-out success. However, they have not previously built or scaled a startup together. [c:4w4x7sb]\n\n**Supportive ecosystem** \u2013 India's semiconductor ecosystem is attracting significant funding (USD 92M in H1 2026) and government support through schemes like Semicon India 2.0, which targets 200 chip design startups. [w:1] [w:14]\n\n**Significant execution and market risks** \u2013 The company is pre-revenue, with a long R&D timeline, no committed orders, and a need for substantial follow-on funding. The market sizing is unvalidated, and competition from well-funded global players is intense. [c:sc2hehf] [c:eh4pvkk]\n\n**Unproven business model** \u2013 Pricing is defined (Rs 950 per chip, target gross margin 55%) but unit economics are entirely unproven: no CAC, margin, or churn data exists. [c:palmpri] [c:owpchzr]\n\n## 11. Recommendation\n\n**Overall score: 4.0/10 \u2013 Pass**\n\n**Rationale** \u2013 SiliconSutra addresses a genuine market need with a technically plausible solution and a capable team. However, the company is at a very early stage: pre-revenue, with only an FPGA prototype and non-binding LOIs. The long R&D timeline, unvalidated market sizing, and intense competition from well-funded incumbents present significant risks. The tranched pre-seed structure provides some funding discipline, but the company will require a much larger follow-on round to reach production. The pass recommendation reflects the team's domain expertise and the supportive Indian semiconductor ecosystem, but investors should expect a high-risk, long-duration profile with no near-term revenue visibility.",
+  "report_markdown": "## 1. Executive Summary\n\nSiliconSutra is a pre-revenue, pre-seed deep-tech startup designing a low-power RISC-V vision chip for on-device AI in cameras, drones, and industrial sensors. The company has a working FPGA prototype running YOLO at 30 fps under 1 watt and three non-binding letters of intent, but tape-out is not planned until late 2027 and volume production is unlikely before 2029 [c:zi5be45] [c:gf7jxbj]. The team of three co-founders has relevant chip-design experience, including prior SoC tape-outs [c:depqsqe]. The company is raising Rs 3 crore at an Rs 18 crore pre-money valuation [c:cy257it]. The overall score is 4.0/10 (Pass), reflecting a plausible but unvalidated product, a credible but company-estimated market, and significant execution risk due to the long R&D timeline and lack of revenue.\n\n## 2. Problem & Solution\n\nIndian camera, drone, and industrial-sensor makers currently rely on imported AI vision chips or cloud-based video analytics, which the company estimates costs Rs 300-800 per camera per month in bandwidth and compute, and edge-AI modules priced above USD 100 are too costly for mass-market devices [c:fqwlouq]. SiliconSutra's solution is an open-ISA (RISC-V) vision chip with a custom INT8 neural-network accelerator that runs object detection at 30 frames per second under 1 watt (FPGA-measured, scaled estimate) and includes a compiler toolchain that imports standard PyTorch and ONNX models [c:gf7jxbj]. The target price is under USD 12 per chip at volume [c:gf7jxbj]. The problem-solution fit is plausible but unvalidated beyond non-binding LOIs [c:zi5be45].\n\n## 3. Market Opportunity\n\nThe company estimates a TAM of USD 180 million in 2025 for edge-AI vision chips sold in India, growing at a 29.3% CAGR to USD 650 million by 2030, with a SAM of USD 70 million and a SOM of USD 6 million in the first two production years [c:rboe4m3]. However, all market sizing is company-projected without independent source backing [c:rboe4m3]. An independent source values the global RISC-V accelerator chip market at USD 0.87 billion in 2025, growing at 28.5% CAGR through 2034 [w:10], and the global edge AI hardware market is estimated at USD 26.14 billion in 2025, growing at 17.6% CAGR to USD 58.90 billion by 2030 [w:36]. The company's TAM of USD 180 million for India alone appears credible in scope but lacks third-party validation.\n\n## 4. Competitive Landscape\n\nSiliconSutra competes with well-funded global edge-AI chip vendors such as NVIDIA Jetson (high-performance edge-AI modules), Hailo (edge-AI accelerator chips), and Indian RISC-V microcontroller SoC maker Mindgrove Technologies [c:wonhrkt] [c:ppmgsgz]. The company claims its edge comes from accelerator architecture co-designed with its compiler for low-power INT8 inference and a team with prior SoC tape-out experience [c:wonhrkt]. However, the RISC-V open-ISA approach is easily replicated by competitors, and no switching costs or IP moats are evidenced [c:wonhrkt]. Mindgrove, a more advanced Indian competitor, has raised $10.6 million in Series A funding and expects to start generating revenue this fiscal year [w:21] [w:20].\n\n## 5. Business Model\n\nSiliconSutra operates a fabless model with three revenue streams: chip sales at a target price of Rs 950 per unit, design services for custom chip variants billed per project, and SDK/compiler licence fees [c:57ehlfg]. The target gross margin is 55% at 1 million units per year, but no CAC, margin, or churn data exists because the company is pre-revenue [c:scqdatk] [c:57ehlfg]. The multi-project-wafer tape-out is estimated at Rs 1.6 crore [c:scqdatk]. The business model is unproven, with all prices and margins being targets not yet validated by orders [c:57ehlfg].\n\n## 6. Team Assessment\n\nThe three co-founders have relevant domain experience: Lakshmi Venkatesan (CEO) has 14 years in chip design at semiconductor multinationals and led two SoC tape-outs; Rohit Malviya (CTO) has 10 years in RTL design and verification of processor cores; and Priya Ghosh (Software) is an ML compiler and model-quantisation engineer [c:depqsqe]. The team has prior SoC tape-out success, but there is no evidence they have previously built or scaled a startup together [c:depqsqe]. The company is registered as SILICONSUTRA PRIVATE LIMITED (CIN U72100KA2025PTC201846) with the three co-founders as directors, and no compliance flags were found [c:cy257it].\n\n## 7. Traction & Milestones\n\n**FPGA prototype** \u2013 A working FPGA prototype runs a YOLO-class object-detection model at 30 frames per second under 1 watt (company-reported, unverified). [c:zi5be45] [c:gf7jxbj]\n\n**Letters of intent** \u2013 Three non-binding LOIs from Indian camera and drone makers have been signed; no committed orders or revenue. [c:zi5be45]\n\n**RTL progress** \u2013 The accelerator RTL is approximately 70% complete. [c:zi5be45]\n\n**Tape-out and revenue timeline** \u2013 A multi-project-wafer tape-out is planned for late 2027; first revenue is expected from design services in 2028, with volume production unlikely before 2029. [c:zi5be45] [c:ppmgsgz]\n\n**Pre-revenue** \u2013 The company is pre-revenue with no paying customers. [c:zi5be45]\n\n## 8. Compliance & Governance\n\n**MCA registry check** \u2013 The company is registered as SILICONSUTRA PRIVATE LIMITED, CIN U72100KA2025PTC201846, status ACTIVE. Directors: Lakshmi Venkatesan, Rohit Malviya, Priya Ghosh. No compliance flags were raised.\n\n**No flags** \u2013 No governance or compliance issues were identified in the registry or in the deck.\n\n**Deck instruction attempt** \u2013 The startup documents contain no instructions to the evaluator. No red flags.\n\n## 9. Risks & Challenges\n\n**Long R&D timeline** \u2013 No product revenue is expected before 2028, and volume production is unlikely before 2029. The tape-out is only planned for late 2027, and first silicon may fail, requiring a costly re-spin. [c:ppmgsgz]\n\n**Pre-revenue with no committed orders** \u2013 The company has only three non-binding letters of intent; there is no revenue, no paying customers, and no committed purchase orders. [c:zi5be45] [c:ppmgsgz]\n\n**Funding risk** \u2013 The company acknowledges it needs a much larger follow-on round (or grants) to fund tape-out and production. The tranched pre-seed structure partially mitigates funding risk but does not address technical or market risks. [c:ppmgsgz] [c:fvamzlc]\n\n**Competitive pressure** \u2013 The company competes with well-funded global edge-AI chip vendors such as NVIDIA Jetson and Hailo, as well as Indian peers like Mindgrove Technologies. The RISC-V open-ISA approach is easily replicated. [c:wonhrkt] [c:ppmgsgz]\n\n**Market sizing gaps** \u2013 The deck claims a TAM of USD 180M (2025) growing at 29.3% CAGR, but an independent source reports the RISC-V accelerator chip market at USD 0.87 billion in 2025. The SAM and SOM figures (USD 70M and USD 6M) have no independent source backing. [c:rboe4m3] [w:10]\n\n## 10. Investment Thesis\n\n**Plausible problem-solution fit** \u2013 The company targets a real need for low-power, on-device AI vision chips in Indian cameras, drones, and industrial sensors, addressing cost, power, and supply-chain risks. The FPGA prototype demonstrates technical feasibility at 30 fps under 1 watt. [c:gf7jxbj] [c:fqwlouq]\n\n**Strong team with domain expertise** \u2013 All three co-founders have relevant experience in chip design, RTL, and ML compilers, with prior SoC tape-out success. However, they have not previously built or scaled a startup together. [c:depqsqe]\n\n**Supportive ecosystem** \u2013 India's semiconductor ecosystem is attracting significant funding (USD 92M in H1 2026) and government support through schemes like Semicon India 2.0, which targets 200 chip design startups. [w:1] [w:14]\n\n**Significant execution and market risks** \u2013 The company is pre-revenue, with a long R&D timeline, no committed orders, and a need for substantial follow-on funding. The market sizing is unvalidated, and competition from well-funded global players is intense. [c:ppmgsgz] [c:rboe4m3]\n\n**Unproven business model** \u2013 Pricing is defined (Rs 950 per chip, target gross margin 55%) but unit economics are entirely unproven: no CAC, margin, or churn data exists. [c:57ehlfg] [c:scqdatk]\n\n## 11. Recommendation\n\n**Overall score: 4.0/10 \u2013 Pass**\n\n**Rationale** \u2013 SiliconSutra addresses a genuine market need with a technically plausible solution and a capable team. However, the company is at a very early stage: pre-revenue, with only an FPGA prototype and non-binding LOIs. The long R&D timeline, unvalidated market sizing, and intense competition from well-funded incumbents present significant risks. The tranched pre-seed structure provides some funding discipline, but the company will require a much larger follow-on round to reach production. The pass recommendation reflects the team's domain expertise and the supportive Indian semiconductor ecosystem, but investors should expect a high-risk, long-duration profile with no near-term revenue visibility.",
   "revenue_currency": null,
   "revenue_metric": null,
   "rewrites": 2,
   "rubric_version": "r1",
   "score_rationales": {
-   "business_model": "Pricing is defined (Rs 950 per chip, target gross margin 55%) but unit economics are entirely unproven: no CAC, margin, or churn data exists because the company is pre-revenue. [c:palmpri] [c:owpchzr]",
-   "execution_risk": "Severe risks are clearly acknowledged: long R&D timeline, no product revenue before 2028, first silicon may fail, and reliance on a much larger follow-on round. The tranched pre-seed structure partially mitigates funding risk but does not address technical or market risks. [c:sc2hehf] [c:4zzqr3r]",
-   "market": "Company estimates a TAM of USD 180M (2025) growing at 29.3% CAGR, but the sizing is entirely company-projected without independent source backing; credible scope but lacks third-party validation. [c:eh4pvkk]",
-   "moat": "The accelerator-compiler co-design and prior tape-out experience provide some execution advantage, but the RISC-V open-ISA approach is easily replicated by well-funded competitors like NVIDIA Jetson and Hailo. No switching costs or IP moats are evidenced. [c:vcyibzn]",
-   "product": "The product is a working FPGA prototype (runs YOLO at 30 fps under 1 watt) but tape-out is only planned for late 2027, and there are no paying customers yet. The problem-solution fit is plausible but unvalidated beyond non-binding LOIs. [c:phjr4af] [c:vfgcf3b]",
-   "team": "All three co-founders have relevant domain experience (chip design, RTL, ML compiler) with prior SoC tape-out success, but there is no evidence they have previously built or scaled a startup together. [c:4w4x7sb]",
-   "traction": "Traction is limited to an FPGA prototype and three non-binding letters of intent. There is no revenue, no paying customers, and no committed orders. [c:phjr4af]"
+   "business_model": "Pricing is defined (Rs 950 per chip, target gross margin 55%) but unit economics are entirely unproven: no CAC, margin, or churn data exists because the company is pre-revenue. [c:57ehlfg] [c:scqdatk]",
+   "execution_risk": "Severe risks are clearly acknowledged: long R&D timeline, no product revenue before 2028, first silicon may fail, and reliance on a much larger follow-on round. The tranched pre-seed structure partially mitigates funding risk but does not address technical or market risks. [c:ppmgsgz] [c:fvamzlc]",
+   "market": "Company estimates a TAM of USD 180M (2025) growing at 29.3% CAGR, but the sizing is entirely company-projected without independent source backing; credible scope but lacks third-party validation. [c:rboe4m3]",
+   "moat": "The accelerator-compiler co-design and prior tape-out experience provide some execution advantage, but the RISC-V open-ISA approach is easily replicated by well-funded competitors like NVIDIA Jetson and Hailo. No switching costs or IP moats are evidenced. [c:wonhrkt]",
+   "product": "The product is a working FPGA prototype (runs YOLO at 30 fps under 1 watt) but tape-out is only planned for late 2027, and there are no paying customers yet. The problem-solution fit is plausible but unvalidated beyond non-binding LOIs. [c:zi5be45] [c:gf7jxbj]",
+   "team": "All three co-founders have relevant domain experience (chip design, RTL, ML compiler) with prior SoC tape-out success, but there is no evidence they have previously built or scaled a startup together. [c:depqsqe]",
+   "traction": "Traction is limited to an FPGA prototype and three non-binding letters of intent. There is no revenue, no paying customers, and no committed orders. [c:zi5be45]"
   },
   "score_spread": {
    "business_model": 0.0,
@@ -427,17 +428,17 @@
    "traction": 0.0
   },
   "sections": {
-   "business_model": "SiliconSutra operates a fabless model with three revenue streams: chip sales at a target price of Rs 950 per unit, design services for custom chip variants billed per project, and SDK/compiler licence fees [c:palmpri]. The target gross margin is 55% at 1 million units per year, but no CAC, margin, or churn data exists because the company is pre-revenue [c:owpchzr] [c:palmpri]. The multi-project-wafer tape-out is estimated at Rs 1.6 crore [c:owpchzr]. The business model is unproven, with all prices and margins being targets not yet validated by orders [c:palmpri].",
-   "competitive_landscape": "SiliconSutra competes with well-funded global edge-AI chip vendors such as NVIDIA Jetson (high-performance edge-AI modules), Hailo (edge-AI accelerator chips), and Indian RISC-V microcontroller SoC maker Mindgrove Technologies [c:vcyibzn] [c:sc2hehf]. The company claims its edge comes from accelerator architecture co-designed with its compiler for low-power INT8 inference and a team with prior SoC tape-out experience [c:vcyibzn]. However, the RISC-V open-ISA approach is easily replicated by competitors, and no switching costs or IP moats are evidenced [c:vcyibzn]. Mindgrove, a more advanced Indian competitor, has raised $10.6 million in Series A funding and expects to start generating revenue this fiscal year [w:21] [w:20].",
+   "business_model": "SiliconSutra operates a fabless model with three revenue streams: chip sales at a target price of Rs 950 per unit, design services for custom chip variants billed per project, and SDK/compiler licence fees [c:57ehlfg]. The target gross margin is 55% at 1 million units per year, but no CAC, margin, or churn data exists because the company is pre-revenue [c:scqdatk] [c:57ehlfg]. The multi-project-wafer tape-out is estimated at Rs 1.6 crore [c:scqdatk]. The business model is unproven, with all prices and margins being targets not yet validated by orders [c:57ehlfg].",
+   "competitive_landscape": "SiliconSutra competes with well-funded global edge-AI chip vendors such as NVIDIA Jetson (high-performance edge-AI modules), Hailo (edge-AI accelerator chips), and Indian RISC-V microcontroller SoC maker Mindgrove Technologies [c:wonhrkt] [c:ppmgsgz]. The company claims its edge comes from accelerator architecture co-designed with its compiler for low-power INT8 inference and a team with prior SoC tape-out experience [c:wonhrkt]. However, the RISC-V open-ISA approach is easily replicated by competitors, and no switching costs or IP moats are evidenced [c:wonhrkt]. Mindgrove, a more advanced Indian competitor, has raised $10.6 million in Series A funding and expects to start generating revenue this fiscal year [w:21] [w:20].",
    "compliance_governance": "**MCA registry check** \u2013 The company is registered as SILICONSUTRA PRIVATE LIMITED, CIN U72100KA2025PTC201846, status ACTIVE. Directors: Lakshmi Venkatesan, Rohit Malviya, Priya Ghosh. No compliance flags were raised.\n\n**No flags** \u2013 No governance or compliance issues were identified in the registry or in the deck.\n\n**Deck instruction attempt** \u2013 The startup documents contain no instructions to the evaluator. No red flags.",
-   "executive_summary": "SiliconSutra is a pre-revenue, pre-seed deep-tech startup designing a low-power RISC-V vision chip for on-device AI in cameras, drones, and industrial sensors. The company has a working FPGA prototype running YOLO at 30 fps under 1 watt and three non-binding letters of intent, but tape-out is not planned until late 2027 and volume production is unlikely before 2029 [c:phjr4af] [c:vfgcf3b]. The team of three co-founders has relevant chip-design experience, including prior SoC tape-outs [c:4w4x7sb]. The company is raising Rs 3 crore at an Rs 18 crore pre-money valuation [c:wp6cixz]. The overall score is 4.0/10 (Pass), reflecting a plausible but unvalidated product, a credible but company-estimated market, and significant execution risk due to the long R&D timeline and lack of revenue.",
-   "investment_thesis": "**Plausible problem-solution fit** \u2013 The company targets a real need for low-power, on-device AI vision chips in Indian cameras, drones, and industrial sensors, addressing cost, power, and supply-chain risks. The FPGA prototype demonstrates technical feasibility at 30 fps under 1 watt. [c:vfgcf3b] [c:5gb3dqe]\n\n**Strong team with domain expertise** \u2013 All three co-founders have relevant experience in chip design, RTL, and ML compilers, with prior SoC tape-out success. However, they have not previously built or scaled a startup together. [c:4w4x7sb]\n\n**Supportive ecosystem** \u2013 India's semiconductor ecosystem is attracting significant funding (USD 92M in H1 2026) and government support through schemes like Semicon India 2.0, which targets 200 chip design startups. [w:1] [w:14]\n\n**Significant execution and market risks** \u2013 The company is pre-revenue, with a long R&D timeline, no committed orders, and a need for substantial follow-on funding. The market sizing is unvalidated, and competition from well-funded global players is intense. [c:sc2hehf] [c:eh4pvkk]\n\n**Unproven business model** \u2013 Pricing is defined (Rs 950 per chip, target gross margin 55%) but unit economics are entirely unproven: no CAC, margin, or churn data exists. [c:palmpri] [c:owpchzr]",
-   "market_opportunity": "The company estimates a TAM of USD 180 million in 2025 for edge-AI vision chips sold in India, growing at a 29.3% CAGR to USD 650 million by 2030, with a SAM of USD 70 million and a SOM of USD 6 million in the first two production years [c:eh4pvkk]. However, all market sizing is company-projected without independent source backing [c:eh4pvkk]. An independent source values the global RISC-V accelerator chip market at USD 0.87 billion in 2025, growing at 28.5% CAGR through 2034 [w:10], and the global edge AI hardware market is estimated at USD 26.14 billion in 2025, growing at 17.6% CAGR to USD 58.90 billion by 2030 [w:36]. The company's TAM of USD 180 million for India alone appears credible in scope but lacks third-party validation.",
-   "problem_solution": "Indian camera, drone, and industrial-sensor makers currently rely on imported AI vision chips or cloud-based video analytics, which the company estimates costs Rs 300-800 per camera per month in bandwidth and compute, and edge-AI modules priced above USD 100 are too costly for mass-market devices [c:5gb3dqe]. SiliconSutra's solution is an open-ISA (RISC-V) vision chip with a custom INT8 neural-network accelerator that runs object detection at 30 frames per second under 1 watt (FPGA-measured, scaled estimate) and includes a compiler toolchain that imports standard PyTorch and ONNX models [c:vfgcf3b]. The target price is under USD 12 per chip at volume [c:vfgcf3b]. The problem-solution fit is plausible but unvalidated beyond non-binding LOIs [c:phjr4af].",
+   "executive_summary": "SiliconSutra is a pre-revenue, pre-seed deep-tech startup designing a low-power RISC-V vision chip for on-device AI in cameras, drones, and industrial sensors. The company has a working FPGA prototype running YOLO at 30 fps under 1 watt and three non-binding letters of intent, but tape-out is not planned until late 2027 and volume production is unlikely before 2029 [c:zi5be45] [c:gf7jxbj]. The team of three co-founders has relevant chip-design experience, including prior SoC tape-outs [c:depqsqe]. The company is raising Rs 3 crore at an Rs 18 crore pre-money valuation [c:cy257it]. The overall score is 4.0/10 (Pass), reflecting a plausible but unvalidated product, a credible but company-estimated market, and significant execution risk due to the long R&D timeline and lack of revenue.",
+   "investment_thesis": "**Plausible problem-solution fit** \u2013 The company targets a real need for low-power, on-device AI vision chips in Indian cameras, drones, and industrial sensors, addressing cost, power, and supply-chain risks. The FPGA prototype demonstrates technical feasibility at 30 fps under 1 watt. [c:gf7jxbj] [c:fqwlouq]\n\n**Strong team with domain expertise** \u2013 All three co-founders have relevant experience in chip design, RTL, and ML compilers, with prior SoC tape-out success. However, they have not previously built or scaled a startup together. [c:depqsqe]\n\n**Supportive ecosystem** \u2013 India's semiconductor ecosystem is attracting significant funding (USD 92M in H1 2026) and government support through schemes like Semicon India 2.0, which targets 200 chip design startups. [w:1] [w:14]\n\n**Significant execution and market risks** \u2013 The company is pre-revenue, with a long R&D timeline, no committed orders, and a need for substantial follow-on funding. The market sizing is unvalidated, and competition from well-funded global players is intense. [c:ppmgsgz] [c:rboe4m3]\n\n**Unproven business model** \u2013 Pricing is defined (Rs 950 per chip, target gross margin 55%) but unit economics are entirely unproven: no CAC, margin, or churn data exists. [c:57ehlfg] [c:scqdatk]",
+   "market_opportunity": "The company estimates a TAM of USD 180 million in 2025 for edge-AI vision chips sold in India, growing at a 29.3% CAGR to USD 650 million by 2030, with a SAM of USD 70 million and a SOM of USD 6 million in the first two production years [c:rboe4m3]. However, all market sizing is company-projected without independent source backing [c:rboe4m3]. An independent source values the global RISC-V accelerator chip market at USD 0.87 billion in 2025, growing at 28.5% CAGR through 2034 [w:10], and the global edge AI hardware market is estimated at USD 26.14 billion in 2025, growing at 17.6% CAGR to USD 58.90 billion by 2030 [w:36]. The company's TAM of USD 180 million for India alone appears credible in scope but lacks third-party validation.",
+   "problem_solution": "Indian camera, drone, and industrial-sensor makers currently rely on imported AI vision chips or cloud-based video analytics, which the company estimates costs Rs 300-800 per camera per month in bandwidth and compute, and edge-AI modules priced above USD 100 are too costly for mass-market devices [c:fqwlouq]. SiliconSutra's solution is an open-ISA (RISC-V) vision chip with a custom INT8 neural-network accelerator that runs object detection at 30 frames per second under 1 watt (FPGA-measured, scaled estimate) and includes a compiler toolchain that imports standard PyTorch and ONNX models [c:gf7jxbj]. The target price is under USD 12 per chip at volume [c:gf7jxbj]. The problem-solution fit is plausible but unvalidated beyond non-binding LOIs [c:zi5be45].",
    "recommendation": "**Overall score: 4.0/10 \u2013 Pass**\n\n**Rationale** \u2013 SiliconSutra addresses a genuine market need with a technically plausible solution and a capable team. However, the company is at a very early stage: pre-revenue, with only an FPGA prototype and non-binding LOIs. The long R&D timeline, unvalidated market sizing, and intense competition from well-funded incumbents present significant risks. The tranched pre-seed structure provides some funding discipline, but the company will require a much larger follow-on round to reach production. The pass recommendation reflects the team's domain expertise and the supportive Indian semiconductor ecosystem, but investors should expect a high-risk, long-duration profile with no near-term revenue visibility.",
-   "risks_challenges": "**Long R&D timeline** \u2013 No product revenue is expected before 2028, and volume production is unlikely before 2029. The tape-out is only planned for late 2027, and first silicon may fail, requiring a costly re-spin. [c:sc2hehf]\n\n**Pre-revenue with no committed orders** \u2013 The company has only three non-binding letters of intent; there is no revenue, no paying customers, and no committed purchase orders. [c:phjr4af] [c:sc2hehf]\n\n**Funding risk** \u2013 The company acknowledges it needs a much larger follow-on round (or grants) to fund tape-out and production. The tranched pre-seed structure partially mitigates funding risk but does not address technical or market risks. [c:sc2hehf] [c:4zzqr3r]\n\n**Competitive pressure** \u2013 The company competes with well-funded global edge-AI chip vendors such as NVIDIA Jetson and Hailo, as well as Indian peers like Mindgrove Technologies. The RISC-V open-ISA approach is easily replicated. [c:vcyibzn] [c:sc2hehf]\n\n**Market sizing gaps** \u2013 The deck claims a TAM of USD 180M (2025) growing at 29.3% CAGR, but an independent source reports the RISC-V accelerator chip market at USD 0.87 billion in 2025. The SAM and SOM figures (USD 70M and USD 6M) have no independent source backing. [c:eh4pvkk] [w:10]",
-   "team_assessment": "The three co-founders have relevant domain experience: Lakshmi Venkatesan (CEO) has 14 years in chip design at semiconductor multinationals and led two SoC tape-outs; Rohit Malviya (CTO) has 10 years in RTL design and verification of processor cores; and Priya Ghosh (Software) is an ML compiler and model-quantisation engineer [c:4w4x7sb]. The team has prior SoC tape-out success, but there is no evidence they have previously built or scaled a startup together [c:4w4x7sb]. The company is registered as SILICONSUTRA PRIVATE LIMITED (CIN U72100KA2025PTC201846) with the three co-founders as directors, and no compliance flags were found [c:wp6cixz].",
-   "traction_milestones": "**FPGA prototype** \u2013 A working FPGA prototype runs a YOLO-class object-detection model at 30 frames per second under 1 watt (company-reported, unverified). [c:phjr4af] [c:vfgcf3b]\n\n**Letters of intent** \u2013 Three non-binding LOIs from Indian camera and drone makers have been signed; no committed orders or revenue. [c:phjr4af]\n\n**RTL progress** \u2013 The accelerator RTL is approximately 70% complete. [c:phjr4af]\n\n**Tape-out and revenue timeline** \u2013 A multi-project-wafer tape-out is planned for late 2027; first revenue is expected from design services in 2028, with volume production unlikely before 2029. [c:phjr4af] [c:sc2hehf]\n\n**Pre-revenue** \u2013 The company is pre-revenue with no paying customers. [c:phjr4af]"
+   "risks_challenges": "**Long R&D timeline** \u2013 No product revenue is expected before 2028, and volume production is unlikely before 2029. The tape-out is only planned for late 2027, and first silicon may fail, requiring a costly re-spin. [c:ppmgsgz]\n\n**Pre-revenue with no committed orders** \u2013 The company has only three non-binding letters of intent; there is no revenue, no paying customers, and no committed purchase orders. [c:zi5be45] [c:ppmgsgz]\n\n**Funding risk** \u2013 The company acknowledges it needs a much larger follow-on round (or grants) to fund tape-out and production. The tranched pre-seed structure partially mitigates funding risk but does not address technical or market risks. [c:ppmgsgz] [c:fvamzlc]\n\n**Competitive pressure** \u2013 The company competes with well-funded global edge-AI chip vendors such as NVIDIA Jetson and Hailo, as well as Indian peers like Mindgrove Technologies. The RISC-V open-ISA approach is easily replicated. [c:wonhrkt] [c:ppmgsgz]\n\n**Market sizing gaps** \u2013 The deck claims a TAM of USD 180M (2025) growing at 29.3% CAGR, but an independent source reports the RISC-V accelerator chip market at USD 0.87 billion in 2025. The SAM and SOM figures (USD 70M and USD 6M) have no independent source backing. [c:rboe4m3] [w:10]",
+   "team_assessment": "The three co-founders have relevant domain experience: Lakshmi Venkatesan (CEO) has 14 years in chip design at semiconductor multinationals and led two SoC tape-outs; Rohit Malviya (CTO) has 10 years in RTL design and verification of processor cores; and Priya Ghosh (Software) is an ML compiler and model-quantisation engineer [c:depqsqe]. The team has prior SoC tape-out success, but there is no evidence they have previously built or scaled a startup together [c:depqsqe]. The company is registered as SILICONSUTRA PRIVATE LIMITED (CIN U72100KA2025PTC201846) with the three co-founders as directors, and no compliance flags were found [c:cy257it].",
+   "traction_milestones": "**FPGA prototype** \u2013 A working FPGA prototype runs a YOLO-class object-detection model at 30 frames per second under 1 watt (company-reported, unverified). [c:zi5be45] [c:gf7jxbj]\n\n**Letters of intent** \u2013 Three non-binding LOIs from Indian camera and drone makers have been signed; no committed orders or revenue. [c:zi5be45]\n\n**RTL progress** \u2013 The accelerator RTL is approximately 70% complete. [c:zi5be45]\n\n**Tape-out and revenue timeline** \u2013 A multi-project-wafer tape-out is planned for late 2027; first revenue is expected from design services in 2028, with volume production unlikely before 2029. [c:zi5be45] [c:ppmgsgz]\n\n**Pre-revenue** \u2013 The company is pre-revenue with no paying customers. [c:zi5be45]"
   },
   "sources": [
    {
@@ -792,5 +793,5 @@
    }
   ]
  },
- "input_hash": "88cf249ca6798f47fc88d07611d8b071e9816f0247b9b9b0b69a6d0594db7a42"
+ "input_hash": "2cd2d6b3e5d27098c59e412ef51c95071a0ce30c073eda5f006b3af65600f748"
 }

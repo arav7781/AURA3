@@ -97,8 +97,6 @@ risks:
   - High monthly churn (7.5%) and exam-season peaks
   - Wrong AI answers could damage trust with parents and schools
   - Free content from large players caps pricing
-deck:
-  palette: edtech
 evaluation_expectations:
   score_band: [5.0, 7.5]
   recommendation_in: [Hold, Buy]

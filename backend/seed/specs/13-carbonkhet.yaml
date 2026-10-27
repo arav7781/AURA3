@@ -102,8 +102,6 @@ risks:
   - Registry methodologies may not accept the MRV approach
   - "Customer concentration: only 3 project developers"
   - Farmers may abandon practices, reversing carbon gains
-deck:
-  palette: climate
 evaluation_expectations:
   score_band: [5.0, 7.0]
   recommendation_in: [Hold, Buy]

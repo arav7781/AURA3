@@ -99,8 +99,6 @@ risks:
   - Drone rules and no-fly zones near airports limit some sites
   - Operations-heavy delivery keeps margins below pure software
   - Few Indian developers maintain up-to-date BIM models
-deck:
-  palette: proptech
 evaluation_expectations:
   score_band: [5.0, 7.5]
   recommendation_in: [Hold, Buy]

@@ -100,8 +100,6 @@ risks:
   - Rules and guidance may change, forcing product rework
   - Global privacy platforms are localising for India
   - Long enterprise sales cycles
-deck:
-  palette: cyber
 evaluation_expectations:
   score_band: [6.0, 8.0]
   recommendation_in: [Buy, Hold, Strong Buy]

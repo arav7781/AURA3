@@ -95,7 +95,6 @@ risks:
   - ITIs have small budgets, so licence revenue may stay small
   - Very early revenue (Rs 0.15 crore)
 deck:
-  palette: edtech
   render: scanned
   scan: {dpi: 120, skew_deg: 0.5, noise: 0.02, jpeg_quality: 75, seed: 11}
 evaluation_expectations:

@@ -98,8 +98,6 @@ risks:
   - Plans depend on the quality of third-party GPS data
   - Return-load matching needs enough shipper liquidity on each lane
   - Telematics vendors may bundle routing for free
-deck:
-  palette: logistics
 evaluation_expectations:
   score_band: [5.0, 7.5]
   recommendation_in: [Hold, Buy]

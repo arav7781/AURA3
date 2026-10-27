@@ -95,8 +95,6 @@ risks:
   - Open-source users may never convert to paid plans
   - One serious vulnerability could destroy trust in a security product
   - Free cloud-native secrets services compete on convenience
-deck:
-  palette: cyber
 evaluation_expectations:
   score_band: [4.0, 6.5]
   recommendation_in: [Hold, Pass]

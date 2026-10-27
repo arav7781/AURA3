@@ -95,8 +95,6 @@ risks:
   - Two-person founding team
   - Changes to GST portal and e-invoicing rules can break workflows
   - Established accounting suites are adding AI features
-deck:
-  palette: fintech
 evaluation_expectations:
   score_band: [5.0, 7.0]
   recommendation_in: [Hold, Buy]

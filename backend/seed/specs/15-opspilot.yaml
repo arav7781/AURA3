@@ -101,8 +101,6 @@ risks:
   - Messaging-platform pricing changes can raise costs
   - D2C funding cycles affect customers' budgets
   - Helpdesk incumbents are bundling AI agents
-deck:
-  palette: saas
 evaluation_expectations:
   score_band: [6.5, 8.5]
   recommendation_in: [Buy, Strong Buy]
