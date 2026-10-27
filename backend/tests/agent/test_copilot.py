@@ -64,8 +64,8 @@ def ask(client, thread_id: str, question: str) -> dict:
     return response.json()
 
 
-def wait(client, run_id: str) -> dict:
-    deadline = time.monotonic() + 15
+def wait(client, run_id: str, timeout: float = 15) -> dict:
+    deadline = time.monotonic() + timeout
     while time.monotonic() < deadline:
         job = client.get(f"/api/jobs/{run_id}").json()
         if job["status"] not in ("queued", "running"):
@@ -341,7 +341,7 @@ def test_run_python_runs_in_the_sandbox_and_returns_its_files(client):
     thread = client.post("/api/copilot/threads", json={}).json()
     fake = FakeChat([[call("run_python", {"code": CHART, "purpose": "AI scores"})], text("One agritech startup.")])
     with patch("aura.agent.graph.chat_model", return_value=fake):
-        wait(client, ask(client, thread["id"], "Chart the AI scores")["run_id"])
+        wait(client, ask(client, thread["id"], "Chart the AI scores")["run_id"], timeout=120)  # a cold container
     tool = next(p for p in client.get(f"/api/copilot/threads/{thread['id']}").json()["messages"][-1]["parts"] if p["type"] == "tool")
     card = tool["card"]
     assert tool["status"] == "done" and card["status"] == "ok", card
